@@ -17,7 +17,7 @@ function harness() {
   const emptyCalls = () => ({ openById: 0, sheetLookups: 0, lastRow: 0, reads: [], writes: [] });
   const state = { now: Date.parse('2026-10-27T12:00:00Z'), catalog: catalogue(), properties: {},
     sheets: new Map(), mails: [], triggers: [], quota: 100, flushes: 0, locked: false,
-    httpStatus: 200, sendFailure: false, onSend: null, active: 'owner@gmail.com', calls: emptyCalls() };
+    httpStatus: 200, sendFailure: false, onSend: null, active: 'owner@gmail.com', bootstrap: '', calls: emptyCalls() };
   class Clock extends Date { constructor(...args) { super(...(args.length ? args : [state.now])); } static now() { return state.now; } }
   class Sheet {
     constructor(name) { this.name = name; this.rows = []; }
@@ -66,7 +66,10 @@ function harness() {
     UrlFetchApp: { fetch: () => ({ getResponseCode: () => state.httpStatus, getContentText: () => JSON.stringify(state.catalog) }) },
     MailApp: { getRemainingDailyQuota: () => state.quota,
       sendEmail: (mail) => { if (state.onSend) state.onSend(mail); state.mails.push(mail); state.quota--; if (state.sendFailure) throw new Error('Provider outcome unknown'); } },
-    HtmlService: { createTemplateFromFile: () => ({ evaluate() { return { setTitle: () => ({ html: true }) }; } }) }
+    HtmlService: { createTemplateFromFile: () => {
+      const template = { bootstrapJson: '', evaluate() { state.bootstrap = template.bootstrapJson; return { setTitle: () => ({ html: true }) }; } };
+      return template;
+    } }
   };
   const app = vm.createContext(api);
   vm.runInContext(source, app, { filename: 'Code.gs' });
@@ -657,4 +660,16 @@ test('sparse milestone changes batch adjacent rows and preserve unchanged and re
   assert.equal(h.records('Milestones').find((row) => row.id === 'event-one:b').milestone.date, '2026-11-07');
   assert.equal(h.records('Milestones').find((row) => row.id === 'event-one:c').updatedAt, h.state.now);
   assert.equal(h.records('Milestones').length, 8);
+});
+
+test('doGet honours the manage-reminders view used by the public website', () => {
+  const h = harness();
+  h.app.doGet({ parameter: { view: 'request-manage' } });
+  const boot = JSON.parse(h.state.bootstrap);
+  assert.equal(boot.view, 'request-manage');
+  assert.equal(boot.action, 'subscribe');
+  assert.equal(boot.eventId, '');
+  h.app.doGet({ parameter: { eventId: 'event-one' } });
+  assert.equal(JSON.parse(h.state.bootstrap).view, '');
+  assert.equal(JSON.parse(h.state.bootstrap).eventId, 'event-one');
 });

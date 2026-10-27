@@ -108,6 +108,7 @@ function doGet(e) {
   const action = ['verify', 'manage', 'unsubscribe'].indexOf(args.action) >= 0 ? args.action : 'subscribe';
   const bootstrap = {
     action: action,
+    view: args.view === 'request-manage' ? 'request-manage' : '',
     eventId: validId_(args.eventId) ? args.eventId : '',
     token: validToken_(args.token) ? args.token : ''
   };

@@ -110,8 +110,14 @@
     const input = element('input', null, { type: 'text', name: 'company', tabindex: '-1', autocomplete: 'off' });
     wrapper.append(input); form.append(wrapper); return input;
   }
+  function formatMilestoneDate(date) {
+    if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date)) return date || 'Date not published';
+    const parsed = Date.parse(date + 'T12:00:00Z');
+    if (Number.isNaN(parsed) || new Date(parsed).toISOString().slice(0, 10) !== date) return date;
+    return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(parsed));
+  }
   function milestoneText(m) {
-    let text = m.date || 'Date not published';
+    let text = formatMilestoneDate(m.date);
     if (m.precision === 'datetime') text += ' ' + m.time + ' (' + m.timezone + ')';
     else if (m.precision === 'date') {
       const unpublished = m.kind === 'conference_start' ? 'start time not published' :
@@ -267,8 +273,9 @@
     parent.append(dates);
     parent.append(link('Official conference website ↗', event.url));
   }
-  function managementRequest(parent) {
+  function managementRequest(parent, expanded) {
     const details = element('details');
+    if (expanded) details.setAttribute('open', '');
     details.append(element('summary', 'Manage existing reminders'));
     const form = element('form');
     const email = field(form, 'Email address', 'email', '', true);
@@ -279,7 +286,16 @@
     details.append(form); parent.append(details);
   }
   async function subscribeView() {
-    if (!boot.eventId) { content.replaceChildren(element('p', 'Open Send reminder from a conference card to select a conference.')); managementRequest(content); return; }
+    if (!boot.eventId) {
+      if (boot.view === 'request-manage') {
+        content.replaceChildren(element('p', 'Enter the email address you used for reminders. We will send a private management link if that address has subscriptions.'));
+        managementRequest(content, true);
+        return;
+      }
+      content.replaceChildren(element('p', 'Open Send reminder from a conference card to select a conference.'));
+      managementRequest(content);
+      return;
+    }
     const result = await rpc('getEventDetails', { eventId: boot.eventId, timeZone: defaultZone });
     content.replaceChildren();
     eventTitle(result.event, content);

@@ -25,7 +25,7 @@ Email sending is **off by default**. Neither installing these source files nor r
 
 10. The owner can now test using their own email: open **Send reminder**, select a future node and lead time, submit, open the confirmation email and press **Confirm**. Check the spam folder. Opening the confirmation URL alone must leave the subscription pending. This manual test sends real email only when the owner submits it.
 
-When updating code, create a new deployment version under **Manage deployments** while retaining the same deployment URL. Keep the repository source and deployed version aligned. The owner must authorize any additional scopes if a later change requires them.
+When updating code, create a new deployment version under **Manage deployments** while retaining the same deployment URL. Keep the repository source and deployed version aligned. The owner must authorize any additional scopes if a later change requires them. Website changes to `Code.gs` or `Index.html` do not update the live `/exec` form until that new version is deployed. The public **Manage my email reminders** link uses `?view=request-manage` and needs the matching deployed `doGet` / Index form.
 
 The optional `.clasp.json.example` describes a local `clasp` configuration. Copy it to `.clasp.json`, fill in your own project ID and use the official [clasp workflow](https://developers.google.com/apps-script/guides/clasp). Authentication belongs to the account owner. Do not commit local credentials or `.clasp.json`.
 

@@ -32,7 +32,7 @@ function eventDetails(zone = 'Europe/London') {
   } };
 }
 
-async function harness({ action = 'subscribe', defaultZone = 'Asia/Shanghai', handlers = {} } = {}) {
+async function harness({ action = 'subscribe', view = '', eventId = 'event-one', defaultZone = 'Asia/Shanghai', handlers = {} } = {}) {
   const nodes = Object.fromEntries(['content', 'heading', 'status'].map((id) => [id, new Node('div')]));
   const calls = [];
   const api = {
@@ -65,7 +65,7 @@ async function harness({ action = 'subscribe', defaultZone = 'Asia/Shanghai', ha
     supportedValuesOf: Intl.supportedValuesOf
   };
   const context = vm.createContext({ document: { getElementById: (id) => nodes[id], createElement: (tag) => new Node(tag) }, google, Intl: localIntl });
-  const bootstrap = { action, eventId: 'event-one', token: 'private-test-token' };
+  const bootstrap = { action, view, eventId, token: 'private-test-token' };
   await vm.runInContext(script.replace('<?!= bootstrapJson ?>', JSON.stringify(bootstrap)), context);
   const find = (predicate) => nodes.content.all(predicate)[0];
   const input = (value) => find((node) => node.tag === 'input' && node.value === value);
@@ -172,6 +172,21 @@ test('an unavailable catalogue still renders functional unsubscribe controls', a
   await h.button('Unsubscribe from this conference').dispatch('click');
   assert.equal(h.calls.find((call) => call.name === 'unsubscribe').input.subscriptionId, 'sub-one');
   assert.match(h.content.textContent, /Subscription cancelled/);
+});
+
+test('the manage-reminders view opens the management form without asking for a conference card', async () => {
+  const h = await harness({ view: 'request-manage', eventId: '' });
+  assert.match(h.content.textContent, /Enter the email address you used for reminders/);
+  assert.doesNotMatch(h.content.textContent, /Open Send reminder from a conference card/);
+  const details = h.find((node) => node.tag === 'details');
+  assert.equal(details.attributes.open, '');
+  assert.equal(h.button('Email my management link').disabled, false);
+});
+
+test('subscribe form dates use readable English rather than ISO', async () => {
+  const h = await harness({ defaultZone: 'Europe/London' });
+  assert.match(h.content.textContent, /29 Oct 2026/);
+  assert.doesNotMatch(h.find((node) => node.tag === 'small').textContent, /^2026-10-29/);
 });
 
 test('watchlist details explain why reminders are unavailable without a sign-up form', async () => {
