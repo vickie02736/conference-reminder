@@ -6,19 +6,18 @@ An English conference catalogue for AI, AI for Materials, MOF/COF, porous materi
 
 ## Sharing with the research group
 
-Share [the public website](https://vickie02736.github.io/conference-reminder/) directly. Each visitor chooses their own conferences, dates, lead times and email address; no Google sign-in is required. They must confirm their email before reminders become active. Private management links show only that email address’s subscriptions. Saving dates on a device is separate from the email service and does not change anyone else’s choices.
+Share [the public website](https://vickie02736.github.io/conference-reminder/) directly. Each visitor chooses their own conferences, dates, lead times and email address; no Google sign-in is required. They must confirm their email before reminders become active. Private management links show only that email address’s subscriptions; each person’s choices remain independent.
 
-**Send reminder** is the primary action on each conference card and is also linked from its tracking window. Email reminders continue with the page closed; local browser notifications require it to remain open. A blocked confirmation request explicitly says no email was sent and asks the visitor to retry, so it cannot be mistaken for a saved subscription.
+**Send reminder** is the reminder action on each conference card. Email reminders continue with the page closed. A blocked confirmation request explicitly says no email was sent and asks the visitor to retry, so it cannot be mistaken for a saved subscription.
 
-## Explore and keep dates
+## Explore and set reminders
 
 - Filter by region, status, topic, activity, year and keyword. UK & Europe is the default, including the NeurIPS Paris attendance option.
 - Each entry links to its official website and evidence. Closed submissions, full events, invitation-only attendance and conflicting dates remain visible.
 - Each conference card can show several current statuses together, including registration, oral/abstract/poster/paper submission, opening soon, closed routes and an ongoing meeting. The Status filter matches these labels and works with the other filters. Oral and poster routes are distinguished only when the published information identifies them. A deadline alone does not confirm that a platform is open: those routes are explicitly labelled “opening unconfirmed”; selecting Finished also enables past events.
-- **Track a date** opens that conference’s tracking window. Save multiple dates, manage its saved dates, receive browser notifications, or export ICS calendar files. The header’s **Add a date** also keeps manual entry and older saved dates accessible.
-- For a date without a published time, the local calendar entry starts at an explicitly labelled, editable 09:00 default; this is not an official event or cutoff time.
-- Existing reminders under `academic-conferences-v1` remain compatible. Personal calendar/browser reminders stay in local storage; browser notifications require permission and an open page.
 - **Send reminder** opens the Google Apps Script service in a new tab. Select dates and lead times, then verify your email to activate server reminders.
+
+The former local date tracker and browser notification interface have been retired. Existing `academic-conferences-v1` records are left untouched in browser storage. They are not automatically converted into email subscriptions; choose **Send reminder** and verify your email to activate email reminders.
 
 ## Daily official-source checks
 

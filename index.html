@@ -10,13 +10,13 @@
   <meta property="og:description" content="Browse upcoming conferences, check important dates and set your own email reminders.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vickie02736.github.io/conference-reminder/">
-  <link rel="stylesheet" href="assets/styles.css?v=20261027-statuses">
-  <script type="module" src="assets/app.js?v=20261027-statuses-final"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=20261027-email-only">
+  <script type="module" src="assets/app.js?v=20261027-email-only"></script>
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#">◷ Conference Reminder<span>.</span></a>
-    <nav aria-label="Main navigation"><a href="#catalogue">Explore</a><button class="secondary compact" id="add-date" type="button">+ Add a date</button></nav>
+    <nav aria-label="Main navigation"><a href="#catalogue">Explore</a></nav>
   </header>
   <main>
     <section class="hero" aria-labelledby="page-title">
@@ -24,7 +24,6 @@
       <p class="intro">A shared conference directory for our research group.<br>AI, materials, MOF/COF, porous materials and simulation · UK, Europe and worldwide.</p>
     </section>
     <div id="catalogue-stats" class="stats" aria-label="Catalogue overview"></div>
-    <p id="status" role="status" aria-live="polite"></p>
     <section id="catalogue" class="catalogue-section" aria-labelledby="catalogue-title">
       <div class="section-head"><div><h2 id="catalogue-title">Conferences</h2></div><span id="result-count" aria-live="polite"></span></div>
       <p class="fine" id="source-health">Loading official-source information…</p>
@@ -39,38 +38,11 @@
         <p id="stage-hint" class="fine filter-help">Conferences can have several statuses. Announced deadlines do not confirm that a submission or registration platform is open.</p>
         <div class="filter-bottom"><label class="checkbox"><input id="show-past" type="checkbox"> Include finished events</label><button id="reset-filters" class="text-button" type="button">Reset filters</button></div>
       </div>
-      <p id="email-status" class="notice">Checking email reminder availability… You can also track dates on this device and export them to your calendar.</p>
+      <p id="email-status" class="notice">Checking email reminder availability…</p>
       <div id="catalogue-list" class="catalogue-grid"><p class="empty">Loading the conference collection…</p></div>
       <details class="updates panel"><summary>Source checks &amp; recent updates</summary><p class="fine">Official pages are checked daily. Changes that need interpretation remain marked for review. A successful fetch alone does not verify every fact.</p><div id="update-list"></div><p><a href="https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml" target="_blank" rel="noopener noreferrer">Check history / run a source check ↗</a> <span class="fine">Running a check requires repository access.</span></p></details>
     </section>
-    <dialog id="track-dialog" aria-labelledby="track-title" aria-describedby="track-description">
-      <div class="track-content">
-        <div class="track-heading"><div><p class="eyebrow">TRACK A DATE</p><h2 id="track-title">Add a date</h2></div><button id="close-track" class="close-button" type="button" aria-label="Close tracking window">×</button></div>
-        <p id="track-description" class="fine">Save a date on this device or export it to your calendar.</p>
-        <p id="track-context" class="track-context" hidden></p>
-        <p id="track-email-option" class="notice" hidden>Email reminders work even when this page is closed. <a id="track-email-link" target="_blank" rel="noopener noreferrer">Send reminder ↗</a></p>
-        <form id="form">
-          <div id="milestone-wrap" hidden><label for="milestone">Important date</label><select id="milestone"></select><p class="fine" id="milestone-hint"></p></div>
-          <label for="deadlineLabel">Date label *</label><input id="deadlineLabel" required maxlength="100" value="Submission deadline" placeholder="e.g. Poster submission">
-          <div class="track-fields">
-            <div><label for="date">Date and time on your device *</label><input id="date" type="datetime-local" required></div>
-            <div><label for="reminder">Remind me</label><select id="reminder"><option value="1440">1 day before</option><option value="4320" selected>3 days before</option><option value="10080">1 week before</option><option value="20160">2 weeks before</option></select></div>
-          </div>
-          <details id="conference-fields" class="conference-fields"><summary>Conference details</summary>
-            <label for="title">Conference name *</label><input id="title" required maxlength="240" placeholder="e.g. EuroMOF 2027">
-            <label for="conferenceDate">Conference start date</label><input id="conferenceDate" type="date">
-            <label for="website">Conference website</label><input id="website" type="url" placeholder="https://conference.example.org">
-            <label for="place">Location</label><input id="place" maxlength="500">
-          </details>
-          <p class="fine">Use the official time and time zone. If no time is published, choose your own time for the calendar entry. Browser notifications need this page to stay open.</p>
-          <div id="track-status" role="status" aria-live="polite"></div>
-          <div class="track-actions"><button type="submit">Save on this device</button><button type="button" class="secondary" id="cancel-track">Close</button></div>
-        </form>
-        <details id="tracked-dates" class="tracked-dates" hidden><summary>Saved dates <span id="total"></span></summary><div id="list"></div></details>
-        <button class="text-button" id="notify" type="button">Enable browser notifications</button>
-      </div>
-    </dialog>
-    <footer><a class="brand" href="#">◷ Conference Reminder<span>.</span></a><p>A curated collection, not an exhaustive list. Submission or registration may already be closed even when a conference is still ahead. Check the official website before making plans.</p><p>Each person sets their own reminders. Email addresses and reminder choices are private. Every reminder email includes management and unsubscribe links. Dates saved on a device stay in that browser.</p><a href="https://github.com/vickie02736/conference-reminder" target="_blank" rel="noopener noreferrer">About this project ↗</a></footer>
+    <footer><a class="brand" href="#">◷ Conference Reminder<span>.</span></a><p>A curated collection, not an exhaustive list. Submission or registration may already be closed even when a conference is still ahead. Check the official website before making plans.</p><p>Each person sets their own reminders. Email addresses and reminder choices are private. Every reminder email includes management and unsubscribe links.</p><a href="https://github.com/vickie02736/conference-reminder" target="_blank" rel="noopener noreferrer">About this project ↗</a></footer>
   </main>
 </body>
 </html>
