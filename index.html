@@ -10,8 +10,8 @@
   <meta property="og:description" content="Browse upcoming conferences, check important dates and set your own email reminders.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vickie02736.github.io/conference-reminder/">
-  <link rel="stylesheet" href="assets/styles.css?v=20261027-email-only">
-  <script type="module" src="assets/app.js?v=20261027-email-only"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=20261027-review-fixes">
+  <script type="module" src="assets/app.js?v=20261027-review-fixes"></script>
 </head>
 <body>
   <header class="site-header">
@@ -21,26 +21,30 @@
   <main>
     <section class="hero" aria-labelledby="page-title">
       <h1 id="page-title">AI &amp; Materials Conferences</h1>
-      <p class="intro">A shared conference directory for our research group.<br>AI, materials, MOF/COF, porous materials and simulation · UK, Europe and worldwide.</p>
+      <p class="intro">Our research group's directory for AI, materials, MOF/COF, porous materials and simulation · UK, Europe and worldwide.</p>
     </section>
     <div id="catalogue-stats" class="stats" aria-label="Catalogue overview"></div>
     <section id="catalogue" class="catalogue-section" aria-labelledby="catalogue-title">
       <div class="section-head"><div><h2 id="catalogue-title">Conferences</h2></div><span id="result-count" aria-live="polite"></span></div>
-      <p class="fine" id="source-health">Loading official-source information…</p>
+      <div class="source-overview"><p class="fine" id="source-health">Loading official-source information…</p><div id="source-shortcuts" class="health-actions" aria-label="View activities with source issues"></div></div>
       <div class="filters panel">
+        <div class="filter-primary">
         <div class="search-wrap"><label for="search">Search conferences</label><input id="search" type="search" placeholder="Name, place, research topic…"></div>
         <div><label for="region">Region</label><select id="region"><option value="Europe-group">UK &amp; Europe</option><option value="all">Worldwide</option><option value="UK">United Kingdom</option><option value="Europe">Rest of Europe</option><option value="Other">Other regions</option></select></div>
-        <div><label for="stage">Status</label><select id="stage" aria-describedby="stage-hint"><option value="all">All statuses</option><option value="ongoing">Ongoing</option><option value="registration">Registration</option><option value="submission">All submissions</option><option value="abstract">Abstract submission</option><option value="oral">Oral submission</option><option value="poster">Poster submission</option><option value="paper">Paper submission</option><option value="application">Applications</option><option value="opening_soon">Opening soon</option><option value="closed">Submission / registration closed</option><option value="upcoming">Upcoming</option><option value="awaiting_dates">Awaiting dates</option><option value="needs_review">Needs confirmation</option><option value="fully_booked">Full / waiting list</option><option value="invitation_only">Invitation only</option><option value="restricted">Restricted attendance</option><option value="paused">Dates changed / paused</option><option value="cancelled">Cancelled</option><option value="finished">Finished</option></select></div>
+        <div><label for="stage">Status</label><select id="stage" aria-describedby="stage-hint"><option value="all">All statuses</option><option value="ongoing">Ongoing</option><option value="registration">Registration</option><option value="submission">All submissions</option><option value="abstract">Abstract submission</option><option value="oral">Oral submission</option><option value="poster">Poster submission</option><option value="paper">Paper submission</option><option value="application">Applications</option><option value="opening_soon">Opening soon</option><option value="closed">Submission / registration closed</option><option value="upcoming">Upcoming</option><option value="awaiting_dates">Awaiting dates</option><option value="needs_review">Dates / availability unconfirmed</option><option value="fully_booked">Full / waiting list</option><option value="invitation_only">Invitation only</option><option value="restricted">Restricted attendance</option><option value="paused">Dates changed / paused</option><option value="cancelled">Cancelled</option><option value="finished">Finished</option></select></div>
+        <div><label for="sort">Sort by</label><select id="sort"><option value="date">Conference date</option><option value="deadline">Next deadline</option><option value="priority">Research relevance</option><option value="name">Name</option></select></div>
+        </div>
+        <details id="advanced-filters" class="advanced-filters"><summary>More filters <span id="advanced-count"></span></summary><div class="advanced-grid">
         <div><label for="topic">Topic</label><select id="topic"><option value="all">All topics</option></select></div>
         <div><label for="type">Activity</label><select id="type"><option value="all">All activities</option></select></div>
         <div><label for="year">Year</label><select id="year"><option value="all">All years</option></select></div>
-        <div><label for="sort">Sort by</label><select id="sort"><option value="date">Conference date</option><option value="deadline">Next deadline</option><option value="priority">Research relevance</option><option value="name">Name</option></select></div>
-        <p id="stage-hint" class="fine filter-help">Conferences can have several statuses. Announced deadlines do not confirm that a submission or registration platform is open.</p>
+        <div><label for="source-check">Source check</label><select id="source-check"><option value="all">All source checks</option><option value="review_required">Source needs review</option><option value="failed">Source check failed</option><option value="checked">Source check completed</option><option value="not_checked">Not yet checked</option></select></div>
+        </div><p id="stage-hint" class="fine filter-help">Status describes dates and attendance routes; Source check describes the evidence review. Announced deadlines alone do not confirm that a platform is open.</p></details>
         <div class="filter-bottom"><label class="checkbox"><input id="show-past" type="checkbox"> Include finished events</label><button id="reset-filters" class="text-button" type="button">Reset filters</button></div>
       </div>
       <p id="email-status" class="notice">Checking email reminder availability…</p>
       <div id="catalogue-list" class="catalogue-grid"><p class="empty">Loading the conference collection…</p></div>
-      <details class="updates panel"><summary>Source checks &amp; recent updates</summary><p class="fine">Official pages are checked daily. Changes that need interpretation remain marked for review. A successful fetch alone does not verify every fact.</p><div id="update-list"></div><p><a href="https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml" target="_blank" rel="noopener noreferrer">Check history / run a source check ↗</a> <span class="fine">Running a check requires repository access.</span></p></details>
+      <details class="updates panel"><summary>Source checks &amp; recent updates</summary><p class="fine" id="source-health-detail"></p><p class="fine">Official pages are checked daily. Changes that need interpretation remain marked for review. A successful fetch alone does not verify every fact.</p><div id="update-list"></div><p><a href="https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml" target="_blank" rel="noopener noreferrer">Check history / run a source check ↗</a> <span class="fine">Running a check requires repository access.</span></p></details>
     </section>
     <footer><a class="brand" href="#">◷ Conference Reminder<span>.</span></a><p>A curated collection, not an exhaustive list. Submission or registration may already be closed even when a conference is still ahead. Check the official website before making plans.</p><p>Each person sets their own reminders. Email addresses and reminder choices are private. Every reminder email includes management and unsubscribe links.</p><a href="https://github.com/vickie02736/conference-reminder" target="_blank" rel="noopener noreferrer">About this project ↗</a></footer>
   </main>

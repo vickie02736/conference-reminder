@@ -166,6 +166,29 @@ test('event detail availability uses the visitor time zone at a date-only remind
   assert.equal(london.event.milestones[0].available, true);
   assert.equal(shanghai.event.milestones[0].available, false);
   assert.equal(shanghai.event.milestones[0].unavailableReason, 'past');
+  assert.throws(() => h.app.getEventDetails({ eventId: 'event-one', timeZone: 'Invalid/Zone' }), /valid IANA time zone/);
+});
+
+test('watchlist announcements have a useful detail page and cannot schedule reminders', () => {
+  const h = harness();
+  const announcement = { ...structuredClone(h.state.catalog.events[0]), id: 'pending-conference', start: '2027-07-04' };
+  h.state.catalog.watchlist.push(announcement);
+  const details = h.app.getEventDetails({ eventId: announcement.id, timeZone: 'Europe/London' });
+  assert.equal(details.event.name, announcement.name);
+  assert.equal(details.event.awaitingDates, true);
+  assert.equal(details.event.enabled, false);
+  assert.ok(details.event.milestones.every((m) => !m.available));
+  assert.throws(() => h.app.subscribe(h.preferences({ eventId: announcement.id })), /not accepting reminders/);
+  assert.equal(h.records('Subscriptions').length, 0);
+  assert.equal(h.state.mails.length, 0);
+
+  const published = JSON.parse(fs.readFileSync(new URL('../data/conferences.json', import.meta.url), 'utf8'));
+  h.state.catalog = published;
+  for (const event of published.watchlist) {
+    const result = h.app.getEventDetails({ eventId: event.id, timeZone: 'Europe/London' }).event;
+    assert.equal(result.awaitingDates, true, event.id);
+    assert.equal(result.enabled, false, event.id);
+  }
 });
 
 test('validates canonical IDs, verified dates, email, lead times, zone and honeypot', () => {
@@ -445,6 +468,30 @@ test('management token is scoped to its email and updates cannot edit another su
   const own = h.records('Subscriptions').find((sub) => sub.email === 'reader@example.com');
   h.app.updateSubscription({ token, subscriptionId: own.id, milestoneIds: ['abstract'], leadDays: [1, 7], timeZone: 'Asia/Shanghai' });
   assert.deepEqual(h.records('Subscriptions').find((sub) => sub.id === own.id).leadDays, [1, 7]);
+});
+
+test('catalogue failure preserves private management and cancellation without allowing edits', () => {
+  const h = harness(); h.activate(); h.activate({ email: 'other@example.com' });
+  h.state.now += 6 * 60 * 1000; h.app.requestManagementLink({ email: 'reader@example.com', company: '' });
+  const token = h.state.mails.at(-1).body.match(/token=([a-f0-9]{64})/)[1];
+  const own = h.records('Subscriptions').find((sub) => sub.email === 'reader@example.com');
+  const other = h.records('Subscriptions').find((sub) => sub.email === 'other@example.com');
+  const emailCount = h.state.mails.length;
+  h.state.httpStatus = 503;
+  const details = h.app.getManagementDetails({ token });
+  assert.equal(details.catalogueAvailable, false);
+  assert.equal(details.email, own.email);
+  assert.equal(details.subscriptions.length, 1);
+  assert.equal(details.subscriptions[0].subscription.id, own.id);
+  assert.equal(details.subscriptions[0].event, null);
+  assert.throws(() => h.app.getManagementDetails({ token: 'a'.repeat(64) }), /invalid or expired/);
+  assert.throws(() => h.app.updateSubscription({ token, subscriptionId: own.id, milestoneIds: ['abstract'], leadDays: [1], timeZone: 'UTC' }), /catalogue.*unavailable/);
+  h.app.unsubscribe({ token, subscriptionId: 'all' });
+  assert.equal(h.records('Subscriptions').find((sub) => sub.id === own.id).status, 'cancelled');
+  assert.equal(h.records('Subscriptions').find((sub) => sub.id === other.id).status, 'active');
+  assert.ok(h.records('Deliveries').filter((row) => row.subscriptionId === own.id).every((row) => row.status === 'cancelled'));
+  assert.ok(h.records('Deliveries').filter((row) => row.subscriptionId === other.id).every((row) => row.status === 'pending'));
+  assert.equal(h.state.mails.length, emailCount);
 });
 
 test('lock contention prevents duplicate mutations and send attempts', () => {

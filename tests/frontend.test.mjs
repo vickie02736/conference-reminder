@@ -75,6 +75,49 @@ test('the phase keeps an exact overseas registration cutoff across local midnigh
 });
 
 const snapshotStatuses=e=>eventStatuses(e,'2026-10-27',Date.parse('2026-10-27T12:00Z'));
+test('a registration link never establishes open ticket availability',()=>{
+ const workshop=canonical('Recent Advances in Chemistry and AI');
+ const statuses=snapshotStatuses(workshop);
+ assert.deepEqual(statuses.map(s=>s.label),['Registration · opening unconfirmed']);
+ assert.equal(statuses[0].availability,'unconfirmed');
+ assert.match(snapshotPhase(workshop).help,/not verified|not yet|not confirmed|not establish/);
+ const e={start:'2027-06-01',milestones:[phaseNode('registration','2027-05-01')]};
+ for (const status of ['Registration link available.', 'Registration is open; current ticket availability is not confirmed.', 'Registration availability is not yet verified.', 'Registration is not available.']) {
+  assert.equal(snapshotStatuses({...e,status})[0].availability,'unconfirmed',status);
+ }
+ assert.equal(snapshotStatuses({...e,status:'Registration link available; registration is open.'})[0].availability,'open');
+ assert.equal(snapshotStatuses({...e,status:'Registration remains available.'})[0].availability,'open');
+});
+test('unconfirmed availability stays within its channel and explicit closures retain precedence',()=>{
+ const e={start:'2027-06-01',status:'Paper submissions open; registration link available; ticket availability is not confirmed.',milestones:[phaseNode('paper','2027-01-01'),phaseNode('registration','2027-05-01')]};
+ assert.deepEqual(snapshotStatuses(e).map(s=>s.label),['Paper submission open','Registration · opening unconfirmed']);
+ assert.deepEqual(snapshotStatuses({...e,status:'Paper submissions not yet open; registration closed.'}).map(s=>s.label),['Paper submission opening soon','Registration closed']);
+ assert.deepEqual(snapshotStatuses({...e,status:'Paper submissions closed; registration availability is not confirmed.'}).map(s=>s.label),['Paper submission closed','Registration · opening unconfirmed']);
+});
+test('currently and presently negated opening statements never advertise an open route',()=>{
+ const e={start:'2027-06-01',milestones:[phaseNode('registration','2027-05-01')]};
+ for(const modifier of ['currently','presently']) {
+  const status='Registration is not '+modifier+' open.';
+  assert.deepEqual(snapshotStatuses({...e,status}).map(s=>s.label),['Registration closed']);
+  assert.equal(snapshotPhase({...e,status}).label,'Registration closed');
+  for(const word of ['available','offered','possible']) {
+   assert.equal(snapshotStatuses({...e,status:'Registration is not '+modifier+' '+word+'.'})[0].availability,'unconfirmed');
+  }
+ }
+});
+test('an omitted round channel is resolved from its published label without opening other routes or rounds',()=>{
+ const ai4x=canonical('AI4X 2027');
+ assert.deepEqual(snapshotStatuses(ai4x).map(s=>s.label),['Paper submission open','Registration · opening unconfirmed']);
+ assert.match(snapshotPhase(ai4x).help,/published status offers this route/);
+ const nextRound=eventStatuses(ai4x,'2027-01-02',Date.parse('2027-01-02T12:00Z'));
+ assert.equal(nextRound.find(s=>s.filters.includes('paper')).availability,'unconfirmed');
+ const unmatched={...ai4x,milestones:ai4x.milestones.map(m=>({...m,label:m.kind==='paper'?'Paper deadline':m.label}))};
+ assert.equal(snapshotStatuses(unmatched).find(s=>s.filters.includes('paper')).availability,'unconfirmed');
+ const ambiguous={...ai4x,milestones:[...ai4x.milestones,phaseNode('registration','2027-05-01','Round 1 registration')]};
+ assert.ok(snapshotStatuses(ambiguous).every(s=>s.availability!=='open'));
+ const mixedRoutes={...ai4x,milestones:[...ai4x.milestones,phaseNode('poster','2027-05-01','Round 1 posters')]};
+ assert.ok(snapshotStatuses(mixedRoutes).every(s=>s.availability!=='open'));
+});
 test('concurrent oral, poster and registration routes appear separately, including mixed abstract calls',()=>{
  for (const name of ['Computational Methods for Defects','Theoretical Chemistry Group Graduate','SSCG2026']) {
   const statuses=snapshotStatuses(canonical(name));

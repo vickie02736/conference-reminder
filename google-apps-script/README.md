@@ -46,10 +46,13 @@ To stop a queued test before it is claimed, run **cancelOwnerDeliverySmokeTest**
 
 - **Send reminder** opens the Apps Script form in a new tab with only the public event ID. Emails never appear in request URLs. The hosted form calls server functions through `google.script.run`; there is no CORS proxy or iframe dependency.
 - Visitors choose verified future milestones, any combination of **1 day / 3 days / 1 week**, and an IANA time zone. The default is **3 days** and the browser's time zone.
+- Changing the time zone refreshes available milestones and preserves choices that remain valid. Submission waits for the latest response; an invalid zone or failed check must be corrected or retried before saving.
+- Watchlist announcements have an explanatory detail page with no sign-up form. They cannot schedule reminders until they move into the verified scheduled catalogue.
 - For a date without a published deadline time, the reminder is scheduled at **09:00 in the visitor's time zone** on the selected earlier calendar date. The message explicitly says that the deadline time was not published. The service does not invent a conference deadline of 23:59.
 - For a verified exact deadline, the reminder uses the **same local clock time in the published deadline's time zone**, 1, 3 or 7 calendar days earlier. DST is respected. Ambiguous/nonexistent source clock times are not guessed. AoE is represented by `Etc/GMT+12`.
 - Past lead times are skipped when scheduling. Confirmation revalidates the current conference, selected nodes and future reminder times before consuming the token or activating the subscription. If all selected times have elapsed, or a selected node/conference has been paused, removed or marked conflicting, the subscription stays pending and the form explains how to choose available dates again. A scheduled task more than **one hour late** expires rather than sending a misleading catch-up reminder. Checks run approximately every 15 minutes; this is not precise minute-level delivery.
 - Each reminder run fetches the public catalogue anew. A failed or invalid catalogue fetch freezes dispatch; there is no fallback to a potentially stale cached catalogue.
+- A catalogue outage does not prevent private subscription management or cancellation. Management pages still list only the authenticated email's subscriptions and allow unsubscribe; editing dates waits for the catalogue to recover.
 - Only `status: "verified"` milestones with a source URL can schedule email. Removed/conflicting nodes, explicitly cancelled/disabled events and `reminders_paused: true` cancel pending tasks. A closed CFP or fully booked conference is not treated as a cancelled conference.
 - Changed dates cancel the old unsent jobs and create future jobs for the new date. Already submitted email records remain in the ledger. Changing a visitor's time zone does not repeat a reminder that has already been sent for that node/date version/lead time.
 - Due reminders for the same email are combined in one message. Recipients never see other subscribers' addresses. The messages use canonical conference details from the catalogue; a caller cannot supply an arbitrary email subject, HTML or website URL.
@@ -92,7 +95,7 @@ The owner can inspect or delete the private data in the spreadsheet. Before edit
 Run from the repository root:
 
 ```sh
-node --test tests/email.test.mjs
+node --test tests/email.test.mjs tests/email-ui.test.mjs
 ```
 
 Tests run the backend in a Node VM with Google services stubbed. They cover opt-in, token expiry, safe GET links, unsubscribe, limits, locks, DST/AoE, catalogue validation/failure, rescheduling, paused events, grouping, deduplication and uncertain sends. They do not send real mail or create Google resources. A real anonymous `/exec` deployment and owner-approved email round trip still require the one-time owner steps above.

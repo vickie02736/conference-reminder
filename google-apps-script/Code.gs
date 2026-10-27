@@ -117,6 +117,9 @@ function doGet(e) {
 }
 
 function getEventDetails(input) {
+  if (input && input.timeZone && !validTimeZone_(input.timeZone)) {
+    throw new Error('Choose a valid IANA time zone, for example Europe/London.');
+  }
   const event = findEvent_(fetchCatalog_(), input && input.eventId);
   return {
     event: publicEvent_(event, input && input.timeZone),
@@ -213,12 +216,16 @@ function verifySubscription(input) {
 
 function getManagementDetails(input) {
   const token = readToken_(input && input.token, ['manage'], Date.now());
-  const catalog = fetchCatalog_();
   const subscriptions = readRecords_('Subscriptions').filter(function (sub) { return sub.email === token.email; });
+  // Cancelling a subscription must remain possible when the public directory is down.
+  let catalog = null;
+  try { catalog = fetchCatalog_(); }
+  catch (error) { console.warn('Catalogue unavailable; management remains available for cancellation.'); }
   return {
     email: token.email,
+    catalogueAvailable: catalog !== null,
     subscriptions: subscriptions.map(function (sub) {
-      const event = catalog.events.find(function (item) { return item.id === sub.eventId; });
+      const event = catalog && catalog.events.find(function (item) { return item.id === sub.eventId; });
       return { subscription: publicSubscription_(sub), event: event ? publicEvent_(event, sub.timeZone) : null };
     })
   };
@@ -545,12 +552,15 @@ function fetchCatalog_() {
   let catalog;
   try { catalog = JSON.parse(response.getContentText()); }
   catch (error) { throw new Error('The conference catalogue could not be read.'); }
-  if (!catalog || !Array.isArray(catalog.events) || !catalog.metadata || catalog.events.length > 10000) {
+  if (!catalog || !Array.isArray(catalog.events) || !catalog.metadata || catalog.events.length > 10000 ||
+      (catalog.watchlist !== undefined && !Array.isArray(catalog.watchlist))) {
     throw new Error('The conference catalogue is not ready.');
   }
+  if (!catalog.watchlist) catalog.watchlist = [];
+  if (catalog.events.length + catalog.watchlist.length > 10000) throw new Error('The conference catalogue is not ready.');
   const ids = {};
-  catalog.events.forEach(function (event) {
-    if (!validId_(event.id) || typeof event.name !== 'string' || !safeUrl_(event.url) || ids[event.id]) {
+  catalog.events.concat(catalog.watchlist).forEach(function (event) {
+    if (!event || !validId_(event.id) || typeof event.name !== 'string' || !safeUrl_(event.url) || ids[event.id]) {
       throw new Error('The conference catalogue contains an invalid event.');
     }
     ids[event.id] = true;
@@ -568,6 +578,7 @@ function publicEvent_(event, timeZone) {
   const zone = validTimeZone_(timeZone) ? timeZone : 'Europe/London';
   return {
     id: event.id, name: event.name, url: safeUrl_(event.url), enabled: eventEnabled_(event),
+    awaitingDates: event.awaitingDates === true,
     start: event.start || null, end: event.end || null, type: event.type || null,
     milestones: (event.milestones || []).map(function (m) {
       const valid = schedulable_(m);
@@ -613,12 +624,16 @@ function schedulable_(milestone) {
 }
 
 function eventEnabled_(event) {
-  return event.disabled !== true && event.reminders_paused !== true && ['cancelled', 'canceled', 'disabled', 'conflict'].indexOf(String(event.status || '').toLowerCase()) < 0;
+  return event.awaitingDates !== true && event.disabled !== true && event.reminders_paused !== true && ['cancelled', 'canceled', 'disabled', 'conflict'].indexOf(String(event.status || '').toLowerCase()) < 0;
 }
 
 function findEvent_(catalog, id) {
   if (!validId_(id)) throw new Error('Open Send reminder from a conference card.');
-  const event = catalog.events.find(function (item) { return item.id === id; });
+  let event = catalog.events.find(function (item) { return item.id === id; });
+  if (!event) {
+    const announcement = (catalog.watchlist || []).find(function (item) { return item.id === id; });
+    if (announcement) event = Object.assign({}, announcement, { awaitingDates: true });
+  }
   if (!event) throw new Error('This conference is no longer in the published catalogue.');
   return event;
 }

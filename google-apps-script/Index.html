@@ -138,24 +138,31 @@
     const section = element('section', null, { class: 'date-group' + (group.index === 0 ? ' date-group-conference' : '') });
     section.append(element('h3', group.title)); parent.append(section); return section;
   }
-  function preferences(form, event, initial) {
+  function preferences(form, event, initial, button, emailEnabled) {
     const current = initial || { milestoneIds: [], leadDays: [3], timeZone: defaultZone };
     const milestones = element('fieldset');
-    milestones.append(element('legend', 'Important dates'));
-    const milestoneInputs = [];
-    milestoneGroups(event.milestones).forEach((group) => {
-      const section = dateGroup(milestones, group);
-      group.items.forEach((m) => {
-        const label = element('label', null, { class: 'choice' });
-        const input = element('input', null, { type: 'checkbox', value: m.id });
-        input.disabled = !m.available;
-        input.checked = m.available && current.milestoneIds.includes(m.id);
-        const text = element('span', m.label || m.kind || 'Conference milestone');
-        text.append(element('small', milestoneText(m)));
-        label.append(input, text); section.append(label); milestoneInputs.push(input);
+    let milestoneInputs = [], latestEvent = event, ready = true, busy = false, revision = 0;
+    let emailAllowed = emailEnabled !== false;
+    function renderMilestones(nextEvent, selected) {
+      latestEvent = nextEvent;
+      milestoneInputs = [];
+      milestones.replaceChildren(element('legend', 'Important dates'));
+      milestoneGroups(nextEvent.milestones).forEach((group) => {
+        const section = dateGroup(milestones, group);
+        group.items.forEach((m) => {
+          const label = element('label', null, { class: 'choice' });
+          const input = element('input', null, { type: 'checkbox', value: m.id });
+          input.disabled = !m.available;
+          input.checked = m.available && selected.includes(m.id);
+          input.addEventListener('change', syncButton);
+          const text = element('span', m.label || m.kind || 'Conference milestone');
+          text.append(element('small', milestoneText(m)));
+          label.append(input, text); section.append(label); milestoneInputs.push(input);
+        });
       });
-    });
-    if (!event.milestones.length) milestones.append(element('p', 'No verified important dates have been published yet.', { class: 'muted' }));
+      if (!nextEvent.milestones.length) milestones.append(element('p', 'No verified important dates have been published yet.', { class: 'muted' }));
+    }
+    renderMilestones(event, current.milestoneIds);
     form.append(milestones);
     const leads = element('fieldset'); leads.append(element('legend', 'Remind me before each selected date'));
     const leadChoices = element('div', null, { class: 'leads' });
@@ -163,6 +170,7 @@
       const label = element('label', null, { class: 'choice' });
       const input = element('input', null, { type: 'checkbox', value: String(day) });
       input.checked = current.leadDays.includes(day);
+      input.addEventListener('change', syncButton);
       label.append(input, element('span', day === 7 ? '1 week' : day + (day === 1 ? ' day' : ' days'))); leadChoices.append(label); return input;
     });
     leads.append(leadChoices); form.append(leads);
@@ -171,11 +179,75 @@
     const datalist = element('datalist', null, { id: listId });
     zones.forEach((name) => datalist.append(element('option', null, { value: name })));
     zone.setAttribute('list', listId); form.append(datalist);
+    const zoneStatus = element('p', '', { class: 'muted', role: 'status', 'aria-live': 'polite' });
+    const retry = element('button', 'Retry date check', { type: 'button', class: 'secondary', hidden: 'hidden' });
+    form.append(zoneStatus, retry);
     form.append(element('small', 'Dates without a published time: reminders arrive at approximately 09:00 in your time zone. Dates with a published time: reminders use the same local clock time, 1, 3, or 7 calendar days earlier.'));
-    return () => ({
+    function syncButton() {
+      button.disabled = busy || !ready || !emailAllowed || !latestEvent.enabled ||
+        !milestoneInputs.some((input) => input.checked && !input.disabled) || !leadInputs.some((input) => input.checked);
+    }
+    function invalidateZone() {
+      revision++;
+      ready = false;
+      zone.setCustomValidity('');
+      retry.hidden = true;
+      milestoneInputs.forEach((input) => { input.disabled = true; });
+      syncButton();
+    }
+    async function refreshZone() {
+      const requestedZone = zone.value.trim(), request = ++revision;
+      ready = false;
+      retry.hidden = true;
+      milestoneInputs.forEach((input) => { input.disabled = true; });
+      syncButton();
+      try {
+        if (!requestedZone) throw new Error();
+        new Intl.DateTimeFormat('en-GB', { timeZone: requestedZone });
+      } catch (_) {
+        const error = 'Choose a valid IANA time zone, for example Europe/London.';
+        zone.setCustomValidity(error);
+        zoneStatus.textContent = error;
+        zoneStatus.className = 'notice error';
+        return;
+      }
+      zone.setCustomValidity('');
+      zoneStatus.textContent = 'Checking dates for ' + requestedZone + '…';
+      zoneStatus.className = 'muted';
+      try {
+        const result = await rpc('getEventDetails', { eventId: event.id, timeZone: requestedZone });
+        if (request !== revision || zone.value.trim() !== requestedZone) return;
+        const selected = milestoneInputs.filter((input) => input.checked).map((input) => input.value);
+        renderMilestones(result.event, selected);
+        if (emailEnabled !== undefined) emailAllowed = result.emailEnabled;
+        ready = true;
+        zoneStatus.textContent = result.event.milestones.some((m) => m.available)
+          ? 'Dates updated for ' + requestedZone + '. Select the dates you want to be reminded about.'
+          : 'No future reminder times are available in ' + requestedZone + '.';
+      } catch (error) {
+        if (request !== revision || zone.value.trim() !== requestedZone) return;
+        zoneStatus.textContent = error.message || 'Dates could not be checked. Please retry.';
+        zoneStatus.className = 'notice error';
+        retry.hidden = false;
+      }
+      syncButton();
+    }
+    zone.addEventListener('input', invalidateZone);
+    zone.addEventListener('change', refreshZone);
+    retry.addEventListener('click', refreshZone);
+    const read = () => ({
       milestoneIds: milestoneInputs.filter((input) => input.checked && !input.disabled).map((input) => input.value),
       leadDays: leadInputs.filter((input) => input.checked).map((input) => Number(input.value)), timeZone: zone.value.trim()
     });
+    read.submit = async (callback) => {
+      if (button.disabled) return;
+      busy = true;
+      syncButton();
+      try { return await action(button, callback); }
+      finally { busy = false; syncButton(); }
+    };
+    syncButton();
+    return read;
   }
   function eventTitle(event, parent) {
     parent.append(element('h2', event.name));
@@ -186,7 +258,8 @@
     const start = validDate(event.start) ? event.start : null;
     const end = validDate(event.end) ? event.end : null;
     let range = 'Dates not published';
-    if (start && end) range = start === end ? formatDate(start) : formatDate(start) + ' — ' + formatDate(end);
+    if (event.awaitingDates) range = 'Dates awaiting confirmation';
+    else if (start && end) range = start === end ? formatDate(start) : formatDate(start) + ' — ' + formatDate(end);
     else if (start) range = 'Starts ' + formatDate(start) + ' · end date not published';
     else if (end) range = 'Ends ' + formatDate(end) + ' · start date not published';
     dates.append(element('strong', range));
@@ -210,19 +283,23 @@
     const result = await rpc('getEventDetails', { eventId: boot.eventId, timeZone: defaultZone });
     content.replaceChildren();
     eventTitle(result.event, content);
+    if (result.event.awaitingDates) {
+      content.append(element('p', 'This conference is on the watchlist. Email reminders will become available once its dates are confirmed.', { class: 'notice' }));
+      managementRequest(content);
+      return;
+    }
     if (!result.emailEnabled) content.append(element('p', 'Email reminders are being set up. The website owner has not activated sending yet.', { class: 'notice' }));
     const form = element('form');
     const email = field(form, 'Email address', 'email', '', true);
-    const prefs = preferences(form, result.event);
+    const button = element('button', 'Send confirmation email', { type: 'submit' });
+    const prefs = preferences(form, result.event, null, button, result.emailEnabled);
     const hp = honeypot(form);
     const consent = element('label', null, { class: 'choice' });
     const agree = element('input', null, { type: 'checkbox', required: 'required' });
     consent.append(agree, element('span', 'Email me about the dates I select. I can manage or cancel these reminders using a private email link.')); form.append(consent);
-    const button = element('button', 'Send confirmation email', { type: 'submit' });
-    button.disabled = !result.emailEnabled || !result.event.enabled || !result.event.milestones.some((m) => m.available);
     form.append(button);
     form.addEventListener('submit', (e) => {
-      e.preventDefault(); action(button, () => rpc('subscribe', { eventId: boot.eventId, email: email.value, company: hp.value, ...prefs() }));
+      e.preventDefault(); prefs.submit(() => rpc('subscribe', { eventId: boot.eventId, email: email.value, company: hp.value, ...prefs() }));
     });
     content.append(form, element('p', 'Only future reminder times are scheduled. If an important date changes, future reminders follow the latest verified date.', { class: 'muted' }));
     managementRequest(content);
@@ -249,6 +326,7 @@
     heading.textContent = cancelOnly ? 'Unsubscribe' : 'Manage your reminders';
     const result = await rpc('getManagementDetails', { token: boot.token });
     content.replaceChildren(element('p', 'Reminders for ' + result.email, { class: 'muted' }));
+    if (result.catalogueAvailable === false) content.append(element('p', 'Conference details are temporarily unavailable. You can still unsubscribe. Preference editing will return when the directory is available.', { class: 'notice' }));
     const all = element('button', 'Unsubscribe from all conferences', { class: 'danger' });
     all.addEventListener('click', async () => {
       const saved = await action(all, () => rpc('unsubscribe', { token: boot.token, subscriptionId: 'all' }));
@@ -262,10 +340,10 @@
       if (sub.status === 'cancelled') { content.append(card); return; }
       if (!cancelOnly && event && sub.status === 'active') {
         const form = element('form');
-        const prefs = preferences(form, event, sub);
-        const save = element('button', 'Save preferences', { type: 'submit' }); form.append(save);
+        const save = element('button', 'Save preferences', { type: 'submit' });
+        const prefs = preferences(form, event, sub, save); form.append(save);
         form.addEventListener('submit', (e) => {
-          e.preventDefault(); action(save, () => rpc('updateSubscription', { token: boot.token, subscriptionId: sub.id, ...prefs() }));
+          e.preventDefault(); prefs.submit(() => rpc('updateSubscription', { token: boot.token, subscriptionId: sub.id, ...prefs() }));
         }); card.append(form);
       }
       const cancel = element('button', 'Unsubscribe from this conference', { class: 'danger' });

@@ -12,10 +12,13 @@ Share [the public website](https://vickie02736.github.io/conference-reminder/) d
 
 ## Explore and set reminders
 
-- Filter by region, status, topic, activity, year and keyword. UK & Europe is the default, including the NeurIPS Paris attendance option.
+- Search and filter by region, status and sorting in the main bar. **More filters** contains topic, activity, year and source-check status; its count shows active choices. UK & Europe is the default, including the NeurIPS Paris attendance option.
+- **Sources to review** and **Source errors** show all affected activities worldwide. Use the separate Source check filter to combine evidence status with other filters. Source review is distinct from unconfirmed conference dates or attendance availability.
+- Scheduled and pending totals use the same classification as the cards. Announced but unverified dates remain provisional; pending activities show **Dates not confirmed** until reminders can be offered.
 - Each entry links to its official website and evidence. Closed submissions, full events, invitation-only attendance and conflicting dates remain visible.
 - Each conference card can show several current statuses together, including registration, oral/abstract/poster/paper submission, opening soon, closed routes and an ongoing meeting. The Status filter matches these labels and works with the other filters. Oral and poster routes are distinguished only when the published information identifies them. A deadline alone does not confirm that a platform is open: those routes are explicitly labelled “opening unconfirmed”; selecting Finished also enables past events.
 - **Send reminder** opens the Google Apps Script service in a new tab. Select dates and lead times, then verify your email to activate server reminders.
+- Changing a reminder time zone refreshes date availability before submitting. Existing subscribers can still unsubscribe if the public conference catalogue is temporarily unavailable.
 
 The former local date tracker and browser notification interface have been retired. Existing `academic-conferences-v1` records are left untouched in browser storage. They are not automatically converted into email subscriptions; choose **Send reminder** and verify your email to activate email reminders.
 
