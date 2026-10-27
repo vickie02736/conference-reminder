@@ -17,6 +17,11 @@ test('unknown and conflicted nodes do not drive next-deadline sorting',()=>{
  const e=[{name:'Conflict',milestones:[{date:'2026-10-28',status:'conflict',kind:'abstract'}]},{name:'Verified',milestones:[{date:'2026-11-01',status:'verified',kind:'paper'}]}];
  assert.equal(filterEvents(e,{region:'all',sort:'deadline'},'2026-10-27')[0].name,'Verified');
 });
+test('conference start and end dates do not masquerade as submission deadlines',()=>{
+ const events=[{name:'Meeting first',start:'2027-01-01',milestones:[{date:'2027-01-01',status:'verified',kind:'conference_start'},{date:'2027-01-03',status:'verified',kind:'conference_end'}]},{name:'Submission first',start:'2027-06-01',milestones:[{date:'2027-02-01',status:'verified',kind:'abstract'}]}];
+ assert.deepEqual(filterEvents(events,{sort:'deadline'},'2026-10-27').map(e=>e.name),['Submission first','Meeting first']);
+ assert.equal(upcomingNodes(events[0],'2026-10-27').length,2);
+});
 test('multiple nodes can be saved while the same node/time is not duplicated',()=>{
  const m={title:'EuroMOF',catalogId:'e',milestoneId:'abstract',deadlineLabel:'Abstract',time:1000};
  assert.equal(isDuplicate([m],{...m}),true);

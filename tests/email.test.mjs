@@ -95,6 +95,26 @@ test('setup is idempotent, private by default, and never enables email or sends'
   assert.throws(() => h.app.enableEmailSending(), /editor as the owner/);
 });
 
+test('conference start and end reminders retain calendar dates and describe unpublished event times', () => {
+  const h = harness(); const event = h.state.catalog.events[0];
+  Object.assign(event, { start: '2027-07-04', end: '2027-07-07', type: 'Conference' });
+  const base = event.milestones[0];
+  event.milestones = [
+    { ...base, id: 'start', kind: 'conference_start', label: 'Conference starts', date: event.start },
+    { ...base, id: 'end', kind: 'conference_end', label: 'Conference ends', date: event.end }
+  ];
+  const details = h.app.getEventDetails({ eventId: event.id, timeZone: 'Europe/London' }).event;
+  assert.equal(details.start, event.start); assert.equal(details.end, event.end);
+  assert.ok(details.milestones.every((m) => m.available));
+  h.activate({ milestoneIds: ['start', 'end'], leadDays: [3] });
+  const rows = h.records('Deliveries');
+  assert.deepEqual(rows.map((r) => new Date(r.dueAt).toISOString()), ['2027-07-01T08:00:00.000Z', '2027-07-04T08:00:00.000Z']);
+  const mail = h.app.reminderMessage_(rows, 'example-token');
+  assert.match(mail.text, /2027-07-04 — start time not published/);
+  assert.match(mail.html, /2027-07-07 — end time not published/);
+  assert.doesNotMatch(mail.text, /deadline time/);
+});
+
 test('confirmation requires explicit RPC and raw tokens are never stored in the sheet', () => {
   const h = harness(); const token = h.subscribe();
   assert.equal(h.records('Subscriptions')[0].status, 'pending');

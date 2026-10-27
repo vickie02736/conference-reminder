@@ -1,4 +1,4 @@
-import {STORAGE_KEY,esc,safeUrl,dateLabel,todayISO,upcomingNodes,hasEuropeanSite,filterEvents,normalizeSaved,isDuplicate,localInput,milestoneInstant,calendarFile} from './core.mjs';
+import {STORAGE_KEY,esc,safeUrl,dateLabel,todayISO,upcomingNodes,isConferenceDate,hasEuropeanSite,filterEvents,normalizeSaved,isDuplicate,localInput,milestoneInstant,calendarFile} from './core.mjs';
 
 const $=id=>document.getElementById(id);
 let catalogue={events:[],watchlist:[],metadata:{},updates:[]};
@@ -15,7 +15,7 @@ function emailUrl(id){if(!config.emailRemindersEnabled)return '';try{const u=new
 function nodeText(m){if(m.status==='conflict')return 'Conflicting dates — check official sources';if(!m.date)return 'Date not yet verified';return `${dateLabel(m.date)}${m.time?' · '+m.time:''}${m.timezone?' ('+m.timezone+')':''}${m.precision==='date'?' · time not announced':''}${m.status==='unknown'?' · provisional / unverified':''}`;}
 function card(e){
   const upcoming=upcomingNodes(e);
-  const next=upcoming.find(m=>m.kind!=='conference_start');
+  const next=upcoming.find(m=>!isConferenceDate(m));
   const watch=!e.start;
   const check=e.check||{};
   const checkState={not_checked:'Awaiting automated check',checked:'Source check completed',review_required:'Source needs review',failed:'Source check failed'}[check.status]||'Awaiting automated check';
@@ -56,7 +56,7 @@ function selectNode(){
   $('deadlineLabel').value=m.label;
   const time=milestoneInstant(m);
   if(time!==null)$('date').value=localInput(time);
-  $('milestone-hint').textContent=`Published: ${nodeText(m)}. ${time===null?'Enter a confirmed deadline in your device’s local time; no time has been assumed.':'Converted to your device’s local time. Please confirm before saving.'}`;
+  $('milestone-hint').textContent=`Published: ${nodeText(m)}. ${time===null?'Enter the confirmed date and time in your device’s local time; no time has been assumed.':'Converted to your device’s local time. Please confirm before saving.'}`;
 }
 function track(id){
   selectedEvent=[...catalogue.events,...catalogue.watchlist].find(e=>e.id===id);if(!selectedEvent)return;
@@ -65,9 +65,9 @@ function track(id){
   const nodes=upcomingNodes(e);
   $('milestone-wrap').hidden=false;
   $('milestone').innerHTML='<option value="">Enter another date…</option>'+nodes.map(m=>`<option value="${esc(m.id)}">${esc(m.label)} · ${esc(m.date)}</option>`).join('');
-  $('milestone').value=(nodes.find(m=>m.kind!=='conference_start')||nodes[0])?.id||'';selectNode();
+  $('milestone').value=(nodes.find(m=>m.kind==='conference_start')||nodes[0])?.id||'';selectNode();
   $('form').scrollIntoView({behavior:'smooth',block:'center'});$('title').focus({preventScroll:true});
-  status('Conference details filled in. Confirm the node and its local deadline time before saving.');
+  status('Conference details filled in. Confirm the selected date and its local time before saving.');
 }
 $('catalogue-list').addEventListener('click',e=>{const button=e.target.closest('[data-track]');if(button)track(button.dataset.track);});
 for(const id of ['search','region','topic','type','year','sort','show-past'])$(id).addEventListener(id==='search'?'input':'change',renderCatalogue);

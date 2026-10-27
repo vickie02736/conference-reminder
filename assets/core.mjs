@@ -3,6 +3,7 @@ export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'
 export function safeUrl(value) { try { const u = new URL(value); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } }
 export function dateLabel(value) { return value && /^\d{4}-\d{2}-\d{2}$/.test(value) ? new Date(`${value}T12:00:00Z`).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}) : 'Date to be announced'; }
 export function todayISO(now = new Date()) { return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`; }
+export const isConferenceDate = m => ['conference_start','conference_end'].includes(m.kind);
 export function upcomingNodes(event, today = todayISO(), now = Date.now()) { if (event.reminders_paused) return []; return (event.milestones || []).filter(m => { if (m.status !== 'verified' || !m.date) return false; const instant = milestoneInstant(m); return m.precision === 'datetime' ? instant !== null && instant > now : m.date >= today; }).sort((a,b) => a.date.localeCompare(b.date)); }
 export function hasEuropeanSite(event) { return event.region === 'UK' || event.region === 'Europe' || (/neurips/i.test(event.name) && /Paris/i.test(`${event.location} ${event.note}`)); }
 export function filterEvents(events, filters, today = todayISO(), now = Date.now()) {
@@ -19,7 +20,7 @@ export function filterEvents(events, filters, today = todayISO(), now = Date.now
   }).sort((a,b) => {
     if (filters.sort === 'name') return a.name.localeCompare(b.name);
     if (filters.sort === 'priority') return (a.priority || 99) - (b.priority || 99) || (a.start || '9999').localeCompare(b.start || '9999');
-    if (filters.sort === 'deadline') return (upcomingNodes(a,today,now).find(m=>m.kind!=='conference_start')?.date || '9999').localeCompare(upcomingNodes(b,today,now).find(m=>m.kind!=='conference_start')?.date || '9999') || (a.start || '9999').localeCompare(b.start || '9999');
+    if (filters.sort === 'deadline') return (upcomingNodes(a,today,now).find(m=>!isConferenceDate(m))?.date || '9999').localeCompare(upcomingNodes(b,today,now).find(m=>!isConferenceDate(m))?.date || '9999') || (a.start || '9999').localeCompare(b.start || '9999');
     return (a.start || '9999').localeCompare(b.start || '9999') || a.name.localeCompare(b.name);
   });
 }

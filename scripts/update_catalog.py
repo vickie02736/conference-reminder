@@ -360,6 +360,11 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
 
         resolved = {}
         for field, candidates in facts_by_field.items():
+            activity_kind = {"start": "conference_start", "end": "conference_end"}.get(field)
+            if activity_kind and any(node.get("kind") == activity_kind and node.get("status") == "conflict"
+                                     for node in event.get("milestones", [])):
+                reviews.append(f"{field}: conflicting activity date requires human verification; existing value retained.")
+                continue
             if any(item[3] for item in candidates):
                 candidates = [item for item in candidates if item[3]]
             if len({item[0] for item in candidates}) != 1:
@@ -382,9 +387,11 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
             if paused:
                 continue
             proposals = list(observation["milestones"])
-            if "start" in resolved and observation["facts"].get("start") == resolved["start"][0]:
-                proposals.append({"kind": "conference_start", "label": "Conference starts", "date": resolved["start"][0],
-                                  "evidence": observation.get("evidence", "")})
+            for field, kind, label in (("start", "conference_start", "Conference starts"),
+                                       ("end", "conference_end", "Conference ends")):
+                if field in resolved and observation["facts"].get(field) == resolved[field][0]:
+                    proposals.append({"kind": kind, "label": label, "date": resolved[field][0],
+                                      "evidence": observation.get("evidence", "")})
             for proposal in proposals:
                 kind = proposal["kind"]
                 matches = [node for node in milestones if node["kind"] == kind]
@@ -419,7 +426,7 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
                     milestones.append(node)
                 if changed_schedule:
                     record_change(f"milestones.{node['id']}", existing, node, source, proposal["evidence"])
-                    deadline_changed = deadline_changed or kind != "conference_start"
+                    deadline_changed = deadline_changed or kind not in {"conference_start", "conference_end"}
 
         # Only this known event has a complete, narrowly scoped platform-status adapter.
         if not paused and event["id"] == "euromof2027" and set(status_parts) == {"submission", "registration"}:
@@ -430,7 +437,7 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
             event.setdefault("deadline_notes", event.get("deadline", ""))
             event["deadline"] = "; ".join(f"{node['label']}: {node.get('date') or 'Date TBA'}" +
                                           (" (conflicting official dates)" if node["status"] == "conflict" else "")
-                                          for node in milestones if node["kind"] != "conference_start")
+                                          for node in milestones if node["kind"] not in {"conference_start", "conference_end"})
         check = event.setdefault("check", {})
         check["last_checked_at"] = now
         if reviews:

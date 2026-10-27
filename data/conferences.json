@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-10-27T14:55:25Z",
-    "last_updated_at": "2026-10-27T14:43:49Z"
+    "last_updated_at": "2026-10-27T15:52:40Z"
   },
   "events": [
     {
@@ -58,7 +58,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-10-29",
           "time": null,
           "timezone": null,
@@ -68,6 +68,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Official JSON-LD Event with matching name and identity: 2026-10-29 to 2026-10-30."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-10-30",
+          "time": null,
+          "timezone": null,
+          "id": "chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning:conference-end",
+          "version": 1,
+          "source": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "poster",
@@ -143,7 +156,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2026-11-23",
           "time": null,
           "timezone": null,
@@ -153,6 +166,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2026-11-27",
+          "time": null,
+          "timezone": null,
+          "id": "aichemy-winter-school-robotics-and-ai-for-materials-chemistry-2026:conference-end",
+          "version": 1,
+          "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -203,7 +229,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-24",
           "time": null,
           "timezone": null,
@@ -213,6 +239,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-11-24",
+          "time": null,
+          "timezone": null,
+          "id": "automated-intelligent-chemistry-2026:conference-end",
+          "version": 1,
+          "source": "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "early_registration",
@@ -278,7 +317,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-24",
           "time": null,
           "timezone": null,
@@ -288,6 +327,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-11-25",
+          "time": null,
+          "timezone": null,
+          "id": "uk-ai-research-symposium-ukairs-2026:conference-end",
+          "version": 1,
+          "source": "https://www.ukairs.ac.uk/i/Registration",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -348,7 +400,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-25",
           "time": null,
           "timezone": null,
@@ -358,6 +410,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-11-25",
+          "time": null,
+          "timezone": null,
+          "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
+          "version": 1,
+          "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -403,7 +468,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-12-14",
           "time": null,
           "timezone": null,
@@ -413,6 +478,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-12-14",
+          "time": null,
+          "timezone": null,
+          "id": "materials-chemistry-poster-symposium-2026:conference-end",
+          "version": 1,
+          "source": "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "poster",
@@ -463,7 +541,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-12-14",
           "time": null,
           "timezone": null,
@@ -473,6 +551,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-12-15",
+          "time": null,
+          "timezone": null,
+          "id": "tyc20-celebration-of-the-thomas-young-centre-at-20:conference-end",
+          "version": 1,
+          "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -522,7 +613,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-12-15",
           "time": null,
           "timezone": null,
@@ -532,6 +623,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-12-17",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:conference-end",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -593,7 +697,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-12-15",
           "time": null,
           "timezone": null,
@@ -603,6 +707,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-12-17",
+          "time": null,
+          "timezone": null,
+          "id": "ai-2026-sgai-international-conference-on-artificial-intelligence:conference-end",
+          "version": 1,
+          "source": "https://www.bcs-sgai.org/ai2026/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -667,7 +784,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-01-06",
           "time": null,
           "timezone": null,
@@ -677,6 +794,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-01-08",
+          "time": null,
+          "timezone": null,
+          "id": "defects2027:conference-end",
+          "version": 1,
+          "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -751,7 +881,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-01-15",
           "time": null,
           "timezone": null,
@@ -761,6 +891,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Official JSON-LD Event with matching name and identity: 2027-01-15 to 2027-01-15."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-01-15",
+          "time": null,
+          "timezone": null,
+          "id": "rsc-theoretical-chemistry-group-graduate-student-meeting:conference-end",
+          "version": 1,
+          "source": "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -848,7 +991,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2027-01-22",
           "time": null,
           "timezone": null,
@@ -858,6 +1001,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-01-22",
+          "time": null,
+          "timezone": null,
+          "id": "introduction-to-machine-learning-for-chemists-workshop:conference-end",
+          "version": 1,
+          "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -908,7 +1064,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2027-02-16",
           "time": null,
           "timezone": null,
@@ -918,6 +1074,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-02-18",
+          "time": null,
+          "timezone": null,
+          "id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques:conference-end",
+          "version": 1,
+          "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "early_registration",
@@ -965,7 +1134,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-03-15",
           "time": null,
           "timezone": null,
@@ -975,6 +1144,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-03-16",
+          "time": null,
+          "timezone": null,
+          "id": "the-future-of-materials-discovery:conference-end",
+          "version": 1,
+          "source": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "poster",
@@ -1027,7 +1209,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2027-04-05",
           "time": null,
           "timezone": null,
@@ -1037,6 +1219,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-04-09",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:conference-end",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -1099,7 +1294,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-04-07",
           "time": null,
           "timezone": null,
@@ -1109,6 +1304,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Official JSON-LD Event with matching name and identity: 2027-04-07 to 2027-04-09."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-04-09",
+          "time": null,
+          "timezone": null,
+          "id": "characterisation-of-catalysts:conference-end",
+          "version": 1,
+          "source": "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -1184,7 +1392,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-04-14",
           "time": null,
           "timezone": null,
@@ -1194,6 +1402,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-04-15",
+          "time": null,
+          "timezone": null,
+          "id": "aichemy-annual-conference-2027:conference-end",
+          "version": 1,
+          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "poster",
@@ -1254,7 +1475,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-01",
           "time": null,
           "timezone": null,
@@ -1264,6 +1485,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-03",
+          "time": null,
+          "timezone": null,
+          "id": "aisb-convention-2027:conference-end",
+          "version": 1,
+          "source": "https://aisb.org.uk/call-for-symposia-proposals-aisb-2027-university-of-liverpool/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "other",
@@ -1325,7 +1559,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Exhibition starts",
           "date": "2027-06-16",
           "time": null,
           "timezone": null,
@@ -1335,6 +1569,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Exhibition ends",
+          "date": "2027-06-17",
+          "time": null,
+          "timezone": null,
+          "id": "the-advanced-materials-show-2027:conference-end",
+          "version": 1,
+          "source": "https://advancedmaterialsshow.com/full-conference/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "other",
@@ -1384,7 +1631,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-21",
           "time": null,
           "timezone": null,
@@ -1394,6 +1641,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-23",
+          "time": null,
+          "timezone": null,
+          "id": "tenth-north-of-england-chemoinformatics-meeting:conference-end",
+          "version": 1,
+          "source": "https://www.leachresearchgroup.net/home/chemoinformatics-conference-2027",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "other",
@@ -1458,7 +1718,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-07-12",
           "time": null,
           "timezone": null,
@@ -1468,6 +1728,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-07-15",
+          "time": null,
+          "timezone": null,
+          "id": "mc18-18th-international-conference-on-materials-chemistry:conference-end",
+          "version": 1,
+          "source": "https://www.rsc.org/events/find-an-event/18th-international-conference-on-materials-chemistry-%28mc18%29",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -1556,7 +1829,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-09-08",
           "time": null,
           "timezone": null,
@@ -1566,6 +1839,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Official JSON-LD Event with matching name and identity: 2027-09-08 to 2027-09-10."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-09-10",
+          "time": null,
+          "timezone": null,
+          "id": "digital-chemistry2027:conference-end",
+          "version": 1,
+          "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -1684,7 +1970,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-02",
           "time": null,
           "timezone": null,
@@ -1694,6 +1980,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-11-03",
+          "time": null,
+          "timezone": null,
+          "id": "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems:conference-end",
+          "version": 1,
+          "source": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -1743,7 +2042,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2026-11-05",
           "time": null,
           "timezone": null,
@@ -1753,6 +2052,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2026-11-06",
+          "time": null,
+          "timezone": null,
+          "id": "school-on-advanced-structural-analysis-in-mofs-and-cofs:conference-end",
+          "version": 1,
+          "source": "https://www.icmm.csic.es/es/node/37130",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -1804,7 +2116,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-11-12",
           "time": null,
           "timezone": null,
@@ -1814,6 +2126,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-11-13",
+          "time": null,
+          "timezone": null,
+          "id": "chemai-2026:conference-end",
+          "version": 1,
+          "source": "https://www.acnetwork.nl/chemai",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "poster",
@@ -1877,7 +2202,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-16",
           "time": null,
           "timezone": null,
@@ -1887,6 +2212,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-11-20",
+          "time": null,
+          "timezone": null,
+          "id": "sapem-2026-8th-symposium-on-the-acoustics-of-poro-elastic-materials:conference-end",
+          "version": 1,
+          "source": "https://sapem2026.matelys.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -1963,7 +2301,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-11-17",
           "time": null,
           "timezone": null,
@@ -1973,6 +2311,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-11-18",
+          "time": null,
+          "timezone": null,
+          "id": "vii-annual-spain-interpore-meeting:conference-end",
+          "version": 1,
+          "source": "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -2035,7 +2386,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-11-24",
           "time": null,
           "timezone": null,
@@ -2045,6 +2396,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-11-26",
+          "time": null,
+          "timezone": null,
+          "id": "aixmat-2026-ai-in-materials-research-summit:conference-end",
+          "version": 1,
+          "source": "https://aixmat.candela.org.pl/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "poster",
@@ -2107,7 +2471,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-27",
           "time": null,
           "timezone": null,
@@ -2117,6 +2481,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-11-27",
+          "time": null,
+          "timezone": null,
+          "id": "9th-norway-national-workshop-in-porous-media:conference-end",
+          "version": 1,
+          "source": "https://interpore.org/event/9th-norway-national-workshop-porous-media",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -2181,7 +2558,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-30",
           "time": null,
           "timezone": null,
@@ -2191,6 +2568,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-12-02",
+          "time": null,
+          "timezone": null,
+          "id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26:conference-end",
+          "version": 1,
+          "source": "https://www.iswpm26.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -2255,7 +2645,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-11-30",
           "time": null,
           "timezone": null,
@@ -2265,6 +2655,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-12-04",
+          "time": null,
+          "timezone": null,
+          "id": "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses:conference-end",
+          "version": 1,
+          "source": "https://www.esi.ac.at/events/e610/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -2340,7 +2743,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-01-11",
           "time": null,
           "timezone": null,
@@ -2350,6 +2753,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-01-14",
+          "time": null,
+          "timezone": null,
+          "id": "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/workshop-details/1272",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -2398,7 +2814,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-01-12",
           "time": null,
           "timezone": null,
@@ -2408,6 +2824,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-01-14",
+          "time": null,
+          "timezone": null,
+          "id": "northern-lights-deep-learning-conference-2027:conference-end",
+          "version": 1,
+          "source": "https://www.nldl.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -2470,7 +2899,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-01-13",
           "time": null,
           "timezone": null,
@@ -2480,6 +2909,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-01-15",
+          "time": null,
+          "timezone": null,
+          "id": "23rd-international-workshop-on-computational-physics-and-materials-science-total-energy-and-force-methods:conference-end",
+          "version": 1,
+          "source": "https://indico.ictp.it/event/11409",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -2528,7 +2970,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-01-14",
           "time": null,
           "timezone": null,
@@ -2538,6 +2980,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-01-14",
+          "time": null,
+          "timezone": null,
+          "id": "7th-fems-industry-symposium-materials-assisted-by-digital-science:conference-end",
+          "version": 1,
+          "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -2601,7 +3056,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-01-25",
           "time": null,
           "timezone": null,
@@ -2611,6 +3066,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-01-27",
+          "time": null,
+          "timezone": null,
+          "id": "automating-atomistic-machine-learning:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/workshop-details/automating-atomistic-machine-learning-1494",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -2659,7 +3127,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-03-01",
           "time": null,
           "timezone": null,
@@ -2669,6 +3137,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-03-03",
+          "time": null,
+          "timezone": null,
+          "id": "cecam-mlthermo2027:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/workshop-details/1480",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -2719,7 +3200,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-03-03",
           "time": null,
           "timezone": null,
@@ -2729,6 +3210,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-05",
+          "time": null,
+          "timezone": null,
+          "id": "dzt38:conference-end",
+          "version": 1,
+          "source": "https://dechema.de/en/dzt38.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -2792,7 +3286,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2027-03-08",
           "time": null,
           "timezone": null,
@@ -2802,6 +3296,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-03-12",
+          "time": null,
+          "timezone": null,
+          "id": "theoretical-spectroscopy-lectures:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/workshop-details/theoretical-spectroscopy-lectures-1482",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -2852,7 +3359,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-03-10",
           "time": null,
           "timezone": null,
@@ -2862,6 +3369,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-03-12",
+          "time": null,
+          "timezone": null,
+          "id": "selfassembly2027:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/workshop-details/self-assembly-of-materials-merging-direct-experiments-with-simulations-at-different-resolutions-and-data-science-techniques-1522",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -2926,7 +3446,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-03-22",
           "time": null,
           "timezone": null,
@@ -2936,6 +3456,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-03-25",
+          "time": null,
+          "timezone": null,
+          "id": "challenges-in-ionic-fluids-theory-simulation-and-experiment:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/program?location=all&month=all&page=2&type=all",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -2999,7 +3532,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-03-22",
           "time": null,
           "timezone": null,
@@ -3009,6 +3542,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-03-24",
+          "time": null,
+          "timezone": null,
+          "id": "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials:conference-end",
+          "version": 1,
+          "source": "https://congressomateriais.pt/editions/2027",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3072,7 +3618,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2027-04-02",
           "time": null,
           "timezone": null,
@@ -3082,6 +3628,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-04-07",
+          "time": null,
+          "timezone": null,
+          "id": "dpg-school2027:conference-end",
+          "version": 1,
+          "source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -3131,7 +3690,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-04-20",
           "time": null,
           "timezone": null,
@@ -3141,6 +3700,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-04-22",
+          "time": null,
+          "timezone": null,
+          "id": "6th-emmc-international-workshop-2027:conference-end",
+          "version": 1,
+          "source": "https://emmc.eu/events/emmc2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3203,7 +3775,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-05-09",
           "time": null,
           "timezone": null,
@@ -3213,6 +3785,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-05-12",
+          "time": null,
+          "timezone": null,
+          "id": "esat-2027-35th-european-symposium-on-applied-thermodynamics:conference-end",
+          "version": 1,
+          "source": "https://www.esat2027.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3289,7 +3874,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-05-17",
           "time": null,
           "timezone": null,
@@ -3299,6 +3884,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-05-21",
+          "time": null,
+          "timezone": null,
+          "id": "e-mrs-spring-meeting-2027:conference-end",
+          "version": 1,
+          "source": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3350,7 +3948,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-05-23",
           "time": null,
           "timezone": null,
@@ -3360,6 +3958,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-05-26",
+          "time": null,
+          "timezone": null,
+          "id": "cpm10:conference-end",
+          "version": 1,
+          "source": "https://cpm-workshop.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3422,7 +4033,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-14",
           "time": null,
           "timezone": null,
@@ -3432,6 +4043,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-17",
+          "time": null,
+          "timezone": null,
+          "id": "ai4x-2027:conference-end",
+          "version": 1,
+          "source": "https://ai4x.cc/2027/call-for-papers/important-dates/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -3514,7 +4138,7 @@
       "location": "Budapest, Hungary — Budapest University of Technology and Economics",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "Abstracts: 30 November 2026; submitting before 31 October 2026 offers a €50 registration reduction. Early registration: 31 January 2027; regular registration: 31 May 2027; late/on-site fees from 1 June.",
+      "deadline": "Abstracts: 30 November 2026; submitting before 31 October 2026 offers a €50 registration reduction. Early registration: 31 January 2027; regular registration: 31 May 2027.",
       "status": "Abstract submissions and registration open.",
       "note": "Porous and foam metals: modelling, simulation, design, heat and mass transfer. Lower direct relevance to MOF/atomistic simulation; an adjacent topic.",
       "sources": [
@@ -3533,7 +4157,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-14",
           "time": null,
           "timezone": null,
@@ -3543,6 +4167,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-17",
+          "time": null,
+          "timezone": null,
+          "id": "metfoam2027:conference-end",
+          "version": 1,
+          "source": "https://metfoam2027.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3595,19 +4232,6 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
-        },
-        {
-          "kind": "other",
-          "label": "Late/on-site registration fees begin",
-          "date": "2027-06-01",
-          "time": null,
-          "timezone": null,
-          "id": "metfoam2027:late-registration-opening",
-          "version": 1,
-          "source": "https://metfoam2027.com/",
-          "precision": "date",
-          "status": "verified",
-          "evidence": "The linked official source lists this date."
         }
       ]
     },
@@ -3645,7 +4269,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2027-06-29",
           "time": null,
           "timezone": null,
@@ -3655,6 +4279,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-07-02",
+          "time": null,
+          "timezone": null,
+          "id": "mofschool2027:conference-end",
+          "version": 1,
+          "source": "https://euromof2027.com/index.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -3686,7 +4323,7 @@
       "location": "Cernobbio / Lake Como, Italy — Villa Erba",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "Abstracts: 1 February 2027; early registration: 5 April 2027; regular-fee deadline: 3 July 2027; on-site fees apply from 4 July.",
+      "deadline": "Abstracts: 1 February 2027; early registration: 5 April 2027; regular-fee deadline: 3 July 2027.",
       "status": "Abstract deadline announced; submission platform not yet open. Registration platform not yet open.",
       "note": "The official topics explicitly include Computation, AI and machine learning, plus adsorption, molecular separation, MOF design, structure and dynamics.",
       "sources": [
@@ -3707,7 +4344,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-07-04",
           "time": null,
           "timezone": null,
@@ -3717,6 +4354,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-07-07",
+          "time": null,
+          "timezone": null,
+          "id": "euromof2027:conference-end",
+          "version": 1,
+          "source": "https://euromof2027.com/index.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3756,19 +4406,6 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Regular fee: until 2027-07-03."
-        },
-        {
-          "kind": "other",
-          "label": "On-site fees begin",
-          "date": "2027-07-04",
-          "time": null,
-          "timezone": null,
-          "id": "euromof2027:onsite-fees",
-          "version": 1,
-          "source": "https://euromof2027.com/registration.html",
-          "precision": "date",
-          "status": "verified",
-          "evidence": "The linked official source lists this date."
         }
       ]
     },
@@ -3804,7 +4441,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-07-06",
           "time": null,
           "timezone": null,
@@ -3814,6 +4451,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-07-08",
+          "time": null,
+          "timezone": null,
+          "id": "2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/workshop-details/2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches-1490",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -3862,7 +4512,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-07-18",
           "time": null,
           "timezone": null,
@@ -3872,6 +4522,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-07-22",
+          "time": null,
+          "timezone": null,
+          "id": "materials-today-conference-2027:conference-end",
+          "version": 1,
+          "source": "https://www.elsevier.com/events/conferences/all/materials-today-conference",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -3945,7 +4608,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-08-30",
           "time": null,
           "timezone": null,
@@ -3955,6 +4618,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-03",
+          "time": null,
+          "timezone": null,
+          "id": "ecml-pkdd-2027:conference-end",
+          "version": 1,
+          "source": "https://ecmlpkdd.org/2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -4005,7 +4681,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-09-12",
           "time": null,
           "timezone": null,
@@ -4015,6 +4691,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-16",
+          "time": null,
+          "timezone": null,
+          "id": "fems-euromat-2027:conference-end",
+          "version": 1,
+          "source": "https://www.euromat2027.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4076,7 +4765,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-09-20",
           "time": null,
           "timezone": null,
@@ -4086,6 +4775,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-23",
+          "time": null,
+          "timezone": null,
+          "id": "e-mrs-fall-meeting-2027:conference-end",
+          "version": 1,
+          "source": "https://www.european-mrs.com/meetings/2027-fall-meeting-exhibit",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "other",
@@ -4146,7 +4848,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-10-02",
           "time": null,
           "timezone": null,
@@ -4156,6 +4858,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-10-07",
+          "time": null,
+          "timezone": null,
+          "id": "ecai-2027-european-conference-on-artificial-intelligence:conference-end",
+          "version": 1,
+          "source": "https://ecai2027.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -4205,7 +4920,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-10-19",
           "time": null,
           "timezone": null,
@@ -4215,6 +4930,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-10-22",
+          "time": null,
+          "timezone": null,
+          "id": "ai4am-2027-ai-for-advanced-materials:conference-end",
+          "version": 1,
+          "source": "https://ai4am.net/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4290,7 +5018,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-11-17",
           "time": null,
           "timezone": null,
@@ -4300,6 +5028,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-11-18",
+          "time": null,
+          "timezone": null,
+          "id": "aimse2027:conference-end",
+          "version": 1,
+          "source": "https://dgm.de/aimse/2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4348,7 +5089,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-11-23",
           "time": null,
           "timezone": null,
@@ -4358,6 +5099,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-11-25",
+          "time": null,
+          "timezone": null,
+          "id": "mathematics-for-quantum-dynamics:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/workshop-details/mathematics-for-quantum-dynamics-1486",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "other",
@@ -4420,7 +5174,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2028-07-09",
           "time": null,
           "timezone": null,
@@ -4430,6 +5184,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2028-07-14",
+          "time": null,
+          "timezone": null,
+          "id": "world-conference-on-carbon-2028:conference-end",
+          "version": 1,
+          "source": "https://www.carbon2028.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4505,7 +5272,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2029-05-06",
           "time": null,
           "timezone": null,
@@ -4515,6 +5282,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2029-05-09",
+          "time": null,
+          "timezone": null,
+          "id": "next-cops-conference-cops-xiii:conference-end",
+          "version": 1,
+          "source": "https://cops-xii.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4576,7 +5356,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2026-11-02",
           "time": null,
           "timezone": null,
@@ -4586,6 +5366,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2026-11-03",
+          "time": null,
+          "timezone": null,
+          "id": "applications-of-artificial-intelligence-to-process-chemistry-scientific-update:conference-end",
+          "version": 1,
+          "source": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -4635,7 +5428,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-11-08",
           "time": null,
           "timezone": null,
@@ -4645,6 +5438,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-11-13",
+          "time": null,
+          "timezone": null,
+          "id": "mmm12-12th-international-conference-on-multiscale-materials-modeling:conference-end",
+          "version": 1,
+          "source": "https://www.mmm12.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "registration",
@@ -4723,7 +5529,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-11-19",
           "time": null,
           "timezone": null,
@@ -4733,6 +5539,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Official JSON-LD Event with matching name and identity: 2026-11-19 to 2026-11-21."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-11-21",
+          "time": null,
+          "timezone": null,
+          "id": "rsc-first-2026-ai-in-chemistry:conference-end",
+          "version": 1,
+          "source": "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4820,7 +5639,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-11-29",
           "time": null,
           "timezone": null,
@@ -4830,6 +5649,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-12-01",
+          "time": null,
+          "timezone": null,
+          "id": "ecomat-conference-2026:conference-end",
+          "version": 1,
+          "source": "https://events.polyu.edu.hk/ecomat2026/home",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4892,7 +5724,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-11-29",
           "time": null,
           "timezone": null,
@@ -4902,6 +5734,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-12-04",
+          "time": null,
+          "timezone": null,
+          "id": "mrs-fall2026:conference-end",
+          "version": 1,
+          "source": "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -4976,7 +5821,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2026-12-06",
           "time": null,
           "timezone": null,
@@ -4986,6 +5831,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-12-13",
+          "time": null,
+          "timezone": null,
+          "id": "neurips-2026:conference-end",
+          "version": 1,
+          "source": "https://nips.cc/Conferences/2026",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -5074,7 +5932,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2026-12-12",
           "time": null,
           "timezone": null,
@@ -5084,6 +5942,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-12-12",
+          "time": null,
+          "timezone": null,
+          "id": "ai4mat-neurips-2026:conference-end",
+          "version": 1,
+          "source": "https://sites.google.com/view/ai4mat/home",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -5146,7 +6017,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-01-11",
           "time": null,
           "timezone": null,
@@ -5156,6 +6027,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-01-14",
+          "time": null,
+          "timezone": null,
+          "id": "computational-electrochemistry-in-the-era-of-ai:conference-end",
+          "version": 1,
+          "source": "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5221,7 +6105,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-01-18",
           "time": null,
           "timezone": null,
@@ -5231,6 +6115,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-01-20",
+          "time": null,
+          "timezone": null,
+          "id": "eazc2027:conference-end",
+          "version": 1,
+          "source": "https://www.eazc2027.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5330,7 +6227,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-02-16",
           "time": null,
           "timezone": null,
@@ -5340,6 +6237,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-02-23",
+          "time": null,
+          "timezone": null,
+          "id": "aaai-2027:conference-end",
+          "version": 1,
+          "source": "https://aaai.org/conference/aaai/aaai-27/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -5390,7 +6300,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-03-14",
           "time": null,
           "timezone": null,
@@ -5400,6 +6310,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-18",
+          "time": null,
+          "timezone": null,
+          "id": "tms2027:conference-end",
+          "version": 1,
+          "source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5476,7 +6399,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "School starts",
           "date": "2027-03-15",
           "time": null,
           "timezone": null,
@@ -5486,6 +6409,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-03-26",
+          "time": null,
+          "timezone": null,
+          "id": "modelling-water-across-scales:conference-end",
+          "version": 1,
+          "source": "https://www.icts.res.in/program/mwas",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -5549,7 +6485,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-04-05",
           "time": null,
           "timezone": null,
@@ -5559,6 +6495,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-04-09",
+          "time": null,
+          "timezone": null,
+          "id": "mrs-spring2027:conference-end",
+          "version": 1,
+          "source": "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit/call-for-abstracts",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5606,7 +6555,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-04-26",
           "time": null,
           "timezone": null,
@@ -5616,6 +6565,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-04-30",
+          "time": null,
+          "timezone": null,
+          "id": "iclr-2027:conference-end",
+          "version": 1,
+          "source": "https://www.iclr.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5677,7 +6639,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-05-02",
           "time": null,
           "timezone": null,
@@ -5687,6 +6649,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-05-05",
+          "time": null,
+          "timezone": null,
+          "id": "siam-ms27-mathematical-aspects-of-materials-science:conference-end",
+          "version": 1,
+          "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5775,7 +6750,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-05-03",
           "time": null,
           "timezone": null,
@@ -5785,6 +6760,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-05-06",
+          "time": null,
+          "timezone": null,
+          "id": "aistats-2027:conference-end",
+          "version": 1,
+          "source": "https://virtual.aistats.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5863,7 +6851,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-05-10",
           "time": null,
           "timezone": null,
@@ -5873,6 +6861,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Official JSON-LD Event with matching name and identity: 2027-05-10 to 2027-05-13."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-05-13",
+          "time": null,
+          "timezone": null,
+          "id": "interpore2027:conference-end",
+          "version": 1,
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -5979,7 +6980,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-05-31",
           "time": null,
           "timezone": null,
@@ -5989,6 +6990,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-03",
+          "time": null,
+          "timezone": null,
+          "id": "pbast10:conference-end",
+          "version": 1,
+          "source": "https://pbast10.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6063,7 +7077,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Workshop starts",
           "date": "2027-06-07",
           "time": null,
           "timezone": null,
@@ -6073,6 +7087,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-06-11",
+          "time": null,
+          "timezone": null,
+          "id": "the-future-of-porous-frameworks:conference-end",
+          "version": 1,
+          "source": "https://registration.telluridescience.org/workshops/the-future-of-porous-frameworks",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -6120,7 +7147,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-13",
           "time": null,
           "timezone": null,
@@ -6130,6 +7157,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-17",
+          "time": null,
+          "timezone": null,
+          "id": "aems-2027:conference-end",
+          "version": 1,
+          "source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6192,7 +7232,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-15",
           "time": null,
           "timezone": null,
@@ -6202,6 +7242,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-18",
+          "time": null,
+          "timezone": null,
+          "id": "actc-2027-american-conference-on-theoretical-chemistry:conference-end",
+          "version": 1,
+          "source": "https://actc2027.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6267,7 +7320,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-20",
           "time": null,
           "timezone": null,
@@ -6277,6 +7330,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-25",
+          "time": null,
+          "timezone": null,
+          "id": "world-conference-on-carbon-2027:conference-end",
+          "version": 1,
+          "source": "https://carbon2027.or.kr/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6363,7 +7429,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-06-28",
           "time": null,
           "timezone": null,
@@ -6373,6 +7439,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-07-02",
+          "time": null,
+          "timezone": null,
+          "id": "colt-2027-conference-on-learning-theory:conference-end",
+          "version": 1,
+          "source": "https://learningtheory.org/colt2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "paper",
@@ -6424,7 +7503,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-07-11",
           "time": null,
           "timezone": null,
@@ -6434,6 +7513,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-07-16",
+          "time": null,
+          "timezone": null,
+          "id": "fomms2027:conference-end",
+          "version": 1,
+          "source": "https://fomms.cache.org/2027/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6513,7 +7605,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-07-25",
           "time": null,
           "timezone": null,
@@ -6523,6 +7615,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-07-29",
+          "time": null,
+          "timezone": null,
+          "id": "zmpc2027:conference-end",
+          "version": 1,
+          "source": "https://zmpc.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6624,7 +7729,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Seminar starts",
           "date": "2027-07-31",
           "time": null,
           "timezone": null,
@@ -6634,6 +7739,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Seminar ends",
+          "date": "2027-08-01",
+          "time": null,
+          "timezone": null,
+          "id": "nanoporous-grs2027:conference-end",
+          "version": 1,
+          "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6696,7 +7814,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-08-01",
           "time": null,
           "timezone": null,
@@ -6706,6 +7824,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-08-06",
+          "time": null,
+          "timezone": null,
+          "id": "nanoporous-grc2027:conference-end",
+          "version": 1,
+          "source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "application",
@@ -6753,7 +7884,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-08-07",
           "time": null,
           "timezone": null,
@@ -6763,6 +7894,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-08-13",
+          "time": null,
+          "timezone": null,
+          "id": "ijcai-2027:conference-end",
+          "version": 1,
+          "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6838,7 +7982,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2027-09-26",
           "time": null,
           "timezone": null,
@@ -6848,6 +7992,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-29",
+          "time": null,
+          "timezone": null,
+          "id": "mm27-molecular-modelling-2027:conference-end",
+          "version": 1,
+          "source": "https://uon-comp-chem.github.io/mm2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6910,7 +8067,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2028-01-09",
           "time": null,
           "timezone": null,
@@ -6920,6 +8077,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2028-01-14",
+          "time": null,
+          "timezone": null,
+          "id": "watoc-2028-14th-triennial-congress:conference-end",
+          "version": 1,
+          "source": "https://watoc2028.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -6996,7 +8166,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2028-05-28",
           "time": null,
           "timezone": null,
@@ -7006,6 +8176,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2028-06-02",
+          "time": null,
+          "timezone": null,
+          "id": "foa16:conference-end",
+          "version": 1,
+          "source": "https://www.foa16.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -7093,7 +8276,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2028-05-28",
           "time": null,
           "timezone": null,
@@ -7103,6 +8286,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2028-05-31",
+          "time": null,
+          "timezone": null,
+          "id": "mof2028:conference-end",
+          "version": 1,
+          "source": "https://mof-international.org/mof-conferences/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -7166,7 +8362,7 @@
       "milestones": [
         {
           "kind": "conference_start",
-          "label": "Activity starts",
+          "label": "Conference starts",
           "date": "2028-07-23",
           "time": null,
           "timezone": null,
@@ -7176,6 +8372,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2028-07-28",
+          "time": null,
+          "timezone": null,
+          "id": "22nd-international-zeolite-conference-izc22:conference-end",
+          "version": 1,
+          "source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
         },
         {
           "kind": "abstract",
@@ -7624,6 +8833,12 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-10-27T15:52:40Z",
+      "event_name": "Conference reminder dates",
+      "field": "milestones",
+      "message": "Added 95 verified event end dates, clarified event start labels, and removed 2 on-site / late fee transition reminders. Submission, registration and early-bird deadlines are retained."
+    },
     {
       "at": "2026-10-27T14:43:49Z",
       "event_id": "euromof2027",

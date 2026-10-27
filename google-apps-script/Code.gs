@@ -421,6 +421,7 @@ function planDeliveries_(sub, event, now) {
         id: id, subscriptionId: sub.id, email: sub.email, eventId: event.id,
         eventName: event.name, eventUrl: safeUrl_(event.url), milestoneId: milestone.id,
         milestoneLabel: milestone.label || milestone.kind || 'Conference milestone',
+        milestoneKind: milestone.kind,
         date: milestone.date, time: dateOnly ? null : milestone.time,
         deadlineTimeZone: dateOnly ? null : zone, precision: milestone.precision,
         source: safeUrl_(milestone.source), version: version, leadDays: lead,
@@ -436,13 +437,13 @@ function reminderMessage_(rows, token) {
   const manage = tokenUrl_('manage', token);
   const cancel = tokenUrl_('unsubscribe', token);
   const lines = rows.map(function (row) {
-    const date = row.date + (row.time ? ' ' + row.time + ' (' + row.deadlineTimeZone + ')' : ' — deadline time not published');
+    const date = reminderDateText_(row);
     return row.eventName + '\n' + row.milestoneLabel + ': ' + date + '\n' + row.leadDays +
       ' calendar day(s) before this milestone.\nOfficial website: ' + row.eventUrl +
       (row.source ? '\nDate source: ' + row.source : '');
   });
   const html = rows.map(function (row) {
-    const date = row.date + (row.time ? ' ' + row.time + ' (' + row.deadlineTimeZone + ')' : ' — deadline time not published');
+    const date = reminderDateText_(row);
     return '<li><strong>' + escapeHtml_(row.eventName) + '</strong><br>' +
       escapeHtml_(row.milestoneLabel) + ': ' + escapeHtml_(date) + '<br>' +
       escapeHtml_(row.leadDays) + ' calendar day(s) before this milestone. ' +
@@ -457,6 +458,13 @@ function reminderMessage_(rows, token) {
       '<p>Check the official website before making plans.</p><p><a href="' + escapeHtml_(manage) +
       '">Manage reminders</a> · <a href="' + escapeHtml_(cancel) + '">Unsubscribe</a></p>'
   };
+}
+
+function reminderDateText_(row) {
+  if (row.time) return row.date + ' ' + row.time + ' (' + row.deadlineTimeZone + ')';
+  const unpublished = row.milestoneKind === 'conference_start' ? 'start time not published' :
+    row.milestoneKind === 'conference_end' ? 'end time not published' : 'time not published';
+  return row.date + ' — ' + unpublished;
 }
 
 function validOwnerSmokeTest_(row) {
@@ -560,6 +568,7 @@ function publicEvent_(event, timeZone) {
   const zone = validTimeZone_(timeZone) ? timeZone : 'Europe/London';
   return {
     id: event.id, name: event.name, url: safeUrl_(event.url), enabled: eventEnabled_(event),
+    start: event.start || null, end: event.end || null, type: event.type || null,
     milestones: (event.milestones || []).map(function (m) {
       const valid = schedulable_(m);
       const due = valid ? zonedTime_(shiftDate_(m.date, -1), m.precision === 'date' ? '09:00' : m.time, m.precision === 'date' ? zone : m.timezone) : null;

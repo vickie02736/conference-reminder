@@ -86,6 +86,56 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertTrue(all(change["source"] == row["url"] and change["evidence"] for change in changes))
         self.assertEqual(validate_catalog(updated), [])
 
+    def test_jsonld_reschedules_start_and_end_nodes_without_changing_deadline_summary(self):
+        row = event()
+        row["milestones"] = [
+            {"id": "stable-start", "kind": "conference_start", "label": "Activity starts", "date": row["start"],
+             "time": None, "timezone": None, "precision": "date", "status": "verified", "source": row["url"],
+             "evidence": "Previously published activity dates.", "version": 2},
+            {"id": "stable-end", "kind": "conference_end", "label": "Activity ends", "date": row["end"],
+             "time": None, "timezone": None, "precision": "date", "status": "verified", "source": row["url"],
+             "evidence": "Previously published activity dates.", "version": 3}
+        ]
+        updated, state, changes = self.merge(row, {row["url"]: fetched(jsonld_html())})
+        actual = updated["events"][0]
+        nodes = {node["kind"]: node for node in actual["milestones"]}
+        self.assertEqual((nodes["conference_start"]["id"], nodes["conference_start"]["date"], nodes["conference_start"]["version"]),
+                         ("stable-start", "2027-06-05", 3))
+        self.assertEqual((nodes["conference_end"]["id"], nodes["conference_end"]["date"], nodes["conference_end"]["version"]),
+                         ("stable-end", "2027-06-07", 4))
+        self.assertTrue(all(node["precision"] == "date" and node["time"] is None and node["timezone"] is None for node in nodes.values()))
+        self.assertEqual(actual["deadline"], row["deadline"])
+        self.assertNotIn("deadline_notes", actual)
+        self.assertTrue(any(change["field"] == "milestones.stable-end" for change in changes))
+        self.assertEqual(validate_catalog(updated), [])
+        second, _, changes = update_catalog(updated, state, ADAPTERS, {row["url"]: fetched(jsonld_html())}, "2026-10-28T12:00:00Z")
+        self.assertEqual(changes, [])
+        self.assertEqual(second["events"][0]["milestones"], actual["milestones"])
+
+    def test_conflicting_end_node_is_not_silently_resolved_by_jsonld(self):
+        row = event()
+        row["milestones"] = [{"id": "end", "kind": "conference_end", "label": "Activity ends", "date": None,
+                              "time": None, "timezone": None, "precision": "unknown", "status": "conflict",
+                              "source": row["url"], "evidence": "Official end dates disagree.", "version": 1}]
+        updated, _, _ = self.merge(row, {row["url"]: fetched(jsonld_html())})
+        node = next(node for node in updated["events"][0]["milestones"] if node["kind"] == "conference_end")
+        self.assertEqual(node, row["milestones"][0])
+        self.assertEqual(updated["events"][0]["end"], row["end"])
+        self.assertEqual(updated["events"][0]["check"]["status"], "review_required")
+
+    def test_deadline_summary_excludes_both_activity_start_and_end(self):
+        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts.html")
+        row["milestones"] = [
+            {"id": "start", "kind": "conference_start", "label": "Activity starts", "date": row["start"],
+             "time": None, "timezone": None, "precision": "date", "status": "verified", "source": row["url"],
+             "evidence": "Official activity dates.", "version": 1},
+            {"id": "end", "kind": "conference_end", "label": "Activity ends", "date": row["end"],
+             "time": None, "timezone": None, "precision": "date", "status": "verified", "source": row["url"],
+             "evidence": "Official activity dates.", "version": 1}
+        ]
+        updated, _, _ = self.merge(row, {row["url"]: fetched((FIXTURES / "euromof-abstracts.html").read_text())})
+        self.assertEqual(updated["events"][0]["deadline"], "Abstract submission: 2027-02-01")
+
     def test_different_conference_or_year_cannot_overwrite_dates(self):
         row = event()
         for html in (jsonld_html(name="Another Conference 2027"), jsonld_html(start="2026-06-05", end="2026-06-07"),
@@ -170,6 +220,14 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertIn("Registration platform not yet open", actual["status"])
         self.assertEqual(actual["deadline_notes"], row["deadline"])
         self.assertTrue(changes)
+
+    def test_fee_opening_transitions_are_not_generated_as_reminder_nodes(self):
+        config = next(a for a in ADAPTERS["adapters"] if a["parser"] == "euromof_registration")
+        text, _ = parse_html((FIXTURES / "euromof-registration.html").read_text() +
+                             "<main><h2>Onsite fee</h2><p>From July 4, 2027</p><h2>Late fee opens</h2><p>July 4, 2027</p></main>")
+        observation = known_adapter(text, config)
+        self.assertEqual([node["kind"] for node in observation["milestones"]], ["early_registration", "registration"])
+        self.assertFalse(any(node["date"] == "2027-07-04" for node in observation["milestones"]))
 
     def test_adapter_template_change_preserves_existing_facts(self):
         config = next(a for a in ADAPTERS["adapters"] if a["parser"] == "euromof_abstracts")

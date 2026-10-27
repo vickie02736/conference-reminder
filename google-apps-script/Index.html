@@ -14,6 +14,11 @@
     .eyebrow { color: #477665; font-size: .78rem; letter-spacing: .13em; text-transform: uppercase; font-weight: 750; }
     h1 { line-height: 1.15; font-size: clamp(1.8rem, 6vw, 2.5rem); margin: 12px 0 18px; letter-spacing: -.04em; }
     h2 { font-size: 1.3rem; line-height: 1.3; margin: 24px 0 12px; }
+    .event-dates { background: #edf6f1; border-left: 3px solid #4b8a72; padding: 12px 16px; border-radius: 0 9px 9px 0; }
+    .event-type { margin-top: 5px; font-size: .8rem; color: #566b70; }
+    .date-group { margin-top: 18px; }
+    .date-group h3 { font-size: .92rem; margin: 0 0 8px; color: #34564a; }
+    .date-group-conference .choice { border-color: #a3c5b3; }
     p { margin: 12px 0; }
     a { color: #15614d; text-underline-offset: 3px; }
     .muted, small { color: #566b70; }
@@ -108,23 +113,47 @@
   function milestoneText(m) {
     let text = m.date || 'Date not published';
     if (m.precision === 'datetime') text += ' ' + m.time + ' (' + m.timezone + ')';
-    else if (m.precision === 'date') text += ' · deadline time not published';
+    else if (m.precision === 'date') {
+      const unpublished = m.kind === 'conference_start' ? 'start time not published' :
+        m.kind === 'conference_end' ? 'end time not published' :
+        milestoneGroup(m) === 1 || ['funding', 'application'].includes(m.kind) ? 'deadline time not published' : 'time not published';
+      text += ' · ' + unpublished;
+    }
     if (!m.available) text += m.unavailableReason === 'past' ? ' · reminder times have passed' : ' · date unavailable or requires verification';
     return text;
+  }
+  function milestoneGroup(m) {
+    if (['conference_start', 'conference_end'].includes(m.kind)) return 0;
+    return ['abstract', 'paper', 'full_paper', 'short_paper', 'poster', 'submission', 'registration',
+      'early_registration', 'late_registration', 'workshop_submission'].includes(m.kind) ? 1 : 2;
+  }
+  function milestoneGroups(milestones) {
+    return ['Conference dates', 'Submission & registration deadlines', 'Other important dates'].map((title, index) => {
+      const items = milestones.filter((m) => milestoneGroup(m) === index);
+      if (index === 0) items.sort((a, b) => Number(a.kind === 'conference_end') - Number(b.kind === 'conference_end'));
+      return { title, index, items };
+    }).filter((group) => group.items.length);
+  }
+  function dateGroup(parent, group) {
+    const section = element('section', null, { class: 'date-group' + (group.index === 0 ? ' date-group-conference' : '') });
+    section.append(element('h3', group.title)); parent.append(section); return section;
   }
   function preferences(form, event, initial) {
     const current = initial || { milestoneIds: [], leadDays: [3], timeZone: defaultZone };
     const milestones = element('fieldset');
     milestones.append(element('legend', 'Important dates'));
     const milestoneInputs = [];
-    event.milestones.forEach((m) => {
-      const label = element('label', null, { class: 'choice' });
-      const input = element('input', null, { type: 'checkbox', value: m.id });
-      input.disabled = !m.available;
-      input.checked = m.available && current.milestoneIds.includes(m.id);
-      const text = element('span', m.label || m.kind || 'Conference milestone');
-      text.append(element('small', milestoneText(m)));
-      label.append(input, text); milestones.append(label); milestoneInputs.push(input);
+    milestoneGroups(event.milestones).forEach((group) => {
+      const section = dateGroup(milestones, group);
+      group.items.forEach((m) => {
+        const label = element('label', null, { class: 'choice' });
+        const input = element('input', null, { type: 'checkbox', value: m.id });
+        input.disabled = !m.available;
+        input.checked = m.available && current.milestoneIds.includes(m.id);
+        const text = element('span', m.label || m.kind || 'Conference milestone');
+        text.append(element('small', milestoneText(m)));
+        label.append(input, text); section.append(label); milestoneInputs.push(input);
+      });
     });
     if (!event.milestones.length) milestones.append(element('p', 'No verified important dates have been published yet.', { class: 'muted' }));
     form.append(milestones);
@@ -142,7 +171,7 @@
     const datalist = element('datalist', null, { id: listId });
     zones.forEach((name) => datalist.append(element('option', null, { value: name })));
     zone.setAttribute('list', listId); form.append(datalist);
-    form.append(element('small', 'Dates without a published time: reminders arrive at approximately 09:00 in your time zone. Published exact deadlines: reminders use the same local clock time, 1, 3, or 7 calendar days earlier.'));
+    form.append(element('small', 'Dates without a published time: reminders arrive at approximately 09:00 in your time zone. Dates with a published time: reminders use the same local clock time, 1, 3, or 7 calendar days earlier.'));
     return () => ({
       milestoneIds: milestoneInputs.filter((input) => input.checked && !input.disabled).map((input) => input.value),
       leadDays: leadInputs.filter((input) => input.checked).map((input) => Number(input.value)), timeZone: zone.value.trim()
@@ -150,6 +179,19 @@
   }
   function eventTitle(event, parent) {
     parent.append(element('h2', event.name));
+    const dates = element('div', null, { class: 'event-dates' });
+    const validDate = (date) => typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date) &&
+      !Number.isNaN(Date.parse(date + 'T12:00:00Z')) && new Date(date + 'T12:00:00Z').toISOString().slice(0, 10) === date;
+    const formatDate = (date) => new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(date + 'T12:00:00Z'));
+    const start = validDate(event.start) ? event.start : null;
+    const end = validDate(event.end) ? event.end : null;
+    let range = 'Dates not published';
+    if (start && end) range = start === end ? formatDate(start) : formatDate(start) + ' — ' + formatDate(end);
+    else if (start) range = 'Starts ' + formatDate(start) + ' · end date not published';
+    else if (end) range = 'Ends ' + formatDate(end) + ' · start date not published';
+    dates.append(element('strong', range));
+    if (event.type) dates.append(element('div', event.type, { class: 'event-type' }));
+    parent.append(dates);
     parent.append(link('Official conference website ↗', event.url));
   }
   function managementRequest(parent) {
@@ -182,7 +224,7 @@
     form.addEventListener('submit', (e) => {
       e.preventDefault(); action(button, () => rpc('subscribe', { eventId: boot.eventId, email: email.value, company: hp.value, ...prefs() }));
     });
-    content.append(form, element('p', 'Only future reminder times are scheduled. If a deadline changes, future reminders follow the latest verified date.', { class: 'muted' }));
+    content.append(form, element('p', 'Only future reminder times are scheduled. If an important date changes, future reminders follow the latest verified date.', { class: 'muted' }));
     managementRequest(content);
   }
   async function verifyView() {
@@ -190,8 +232,11 @@
     const result = await rpc('getVerificationDetails', { token: boot.token });
     content.replaceChildren(); eventTitle(result.event, content);
     const selected = result.event.milestones.filter((m) => result.preferences.milestoneIds.includes(m.id));
-    const list = element('ul'); selected.forEach((m) => list.append(element('li', (m.label || m.kind) + ': ' + milestoneText(m))));
-    content.append(list, element('p', 'Remind me ' + result.preferences.leadDays.join(', ') + ' calendar day(s) before, using ' + result.preferences.timeZone + ' for dates without a published time.'));
+    milestoneGroups(selected).forEach((group) => {
+      const section = dateGroup(content, group);
+      const list = element('ul'); group.items.forEach((m) => list.append(element('li', (m.label || m.kind) + ': ' + milestoneText(m)))); section.append(list);
+    });
+    content.append(element('p', 'Remind me ' + result.preferences.leadDays.join(', ') + ' calendar day(s) before, using ' + result.preferences.timeZone + ' for dates without a published time.'));
     const button = element('button', 'Confirm email and activate reminders');
     button.disabled = !result.emailEnabled;
     button.addEventListener('click', async () => {
