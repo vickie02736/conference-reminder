@@ -4,12 +4,12 @@
     "schema_version": 1,
     "verified_on": "2026-10-27",
     "scope": "Future AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration are retained.",
-    "count": 96,
+    "count": 100,
     "watchlist_count": 6,
     "regions": {
-      "UK": 22,
-      "Europe": 41,
-      "Other": 33
+      "UK": 24,
+      "Europe": 45,
+      "Other": 37
     },
     "notes": [
       "A non-exhaustive research snapshot based on conference, organiser, society and university sources.",
@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-10-27T14:55:25Z",
-    "last_updated_at": "2026-10-27T16:40:42Z"
+    "last_updated_at": "2026-10-27T21:25:00Z"
   },
   "events": [
     {
@@ -8488,6 +8488,360 @@
           "precision": "unknown",
           "status": "unknown",
           "evidence": "No exact date was verified in the linked source."
+        }
+      ]
+    },
+    {
+      "id": "digichem27-raci-chemistry-automation-conference",
+      "name": "DigiChem'27 — RACI Chemistry Automation Conference",
+      "tags": [
+        "AI for Chemistry",
+        "Automation",
+        "Cheminformatics"
+      ],
+      "start": "2027-02-22",
+      "end": "2027-02-23",
+      "date": "2027-02-22 — 2027-02-23",
+      "location": "Melbourne, Australia — Monash University, 750 Collins St",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Abstracts: 31 October 2026; notifications: 15 November 2026; early-bird registration: 30 November 2026.",
+      "status": "Abstract submissions and registration open; key deadlines published.",
+      "note": "RACI Chemistry Automation Conference covering automated experimentation, AI/ML and digital chemistry. Relevant to automated materials and chemical discovery, though outside the UK/Europe region.",
+      "sources": [
+        "https://digichem27.au/"
+      ],
+      "url": "https://digichem27.au/",
+      "priority": 2,
+      "verified_on": "2026-10-27",
+      "evidence": "The official RACI conference page confirms 22–23 February 2027 in Melbourne, the Monash venue and the abstract, notification and early-bird dates.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-27T21:25:00Z",
+        "last_verified_at": "2026-10-27T21:25:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-02-22",
+          "time": null,
+          "timezone": null,
+          "id": "digichem27-raci-chemistry-automation-conference:conference_start",
+          "version": 1,
+          "source": "https://digichem27.au/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official conference page lists 22 February 2027."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-02-23",
+          "time": null,
+          "timezone": null,
+          "id": "digichem27-raci-chemistry-automation-conference:conference_end",
+          "version": 1,
+          "source": "https://digichem27.au/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official conference page lists 23 February 2027."
+        },
+        {
+          "kind": "abstract",
+          "label": "Abstract submissions",
+          "date": "2026-10-31",
+          "time": null,
+          "timezone": null,
+          "id": "digichem27-raci-chemistry-automation-conference:abstract",
+          "version": 1,
+          "source": "https://digichem27.au/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official conference page lists the abstract deadline."
+        },
+        {
+          "kind": "other",
+          "label": "Author notifications",
+          "date": "2026-11-15",
+          "time": null,
+          "timezone": null,
+          "id": "digichem27-raci-chemistry-automation-conference:other",
+          "version": 1,
+          "source": "https://digichem27.au/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official conference page lists the notification date."
+        },
+        {
+          "kind": "early_registration",
+          "label": "Early registration",
+          "date": "2026-11-30",
+          "time": null,
+          "timezone": null,
+          "id": "digichem27-raci-chemistry-automation-conference:early_registration",
+          "version": 1,
+          "source": "https://digichem27.au/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official conference page lists the early-bird registration deadline."
+        }
+      ]
+    },
+    {
+      "id": "dgm-aimse-2027",
+      "name": "AIMSE 2027 — 3rd Conference on Artificial Intelligence in Materials Science",
+      "tags": [
+        "AI for Materials",
+        "Materials Informatics",
+        "Simulation",
+        "Automation"
+      ],
+      "start": "2027-11-17",
+      "end": "2027-11-18",
+      "date": "2027-11-17 — 2027-11-18",
+      "location": "Aalen, Germany / online",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Submission deadline and registration dates have not yet been published.",
+      "status": "Dates announced; call for papers and registration details pending.",
+      "note": "German Materials Society conference focused on machine-learning interatomic potentials, generative and graph models, materials discovery, active learning and automated experimentation.",
+      "sources": [
+        "https://dgm.de/aimse/2027"
+      ],
+      "url": "https://dgm.de/aimse/2027",
+      "priority": 1,
+      "verified_on": "2026-10-27",
+      "evidence": "The official DGM page confirms 17–18 November 2027 in Aalen and online and lists the AI-for-materials research themes.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-27T21:25:00Z",
+        "last_verified_at": "2026-10-27T21:25:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-11-17",
+          "time": null,
+          "timezone": null,
+          "id": "dgm-aimse-2027:conference_start",
+          "version": 1,
+          "source": "https://dgm.de/aimse/2027",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official DGM page lists 17 November 2027."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-11-18",
+          "time": null,
+          "timezone": null,
+          "id": "dgm-aimse-2027:conference_end",
+          "version": 1,
+          "source": "https://dgm.de/aimse/2027",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official DGM page lists 18 November 2027."
+        },
+        {
+          "kind": "abstract",
+          "label": "Abstracts",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "id": "dgm-aimse-2027:abstract",
+          "version": 1,
+          "source": "https://dgm.de/aimse/2027",
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "No submission deadline is published on the official page."
+        },
+        {
+          "kind": "registration",
+          "label": "Registration",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "id": "dgm-aimse-2027:registration",
+          "version": 1,
+          "source": "https://dgm.de/aimse/2027",
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "Registration details are not yet published on the official page."
+        }
+      ]
+    },
+    {
+      "id": "fda-cheminformatics-resources-2027",
+      "name": "Cheminformatics Resources of U.S. Governmental Organizations 2027",
+      "tags": [
+        "AI for Chemistry",
+        "Cheminformatics",
+        "Simulation"
+      ],
+      "start": "2027-04-12",
+      "end": "2027-04-14",
+      "date": "2027-04-12 — 2027-04-14",
+      "location": "Silver Spring, Maryland, USA — FDA White Oak / online",
+      "region": "Other",
+      "type": "Workshop / Discussion",
+      "deadline": "Public registration deadline not identified; attendance is restricted to U.S. government employees and contractors.",
+      "status": "Future workshop; participation is restricted to U.S. government employees and contractors.",
+      "note": "Official FDA workshop on cheminformatics resources, AI/ML, QSAR and computational chemistry. Direct research relevance is moderate, and ordinary academic attendance is not available.",
+      "sources": [
+        "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027"
+      ],
+      "url": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+      "priority": 3,
+      "verified_on": "2026-10-27",
+      "evidence": "The official FDA page confirms 12–14 April 2027 at FDA White Oak and online, the computational chemistry/AI content and the attendance restriction.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-27T21:25:00Z",
+        "last_verified_at": "2026-10-27T21:25:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Workshop starts",
+          "date": "2027-04-12",
+          "time": null,
+          "timezone": null,
+          "id": "fda-cheminformatics-resources-2027:conference_start",
+          "version": 1,
+          "source": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official FDA page lists 12 April 2027."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-04-14",
+          "time": null,
+          "timezone": null,
+          "id": "fda-cheminformatics-resources-2027:conference_end",
+          "version": 1,
+          "source": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official FDA page lists 14 April 2027."
+        },
+        {
+          "kind": "registration",
+          "label": "Registration",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "id": "fda-cheminformatics-resources-2027:registration",
+          "version": 1,
+          "source": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "No public registration cutoff was identified and attendance is restricted."
+        }
+      ]
+    },
+    {
+      "id": "wmt-2026-when-materials-think",
+      "name": "WMT 2026 — When Materials Think",
+      "tags": [
+        "AI for Materials",
+        "General Materials",
+        "Automation"
+      ],
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "date": "2026-12-01",
+      "location": "Glasgow, UK — Advanced Research Centre, University of Glasgow",
+      "region": "UK",
+      "type": "Workshop / Discussion",
+      "deadline": "Challenge paper submission: 15 October 2026 AoE (closed); notification: 26 October 2026; camera-ready: 9 November 2026.",
+      "status": "Submission closed; workshop scheduled for 1 December 2026.",
+      "note": "ACM MUM 2026 workshop on computational materials, embedded AI, sensing and actuation. Adjacent to materials informatics rather than porous-materials chemistry.",
+      "sources": [
+        "https://wmt2026workshop.github.io/"
+      ],
+      "url": "https://wmt2026workshop.github.io/",
+      "priority": 3,
+      "verified_on": "2026-10-27",
+      "evidence": "The official workshop page confirms 1 December 2026 in Glasgow, the ACM MUM affiliation and all published paper dates.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-27T21:25:00Z",
+        "last_verified_at": "2026-10-27T21:25:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Workshop starts",
+          "date": "2026-12-01",
+          "time": null,
+          "timezone": null,
+          "id": "wmt-2026-when-materials-think:conference_start",
+          "version": 1,
+          "source": "https://wmt2026workshop.github.io/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official workshop page lists 1 December 2026."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-12-01",
+          "time": null,
+          "timezone": null,
+          "id": "wmt-2026-when-materials-think:conference_end",
+          "version": 1,
+          "source": "https://wmt2026workshop.github.io/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The official page describes a one-day half-day workshop."
+        },
+        {
+          "kind": "paper",
+          "label": "Challenge paper submission",
+          "date": "2026-10-15",
+          "time": null,
+          "timezone": null,
+          "id": "wmt-2026-when-materials-think:challenge-paper",
+          "version": 1,
+          "source": "https://wmt2026workshop.github.io/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page states the deadline was extended to 15 October 2026 AoE."
+        },
+        {
+          "kind": "other",
+          "label": "Author notification",
+          "date": "2026-10-26",
+          "time": null,
+          "timezone": null,
+          "id": "wmt-2026-when-materials-think:other",
+          "version": 1,
+          "source": "https://wmt2026workshop.github.io/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page lists 26 October 2026."
+        },
+        {
+          "kind": "paper",
+          "label": "Camera-ready",
+          "date": "2026-11-09",
+          "time": null,
+          "timezone": null,
+          "id": "wmt-2026-when-materials-think:camera-ready",
+          "version": 1,
+          "source": "https://wmt2026workshop.github.io/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page lists 9 November 2026."
         }
       ]
     }

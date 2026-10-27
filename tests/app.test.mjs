@@ -48,8 +48,8 @@ async function harness({ delayed = false, failed = false } = {}) {
 
 test('global totals and provisional cards use the same scheduled/watchlist classification', async () => {
   const h = await harness(); h.set('region', 'all');
-  assert.deepEqual([...h.elements.get('catalogue-stats').innerHTML.matchAll(/<b>(\d+)<\/b>/g)].map((m) => Number(m[1])), [96, 22, 41, 6]);
-  assert.equal(h.elements.get('result-count').textContent, '96 scheduled · 6 dates pending / unconfirmed');
+  assert.deepEqual([...h.elements.get('catalogue-stats').innerHTML.matchAll(/<b>(\d+)<\/b>/g)].map((m) => Number(m[1])), [100, 23, 42, 6]);
+  assert.equal(h.elements.get('result-count').textContent, '100 scheduled · 6 dates pending / unconfirmed');
   for (const event of catalogue.watchlist) {
     const card = h.list().match(new RegExp('<article[^>]*id="event-' + event.id + '"[\\s\\S]*?<\\/article>'))?.[0];
     assert.ok(card, event.id);
@@ -94,7 +94,7 @@ test('source shortcuts reveal all affected activities and the source filter comb
   assert.equal(h.elements.get('advanced-count').textContent, '');
   assert.equal(h.elements.get('advanced-filters').open, false);
   assert.equal(shortcuts[1].attributes['aria-pressed'], 'false');
-  assert.equal(h.elements.get('result-count').textContent, '64 scheduled · 4 dates pending / unconfirmed');
+  assert.equal(h.elements.get('result-count').textContent, '66 scheduled · 4 dates pending / unconfirmed');
 });
 
 test('loading retains its loading state even if email configuration arrives first', async () => {
