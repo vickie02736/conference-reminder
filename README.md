@@ -2,7 +2,7 @@
 
 [Visit the website](https://vickie02736.github.io/conference-reminder/)
 
-An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The initial research snapshot, verified on 27 October 2026, includes **95 scheduled activities and six announcements awaiting dates**. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
+An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The initial research snapshot, verified on 27 October 2026, includes **96 scheduled activities and six announcements awaiting dates**. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
 
 ## Sharing with the research group
 

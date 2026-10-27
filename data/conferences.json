@@ -4,11 +4,11 @@
     "schema_version": 1,
     "verified_on": "2026-10-27",
     "scope": "Future AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration are retained.",
-    "count": 95,
+    "count": 96,
     "watchlist_count": 6,
     "regions": {
       "UK": 22,
-      "Europe": 40,
+      "Europe": 41,
       "Other": 33
     },
     "notes": [
@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-10-27T14:55:25Z",
-    "last_updated_at": "2026-10-27T15:52:40Z"
+    "last_updated_at": "2026-10-27T16:40:42Z"
   },
   "events": [
     {
@@ -577,6 +577,68 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        }
+      ]
+    },
+    {
+      "id": "recent-advances-in-chemistry-and-ai-2026",
+      "name": "Recent Advances in Chemistry and AI",
+      "tags": [
+        "AI",
+        "AI for Materials",
+        "AI for Chemistry",
+        "Simulation"
+      ],
+      "start": "2026-12-14",
+      "end": "2026-12-15",
+      "date": "2026-12-14 — 2026-12-15",
+      "location": "Paris, France — Chimie ParisTech–PSL, Amphi Friedel, 11 Rue Pierre et Marie Curie, 75005",
+      "region": "Europe",
+      "type": "Workshop / Discussion",
+      "deadline": "Registration link published by the organiser. Registration cutoff, fees and submission opportunities have not been verified.",
+      "status": "Registration link available via PR[AI]RIE; current ticket availability is not confirmed. Detailed programme forthcoming.",
+      "note": "A 1.5-day workshop organised by PR[AI]RIE and Chimie ParisTech–PSL on machine learning for molecular discovery, materials design and computational chemistry. Keynote speakers: Kim Jelfs, Pascal Friederich, Alexandre Tkatchenko, Simon Olsson, Ola Engkvist and Max Welling. Scientific committee includes François-Xavier Coudert. Starts at 14:00 Paris local time on 14 December. End time on 15 December conflicts: the school lists 17:00, while Weezevent lists 20:00; confirm the final programme before booking travel.",
+      "sources": [
+        "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+        "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
+        "https://my.weezevent.com/recent-advances-in-chemistry-and-ai"
+      ],
+      "url": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+      "priority": 1,
+      "verified_on": "2026-10-27",
+      "evidence": "The school, organiser and organiser-linked registration page agree on 14–15 December 2026 and Chimie ParisTech–PSL in Paris. Weezevent structured data confirms the start at 13:00 UTC (14:00 Europe/Paris). Only the end date is used for the end reminder because the published end times disagree.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-27T16:40:42Z",
+        "last_verified_at": "2026-10-27T16:40:42Z",
+        "message": "End time differs between the school (17:00) and registration page (20:00); the dates agree."
+      },
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Workshop starts",
+          "date": "2026-12-14",
+          "time": "14:00",
+          "timezone": "Europe/Paris",
+          "id": "recent-advances-in-chemistry-and-ai-2026:conference-start",
+          "version": 1,
+          "source": "https://my.weezevent.com/recent-advances-in-chemistry-and-ai",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "School and registration pages list 14 December 2026 at 14:00; registration JSON-LD gives 2026-12-14T13:00:00+00:00, equivalent to 14:00 Europe/Paris."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends (date only; time needs confirmation)",
+          "date": "2026-12-15",
+          "time": null,
+          "timezone": null,
+          "id": "recent-advances-in-chemistry-and-ai-2026:conference-end",
+          "version": 1,
+          "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Both official pages confirm 15 December 2026. End time is unresolved: school 17:00 versus registration page 20:00. This reminder uses the confirmed date only."
         }
       ]
     },
@@ -8833,6 +8895,13 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-10-27T16:40:42Z",
+      "event_id": "recent-advances-in-chemistry-and-ai-2026",
+      "event_name": "Recent Advances in Chemistry and AI",
+      "field": "event",
+      "message": "Added the 14–15 December 2026 Paris workshop with official sources and registration link. End-time discrepancy is explicitly noted; fees and registration deadline remain unverified."
+    },
     {
       "at": "2026-10-27T15:52:40Z",
       "event_name": "Conference reminder dates",
