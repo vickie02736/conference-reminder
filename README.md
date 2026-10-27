@@ -1,7 +1,7 @@
-# 会前 · 会议提醒
+# Conference Reminder
 
-纯静态中文会议提醒网页，支持会议管理、倒计时、浏览器通知及 ICS 日历导出。
+An English-language academic conference tracker with submission deadline countdowns, conference dates, locations, official website links, browser notifications, and ICS deadline export.
 
-会议数据使用当前浏览器的 localStorage 保存。浏览器通知需要授权并保持网页开启；关闭网页后的提醒请使用导出的日历文件。日历默认会议时长为一小时。
+Data is stored only in the current browser. Browser notifications require permission and an open page. Export deadlines to a calendar for reminders when the page is closed. Enter submission deadlines in your device’s local time zone after converting the official conference time zone. Conference listings are entered manually; deadlines are not automatically verified or updated.
 
-通过 GitHub Pages 从 main 分支根目录发布，无需构建。
+Published with GitHub Pages from the main branch root. No build required.
