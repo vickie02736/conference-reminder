@@ -43,13 +43,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
       - name: Test reminder rules
@@ -65,11 +67,25 @@ jobs:
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
         run: |
           git add data/conferences.json data/source-checks.json
-          if ! git diff --cached --quiet; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Update official conference checks'
-            git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo "No catalogue changes to commit."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update official conference checks'
+          pushed=
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then
+              pushed=1
+              break
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 4))
+          done
+          if [ -z "$pushed" ]; then
+            echo "::warning::Could not push catalogue updates onto main; this run will still publish the website."
           fi
       - name: Assemble public website only
         run: |
@@ -78,11 +94,11 @@ jobs:
           cp -R assets data _site/
           touch _site/.nojekyll
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload website
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: _site
       - name: Publish website
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
