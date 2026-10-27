@@ -45,22 +45,35 @@ class SourceUpdateTests(unittest.TestCase):
         second = fetched("<nav>New menu</nav><main>Conference 2027   June 1</main><footer>2027</footer>")
         self.assertEqual(first["hash"], second["hash"])
 
-    def test_generic_first_baseline_requires_review_and_does_not_guess_dates(self):
+    def test_generic_first_baseline_records_hash_without_review_or_guessed_dates(self):
         row = event()
         original = deepcopy(row)
         updated, state, changes = self.merge(row, {row["url"]: fetched("<main>June 25, 2027. Book your hotel.</main>")})
         actual = updated["events"][0]
         self.assertEqual(actual["start"], original["start"])
-        self.assertEqual(actual["check"]["status"], "review_required")
+        self.assertEqual(actual["check"]["status"], "checked")
         self.assertEqual(actual["check"]["last_verified_at"], original["check"]["last_verified_at"])
         self.assertEqual(changes, [])
-        self.assertTrue(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
+        self.assertFalse(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
         self.assertEqual(row, original, "Merge must not mutate input objects.")
 
-    def test_unresolved_review_is_not_cleared_by_an_unchanged_page(self):
+    def test_hash_only_review_clears_when_the_page_stabilises(self):
         row = event()
-        fetches = {row["url"]: fetched("<main>Conference details changed.</main>")}
+        first_html = fetched("<main>Conference details, version one.</main>")
+        second_html = fetched("<main>Conference details, version two with extra copy.</main>")
+        state = {"sources": {row["url"]: {"hash": first_html["hash"]}}}
+        first, state, _ = self.merge(row, {row["url"]: second_html}, state)
+        self.assertEqual(first["events"][0]["check"]["status"], "review_required")
+        self.assertTrue(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
+        second, state, _ = update_catalog(first, state, ADAPTERS, {row["url"]: second_html}, "2026-10-28T12:00:00Z")
+        self.assertEqual(second["events"][0]["check"]["status"], "checked")
+        self.assertFalse(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
+
+    def test_real_review_is_not_cleared_by_an_unchanged_page(self):
+        row = event()
+        fetches = {row["url"]: fetched(jsonld_html() + jsonld_html(start="2027-07-05", end="2027-07-07"))}
         first, state, _ = self.merge(row, fetches)
+        self.assertEqual(first["events"][0]["check"]["status"], "review_required")
         second, _, _ = update_catalog(first, state, ADAPTERS, fetches, "2026-10-28T12:00:00Z")
         self.assertEqual(second["events"][0]["check"]["status"], "review_required")
 
@@ -74,6 +87,21 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(new_state["sources"][row["url"]]["hash"], "old-hash")
         self.assertEqual(new_state["sources"][row["url"]]["last_success_at"], "2026-10-26T12:00:00Z")
         self.assertEqual(changes, [])
+
+    def test_bot_challenge_empty_page_and_timeout_are_unverifiable(self):
+        row = event()
+        for message in (
+            "HTTP Error 403: Forbidden",
+            "Official source returned no readable page content.",
+            "Official source returned an access challenge, not conference content.",
+            "<urlopen error timed out>",
+            "IncompleteRead(24132 bytes read)",
+        ):
+            with self.subTest(message=message):
+                updated, state, _ = self.merge(row, {row["url"]: {"ok": False, "message": message}})
+                self.assertEqual(updated["events"][0]["check"]["status"], "unverifiable")
+                self.assertEqual(state["sources"][row["url"]]["status"], "unverifiable")
+                self.assertEqual(updated["events"][0]["start"], row["start"])
 
     def test_matching_official_jsonld_updates_dates_and_records_evidence(self):
         row = event()

@@ -11,14 +11,14 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aaai-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://ai4science-amsterdam.github.io/news/chemai/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "Official source returned no readable page content."
     },
     "https://actc2027.com/": {
@@ -31,8 +31,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "actc-2027-american-conference-on-theoretical-chemistry": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -46,24 +46,24 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ai4x-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://ai4am.net/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "Official source returned no readable page content."
     },
     "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "IncompleteRead(7761 bytes read)"
     },
     "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "IncompleteRead(24124 bytes read)"
     },
     "https://aistats.org/aistats2027/dates.html": {
@@ -76,8 +76,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aistats-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -91,19 +91,19 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ijcai-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "IncompleteRead(15940 bytes read)"
     },
     "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "IncompleteRead(24132 bytes read)"
     },
     "https://aixmat.candela.org.pl/": {
@@ -116,8 +116,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aixmat-2026-ai-in-materials-research-summit": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -131,8 +131,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ukpormat2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -146,8 +146,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -161,8 +161,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "the-advanced-materials-show-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -176,8 +176,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "cpm10": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -191,8 +191,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "do-androids-dream-of-electric-papers-benchmarking-ai-scientists": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -206,8 +206,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "next-cops-conference-cops-xiii": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -221,8 +221,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "cpm10": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -236,8 +236,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "dzt38": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -251,8 +251,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "world-conference-on-carbon-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -266,8 +266,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "world-conference-on-carbon-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -281,8 +281,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ecai-2027-european-conference-on-artificial-intelligence": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -296,8 +296,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ecml-pkdd-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -311,8 +311,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "tyc20-celebration-of-the-thomas-young-centre-at-20": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -326,8 +326,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aimse2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -356,8 +356,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "feza2029-11th-conference-of-the-federation-of-european-zeolite-associations": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -371,12 +371,12 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "mofschool2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         },
         "euromof2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -405,8 +405,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "world-conference-on-carbon-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -420,8 +420,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aisb-convention-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -435,8 +435,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "6th-emmc-international-workshop-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -480,8 +480,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aimse2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -495,8 +495,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "fems-euromat-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -510,14 +510,14 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "7th-fems-industry-symposium-materials-assisted-by-digital-science": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://event.fourwaves.com/interpore2027/submission": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "Official source returned no readable page content."
     },
     "https://fomms.cache.org/2027/important-dates": {
@@ -530,8 +530,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "fomms2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -560,8 +560,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "fomms2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -575,8 +575,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -590,8 +590,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "colt-2027-conference-on-learning-theory": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -605,8 +605,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "icml-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -620,8 +620,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "mof2028": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -635,8 +635,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "vii-annual-spain-interpore-meeting": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -650,8 +650,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "metfoam2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -665,8 +665,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "9th-norway-national-workshop-in-porous-media": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -680,8 +680,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -695,8 +695,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "23rd-international-workshop-on-computational-physics-and-materials-science-total-energy-and-force-methods": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -710,8 +710,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -725,16 +725,16 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         },
         "automating-atomistic-machine-learning": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         },
         "theoretical-spectroscopy-lectures": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -748,8 +748,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "pbast10": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -763,8 +763,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "the-future-of-porous-frameworks": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -778,8 +778,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "neurips-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -793,8 +793,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "neurips-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -808,8 +808,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -823,8 +823,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "sapem-2026-8th-symposium-on-the-acoustics-of-poro-elastic-materials": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -853,8 +853,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ai4mat-neurips-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -868,8 +868,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "modelling-water-across-scales": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -883,8 +883,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ai4mat-neurips-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -898,8 +898,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "sapem-2026-8th-symposium-on-the-acoustics-of-poro-elastic-materials": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -913,8 +913,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -928,8 +928,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "tyc20-celebration-of-the-thomas-young-centre-at-20": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -943,14 +943,14 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "camml2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://uon-comp-chem.github.io/mm2027/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "Official source returned no readable page content."
     },
     "https://rscfirst.org.cn/": {
@@ -963,19 +963,19 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "rsc-first-2026-ai-in-chemistry": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://watoc2028.org/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "Official source returned no readable page content."
     },
     "https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "<urlopen error [Errno -2] Name or service not known>"
     },
     "https://spring2027.camml.ac.uk/": {
@@ -988,8 +988,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "camml2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1003,19 +1003,19 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "chemai-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "HTTP Error 403: Forbidden"
     },
     "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "HTTP Error 403: Forbidden"
     },
     "https://www.bcs-sgai.org/ai2026/": {
@@ -1028,8 +1028,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ai-2026-sgai-international-conference-on-artificial-intelligence": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1043,8 +1043,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ai-2026-sgai-international-conference-on-artificial-intelligence": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1058,8 +1058,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aistats-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1073,8 +1073,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "aistats-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1088,8 +1088,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ai4am-2027-ai-for-advanced-materials": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1103,8 +1103,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "world-conference-on-carbon-2028": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1118,8 +1118,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "computational-electrochemistry-in-the-era-of-ai": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1133,8 +1133,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "fomms2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1148,8 +1148,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "challenges-in-ionic-fluids-theory-simulation-and-experiment": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1163,8 +1163,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1178,8 +1178,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1193,8 +1193,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "automating-atomistic-machine-learning": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1208,8 +1208,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1223,8 +1223,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "mathematics-for-quantum-dynamics": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1238,8 +1238,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "selfassembly2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1253,8 +1253,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "theoretical-spectroscopy-lectures": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1268,8 +1268,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "cecam-mlthermo2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1283,8 +1283,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "dpg-school2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1298,8 +1298,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "dpg-school2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1313,8 +1313,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "dpg-school2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1328,8 +1328,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ecomat-conference-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1343,8 +1343,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "eazc2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1358,8 +1358,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "eazc2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1373,8 +1373,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "esat-2027-35th-european-symposium-on-applied-thermodynamics": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1388,14 +1388,14 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "materials-today-conference-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://mofs.lakecomoschool.org/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "<urlopen error timed out>"
     },
     "https://www.esi.ac.at/events/e610/": {
@@ -1408,8 +1408,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1423,8 +1423,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "fems-euromat-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1438,8 +1438,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "vii-annual-spain-interpore-meeting": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1453,8 +1453,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "e-mrs-spring-meeting-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1468,8 +1468,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "e-mrs-spring-meeting-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1483,8 +1483,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "challenges-in-ionic-fluids-theory-simulation-and-experiment": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1498,8 +1498,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "challenges-in-ionic-fluids-theory-simulation-and-experiment": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1513,8 +1513,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "e-mrs-fall-meeting-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1528,14 +1528,14 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "e-mrs-spring-meeting-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://www.euchems.eu/divisions/computational-chemistry-2/honours/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "hash": "17d7dd28f19ee374115a4143d3fc772cb280cc9a1c94d047396293abed3d3702",
       "last_success_at": "2026-10-27T14:43:49Z",
       "content_type": "text/html",
@@ -1543,8 +1543,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "euchems-compchem-2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1558,8 +1558,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "nanoporous-grs2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1573,14 +1573,14 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "nanoporous-grc2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "Official source returned no readable page content."
     },
     "https://www.icmm.csic.es/es/node/37130": {
@@ -1593,8 +1593,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "school-on-advanced-structural-analysis-in-mofs-and-cofs": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1608,8 +1608,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "iclr-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1623,14 +1623,14 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "<urlopen error timed out>"
     },
     "https://www.leachresearchgroup.net/home/chemoinformatics-conference-2027": {
@@ -1643,8 +1643,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "tenth-north-of-england-chemoinformatics-meeting": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1658,8 +1658,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "medpore2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1673,8 +1673,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1688,8 +1688,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "foa16": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1703,8 +1703,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "mrs-fall2026": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1718,8 +1718,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "mrs-fall2026": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1733,8 +1733,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "foa16": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1748,8 +1748,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1763,8 +1763,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "mrs-spring2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1778,8 +1778,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "mrs-spring2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1793,8 +1793,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "mrs-spring2027": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1808,8 +1808,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "northern-lights-deep-learning-conference-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1823,8 +1823,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "northern-lights-deep-learning-conference-2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1838,8 +1838,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "the-future-of-materials-discovery": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1853,8 +1853,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "camml2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1868,8 +1868,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "automated-intelligent-chemistry-2026": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1883,8 +1883,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "mc18-18th-international-conference-on-materials-chemistry": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1913,8 +1913,8 @@
       "changed_at": "2026-10-27T14:55:25Z",
       "checks": {
         "materials-chemistry-poster-symposium-2026": {
-          "review_required": true,
-          "message": "Initial source baseline requires verification."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -1980,7 +1980,7 @@
     },
     "https://www.siam.org/conferences-events/siam-conferences/ms27/": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "HTTP Error 403: Forbidden"
     },
     "https://www.spmateriais.pt/eventos/materiais-2027": {
@@ -1993,8 +1993,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2008,8 +2008,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "mmm12-12th-international-conference-on-multiscale-materials-modeling": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2023,8 +2023,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "modelling-water-across-scales": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2038,24 +2038,24 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "applications-of-artificial-intelligence-to-process-chemistry-scientific-update": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "HTTP Error 403: Forbidden"
     },
     "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "HTTP Error 403: Forbidden"
     },
     "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "HTTP Error 403: Forbidden"
     },
     "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026": {
@@ -2068,8 +2068,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "automated-intelligent-chemistry-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2083,8 +2083,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2098,8 +2098,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2113,14 +2113,14 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "tms2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
     "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course": {
       "last_checked_at": "2026-10-27T14:55:25Z",
-      "status": "failed",
+      "status": "unverifiable",
       "message": "<urlopen error timed out>"
     },
     "https://www.ukairs.ac.uk/i/SubmissionThemes": {
@@ -2133,8 +2133,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2148,8 +2148,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2163,8 +2163,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "cpm10": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2178,8 +2178,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "watoc-2028-14th-triennial-congress": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2193,8 +2193,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "ukpormat2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2208,8 +2208,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "zmpc2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2223,8 +2223,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "zmpc2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2238,8 +2238,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "rsc-first-2026-ai-in-chemistry": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2253,8 +2253,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "zmpc2027": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },
@@ -2268,8 +2268,8 @@
       "changed_at": "2026-10-27T14:43:49Z",
       "checks": {
         "mmm12-12th-international-conference-on-multiscale-materials-modeling": {
-          "review_required": true,
-          "message": "Official content changed; no trusted adapter can verify all affected facts."
+          "review_required": false,
+          "message": null
         }
       }
     },

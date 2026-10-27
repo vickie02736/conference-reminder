@@ -97,8 +97,30 @@ def parse_html(raw):
     return parser.result()
 
 
+VOLATILE_TEXT = (
+    r"last (?:updated|modified|checked|reviewed|refreshed)[:\s].{0,80}",
+    r"\b20\d{2}-\d{2}-\d{2}t\d{2}:\d{2}(?::\d{2})?(?:\.\d+)?z?\b",
+    r"\b(?:\d{1,2}:\d{2}(?::\d{2})?)\s*(?:utc|gmt|bst|cet|cest)?\b",
+    r"(?:©|copyright)\s*20\d{2}",
+    r"\b(?:cookie|gdpr|consent)\b.{0,60}",
+)
+UNVERIFIABLE_HINTS = (
+    "403", "forbidden", "access challenge", "no readable page content",
+    "timed out", "timeout", "incompleteread", "temporary failure",
+    "connection reset", "name or service not known", "errno -2", "errno -3",
+)
+
+
 def fingerprint(text):
-    return hashlib.sha256(re.sub(r"\s+", " ", text).strip().encode("utf-8")).hexdigest()
+    cleaned = re.sub(r"\s+", " ", text).strip().casefold()
+    for pattern in VOLATILE_TEXT:
+        cleaned = re.sub(pattern, " ", cleaned, flags=re.I)
+    return hashlib.sha256(re.sub(r"\s+", " ", cleaned).strip().encode("utf-8")).hexdigest()
+
+
+def classify_fetch_failure(message):
+    text = str(message or "").lower()
+    return "unverifiable" if any(hint in text for hint in UNVERIFIABLE_HINTS) else "failed"
 
 
 def canonical_url(value):
@@ -298,7 +320,8 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
             if changed:
                 record["changed_at"] = now
         else:
-            record.update({"status": "failed", "message": fetch.get("message", "Fetch failed.")})
+            message = fetch.get("message", "Fetch failed.")
+            record.update({"status": classify_fetch_failure(message), "message": message})
     updates = []
 
     for event in result.get("events", []) + result.get("watchlist", []):
@@ -311,7 +334,7 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
         for url in urls:
             fetch = fetched.get(url, {"ok": False, "message": "Source was not checked."})
             if not fetch["ok"]:
-                failures.append(f"{url}: {fetch.get('message', 'Fetch failed.')}")
+                failures.append((classify_fetch_failure(fetch.get("message")), f"{url}: {fetch.get('message', 'Fetch failed.')}"))
                 continue
             adapter = adapters.get((event["id"], canonical_url(url)))
             structured = jsonld_observation(fetch.get("jsonld", []), event, url)
@@ -323,12 +346,16 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
                 observation["pause_reason"] = structured["pause_reason"]
                 observation["review"].extend(structured["review"])
             previous = old_states.get(url, {})
-            prior_review = previous.get("checks", {}).get(event["id"], {}).get("review_required", False)
             changed = previous.get("hash") != fetch["hash"]
-            pending = bool(observation["review"]) or ((changed or prior_review) and not observation["verified"])
-            message = "; ".join(observation["review"])
-            if pending and not message:
-                message = "Initial source baseline requires verification." if not previous.get("hash") else "Official content changed; no trusted adapter can verify all affected facts."
+            if observation["review"]:
+                pending, message = True, "; ".join(observation["review"])
+            elif observation["verified"]:
+                pending, message = False, ""
+            elif changed and previous.get("hash"):
+                pending, message = True, "Official content changed; no trusted adapter can verify all affected facts."
+            else:
+                # First baseline, or a stable hash after churn: do not keep a hash-only review.
+                pending, message = False, ""
             states[url].setdefault("checks", {})[event["id"]] = {"review_required": pending, "message": message or None}
             if pending:
                 reviews.append(f"{url}: {message}")
@@ -440,13 +467,17 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
                                           for node in milestones if node["kind"] not in {"conference_start", "conference_end"})
         check = event.setdefault("check", {})
         check["last_checked_at"] = now
+        hard_failures = [item[1] for item in failures if item[0] == "failed"]
+        soft_failures = [item[1] for item in failures if item[0] == "unverifiable"]
         if reviews:
             check["status"] = "review_required"
-        elif failures:
+        elif hard_failures:
             check["status"] = "failed"
+        elif soft_failures:
+            check["status"] = "unverifiable"
         else:
             check["status"] = "checked"
-        check["message"] = " | ".join(reviews + failures)[:3000] or None
+        check["message"] = " | ".join(reviews + hard_failures + soft_failures)[:3000] or None
         if verified and not reviews and not failures:
             check["last_verified_at"] = now
             event["verified_on"] = now[:10]

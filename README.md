@@ -13,7 +13,7 @@ Share [the public website](https://vickie02736.github.io/conference-reminder/) d
 ## Explore and set reminders
 
 - Search and filter by region, status and sorting in the main bar. **More filters** contains topic, activity, year and source-check status; its count shows active choices. UK & Europe is the default, including the NeurIPS Paris attendance option.
-- **Sources to review** and **Source errors** show all affected activities worldwide. Use the separate Source check filter to combine evidence status with other filters. Source review is distinct from unconfirmed conference dates or attendance availability.
+- **Sources to review**, **Source errors** and **Sources not automatically checkable** show all affected activities worldwide. Use the separate Source check filter to combine evidence status with other filters. Source review is distinct from unconfirmed conference dates or attendance availability. Bot challenges, JavaScript-only pages and timeouts are marked unverifiable rather than failed.
 - Scheduled and pending totals use the same classification as the cards. Announced but unverified dates remain provisional; pending activities show **Dates not confirmed** until reminders can be offered.
 - Each entry links to its official website and evidence. Closed submissions, full events, invitation-only attendance and conflicting dates remain visible.
 - Each conference card can show several current statuses together, including registration, oral/abstract/poster/paper submission, opening soon, closed routes and an ongoing meeting. The Status filter matches these labels and works with the other filters. Oral and poster routes are distinguished only when the published information identifies them. A deadline alone does not confirm that a platform is open: those routes are explicitly labelled “opening unconfirmed”; selecting Finished also enables past events.
@@ -26,7 +26,7 @@ The former local date tracker and browser notification interface have been retir
 
 `site.yml` checks registered source URLs daily at **06:17 UTC** and supports [manual runs](https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml). Choose **Run workflow**, keeping `refresh_sources` enabled. Running it requires repository access.
 
-The updater recognises narrowly scoped EuroMOF deadline/platform statements, the authoritative AI4Mat schedule, and matching official JSON-LD Event records. Other sources are monitored for content changes and marked for review. Dynamic pages, PDFs, ambiguous dates and site changes are not silently converted into deadlines. A failed fetch retains the last trusted facts. Explicit cancellation or rescheduling evidence pauses email scheduling until reviewed.
+The updater recognises narrowly scoped EuroMOF deadline/platform statements, the authoritative AI4Mat schedule, and matching official JSON-LD Event records. Other sources are monitored for content changes and marked for review once; a later check with the same normalised page hash clears a hash-only review. Dynamic pages, PDFs, ambiguous dates and site changes are not silently converted into deadlines. A failed or unverifiable fetch retains the last trusted facts. Explicit cancellation or rescheduling evidence pauses email scheduling until reviewed.
 
 The website distinguishes the last attempted source check from initial research/latest supported-fact verification. Fetching a page successfully does not verify every fact. Check status, source hashes and a bounded change history are public; fetched page bodies are not stored.
 

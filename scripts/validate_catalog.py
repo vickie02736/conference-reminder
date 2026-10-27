@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 KINDS = {"abstract", "paper", "poster", "application", "early_registration",
          "registration", "funding", "conference_start", "conference_end", "other"}
-CHECK_STATUSES = {"not_checked", "checked", "review_required", "failed"}
+CHECK_STATUSES = {"not_checked", "checked", "review_required", "failed", "unverifiable"}
 
 
 def valid_url(value):
