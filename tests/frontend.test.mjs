@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterEvents,eventPhase,upcomingNodes,normalizeSaved,isDuplicate,calendarFile,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
+import {filterEvents,eventPhase,eventStatuses,upcomingNodes,normalizeSaved,isDuplicate,calendarFile,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
 
 const catalogue=JSON.parse(readFileSync(new URL('../data/conferences.json',import.meta.url),'utf8'));
 const canonical=name=>[...catalogue.events,...catalogue.watchlist].find(e=>e.name.includes(name));
@@ -72,6 +72,94 @@ test('the phase keeps an exact overseas registration cutoff across local midnigh
  const e=canonical('MRS Fall 2026');
  assert.equal(eventPhase(e,'2026-10-30',Date.parse('2026-10-30T00:30Z')).key,'registration');
  assert.equal(eventPhase(e,'2026-10-30',Date.parse('2026-10-30T04:00Z')).label,'Registration closed');
+});
+
+const snapshotStatuses=e=>eventStatuses(e,'2026-10-27',Date.parse('2026-10-27T12:00Z'));
+test('concurrent oral, poster and registration routes appear separately, including mixed abstract calls',()=>{
+ for (const name of ['Computational Methods for Defects','Theoretical Chemistry Group Graduate','SSCG2026']) {
+  const statuses=snapshotStatuses(canonical(name));
+  assert.deepEqual(statuses.map(s=>s.label),['Oral submission open','Poster submission open','Registration open']);
+  for (const type of ['oral','poster']) {
+   const route=statuses.find(s=>s.filters.includes(type));
+   assert.ok(route.filters.includes('submission')); assert.ok(route.filters.includes('abstract'));
+  }
+ }
+ const mixed=snapshotStatuses(canonical('SSCG2026'));
+ assert.equal(mixed[0].milestoneId,mixed[1].milestoneId);
+ assert.equal(snapshotStatuses(canonical('MC18'))[0].availability,'open');
+});
+test('future cutoffs visibly remain unconfirmed and ongoing events retain simultaneous available routes',()=>{
+ const e={name:'Concurrent',start:'2027-06-01',end:'2027-06-03',status:'Dates announced.',milestones:[phaseNode('abstract','2027-06-02','Oral abstracts'),phaseNode('registration','2027-06-03')]};
+ assert.deepEqual(snapshotStatuses(e).map(s=>s.label),['Oral submission · opening unconfirmed','Registration · opening unconfirmed']);
+ const ongoing=eventStatuses({...e,status:'Submissions and registration open.'},'2027-06-01',Date.parse('2027-06-01T12:00Z'));
+ assert.deepEqual(ongoing.map(s=>s.label),['Ongoing','Oral submission open','Registration open']);
+ assert.equal(filterEvents([e],{stage:'oral'},'2027-06-01',Date.parse('2027-06-01T12:00Z')).length,1);
+});
+test('one closed presentation route does not close another or an independent registration route',()=>{
+ const e={start:'2027-06-01',status:'Poster submissions closed; oral abstracts open; registration open.',milestones:[phaseNode('abstract','2027-01-01','Oral abstracts'),phaseNode('poster','2027-02-01','Poster abstracts'),phaseNode('registration','2027-04-01')]};
+ const statuses=snapshotStatuses(e);
+ assert.deepEqual(statuses.map(s=>s.label),['Oral submission open','Poster submission closed','Registration open']);
+ assert.ok(statuses.find(s=>s.label==='Poster submission closed').filters.includes('closed'));
+ assert.equal(filterEvents([e],{stage:'poster'},'2026-10-27').length,0);
+ assert.equal(filterEvents([e],{stage:'oral'},'2026-10-27').length,1);
+ assert.equal(filterEvents([e],{stage:'closed'},'2026-10-27').length,1);
+});
+test('announced openings coexist with other channels and never match the active route filters',()=>{
+ const e={start:'2027-06-01',status:'Abstract submissions not yet open; registration is open.',milestones:[phaseNode('abstract','2027-02-01'),phaseNode('registration','2027-04-01')]};
+ assert.deepEqual(snapshotStatuses(e).map(s=>s.label),['Abstract submission opening soon','Registration open']);
+ assert.equal(filterEvents([e],{stage:'submission'},'2026-10-27').length,0);
+ assert.equal(filterEvents([e],{stage:'opening_soon'},'2026-10-27').length,1);
+ assert.equal(filterEvents([e],{stage:'registration'},'2026-10-27').length,1);
+ assert.deepEqual(snapshotStatuses(canonical('EuroMOF 2027')).map(s=>s.label),['Abstract submission opening soon','Registration opening soon']);
+ assert.deepEqual(snapshotStatuses(canonical('FOMMS 2027')).map(s=>s.label),['Abstract submission open','Registration opening soon']);
+});
+test('conflicting and invalid exact dates warn while independent verified routes stay available',()=>{
+ const e={start:'2027-06-01',status:'Submissions and registration open.',milestones:[phaseNode('abstract',null,'Oral abstracts','conflict'),phaseNode('poster','2027-05-01','Poster abstracts'),phaseNode('registration','2027-05-02')]};
+ const statuses=snapshotStatuses(e);
+ assert.deepEqual(statuses.map(s=>s.label),['Deadline needs confirmation','Poster submission open','Registration open']);
+ assert.equal(filterEvents([e],{stage:'oral'},'2026-10-27').length,0);
+ assert.equal(filterEvents([e],{stage:'needs_review'},'2026-10-27').length,1);
+ const invalid={...e,milestones:[{...phaseNode('paper','2027-03-28'),precision:'datetime',time:'01:30',timezone:'Europe/London'},phaseNode('registration','2027-05-02')]};
+ assert.ok(snapshotStatuses(invalid).some(s=>s.key==='needs_review'));
+ assert.ok(!snapshotStatuses(invalid).some(s=>s.filters.includes('paper')));
+ assert.ok(snapshotStatuses(invalid).some(s=>s.filters.includes('registration')));
+});
+test('route filters respect exact overseas cutoff instants and normal registration after early bird',()=>{
+ const e={start:'2027-06-01',milestones:[{...phaseNode('abstract','2026-10-29','Oral abstracts'),precision:'datetime',time:'23:59',timezone:'America/New_York'},phaseNode('registration','2027-01-01')]};
+ const before=Date.parse('2026-10-30T00:30Z'), after=Date.parse('2026-10-30T04:00Z');
+ assert.equal(filterEvents([e],{stage:'oral'},'2026-10-30',before).length,1);
+ assert.equal(filterEvents([e],{stage:'oral'},'2026-10-30',after).length,0);
+ assert.equal(filterEvents([e],{stage:'registration'},'2026-10-30',after).length,1);
+ const reg={start:'2027-06-01',status:'Registration open.',milestones:[phaseNode('early_registration','2026-10-26'),phaseNode('registration',null)]};
+ assert.equal(snapshotStatuses(reg).find(s=>s.key==='registration').availability,'open');
+ reg.milestones[1]=phaseNode('registration','2026-10-25');
+ assert.equal(snapshotStatuses(reg)[0].label,'Registration closed');
+});
+test('oral and poster presenter registration is never inferred as a submission route',()=>{
+ const statuses=snapshotStatuses(canonical('InterPore2027'));
+ assert.ok(statuses.some(s=>s.filters.includes('registration')));
+ assert.ok(!statuses.some(s=>s.filters.some(f=>['oral','poster','submission'].includes(f))));
+ const grc=snapshotStatuses(canonical('Applications GRC'));
+ assert.deepEqual(grc.map(s=>s.label),['Applications open']);
+ const proposal=snapshotStatuses(canonical('AISB Convention'));
+ assert.ok(proposal.some(s=>s.label==='Symposium proposals open'));
+ assert.ok(!proposal.some(s=>s.filters.includes('paper')));
+ assert.ok(snapshotStatuses(canonical('AISTATS 2027')).some(s=>s.label==='Journal-to-Conference submission open'));
+ assert.deepEqual(snapshotStatuses(canonical('ISWPM26')).map(s=>s.label),['Availability needs confirmation']);
+});
+test('stage filters combine with existing filters, hide finished events by default, and preserve input',()=>{
+ const open={name:'UK oral',region:'UK',type:'Workshop',tags:['AI'],start:'2027-06-01',end:'2027-06-03',status:'Submissions and registration open.',milestones:[phaseNode('abstract','2027-01-01','Oral abstracts'),phaseNode('registration','2027-05-01')]};
+ const other={...open,name:'Other oral',region:'Other'};
+ const ended={...open,name:'Finished',start:'2026-01-01',end:'2026-01-03'};
+ const events=[open,other,ended], original=structuredClone(events);
+ assert.deepEqual(filterEvents(events,{stage:'oral',region:'UK',topic:'AI',type:'Workshop',year:'2027'},'2026-10-27').map(e=>e.name),['UK oral']);
+ assert.equal(filterEvents(events,{stage:'poster'},'2026-10-27').length,0);
+ assert.equal(filterEvents(events,{stage:'finished'},'2026-10-27').length,0);
+ assert.deepEqual(filterEvents(events,{stage:'finished',showPast:true},'2026-10-27').map(e=>e.name),['Finished']);
+ assert.deepEqual(events,original);
+ for (const [change,key] of [[{eventStatus:'https://schema.org/EventCancelled'},'cancelled'],[{reminders_paused:true},'paused']]) {
+  assert.deepEqual(snapshotStatuses({...open,...change}).map(s=>s.key),[key]);
+ }
 });
 
 test('legacy reminders survive migration and malformed storage is ignored',()=>{

@@ -10,8 +10,8 @@
   <meta property="og:description" content="Browse upcoming conferences, check important dates and set your own email reminders.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vickie02736.github.io/conference-reminder/">
-  <link rel="stylesheet" href="assets/styles.css?v=20261027-header">
-  <script type="module" src="assets/app.js?v=20261027-group"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=20261027-statuses">
+  <script type="module" src="assets/app.js?v=20261027-statuses-final"></script>
 </head>
 <body>
   <header class="site-header">
@@ -31,10 +31,12 @@
       <div class="filters panel">
         <div class="search-wrap"><label for="search">Search conferences</label><input id="search" type="search" placeholder="Name, place, research topic…"></div>
         <div><label for="region">Region</label><select id="region"><option value="Europe-group">UK &amp; Europe</option><option value="all">Worldwide</option><option value="UK">United Kingdom</option><option value="Europe">Rest of Europe</option><option value="Other">Other regions</option></select></div>
+        <div><label for="stage">Status</label><select id="stage" aria-describedby="stage-hint"><option value="all">All statuses</option><option value="ongoing">Ongoing</option><option value="registration">Registration</option><option value="submission">All submissions</option><option value="abstract">Abstract submission</option><option value="oral">Oral submission</option><option value="poster">Poster submission</option><option value="paper">Paper submission</option><option value="application">Applications</option><option value="opening_soon">Opening soon</option><option value="closed">Submission / registration closed</option><option value="upcoming">Upcoming</option><option value="awaiting_dates">Awaiting dates</option><option value="needs_review">Needs confirmation</option><option value="fully_booked">Full / waiting list</option><option value="invitation_only">Invitation only</option><option value="restricted">Restricted attendance</option><option value="paused">Dates changed / paused</option><option value="cancelled">Cancelled</option><option value="finished">Finished</option></select></div>
         <div><label for="topic">Topic</label><select id="topic"><option value="all">All topics</option></select></div>
         <div><label for="type">Activity</label><select id="type"><option value="all">All activities</option></select></div>
         <div><label for="year">Year</label><select id="year"><option value="all">All years</option></select></div>
         <div><label for="sort">Sort by</label><select id="sort"><option value="date">Conference date</option><option value="deadline">Next deadline</option><option value="priority">Research relevance</option><option value="name">Name</option></select></div>
+        <p id="stage-hint" class="fine filter-help">Conferences can have several statuses. Announced deadlines do not confirm that a submission or registration platform is open.</p>
         <div class="filter-bottom"><label class="checkbox"><input id="show-past" type="checkbox"> Include finished events</label><button id="reset-filters" class="text-button" type="button">Reset filters</button></div>
       </div>
       <p id="email-status" class="notice">Checking email reminder availability… You can also track dates on this device and export them to your calendar.</p>

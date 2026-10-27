@@ -12,9 +12,9 @@ Share [the public website](https://vickie02736.github.io/conference-reminder/) d
 
 ## Explore and keep dates
 
-- Filter by region, topic, activity, year and keyword. UK & Europe is the default, including the NeurIPS Paris attendance option.
+- Filter by region, status, topic, activity, year and keyword. UK & Europe is the default, including the NeurIPS Paris attendance option.
 - Each entry links to its official website and evidence. Closed submissions, full events, invitation-only attendance and conflicting dates remain visible.
-- Each conference card shows its current stage, based on verified dates and published availability. A deadline alone does not confirm that a submission or registration platform is open.
+- Each conference card can show several current statuses together, including registration, oral/abstract/poster/paper submission, opening soon, closed routes and an ongoing meeting. The Status filter matches these labels and works with the other filters. Oral and poster routes are distinguished only when the published information identifies them. A deadline alone does not confirm that a platform is open: those routes are explicitly labelled “opening unconfirmed”; selecting Finished also enables past events.
 - **Track a date** opens that conference’s tracking window. Save multiple dates, manage its saved dates, receive browser notifications, or export ICS calendar files. The header’s **Add a date** also keeps manual entry and older saved dates accessible.
 - For a date without a published time, the local calendar entry starts at an explicitly labelled, editable 09:00 default; this is not an official event or cutoff time.
 - Existing reminders under `academic-conferences-v1` remain compatible. Personal calendar/browser reminders stay in local storage; browser notifications require permission and an open page.

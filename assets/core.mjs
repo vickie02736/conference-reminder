@@ -95,6 +95,100 @@ export function eventPhase(event, today = todayISO(), now = Date.now()) {
   }
   return phase('upcoming','Upcoming','Conference dates are announced; a current submission or registration stage is not verified.');
 }
+// Presentation routes come only from submission nodes: a poster-presenter registration is not a poster call.
+function submissionRoutes(node) {
+  if (node.kind === 'poster') return ['poster'];
+  if (node.kind === 'paper') return [/journal.to.conference/i.test(node.label) ? 'journal' : 'paper'];
+  if (/recent (?:research )?reports/i.test(node.label)) return ['reports'];
+  if (node.kind === 'other') return ['proposal'];
+  const routes=[];
+  if (/\boral\b|contributed.talk|speaker/i.test(node.label)) routes.push('oral');
+  if (/\bposter/i.test(node.label)) routes.push('poster');
+  return routes.length ? routes : ['abstract'];
+}
+const statusRouteLabel = route => ({oral:'Oral submission',poster:'Poster submission',abstract:'Abstract submission',paper:'Paper submission',journal:'Journal-to-Conference submission',reports:'Recent Reports submission',proposal:'Symposium proposals',registration:'Registration',application:'Applications'}[route]);
+function routeClause(clause, channel, route) {
+  if (channel==='submission' && route==='reports') return /recent (?:research )?reports/.test(clause);
+  if (channel==='submission' && route==='journal') return /journal.to.conference/.test(clause);
+  if (!channelText(clause,channel)) return false;
+  if (channel !== 'submission') return true;
+  if (/recent (?:research )?reports|journal.to.conference/.test(clause)) return false;
+  if (/\bproposals?\b/.test(clause) && !/\b(?:abstracts?|papers?|submissions?)\b/.test(clause)) return route==='proposal';
+  const oral=/\boral\b|contributed.talk|speaker/.test(clause), poster=/\bposters?\b/.test(clause);
+  if (oral || poster) return (route==='oral' && oral) || (route==='poster' && poster);
+  if (/\bpapers?\b/.test(clause) && !/\b(?:abstracts?|submissions?|calls?)\b/.test(clause)) return ['paper','journal'].includes(route);
+  return true;
+}
+const statusSoon = clause => /not (?:yet )?open|opens? soon|opening soon|will open|forthcoming|in preparation/.test(clause);
+const statusOffered = clause => !closedClause(clause) && !statusSoon(clause) && /\b(?:open|opened|offered|available|invited|possible)\b|\boffers?\s+(?:submit|abstract)|\bsubmit\s+(?:an?\s+)?abstract/.test(clause);
+/** Concurrent public stages. Filter tags describe live/planning routes, never closed or not-yet-open ones. */
+export function eventStatuses(event, today = todayISO(), now = Date.now()) {
+  const primary=eventPhase(event,today,now);
+  const badge=(key,label,help,filters=[key],extra={})=>({key,label,help,filters,...extra});
+  if (['cancelled','paused','finished','awaiting_dates'].includes(primary.key)) return [{...primary,filters:[primary.key]}];
+  const nodes=event.milestones || [], clauses=phaseClauses(event.status), results=[];
+  const add=value=>{if (!results.some(s=>s.key===value.key && s.label===value.label)) results.push(value);};
+  if (['ongoing','fully_booked','invitation_only','restricted','needs_review'].includes(primary.key)) add({...primary,label:primary.key==='ongoing'?'Ongoing':primary.label,filters:[primary.key]});
+  // Full or restricted attendance must not be advertised as general open registration.
+  const restricted=['fully_booked','invitation_only','restricted'].includes(primary.key);
+  if (restricted) return results;
+  const problem=nodes.find(m=>m.status==='conflict' || (m.status==='verified' && m.precision==='datetime' && m.date>=today && milestoneInstant(m)===null));
+  if (problem && primary.key!=='needs_review') add(badge('needs_review','Deadline needs confirmation','A published deadline conflicts or its exact time is not verified. Other verified routes are shown separately.',['needs_review'],{milestoneId:problem.id}));
+  const future=new Set(upcomingNodes(event,today,now));
+  const groups=new Map();
+  for (const node of nodes) {
+    const channel=phaseChannel(node); if (!channel) continue;
+    for (const route of channel==='submission'?submissionRoutes(node):[channel]) {
+      if (!groups.has(route)) groups.set(route,{channel,route,nodes:[]});
+      groups.get(route).nodes.push(node);
+    }
+  }
+  // Explicit call availability can be useful even when no exact closing date was published.
+  for (const channel of ['registration','application','submission']) {
+    if (![...groups.values()].some(g=>g.channel===channel) && clauses.some(c=>channelText(c,channel) && !(channel==='application' && /\boral\b|\bposters?\b|speaker|contributed.talk/.test(c)) && (statusSoon(c) || closedClause(c) || statusOffered(c)))) {
+      const route=channel==='submission'?'abstract':channel;
+      groups.set(route,{channel,route,nodes:[]});
+    }
+  }
+  for (const {channel,route,nodes:routeNodes} of groups.values()) {
+    const relevant=clauses.filter(c=>routeClause(c,channel,route));
+    const openingNodes=nodes.filter(m=>m.kind==='other' && /open/i.test(m.label) && routeClause(String(m.label).toLowerCase(),channel,route) && m.status==='verified' && m.date);
+    const laterOpening=openingNodes.find(m=>m.date>today);
+    const closed=relevant.some(c=>closedClause(c) && !statusSoon(c));
+    const soon=!!laterOpening || relevant.some(statusSoon);
+    const offered=relevant.some(statusOffered) || openingNodes.some(m=>m.date<=today);
+    const cutoffs=routeNodes.filter(m=>m.status==='verified' && m.date).sort((a,b)=>a.date.localeCompare(b.date));
+    const next=cutoffs.find(m=>future.has(m));
+    const conflicted=routeNodes.some(m=>m.status==='conflict' || (m.status==='verified' && m.precision==='datetime' && m.date>=today && milestoneInstant(m)===null));
+    const past=cutoffs.filter(m=>!future.has(m) && (m.precision!=='datetime' || milestoneInstant(m)!==null));
+    // An early-bird cutoff does not close a separately announced standard registration route.
+    const onlyEarlyPast=channel==='registration' && past.length && past.every(m=>m.kind==='early_registration') && routeNodes.some(m=>m.kind==='registration' && !m.date);
+    const expired=!next && past.length>0 && !onlyEarlyPast;
+    const title=statusRouteLabel(route), reference=next || cutoffs.at(-1), extra=reference?{milestoneId:reference.id,date:reference.date}:{};
+    const filters=[channel];
+    if (channel==='submission') {
+      if (['oral','poster','paper'].includes(route)) filters.push(route);
+      if (route==='abstract' || routeNodes.some(m=>m.kind==='abstract' || /\babstracts?\b/i.test(m.label))) filters.push('abstract');
+    }
+    if (soon && !expired) {
+      add(badge('opening_soon',title+' opening soon','The published call or platform is not yet open. '+(laterOpening?`Published opening: ${dateLabel(laterOpening.date)}.`:'Published deadlines remain planning dates.'),['opening_soon'],{availability:'soon',...(laterOpening?{milestoneId:laterOpening.id,date:laterOpening.date}:extra)}));
+    } else if ((closed || expired) && primary.label!=='Availability needs confirmation') {
+      add(badge('closed',title+' closed','The published cutoff has passed or the organiser reports this route closed. Check any late or alternative route with the organiser.',['closed'],{availability:'closed',...extra}));
+    } else if (!closed && !expired && !conflicted && (next || offered)) {
+      const availability=offered?'open':'unconfirmed';
+      const suffix=offered?' open':' · opening unconfirmed';
+      const help=(next?`Published cutoff: ${dateLabel(next.date)}. `:'No verified closing date is published. ')+(offered?'The published status offers this route; confirm current availability with the organiser.':'A future cutoff does not confirm that the submission or registration platform is open.')+(channel==='submission' && clauses.some(c=>channelText(c,'registration') && closedClause(c) && !statusSoon(c))?' Registration is closed; confirm attendance eligibility before submitting.':'');
+      add(badge(channel,title+suffix,help,filters,{availability,...extra}));
+    }
+  }
+  // Opening notices may precede any published deadline or route node.
+  for (const channel of ['registration','application','submission']) {
+    if ([...groups.values()].some(g=>g.channel===channel)) continue;
+    const opening=nodes.find(m=>m.kind==='other' && /open/i.test(m.label) && channelText(String(m.label).toLowerCase(),channel) && m.status==='verified' && m.date>today);
+    if (opening) add(badge('opening_soon',(channel==='submission'?'Submission':statusRouteLabel(channel))+' opening soon',`Published opening: ${dateLabel(opening.date)}.`,['opening_soon'],{availability:'soon',milestoneId:opening.id,date:opening.date}));
+  }
+  return results.length ? results : [{...primary,filters:[primary.key]}];
+}
 export function upcomingNodes(event, today = todayISO(), now = Date.now()) { if (event.reminders_paused) return []; return (event.milestones || []).filter(m => { if (m.status !== 'verified' || !m.date) return false; const instant = milestoneInstant(m); return m.precision === 'datetime' ? instant !== null && instant > now : m.date >= today; }).sort((a,b) => a.date.localeCompare(b.date)); }
 export function hasEuropeanSite(event) { return event.region === 'UK' || event.region === 'Europe' || (/neurips/i.test(event.name) && /Paris/i.test(`${event.location} ${event.note}`)); }
 export function filterEvents(events, filters, today = todayISO(), now = Date.now()) {
@@ -106,6 +200,7 @@ export function filterEvents(events, filters, today = todayISO(), now = Date.now
     if (filters.topic && filters.topic !== 'all' && !(e.tags || []).includes(filters.topic)) return false;
     if (filters.type && filters.type !== 'all' && e.type !== filters.type) return false;
     if (filters.year && filters.year !== 'all' && !(e.start || e.name || '').includes(filters.year)) return false;
+    if (filters.stage && filters.stage !== 'all' && !eventStatuses(e,today,now).some(status=>status.filters.includes(filters.stage))) return false;
     if (search && ![e.name,e.location,e.note,...(e.tags||[])].join(' ').toLowerCase().includes(search)) return false;
     return true;
   }).sort((a,b) => {

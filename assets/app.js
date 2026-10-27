@@ -1,4 +1,4 @@
-import {STORAGE_KEY,esc,safeUrl,dateLabel,todayISO,upcomingNodes,isConferenceDate,eventPhase,hasEuropeanSite,filterEvents,normalizeSaved,isDuplicate,localInput,milestoneInstant,calendarFile} from './core.mjs';
+import {STORAGE_KEY,esc,safeUrl,dateLabel,todayISO,upcomingNodes,isConferenceDate,eventStatuses,hasEuropeanSite,filterEvents,normalizeSaved,isDuplicate,localInput,milestoneInstant,calendarFile} from './core.mjs?v=20261027-statuses-final';
 
 const $=id=>document.getElementById(id);
 let catalogue={events:[],watchlist:[],metadata:{},updates:[]};
@@ -7,6 +7,7 @@ let meetings=[];
 let selectedEvent=null;
 let catalogueError=false;
 let catalogueDay=todayISO();
+let catalogueStatusSignature='';
 try {meetings=normalizeSaved(JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]'));} catch {$('status').textContent='Could not load saved reminders. Your browser storage may be unavailable.';}
 const status=message=>{($('track-dialog').open?$('track-status'):$('status')).textContent=message;};
 function save(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(meetings));return true;}catch{status('Storage is unavailable. Export your reminder to keep a copy.');return false;}}
@@ -18,7 +19,7 @@ function card(e){
   const upcoming=upcomingNodes(e);
   const next=upcoming.find(m=>!isConferenceDate(m));
   const watch=!e.start;
-  const phase=eventPhase(e);
+  const phases=eventStatuses(e);
   const check=e.check||{};
   const checkState={not_checked:'Awaiting automated check',checked:'Source check completed',review_required:'Source needs review',failed:'Source check failed'}[check.status]||'Awaiting automated check';
   const hasConflict=(e.milestones||[]).some(m=>m.status==='conflict');
@@ -26,22 +27,21 @@ function card(e){
   const email=e.reminders_paused?'':emailUrl(e.id);
   const dates=e.start?dateLabel(e.start)+(e.end&&e.end!==e.start?' – '+dateLabel(e.end):''):'Dates to be announced';
   const sources=[...new Set([e.url,...(e.sources||[])])].filter(safeUrl);
-  return `<article class="conference${watch?' watchlist':''}" id="event-${esc(e.id)}"><div class="card-top"><span class="badge${watch||hasConflict?' warn':''}">${esc(watch?'Watchlist · '+region:region)}</span><span class="activity">${esc(e.type)}</span></div><p class="phase-line"><span class="phase-badge" data-phase="${esc(phase.key)}" title="${esc(phase.help)}" aria-label="Stage: ${esc(phase.label)}">${esc(phase.label)}</span></p><h3>${esc(e.name)}</h3><p class="event-date">${esc(dates)}</p><p class="location">${esc(e.location||'Location to be announced')}</p><div class="tags">${(e.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><p class="event-status">${esc(e.status)}${e.reminders_paused?' Reminder scheduling is paused while an official change is reviewed.':''}</p>${next?`<p class="deadline-preview"><b>${esc(next.label)}</b><br>${esc(nodeText(next))}</p>`:hasConflict?'<p class="deadline-preview">Some dates conflict. See the evidence before planning.</p>':''}<details class="card-details"><summary>Dates, research fit &amp; sources</summary><p>${esc(e.note)}</p>${e.deadline?`<p><b>Published deadlines &amp; availability</b><br>${esc(e.deadline)}</p>`:''}${e.deadline_notes?`<p><b>Initial research notes (may include superseded dates)</b><br>${esc(e.deadline_notes)}</p>`:''}${e.date&&e.date!==`${e.start} — ${e.end}`?`<p>${esc(e.date)}</p>`:''}<ul class="milestones">${(e.milestones||[]).map(m=>`<li><b>${esc(m.label)}</b><br>${esc(nodeText(m))}${m.evidence?`<br>${esc(m.evidence)}`:''}${m.candidates?.length?`<br>Candidates: ${m.candidates.map(c=>esc(typeof c==='string'?c:(c.date||c.raw||JSON.stringify(c)))).join(' / ')}`:''}${m.source?`<br>${anchor(m.source,'Date source ↗')}`:''}</li>`).join('')}</ul>${e.evidence?`<p>${esc(e.evidence)}</p>`:''}<b>Official sources</b><ul class="source-links">${sources.map((url,i)=>`<li>${anchor(url,`${i+1}. ${new URL(url).hostname} ↗`)}</li>`).join('')}</ul><p>Initial research / latest supported-fact verification: ${esc(shortTime(check.last_verified_at||e.verified_on))}</p>${check.message?`<p>${esc(check.message)}</p>`:''}</details><p class="check">${esc(checkState)} · ${esc(shortTime(check.last_checked_at))}</p><div class="card-actions">${email?anchor(email,'Send reminder ↗','button'):'<button class="secondary" disabled title="Email reminders are not currently available for this conference">Send reminder</button>'}${anchor(e.url,'Official website ↗','button secondary')}<button class="secondary" data-track="${esc(e.id)}">Track a date</button></div></article>`;
+  return `<article class="conference${watch?' watchlist':''}" id="event-${esc(e.id)}"><div class="card-top"><span class="badge${watch||hasConflict?' warn':''}">${esc(watch?'Watchlist · '+region:region)}</span><span class="activity">${esc(e.type)}</span></div><div class="phase-line" role="list" aria-label="Conference statuses">${statusBadges(phases)}</div><h3>${esc(e.name)}</h3><p class="event-date">${esc(dates)}</p><p class="location">${esc(e.location||'Location to be announced')}</p><div class="tags">${(e.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><p class="event-status">${esc(e.status)}${e.reminders_paused?' Reminder scheduling is paused while an official change is reviewed.':''}</p>${next?`<p class="deadline-preview"><b>${esc(next.label)}</b><br>${esc(nodeText(next))}</p>`:hasConflict?'<p class="deadline-preview">Some dates conflict. See the evidence before planning.</p>':''}<details class="card-details"><summary>Dates, research fit &amp; sources</summary><p>${esc(e.note)}</p>${e.deadline?`<p><b>Published deadlines &amp; availability</b><br>${esc(e.deadline)}</p>`:''}${e.deadline_notes?`<p><b>Initial research notes (may include superseded dates)</b><br>${esc(e.deadline_notes)}</p>`:''}${e.date&&e.date!==`${e.start} — ${e.end}`?`<p>${esc(e.date)}</p>`:''}<ul class="milestones">${(e.milestones||[]).map(m=>`<li><b>${esc(m.label)}</b><br>${esc(nodeText(m))}${m.evidence?`<br>${esc(m.evidence)}`:''}${m.candidates?.length?`<br>Candidates: ${m.candidates.map(c=>esc(typeof c==='string'?c:(c.date||c.raw||JSON.stringify(c)))).join(' / ')}`:''}${m.source?`<br>${anchor(m.source,'Date source ↗')}`:''}</li>`).join('')}</ul>${e.evidence?`<p>${esc(e.evidence)}</p>`:''}<b>Official sources</b><ul class="source-links">${sources.map((url,i)=>`<li>${anchor(url,`${i+1}. ${new URL(url).hostname} ↗`)}</li>`).join('')}</ul><p>Initial research / latest supported-fact verification: ${esc(shortTime(check.last_verified_at||e.verified_on))}</p>${check.message?`<p>${esc(check.message)}</p>`:''}</details><p class="check">${esc(checkState)} · ${esc(shortTime(check.last_checked_at))}</p><div class="card-actions">${email?anchor(email,'Send reminder ↗','button'):'<button class="secondary" disabled title="Email reminders are not currently available for this conference">Send reminder</button>'}${anchor(e.url,'Official website ↗','button secondary')}<button class="secondary" data-track="${esc(e.id)}">Track a date</button></div></article>`;
 }
+function statusBadges(phases){return phases.map(phase=>`<span role="listitem" class="phase-badge" data-phase="${esc(phase.key)}"${phase.availability?` data-availability="${esc(phase.availability)}"`:""} title="${esc(phase.help)}" aria-label="Status: ${esc(phase.label)}">${esc(phase.label)}</span>`).join('');}
+function statusSignature(){return JSON.stringify([...catalogue.events,...catalogue.watchlist].map(e=>[e.id,eventStatuses(e)]));}
 function renderCatalogue(){
   if(catalogueError)return;
-  const f={search:$('search').value,region:$('region').value,topic:$('topic').value,type:$('type').value,year:$('year').value,sort:$('sort').value,showPast:$('show-past').checked};
+  const f={search:$('search').value,region:$('region').value,topic:$('topic').value,type:$('type').value,year:$('year').value,stage:$('stage').value,sort:$('sort').value,showPast:$('show-past').checked};
   const events=filterEvents([...catalogue.events,...catalogue.watchlist],f);
   const watch=events.filter(e=>!e.start).length;
   $('result-count').textContent=`${events.length-watch} scheduled · ${watch} awaiting dates`;
+  catalogueStatusSignature=statusSignature();
   $('catalogue-list').innerHTML=events.length?events.map(card).join(''):'<div class="empty">No conferences match these filters.<br>Try another topic or explore worldwide.</div>';
 }
 function refreshPhases(){
-  for(const event of [...catalogue.events,...catalogue.watchlist]){
-    const badge=$('event-'+event.id)?.querySelector('.phase-badge');if(!badge)continue;
-    const phase=eventPhase(event);
-    if(badge.textContent!==phase.label||badge.dataset.phase!==phase.key){badge.textContent=phase.label;badge.dataset.phase=phase.key;badge.title=phase.help;badge.setAttribute('aria-label','Stage: '+phase.label);}
-  }
+  if(statusSignature()!==catalogueStatusSignature)renderCatalogue();
 }
 function renderHealth(){
   const all=[...catalogue.events,...catalogue.watchlist];
@@ -96,7 +96,8 @@ function track(id){
 }
 $('catalogue-list').addEventListener('click',e=>{const button=e.target.closest('[data-track]');if(button)track(button.dataset.track);});
 for(const id of ['search','region','topic','type','year','sort','show-past'])$(id).addEventListener(id==='search'?'input':'change',renderCatalogue);
-$('reset-filters').onclick=()=>{$('search').value='';$('region').value='Europe-group';for(const id of ['topic','type','year'])$(id).value='all';$('sort').value='date';$('show-past').checked=false;renderCatalogue();};
+$('stage').onchange=()=>{if($('stage').value==='finished')$('show-past').checked=true;renderCatalogue();};
+$('reset-filters').onclick=()=>{$('search').value='';$('region').value='Europe-group';for(const id of ['topic','type','year','stage'])$(id).value='all';$('sort').value='date';$('show-past').checked=false;renderCatalogue();};
 $('milestone').onchange=selectNode;
 $('add-date').onclick=()=>{selectedEvent=null;$('form').reset();$('title').readOnly=false;$('conference-fields').open=true;$('milestone-wrap').hidden=true;$('track-context').hidden=true;$('track-title').textContent='Add a date';$('track-description').textContent='Save a date on this device or export it to your calendar.';openTracker();};
 for(const id of ['close-track','cancel-track'])$(id).onclick=()=>$('track-dialog').close();
