@@ -1,4 +1,4 @@
-name: Check conference sources and publish website
+name: Check sources, discover conferences and publish website
 
 on:
   push:
@@ -19,6 +19,10 @@ on:
     inputs:
       refresh_sources:
         description: Check official conference pages before publishing
+        type: boolean
+        default: true
+      discover_conferences:
+        description: Search the web for possible new conferences
         type: boolean
         default: true
 
@@ -63,10 +67,16 @@ jobs:
       - name: Check registered official sources
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
         run: python scripts/update_catalog.py
+      - name: Discover possible new conferences
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.discover_conferences)
+        env:
+          YOU_API_KEY: ${{ secrets.YOU_API_KEY }}
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+        run: python scripts/discover_conferences.py
       - name: Commit checked data
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.refresh_sources || inputs.discover_conferences))
         run: |
-          git add data/conferences.json data/source-checks.json
+          git add data/conferences.json data/source-checks.json data/discovered-conferences.json
           if git diff --cached --quiet; then
             echo "No catalogue changes to commit."
             exit 0

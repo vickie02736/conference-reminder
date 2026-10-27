@@ -34,7 +34,15 @@ The website distinguishes the last attempted source check from initial research/
 
 GitHub Actions schedules can be delayed, and public-repository schedules can be disabled after 60 days without repository activity. The site marks checks older than 48 hours as overdue. See [GitHub’s schedule documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
 
-To verify an unadapted source manually, review its current official content and all affected fields, update the corresponding facts and evidence in `data/conferences.json`, and clear that event’s `review_required` flag/message under the URL in `data/source-checks.json`. Record the actual verification date. Clear `reminders_paused` only after resolving any cancellation/rescheduling notice. Adding an adapter with representative tests enables future automatic parsing. No workflow searches the entire web for new conferences.
+To verify an unadapted source manually, review its current official content and all affected fields, update the corresponding facts and evidence in `data/conferences.json`, and clear that event’s `review_required` flag/message under the URL in `data/source-checks.json`. Record the actual verification date. Clear `reminders_paused` only after resolving any cancellation/rescheduling notice. Adding an adapter with representative tests enables future automatic parsing.
+
+## Daily web discovery
+
+The same daily workflow can search the web for possible new conferences with the [You.com Web Search API](https://you.com/docs/guides/search). The default provider is configured in `data/discovery-config.json` and currently uses `https://ydc-index.io/v1/search`; add the repository secret `YOU_API_KEY` before enabling it. The key is read only by GitHub Actions and is never written to the repository or sent to the browser. For a Brave deployment, change `provider` and `endpoint` back to Brave and add `BRAVE_SEARCH_API_KEY`; the workflow exposes both secrets to keep the provider switch configuration-only.
+
+These results are leads for review. A search title or snippet is not official evidence, so candidates are not added to `events` or `watchlist`, cannot receive reminders, and do not enter the source-check updater automatically. Review the linked organiser page, add a confirmed activity to `data/conferences.json`, and register its official URLs in `data/source-adapters.json` when a parser is appropriate. Candidate review status can be kept in the JSON file; the public site displays the latest candidates separately. If the secret is missing, the scheduled step exits cleanly and reports that discovery was skipped. The search index is broad but cannot guarantee exhaustive internet coverage, and its API may impose quotas or costs.
+
+The query set, topic terms, score threshold and candidate cap are in `data/discovery-config.json`. Run a local dry check with `YOU_API_KEY=… python3 scripts/discover_conferences.py --dry-run` (or use `--api-key-env BRAVE_SEARCH_API_KEY` for Brave). The workflow also exposes a **discover_conferences** switch for manual runs; the scheduled run keeps it enabled every day.
 
 ## Free email service
 

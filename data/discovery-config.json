@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "provider": "you",
+  "endpoint": "https://ydc-index.io/v1/search",
+  "country": "US",
+  "search_lang": "en",
+  "years_ahead": 2,
+  "results_per_query": 10,
+  "max_candidates": 250,
+  "minimum_score": 4,
+  "request_delay_seconds": 0.15,
+  "event_terms": [
+    "conference",
+    "symposium",
+    "workshop",
+    "meeting",
+    "congress",
+    "school",
+    "summit"
+  ],
+  "call_terms": [
+    "call for papers",
+    "important dates",
+    "abstract submission",
+    "registration",
+    "submit an abstract"
+  ],
+  "topic_terms": {
+    "AI and machine learning": ["artificial intelligence", "machine learning", "deep learning", "AI conference", "neural network"],
+    "AI for materials and chemistry": ["AI for materials", "materials informatics", "computational materials", "AI for chemistry", "materials machine learning"],
+    "MOFs, COFs and porous materials": ["metal-organic framework", "MOF", "covalent organic framework", "COF", "porous materials", "zeolite"],
+    "adsorption and separations": ["adsorption", "separation science", "membrane separation"],
+    "simulation and theory": ["molecular simulation", "computational chemistry", "theoretical chemistry", "molecular modelling", "atomistic simulation"],
+    "materials and characterisation": ["materials chemistry", "materials characterization", "materials characterisation", "catalysis", "electrochemistry"],
+    "automation and digital chemistry": ["automated experimentation", "automation", "digital chemistry", "cheminformatics"]
+  },
+  "queries": [
+    "{year} (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
+    "{year} (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")",
+    "{year} (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)",
+    "{year} (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
+    "{year} (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
+    "{year} (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+  ],
+  "blocked_domains": [
+    "facebook.com",
+    "instagram.com",
+    "linkedin.com",
+    "reddit.com",
+    "tiktok.com",
+    "x.com",
+    "youtube.com"
+  ]
+}
