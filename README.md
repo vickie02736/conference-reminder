@@ -13,6 +13,7 @@ Share [the public website](https://vickie02736.github.io/conference-reminder/) d
 ## Explore and set reminders
 
 - Search and filter by region, status and sorting in the main bar. **More filters** contains topic, activity, year and source-check status; its count shows active choices. UK & Europe is the default, including the NeurIPS Paris attendance option.
+- The scrollable **Timeline** uses exactly the visible conference results. It shows conference dates by default, or the selected registration, submission, application or opening dates. Dates awaiting confirmation stay explicit. Select an entry to jump to its highlighted card, then use **Back to timeline** to return.
 - **Sources to review**, **Source errors** and **Sources not automatically checkable** show all affected activities worldwide. Use the separate Source check filter to combine evidence status with other filters. Source review is distinct from unconfirmed conference dates or attendance availability. Bot challenges, JavaScript-only pages and timeouts are marked unverifiable rather than failed.
 - Scheduled and pending totals use the same classification as the cards. Announced but unverified dates remain provisional; pending activities show **Dates not confirmed** until reminders can be offered.
 - Each entry links to its official website and evidence. Closed submissions, full events, invitation-only attendance and conflicting dates remain visible.

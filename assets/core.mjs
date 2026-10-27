@@ -212,6 +212,94 @@ export function eventStatuses(event, today = todayISO(), now = Date.now()) {
   }
   return results.length ? results : [{...primary,filters:[primary.key]}];
 }
+/** Dates for the already-filtered cards; missing or conflicting dates remain explicit entries. */
+export function timelineEntries(events, stage = 'all', today = todayISO(), now = Date.now()) {
+  const routeStages=new Set(['registration','application','submission','abstract','oral','poster','paper']);
+  const entries=[];
+  const validDate=date=>typeof date==='string' && /^\d{4}-\d{2}-\d{2}$/.test(date) && Number.isFinite(Date.parse(date+'T00:00:00Z')) && new Date(date+'T00:00:00Z').toISOString().slice(0,10)===date;
+  const knownNode=node=>node.status==='verified' && validDate(node.date) && (node.precision!=='datetime' || milestoneInstant(node)!==null);
+  const futureNode=node=>knownNode(node) && (node.precision==='datetime' ? milestoneInstant(node)>now : node.date>=today);
+  const add=(event,node,label)=>{
+    const known=node && knownNode(node);
+    entries.push({eventId:event.id,eventName:event.name,date:known?node.date:null,label,
+      status:known?(event.reminders_paused || event.disabled?'paused':'verified'):node?.status==='conflict'?'conflict':'unknown',
+      ...(node?.id?{milestoneId:node.id}:{}),
+      ...(known?{precision:node.precision || 'date',time:node.time || null,timezone:node.timezone || null}:{})});
+  };
+  const nodeRoutes=node=>phaseChannel(node)==='submission'?submissionRoutes(node):[node.kind==='funding'?'funding':phaseChannel(node)];
+  const matchesStatus=(node,status,nodes)=>{
+    const reference=nodes.find(item=>item.id===status.milestoneId);
+    if (reference) return phaseChannel(reference)===phaseChannel(node) && nodeRoutes(reference).some(route=>nodeRoutes(node).includes(route));
+    return nodeRoutes(node).some(route=>statusRouteLabel(route) && status.label.startsWith(statusRouteLabel(route)));
+  };
+  const matchesStage=node=>{
+    const channel=phaseChannel(node);
+    if (stage==='registration' || stage==='application') return channel===stage;
+    if (channel!=='submission') return false;
+    if (stage==='submission') return true;
+    if (stage==='abstract') return node.kind==='abstract' || /\babstracts?\b/i.test(node.label);
+    return submissionRoutes(node).includes(stage);
+  };
+  for (const event of events) {
+    const nodes=event.milestones || [], before=entries.length;
+    if (routeStages.has(stage)) {
+      const statuses=eventStatuses(event,today,now).filter(status=>status.filters.includes(stage) && ['registration','application','submission'].includes(status.key));
+      const clauses=statusClauses(event);
+      for (const node of nodes.filter(matchesStage)) {
+        const routes=nodeRoutes(node);
+        const matching=statuses.some(status=>{
+          const reference=nodes.find(item=>item.id===status.milestoneId);
+          return status.key===phaseChannel(node) && (!reference || nodeRoutes(reference).some(route=>routes.includes(route)));
+        });
+        if (!matching) continue;
+        const closed=routes.every(route=>clauses.some(clause=>routeClause(clause,phaseChannel(node),route) && matchesRound(clause,node) && closedClause(clause) && !statusSoon(clause)));
+        if (closed || (knownNode(node) && !futureNode(node))) continue;
+        add(event,node,node.label || phaseLabel(node));
+      }
+      if (entries.length===before) {
+        const label=stage==='registration'?'Registration date not announced':stage==='application'?'Application date not announced':(statusRouteLabel(stage) || 'Submission')+' date not announced';
+        add(event,null,label);
+      }
+    } else if (stage==='closed' || stage==='needs_review') {
+      const statuses=eventStatuses(event,today,now);
+      const selected=statuses.filter(status=>stage==='closed'?status.key==='closed':status.availability==='unconfirmed');
+      const used=new Set();
+      const addOnce=(node,label)=>{
+        if (node?.id && used.has(node.id)) return;
+        if (node?.id) used.add(node.id);
+        add(event,node,label);
+      };
+      if (stage==='needs_review') {
+        for (const node of nodes.filter(node=>node.status==='unknown' || node.status==='conflict' || (node.status==='verified' && node.precision==='datetime' && milestoneInstant(node)===null))) {
+          addOnce(node,node.label || 'Date needs confirmation');
+        }
+      }
+      for (const status of selected) {
+        const matching=nodes.filter(node=>phaseChannel(node) && matchesStatus(node,status,nodes) && (stage==='closed' || !knownNode(node) || futureNode(node)));
+        for (const node of matching) addOnce(node,node.label || phaseLabel(node));
+        if (!matching.length) add(event,null,status.label+' · date not announced');
+      }
+      if (entries.length===before) add(event,null,stage==='closed'?'Closed route · date not announced':'Date or availability needs confirmation');
+    } else if (stage==='opening_soon') {
+      const statuses=eventStatuses(event,today,now).filter(status=>status.key==='opening_soon');
+      for (const status of statuses) {
+        const node=nodes.find(item=>item.id===status.milestoneId && item.kind==='other' && /open/i.test(item.label));
+        add(event,node,node?.label || status.label+' · opening date not announced');
+      }
+      if (entries.length===before) add(event,null,'Opening date not announced');
+    } else {
+      const startNode=nodes.find(node=>node.kind==='conference_start');
+      const endNode=nodes.find(node=>node.kind==='conference_end');
+      const start=startNode || {date:event.start,status:'verified',precision:'date'};
+      add(event,start,event.reminders_paused || event.disabled?'Conference dates · reminders paused':'Conference dates');
+      const last=entries.at(-1);
+      if (last.date && validDate(event.end) && (!endNode || knownNode(endNode))) last.endDate=event.end;
+    }
+  }
+  const instant=entry=>entry.precision==='datetime'?milestoneInstant({...entry,status:'verified'}):Date.parse(entry.date+'T00:00:00Z');
+  // Stable ties preserve the order of the corresponding cards.
+  return entries.sort((a,b)=>a.date===null?(b.date===null?0:1):b.date===null?-1:instant(a)-instant(b));
+}
 export function upcomingNodes(event, today = todayISO(), now = Date.now()) { if (event.reminders_paused) return []; return (event.milestones || []).filter(m => { if (m.status !== 'verified' || !m.date) return false; const instant = milestoneInstant(m); return m.precision === 'datetime' ? instant !== null && instant > now : m.date >= today; }).sort((a,b) => a.date.localeCompare(b.date)); }
 export function deadlineSummary(event, today = todayISO()) {
   const nodes = (event.milestones || []).filter(m => !isConferenceDate(m));

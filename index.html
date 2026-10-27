@@ -11,8 +11,8 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vickie02736.github.io/conference-reminder/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20261027-recheck">
-  <script type="module" src="assets/app.js?v=20261027-recheck"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=20261027-timeline">
+  <script type="module" src="assets/app.js?v=20261027-timeline"></script>
 </head>
 <body>
   <header class="site-header">
@@ -43,6 +43,11 @@
         </div><p id="stage-hint" class="fine filter-help">Status describes dates and attendance routes; Source check describes the evidence review. Announced deadlines alone do not confirm that a platform is open.</p></details>
         <div class="filter-bottom"><label class="checkbox"><input id="show-past" type="checkbox"> Include finished events</label><button id="reset-filters" class="text-button" type="button">Reset filters</button></div>
       </div>
+      <section id="conference-timeline" class="timeline panel" aria-labelledby="timeline-title" tabindex="-1" hidden>
+        <div class="timeline-heading"><h3 id="timeline-title">Timeline</h3><span id="timeline-count"></span></div>
+        <p id="timeline-hint">Scroll through dates. Select an activity to jump to its card.</p>
+        <nav id="timeline-scroll" class="timeline-scroll" aria-label="Dates for the filtered conferences" aria-describedby="timeline-hint" tabindex="0"><ol id="timeline-list"></ol></nav>
+      </section>
       <p id="email-status" class="notice">Checking email reminder availability…</p>
       <div id="catalogue-list" class="catalogue-grid"><p class="empty">Loading the conference collection…</p></div>
       <details class="updates panel"><summary>Source checks &amp; recent updates</summary><p class="fine" id="source-health-detail"></p><p class="fine">Official pages are checked daily. Changes that need interpretation remain marked for review. A successful fetch alone does not verify every fact.</p><div id="update-list"></div><p><a href="https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml" target="_blank" rel="noopener noreferrer">Check history / run a source check ↗</a> <span class="fine">Running a check requires repository access.</span></p></details>

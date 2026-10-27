@@ -33,6 +33,7 @@ async function harness({ delayed = false, failed = false } = {}) {
     upcomingNodes: (event) => core.upcomingNodes(event, today, now),
     eventStatuses: (event) => core.eventStatuses(event, today, now),
     filterEvents: (events, filters) => core.filterEvents(events, filters, today, now),
+    timelineEntries: (events, stage) => core.timelineEntries(events, stage, today, now),
     document: { getElementById: (id) => elements.get(id), createElement: () => new Element() },
     setInterval: () => 1,
     fetch: (url) => url.includes('conferences.json') ? catalogueResponse : Promise.resolve({ ok: true, json: async () => config })
@@ -117,4 +118,34 @@ test('a failed catalogue cannot turn into a misleading empty search result', asy
   h.set('search', 'MOF');
   assert.match(h.list(), /temporarily unavailable/);
   assert.equal(h.elements.get('result-count').textContent, 'Catalogue unavailable');
+});
+
+test('timeline links follow every visible card through combined filters and reset', async () => {
+  const h = await harness();
+  const linkedIds = () => new Set([...h.elements.get('timeline-list').innerHTML.matchAll(/href="#event-([^"]+)"/g)].map(m => decodeURIComponent(m[1])));
+  const cardIds = () => new Set([...h.list().matchAll(/id="event-([^"]+)"/g)].map(m => m[1]));
+  assert.equal(h.elements.get('conference-timeline').hidden, false);
+  assert.deepEqual(linkedIds(), cardIds());
+  h.set('stage', 'registration'); h.set('region', 'UK');
+  assert.match(h.elements.get('timeline-count').textContent, /^Registration dates/);
+  assert.ok(linkedIds().size > 0);
+  assert.deepEqual(linkedIds(), cardIds());
+  h.set('topic', 'MOF');
+  assert.deepEqual(linkedIds(), cardIds());
+  h.set('search', 'no matching conference');
+  assert.equal(linkedIds().size, 0);
+  assert.match(h.elements.get('timeline-hint').textContent, /No activities match/);
+  h.elements.get('reset-filters').click();
+  assert.deepEqual(linkedIds(), cardIds());
+  assert.match(h.list(), /tabindex="-1"/);
+  assert.doesNotMatch(h.elements.get('timeline-list').innerHTML, /target="_blank"/);
+});
+
+test('unchanged renders preserve timeline scrolling while new results reset it', async () => {
+  const h = await harness();
+  h.elements.get('timeline-scroll').scrollTop = 120;
+  h.set('search', '');
+  assert.equal(h.elements.get('timeline-scroll').scrollTop, 120);
+  h.set('region', 'UK');
+  assert.equal(h.elements.get('timeline-scroll').scrollTop, 0);
 });
