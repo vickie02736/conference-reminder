@@ -8,7 +8,9 @@ An English conference catalogue for AI, AI for Materials, MOF/COF, porous materi
 
 - Filter by region, topic, activity, year and keyword. UK & Europe is the default, including the NeurIPS Paris attendance option.
 - Each entry links to its official website and evidence. Closed submissions, full events, invitation-only attendance and conflicting dates remain visible.
-- Track multiple dates for a conference, receive browser notifications, or export reminders as ICS calendar files.
+- Each conference card shows its current stage, based on verified dates and published availability. A deadline alone does not confirm that a submission or registration platform is open.
+- **Track a date** opens that conference’s tracking window. Save multiple dates, manage its saved dates, receive browser notifications, or export ICS calendar files. The header’s **Add a date** also keeps manual entry and older saved dates accessible.
+- For a date without a published time, the local calendar entry starts at an explicitly labelled, editable 09:00 default; this is not an official event or cutoff time.
 - Existing reminders under `academic-conferences-v1` remain compatible. Personal calendar/browser reminders stay in local storage; browser notifications require permission and an open page.
 - **Send reminder** opens the Google Apps Script service in a new tab. Select dates and lead times, then verify your email to activate server reminders.
 

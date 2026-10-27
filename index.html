@@ -12,7 +12,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#">◷ Conference Reminder<span>.</span></a>
-    <nav aria-label="Main navigation"><a href="#catalogue">Explore</a><a href="#personal">My reminders</a><button class="secondary compact" id="notify">Enable browser reminders</button></nav>
+    <nav aria-label="Main navigation"><a href="#catalogue">Explore</a><button class="secondary compact" id="add-date" type="button">+ Add a date</button></nav>
   </header>
   <main>
     <section class="hero">
@@ -37,21 +37,32 @@
       <div id="catalogue-list" class="catalogue-grid"><p class="empty">Loading the conference collection…</p></div>
       <details class="updates panel"><summary>Source checks &amp; recent updates</summary><p class="fine">Official pages are checked daily. Changes that need interpretation remain marked for review. A successful fetch alone does not verify every fact.</p><div id="update-list"></div><p><a href="https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml" target="_blank" rel="noopener noreferrer">Check history / run a source check ↗</a> <span class="fine">Running a check requires repository access.</span></p></details>
     </section>
-    <section id="personal" class="personal-section" aria-labelledby="personal-title">
-      <div class="section-head"><div><p class="eyebrow">YOUR NEXT STEPS</p><h2 id="personal-title">My reminders</h2></div><span id="total"></span></div>
-      <p class="fine">Saved on this device. Browser reminders require this page to stay open; calendar reminders work independently.</p>
-      <div class="layout"><div id="list"></div><aside class="panel manual-panel"><h3>+ Track a date</h3><form id="form">
-        <label for="title">Conference name *</label><input id="title" required maxlength="240" placeholder="e.g. EuroMOF 2027">
-        <div id="milestone-wrap" hidden><label for="milestone">Published node</label><select id="milestone"></select><p class="fine" id="milestone-hint"></p></div>
-        <label for="deadlineLabel">What is this date? *</label><input id="deadlineLabel" required maxlength="100" value="Submission deadline" placeholder="e.g. Poster submission">
-        <label for="date">Deadline in your device’s local time *</label><input id="date" type="datetime-local" required>
-        <label for="conferenceDate">Conference start date</label><input id="conferenceDate" type="date">
-        <label for="website">Conference website</label><input id="website" type="url" placeholder="https://conference.example.org">
-        <label for="place">Location</label><input id="place" maxlength="500">
-        <label for="reminder">Remind me</label><select id="reminder"><option value="1440">1 day before</option><option value="4320" selected>3 days before</option><option value="10080">1 week before</option><option value="20160">2 weeks before</option></select>
-        <button type="submit">Save reminder ↗</button><button type="button" class="text-button" id="clear-form">Clear form</button>
-      </form><p class="fine">Confirm the official time zone before saving. A date-only announcement does not specify an exact deadline time.</p></aside></div>
-    </section>
+    <dialog id="track-dialog" aria-labelledby="track-title" aria-describedby="track-description">
+      <div class="track-content">
+        <div class="track-heading"><div><p class="eyebrow">TRACK A DATE</p><h2 id="track-title">Add a date</h2></div><button id="close-track" class="close-button" type="button" aria-label="Close tracking window">×</button></div>
+        <p id="track-description" class="fine">Save a date on this device or export it to your calendar.</p>
+        <p id="track-context" class="track-context" hidden></p>
+        <form id="form">
+          <div id="milestone-wrap" hidden><label for="milestone">Important date</label><select id="milestone"></select><p class="fine" id="milestone-hint"></p></div>
+          <label for="deadlineLabel">Date label *</label><input id="deadlineLabel" required maxlength="100" value="Submission deadline" placeholder="e.g. Poster submission">
+          <div class="track-fields">
+            <div><label for="date">Date and time on your device *</label><input id="date" type="datetime-local" required></div>
+            <div><label for="reminder">Remind me</label><select id="reminder"><option value="1440">1 day before</option><option value="4320" selected>3 days before</option><option value="10080">1 week before</option><option value="20160">2 weeks before</option></select></div>
+          </div>
+          <details id="conference-fields" class="conference-fields"><summary>Conference details</summary>
+            <label for="title">Conference name *</label><input id="title" required maxlength="240" placeholder="e.g. EuroMOF 2027">
+            <label for="conferenceDate">Conference start date</label><input id="conferenceDate" type="date">
+            <label for="website">Conference website</label><input id="website" type="url" placeholder="https://conference.example.org">
+            <label for="place">Location</label><input id="place" maxlength="500">
+          </details>
+          <p class="fine">Use the official time and time zone. If no time is published, choose your own time for the calendar entry. Browser notifications need this page to stay open.</p>
+          <div id="track-status" role="status" aria-live="polite"></div>
+          <div class="track-actions"><button type="submit">Save on this device</button><button type="button" class="secondary" id="cancel-track">Close</button></div>
+        </form>
+        <details id="tracked-dates" class="tracked-dates" hidden><summary>Saved dates <span id="total"></span></summary><div id="list"></div></details>
+        <button class="text-button" id="notify" type="button">Enable browser notifications</button>
+      </div>
+    </dialog>
     <footer><a class="brand" href="#">◷ Conference Reminder<span>.</span></a><p>A curated collection, not an exhaustive list. Submission or registration may already be closed even when a conference is still ahead. Check the official website before making plans.</p><p>Local reminders stay in this browser. Verified email subscriptions, when enabled, are stored privately and can be cancelled from the reminder email.</p><a href="https://github.com/vickie02736/conference-reminder" target="_blank" rel="noopener noreferrer">About this project ↗</a></footer>
   </main>
 </body>
