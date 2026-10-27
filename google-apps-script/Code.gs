@@ -59,6 +59,50 @@ function disableEmailSending() {
   return 'Email sending is disabled. Stored subscriptions can still be cancelled.';
 }
 
+/** Owner editor action: queue one clearly labelled test for the real clock trigger. */
+function scheduleOwnerDeliverySmokeTest() {
+  const owner = normalizeEmail_(requireOwner_());
+  requireEnabled_();
+  appUrl_();
+  fetchCatalog_();
+  return withLock_(function () {
+    const props = PropertiesService.getScriptProperties();
+    const previousId = props.getProperty('OWNER_SMOKE_TEST_ID');
+    const previous = readRecords_('Deliveries').find(function (row) { return row.id === previousId; });
+    if (previous && ['pending', 'sending'].indexOf(previous.status) >= 0) {
+      return { id: previous.id, status: previous.status, message: 'An owner delivery test is already queued. No additional email was scheduled.' };
+    }
+    if (MailApp.getRemainingDailyQuota() < 1) throw new Error('No email quota remains. Schedule the owner test after the Google quota resets.');
+    const now = Date.now();
+    const row = {
+      id: 'owner-smoke:' + newId_(), ownerSmokeTest: true, email: owner,
+      dueAt: now, deadlineAt: now + CR_.maxLatenessMs,
+      status: 'pending', createdAt: now, updatedAt: now
+    };
+    props.setProperty('OWNER_SMOKE_TEST_ID', row.id);
+    saveRecord_('Deliveries', row);
+    SpreadsheetApp.flush();
+    const result = { id: row.id, status: row.status,
+      message: 'One owner-only test is queued for the next scheduled check, normally within 15 minutes. You can close the browser. This function sent no email.' };
+    console.log(JSON.stringify(result));
+    return result;
+  });
+}
+
+/** Owner editor action: cancel a test before the trigger claims it. */
+function cancelOwnerDeliverySmokeTest() {
+  requireOwner_();
+  return withLock_(function () {
+    const id = PropertiesService.getScriptProperties().getProperty('OWNER_SMOKE_TEST_ID');
+    const row = readRecords_('Deliveries').find(function (item) { return item.id === id; });
+    if (!row || row.status !== 'pending') return { message: 'There is no unclaimed owner test to cancel.' };
+    row.status = 'cancelled';
+    row.updatedAt = Date.now();
+    saveRecord_('Deliveries', row);
+    return { id: row.id, status: row.status, message: 'The queued owner delivery test was cancelled.' };
+  });
+}
+
 function doGet(e) {
   const args = e && e.parameter || {};
   const action = ['verify', 'manage', 'unsubscribe'].indexOf(args.action) >= 0 ? args.action : 'subscribe';
@@ -251,16 +295,24 @@ function dispatchReminders_() {
     const groups = {};
     deliveries.filter(function (row) {
       return row.status === 'pending' && row.dueAt <= now && now - row.dueAt <= CR_.maxLatenessMs;
-    }).forEach(function (row) { (groups[row.email] || (groups[row.email] = [])).push(row); });
+    }).forEach(function (row) {
+      // An owner smoke test is a separate message, even when real reminders for
+      // the owner happen to be due at the same time.
+      const key = (row.ownerSmokeTest === true ? 'smoke:' : 'reminders:') + row.email;
+      if (!groups[key]) groups[key] = { email: row.email, rows: [] };
+      groups[key].rows.push(row);
+    });
     let count = 0;
-    const emails = Object.keys(groups).sort();
-    for (let index = 0; index < emails.length && count < CR_.maxMessagesPerRun; index++) {
+    const groupKeys = Object.keys(groups).sort();
+    for (let index = 0; index < groupKeys.length && count < CR_.maxMessagesPerRun; index++) {
       if (Date.now() - startedAt >= CR_.maxRunMs) break;
       if (MailApp.getRemainingDailyQuota() < 1) break;
-      const email = emails[index];
-      const rows = groups[email];
-      const token = createToken_('manage', email, '', now, CR_.manageLifetimeMs);
-      const message = reminderMessage_(rows, token);
+      const group = groups[groupKeys[index]];
+      const email = group.email;
+      const rows = group.rows;
+      const smoke = rows[0].ownerSmokeTest === true;
+      const token = smoke ? null : createToken_('manage', email, '', now, CR_.manageLifetimeMs);
+      const message = smoke ? ownerSmokeMessage_(rows[0], Date.now()) : reminderMessage_(rows, token);
       // Leave unclaimed jobs pending if catalogue/database work used the budget.
       // A later trigger can resume them; never claim a job we will not attempt.
       if (Date.now() - startedAt >= CR_.maxRunMs) break;
@@ -312,6 +364,12 @@ function reconcile_(catalog, now) {
   });
   deliveries.forEach(function (row) {
     if (row.status !== 'pending') return;
+    if (row.ownerSmokeTest === true) {
+      if (!validOwnerSmokeTest_(row)) row.status = 'cancelled';
+      else if (now - row.dueAt > CR_.maxLatenessMs) row.status = 'expired';
+      if (row.status !== 'pending') { row.updatedAt = now; saveRecord_('Deliveries', row); }
+      return;
+    }
     const plan = plans[row.id];
     if (!plan) row.status = 'cancelled';
     else if ((row.dueAt !== plan.dueAt && plan.dueAt <= now) || now - plan.dueAt > CR_.maxLatenessMs || plan.deadlineAt <= now) row.status = 'expired';
@@ -401,10 +459,46 @@ function reminderMessage_(rows, token) {
   };
 }
 
+function validOwnerSmokeTest_(row) {
+  const props = PropertiesService.getScriptProperties();
+  const owner = props.getProperty('OWNER_ACCOUNT');
+  return row.ownerSmokeTest === true && row.id === props.getProperty('OWNER_SMOKE_TEST_ID') &&
+    owner && row.email === normalizeEmail_(owner) && Number.isFinite(row.dueAt) &&
+    row.dueAt === row.createdAt && row.deadlineAt === row.dueAt + CR_.maxLatenessMs;
+}
+
+function ownerSmokeMessage_(row, now) {
+  const created = new Date(row.createdAt).toISOString();
+  const submitted = new Date(now).toISOString();
+  const text = 'OWNER-ONLY DELIVERY TEST — no conference deadline\n\n' +
+    'This one-shot test used the same server dispatcher and delivery ledger as conference reminders. ' +
+    'A browser does not need to stay open for the installed clock trigger to send it.\n\n' +
+    'Test ID: ' + row.id + '\nQueued at: ' + created + '\nDispatcher attempted at: ' + submitted +
+    '\n\nNo conference, subscription or official deadline was changed. This test will not repeat automatically. ' +
+    'In Apps Script Executions, confirm that dispatchReminders_ ran with type Time Driven to verify a scheduled run.';
+  return { subject: '[TEST] Conference Reminder — scheduled delivery check', text: text,
+    html: '<h2>Owner-only delivery test</h2><p><strong>This is a test, not a conference deadline.</strong></p>' +
+      '<p>The same server dispatcher and delivery ledger used for conference reminders submitted this one-shot message. ' +
+      'The installed clock trigger works while the browser is closed.</p><p>Test ID: <code>' + escapeHtml_(row.id) +
+      '</code><br>Queued at: ' + escapeHtml_(created) + '<br>Dispatcher attempted at: ' + escapeHtml_(submitted) +
+      '</p><p>No conference, subscription or official deadline was changed. This test will not repeat automatically.</p>' +
+      '<p>In Apps Script Executions, confirm that <code>dispatchReminders_</code> ran with type <strong>Time Driven</strong>.</p>' };
+}
+
 function syncMilestones_(catalog, now) {
-  const existing = readRecords_('Milestones');
+  const sheet = database_().getSheetByName('Milestones');
+  if (!sheet) throw new Error('The subscription database is not initialized.');
+  const lastRow = sheet.getLastRow();
+  const stored = lastRow >= 2 ? sheet.getRange(2, 1, lastRow - 1, 2).getValues() : [];
   const byId = {};
-  existing.forEach(function (row) { byId[row.id] = row; });
+  stored.forEach(function (values, index) {
+    if (!values[0]) return;
+    const record = JSON.parse(values[1]);
+    record._row = index + 2;
+    byId[record.id] = record;
+  });
+  const writes = [];
+  let nextRow = Math.max(lastRow + 1, 2);
   catalog.events.forEach(function (event) {
     (event.milestones || []).forEach(function (milestone) {
       if (!validId_(milestone.id)) return;
@@ -412,10 +506,25 @@ function syncMilestones_(catalog, now) {
       const signature = hash_(JSON.stringify([event.name, event.url, event.status, event.disabled, milestone]));
       if (byId[id] && byId[id].signature === signature) return;
       const row = { id: id, eventId: event.id, eventName: event.name, milestone: milestone, signature: signature, updatedAt: now };
-      if (byId[id]) row._row = byId[id]._row;
-      saveRecord_('Milestones', row);
+      const target = byId[id] ? byId[id]._row : nextRow++;
+      writes.push({ row: target, values: [id, JSON.stringify(row)] });
+      row._row = target;
+      byId[id] = row;
     });
   });
+  // Keep removed catalogue rows as history, and do not rewrite unchanged rows.
+  // New rows are one append batch; adjacent changed rows share a setValues call.
+  writes.sort(function (a, b) { return a.row - b.row; });
+  for (let index = 0; index < writes.length;) {
+    const first = writes[index].row;
+    const values = [writes[index].values];
+    index++;
+    while (index < writes.length && writes[index].row === first + values.length) {
+      values.push(writes[index].values);
+      index++;
+    }
+    sheet.getRange(first, 1, values.length, 2).setValues(values);
+  }
 }
 
 function fetchCatalog_() {

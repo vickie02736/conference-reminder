@@ -14,26 +14,33 @@ const catalogue = () => ({ metadata: { schema_version: 1 }, events: [{
 }], watchlist: [], updates: [] });
 
 function harness() {
+  const emptyCalls = () => ({ openById: 0, sheetLookups: 0, lastRow: 0, reads: [], writes: [] });
   const state = { now: Date.parse('2026-10-27T12:00:00Z'), catalog: catalogue(), properties: {},
     sheets: new Map(), mails: [], triggers: [], quota: 100, flushes: 0, locked: false,
-    httpStatus: 200, sendFailure: false, onSend: null, active: 'owner@gmail.com' };
+    httpStatus: 200, sendFailure: false, onSend: null, active: 'owner@gmail.com', calls: emptyCalls() };
   class Clock extends Date { constructor(...args) { super(...(args.length ? args : [state.now])); } static now() { return state.now; } }
   class Sheet {
     constructor(name) { this.name = name; this.rows = []; }
-    getLastRow() { return this.rows.length; }
+    getLastRow() { state.calls.lastRow++; return this.rows.length; }
     setFrozenRows() {}
     getRange(row, column, height, width) {
       return {
-        getValues: () => Array.from({ length: height }, (_, i) => Array.from({ length: width }, (_, j) => this.rows[row + i - 1]?.[column + j - 1] ?? '')),
-        setValues: (values) => values.forEach((valuesRow, i) => {
-          this.rows[row + i - 1] ??= [];
-          valuesRow.forEach((value, j) => { this.rows[row + i - 1][column + j - 1] = value; });
-        })
+        getValues: () => {
+          state.calls.reads.push({ sheet: this.name, row, column, height, width });
+          return Array.from({ length: height }, (_, i) => Array.from({ length: width }, (_, j) => this.rows[row + i - 1]?.[column + j - 1] ?? ''));
+        },
+        setValues: (values) => {
+          state.calls.writes.push({ sheet: this.name, row, column, height, width });
+          values.forEach((valuesRow, i) => {
+            this.rows[row + i - 1] ??= [];
+            valuesRow.forEach((value, j) => { this.rows[row + i - 1][column + j - 1] = value; });
+          });
+        }
       };
     }
   }
   const book = { getId: () => 'private-sheet-id', getUrl: () => 'https://docs.google.com/spreadsheets/d/private-sheet-id/edit',
-    getSheetByName: (name) => state.sheets.get(name),
+    getSheetByName: (name) => { state.calls.sheetLookups++; return state.sheets.get(name); },
     insertSheet: (name) => { const sheet = new Sheet(name); state.sheets.set(name, sheet); return sheet; } };
   const props = { getProperty: (key) => state.properties[key] ?? null,
     getProperties: () => ({ ...state.properties }), deleteProperty: (key) => { delete state.properties[key]; },
@@ -42,7 +49,7 @@ function harness() {
   const api = {
     Date: Clock, console: { log() {}, warn() {} },
     PropertiesService: { getScriptProperties: () => props },
-    SpreadsheetApp: { create: () => book, openById: () => book, flush: () => { state.flushes++; } },
+    SpreadsheetApp: { create: () => book, openById: () => { state.calls.openById++; return book; }, flush: () => { state.flushes++; } },
     Session: { getActiveUser: () => ({ getEmail: () => state.active }), getEffectiveUser: () => ({ getEmail: () => 'owner@gmail.com' }) },
     ScriptApp: { getService: () => ({ getUrl: () => 'https://script.google.com/macros/s/deployed-id/exec' }),
       getProjectTriggers: () => state.triggers,
@@ -72,7 +79,7 @@ function harness() {
     return state.mails.at(-1).body.match(/token=([a-f0-9]{64})/)[1];
   };
   const activate = (overrides = {}) => { const token = subscribe(overrides); app.verifySubscription({ token }); return token; };
-  return { app, state, records, preferences, subscribe, activate };
+  return { app, state, records, preferences, subscribe, activate, resetCalls: () => { state.calls = emptyCalls(); } };
 }
 
 test('setup is idempotent, private by default, and never enables email or sends', () => {
@@ -362,6 +369,97 @@ test('lock contention prevents duplicate mutations and send attempts', () => {
   assert.equal(h.state.mails.length, 0);
 });
 
+test('only the owner can queue a delivery smoke test, and no recipient argument is accepted', () => {
+  const h = harness();
+  h.state.properties.EMAIL_ENABLED = 'false';
+  assert.throws(() => h.app.scheduleOwnerDeliverySmokeTest(), /not been activated/);
+  h.state.properties.EMAIL_ENABLED = 'true'; h.state.active = '';
+  assert.throws(() => h.app.scheduleOwnerDeliverySmokeTest(), /editor as the owner/);
+  h.state.active = 'someone@example.com';
+  assert.throws(() => h.app.scheduleOwnerDeliverySmokeTest(), /editor as the owner/);
+  assert.throws(() => h.app.cancelOwnerDeliverySmokeTest(), /editor as the owner/);
+  h.state.active = 'owner@gmail.com';
+  const result = h.app.scheduleOwnerDeliverySmokeTest({ email: 'attacker@example.com', title: 'arbitrary content' });
+  const row = h.records('Deliveries')[0];
+  assert.equal(row.email, 'owner@gmail.com');
+  assert.equal(row.id, result.id);
+  assert.equal(row.ownerSmokeTest, true);
+  assert.equal(h.state.mails.length, 0);
+  assert.equal(h.state.quota, 100);
+});
+
+test('the owner smoke test is one-shot and uses the normal trigger dispatcher and durable ledger', () => {
+  const h = harness(); const originalCatalog = JSON.stringify(h.state.catalog);
+  const queued = h.app.scheduleOwnerDeliverySmokeTest();
+  const duplicate = h.app.scheduleOwnerDeliverySmokeTest();
+  assert.equal(duplicate.id, queued.id);
+  assert.equal(h.records('Deliveries').length, 1);
+  assert.equal(h.records('Subscriptions').length, 0);
+  assert.equal(h.state.mails.length, 0);
+  h.state.now += 15 * 60 * 1000;
+  h.state.onSend = () => assert.equal(h.records('Deliveries')[0].status, 'sending');
+  assert.equal(h.app.dispatchReminders_().messages, 1);
+  const mail = h.state.mails[0];
+  assert.equal(mail.to, 'owner@gmail.com');
+  assert.match(mail.subject, /^\[TEST\]/);
+  assert.ok(mail.body.includes(queued.id));
+  assert.ok(mail.body.includes('Time Driven'));
+  assert.ok(mail.body.includes('No conference, subscription or official deadline was changed'));
+  const sent = h.records('Deliveries')[0];
+  assert.equal(sent.status, 'sent');
+  assert.ok(sent.groupId && sent.attemptedAt && sent.sentAt);
+  assert.equal(h.records('Tokens').length, 0);
+  assert.equal(h.app.dispatchReminders_().messages, 0);
+  assert.equal(h.state.mails.length, 1);
+  assert.equal(h.state.quota, 99);
+  assert.equal(JSON.stringify(h.state.catalog), originalCatalog);
+  assert.equal(h.state.triggers.length, 1);
+});
+
+test('the owner can cancel an unclaimed smoke test without sending anything', () => {
+  const h = harness(); h.app.scheduleOwnerDeliverySmokeTest();
+  assert.equal(h.app.cancelOwnerDeliverySmokeTest().status, 'cancelled');
+  h.state.now += 15 * 60 * 1000;
+  h.app.dispatchReminders_();
+  assert.equal(h.records('Deliveries')[0].status, 'cancelled');
+  assert.equal(h.state.mails.length, 0);
+});
+
+test('a forged smoke record cannot send to a non-owner address', () => {
+  const h = harness(); h.app.scheduleOwnerDeliverySmokeTest();
+  const row = h.app.readRecords_('Deliveries')[0]; row.email = 'attacker@example.com';
+  h.app.saveRecord_('Deliveries', row);
+  h.state.now += 15 * 60 * 1000;
+  h.app.dispatchReminders_();
+  assert.equal(h.records('Deliveries')[0].status, 'cancelled');
+  assert.equal(h.state.mails.length, 0);
+});
+
+test('the smoke test stays separate from real reminders for the same owner email', () => {
+  const h = harness(); h.activate({ email: 'owner@gmail.com' });
+  h.state.now = h.records('Deliveries')[0].dueAt + 5 * 60 * 1000;
+  h.app.scheduleOwnerDeliverySmokeTest();
+  assert.equal(h.app.dispatchReminders_().messages, 2);
+  const messages = h.state.mails.slice(1);
+  assert.equal(messages.filter((mail) => mail.subject.startsWith('[TEST]')).length, 1);
+  assert.equal(messages.filter((mail) => mail.subject.startsWith('Conference reminder:')).length, 1);
+  assert.ok(messages.every((mail) => mail.to === 'owner@gmail.com'));
+  assert.equal(h.records('Subscriptions').length, 1);
+});
+
+test('the smoke test observes catalogue failures and uncertain send handling', () => {
+  const h = harness(); h.app.scheduleOwnerDeliverySmokeTest();
+  h.state.httpStatus = 503;
+  assert.equal(h.app.dispatchReminders_().status, 'catalog_unavailable');
+  assert.equal(h.records('Deliveries')[0].status, 'pending');
+  h.state.httpStatus = 200; h.state.sendFailure = true;
+  assert.equal(h.app.dispatchReminders_().status, 'send_uncertain');
+  assert.equal(h.records('Deliveries')[0].status, 'uncertain');
+  h.state.sendFailure = false;
+  h.app.dispatchReminders_();
+  assert.equal(h.state.mails.length, 1);
+});
+
 test('JSON-only cells preserve plus-prefixed email strings without spreadsheet formulas', () => {
   const h = harness(); h.subscribe({ email: '+reader@example.com' });
   const rows = h.state.sheets.get('Subscriptions').rows.slice(1);
@@ -378,4 +476,53 @@ test('the published catalogue matches backend validation and all source dates re
   const verifiedDates = result.events.flatMap((event) => event.milestones).filter((m) => m.status === 'verified' && m.precision === 'date');
   assert.ok(verifiedDates.length > 0);
   assert.ok(verifiedDates.every((m) => h.app.schedulable_(m)));
+});
+
+test('initial synchronization of 325 milestones uses a single batch write and spreadsheet lookup', () => {
+  const h = harness();
+  const base = h.state.catalog.events[0].milestones[0];
+  h.state.catalog.events[0].milestones = Array.from({ length: 325 }, (_, index) => ({ ...base, id: 'milestone-' + index }));
+  h.resetCalls();
+  h.app.syncMilestones_(h.state.catalog, h.state.now);
+  assert.equal(h.state.calls.openById, 1);
+  assert.equal(h.state.calls.sheetLookups, 1);
+  assert.equal(h.state.calls.lastRow, 1);
+  assert.equal(h.state.calls.reads.length, 0);
+  assert.deepEqual(h.state.calls.writes, [{ sheet: 'Milestones', row: 2, column: 1, height: 325, width: 2 }]);
+  assert.equal(h.records('Milestones').length, 325);
+  assert.ok(h.records('Milestones').every((row) => !('_row' in row)));
+});
+
+test('unchanged milestone synchronization performs one read and no writes or timestamp churn', () => {
+  const h = harness(); h.app.syncMilestones_(h.state.catalog, h.state.now);
+  const before = JSON.stringify(h.state.sheets.get('Milestones').rows);
+  h.resetCalls();
+  h.app.syncMilestones_(h.state.catalog, h.state.now + 1000);
+  assert.equal(h.state.calls.openById, 1);
+  assert.equal(h.state.calls.sheetLookups, 1);
+  assert.equal(h.state.calls.reads.length, 1);
+  assert.equal(h.state.calls.writes.length, 0);
+  assert.equal(JSON.stringify(h.state.sheets.get('Milestones').rows), before);
+});
+
+test('sparse milestone changes batch adjacent rows and preserve unchanged and removed history rows', () => {
+  const h = harness();
+  const event = h.state.catalog.events[0]; const base = event.milestones[0];
+  event.milestones = ['a', 'b', 'c', 'd', 'e', 'f'].map((id) => ({ ...base, id }));
+  h.app.syncMilestones_(h.state.catalog, h.state.now);
+  const before = h.state.sheets.get('Milestones').rows.map((row) => JSON.stringify(row));
+  event.milestones = event.milestones.filter((m) => m.id !== 'c');
+  event.milestones.forEach((m) => { if (['b', 'd', 'e'].includes(m.id)) m.date = '2026-11-07'; });
+  event.milestones.push({ ...base, id: 'g' }, { ...base, id: 'h' });
+  h.resetCalls();
+  h.app.syncMilestones_(h.state.catalog, h.state.now + 1000);
+  assert.equal(h.state.calls.openById, 1);
+  assert.equal(h.state.calls.sheetLookups, 1);
+  assert.equal(h.state.calls.reads.length, 1);
+  assert.deepEqual(h.state.calls.writes.map(({ row, height }) => [row, height]), [[3, 1], [5, 2], [8, 2]]);
+  const rows = h.state.sheets.get('Milestones').rows;
+  for (const index of [0, 1, 3, 6]) assert.equal(JSON.stringify(rows[index]), before[index]);
+  assert.equal(h.records('Milestones').find((row) => row.id === 'event-one:b').milestone.date, '2026-11-07');
+  assert.equal(h.records('Milestones').find((row) => row.id === 'event-one:c').updatedAt, h.state.now);
+  assert.equal(h.records('Milestones').length, 8);
 });

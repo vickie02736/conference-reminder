@@ -29,6 +29,19 @@ When updating code, create a new deployment version under **Manage deployments**
 
 The optional `.clasp.json.example` describes a local `clasp` configuration. Copy it to `.clasp.json`, fill in your own project ID and use the official [clasp workflow](https://developers.google.com/apps-script/guides/clasp). Authentication belongs to the account owner. Do not commit local credentials or `.clasp.json`.
 
+## Owner-only delivery smoke test
+
+After owner authorization, `setup()`, production deployment and `enableEmailSending()`, the owner can test the **actual installed clock trigger**, including delivery with the browser closed:
+
+1. In the Apps Script editor, select **scheduleOwnerDeliverySmokeTest** and press **Run**. The function accepts **no recipient or content parameters**. It queues one private `Deliveries` record addressed only to the already-configured owner account and logs its test ID. This action itself sends no email. Repeating it while a test is pending does not queue duplicates.
+2. Close the Apps Script tab or browser. The existing **dispatchReminders_** time-driven trigger should pick up the test on its next approximately 15-minute check. Do **not** manually run the dispatcher for this test: doing so would not establish that a scheduled trigger worked while the browser was closed.
+3. Look for **[TEST] Conference Reminder — scheduled delivery check** in the owner's inbox or spam folder. The email includes the private test ID and queued/attempted UTC timestamps. It is separate from genuine conference reminders, even if both are due for the same email address.
+4. Reopen Apps Script **Executions** and verify that `dispatchReminders_` ran with type **Time Driven** after the queue time. In the private `Deliveries` sheet, the matching test ID should have `status: "sent"`, `groupId`, `attemptedAt` and `sentAt`. An inbox receipt plus that execution is evidence of scheduled delivery after browser closure. A successful MailApp call alone does not establish inbox delivery.
+
+The smoke test uses the ordinary claim → flush → MailApp → sent/uncertain path and consumes **one recipient delivery** from the Google quota. It changes no canonical conference, milestone or public catalogue and creates no conference subscription or visitor management token. It never repeats automatically. Once a test has finished, another explicit owner invocation can queue a new one.
+
+To stop a queued test before it is claimed, run **cancelOwnerDeliverySmokeTest** from the owner editor. A pending test also expires after the ordinary one-hour lateness window. Catalogue failure freezes it and an uncertain send is not retried, just like genuine reminders. While `EMAIL_ENABLED=false`, nothing dispatches. A public/anonymous caller cannot schedule or cancel an owner test; the same owner-identity check used for setup is required. There is no public arbitrary-email test endpoint.
+
 ## Behaviour
 
 - **Send reminder** opens the Apps Script form in a new tab with only the public event ID. Emails never appear in request URLs. The hosted form calls server functions through `google.script.run`; there is no CORS proxy or iframe dependency.
