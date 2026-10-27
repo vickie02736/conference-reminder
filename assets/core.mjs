@@ -198,6 +198,7 @@ export function eventStatuses(event, today = todayISO(), now = Date.now()) {
       add(badge('closed',title+' closed','The published cutoff has passed or the organiser reports this route closed. Check any late or alternative route with the organiser.',['closed'],{availability:'closed',...extra}));
     } else if (!closed && !expired && !conflicted && (next || offered || unconfirmed)) {
       const availability=offered?'open':'unconfirmed';
+      if (!offered) filters.push('needs_review');
       const suffix=offered?' open':' · opening unconfirmed';
       const help=(next?`Published cutoff: ${dateLabel(next.date)}. `:'No verified closing date is published. ')+(offered?'The published status offers this route; confirm current availability with the organiser.':unconfirmed?'The published information does not confirm current availability. A link alone does not establish that the route is open.':'A future cutoff does not confirm that the submission or registration platform is open.')+(channel==='submission' && clauses.some(c=>channelText(c,'registration') && closedClause(c) && !statusSoon(c))?' Registration is closed; confirm attendance eligibility before submitting.':'');
       add(badge(channel,title+suffix,help,filters,{availability,...extra}));

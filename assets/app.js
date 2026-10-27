@@ -1,4 +1,4 @@
-import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,isConferenceDate,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary} from './core.mjs?v=20261027-audit-fixes';
+import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,isConferenceDate,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary} from './core.mjs?v=20261027-recheck';
 
 const $=id=>document.getElementById(id);
 let catalogue={events:[],watchlist:[],metadata:{},updates:[]};

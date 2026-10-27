@@ -27,6 +27,7 @@ except ModuleNotFoundError:
     from scripts.validate_catalog import validate_catalog
 
 MAX_BYTES = 4 * 1024 * 1024
+FINGERPRINT_VERSION = 2
 MONTHS = {name.lower(): number for number, name in enumerate(
     ("", "January", "February", "March", "April", "May", "June", "July",
      "August", "September", "October", "November", "December")) if name}
@@ -97,10 +98,14 @@ def parse_html(raw):
     return parser.result()
 
 
+# Ignore a publication timestamp only when its own label identifies it as noise.
+# Times elsewhere may be conference starts or exact submission cutoffs.
+STAMP_MONTH = r"(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)"
+STAMP_DATE = rf"(?:20\d{{2}}-\d{{2}}-\d{{2}}|\d{{1,2}}[/-]\d{{1,2}}[/-]20\d{{2}}|{STAMP_MONTH}\s+\d{{1,2}},?\s+20\d{{2}}|\d{{1,2}}\s+{STAMP_MONTH}\s+20\d{{2}})"
+STAMP_CLOCK = r"\d{1,2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:\s*[ap]m)?(?:\s*(?:utc|gmt|bst|cet|cest|z|[+-]\d{2}:?\d{2}))?"
+STAMP_VALUE = rf"(?:{STAMP_DATE}(?:\s*(?:t|,|at)?\s*{STAMP_CLOCK})?|{STAMP_CLOCK}|\d+\s+(?:seconds?|minutes?|hours?|days?)\s+ago)"
 VOLATILE_TEXT = (
-    r"last (?:updated|modified|checked|reviewed|refreshed)[:\s].{0,80}",
-    r"\b20\d{2}-\d{2}-\d{2}t\d{2}:\d{2}(?::\d{2})?(?:\.\d+)?z?\b",
-    r"\b(?:\d{1,2}:\d{2}(?::\d{2})?)\s*(?:utc|gmt|bst|cet|cest)?\b",
+    rf"\blast\s+(?:updated|modified|checked|reviewed|refreshed)\s*:?\s*(?:(?:on|at)\s+)?{STAMP_VALUE}",
     r"(?:©|copyright)\s*20\d{2}",
     r"\b(?:cookie|gdpr|consent)\b.{0,60}",
 )
@@ -316,6 +321,7 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
         if fetch["ok"]:
             changed = record.get("hash") != fetch["hash"]
             record.update({"status": "checked", "hash": fetch["hash"], "last_success_at": now,
+                           "fingerprint_version": FINGERPRINT_VERSION,
                            "content_type": fetch.get("content_type", "text/html"), "message": None})
             if changed:
                 record["changed_at"] = now
@@ -346,17 +352,36 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
                 observation["pause_reason"] = structured["pause_reason"]
                 observation["review"].extend(structured["review"])
             previous = old_states.get(url, {})
+            prior_check = previous.get("checks", {}).get(event["id"], {})
+            prior_review = prior_check.get("review_required") is True
             changed = previous.get("hash") != fetch["hash"]
-            if observation["review"]:
-                pending, message = True, "; ".join(observation["review"])
+            upgraded = (bool(previous.get("hash")) and changed
+                        and previous.get("fingerprint_version") in {None, 1}
+                        and fetch.get("content_type", "text/html") in {"text/html", "application/xhtml+xml"})
+            # Older hashes discarded all clock times. A new hash cannot prove
+            # those times were unchanged, even if a date-only adapter succeeds.
+            if upgraded or (prior_review and prior_check.get("reason") == "fingerprint_upgrade"):
+                pending, reason = True, "fingerprint_upgrade"
+                message = (prior_check.get("message") if prior_review and prior_check.get("reason") == reason else None) or (
+                    "Source fingerprint upgraded to include previously ignored clock times; "
+                    "review the current published dates and exact times before clearing this flag.")
+                for item in observation["review"]:
+                    if item not in message:
+                        message += "; " + item
+            elif observation["review"]:
+                pending, message, reason = True, "; ".join(observation["review"]), "observation"
             elif observation["verified"]:
-                pending, message = False, ""
+                pending, message, reason = False, "", None
+            elif prior_review:
+                pending, message, reason = True, prior_check.get("message") or (
+                    "Official content changed; no trusted adapter can verify all affected facts."), prior_check.get("reason") or "content_changed"
             elif changed and previous.get("hash"):
-                pending, message = True, "Official content changed; no trusted adapter can verify all affected facts."
+                pending, message, reason = True, "Official content changed; no trusted adapter can verify all affected facts.", "content_changed"
             else:
-                # First baseline, or a stable hash after churn: do not keep a hash-only review.
-                pending, message = False, ""
-            states[url].setdefault("checks", {})[event["id"]] = {"review_required": pending, "message": message or None}
+                # A first baseline alone does not imply a change since research.
+                pending, message, reason = False, "", None
+            states[url].setdefault("checks", {})[event["id"]] = {
+                "review_required": pending, "message": message or None, "reason": reason}
             if pending:
                 reviews.append(f"{url}: {message}")
             verified = verified or observation["verified"]

@@ -172,6 +172,32 @@ test('event detail availability uses the visitor time zone at a date-only remind
   assert.throws(() => h.app.getEventDetails({ eventId: 'event-one', timeZone: 'Invalid/Zone' }), /valid IANA time zone/);
 });
 
+test('a DST gap in one lead time does not hide a milestone with other valid reminders', () => {
+  const h = harness(); h.state.now = Date.parse('2027-03-20T12:00:00Z');
+  const event = h.state.catalog.events[0];
+  Object.assign(event.milestones[0], { date: '2027-03-29', time: '01:30', timezone: 'Europe/London', precision: 'datetime' });
+  const milestone = h.app.getEventDetails({ eventId: event.id, timeZone: 'Europe/London' }).event.milestones[0];
+  assert.equal(milestone.available, true);
+  assert.throws(() => h.app.subscribe(h.preferences({ leadDays: [1] })), /reminder times have already passed/);
+  assert.equal(h.state.mails.length, 0);
+  h.activate({ leadDays: [3] });
+  assert.deepEqual(h.records('Deliveries').map((row) => new Date(row.dueAt).toISOString()), ['2027-03-26T01:30:00.000Z']);
+});
+
+test('invalid or ambiguous published clock times are unavailable in the form and at submission', () => {
+  for (const date of ['2027-03-28', '2027-10-31']) {
+    const h = harness(); h.state.now = Date.parse('2027-03-20T12:00:00Z');
+    const event = h.state.catalog.events[0];
+    Object.assign(event.milestones[0], { date, time: '01:30', timezone: 'Europe/London', precision: 'datetime' });
+    const milestone = h.app.getEventDetails({ eventId: event.id, timeZone: 'Europe/London' }).event.milestones[0];
+    assert.equal(milestone.available, false);
+    assert.equal(milestone.unavailableReason, 'unverified');
+    assert.throws(() => h.app.subscribe(h.preferences({ leadDays: [1, 3, 7] })), /reminder times have already passed/);
+    assert.equal(h.state.mails.length, 0);
+    assert.equal(h.records('Subscriptions').length, 0);
+  }
+});
+
 test('watchlist announcements have a useful detail page and cannot schedule reminders', () => {
   const h = harness();
   const announcement = { ...structuredClone(h.state.catalog.events[0]), id: 'pending-conference', start: '2027-07-04' };

@@ -577,17 +577,27 @@ function fetchCatalog_() {
 
 function publicEvent_(event, timeZone) {
   const zone = validTimeZone_(timeZone) ? timeZone : 'Europe/London';
+  const now = Date.now();
+  const futureMilestones = {};
+  // A DST transition can invalidate one lead time without invalidating the
+  // milestone or its other lead times. Use the same planner as submission.
+  planDeliveries_({ id: 'preview', email: 'preview@example.invalid',
+    milestoneIds: (event.milestones || []).map(function (m) { return m.id; }),
+    leadDays: [1, 3, 7], timeZone: zone }, event, now).forEach(function (plan) {
+    if (plan.dueAt > now) futureMilestones[plan.milestoneId] = true;
+  });
   return {
     id: event.id, name: event.name, url: safeUrl_(event.url), enabled: eventEnabled_(event),
     awaitingDates: event.awaitingDates === true,
     start: event.start || null, end: event.end || null, type: event.type || null,
     milestones: (event.milestones || []).map(function (m) {
       const valid = schedulable_(m);
-      const due = valid ? zonedTime_(shiftDate_(m.date, -1), m.precision === 'date' ? '09:00' : m.time, m.precision === 'date' ? zone : m.timezone) : null;
+      const available = eventEnabled_(event) && futureMilestones[m.id] === true;
+      const due = !available && valid ? zonedTime_(shiftDate_(m.date, -1), m.precision === 'date' ? '09:00' : m.time, m.precision === 'date' ? zone : m.timezone) : null;
       return { id: m.id, label: m.label || m.kind, kind: m.kind, date: m.date || null,
         time: m.time || null, timezone: m.timezone || null, precision: m.precision,
-        status: m.status, source: safeUrl_(m.source), available: eventEnabled_(event) && valid && due !== null && due > Date.now(),
-        unavailableReason: valid && due !== null && due <= Date.now() ? 'past' : 'unverified' };
+        status: m.status, source: safeUrl_(m.source), available: available,
+        unavailableReason: valid && due !== null && due <= now ? 'past' : 'unverified' };
     })
   };
 }

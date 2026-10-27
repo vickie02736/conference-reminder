@@ -45,6 +45,36 @@ class SourceUpdateTests(unittest.TestCase):
         second = fetched("<nav>New menu</nav><main>Conference 2027   June 1</main><footer>2027</footer>")
         self.assertEqual(first["hash"], second["hash"])
 
+    def test_labelled_update_timestamps_do_not_hide_real_deadline_changes(self):
+        for before, after in (
+            ("Last updated: 2026-10-26T09:10:00Z", "Last updated: 2026-10-27T12:20:00Z"),
+            ("Last modified on 26 October 2026 at 09:10 BST", "Last modified on 27 October 2026 at 12:20 GMT"),
+            ("Last checked at 09:10 UTC", "Last checked at 12:20 UTC"),
+        ):
+            with self.subTest(before=before):
+                deadline = ". Paper deadline: December 1, 2026 at 17:00 GMT."
+                self.assertEqual(fingerprint(before + deadline), fingerprint(after + deadline))
+                self.assertNotEqual(fingerprint(after + deadline),
+                                    fingerprint(after + deadline.replace("17:00", "12:00")))
+
+    def test_exact_deadline_time_changes_trigger_review_without_guessing_new_times(self):
+        row = event()
+        for before, after in (
+            ("Paper deadline: December 1, 2026 at 17:00 GMT.", "Paper deadline: December 1, 2026 at 12:00 GMT."),
+            ("Paper deadline: 2026-12-01T17:00:00Z.", "Paper deadline: 2026-12-01T12:00:00Z."),
+            ("Paper deadline: 2026-12-01T17:00:00+01:00.", "Paper deadline: 2026-12-01T17:00:00+02:00."),
+        ):
+            with self.subTest(before=before):
+                first, state, _ = self.merge(row, {row["url"]: fetched("<main>" + before + "</main>")})
+                second, _, changes = update_catalog(first, state, ADAPTERS,
+                    {row["url"]: fetched("<main>" + after + "</main>")}, "2026-10-28T12:00:00Z")
+                actual = second["events"][0]
+                self.assertEqual(actual["check"]["status"], "review_required")
+                self.assertIn("Official content changed", actual["check"]["message"])
+                self.assertEqual(actual["milestones"], row["milestones"])
+                self.assertEqual(actual["check"]["last_verified_at"], row["check"]["last_verified_at"])
+                self.assertEqual(changes, [])
+
     def test_generic_first_baseline_records_hash_without_review_or_guessed_dates(self):
         row = event()
         original = deepcopy(row)
@@ -55,19 +85,56 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(actual["check"]["last_verified_at"], original["check"]["last_verified_at"])
         self.assertEqual(changes, [])
         self.assertFalse(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
+        self.assertEqual(state["sources"][row["url"]]["fingerprint_version"], 2)
         self.assertEqual(row, original, "Merge must not mutate input objects.")
 
-    def test_hash_only_review_clears_when_the_page_stabilises(self):
+    def test_unadapted_change_stays_pending_until_manually_reviewed(self):
         row = event()
-        first_html = fetched("<main>Conference details, version one.</main>")
-        second_html = fetched("<main>Conference details, version two with extra copy.</main>")
-        state = {"sources": {row["url"]: {"hash": first_html["hash"]}}}
-        first, state, _ = self.merge(row, {row["url"]: second_html}, state)
-        self.assertEqual(first["events"][0]["check"]["status"], "review_required")
-        self.assertTrue(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
-        second, state, _ = update_catalog(first, state, ADAPTERS, {row["url"]: second_html}, "2026-10-28T12:00:00Z")
-        self.assertEqual(second["events"][0]["check"]["status"], "checked")
+        first_html = fetched("<main>Abstract deadline: December 1, 2026.</main>")
+        second_html = fetched("<main>Abstract deadline: November 1, 2026.</main>")
+        baseline, state, _ = self.merge(row, {row["url"]: first_html})
+        first, state, _ = self.merge(baseline["events"][0], {row["url"]: second_html}, state)
+        original_message = first["events"][0]["check"]["message"]
+        for day in (28, 29):
+            first, state, changes = update_catalog(first, state, ADAPTERS,
+                {row["url"]: second_html}, f"2026-10-{day}T12:00:00Z")
+            self.assertEqual(first["events"][0]["check"]["status"], "review_required")
+            self.assertEqual(first["events"][0]["check"]["message"], original_message)
+            self.assertEqual(first["events"][0]["deadline"], row["deadline"])
+            self.assertEqual(changes, [])
+        # A human can acknowledge the review after checking/updating the facts.
+        del state["sources"][row["url"]]["checks"][row["id"]]
+        cleared, state, _ = update_catalog(first, state, ADAPTERS,
+            {row["url"]: second_html}, "2026-10-30T12:00:00Z")
+        self.assertEqual(cleared["events"][0]["check"]["status"], "checked")
         self.assertFalse(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
+
+    def test_trusted_parser_can_resolve_a_pending_content_change(self):
+        row = event()
+        state = {"sources": {row["url"]: {"hash": "previous-content", "fingerprint_version": 2,
+            "checks": {row["id"]: {"review_required": True, "message": "Official content changed.", "reason": "content_changed"}}}}}
+        updated, state, _ = self.merge(row, {row["url"]: fetched(jsonld_html())}, state)
+        self.assertEqual(updated["events"][0]["start"], "2027-06-05")
+        self.assertEqual(updated["events"][0]["check"]["status"], "checked")
+        self.assertFalse(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
+
+    def test_legacy_fingerprint_upgrade_needs_persistent_time_review(self):
+        row = event()
+        state = {"sources": {row["url"]: {"hash": "legacy-hash-with-clock-times-removed"}}}
+        fetches = {row["url"]: fetched(jsonld_html() + "<main>Conference starts at 14:00 GMT.</main>")}
+        updated, state, _ = self.merge(row, fetches, state)
+        for day in (28, 29):
+            self.assertEqual(updated["events"][0]["check"]["status"], "review_required")
+            self.assertIn("fingerprint upgraded", updated["events"][0]["check"]["message"])
+            self.assertIn("previously ignored clock times", updated["events"][0]["check"]["message"])
+            self.assertEqual(state["sources"][row["url"]]["fingerprint_version"], 2)
+            updated, state, _ = update_catalog(updated, state, ADAPTERS, fetches,
+                                               f"2026-10-{day}T12:00:00Z")
+        # Verifying date-only JSON-LD does not verify the previously ignored clock.
+        self.assertEqual(updated["events"][0]["check"]["status"], "review_required")
+        state["sources"][row["url"]]["checks"][row["id"]]["review_required"] = False
+        cleared, state, _ = update_catalog(updated, state, ADAPTERS, fetches, "2026-10-30T12:00:00Z")
+        self.assertEqual(cleared["events"][0]["check"]["status"], "checked")
 
     def test_real_review_is_not_cleared_by_an_unchanged_page(self):
         row = event()

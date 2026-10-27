@@ -97,6 +97,17 @@ test('unconfirmed availability stays within its channel and explicit closures re
  assert.deepEqual(snapshotStatuses({...e,status:'Paper submissions not yet open; registration closed.'}).map(s=>s.label),['Paper submission opening soon','Registration closed']);
  assert.deepEqual(snapshotStatuses({...e,status:'Paper submissions closed; registration availability is not confirmed.'}).map(s=>s.label),['Paper submission closed','Registration · opening unconfirmed']);
 });
+test('the dates and availability unconfirmed filter includes every unconfirmed route',()=>{
+ const examples=['Recent Advances in Chemistry and AI','AI4X 2027'].map(canonical);
+ assert.deepEqual(filterEvents(examples,{stage:'needs_review'},'2026-10-27',Date.parse('2026-10-27T12:00Z')).map(e=>e.id).sort(),examples.map(e=>e.id).sort());
+ const all=[...catalogue.events,...catalogue.watchlist];
+ for (const e of all) {
+  const statuses=snapshotStatuses(e);
+  for (const status of statuses.filter(s=>s.availability==='unconfirmed')) assert.ok(status.filters.includes('needs_review'),e.name);
+ }
+ const open={name:'Confirmed open route',start:'2027-06-01',status:'Registration open.',milestones:[phaseNode('registration','2027-05-01')]};
+ assert.equal(filterEvents([open],{stage:'needs_review'},'2026-10-27',Date.parse('2026-10-27T12:00Z')).length,0);
+});
 test('currently and presently negated opening statements never advertise an open route',()=>{
  const e={start:'2027-06-01',milestones:[phaseNode('registration','2027-05-01')]};
  for(const modifier of ['currently','presently']) {
