@@ -1,0 +1,88 @@
+name: Check conference sources and publish website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - config.json
+      - assets/**
+      - data/**
+      - scripts/**
+      - tests/**
+      - google-apps-script/**
+      - package.json
+      - .github/workflows/site.yml
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      refresh_sources:
+        description: Check official conference pages before publishing
+        type: boolean
+        default: true
+
+concurrency:
+  group: conference-reminder-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  website:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test reminder rules
+        run: node --test tests/*.test.mjs
+      - name: Test source update rules
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Validate published catalogue
+        run: python scripts/validate_catalog.py
+      - name: Check registered official sources
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
+        run: python scripts/update_catalog.py
+      - name: Commit checked data
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
+        run: |
+          git add data/conferences.json data/source-checks.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Update official conference checks'
+            git push origin HEAD:main
+          fi
+      - name: Assemble public website only
+        run: |
+          mkdir -p _site
+          cp index.html config.json _site/
+          cp -R assets data _site/
+          touch _site/.nojekyll
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4

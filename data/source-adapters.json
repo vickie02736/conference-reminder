@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "policy": "Only recognised, unambiguous facts from registered official sources may update the catalogue. Other content changes require review.",
+  "adapters": [
+    {
+      "event_id": "euromof2027",
+      "url": "https://euromof2027.com/abstracts.html",
+      "parser": "euromof_abstracts",
+      "expected_year": 2027
+    },
+    {
+      "event_id": "euromof2027",
+      "url": "https://euromof2027.com/registration.html",
+      "parser": "euromof_registration",
+      "expected_year": 2027
+    },
+    {
+      "event_id": "ai4mat-neurips-2026",
+      "url": "https://sites.google.com/view/ai4mat/schedule",
+      "parser": "ai4mat_schedule",
+      "expected_year": 2026,
+      "authoritative_fields": ["start", "end"]
+    }
+  ],
+  "protected_fields": [
+    {
+      "event_id": "digital-chemistry2027",
+      "kinds": ["abstract"],
+      "reason": "The official page gives conflicting oral abstract deadlines. Human verification is required."
+    },
+    {
+      "event_id": "interpore2027",
+      "kinds": ["abstract"],
+      "reason": "The Important Dates page and submission platform disagree. Human verification is required."
+    }
+  ]
+}

@@ -1,0 +1,2088 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "https://aaai.org/conference/aaai/aaai-27/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "615a2c8b2cd87c4e070f880dd45a434ea4f3b17f7b982f6c9447aa35cae7fe24",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aaai-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://ai4science-amsterdam.github.io/news/chemai/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "Official source returned no readable page content."
+    },
+    "https://actc2027.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "fe6326e189cc1e9eb6911a4f517faee9e395e0ad97539aadc8ba4abbf2b0d35b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "actc-2027-american-conference-on-theoretical-chemistry": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://ai4x.cc/2027/call-for-papers/important-dates/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "a3ad6948f1542ddbcf6f2fe7e3b330b850ef30ea4627ebd447f2e870fc1d1483",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ai4x-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://ai4am.net/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "Official source returned no readable page content."
+    },
+    "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "[Errno 54] Connection reset by peer"
+    },
+    "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "[Errno 54] Connection reset by peer"
+    },
+    "https://aistats.org/aistats2027/dates.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "e854be48d0d56a31cb3acecd21a8c2c4d79c590ecfdd5ca511e4d0e405e350cb",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aistats-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "e601cace50e759c61620275ca3e6916ffdd5ebf561634b1bb038b1efe4b2e884",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ijcai-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "[Errno 54] Connection reset by peer"
+    },
+    "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "[Errno 54] Connection reset by peer"
+    },
+    "https://aixmat.candela.org.pl/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "f3b90a9f9d86859467220fc6d120d4d461c473cedda70fe7a0166956dabccb75",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aixmat-2026-ai-in-materials-research-summit": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://composites.blogs.bristol.ac.uk/2026/06/19/1058/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "0618415caa0968598a16e4065155ec4ba1da7e25604ecf639aa97f8393ea6d92",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ukpormat2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://congressomateriais.pt/editions/2027": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "bb18d023a14207d20fc79017bbdb556b87d58c1c680f1687ae2fdb92be0e848b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://advancedmaterialsshow.com/full-conference/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "7c86152061c695921ea605d739c96da7a74e2fc26b7ee8b75069e10129888d4c",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "the-advanced-materials-show-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://cpm-workshop.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "1be22b67f61cb646bfa579e28b442a8f46e24a7f53adb82a476c1c808df95326",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "cpm10": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "3394e32022926b5ab1b323123bce7a5bc182aeb1f6aa21bb458f7e6890f57d26",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "do-androids-dream-of-electric-papers-benchmarking-ai-scientists": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://cops-xii.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "bbd6d44a35a72506ad40c2fcabbc58c793876afc50571b89204346aea17455b3",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "next-cops-conference-cops-xiii": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://dechema.de/en/cpm10.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "3f6a8c920a667e8622aaf059be85f6e974c01de0e66504095e24e46e5bdfdc7b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "cpm10": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://dechema.de/en/dzt38.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "a1617df713b850890eaacfa4cb30ed9f908452634e756ad07590af96cd590076",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "dzt38": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://carbon2027.or.kr/cfp.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "8f43bca28e0c0c18055a6a830da19dbe35e27f32f12024ea4b4634bd75f09171",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "world-conference-on-carbon-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://carbon2027.or.kr/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "8ff0fc6a2572cc0a01be14424768e510ff3be573773e980f5572115c76ba4302",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "world-conference-on-carbon-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://ecai2027.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "fc01915d4f64c1db06f72dd4f608608df6a5ba4741d580378499140c6e3b2950",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ecai-2027-european-conference-on-artificial-intelligence": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://ecmlpkdd.org/2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "d0f43347d7fdbb6567c15678a2c3fe148a3e6c9a0fb8ebb0edc0b31a0fbb5e5c",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ecml-pkdd-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "9332c9f057152b926d6c785ddbf0b97f12af2affa96678db053cbab75b734c95",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "tyc20-celebration-of-the-thomas-young-centre-at-20": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://dgm.de/aimse/2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "2188b2cc212d2af6257afff0ca1a1588a0e028175394485842fe51b9e786a846",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aimse2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://euromof2027.com/abstracts.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "9395a55105b8b38bc587149e9b4e98911d99e3cd6f59c813e8f0eedf44daf934",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "euromof2027": {
+          "review_required": false,
+          "message": null
+        }
+      }
+    },
+    "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "898354bae50f6c24554f199e5875dfcc5933f9de762450847e1c09b3de765777",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "feza2029-11th-conference-of-the-federation-of-european-zeolite-associations": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://euromof2027.com/index.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "132c518ee14cd8c9203402c9cdf500bd77d1e561c941070ffb0547891874ffa2",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "mofschool2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        },
+        "euromof2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://euromof2027.com/registration.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "b20835d440baa8680394ae679404c6bc50ef1ddaabcce7e84d39b6efc5abba2a",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "euromof2027": {
+          "review_required": false,
+          "message": null
+        }
+      }
+    },
+    "https://europeancarbon.eu/index.php/event/world-conference-on-carbon-2027-carbon-2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "21bddf729d34f24d8e48ea110679f239e037d27a4ae1e5afb7cf56da46caa96b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "world-conference-on-carbon-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://aisb.org.uk/call-for-symposia-proposals-aisb-2027-university-of-liverpool/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "a07e74b545945bca494ebaa3cb032e6c62c9a4141ba683d42851889461552eaa",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aisb-convention-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://emmc.eu/events/emmc2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "15f1219da82d94c0e204dffc58635144ce9c80514e3a78245287cfd851bea731",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "6th-emmc-international-workshop-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "bb72bad8f84cde7c7ee38f8417d363b6083e93d3d34c93a350563bd0ae92de46",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "interpore2027": {
+          "review_required": false,
+          "message": null
+        }
+      }
+    },
+    "https://event.fourwaves.com/interpore2027": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "95aee1c5ce27a9fb5c9ddc9f90e809e04a183fe279be794f16903a31a3479163",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "interpore2027": {
+          "review_required": false,
+          "message": null
+        }
+      }
+    },
+    "https://dgm.de/aimse/2027/submission/abstract-submission": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "91d29b5937c1e912b9bf399ccfe34ee6aff348e29ed306ccb1c8bc2470e6697c",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aimse2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://fems.org/about-fems/fems-euromat-conference-series/fems-euromat/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "36f3e0bce8b1ad40e3c271d053bb5f2a556f0989fa58dbc1ad7328e8ef7d5452",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "fems-euromat-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://fems.org/industry-symposium-frankfurt-14-january-2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "9f50bea0c16c89c9fe366a410f3dcab4ac049ac84f67f4dbc702767e83fd0e02",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "7th-fems-industry-symposium-materials-assisted-by-digital-science": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://event.fourwaves.com/interpore2027/submission": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "Official source returned no readable page content."
+    },
+    "https://fomms.cache.org/2027/important-dates": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "bb37368b2dddac217068e42c9d9017f828e7a9329d674ba1237110525baff2f9",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "fomms2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "d5cf1deb45465e329c9676c0423eb43a5b1e882a22661423ffb7ce30f142004d",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "interpore2027": {
+          "review_required": false,
+          "message": null
+        }
+      }
+    },
+    "https://fomms.cache.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "7d5d9fe578398e45ce9ffeecfe9da7608ee7ce87801e7a07ca02b7ec897e75cd",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "fomms2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://interpore.org/event/7th-interpore-benelux-chapter-meeting": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "d83511161fefd7e8e24f15d629d094b6005f6ae4a0e7b7b1fbe5766069861697",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://learningtheory.org/colt2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "35fe83a55c72696d7ced545f9e6ade08b813f98b96f384af9c96fdcd17acd6cd",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "colt-2027-conference-on-learning-theory": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://icml.cc/Conferences/FutureMeetings": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "639c8c7a0f53c4e569eca014f7de1c7a1f2c1cc588a11b33f14774a96a9795a0",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "icml-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://mof-international.org/mof-conferences/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "042604ae9b0d47690ba81aec98f63462613ea4edfb21d0053c1c2ffe23bfc530",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "mof2028": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://interpore.org/event/vii-annual-spain-interpore-meeting": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "e0f5ce2cc3ce024f5bd16257b6316ea22a6ebcf3f64f72d4e4e20ad457520119",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "vii-annual-spain-interpore-meeting": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://metfoam2027.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "b0334ac0dcd0a3d82752db1c0670de7ecd503cc572856fee6ce66babb690f523",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "metfoam2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://interpore.org/event/9th-norway-national-workshop-porous-media": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "fe15893a773949721fbd8030fbe793204c2219f78fae48ad9191096b0e58929f",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "9th-norway-national-workshop-in-porous-media": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "55b79c9e6f873ffb78e9828f6f0a270c781c136f7206f4f98ffe89fc7164e64b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "defects2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://indico.ictp.it/event/11409": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "3fc6fc5359df0f820c8a75eae01bad2c2429865962558e156eb199ccac8123c2",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "23rd-international-workshop-on-computational-physics-and-materials-science-total-energy-and-force-methods": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "6ca1368aae5df685246741fd1bb53a7ff959d2496518d1df7bd26bebad77ace9",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://psi-k.net/workshops/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "fe18de00ffd881e8621a4223c0e7e454c606bd9098b7892827aaa70f6fe58cfb",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "defects2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        },
+        "automating-atomistic-machine-learning": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        },
+        "theoretical-spectroscopy-lectures": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://pbast10.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "2e335bd88d707fac9c046fa0018ca9a16d9f3f1250713524e30fda523493c84b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "pbast10": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://registration.telluridescience.org/workshops/the-future-of-porous-frameworks": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "e180d16c3a97abe3d8438ed0c5e75c132f824fbd05aa99ac7e8b6f4b9142f721",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "the-future-of-porous-frameworks": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://nips.cc/Conferences/2026": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "63e66c2f56a120fefd466ef1f7b5723d8606f5578bfcb790f6aadbd49a1d3731",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "neurips-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://neurips.cc/Conferences/2026/Dates": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "5515f947db62e8f7d5e18304c4f7adf101b2b9eb6c965fe8428c05267ca61d09",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "neurips-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "9e7e2b22e036e5482e95e6893e3577cd978e4046eb58da573eee571ac067df13",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "application/pdf",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "defects2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://sapem2026.matelys.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "339dbae970413cf93377459a76725394354b03c7e262b4b8d3119b07f77ceb09",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "sapem-2026-8th-symposium-on-the-acoustics-of-poro-elastic-materials": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://sites.google.com/view/ai4mat/schedule": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "f4830a1dae2980447c716bd4b5779b7013575ef09f70ef4731457218792487b3",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ai4mat-neurips-2026": {
+          "review_required": true,
+          "message": "The authoritative AI4Mat schedule sentence is missing or ambiguous."
+        }
+      }
+    },
+    "https://sites.google.com/view/ai4mat/home": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "82045583def6e4f1f9e09a2fd283e2a513b9c09d4e2d9046868932288a930c79",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ai4mat-neurips-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://register1.icts.res.in/mwas": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "66ad1e1b59cb6ed3bb2c962f7b7cb5360b4ca23cd5f7c1a7fd9ba622a4d52386",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "modelling-water-across-scales": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://sites.google.com/view/ai4mat/submissions": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "541db6ca80b322adf5c06112e246df3c0be00c598cb1ba0b76a7fad11148d5eb",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ai4mat-neurips-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://sapem2026.matelys.com/flyer_SAPEM_2026.pdf": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "35496daa67ea6a53e53241b376b304da29777e2c035b7b244df9847918ba09e3",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "application/pdf",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "sapem-2026-8th-symposium-on-the-acoustics-of-poro-elastic-materials": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://sscg.uk/2026-sscg-christmas-meeting": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "c6a28b35ba1f045f0fd9f9d04c647ba2ee072c3b846c361c727a3e686351b0dd",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "1f0060c8d2b45ced13a8395f76b238248690824e33259facddcda375d0556c57",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "tyc20-celebration-of-the-thomas-young-centre-at-20": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://spring2027.camml.ac.uk/registration/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "b88d629b69ac10afacc6e77b5be5b94bec7a2c652e2717253e554adb242af62f",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "camml2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://uon-comp-chem.github.io/mm2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "Official source returned no readable page content."
+    },
+    "https://rscfirst.org.cn/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "0567c657724e25ba1f9bb41787c61084617fec9a4b628b0934ef6590804b9136",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "rsc-first-2026-ai-in-chemistry": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://watoc2028.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "Official source returned no readable page content."
+    },
+    "https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "https://spring2027.camml.ac.uk/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "006beee1d53c0ef6efc6e10fad67e7cb81b33ea0ddf3c5f880555beff5322f08",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "camml2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.acnetwork.nl/chemai": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "bb90101c01a8d880db1cd6e96c835e87785ce7d312d3903d58e058b9c70148dc",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "chemai-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.bcs-sgai.org/ai2026/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "eb1db8f27bf3f790282d385c18b43ddc517f49e8e8219c9f4d9252f9c6bf0d99",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ai-2026-sgai-international-conference-on-artificial-intelligence": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.bcs-sgai.org/ai2026/?section=registration": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "b237b6a759aa582b81ccfbfca73218e60b3bcdd9cbcfea272811fe69db0cf208",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ai-2026-sgai-international-conference-on-artificial-intelligence": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://virtual.aistats.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "34877dc3528e49dfb036b362ffb69ea2f31725d0d4c842394856852126d2a0e5",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aistats-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://virtual.aistats.org/Conferences/2027/CallForPapers": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "192017ed1747774021eb77646ff40c2055a0be036a9b103dda732b5b0ff53c01",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "aistats-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.ai4am.net/2027/deadlines.php": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "0d23607c1e4d4e93337da8ae44189911e57277784f459cba49180507bef3b2b6",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ai4am-2027-ai-for-advanced-materials": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.carbon2028.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "e573756765243046bca14dc72f8ff0b2fc55ee833e33d3978590aab3c3f767f1",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "world-conference-on-carbon-2028": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "25596f94d26369166256d6f69f65097c359f6bd6621f47ad9a224d79e0cc4e0d",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "computational-electrochemistry-in-the-era-of-ai": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cache.org/fomms-2027-abstract-submissions-are-now-open": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "1ce1a91cab414948b4b15ab94a69a1b1250017e157668c3e0813f9446bd216a1",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "fomms2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/program?location=all&month=all&page=2&type=all": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "25596f94d26369166256d6f69f65097c359f6bd6621f47ad9a224d79e0cc4e0d",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "challenges-in-ionic-fluids-theory-simulation-and-experiment": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/1272": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "28ed6650c7744b05f9fddd8297a1ff318b9a85ff4df70d849e939f95cc52777c",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches-1490": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "c96852eb40a6650c64382c7fa8fd47785830a123599f036631953e4e1e53dd90",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/automating-atomistic-machine-learning-1494": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "48815a05092e4ba322b69fbe1870d0fedc842b8395fa3f9a945cfe0dab3c3916",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "automating-atomistic-machine-learning": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-1497": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "5a4c2322efc73738f0a2d5a2c9f62fd5c4f8849cc42ad322ff2af72edc32206c",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/mathematics-for-quantum-dynamics-1486": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "789ccecd77ab10d27730f340770c00ebd1ffd54a3b0967ba9da729b03678c910",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "mathematics-for-quantum-dynamics": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/self-assembly-of-materials-merging-direct-experiments-with-simulations-at-different-resolutions-and-data-science-techniques-1522": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "d16cc6547798804829f9a355de4ee24000a1bc94430878fb7aa43a55b27383d5",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "selfassembly2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/theoretical-spectroscopy-lectures-1482": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "ac53b0e06a00756ea21b8f124bd22c49dfbf1fa18eb0391043a0ebe58386adcf",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "theoretical-spectroscopy-lectures": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/1480": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "320f0a212f0da65ab71f10c8d0eb259d0b9b9a34198079c177098b27a26df07e",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "cecam-mlthermo2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.dpg-physik.de/aktivitaeten-und-programme/programme/bad-honnef-physics-schools": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://events.polyu.edu.hk/ecomat2026/home": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "3bd1471ca10fa4b29b88cdf796287ef0af82ef3b87e2237b8ad210d2404be674",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ecomat-conference-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.eazc2027.com/index/page.html?id=1844": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "Official source returned no readable page content."
+    },
+    "https://www.eazc2027.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "Official source returned no readable page content."
+    },
+    "https://www.esat2027.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>"
+    },
+    "https://www.elsevier.com/events/conferences/all/materials-today-conference": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "991c08139f622855f7d9c6ac186cf95027422ed4d906091fc2788c92bc431eff",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "materials-today-conference-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://mofs.lakecomoschool.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "<urlopen error timed out>"
+    },
+    "https://www.esi.ac.at/events/e610/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "85fe8d1bdabd275c1df58a1cbb7d37f709d88165e9b91fcad069e6e7392b3783",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.euromat2027.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "2b4a2b3264cc4c84bc8a90f985a3908930fa228061902b0237b7de93db5e5765",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "fems-euromat-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "40679d6c6e220affab94b2f93f4581b3d72b74333f2e5374713718303a3a35d3",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "vii-annual-spain-interpore-meeting": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "35afa3f22a1dba0df3019555e18a37f89b55ac7727054e457a4e9d2cba319ee8",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "e-mrs-spring-meeting-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.european-mrs.com/computations-materials-%E2%80%93-discovery-design-and-role-ai-emrs": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "7313bf19b12a883edb5825bc0a2967faa227436e7b63c41ae4690ba4a8fec8eb",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "e-mrs-spring-meeting-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.fluxionic.org/events": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "5dd41e946fa576894bfc8675812752dd0f65848b3cad744c2eadda3cbbec02d6",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "challenges-in-ionic-fluids-theory-simulation-and-experiment": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.fluxionic.org/events/challenges-ionic-fluids-2027": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "79c56131823ce8a6b5aebb4752349e48273b55813aaeb7042e38b1c36b4ab6e2",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "challenges-in-ionic-fluids-theory-simulation-and-experiment": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.european-mrs.com/meetings/2027-fall-meeting-exhibit": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "2c9ff49a8ac38c3682bb09b4c5e961e4c401fed9571d043607888e222e92baeb",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "e-mrs-fall-meeting-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "09a75bf04f22a97bf2fd51f99f32bcf9e00e72d497d180bb1bf08e995b01e8b4",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "e-mrs-spring-meeting-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.euchems.eu/divisions/computational-chemistry-2/honours/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "17d7dd28f19ee374115a4143d3fc772cb280cc9a1c94d047396293abed3d3702",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "euchems-compchem-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "32b3c68f4891c39a5f63f0a99e2ec347be5bc8bcb220ce9ee6df7295849a2d78",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "nanoporous-grs2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "945f56971fb58e2a4fd460e5d9d3c6c35242ced2da56de23a79f0eaac9dd4800",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "nanoporous-grc2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 404: Not Found"
+    },
+    "https://www.icmm.csic.es/es/node/37130": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "895499e0bb544cf0f962fde46a964600918b710d83e93c49df0cc4148df1156d",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "school-on-advanced-structural-analysis-in-mofs-and-cofs": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.iclr.cc/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "87314d1de60e3efcdc5ca1017988b6358b5af64f89e3c3db75540f830b4d239e",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "iclr-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.iswpm26.org/172246/author?version=latest": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "fcf7e5fa9ca0f7820072306dc38379e360694f27582068b711c4d6a3067bc0f6",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "<urlopen error timed out>"
+    },
+    "https://www.leachresearchgroup.net/home/chemoinformatics-conference-2027": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "dbe6fcbf1473720035af9dbc041ba5093bd7794433659908e0857c47c1465a4b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "tenth-north-of-england-chemoinformatics-meeting": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "715d77f51b7d87d72a52396d290b0fa2cbc6b6032813e3ae6beac89a12f6dd8b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "medpore2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.iswpm26.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "b38197644571447bac50c26f1fc75e63cbbecedff48a09df90106a0fcb9b9505",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.foa16.com/registrations": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "62f6c20816631a437a67ada03286f86a4ad61511b6a6c0eb98bc475c49b7d64a",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "foa16": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.mrs.org/meetings-events/annual-meetings": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.foa16.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "f79324594b0be928ada71729b8e407e05abfb656c839cee3ab026c1d26d4149a",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "foa16": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "5e1b8e70fcc2267913350f6c280e291d0ceb28cf33e023c533bee9afcf3288d5",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit/call-for-abstracts": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/2027-mrs-spring-meeting-exhibit": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.nldl.org/submission/call-for-papers": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "03d2a4d8a0a8d03830b5510bb6b25065c7c61eb6a0b4ec7f48bd36ef5a4a7732",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "northern-lights-deep-learning-conference-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.nldl.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "bf948627ff864d2df1e01c1b8686b97a469f51b89b928b1a428f0c31b4445e8d",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "northern-lights-deep-learning-conference-2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "2c7b19aaba64ac9c075c9ab029b20850950dd7d94c1469a9076c28c5c0a83d4c",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "the-future-of-materials-discovery": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.psdi.ac.uk/event/camml-2027/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "74356d4ae36b101f2efb52774b2f0db04e4eda7026746c6d46f5bd97bb952e40",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "camml2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.rsc.org/events/find-an-event/automated-intelligent-chemistry": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.rsc.org/events/find-an-event/18th-international-conference-on-materials-chemistry-%28mc18%29": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.siam.org/conferences-events/siam-conferences/ms27/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.spmateriais.pt/eventos/materiais-2027": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "3478d9b199e81de793e04e056e878e4c7ebcf6834b60f79d3ecdb2c80e776493",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.mmm12.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "6b6b5ca18d9342425ab9b2941e8f79e7c0b4a8498cdb74fc06691747695122a1",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "mmm12-12th-international-conference-on-multiscale-materials-modeling": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.icts.res.in/program/mwas": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "b90fc9171225c08f1a61f7a6ccc6e3345e9944b8b3ceb5faa49718b13886f35f",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "modelling-water-across-scales": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "0f1c110a70cbea1d262a1038bbc7e0a5dfd5b297d507cf6741b2d7bf27cb8c35",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "applications-of-artificial-intelligence-to-process-chemistry-scientific-update": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "HTTP Error 403: Forbidden"
+    },
+    "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "8da7de949dd8a8b588510552b3cb42debc47ff22d06e46e6ac91c088ae51932b",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "automated-intelligent-chemistry-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.ukairs.ac.uk/Home/Welcome": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "7d64c752aea2deacb961efb62d8a7658a9d6e3b967c0e3fce5900db396ca0636",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "uk-ai-research-symposium-ukairs-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.uibk.ac.at/en/th-physik/bio-nano/events/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "9c283579987122e6ff84bb298bf258c48253f1a53fce678598ab95fdde6e3a60",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "ec66ab3587f79dec61070b56862658df322a4f68c2609b7a79bfe1eaf2246263",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "application/pdf",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "tms2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "failed",
+      "message": "<urlopen error timed out>"
+    },
+    "https://www.ukairs.ac.uk/i/SubmissionThemes": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "6bf8a111e490324d40f10fb835767da0bf745c329d02346951df13621dc34694",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "uk-ai-research-symposium-ukairs-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.ukairs.ac.uk/i/Registration": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "f9b02d629dfce0b0c35213b301eae1af0fe88ce51ebe9c0d73e7147da80d865d",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "uk-ai-research-symposium-ukairs-2026": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "f044f6b8f67a96de9c08ad2fd8ca04d157f3ce7196a3e5f29394769ca70ce6a2",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "cpm10": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.watoc.net/watoc.congress.html": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "6ef1cd3e1cade95a19587a63223538ef16f7acbce851ac4521eee5e05bab67d8",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "watoc-2028-14th-triennial-congress": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.ukpormat.com/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "fd0d6bc1a761af3966ba06419b2b11917912f073611d15e699a1cc33770a4f3a",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "ukpormat2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://zmpc.org/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "c5ab6eab91405dcdeefe44df1a3f8e73c55440fd2e1dd8c4a2cf177e54312a27",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "zmpc2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://zmpc.org/call-for-abstracts/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "8c92f038e429cfe30510c42009c9a55942573dc68f84f19e4231ba348083b5e6",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "zmpc2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.rscfirst.org.cn/en/web/index/36624_3190136": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "32dfda3553f0598ea8509840c1da3fa4025d7eb9b9089639deb36abb4866db21",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "rsc-first-2026-ai-in-chemistry": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://zmpc.org/dates/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "5295d4f439b8195cca4609fffd285da1dbb68b296bf3f599d44fd1ebe68a89da",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "zmpc2027": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    },
+    "https://www.mmm12.org/symposia/": {
+      "last_checked_at": "2026-10-27T14:43:49Z",
+      "status": "checked",
+      "hash": "5f43be69785f4fd8f6201c8724436bcca02d5852b30b5173d0ddefcbea7cc1a9",
+      "last_success_at": "2026-10-27T14:43:49Z",
+      "content_type": "text/html",
+      "message": null,
+      "changed_at": "2026-10-27T14:43:49Z",
+      "checks": {
+        "mmm12-12th-international-conference-on-multiscale-materials-modeling": {
+          "review_required": true,
+          "message": "Initial source baseline requires verification."
+        }
+      }
+    }
+  },
+  "last_checked_at": "2026-10-27T14:43:49Z"
+}

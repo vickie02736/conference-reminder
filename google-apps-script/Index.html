@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Conference Reminder</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.55 system-ui, sans-serif; color: #192b32; background: #f1f6f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 32px 16px 64px; }
+    main { max-width: 740px; margin: auto; background: white; border: 1px solid #dbe6e2; border-radius: 20px; padding: clamp(24px, 5vw, 44px); box-shadow: 0 20px 60px #193c3010; }
+    .eyebrow { color: #477665; font-size: .78rem; letter-spacing: .13em; text-transform: uppercase; font-weight: 750; }
+    h1 { line-height: 1.15; font-size: clamp(1.8rem, 6vw, 2.5rem); margin: 12px 0 18px; letter-spacing: -.04em; }
+    h2 { font-size: 1.3rem; line-height: 1.3; margin: 24px 0 12px; }
+    p { margin: 12px 0; }
+    a { color: #15614d; text-underline-offset: 3px; }
+    .muted, small { color: #566b70; }
+    small { display: block; font-size: .83rem; }
+    fieldset { margin: 24px 0; padding: 0; border: 0; }
+    legend, label.field { display: block; font-weight: 650; margin-bottom: 9px; }
+    .choice { display: flex; align-items: flex-start; gap: 10px; padding: 11px 12px; margin: 7px 0; border: 1px solid #dbe6e2; border-radius: 10px; font-weight: 400; }
+    .choice:has(input:checked) { border-color: #4b8a72; background: #edf6f1; }
+    .choice input { margin-top: 5px; accent-color: #22684f; flex-shrink: 0; }
+    .choice:has(input:disabled) { background: #f6f7f7; color: #778288; }
+    .leads { display: flex; gap: 8px; flex-wrap: wrap; }
+    .leads .choice { flex: 1; min-width: 130px; }
+    input[type=email], input[type=text] { width: 100%; font: inherit; color: inherit; border: 1px solid #b8c9c2; border-radius: 9px; padding: 12px; background: white; }
+    input:focus, button:focus-visible, a:focus-visible { outline: 3px solid #c0dfcf; outline-offset: 3px; }
+    button { border: 0; border-radius: 9px; background: #23654f; color: white; font: 650 .96rem/1.4 system-ui, sans-serif; padding: 13px 20px; cursor: pointer; }
+    button:disabled { opacity: .5; cursor: default; }
+    button.secondary { color: #23654f; background: #edf4f0; }
+    button.danger { color: #8b3028; background: #fbefed; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
+    .notice { border-radius: 10px; background: #edf4f0; padding: 14px 16px; margin: 18px 0; }
+    .error { background: #fbefed; color: #8b3028; }
+    .status { margin: 16px 0; min-height: 1.5em; }
+    .card { border-top: 1px solid #dbe6e2; margin: 24px 0; padding-top: 8px; }
+    .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+    footer { font-size: .82rem; color: #687a7b; border-top: 1px solid #e4ece7; padding-top: 18px; margin-top: 32px; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Conference Reminder</div>
+  <h1 id="heading">Email reminders</h1>
+  <div id="content"><p class="muted">Loading the latest conference details…</p></div>
+  <div id="status" class="status" role="status" aria-live="polite"></div>
+  <footer>
+    Your email address and preferences are stored in the website owner’s private Google spreadsheet.
+    Emails are sent from the owner’s Google account. Confirm your email to activate reminders;
+    every reminder includes a management and unsubscribe link. No Google sign-in is required.
+    <p>This is a small, free service with limited daily email capacity. Delivery is best effort.
+    Reminder checks run approximately every 15 minutes. Always check the official conference website.</p>
+    <a href="https://vickie02736.github.io/conference-reminder/" rel="noreferrer">Back to the conference directory</a>
+  </footer>
+</main>
+<script>
+  'use strict';
+  const boot = <?!= bootstrapJson ?>;
+  const content = document.getElementById('content');
+  const heading = document.getElementById('heading');
+  const status = document.getElementById('status');
+  const defaultZone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'Europe/London';
+  let zones = [];
+  try { zones = Intl.supportedValuesOf('timeZone'); } catch (_) { zones = ['Europe/London', 'Europe/Paris', 'UTC']; }
+
+  function element(tag, text, attrs) {
+    const node = document.createElement(tag);
+    if (text !== undefined && text !== null) node.textContent = text;
+    Object.entries(attrs || {}).forEach(([key, value]) => node.setAttribute(key, value));
+    return node;
+  }
+  function link(text, url) {
+    return element('a', text, { href: url, target: '_blank', rel: 'noopener noreferrer' });
+  }
+  function message(text, error) { status.textContent = text || ''; status.className = 'status' + (error ? ' notice error' : ''); }
+  function rpc(name, input) {
+    return new Promise((resolve, reject) => {
+      google.script.run.withSuccessHandler(resolve).withFailureHandler(reject)[name](input);
+    });
+  }
+  async function action(button, callback) {
+    button.disabled = true;
+    message('Working…');
+    try { const result = await callback(); message(result.message || 'Saved.'); return result; }
+    catch (error) { message(error.message || 'The request could not be completed. Please try again.', true); }
+    finally { button.disabled = false; }
+  }
+  function field(form, label, type, value, required) {
+    const wrapper = element('div');
+    const input = element('input', null, { type, required: required ? 'required' : '', autocomplete: type === 'email' ? 'email' : 'off' });
+    if (!required) input.removeAttribute('required');
+    input.value = value || '';
+    const title = element('label', label, { class: 'field' });
+    title.append(input);
+    wrapper.append(title);
+    form.append(wrapper);
+    return input;
+  }
+  function honeypot(form) {
+    const wrapper = element('label', 'Leave this field empty', { class: 'hp', 'aria-hidden': 'true' });
+    const input = element('input', null, { type: 'text', name: 'company', tabindex: '-1', autocomplete: 'off' });
+    wrapper.append(input); form.append(wrapper); return input;
+  }
+  function milestoneText(m) {
+    let text = m.date || 'Date not published';
+    if (m.precision === 'datetime') text += ' ' + m.time + ' (' + m.timezone + ')';
+    else if (m.precision === 'date') text += ' · deadline time not published';
+    if (!m.available) text += m.unavailableReason === 'past' ? ' · reminder times have passed' : ' · date unavailable or requires verification';
+    return text;
+  }
+  function preferences(form, event, initial) {
+    const current = initial || { milestoneIds: [], leadDays: [3], timeZone: defaultZone };
+    const milestones = element('fieldset');
+    milestones.append(element('legend', 'Important dates'));
+    const milestoneInputs = [];
+    event.milestones.forEach((m) => {
+      const label = element('label', null, { class: 'choice' });
+      const input = element('input', null, { type: 'checkbox', value: m.id });
+      input.disabled = !m.available;
+      input.checked = m.available && current.milestoneIds.includes(m.id);
+      const text = element('span', m.label || m.kind || 'Conference milestone');
+      text.append(element('small', milestoneText(m)));
+      label.append(input, text); milestones.append(label); milestoneInputs.push(input);
+    });
+    if (!event.milestones.length) milestones.append(element('p', 'No verified important dates have been published yet.', { class: 'muted' }));
+    form.append(milestones);
+    const leads = element('fieldset'); leads.append(element('legend', 'Remind me before each selected date'));
+    const leadChoices = element('div', null, { class: 'leads' });
+    const leadInputs = [1, 3, 7].map((day) => {
+      const label = element('label', null, { class: 'choice' });
+      const input = element('input', null, { type: 'checkbox', value: String(day) });
+      input.checked = current.leadDays.includes(day);
+      label.append(input, element('span', day === 7 ? '1 week' : day + (day === 1 ? ' day' : ' days'))); leadChoices.append(label); return input;
+    });
+    leads.append(leadChoices); form.append(leads);
+    const zone = field(form, 'Your time zone', 'text', current.timeZone, true);
+    const listId = 'zones-' + Math.random().toString(36).slice(2);
+    const datalist = element('datalist', null, { id: listId });
+    zones.forEach((name) => datalist.append(element('option', null, { value: name })));
+    zone.setAttribute('list', listId); form.append(datalist);
+    form.append(element('small', 'Dates without a published time: reminders arrive at approximately 09:00 in your time zone. Published exact deadlines: reminders use the same local clock time, 1, 3, or 7 calendar days earlier.'));
+    return () => ({
+      milestoneIds: milestoneInputs.filter((input) => input.checked && !input.disabled).map((input) => input.value),
+      leadDays: leadInputs.filter((input) => input.checked).map((input) => Number(input.value)), timeZone: zone.value.trim()
+    });
+  }
+  function eventTitle(event, parent) {
+    parent.append(element('h2', event.name));
+    parent.append(link('Official conference website ↗', event.url));
+  }
+  function managementRequest(parent) {
+    const details = element('details');
+    details.append(element('summary', 'Manage existing reminders'));
+    const form = element('form');
+    const email = field(form, 'Email address', 'email', '', true);
+    const hp = honeypot(form);
+    const button = element('button', 'Email my management link', { type: 'submit', class: 'secondary' });
+    form.append(button);
+    form.addEventListener('submit', (e) => { e.preventDefault(); action(button, () => rpc('requestManagementLink', { email: email.value, company: hp.value })); });
+    details.append(form); parent.append(details);
+  }
+  async function subscribeView() {
+    if (!boot.eventId) { content.replaceChildren(element('p', 'Open Send reminder from a conference card to select a conference.')); managementRequest(content); return; }
+    const result = await rpc('getEventDetails', { eventId: boot.eventId, timeZone: defaultZone });
+    content.replaceChildren();
+    eventTitle(result.event, content);
+    if (!result.emailEnabled) content.append(element('p', 'Email reminders are being set up. The website owner has not activated sending yet.', { class: 'notice' }));
+    const form = element('form');
+    const email = field(form, 'Email address', 'email', '', true);
+    const prefs = preferences(form, result.event);
+    const hp = honeypot(form);
+    const consent = element('label', null, { class: 'choice' });
+    const agree = element('input', null, { type: 'checkbox', required: 'required' });
+    consent.append(agree, element('span', 'Email me about the dates I select. I can manage or cancel these reminders using a private email link.')); form.append(consent);
+    const button = element('button', 'Send confirmation email', { type: 'submit' });
+    button.disabled = !result.emailEnabled || !result.event.enabled || !result.event.milestones.some((m) => m.available);
+    form.append(button);
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); action(button, () => rpc('subscribe', { eventId: boot.eventId, email: email.value, company: hp.value, ...prefs() }));
+    });
+    content.append(form, element('p', 'Only future reminder times are scheduled. If a deadline changes, future reminders follow the latest verified date.', { class: 'muted' }));
+    managementRequest(content);
+  }
+  async function verifyView() {
+    heading.textContent = 'Confirm your reminders';
+    const result = await rpc('getVerificationDetails', { token: boot.token });
+    content.replaceChildren(); eventTitle(result.event, content);
+    const selected = result.event.milestones.filter((m) => result.preferences.milestoneIds.includes(m.id));
+    const list = element('ul'); selected.forEach((m) => list.append(element('li', (m.label || m.kind) + ': ' + milestoneText(m))));
+    content.append(list, element('p', 'Remind me ' + result.preferences.leadDays.join(', ') + ' calendar day(s) before, using ' + result.preferences.timeZone + ' for dates without a published time.'));
+    const button = element('button', 'Confirm email and activate reminders');
+    button.disabled = !result.emailEnabled;
+    button.addEventListener('click', async () => {
+      const saved = await action(button, () => rpc('verifySubscription', { token: boot.token }));
+      if (saved) { content.replaceChildren(element('p', saved.message, { class: 'notice' })); message(''); }
+    });
+    content.append(button, element('small', 'Opening this page does not activate a subscription. Press Confirm only if you requested these reminders.'));
+  }
+  async function managementView(cancelOnly) {
+    heading.textContent = cancelOnly ? 'Unsubscribe' : 'Manage your reminders';
+    const result = await rpc('getManagementDetails', { token: boot.token });
+    content.replaceChildren(element('p', 'Reminders for ' + result.email, { class: 'muted' }));
+    const all = element('button', 'Unsubscribe from all conferences', { class: 'danger' });
+    all.addEventListener('click', async () => {
+      const saved = await action(all, () => rpc('unsubscribe', { token: boot.token, subscriptionId: 'all' }));
+      if (saved) { content.replaceChildren(element('p', saved.message, { class: 'notice' })); message(''); }
+    });
+    content.append(all, element('small', 'Opening this page does not cancel anything. Press a button to confirm your choice.'));
+    result.subscriptions.forEach(({ subscription: sub, event }) => {
+      const card = element('section', null, { class: 'card' });
+      if (event) eventTitle(event, card); else card.append(element('h2', sub.eventId));
+      card.append(element('p', 'Status: ' + sub.status));
+      if (sub.status === 'cancelled') { content.append(card); return; }
+      if (!cancelOnly && event && sub.status === 'active') {
+        const form = element('form');
+        const prefs = preferences(form, event, sub);
+        const save = element('button', 'Save preferences', { type: 'submit' }); form.append(save);
+        form.addEventListener('submit', (e) => {
+          e.preventDefault(); action(save, () => rpc('updateSubscription', { token: boot.token, subscriptionId: sub.id, ...prefs() }));
+        }); card.append(form);
+      }
+      const cancel = element('button', 'Unsubscribe from this conference', { class: 'danger' });
+      cancel.addEventListener('click', async () => {
+        const saved = await action(cancel, () => rpc('unsubscribe', { token: boot.token, subscriptionId: sub.id }));
+        if (saved) { card.replaceChildren(element('p', saved.message, { class: 'notice' })); }
+      });
+      const actions = element('div', null, { class: 'actions' }); actions.append(cancel); card.append(actions); content.append(card);
+    });
+  }
+  (async () => {
+    try {
+      if (boot.action === 'verify') await verifyView();
+      else if (boot.action === 'manage' || boot.action === 'unsubscribe') await managementView(boot.action === 'unsubscribe');
+      else await subscribeView();
+    } catch (error) {
+      content.replaceChildren(element('p', error.message || 'The reminder form could not be loaded.', { class: 'notice error' }));
+      managementRequest(content);
+    }
+  })();
+</script>
+</body>
+</html>
