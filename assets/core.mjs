@@ -3,6 +3,25 @@ export function safeUrl(value) { try { const u = new URL(value); return ['http:'
 export function dateLabel(value) { return value && /^\d{4}-\d{2}-\d{2}$/.test(value) ? new Date(`${value}T12:00:00Z`).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}) : 'Date to be announced'; }
 export function todayISO(now = new Date()) { return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`; }
 export const isConferenceDate = m => ['conference_start','conference_end'].includes(m.kind);
+// Keep the research keywords in the catalogue while presenting a short, shared
+// taxonomy in the topic filter and on conference cards.
+export const topicGroups = [
+  {label:'AI & Machine Learning', tags:['AI','ML','Machine Learning','GNN','Intelligent Computing','AI for Science']},
+  {label:'AI for Materials & Chemistry', tags:['AI for Materials','AI for Chemistry','AI for Materials Chemistry','Materials Informatics','ML Potentials','Materials Data','Inverse Design']},
+  {label:'MOFs, COFs & Porous Materials', tags:['MOF','COF','Porous Materials','Porous Media','Poroelasticity','Porous Metals','Reticular Chemistry','Zeolites']},
+  {label:'Adsorption & Separations', tags:['Adsorption']},
+  {label:'Simulation & Theory', tags:['Simulation','Electronic Structure','Computational Chemistry','Theoretical Chemistry','Molecular Modelling','Statistical Physics','Computational Materials','Thermodynamics','Phase Equilibria','Quantum Transport','Quantum Dynamics','Theoretical and Computational Chemistry','Computational and Theoretical Chemistry','Ionic Fluids','Transport','Confined Water','Soft Matter','Self-assembly']},
+  {label:'Materials & Characterisation', tags:['General Materials','Materials Chemistry','Catalysis','Electrochemistry','Carbon Materials','Characterisation']},
+  {label:'Automation & Digital Chemistry', tags:['Automation','Automated Experimentation','Cheminformatics','Process Chemistry']}
+];
+const nonTopicTags = new Set(['School','AI and simulation symposia pending']);
+const groupedTags = new Set(topicGroups.flatMap(group=>group.tags));
+export function eventTopics(event) {
+  const tags=new Set(event.tags || []);
+  const topics=topicGroups.filter(group=>group.tags.some(tag=>tags.has(tag))).map(group=>group.label);
+  if (!topics.length || [...tags].some(tag=>!groupedTags.has(tag) && !nonTopicTags.has(tag))) topics.push('Other topics');
+  return topics;
+}
 const submissionKinds = new Set(['abstract','paper','poster']);
 const phaseClauses = text => String(text || '').toLowerCase().split(/[.;]|\bbut\b/).map(s=>s.trim()).filter(Boolean);
 const closure = /\b(?:closed|ended|passed|no longer (?:open|available)|not\s+(?:(?:currently|presently)\s+)?open)\b/;
@@ -330,11 +349,11 @@ export function filterEvents(events, filters, today = todayISO(), now = Date.now
     if (!filters.showPast && e.end && e.end < today) return false;
     if (filters.region === 'Europe-group' && !hasEuropeanSite(e)) return false;
     if (filters.region && !['all','Europe-group'].includes(filters.region) && e.region !== filters.region) return false;
-    if (filters.topic && filters.topic !== 'all' && !(e.tags || []).includes(filters.topic)) return false;
+    if (filters.topic && filters.topic !== 'all' && !eventTopics(e).includes(filters.topic) && !(e.tags || []).includes(filters.topic)) return false;
     if (filters.type && filters.type !== 'all' && e.type !== filters.type) return false;
     if (filters.year && filters.year !== 'all' && !(e.start || e.name || '').includes(filters.year)) return false;
     if (filters.stage && filters.stage !== 'all' && !eventStatuses(e,today,now).some(status=>status.filters.includes(filters.stage))) return false;
-    if (search && ![e.name,e.location,e.note,...(e.tags||[])].join(' ').toLowerCase().includes(search)) return false;
+    if (search && ![e.name,e.location,e.note,...eventTopics(e),...(e.tags||[])].join(' ').toLowerCase().includes(search)) return false;
     return true;
   });
   if (deadlineChannel) for (const event of filtered) {

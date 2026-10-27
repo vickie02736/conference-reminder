@@ -1,12 +1,50 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterEvents,eventPhase,eventStatuses,upcomingNodes,deadlineSummary,nextDeadline,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
+import {filterEvents,eventTopics,eventPhase,eventStatuses,upcomingNodes,deadlineSummary,nextDeadline,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
 
 const catalogue=JSON.parse(readFileSync(new URL('../data/conferences.json',import.meta.url),'utf8'));
 const canonical=name=>[...catalogue.events,...catalogue.watchlist].find(e=>e.name.includes(name));
 const snapshotPhase=e=>eventPhase(e,'2026-10-27',Date.parse('2026-10-27T12:00Z'));
 const phaseNode=(kind,date,label=kind,status='verified')=>({id:kind,kind,date,label,status,precision:date?'date':'unknown',time:null,timezone:null});
+
+test('the published catalogue fits seven research topics without leaving activities unclassified',()=>{
+ const all=[...catalogue.events,...catalogue.watchlist];
+ const topics=new Set(all.flatMap(eventTopics));
+ assert.equal(topics.size,7);
+ assert.ok(!topics.has('Other topics'));
+ for (const event of all) {
+  const groups=eventTopics(event);
+  assert.ok(groups.length>0,event.name);
+  assert.equal(new Set(groups).size,groups.length,event.name);
+ }
+ assert.deepEqual(eventTopics(canonical('School on Advanced Structural')),['MOFs, COFs & Porous Materials']);
+ assert.deepEqual(eventTopics(canonical('E-MRS Fall Meeting 2027')),['Materials & Characterisation']);
+ for (const name of ['UKPorMat2027','MEDPore2027','PMEA2028','FEZA2029']) assert.ok(eventTopics(canonical(name)).includes('MOFs, COFs & Porous Materials'),name);
+ assert.deepEqual(eventTopics(canonical('Materials Chemistry Poster Symposium')),['Materials & Characterisation']);
+});
+test('topic groups merge related keywords once and distinguish general from applied AI',()=>{
+ assert.deepEqual(eventTopics({tags:['MOF','COF','Porous Materials','Zeolites','School']}),['MOFs, COFs & Porous Materials']);
+ assert.deepEqual(eventTopics({tags:['ML','Machine Learning','AI']}),['AI & Machine Learning']);
+ assert.deepEqual(eventTopics({tags:['AI for Materials','AI for Chemistry','Materials Informatics']}),['AI for Materials & Chemistry']);
+ assert.deepEqual(eventTopics(canonical('NeurIPS 2026')),['AI & Machine Learning']);
+ assert.deepEqual(eventTopics(canonical('AI4Mat @')),['AI for Materials & Chemistry']);
+ assert.deepEqual(eventTopics({tags:['Uncatalogued research field']}),['Other topics']);
+});
+test('grouped topics combine with region and status while detailed keyword searches remain available',()=>{
+ const all=[...catalogue.events,...catalogue.watchlist], at=Date.parse('2026-10-27T18:00Z');
+ const names=filterEvents(all,{topic:'MOFs, COFs & Porous Materials',region:'UK',stage:'registration'},'2026-10-27',at).map(e=>e.name);
+ assert.deepEqual(names,[
+  '45th RSC Solid State Chemistry Group Christmas Meeting (SSCG2026)',
+  'ARIC Advanced Adsorption Course — Kinetic Measurements using Macroscopic Techniques',
+  'Characterisation of Catalysts',
+  'MC18 — 18th International Conference on Materials Chemistry'
+ ]);
+ const gnn=filterEvents(all,{topic:'AI for Materials & Chemistry',search:'GNN'},'2026-10-27',at);
+ assert.deepEqual(gnn.map(e=>e.name),['Chemistry and Materials Machine Learning School — CaMML 2027']);
+ const schools=filterEvents(all,{topic:'MOFs, COFs & Porous Materials',type:canonical('MOFschool2027').type},'2026-10-27',at);
+ assert.ok(schools.some(e=>e.name==='MOFschool2027'));
+});
 
 test('event phases include both conference date boundaries and distinguish finished and awaiting dates',()=>{
  const e={start:'2027-06-01',end:'2027-06-03',status:'Submissions closed',milestones:[]};

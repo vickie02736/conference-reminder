@@ -79,8 +79,8 @@ test('source shortcuts reveal all affected activities and the source filter comb
   assert.equal(h.elements.get('advanced-filters').open, true);
   assert.equal(shortcuts[0].attributes['aria-pressed'], 'true');
   assert.equal((h.list().match(/<article /g) || []).length, needs.length);
-  h.set('topic', 'MOF');
-  const expected = needs.filter((e) => e.tags?.includes('MOF'));
+  h.set('topic', 'MOFs, COFs & Porous Materials');
+  const expected = needs.filter((e) => core.eventTopics(e).includes('MOFs, COFs & Porous Materials'));
   assert.equal((h.list().match(/<article /g) || []).length, expected.length);
   assert.equal(h.elements.get('advanced-count').textContent, '(2 selected)');
   const errorButton = shortcuts.find((button) => button.textContent.startsWith('Source errors'));
@@ -131,7 +131,7 @@ test('timeline links follow every visible card through combined filters and rese
   assert.match(h.elements.get('timeline-count').textContent, /^Registration dates/);
   assert.ok(linkedIds().size > 0);
   assert.deepEqual(linkedIds(), cardIds());
-  h.set('topic', 'MOF');
+  h.set('topic', 'MOFs, COFs & Porous Materials');
   assert.deepEqual(linkedIds(), cardIds());
   h.set('search', 'no matching conference');
   assert.equal(linkedIds().size, 0);
@@ -160,4 +160,39 @@ test('deadline sort choices show their matching deadline on the conference card'
   h.set('sort', 'submission_deadline');
   assert.match(preview(), /<b>Oral and poster abstracts<\/b><br>30 Oct 2026/);
   assert.equal((h.list().match(/<article /g) || []).length, 1);
+});
+
+test('topic choices and card badges use seven groups while details retain the research keywords', async () => {
+  const h = await harness();
+  const choices = h.elements.get('topic').children.map(option => option.value);
+  assert.deepEqual(choices, [
+    'AI & Machine Learning',
+    'AI for Materials & Chemistry',
+    'Adsorption & Separations',
+    'Automation & Digital Chemistry',
+    'MOFs, COFs & Porous Materials',
+    'Materials & Characterisation',
+    'Simulation & Theory'
+  ]);
+  h.set('search', 'SSCG2026');
+  assert.match(h.list(), /<div class="tags"><span class="tag">AI for Materials &amp; Chemistry<\/span><span class="tag">MOFs, COFs &amp; Porous Materials<\/span><span class="tag">Materials &amp; Characterisation<\/span><\/div>/);
+  assert.match(h.list(), /<b>Research topics<\/b>[\s\S]*Porous Materials · AI for Materials · Materials Chemistry/);
+});
+
+test('grouped topic changes keep the timeline aligned with combined card filters and keyword search', async () => {
+  const h = await harness();
+  h.set('region', 'UK'); h.set('stage', 'registration');
+  h.set('topic', 'MOFs, COFs & Porous Materials');
+  const cardIds = () => new Set([...h.list().matchAll(/id="event-([^"]+)"/g)].map(match => match[1]));
+  const timelineIds = () => new Set([...h.elements.get('timeline-list').innerHTML.matchAll(/href="#event-([^"]+)"/g)].map(match => decodeURIComponent(match[1])));
+  assert.equal(cardIds().size, 4);
+  assert.deepEqual(timelineIds(), cardIds());
+  h.set('region', 'all'); h.set('stage', 'all');
+  h.set('topic', 'AI for Materials & Chemistry'); h.set('search', 'GNN');
+  assert.equal(cardIds().size, 1);
+  assert.deepEqual(timelineIds(), cardIds());
+  assert.match(h.list(), /CaMML 2027/);
+  h.elements.get('reset-filters').click();
+  assert.equal(h.elements.get('topic').value, 'all');
+  assert.deepEqual(timelineIds(), cardIds());
 });
