@@ -26,7 +26,7 @@ The former local date tracker and browser notification interface have been retir
 
 ## Daily official-source checks
 
-`site.yml` checks registered source URLs daily at **06:17 UTC** and supports [manual runs](https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml). Choose **Run workflow**, keeping `refresh_sources` enabled. Running it requires repository access.
+`site.yml` checks registered source URLs daily at **01:17 UTC** (01:17 in UK winter time, 02:17 in UK summer time) and supports [manual runs](https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml). Choose **Run workflow**, keeping `refresh_sources` enabled. Running it requires repository access.
 
 The updater recognises narrowly scoped EuroMOF deadline/platform statements, the authoritative AI4Mat schedule, and matching official JSON-LD Event records. Other sources are monitored for content changes and remain marked for review until reviewed; a stable page hash or a parser that verifies only some fields does not verify other changed facts. Fingerprints preserve published clock times and ignore only labelled update timestamps. The first check after upgrading an older fingerprint may require a one-time review of previously ignored times. Dynamic pages, PDFs, ambiguous dates and site changes are not silently converted into deadlines. A failed or unverifiable fetch retains the last trusted facts. Explicit cancellation or rescheduling evidence pauses email scheduling until reviewed.
 

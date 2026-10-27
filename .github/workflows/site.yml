@@ -14,7 +14,7 @@ on:
       - package.json
       - .github/workflows/site.yml
   schedule:
-    - cron: '17 6 * * *'
+    - cron: '17 1 * * *'
   workflow_dispatch:
     inputs:
       refresh_sources:
