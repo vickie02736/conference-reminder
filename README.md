@@ -10,7 +10,7 @@ An English conference catalogue for AI, AI for Materials, MOF/COF, porous materi
 - Each entry links to its official website and evidence. Closed submissions, full events, invitation-only attendance and conflicting dates remain visible.
 - Track multiple dates for a conference, receive browser notifications, or export reminders as ICS calendar files.
 - Existing reminders under `academic-conferences-v1` remain compatible. Personal calendar/browser reminders stay in local storage; browser notifications require permission and an open page.
-- Email subscriptions use a separate Google Apps Script service. **They remain disabled on the website until the owner deploys and verifies that service.**
+- **Send reminder** opens the Google Apps Script service in a new tab. Select dates and lead times, then verify your email to activate server reminders.
 
 ## Daily official-source checks
 
@@ -34,7 +34,7 @@ Subscriptions, token hashes and delivery records are stored in an owner-only Goo
 
 Personal Google accounts currently have a **100 recipient deliveries per day** quota shared by confirmation, management and reminder emails; this is not a subscriber count. Sending checks remaining quota, reserves capacity for reminders and merges reminders due for the same recipient. It suits a small audience, and timing is approximate. MailApp has no documented provider idempotency key: an uncertain send is retained for owner review and is not automatically retried. See [Google quotas](https://developers.google.com/apps-script/guides/services/quotas).
 
-After deploying and testing anonymous access and a real verified subscription, set `emailReminderUrl` in `config.json` to the production `https://script.google.com/macros/s/.../exec` URL and `emailRemindersEnabled` to `true`. Before that, the website clearly offers calendar/browser reminders without pretending email is active. The sender is the Google account that owns the service.
+The production service is configured in `config.json`. When replacing it, keep `emailRemindersEnabled` set to `false` until anonymous access, a real verified subscription and scheduled delivery have been checked. The sender is the Google account that owns the service. To pause new website subscriptions, disable that flag; to stop all outgoing mail, also run `disableEmailSending()` in the Apps Script editor.
 
 ## Development and publishing
 
