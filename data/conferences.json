@@ -20,7 +20,7 @@
       "The watch list includes incomplete or weaker announcements, including an organiser LinkedIn announcement for MEDPore2027.",
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
-    "last_checked_at": "2026-10-27T14:43:49Z",
+    "last_checked_at": "2026-10-27T14:55:25Z",
     "last_updated_at": "2026-10-27T14:43:49Z"
   },
   "events": [
@@ -50,10 +50,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning: HTTP Error 403: Forbidden"
+        "status": "checked",
+        "last_checked_at": "2026-10-27T14:55:25Z",
+        "last_verified_at": "2026-10-27T14:55:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -67,7 +67,7 @@
           "source": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official JSON-LD Event with matching name and identity: 2026-10-29 to 2026-10-30."
         },
         {
           "kind": "poster",
@@ -136,9 +136,9 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/: [Errno 54] Connection reset by peer"
+        "message": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/: IncompleteRead(24132 bytes read)"
       },
       "milestones": [
         {
@@ -196,9 +196,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026: Initial source baseline requires verification. | https://www.rsc.org/events/find-an-event/automated-intelligent-chemistry: HTTP Error 403: Forbidden"
+        "message": "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026: Official content changed; no trusted adapter can verify all affected facts. | https://www.rsc.org/events/find-an-event/automated-intelligent-chemistry: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -271,9 +271,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.ukairs.ac.uk/i/Registration: Initial source baseline requires verification. | https://www.ukairs.ac.uk/i/SubmissionThemes: Initial source baseline requires verification. | https://www.ukairs.ac.uk/Home/Welcome: Initial source baseline requires verification."
+        "message": "https://www.ukairs.ac.uk/i/Registration: Official content changed; no trusted adapter can verify all affected facts. | https://www.ukairs.ac.uk/i/SubmissionThemes: Official content changed; no trusted adapter can verify all affected facts. | https://www.ukairs.ac.uk/Home/Welcome: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -341,9 +341,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/: Initial source baseline requires verification."
+        "message": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -395,10 +395,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium: HTTP Error 403: Forbidden"
+        "message": "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -456,9 +456,9 @@
       "evidence": "The TYC website gives 14–15 December and the 1 November registration deadline; the KCL official store confirms the Great Hall, £75 student ticket and last booking date.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: Initial source baseline requires verification. | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: Initial source baseline requires verification."
+        "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: Official content changed; no trusted adapter can verify all affected facts. | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -515,9 +515,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://sscg.uk/2026-sscg-christmas-meeting: Initial source baseline requires verification."
+        "message": "https://sscg.uk/2026-sscg-christmas-meeting: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -586,9 +586,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.bcs-sgai.org/ai2026/: Initial source baseline requires verification. | https://www.bcs-sgai.org/ai2026/?section=registration: Initial source baseline requires verification."
+        "message": "https://www.bcs-sgai.org/ai2026/: Official content changed; no trusted adapter can verify all affected facts. | https://www.bcs-sgai.org/ai2026/?section=registration: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -660,9 +660,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Initial source baseline requires verification. | https://psi-k.net/workshops/: Initial source baseline requires verification. | https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf: Initial source baseline requires verification. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: [Errno 54] Connection reset by peer"
+        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; no trusted adapter can verify all affected facts. | https://psi-k.net/workshops/: Official content changed; no trusted adapter can verify all affected facts. | https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf: Official content changed; no trusted adapter can verify all affected facts. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
       },
       "milestones": [
         {
@@ -743,10 +743,10 @@
       "verified_on": "2026-10-27",
       "evidence": "The RSC page lists the date, venue, all deadlines and presentation eligibility.",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting: HTTP Error 403: Forbidden"
+        "status": "checked",
+        "last_checked_at": "2026-10-27T14:55:25Z",
+        "last_verified_at": "2026-10-27T14:55:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -760,7 +760,7 @@
           "source": "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official JSON-LD Event with matching name and identity: 2027-01-15 to 2027-01-15."
         },
         {
           "kind": "abstract",
@@ -841,9 +841,9 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/: [Errno 54] Connection reset by peer"
+        "message": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/: IncompleteRead(15940 bytes read)"
       },
       "milestones": [
         {
@@ -901,7 +901,7 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course: <urlopen error timed out>"
       },
@@ -958,9 +958,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/: Initial source baseline requires verification."
+        "message": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1020,9 +1020,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://spring2027.camml.ac.uk/: Initial source baseline requires verification. | https://spring2027.camml.ac.uk/registration/: Initial source baseline requires verification. | https://www.psdi.ac.uk/event/camml-2027/: Initial source baseline requires verification."
+        "message": "https://spring2027.camml.ac.uk/: Official content changed; no trusted adapter can verify all affected facts. | https://spring2027.camml.ac.uk/registration/: Official content changed; no trusted adapter can verify all affected facts. | https://www.psdi.ac.uk/event/camml-2027/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1091,10 +1091,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts: HTTP Error 403: Forbidden"
+        "status": "checked",
+        "last_checked_at": "2026-10-27T14:55:25Z",
+        "last_verified_at": "2026-10-27T14:55:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -1108,7 +1108,7 @@
           "source": "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official JSON-LD Event with matching name and identity: 2027-04-07 to 2027-04-09."
         },
         {
           "kind": "abstract",
@@ -1177,9 +1177,9 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: [Errno 54] Connection reset by peer"
+        "message": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: IncompleteRead(24124 bytes read)"
       },
       "milestones": [
         {
@@ -1247,9 +1247,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://aisb.org.uk/call-for-symposia-proposals-aisb-2027-university-of-liverpool/: Initial source baseline requires verification."
+        "message": "https://aisb.org.uk/call-for-symposia-proposals-aisb-2027-university-of-liverpool/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1318,9 +1318,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://advancedmaterialsshow.com/full-conference/: Initial source baseline requires verification."
+        "message": "https://advancedmaterialsshow.com/full-conference/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1377,9 +1377,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.leachresearchgroup.net/home/chemoinformatics-conference-2027: Initial source baseline requires verification."
+        "message": "https://www.leachresearchgroup.net/home/chemoinformatics-conference-2027: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1450,10 +1450,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.rsc.org/events/find-an-event/18th-international-conference-on-materials-chemistry-%28mc18%29: HTTP Error 403: Forbidden"
+        "message": "https://www.rsc.org/events/find-an-event/18th-international-conference-on-materials-chemistry-%28mc18%29: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -1548,10 +1548,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion: HTTP Error 403: Forbidden"
+        "status": "checked",
+        "last_checked_at": "2026-10-27T14:55:25Z",
+        "last_verified_at": "2026-10-27T14:55:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -1565,7 +1565,7 @@
           "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official JSON-LD Event with matching name and identity: 2027-09-08 to 2027-09-10."
         },
         {
           "kind": "abstract",
@@ -1677,9 +1677,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/: Initial source baseline requires verification."
+        "message": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1736,9 +1736,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.icmm.csic.es/es/node/37130: Initial source baseline requires verification."
+        "message": "https://www.icmm.csic.es/es/node/37130: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1797,9 +1797,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.acnetwork.nl/chemai: Initial source baseline requires verification. | https://ai4science-amsterdam.github.io/news/chemai/: Official source returned no readable page content."
+        "message": "https://www.acnetwork.nl/chemai: Official content changed; no trusted adapter can verify all affected facts. | https://ai4science-amsterdam.github.io/news/chemai/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -1870,9 +1870,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://sapem2026.matelys.com/: Initial source baseline requires verification. | https://sapem2026.matelys.com/flyer_SAPEM_2026.pdf: Initial source baseline requires verification."
+        "message": "https://sapem2026.matelys.com/: Official content changed; no trusted adapter can verify all affected facts. | https://sapem2026.matelys.com/flyer_SAPEM_2026.pdf: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -1956,9 +1956,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/: Initial source baseline requires verification. | https://interpore.org/event/vii-annual-spain-interpore-meeting: Initial source baseline requires verification."
+        "message": "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/: Official content changed; no trusted adapter can verify all affected facts. | https://interpore.org/event/vii-annual-spain-interpore-meeting: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2028,9 +2028,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://aixmat.candela.org.pl/: Initial source baseline requires verification."
+        "message": "https://aixmat.candela.org.pl/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2100,9 +2100,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://interpore.org/event/9th-norway-national-workshop-porous-media: Initial source baseline requires verification."
+        "message": "https://interpore.org/event/9th-norway-national-workshop-porous-media: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2174,9 +2174,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.iswpm26.org/: Initial source baseline requires verification. | https://www.iswpm26.org/172246/author?version=latest: Initial source baseline requires verification. | https://interpore.org/event/7th-interpore-benelux-chapter-meeting: Initial source baseline requires verification."
+        "message": "https://www.iswpm26.org/: Official content changed; no trusted adapter can verify all affected facts. | https://www.iswpm26.org/172246/author?version=latest: Official content changed; no trusted adapter can verify all affected facts. | https://interpore.org/event/7th-interpore-benelux-chapter-meeting: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2248,9 +2248,9 @@
       "evidence": "ESI and University of Innsbruck pages confirm dates and venue; the GDR MePhy organiser announcement gives the 15 July abstract deadline and no conference fee.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.esi.ac.at/events/e610/: Initial source baseline requires verification. | https://www.uibk.ac.at/en/th-physik/bio-nano/events/: Initial source baseline requires verification. | https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/: Initial source baseline requires verification. | https://www.cecam.org/workshop-details/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-1497: Initial source baseline requires verification."
+        "message": "https://www.esi.ac.at/events/e610/: Official content changed; no trusted adapter can verify all affected facts. | https://www.uibk.ac.at/en/th-physik/bio-nano/events/: Official content changed; no trusted adapter can verify all affected facts. | https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/: Official content changed; no trusted adapter can verify all affected facts. | https://www.cecam.org/workshop-details/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-1497: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2333,9 +2333,9 @@
       "evidence": "The CECAM official search index lists dates, venue and 15 November registration; the page describes theoretical, simulation and ML approaches.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/workshop-details/1272: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/workshop-details/1272: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2391,9 +2391,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.nldl.org/: Initial source baseline requires verification. | https://www.nldl.org/submission/call-for-papers: Initial source baseline requires verification."
+        "message": "https://www.nldl.org/: Official content changed; no trusted adapter can verify all affected facts. | https://www.nldl.org/submission/call-for-papers: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2463,9 +2463,9 @@
       "evidence": "ICTP gives 13–15 January 2027, deadline 11/10/2026 and no registration fee. The European date format is interpreted as 11 October.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://indico.ictp.it/event/11409: Initial source baseline requires verification."
+        "message": "https://indico.ictp.it/event/11409: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2521,9 +2521,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://fems.org/industry-symposium-frankfurt-14-january-2027/: Initial source baseline requires verification."
+        "message": "https://fems.org/industry-symposium-frankfurt-14-january-2027/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2594,9 +2594,9 @@
       "evidence": "The CECAM text explicitly gives 16 October 2026 as the application deadline; Psi-k confirms 25–27 January.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/workshop-details/automating-atomistic-machine-learning-1494: Initial source baseline requires verification. | https://psi-k.net/workshops/: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/workshop-details/automating-atomistic-machine-learning-1494: Official content changed; no trusted adapter can verify all affected facts. | https://psi-k.net/workshops/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2652,9 +2652,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/workshop-details/1480: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/workshop-details/1480: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2712,9 +2712,9 @@
       "evidence": "The DECHEMA organiser page gives 3–5 March, the 27 November deadline and porous-materials theory/adsorption topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://dechema.de/en/dzt38.html: Initial source baseline requires verification."
+        "message": "https://dechema.de/en/dzt38.html: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2785,9 +2785,9 @@
       "evidence": "CECAM and Psi-k both list 8–12 March; the activity page confirms venue and topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/workshop-details/theoretical-spectroscopy-lectures-1482: Initial source baseline requires verification. | https://psi-k.net/workshops/: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/workshop-details/theoretical-spectroscopy-lectures-1482: Official content changed; no trusted adapter can verify all affected facts. | https://psi-k.net/workshops/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2845,9 +2845,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/workshop-details/self-assembly-of-materials-merging-direct-experiments-with-simulations-at-different-resolutions-and-data-science-techniques-1522: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/workshop-details/self-assembly-of-materials-merging-direct-experiments-with-simulations-at-different-resolutions-and-data-science-techniques-1522: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2919,9 +2919,9 @@
       "evidence": "CECAM and the FLUXIONIC organising research network both confirm dates and venue.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/program?location=all&month=all&page=2&type=all: Initial source baseline requires verification. | https://www.fluxionic.org/events: Initial source baseline requires verification. | https://www.fluxionic.org/events/challenges-ionic-fluids-2027: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/program?location=all&month=all&page=2&type=all: Official content changed; no trusted adapter can verify all affected facts. | https://www.fluxionic.org/events: Official content changed; no trusted adapter can verify all affected facts. | https://www.fluxionic.org/events/challenges-ionic-fluids-2027: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -2992,9 +2992,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://congressomateriais.pt/editions/2027: Initial source baseline requires verification. | https://www.spmateriais.pt/eventos/materiais-2027: Initial source baseline requires verification."
+        "message": "https://congressomateriais.pt/editions/2027: Official content changed; no trusted adapter can verify all affected facts. | https://www.spmateriais.pt/eventos/materiais-2027: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3064,10 +3064,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en: HTTP Error 403: Forbidden | https://www.dpg-physik.de/aktivitaeten-und-programme/programme/bad-honnef-physics-schools: HTTP Error 403: Forbidden | https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials: HTTP Error 403: Forbidden"
+        "message": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en: Initial source baseline requires verification. | https://www.dpg-physik.de/aktivitaeten-und-programme/programme/bad-honnef-physics-schools: Initial source baseline requires verification. | https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -3124,9 +3124,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://emmc.eu/events/emmc2027/: Initial source baseline requires verification."
+        "message": "https://emmc.eu/events/emmc2027/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3195,10 +3195,10 @@
       "verified_on": "2026-10-27",
       "evidence": "Official Welcome and Key dates pages give 9–12 May, 15 November oral abstracts and 31 March late posters.",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.esat2027.com/: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>"
+        "message": "https://www.esat2027.com/: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -3282,9 +3282,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit: Initial source baseline requires verification. | https://www.european-mrs.com/computations-materials-%E2%80%93-discovery-design-and-role-ai-emrs: Initial source baseline requires verification. | https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond: Initial source baseline requires verification."
+        "message": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit: Official content changed; no trusted adapter can verify all affected facts. | https://www.european-mrs.com/computations-materials-%E2%80%93-discovery-design-and-role-ai-emrs: Official content changed; no trusted adapter can verify all affected facts. | https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3343,9 +3343,9 @@
       "evidence": "The workshop website gives the 1 December abstract deadline; DECHEMA confirms 23–26 May and Garmisch-Partenkirchen.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://cpm-workshop.org/: Initial source baseline requires verification. | https://dechema.de/en/cpm10.html: Initial source baseline requires verification. | https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: Initial source baseline requires verification."
+        "message": "https://cpm-workshop.org/: Official content changed; no trusted adapter can verify all affected facts. | https://dechema.de/en/cpm10.html: Official content changed; no trusted adapter can verify all affected facts. | https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3415,9 +3415,9 @@
       "evidence": "The official Important Dates table lists both submission rounds, 21 April early registration and 9 May standard/presenting-author registration. Submission deadlines explicitly use 23:59 AoE.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://ai4x.cc/2027/call-for-papers/important-dates/: Initial source baseline requires verification."
+        "message": "https://ai4x.cc/2027/call-for-papers/important-dates/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3526,9 +3526,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://metfoam2027.com/: Initial source baseline requires verification."
+        "message": "https://metfoam2027.com/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3638,9 +3638,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://euromof2027.com/index.html: Initial source baseline requires verification. | https://mofs.lakecomoschool.org/: <urlopen error timed out>"
+        "message": "https://euromof2027.com/index.html: Official content changed; no trusted adapter can verify all affected facts. | https://mofs.lakecomoschool.org/: <urlopen error timed out>"
       },
       "milestones": [
         {
@@ -3700,9 +3700,9 @@
       "evidence": "The homepage gives the 1 February abstract and 5 April early-registration deadlines; the abstract page includes AI/ML and states guidelines in preparation.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://euromof2027.com/index.html: Initial source baseline requires verification."
+        "message": "https://euromof2027.com/index.html: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3797,9 +3797,9 @@
       "evidence": "CECAM gives 6–8 July, 1 June registration and the meeting topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/workshop-details/2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches-1490: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/workshop-details/2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches-1490: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3855,9 +3855,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.elsevier.com/events/conferences/all/materials-today-conference: Initial source baseline requires verification."
+        "message": "https://www.elsevier.com/events/conferences/all/materials-today-conference: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3938,9 +3938,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://ecmlpkdd.org/2027/: Initial source baseline requires verification."
+        "message": "https://ecmlpkdd.org/2027/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -3998,9 +3998,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.euromat2027.com/: Initial source baseline requires verification. | https://fems.org/about-fems/fems-euromat-conference-series/fems-euromat/: Initial source baseline requires verification."
+        "message": "https://www.euromat2027.com/: Official content changed; no trusted adapter can verify all affected facts. | https://fems.org/about-fems/fems-euromat-conference-series/fems-euromat/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4069,9 +4069,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.european-mrs.com/meetings/2027-fall-meeting-exhibit: Initial source baseline requires verification."
+        "message": "https://www.european-mrs.com/meetings/2027-fall-meeting-exhibit: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4139,9 +4139,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://ecai2027.org/: Initial source baseline requires verification."
+        "message": "https://ecai2027.org/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4198,9 +4198,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.ai4am.net/2027/deadlines.php: Initial source baseline requires verification. | https://ai4am.net/: Official source returned no readable page content."
+        "message": "https://www.ai4am.net/2027/deadlines.php: Official content changed; no trusted adapter can verify all affected facts. | https://ai4am.net/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -4283,9 +4283,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://dgm.de/aimse/2027/: Initial source baseline requires verification. | https://dgm.de/aimse/2027/submission/abstract-submission: Initial source baseline requires verification."
+        "message": "https://dgm.de/aimse/2027/: Official content changed; no trusted adapter can verify all affected facts. | https://dgm.de/aimse/2027/submission/abstract-submission: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4341,9 +4341,9 @@
       "evidence": "CECAM gives 23–25 November, registration opening on 1 April, Lausanne and the organisers.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/workshop-details/mathematics-for-quantum-dynamics-1486: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/workshop-details/mathematics-for-quantum-dynamics-1486: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4413,9 +4413,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.carbon2028.org/: Initial source baseline requires verification."
+        "message": "https://www.carbon2028.org/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4498,9 +4498,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://cops-xii.org/: Initial source baseline requires verification."
+        "message": "https://cops-xii.org/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4569,9 +4569,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/: Initial source baseline requires verification."
+        "message": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4628,9 +4628,9 @@
       "evidence": "The homepage gives the meeting dates and extension to 28 October; symposium pages list AI/ML and MD themes.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.mmm12.org/: Initial source baseline requires verification. | https://www.mmm12.org/symposia/: Initial source baseline requires verification."
+        "message": "https://www.mmm12.org/: Official content changed; no trusted adapter can verify all affected facts. | https://www.mmm12.org/symposia/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4716,9 +4716,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.rscfirst.org.cn/en/web/index/36624_3190136: Initial source baseline requires verification. | https://rscfirst.org.cn/: Initial source baseline requires verification. | https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry: HTTP Error 403: Forbidden"
+        "message": "https://www.rscfirst.org.cn/en/web/index/36624_3190136: Official content changed; no trusted adapter can verify all affected facts. | https://rscfirst.org.cn/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4732,7 +4732,7 @@
           "source": "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official JSON-LD Event with matching name and identity: 2026-11-19 to 2026-11-21."
         },
         {
           "kind": "abstract",
@@ -4813,9 +4813,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://events.polyu.edu.hk/ecomat2026/home: Initial source baseline requires verification."
+        "message": "https://events.polyu.edu.hk/ecomat2026/home: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -4884,10 +4884,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts: HTTP Error 403: Forbidden | https://www.mrs.org/meetings-events/annual-meetings: HTTP Error 403: Forbidden"
+        "message": "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts: Initial source baseline requires verification. | https://www.mrs.org/meetings-events/annual-meetings: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -4969,9 +4969,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://nips.cc/Conferences/2026: Initial source baseline requires verification. | https://neurips.cc/Conferences/2026/Dates: Initial source baseline requires verification."
+        "message": "https://nips.cc/Conferences/2026: Official content changed; no trusted adapter can verify all affected facts. | https://neurips.cc/Conferences/2026/Dates: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -5067,9 +5067,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://sites.google.com/view/ai4mat/home: Initial source baseline requires verification. | https://sites.google.com/view/ai4mat/schedule: The authoritative AI4Mat schedule sentence is missing or ambiguous. | https://sites.google.com/view/ai4mat/submissions: Initial source baseline requires verification."
+        "message": "https://sites.google.com/view/ai4mat/home: Official content changed; no trusted adapter can verify all affected facts. | https://sites.google.com/view/ai4mat/schedule: The authoritative AI4Mat schedule sentence is missing or ambiguous. | https://sites.google.com/view/ai4mat/submissions: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -5139,9 +5139,9 @@
       "evidence": "The CECAM programme index gives dates and CECAM-BJ; no city or building is inferred.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop: Initial source baseline requires verification."
+        "message": "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -5213,10 +5213,10 @@
       "verified_on": "2026-10-27",
       "evidence": "The site gives 17–20 January overall, distinguishing 17 January arrivals from the 18–20 January conference. Important Dates lists Recent Reports on 30 November.",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.eazc2027.com/: Official source returned no readable page content. | https://www.eazc2027.com/index/page.html?id=1844: Official source returned no readable page content."
+        "message": "https://www.eazc2027.com/: Initial source baseline requires verification. | https://www.eazc2027.com/index/page.html?id=1844: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -5323,9 +5323,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://aaai.org/conference/aaai/aaai-27/: Initial source baseline requires verification."
+        "message": "https://aaai.org/conference/aaai/aaai-27/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -5383,9 +5383,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf: Initial source baseline requires verification. | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden"
+        "message": "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf: Official content changed; no trusted adapter can verify all affected facts. | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -5469,9 +5469,9 @@
       "evidence": "ICTS confirms the dates, themes and 25 November deadline; its application form gives 9 December for recommendation letters.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.icts.res.in/program/mwas: Initial source baseline requires verification. | https://register1.icts.res.in/mwas: Initial source baseline requires verification."
+        "message": "https://www.icts.res.in/program/mwas: Official content changed; no trusted adapter can verify all affected facts. | https://register1.icts.res.in/mwas: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -5541,10 +5541,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit/call-for-abstracts: HTTP Error 403: Forbidden | https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit: HTTP Error 403: Forbidden | https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/2027-mrs-spring-meeting-exhibit: HTTP Error 403: Forbidden"
+        "message": "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit/call-for-abstracts: Initial source baseline requires verification. | https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit: Initial source baseline requires verification. | https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/2027-mrs-spring-meeting-exhibit: Initial source baseline requires verification."
       },
       "milestones": [
         {
@@ -5599,9 +5599,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.iclr.cc/: Initial source baseline requires verification."
+        "message": "https://www.iclr.cc/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -5670,7 +5670,7 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.siam.org/conferences-events/siam-conferences/ms27/: HTTP Error 403: Forbidden"
       },
@@ -5768,9 +5768,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://virtual.aistats.org/: Initial source baseline requires verification. | https://aistats.org/aistats2027/dates.html: Initial source baseline requires verification. | https://virtual.aistats.org/Conferences/2027/CallForPapers: Initial source baseline requires verification."
+        "message": "https://virtual.aistats.org/: Official content changed; no trusted adapter can verify all affected facts. | https://aistats.org/aistats2027/dates.html: Official content changed; no trusted adapter can verify all affected facts. | https://virtual.aistats.org/Conferences/2027/CallForPapers: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -5856,7 +5856,7 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
@@ -5972,9 +5972,9 @@
       "evidence": "Important Dates gives 30 November abstracts and 31 March early registration; Topics lists Simulation & machine learning.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://pbast10.org/: Initial source baseline requires verification."
+        "message": "https://pbast10.org/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6056,9 +6056,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://registration.telluridescience.org/workshops/the-future-of-porous-frameworks: Initial source baseline requires verification."
+        "message": "https://registration.telluridescience.org/workshops/the-future-of-porous-frameworks: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6113,7 +6113,7 @@
       "evidence": "The official homepage lists the 1 December 2026 abstract deadline and 30 April 2027 discount-registration deadline.",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx: HTTP Error 403: Forbidden"
       },
@@ -6185,9 +6185,9 @@
       "evidence": "The official search index gives 15–18 June and University of Utah and says full registration details will follow. Direct access may trigger JavaScript verification.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://actc2027.com/: Initial source baseline requires verification."
+        "message": "https://actc2027.com/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6260,9 +6260,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://carbon2027.or.kr/: Initial source baseline requires verification. | https://carbon2027.or.kr/cfp.html: Initial source baseline requires verification. | https://europeancarbon.eu/index.php/event/world-conference-on-carbon-2027-carbon-2027/: Initial source baseline requires verification."
+        "message": "https://carbon2027.or.kr/: Official content changed; no trusted adapter can verify all affected facts. | https://carbon2027.or.kr/cfp.html: Official content changed; no trusted adapter can verify all affected facts. | https://europeancarbon.eu/index.php/event/world-conference-on-carbon-2027-carbon-2027/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6356,9 +6356,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://learningtheory.org/colt2027/: Initial source baseline requires verification."
+        "message": "https://learningtheory.org/colt2027/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6417,9 +6417,9 @@
       "evidence": "The official Important Dates page lists the dates; the CACHE announcement dated 20 October 2026 confirms abstracts are open and includes AI/ML.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://fomms.cache.org/2027/important-dates: Initial source baseline requires verification. | https://www.cache.org/fomms-2027-abstract-submissions-are-now-open: Initial source baseline requires verification. | https://fomms.cache.org/: Initial source baseline requires verification."
+        "message": "https://fomms.cache.org/2027/important-dates: Official content changed; no trusted adapter can verify all affected facts. | https://www.cache.org/fomms-2027-abstract-submissions-are-now-open: Official content changed; no trusted adapter can verify all affected facts. | https://fomms.cache.org/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6506,9 +6506,9 @@
       "evidence": "Call for Abstracts gives the 1 October–15 December 2026 window, JST time zone and AI/simulation/MOF topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://zmpc.org/: Initial source baseline requires verification. | https://zmpc.org/dates/: Initial source baseline requires verification. | https://zmpc.org/call-for-abstracts/: Initial source baseline requires verification."
+        "message": "https://zmpc.org/: Official content changed; no trusted adapter can verify all affected facts. | https://zmpc.org/dates/: Official content changed; no trusted adapter can verify all affected facts. | https://zmpc.org/call-for-abstracts/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6616,10 +6616,10 @@
       "verified_on": "2026-10-27",
       "evidence": "Application Information gives the 3 July attendance deadline and 25 April speaker-abstract deadline separately.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "failed",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/: Initial source baseline requires verification. | https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/: HTTP Error 404: Not Found"
+        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/: Official source returned no readable page content. | https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/: HTTP Error 404: Not Found"
       },
       "milestones": [
         {
@@ -6689,9 +6689,9 @@
       "evidence": "Application Information lists 4 July; the description explicitly includes MOF/COF and experimental/computational work.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/: Initial source baseline requires verification."
+        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6746,9 +6746,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/: Initial source baseline requires verification."
+        "message": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -6831,7 +6831,7 @@
       "evidence": "The organiser research-group search index confirms 26–29 September in Newcastle and AMMA organisation.",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://uon-comp-chem.github.io/mm2027/: Official source returned no readable page content."
       },
@@ -6903,9 +6903,9 @@
       "evidence": "The WATOC association and congress sites both confirm 9–14 January in Mérida and Young WATOC on 8 January.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.watoc.net/watoc.congress.html: Initial source baseline requires verification. | https://watoc2028.org/: Official source returned no readable page content."
+        "message": "https://www.watoc.net/watoc.congress.html: Official content changed; no trusted adapter can verify all affected facts. | https://watoc2028.org/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -6989,9 +6989,9 @@
       "evidence": "The homepage confirms 28 May–2 June 2028; the registration page explicitly labels abstract/early-registration dates provisional.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.foa16.com/: Initial source baseline requires verification. | https://www.foa16.com/registrations: Initial source baseline requires verification."
+        "message": "https://www.foa16.com/: Official content changed; no trusted adapter can verify all affected facts. | https://www.foa16.com/registrations: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -7086,9 +7086,9 @@
       "evidence": "The official Forthcoming list states MOF2028 Seoul, Korea, Main Event 28–31 May.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://mof-international.org/mof-conferences/: Initial source baseline requires verification."
+        "message": "https://mof-international.org/mof-conferences/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -7159,7 +7159,7 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization: HTTP Error 403: Forbidden | https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee: HTTP Error 403: Forbidden"
       },
@@ -7243,9 +7243,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://composites.blogs.bristol.ac.uk/2026/06/19/1058/: Initial source baseline requires verification. | https://www.ukpormat.com/: Initial source baseline requires verification."
+        "message": "https://composites.blogs.bristol.ac.uk/2026/06/19/1058/: Official content changed; no trusted adapter can verify all affected facts. | https://www.ukpormat.com/: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -7311,9 +7311,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE: Initial source baseline requires verification."
+        "message": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -7379,7 +7379,7 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf: <urlopen error timed out>"
       },
@@ -7448,9 +7448,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/: Initial source baseline requires verification. | https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+        "message": "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/: Official content changed; no trusted adapter can verify all affected facts. | https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc: <urlopen error [Errno -2] Name or service not known>"
       },
       "milestones": [
         {
@@ -7518,9 +7518,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://icml.cc/Conferences/FutureMeetings: Initial source baseline requires verification."
+        "message": "https://icml.cc/Conferences/FutureMeetings: Official content changed; no trusted adapter can verify all affected facts."
       },
       "milestones": [
         {
@@ -7575,10 +7575,10 @@
       "verified_on": "2026-10-27",
       "evidence": "The EuChemS Honours page’s 2026 award announcement names CompChem2027 and Cluj-Napoca.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-27T14:43:49Z",
+        "status": "failed",
+        "last_checked_at": "2026-10-27T14:55:25Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.euchems.eu/divisions/computational-chemistry-2/honours/: Initial source baseline requires verification."
+        "message": "https://www.euchems.eu/divisions/computational-chemistry-2/honours/: The read operation timed out"
       },
       "milestones": [
         {
