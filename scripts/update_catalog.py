@@ -368,15 +368,25 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
                 for item in observation["review"]:
                     if item not in message:
                         message += "; " + item
+            elif ((changed and previous.get("hash"))
+                  or (prior_review and prior_check.get("reason") != "observation")):
+                # Parsers verify narrowly scoped facts, not all main-page copy.
+                # A matching date-only Event cannot explain a changed deadline
+                # clock time elsewhere in the same page.
+                pending, reason = True, "content_changed"
+                message = (prior_check.get("message") if prior_review and prior_check.get("reason") != "observation" else None) or (
+                    "Official content changed; recognised fields may be updated, but the remaining content requires review.")
+                for item in observation["review"]:
+                    if item not in message:
+                        message += "; " + item
             elif observation["review"]:
                 pending, message, reason = True, "; ".join(observation["review"]), "observation"
-            elif observation["verified"]:
+            elif prior_review and prior_check.get("reason") == "observation" and observation["verified"]:
+                # A parser may resolve its own earlier error on stable content.
                 pending, message, reason = False, "", None
             elif prior_review:
                 pending, message, reason = True, prior_check.get("message") or (
                     "Official content changed; no trusted adapter can verify all affected facts."), prior_check.get("reason") or "content_changed"
-            elif changed and previous.get("hash"):
-                pending, message, reason = True, "Official content changed; no trusted adapter can verify all affected facts.", "content_changed"
             else:
                 # A first baseline alone does not imply a change since research.
                 pending, message, reason = False, "", None

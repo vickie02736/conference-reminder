@@ -109,11 +109,47 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(cleared["events"][0]["check"]["status"], "checked")
         self.assertFalse(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
 
-    def test_trusted_parser_can_resolve_a_pending_content_change(self):
+    def test_date_only_jsonld_does_not_verify_a_changed_deadline_clock(self):
         row = event()
-        state = {"sources": {row["url"]: {"hash": "previous-content", "fingerprint_version": 2,
-            "checks": {row["id"]: {"review_required": True, "message": "Official content changed.", "reason": "content_changed"}}}}}
-        updated, state, _ = self.merge(row, {row["url"]: fetched(jsonld_html())}, state)
+        before = fetched(jsonld_html() + "<main>Paper deadline: December 1, 2026 at 17:00 GMT.</main>")
+        after = fetched(jsonld_html() + "<main>Paper deadline: December 1, 2026 at 12:00 GMT.</main>")
+        updated, state, _ = self.merge(row, {row["url"]: before})
+        verified_at = updated["events"][0]["check"]["last_verified_at"]
+        for day in (28, 29, 30):
+            updated, state, changes = update_catalog(updated, state, ADAPTERS,
+                {row["url"]: after}, f"2026-10-{day}T12:00:00Z")
+            actual = updated["events"][0]
+            self.assertEqual(actual["check"]["status"], "review_required")
+            self.assertEqual(actual["check"]["last_verified_at"], verified_at)
+            self.assertEqual(actual["start"], "2027-06-05")
+            self.assertEqual(changes, [])
+            self.assertTrue(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
+
+    def test_dedicated_adapter_updates_scoped_fields_without_verifying_other_changes(self):
+        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts.html")
+        html = (FIXTURES / "euromof-abstracts.html").read_text()
+        updated, state, _ = self.merge(row, {row["url"]: fetched(html)})
+        changed = fetched(html.replace("February 1, 2027", "February 2, 2027") +
+                          "<main>Conference starts at 14:00 GMT.</main>")
+        verified_at = updated["events"][0]["check"]["last_verified_at"]
+        for day in (28, 29):
+            updated, state, changes = update_catalog(updated, state, ADAPTERS,
+                {row["url"]: changed}, f"2026-10-{day}T12:00:00Z")
+            actual = updated["events"][0]
+            self.assertEqual(next(m for m in actual["milestones"] if m["kind"] == "abstract")["date"], "2027-02-02")
+            self.assertEqual(actual["check"]["status"], "review_required")
+            self.assertEqual(actual["check"]["last_verified_at"], verified_at)
+            if day == 28:
+                self.assertTrue(any(change["field"].startswith("milestones.") for change in changes))
+            else:
+                self.assertEqual(changes, [])
+
+    def test_trusted_parser_can_resolve_its_own_error_on_stable_content(self):
+        row = event()
+        page = fetched(jsonld_html())
+        state = {"sources": {row["url"]: {"hash": page["hash"], "fingerprint_version": 2,
+            "checks": {row["id"]: {"review_required": True, "message": "Parser could not resolve the date.", "reason": "observation"}}}}}
+        updated, state, _ = self.merge(row, {row["url"]: page}, state)
         self.assertEqual(updated["events"][0]["start"], "2027-06-05")
         self.assertEqual(updated["events"][0]["check"]["status"], "checked")
         self.assertFalse(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
