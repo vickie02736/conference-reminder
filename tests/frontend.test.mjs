@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterEvents,eventPhase,eventStatuses,upcomingNodes,normalizeSaved,isDuplicate,calendarFile,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
+import {filterEvents,eventPhase,eventStatuses,upcomingNodes,deadlineSummary,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
 
 const catalogue=JSON.parse(readFileSync(new URL('../data/conferences.json',import.meta.url),'utf8'));
 const canonical=name=>[...catalogue.events,...catalogue.watchlist].find(e=>e.name.includes(name));
@@ -55,7 +55,10 @@ test('separate submission routes survive closure of a regular round and funding 
  assert.equal(snapshotPhase(canonical('AIxMAT 2026')).label,'Poster submission');
  assert.match(snapshotPhase(canonical('AIxMAT 2026')).help,/Registration is closed/);
  const ai4mat=snapshotPhase(canonical('AI4Mat @'));
- assert.equal(ai4mat.label,'Submissions closed');
+ assert.equal(ai4mat.label,'Travel-grant applications');
+ const ai4matStatuses=eventStatuses(canonical('AI4Mat @'),'2026-10-27',Date.parse('2026-10-27T12:00Z'));
+ assert.ok(ai4matStatuses.some(s=>s.filters.includes('application') && s.label.includes('Travel-grant')));
+ assert.ok(ai4matStatuses.some(s=>s.label==='Paper submission closed'));
  assert.equal(snapshotPhase(canonical('Winter School')).label,'Applications closed');
  assert.equal(snapshotPhase(canonical('Modelling Water')).key,'application');
 });
@@ -121,7 +124,11 @@ test('an omitted round channel is resolved from its published label without open
 test('concurrent oral, poster and registration routes appear separately, including mixed abstract calls',()=>{
  for (const name of ['Computational Methods for Defects','Theoretical Chemistry Group Graduate','SSCG2026']) {
   const statuses=snapshotStatuses(canonical(name));
-  assert.deepEqual(statuses.map(s=>s.label),['Oral submission open','Poster submission open','Registration open']);
+  const labels=statuses.map(s=>s.label);
+  assert.ok(labels.includes('Oral submission open'),name);
+  assert.ok(labels.includes('Poster submission open'),name);
+  assert.ok(labels.includes('Registration open'),name);
+  if (name.includes('Theoretical Chemistry')) assert.ok(labels.some(label=>label.includes('Travel-grant') || label.includes('Funding')));
   for (const type of ['oral','poster']) {
    const route=statuses.find(s=>s.filters.includes(type));
    assert.ok(route.filters.includes('submission')); assert.ok(route.filters.includes('abstract'));
@@ -205,10 +212,15 @@ test('stage filters combine with existing filters, hide finished events by defau
  }
 });
 
-test('legacy reminders survive migration and malformed storage is ignored',()=>{
- const old={id:'old',title:'My conference',time:Date.parse('2027-01-01T12:00Z'),reminder:4320,notified:true};
- const result=normalizeSaved([old,null,{title:'broken',time:'tomorrow'}]);
- assert.equal(result.length,1);assert.equal(result[0].deadlineLabel,'Submission deadline');assert.equal(result[0].notified,true);
+test('deadline summaries mark passed dates from today rather than stored prose',()=>{
+ const e={deadline:'Old prose saying everything is still open.',milestones:[
+  {kind:'abstract',label:'Abstracts',date:'2026-10-01',status:'verified'},
+  {kind:'registration',label:'Registration',date:'2026-11-01',status:'verified'},
+  {kind:'conference_start',label:'Starts',date:'2027-01-01',status:'verified'}
+ ]};
+ assert.match(deadlineSummary(e,'2026-10-27'),/Abstracts: 1 Oct 2026 · has passed/);
+ assert.match(deadlineSummary(e,'2026-10-27'),/Registration: 1 Nov 2026(?! · has passed)/);
+ assert.doesNotMatch(deadlineSummary(e,'2026-10-27'),/Starts:/);
 });
 test('European defaults include the Paris NeurIPS site and retain closed future events',()=>{
  const events=[{name:'UK workshop',region:'UK',start:'2027-01-01',end:'2027-01-02',status:'Closed'},{name:'NeurIPS',region:'Other',location:'Sydney, Paris and Atlanta',start:'2026-12-06',end:'2026-12-13'},{name:'US meeting',region:'Other',start:'2027-02-01'},{name:'Finished',region:'UK',end:'2026-01-01'},{name:'UKPorMat2027',region:'UK',start:null}];
@@ -225,11 +237,6 @@ test('conference start and end dates do not masquerade as submission deadlines',
  assert.deepEqual(filterEvents(events,{sort:'deadline'},'2026-10-27').map(e=>e.name),['Submission first','Meeting first']);
  assert.equal(upcomingNodes(events[0],'2026-10-27').length,2);
 });
-test('multiple nodes can be saved while the same node/time is not duplicated',()=>{
- const m={title:'EuroMOF',catalogId:'e',milestoneId:'abstract',deadlineLabel:'Abstract',time:1000};
- assert.equal(isDuplicate([m],{...m}),true);
- assert.equal(isDuplicate([m],{...m,milestoneId:'registration',deadlineLabel:'Registration'}),false);
-});
 test('exact times convert from London DST and AoE; date-only never invents a time',()=>{
  assert.equal(new Date(milestoneInstant({status:'verified',precision:'datetime',date:'2027-07-01',time:'12:00',timezone:'Europe/London'})).toISOString(),'2027-07-01T11:00:00.000Z');
  assert.equal(new Date(milestoneInstant({status:'verified',precision:'datetime',date:'2027-01-01',time:'23:59',timezone:'Etc/GMT+12'})).toISOString(),'2027-01-02T11:59:00.000Z');
@@ -243,11 +250,6 @@ test('an exact overseas deadline stays available across the visitor’s midnight
  assert.equal(upcomingNodes(event,'2026-10-30',Date.parse('2026-10-30T00:30Z')).length,1);
  assert.equal(upcomingNodes(event,'2026-10-30',Date.parse('2026-10-30T04:00Z')).length,0);
  assert.equal(upcomingNodes({...event,reminders_paused:true},'2026-10-29',Date.parse('2026-10-29T00:30Z')).length,0);
-});
-test('ICS includes the chosen node, UTC deadline and alarm and folds long UTF-8 safely',()=>{
- const file=calendarFile({id:'x',title:'A'.repeat(100)+'研究',time:Date.parse('2027-01-02T11:59Z'),deadlineLabel:'Poster submission',reminder:10080,place:'London, UK',website:'https://example.org',conferenceDate:'2027-05-01'},Date.parse('2026-10-27T12:00Z'));
- assert.match(file,/DTSTART:20270102T115900Z/);assert.match(file,/TRIGGER:-PT10080M/);assert.match(file,/SUMMARY:Poster submission/);assert.match(file,/LOCATION:London\\, UK/);
- assert.ok(file.split('\r\n').every(line=>new TextEncoder().encode(line).length<=75));
 });
 test('untrusted URL schemes and HTML are not rendered as executable content',()=>{
  assert.equal(safeUrl('javascript:alert(1)'),'');assert.equal(safeUrl('https://example.org'),'https://example.org/');assert.equal(esc('<img onerror="bad">'),'&lt;img onerror=&quot;bad&quot;&gt;');

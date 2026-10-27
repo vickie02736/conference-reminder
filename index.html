@@ -10,8 +10,9 @@
   <meta property="og:description" content="Browse upcoming conferences, check important dates and set your own email reminders.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vickie02736.github.io/conference-reminder/">
-  <link rel="stylesheet" href="assets/styles.css?v=20261027-review-fixes">
-  <script type="module" src="assets/app.js?v=20261027-review-fixes"></script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css?v=20261027-audit-fixes">
+  <script type="module" src="assets/app.js?v=20261027-audit-fixes"></script>
 </head>
 <body>
   <header class="site-header">
@@ -38,7 +39,7 @@
         <div><label for="topic">Topic</label><select id="topic"><option value="all">All topics</option></select></div>
         <div><label for="type">Activity</label><select id="type"><option value="all">All activities</option></select></div>
         <div><label for="year">Year</label><select id="year"><option value="all">All years</option></select></div>
-        <div><label for="source-check">Source check</label><select id="source-check"><option value="all">All source checks</option><option value="review_required">Source needs review</option><option value="failed">Source check failed</option><option value="checked">Source check completed</option><option value="not_checked">Not yet checked</option></select></div>
+        <div><label for="source-check">Source check</label><select id="source-check"><option value="all">All source checks</option><option value="review_required">Source needs review</option><option value="failed">Source check failed</option><option value="unverifiable">Source not automatically checkable</option><option value="checked">Source check completed</option><option value="not_checked">Not yet checked</option></select></div>
         </div><p id="stage-hint" class="fine filter-help">Status describes dates and attendance routes; Source check describes the evidence review. Announced deadlines alone do not confirm that a platform is open.</p></details>
         <div class="filter-bottom"><label class="checkbox"><input id="show-past" type="checkbox"> Include finished events</label><button id="reset-filters" class="text-button" type="button">Reset filters</button></div>
       </div>

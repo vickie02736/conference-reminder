@@ -1,4 +1,3 @@
-export const STORAGE_KEY = 'academic-conferences-v1';
 export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function safeUrl(value) { try { const u = new URL(value); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } }
 export function dateLabel(value) { return value && /^\d{4}-\d{2}-\d{2}$/.test(value) ? new Date(`${value}T12:00:00Z`).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}) : 'Date to be announced'; }
@@ -31,7 +30,7 @@ function statusClauses(event) {
 const matchesRound = (clause,node) => !roundNumber(clause) || !!node && roundNumber(clause)===roundNumber(node.label);
 function phaseChannel(node) {
   if (submissionKinds.has(node.kind) || (node.kind === 'other' && /proposal/i.test(node.label))) return 'submission';
-  if (node.kind === 'application') return 'application';
+  if (node.kind === 'application' || node.kind === 'funding') return 'application';
   if (['registration','early_registration'].includes(node.kind)) return 'registration';
   return null;
 }
@@ -42,6 +41,7 @@ function phaseLabel(node) {
   if (node.kind === 'paper') return /full paper.*(?:required|oral presentation)/i.test(node.label) ? 'Full paper submission' : 'Paper submission';
   if (node.kind === 'abstract') return 'Abstract submission';
   if (/proposal/i.test(node.label)) return 'Symposium proposals';
+  if (node.kind === 'funding') return /travel/i.test(node.label) ? 'Travel-grant applications' : 'Funding applications';
   return node.kind === 'application' ? 'Applications' : 'Registration';
 }
 function channelText(clause, channel) {
@@ -128,7 +128,7 @@ function submissionRoutes(node) {
   if (/\bposter/i.test(node.label)) routes.push('poster');
   return routes.length ? routes : ['abstract'];
 }
-const statusRouteLabel = route => ({oral:'Oral submission',poster:'Poster submission',abstract:'Abstract submission',paper:'Paper submission',journal:'Journal-to-Conference submission',reports:'Recent Reports submission',proposal:'Symposium proposals',registration:'Registration',application:'Applications'}[route]);
+const statusRouteLabel = route => ({oral:'Oral submission',poster:'Poster submission',abstract:'Abstract submission',paper:'Paper submission',journal:'Journal-to-Conference submission',reports:'Recent Reports submission',proposal:'Symposium proposals',registration:'Registration',application:'Applications',funding:'Travel-grant applications'}[route]);
 function routeClause(clause, channel, route) {
   if (channel==='submission' && route==='reports') return /recent (?:research )?reports/.test(clause);
   if (channel==='submission' && route==='journal') return /journal.to.conference/.test(clause);
@@ -158,7 +158,7 @@ export function eventStatuses(event, today = todayISO(), now = Date.now()) {
   const groups=new Map();
   for (const node of nodes) {
     const channel=phaseChannel(node); if (!channel) continue;
-    for (const route of channel==='submission'?submissionRoutes(node):[channel]) {
+    for (const route of channel==='submission'?submissionRoutes(node):[node.kind==='funding'?'funding':channel]) {
       if (!groups.has(route)) groups.set(route,{channel,route,nodes:[]});
       groups.get(route).nodes.push(node);
     }
@@ -212,6 +212,16 @@ export function eventStatuses(event, today = todayISO(), now = Date.now()) {
   return results.length ? results : [{...primary,filters:[primary.key]}];
 }
 export function upcomingNodes(event, today = todayISO(), now = Date.now()) { if (event.reminders_paused) return []; return (event.milestones || []).filter(m => { if (m.status !== 'verified' || !m.date) return false; const instant = milestoneInstant(m); return m.precision === 'datetime' ? instant !== null && instant > now : m.date >= today; }).sort((a,b) => a.date.localeCompare(b.date)); }
+export function deadlineSummary(event, today = todayISO()) {
+  const nodes = (event.milestones || []).filter(m => !isConferenceDate(m));
+  if (!nodes.length) return event.deadline || '';
+  return nodes.map(m => {
+    const when = m.date ? dateLabel(m.date) : 'Date to be announced';
+    const passed = m.status === 'verified' && m.date && m.date < today;
+    const conflict = m.status === 'conflict' ? ' · conflicting official dates' : '';
+    return `${m.label}: ${when}${passed ? ' · has passed' : ''}${conflict}`;
+  }).join('; ');
+}
 export function hasEuropeanSite(event) { return event.region === 'UK' || event.region === 'Europe' || (/neurips/i.test(event.name) && /Paris/i.test(`${event.location} ${event.note}`)); }
 export function filterEvents(events, filters, today = todayISO(), now = Date.now()) {
   const search=(filters.search || '').toLowerCase().trim();
@@ -232,9 +242,6 @@ export function filterEvents(events, filters, today = todayISO(), now = Date.now
     return (a.start || '9999').localeCompare(b.start || '9999') || a.name.localeCompare(b.name);
   });
 }
-export function normalizeSaved(value) { return Array.isArray(value) ? value.filter(m=>m && typeof m.id==='string' && typeof m.title==='string' && Number.isFinite(m.time) && m.time > 0 && Number.isFinite(m.reminder) && m.reminder > 0).map(m=>({...m,deadlineLabel:m.deadlineLabel || 'Submission deadline'})) : []; }
-export function isDuplicate(meetings, candidate) { return meetings.some(m => m.time===candidate.time && ((candidate.catalogId && m.catalogId===candidate.catalogId && m.milestoneId===candidate.milestoneId) || (m.title===candidate.title && (m.deadlineLabel || 'Submission deadline')===candidate.deadlineLabel))); }
-export function localInput(time) { const d=new Date(time); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}T${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`; }
 export function milestoneInstant(m) {
   if (m.status!=='verified' || m.precision!=='datetime' || !m.date || !m.time || !m.timezone) return null;
   const wall=Date.parse(`${m.date}T${m.time}:00Z`); if (!Number.isFinite(wall)) return null;
@@ -245,10 +252,4 @@ export function milestoneInstant(m) {
     const matches=[...offsets].map(offset=>wall-offset).filter(instant=>format(instant)===`${m.date}T${m.time}:00`);
     return matches.length===1?matches[0]:null;
   } catch {return null;}
-}
-export const icsText = s => String(s ?? '').replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,');
-const stamp = t => new Date(t).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
-export function calendarFile(m, now = Date.now()) {
-  const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//ConferenceReminder//Academic Deadlines//EN','BEGIN:VEVENT','UID:'+icsText(m.id)+'@conference-reminder','DTSTAMP:'+stamp(now),'DTSTART:'+stamp(m.time),'DTEND:'+stamp(m.time+3600000),'SUMMARY:'+icsText((m.deadlineLabel || 'Submission deadline')+': '+m.title),'DESCRIPTION:'+icsText('Conference starts: '+(m.conferenceDate||'TBA')+'; Website: '+(safeUrl(m.website)||'Not provided')),'LOCATION:'+icsText(m.place),'BEGIN:VALARM','TRIGGER:-PT'+m.reminder+'M','ACTION:DISPLAY','DESCRIPTION:Conference deadline reminder','END:VALARM','END:VEVENT','END:VCALENDAR'];
-  return lines.map(line=>{const chunks=[];let chunk='';for(const character of line){if(new TextEncoder().encode(chunk+character).length>73){chunks.push(chunk);chunk=' '+character;}else chunk+=character;}chunks.push(chunk);return chunks.join('\r\n');}).join('\r\n')+'\r\n';
 }

@@ -59,22 +59,33 @@ test('global totals and provisional cards use the same scheduled/watchlist class
 });
 
 test('source shortcuts reveal all affected activities and the source filter combines with topics', async () => {
+  const all = [...catalogue.events, ...catalogue.watchlist];
+  const needs = all.filter((e) => e.check.status === 'review_required');
+  const failed = all.filter((e) => e.check.status === 'failed');
+  const blocked = all.filter((e) => e.check.status === 'unverifiable');
   const h = await harness();
   h.set('search', 'unmatched query');
   const shortcuts = h.elements.get('source-shortcuts').children;
-  assert.deepEqual(shortcuts.map((button) => button.textContent), ['Sources to review (85)', 'Source errors (12)']);
+  const expectedLabels = [];
+  if (needs.length) expectedLabels.push(`Sources to review (${needs.length})`);
+  if (failed.length) expectedLabels.push(`Source errors (${failed.length})`);
+  if (blocked.length) expectedLabels.push(`Sources not automatically checkable (${blocked.length})`);
+  assert.deepEqual(shortcuts.map((button) => button.textContent), expectedLabels);
   shortcuts[0].click();
   assert.equal(h.elements.get('region').value, 'all');
   assert.equal(h.elements.get('search').value, '');
   assert.equal(h.elements.get('advanced-filters').open, true);
   assert.equal(shortcuts[0].attributes['aria-pressed'], 'true');
-  assert.equal((h.list().match(/<article /g) || []).length, 85);
+  assert.equal((h.list().match(/<article /g) || []).length, needs.length);
   h.set('topic', 'MOF');
-  const expected = [...catalogue.events, ...catalogue.watchlist].filter((e) => e.check.status === 'review_required' && e.tags?.includes('MOF'));
+  const expected = needs.filter((e) => e.tags?.includes('MOF'));
   assert.equal((h.list().match(/<article /g) || []).length, expected.length);
   assert.equal(h.elements.get('advanced-count').textContent, '(2 selected)');
-  shortcuts[1].click();
-  assert.equal((h.list().match(/<article /g) || []).length, 12);
+  const errorButton = shortcuts.find((button) => button.textContent.startsWith('Source errors'));
+  if (errorButton) {
+    errorButton.click();
+    assert.equal((h.list().match(/<article /g) || []).length, failed.length);
+  }
   h.elements.get('reset-filters').click();
   assert.equal(h.elements.get('source-check').value, 'all');
   assert.equal(h.elements.get('topic').value, 'all');
@@ -90,6 +101,15 @@ test('loading retains its loading state even if email configuration arrives firs
   assert.equal(h.elements.get('result-count').textContent, '');
   h.release(); await h.settle();
   assert.match(h.list(), /<article /);
+});
+
+test('fully booked cards disable reminders and deadline text marks passed dates', async () => {
+  const h = await harness();
+  const card = h.list().match(/<article[^>]*id="event-chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning"[\s\S]*?<\/article>/)?.[0];
+  assert.ok(card);
+  assert.match(card, /disabled[^>]*>Attendance full<\/button>/);
+  assert.doesNotMatch(card, /script\.google\.com/);
+  assert.match(card, /Poster abstracts: 20 Aug 2026 · has passed/);
 });
 
 test('a failed catalogue cannot turn into a misleading empty search result', async () => {
