@@ -207,7 +207,8 @@ test('a past lead time is skipped, while a future selected lead time is schedule
 });
 
 test('auth mail quota, per-email cooldown, and reminder reserve apply', () => {
-  const h = harness(); h.subscribe(); h.app.subscribe(h.preferences());
+  const h = harness(); h.subscribe();
+  assert.throws(() => h.app.subscribe(h.preferences()), /sent no email.*saved no new reminder choices.*wait 300 more seconds/);
   assert.equal(h.state.mails.length, 1);
   h.state.now += 6 * 60 * 1000;
   h.state.quota = 10;
@@ -218,6 +219,70 @@ test('auth mail quota, per-email cooldown, and reminder reserve apply', () => {
   h.state.now += 24 * 60 * 60 * 1000;
   h.app.subscribe(h.preferences({ email: 'another@example.com' }));
   assert.equal(h.state.mails.length, 2);
+});
+
+test('cooldown rejects a second conference without changing pending choices; exact-boundary retry and other emails work', () => {
+  const h = harness();
+  h.state.catalog.events.push({ ...structuredClone(h.state.catalog.events[0]), id: 'event-two', name: 'Second conference' });
+  const firstToken = h.subscribe();
+  const original = h.records('Subscriptions')[0];
+  const originalTokens = h.records('Tokens');
+  const firstRequestAt = h.state.now;
+  h.state.now += 60 * 1000;
+  assert.throws(() => h.app.subscribe(h.preferences({ eventId: 'event-two', leadDays: [1] })),
+    /sent no email.*saved no new reminder choices.*wait 240 more seconds.*existing subscriptions are unchanged/);
+  assert.deepEqual(h.records('Subscriptions'), [original]);
+  assert.deepEqual(h.records('Tokens'), originalTokens);
+  assert.equal(h.records('Deliveries').length, 0);
+  assert.equal(h.state.mails.length, 1);
+  assert.equal(h.state.quota, 99);
+  assert.equal(h.state.properties.AUTH_WINDOW_COUNT, '1');
+  assert.equal(h.state.properties['AUTH_LAST_' + h.app.hash_('reader@example.com')], String(firstRequestAt));
+
+  h.activate({ email: 'other@example.com', eventId: 'event-two', leadDays: [7], timeZone: 'UTC' });
+  assert.equal(h.state.mails.length, 2);
+  assert.equal(h.records('Subscriptions').find((sub) => sub.email === 'other@example.com').status, 'active');
+  assert.deepEqual(h.records('Subscriptions').find((sub) => sub.id === original.id), original);
+
+  h.state.now = firstRequestAt + 5 * 60 * 1000;
+  const secondToken = h.subscribe({ eventId: 'event-two', leadDays: [1], timeZone: 'Asia/Shanghai' });
+  h.app.verifySubscription({ token: secondToken });
+  const second = h.records('Subscriptions').find((sub) => sub.email === 'reader@example.com' && sub.eventId === 'event-two');
+  assert.equal(second.status, 'active');
+  assert.deepEqual(second.leadDays, [1]);
+  assert.equal(second.timeZone, 'Asia/Shanghai');
+  assert.deepEqual(h.records('Subscriptions').find((sub) => sub.id === original.id), original);
+  h.app.verifySubscription({ token: firstToken });
+  assert.equal(h.records('Subscriptions').find((sub) => sub.id === original.id).status, 'active');
+  assert.equal(h.state.mails.length, 3);
+  assert.equal(h.state.properties.AUTH_WINDOW_COUNT, '3');
+});
+
+test('management cooldown gives identical explicit feedback for existing and nonexistent accounts', () => {
+  const h = harness(); h.subscribe();
+  const unknown = { email: 'unknown@example.com', company: '' };
+  const accepted = h.app.requestManagementLink(unknown);
+  assert.match(accepted.message, /If eligible/);
+  assert.equal(h.state.mails.length, 1);
+  assert.equal(h.state.properties.AUTH_WINDOW_COUNT, '2');
+  const rejected = (email) => {
+    let message;
+    assert.throws(() => h.app.requestManagementLink({ email, company: '' }), (error) => {
+      message = error.message;
+      return /sent no email.*saved no new reminder choices.*wait 300 more seconds/.test(message);
+    });
+    return message;
+  };
+  assert.equal(rejected('reader@example.com'), rejected('unknown@example.com'));
+  assert.equal(h.state.mails.length, 1);
+  assert.equal(h.state.properties.AUTH_WINDOW_COUNT, '2');
+  assert.equal(h.records('Subscriptions').length, 1);
+  h.state.now += 5 * 60 * 1000 - 1;
+  assert.throws(() => h.app.requestManagementLink(unknown), /wait 1 more second before/);
+  h.state.now++;
+  assert.match(h.app.requestManagementLink(unknown).message, /If eligible/);
+  assert.equal(h.state.properties.AUTH_WINDOW_COUNT, '3');
+  assert.equal(h.state.mails.length, 1);
 });
 
 test('canonical titles are escaped and arbitrary user content cannot enter an email', () => {

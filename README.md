@@ -4,6 +4,12 @@
 
 An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The initial research snapshot, verified on 27 October 2026, includes **95 scheduled activities and six announcements awaiting dates**. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
 
+## Sharing with the research group
+
+Share [the public website](https://vickie02736.github.io/conference-reminder/) directly. Each visitor chooses their own conferences, dates, lead times and email address; no Google sign-in is required. They must confirm their email before reminders become active. Private management links show only that email address’s subscriptions. Saving dates on a device is separate from the email service and does not change anyone else’s choices.
+
+**Send reminder** is the primary action on each conference card and is also linked from its tracking window. Email reminders continue with the page closed; local browser notifications require it to remain open. A blocked confirmation request explicitly says no email was sent and asks the visitor to retry, so it cannot be mistaken for a saved subscription.
+
 ## Explore and keep dates
 
 - Filter by region, topic, activity, year and keyword. UK & Europe is the default, including the NeurIPS Paris attendance option.

@@ -135,7 +135,7 @@ function subscribe(input) {
   return withLock_(function () {
     const subscriptions = readRecords_('Subscriptions');
     let sub = subscriptions.find(function (row) { return row.email === email && row.eventId === event.id; });
-    if (!reserveAuthEmail_(email, now)) return authMessage_();
+    reserveAuthEmail_(email, now);
     if (sub && sub.status === 'active') {
       sendManagementMail_(email, now);
       return authMessage_();
@@ -169,7 +169,7 @@ function requestManagementLink(input) {
   const email = normalizeEmail_(input && input.email);
   return withLock_(function () {
     const now = Date.now();
-    if (!reserveAuthEmail_(email, now)) return authMessage_();
+    reserveAuthEmail_(email, now);
     const exists = readRecords_('Subscriptions').some(function (sub) { return sub.email === email; });
     if (exists) sendManagementMail_(email, now);
     return authMessage_();
@@ -670,7 +670,12 @@ function reserveAuthEmail_(email, now) {
   });
   const lastKey = 'AUTH_LAST_' + hash_(email);
   const last = Number(props.getProperty(lastKey) || 0);
-  if (last && now - last < CR_.authCooldownMs) return false;
+  if (last && now - last < CR_.authCooldownMs) {
+    const seconds = Math.ceil((CR_.authCooldownMs - (now - last)) / 1000);
+    throw new Error('This request sent no email and saved no new reminder choices. Please wait ' +
+      seconds + ' more second' + (seconds === 1 ? '' : 's') +
+      ' before submitting again. Your existing subscriptions are unchanged.');
+  }
   let start = Number(props.getProperty('AUTH_WINDOW_START') || 0);
   let count = Number(props.getProperty('AUTH_WINDOW_COUNT') || 0);
   if (!start || now - start >= CR_.dayMs) { start = now; count = 0; }
