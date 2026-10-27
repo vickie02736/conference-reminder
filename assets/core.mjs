@@ -312,9 +312,21 @@ export function deadlineSummary(event, today = todayISO()) {
   }).join('; ');
 }
 export function hasEuropeanSite(event) { return event.region === 'UK' || event.region === 'Europe' || (/neurips/i.test(event.name) && /Paris/i.test(`${event.location} ${event.note}`)); }
+const deadlineChannels=new Map([['registration_deadline','registration'],['submission_deadline','submission']]);
+const compareDeadlineDates=(a,b)=>a.date.localeCompare(b.date) || (a.instant===null?(b.instant===null?0:1):b.instant===null?-1:a.instant-b.instant);
+export function nextDeadline(event, sort = 'deadline', today = todayISO(), now = Date.now()) {
+  const channel=deadlineChannels.get(sort);
+  if (channel && event.disabled) return null;
+  const nodes=upcomingNodes(event,today,now);
+  if (!channel) return nodes.find(node=>!isConferenceDate(node)) || null;
+  const candidates=nodes.filter(node=>phaseChannel(node)===channel).map(node=>({node,date:node.date,instant:node.precision==='datetime'?milestoneInstant(node):null}));
+  return candidates.sort(compareDeadlineDates)[0]?.node || null;
+}
 export function filterEvents(events, filters, today = todayISO(), now = Date.now()) {
   const search=(filters.search || '').toLowerCase().trim();
-  return events.filter(e => {
+  const deadlineChannel=deadlineChannels.get(filters.sort);
+  const deadlineCache=new Map();
+  const filtered=events.filter(e => {
     if (!filters.showPast && e.end && e.end < today) return false;
     if (filters.region === 'Europe-group' && !hasEuropeanSite(e)) return false;
     if (filters.region && !['all','Europe-group'].includes(filters.region) && e.region !== filters.region) return false;
@@ -324,10 +336,19 @@ export function filterEvents(events, filters, today = todayISO(), now = Date.now
     if (filters.stage && filters.stage !== 'all' && !eventStatuses(e,today,now).some(status=>status.filters.includes(filters.stage))) return false;
     if (search && ![e.name,e.location,e.note,...(e.tags||[])].join(' ').toLowerCase().includes(search)) return false;
     return true;
-  }).sort((a,b) => {
+  });
+  if (deadlineChannel) for (const event of filtered) {
+    const node=nextDeadline(event,filters.sort,today,now);
+    deadlineCache.set(event,node?{date:node.date,instant:node.precision==='datetime'?milestoneInstant(node):null}:null);
+  }
+  return filtered.sort((a,b) => {
     if (filters.sort === 'name') return a.name.localeCompare(b.name);
     if (filters.sort === 'priority') return (a.priority || 99) - (b.priority || 99) || (a.start || '9999').localeCompare(b.start || '9999');
     if (filters.sort === 'deadline') return (upcomingNodes(a,today,now).find(m=>!isConferenceDate(m))?.date || '9999').localeCompare(upcomingNodes(b,today,now).find(m=>!isConferenceDate(m))?.date || '9999') || (a.start || '9999').localeCompare(b.start || '9999');
+    if (deadlineChannel) {
+      const first=deadlineCache.get(a), second=deadlineCache.get(b);
+      return (first && second ? compareDeadlineDates(first,second) : first?-1:second?1:0) || (a.start || '9999').localeCompare(b.start || '9999');
+    }
     return (a.start || '9999').localeCompare(b.start || '9999') || a.name.localeCompare(b.name);
   });
 }

@@ -31,6 +31,7 @@ async function harness({ delayed = false, failed = false } = {}) {
     ...core, URL, Date, console,
     todayISO: () => today,
     upcomingNodes: (event) => core.upcomingNodes(event, today, now),
+    nextDeadline: (event, sort) => core.nextDeadline(event, sort, today, now),
     eventStatuses: (event) => core.eventStatuses(event, today, now),
     filterEvents: (events, filters) => core.filterEvents(events, filters, today, now),
     timelineEntries: (events, stage) => core.timelineEntries(events, stage, today, now),
@@ -148,4 +149,15 @@ test('unchanged renders preserve timeline scrolling while new results reset it',
   assert.equal(h.elements.get('timeline-scroll').scrollTop, 120);
   h.set('region', 'UK');
   assert.equal(h.elements.get('timeline-scroll').scrollTop, 0);
+});
+
+test('deadline sort choices show their matching deadline on the conference card', async () => {
+  const h = await harness();
+  h.set('search', 'SSCG2026');
+  h.set('sort', 'registration_deadline');
+  const preview = () => h.list().match(/<p class="deadline-preview">[\s\S]*?<\/p>/)?.[0];
+  assert.match(preview(), /<b>Registration<\/b><br>25 Nov 2026/);
+  h.set('sort', 'submission_deadline');
+  assert.match(preview(), /<b>Oral and poster abstracts<\/b><br>30 Oct 2026/);
+  assert.equal((h.list().match(/<article /g) || []).length, 1);
 });

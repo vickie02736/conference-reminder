@@ -1,4 +1,4 @@
-import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,isConferenceDate,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary,timelineEntries} from './core.mjs?v=20261027-timeline';
+import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,nextDeadline,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary,timelineEntries} from './core.mjs?v=20261027-deadline-sorts';
 
 const $=id=>document.getElementById(id);
 let catalogue={events:[],watchlist:[],metadata:{},updates:[]};
@@ -18,7 +18,7 @@ function nodeText(m){if(m.status==='conflict')return 'Conflicting dates — chec
 function isWatchlist(e){return watchlistIds.has(e.id)||!e.start||(e.milestones||[]).some(m=>m.kind==='conference_start'&&m.date===e.start&&m.status!=='verified');}
 function card(e){
   const upcoming=upcomingNodes(e);
-  const next=upcoming.find(m=>!isConferenceDate(m));
+  const next=nextDeadline(e,$('sort').value);
   const watch=isWatchlist(e);
   const phases=eventStatuses(e);
   const check=e.check||{};

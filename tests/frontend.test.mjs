@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterEvents,eventPhase,eventStatuses,upcomingNodes,deadlineSummary,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
+import {filterEvents,eventPhase,eventStatuses,upcomingNodes,deadlineSummary,nextDeadline,milestoneInstant,safeUrl,esc} from '../assets/core.mjs';
 
 const catalogue=JSON.parse(readFileSync(new URL('../data/conferences.json',import.meta.url),'utf8'));
 const canonical=name=>[...catalogue.events,...catalogue.watchlist].find(e=>e.name.includes(name));
@@ -247,6 +247,57 @@ test('conference start and end dates do not masquerade as submission deadlines',
  const events=[{name:'Meeting first',start:'2027-01-01',milestones:[{date:'2027-01-01',status:'verified',kind:'conference_start'},{date:'2027-01-03',status:'verified',kind:'conference_end'}]},{name:'Submission first',start:'2027-06-01',milestones:[{date:'2027-02-01',status:'verified',kind:'abstract'}]}];
  assert.deepEqual(filterEvents(events,{sort:'deadline'},'2026-10-27').map(e=>e.name),['Submission first','Meeting first']);
  assert.equal(upcomingNodes(events[0],'2026-10-27').length,2);
+});
+test('registration and submission deadline sorts use their own published routes',()=>{
+ const events=['AI4X 2027','SSCG2026','EuroMOF 2027','Recent Advances in Chemistry and AI'].map(canonical);
+ const original=structuredClone(events), at=Date.parse('2026-10-27T12:00Z');
+ assert.deepEqual(filterEvents(events,{sort:'registration_deadline'},'2026-10-27',at).map(e=>e.id),[events[1].id,events[2].id,events[0].id,events[3].id]);
+ assert.deepEqual(filterEvents(events,{sort:'submission_deadline'},'2026-10-27',at).map(e=>e.id),[events[1].id,events[0].id,events[2].id,events[3].id]);
+ assert.equal(nextDeadline(events[0],'registration_deadline','2026-10-27',at).kind,'early_registration');
+ assert.equal(nextDeadline(events[0],'submission_deadline','2026-10-27',at).kind,'paper');
+ assert.equal(nextDeadline(events[3],'registration_deadline','2026-10-27',at),null);
+ const filtered=filterEvents(events,{sort:'registration_deadline',region:'UK',topic:'Porous Materials',stage:'registration'},'2026-10-27',at);
+ assert.deepEqual(filtered.map(e=>e.id),[events[1].id]);
+ assert.deepEqual(events,original);
+});
+test('channel deadline sorts put missing, past, conflicting and paused dates last',()=>{
+ const meeting=(name,start,milestones,extra={})=>({name,start,milestones,...extra});
+ const proposal=meeting('Proposal','2027-06-01',[phaseNode('other','2026-11-01','Symposium proposals')]);
+ const abstract=meeting('Abstract','2027-01-01',[phaseNode('abstract','2026-11-02','Oral abstracts')]);
+ const excluded=meeting('Excluded dates','2027-02-01',[
+  phaseNode('conference_start','2026-10-28'),phaseNode('conference_end','2026-10-29'),
+  phaseNode('funding','2026-10-28'),phaseNode('application','2026-10-29'),
+  phaseNode('poster','2026-10-26'),phaseNode('paper','2026-10-28','Paper deadline','conflict'),
+  phaseNode('abstract','2026-10-29','Provisional abstracts','unknown')
+ ]);
+ const paused=meeting('Paused','2027-03-01',[phaseNode('paper','2026-10-28')],{reminders_paused:true});
+ assert.deepEqual(filterEvents([excluded,abstract,paused,proposal],{sort:'submission_deadline'},'2026-10-27').map(e=>e.name),['Proposal','Abstract','Excluded dates','Paused']);
+ const regular=meeting('Regular registration','2027-06-01',[phaseNode('registration','2026-11-01')]);
+ const early=meeting('Early registration','2027-01-01',[phaseNode('early_registration','2026-11-02'),phaseNode('registration','2026-12-01')]);
+ const disabled=meeting('Disabled','2027-02-01',[phaseNode('registration','2026-10-28')],{disabled:true});
+ assert.deepEqual(filterEvents([early,disabled,regular],{sort:'registration_deadline'},'2026-10-27').map(e=>e.name),['Regular registration','Early registration','Disabled']);
+ assert.equal(nextDeadline(excluded,'submission_deadline','2026-10-27'),null);
+ assert.equal(nextDeadline(proposal,'deadline','2026-10-27').kind,'other');
+});
+test('channel deadline sorts respect overseas expiry and order exact times within a date',()=>{
+ for (const [sort,kind] of [['registration_deadline','registration'],['submission_deadline','paper']]) {
+  const exact=(name,date,time,timezone,start='2027-06-01')=>({name,start,milestones:[{...phaseNode(kind,date),precision:'datetime',time,timezone}]});
+  const overseas=exact('New York cutoff','2026-10-29','23:59','America/New_York','2027-01-01');
+  const later=exact('Later cutoff','2026-11-01','12:00','UTC');
+  const before=Date.parse('2026-10-30T00:30Z'), after=Date.parse('2026-10-30T04:00Z');
+  assert.deepEqual(filterEvents([later,overseas],{sort},'2026-10-30',before).map(e=>e.name),['New York cutoff','Later cutoff']);
+  assert.deepEqual(filterEvents([overseas,later],{sort},'2026-10-30',after).map(e=>e.name),['Later cutoff','New York cutoff']);
+  assert.equal(nextDeadline(overseas,sort,'2026-10-30',after),null);
+  const tokyo=exact('Tokyo noon','2026-11-01','12:00','Asia/Tokyo');
+  const london=exact('London morning','2026-11-01','10:00','Europe/London','2027-01-01');
+  assert.deepEqual(filterEvents([london,tokyo],{sort},'2026-10-27',Date.parse('2026-10-27T12:00Z')).map(e=>e.name),['Tokyo noon','London morning']);
+  const dateOnly={name:'Date only',start:'2026-12-01',milestones:[phaseNode(kind,'2026-11-01')]};
+  const at=Date.parse('2026-10-27T12:00Z');
+  for (const entries of [[london,dateOnly,tokyo],[dateOnly,tokyo,london],[tokyo,london,dateOnly]]) {
+   assert.deepEqual(filterEvents(entries,{sort},'2026-10-27',at).map(e=>e.name),['Tokyo noon','London morning','Date only']);
+  }
+  assert.equal(nextDeadline({milestones:[dateOnly.milestones[0],london.milestones[0],tokyo.milestones[0]]},sort,'2026-10-27',at),tokyo.milestones[0]);
+ }
 });
 test('exact times convert from London DST and AoE; date-only never invents a time',()=>{
  assert.equal(new Date(milestoneInstant({status:'verified',precision:'datetime',date:'2027-07-01',time:'12:00',timezone:'Europe/London'})).toISOString(),'2027-07-01T11:00:00.000Z');
