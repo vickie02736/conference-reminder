@@ -97,14 +97,14 @@ function renderHealth(){
   $('update-list').innerHTML=updates.length?updates.slice(0,15).map(u=>`<div class="update-entry"><b>${esc(u.event_name||u.event_id||u.eventId||u.name||'Official-source update')}</b> · ${esc(shortTime(u.checked_at||u.timestamp||u.at||u.time))}<br>${esc(u.message||u.summary||u.field||u.type||'Source data changed')}${u.previous!==undefined||u.value!==undefined?`<br>${esc(typeof u.previous==='object'?JSON.stringify(u.previous):u.previous)} → ${esc(typeof u.value==='object'?JSON.stringify(u.value):u.value)}`:''}${u.source?` · ${anchor(u.source,'Source ↗')}`:''}</div>`).join(''):'<p class="fine">No automated changes recorded yet. The catalogue keeps the initial source-verified research snapshot.</p>';
 }
 function renderDiscovery(){
-  const candidates=Array.isArray(discovery.candidates)?discovery.candidates:[];
+  const candidates=(Array.isArray(discovery.candidates)?discovery.candidates:[]).filter(candidate=>!['accepted','dismissed'].includes(candidate.status)).sort((a,b)=>Number(b.user_decision==='keep')-Number(a.user_decision==='keep'));
   const metadata=discovery.metadata||{};
-  const count=Number.isFinite(Number(metadata.candidate_count))?Number(metadata.candidate_count):candidates.length;
+  const count=candidates.length;
   $('discovery-count').textContent=count?`(${count} awaiting review)`:'';
   const last=metadata.last_run_at?` Last search: ${shortTime(metadata.last_run_at)}.`:' No web search has completed yet.';
   const errors=metadata.error_count?` ${metadata.error_count} search queries failed; previous candidates were retained.`:'';
   $('discovery-detail').textContent=`These are search-engine leads, not verified catalogue entries or reminder options.${last}${errors}`;
-  $('discovery-list').innerHTML=candidates.length?candidates.slice(0,30).map(candidate=>`<div class="update-entry"><b>${esc(candidate.name||'Untitled conference candidate')}</b>${candidate.domain?` · ${esc(candidate.domain)}`:''}<br>${esc(candidate.description||'No search snippet was returned.')}${candidate.topics?.length?`<br><span class="fine">Topics: ${esc(candidate.topics.join(' · '))}</span>`:''}${candidate.url?`<br>${anchor(candidate.url,'Open search result ↗')}`:''}<br><span class="fine">Needs manual verification before it can enter the catalogue.</span></div>`).join(''):'<p class="fine">No candidates have been retained yet. Add the search API secret and wait for the daily workflow.</p>';
+  $('discovery-list').innerHTML=candidates.length?candidates.slice(0,30).map(candidate=>`<div class="update-entry"><b>${esc(candidate.name||'Untitled conference candidate')}</b>${candidate.domain?` · ${esc(candidate.domain)}`:''}<br>${esc(candidate.description||'No search snippet was returned.')}${candidate.topics?.length?`<br><span class="fine">Topics: ${esc(candidate.topics.join(' · '))}</span>`:''}${candidate.url?`<br>${anchor(candidate.url,'Open search result ↗')}`:''}<br><span class="fine">${candidate.user_decision==='keep'?'Retained for follow-up. ':''}Needs manual verification before it can enter the catalogue.</span></div>`).join(''):'<p class="fine">No candidates are awaiting review. New search leads will appear after a daily search.</p>';
 }
 for(const id of ['search','region','topic','type','year','sort','show-past','source-check'])$(id).addEventListener(id==='search'?'input':'change',renderCatalogue);
 $('stage').onchange=()=>{if($('stage').value==='finished')$('show-past').checked=true;renderCatalogue();};
