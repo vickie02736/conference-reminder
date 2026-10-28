@@ -4,10 +4,10 @@
     "schema_version": 1,
     "verified_on": "2026-10-27",
     "scope": "Future AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration are retained.",
-    "count": 100,
+    "count": 101,
     "watchlist_count": 6,
     "regions": {
-      "UK": 24,
+      "UK": 25,
       "Europe": 45,
       "Other": 37
     },
@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-10-28T06:53:20Z",
-    "last_updated_at": "2026-10-27T21:25:00Z",
+    "last_updated_at": "2026-10-28T12:00:00Z",
     "people_reviewed_on": "2026-10-28"
   },
   "events": [
@@ -15642,6 +15642,112 @@
         "note": "Published organising team, programme committee and invited speaker; accepted paper authors are still to be announced.",
         "sources": [
           "https://wmt2026workshop.github.io/"
+        ]
+      }
+    },
+    {
+      "id": "ukomain-omaib-round-3-sandpit-2027",
+      "name": "UKOMAIN — OMAIB Round 3 Sandpit 2027",
+      "tags": [
+        "AI",
+        "ML",
+        "AI for Science"
+      ],
+      "start": "2027-01-21",
+      "end": "2027-01-22",
+      "date": "2027-01-21 — 2027-01-22",
+      "location": "Sheffield, UK — in person; venue to be announced",
+      "region": "UK",
+      "type": "Workshop / Discussion",
+      "deadline": "Sandpit researcher applications open: 20 November 2026; application deadline: 11 December 2026 at 16:00 UK local time. The separate challenge-owner proposal deadline is 6 November 2026 at 16:00 UK local time.",
+      "status": "Sandpit applications open on 20 November 2026 and close on 11 December 2026 at 16:00 UK time. Selection is required; UK-based applicants must attend both days in person.",
+      "note": "A collaborative workshop organised by the UK Open Multimodal AI Network (UKOMAIN) to co-design Open Multimodal AI Benchmark (OMAIB) projects and form research teams. UK-based researchers, research engineers, domain/evaluation specialists and suitably experienced students may apply. Attendance on both days is required; remote participation is unavailable. UKOMAIN covers approved UK travel, accommodation and subsistence for selected participants. The separate challenge-owner proposal route closes on 6 November 2026 at 16:00 UK time; it is not the researcher sandpit application deadline. The network spans engineering domains including materials discovery; specific selected challenges will be announced on 20 November. The 6 October 2026 briefing recording is available on the official page.",
+      "sources": [
+        "https://multimodalai.github.io/omaib-r3/",
+        "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
+        "https://multimodalai.github.io/"
+      ],
+      "url": "https://multimodalai.github.io/omaib-r3/",
+      "priority": 3,
+      "verified_on": "2026-10-28",
+      "evidence": "The official Round 3 call confirms the Sheffield sandpit on 21–22 January 2027, application opening on 20 November 2026 and cutoff on 11 December 2026 at 16:00. The linked full call labels its timeline “Date/time (UK local time)”.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-10-28T12:00:00Z",
+        "message": "Dates and application route manually verified against the official Round 3 page and full call; awaiting the first automated source check."
+      },
+      "milestones": [
+        {
+          "id": "ukomain-omaib-round-3-sandpit-2027:conference-start",
+          "kind": "conference_start",
+          "label": "Sandpit starts",
+          "date": "2027-01-21",
+          "time": "11:00",
+          "timezone": "Europe/London",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
+          "evidence": "The official full-call timeline, labelled UK local time, gives 21 January 2027 at 11:00."
+        },
+        {
+          "id": "ukomain-omaib-round-3-sandpit-2027:conference-end",
+          "kind": "conference_end",
+          "label": "Sandpit ends",
+          "date": "2027-01-22",
+          "time": "16:00",
+          "timezone": "Europe/London",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
+          "evidence": "The official full-call timeline, labelled UK local time, gives 22 January 2027 at 16:00."
+        },
+        {
+          "id": "ukomain-omaib-round-3-sandpit-2027:applications-open",
+          "kind": "other",
+          "label": "Sandpit applications open",
+          "date": "2026-11-20",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://multimodalai.github.io/omaib-r3/",
+          "evidence": "The official call states that selected challenges are announced and sandpit applications open on 20 November 2026; no opening clock time is specified."
+        },
+        {
+          "id": "ukomain-omaib-round-3-sandpit-2027:application",
+          "kind": "application",
+          "label": "Researcher sandpit application deadline",
+          "date": "2026-12-11",
+          "time": "16:00",
+          "timezone": "Europe/London",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
+          "evidence": "The official full-call timeline, labelled UK local time, gives the sandpit application cutoff as 11 December 2026 at 16:00; the challenge-owner proposal route has a separate deadline."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "UK Open Multimodal AI Network (UKOMAIN)",
+            "role": "Sandpit organiser",
+            "source": "https://multimodalai.github.io/omaib-r3/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-10-28",
+        "status": "published",
+        "note": "The call identifies UKOMAIN as organiser. A sandpit-specific committee, speaker programme and public participant list were not found in the reviewed sources; the network leadership roster is not treated as confirmed sandpit attendance.",
+        "sources": [
+          "https://multimodalai.github.io/omaib-r3/",
+          "https://multimodalai.github.io/"
         ]
       }
     }
