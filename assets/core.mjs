@@ -22,6 +22,30 @@ export function eventTopics(event) {
   if (!topics.length || [...tags].some(tag=>!groupedTags.has(tag) && !nonTopicTags.has(tag))) topics.push('Other topics');
   return topics;
 }
+export const peopleGroups = [
+  {key:'organizers', label:'Organisers & hosts'},
+  {key:'committee', label:'Committee & chairs'},
+  {key:'speakers', label:'Invited speakers & panellists'},
+  {key:'participants', label:'Other announced participants'}
+];
+export function peopleSearchText(event) {
+  return peopleGroups.flatMap(({key,label}) => {
+    const entries=event.people?.[key] || [];
+    return entries.length ? [label, key==='organizers'?'organizers hosts':'', ...entries.flatMap(person=>[person.name,person.role,person.affiliation])] : [];
+  }).filter(Boolean).join(' ');
+}
+// Names are often published with accents or punctuation. Accept unaccented
+// spelling and match each word across the conference and its people fields.
+export function searchWords(value) {
+  return String(value || '').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase()
+    .replace(/['’‘ʼ]/g,'')
+    .replace(/[øłæœđðß]/g, character=>({'ø':'o','ł':'l','æ':'ae','œ':'oe','đ':'d','ð':'d','ß':'ss'}[character]))
+    .match(/[\p{L}\p{N}]+/gu) || [];
+}
+export function matchesSearch(text, query) {
+  const words=searchWords(query), haystack=searchWords(text).join(' ');
+  return words.every(word=>haystack.includes(word));
+}
 const submissionKinds = new Set(['abstract','paper','poster']);
 const phaseClauses = text => String(text || '').toLowerCase().split(/[.;]|\bbut\b/).map(s=>s.trim()).filter(Boolean);
 const closure = /\b(?:closed|ended|passed|no longer (?:open|available)|not\s+(?:(?:currently|presently)\s+)?open)\b/;
@@ -342,7 +366,7 @@ export function nextDeadline(event, sort = 'deadline', today = todayISO(), now =
   return candidates.sort(compareDeadlineDates)[0]?.node || null;
 }
 export function filterEvents(events, filters, today = todayISO(), now = Date.now()) {
-  const search=(filters.search || '').toLowerCase().trim();
+  const search=(filters.search || '').trim();
   const deadlineChannel=deadlineChannels.get(filters.sort);
   const deadlineCache=new Map();
   const filtered=events.filter(e => {
@@ -353,7 +377,7 @@ export function filterEvents(events, filters, today = todayISO(), now = Date.now
     if (filters.type && filters.type !== 'all' && e.type !== filters.type) return false;
     if (filters.year && filters.year !== 'all' && !(e.start || e.name || '').includes(filters.year)) return false;
     if (filters.stage && filters.stage !== 'all' && !eventStatuses(e,today,now).some(status=>status.filters.includes(filters.stage))) return false;
-    if (search && ![e.name,e.location,e.note,...eventTopics(e),...(e.tags||[])].join(' ').toLowerCase().includes(search)) return false;
+    if (search && !matchesSearch([e.name,e.location,e.note,...eventTopics(e),...(e.tags||[]),peopleSearchText(e)].join(' '),search)) return false;
     return true;
   });
   if (deadlineChannel) for (const event of filtered) {

@@ -272,8 +272,9 @@ def jsonld_observation(documents, event, source):
     return result
 
 
-def fetch_sources(urls, workers=6, timeout=20):
+def fetch_sources(urls, workers=6, timeout=20, people_urls=None):
     host_locks = {urlparse(url).netloc: threading.Semaphore(2) for url in urls}
+    people_urls = set(people_urls or ())
 
     def fetch(url):
         with host_locks[urlparse(url).netloc]:
@@ -286,12 +287,18 @@ def fetch_sources(urls, workers=6, timeout=20):
                     content_type = response.headers.get_content_type()
                     if content_type in {"text/html", "application/xhtml+xml"}:
                         html = raw.decode(response.headers.get_content_charset() or "utf-8", errors="replace")
-                        text, documents = parse_html(html)
+                        parser = MainContentParser()
+                        parser.feed(html)
+                        text, documents = parser.result()
                         if not text.strip():
                             raise ValueError("Official source returned no readable page content.")
                         if len(text) < 1500 and re.search(r"(?:access denied|verify you are human|checking your browser|just a moment\.\.\.)", text, re.I):
                             raise ValueError("Official source returned an access challenge, not conference content.")
-                        return {"ok": True, "hash": fingerprint(text), "text": text, "jsonld": documents,
+                        # Some sites put the people roster outside their main
+                        # landmark. Monitor that readable body too, while the
+                        # trusted date adapters keep their original text scope.
+                        monitored = "\n".join(parser.all_text) if url in people_urls else text
+                        return {"ok": True, "hash": fingerprint(monitored), "text": text, "jsonld": documents,
                                 "content_type": content_type, "http_status": response.status}
                     return {"ok": True, "hash": hashlib.sha256(raw).hexdigest(), "text": "", "jsonld": [],
                             "content_type": content_type, "http_status": response.status}
@@ -550,7 +557,10 @@ def main():
         if errors:
             raise ValueError("\n".join(errors))
         urls = sorted({url for event in catalog["events"] + catalog["watchlist"] for url in event["sources"] + [event["url"]]})
-        fetched = fetch_sources(urls, workers=max(1, min(args.workers, 12)), timeout=max(1, min(args.timeout, 60)))
+        people_urls = {url for event in catalog["events"] + catalog["watchlist"]
+                       for url in event.get("people", {}).get("sources", [])}
+        fetched = fetch_sources(urls, workers=max(1, min(args.workers, 12)), timeout=max(1, min(args.timeout, 60)),
+                                people_urls=people_urls)
         now = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
         updated, next_state, updates = update_catalog(catalog, state, adapter_config, fetched, now)
         errors = validate_catalog(updated)

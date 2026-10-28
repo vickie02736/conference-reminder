@@ -74,3 +74,16 @@
   .stat:nth-child(3){padding-left:0}
   .advanced-grid{grid-template-columns:1fr}
 }
+.search-hint{margin:10px 0 0}
+.people-preview{font-size:12px;line-height:1.7;margin:8px 0;color:#5f6e60;overflow-wrap:anywhere}
+.people-details{border-top:1px solid #edf0e9;border-bottom:1px solid #edf0e9;padding:10px 0}
+.people-group h4{font-size:12px;color:#314f40;margin:14px 0 5px}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{padding:6px 0;overflow-wrap:anywhere}
+.people-list b,.people-list span{display:block}
+.people-list b{color:#314f40}
+.people-list a{font-size:11px}
+.people-sources{font-size:11px}
+.people-matches{font-size:12px;line-height:1.7;background:#edf3e7;border-radius:8px;padding:10px 12px;margin:6px 0;overflow-wrap:anywhere}
+.people-matches p{margin:5px 0}
+.people-matches span{color:var(--muted)}

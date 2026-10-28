@@ -2,7 +2,7 @@
 
 [Visit the website](https://vickie02736.github.io/conference-reminder/)
 
-An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The initial research snapshot, verified on 27 October 2026, includes **96 scheduled activities and six announcements awaiting dates**. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
+An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The research snapshot includes **100 scheduled activities and six announcements awaiting dates**. Conference dates were initially researched on 27 October 2026; organiser and people sources were reviewed on 28 October 2026. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
 
 ## Sharing with the research group
 
@@ -13,6 +13,8 @@ Share [the public website](https://vickie02736.github.io/conference-reminder/) d
 ## Explore and set reminders
 
 - Search and filter by region, status and sorting in the main bar. **Registration deadline** and **Submission deadline** sort by the next verified future cutoff for that route, with unavailable dates last. **More filters** contains topic, activity, year and source-check status; its count shows active choices. UK & Europe is the default, including the NeurIPS Paris attendance option.
+- **Search conferences & people** also searches organisers, hosts, committee members, chairs, invited speakers, announced participants, affiliations and roles. Search words can span different fields, and unaccented names match accented spellings. Choose **Worldwide** to search every region. Matching people details open automatically when all search words occur in the people information.
+- **Organisers, committee & speakers** on each card lists published names, roles, institutions, source links and the people-source review date. Large committees and programmes may have selected entries, as stated in the note. Missing current-edition lists remain explicit; earlier editions are not substituted, and a role announcement is not a private attendance list.
 - **Topic** groups related keywords into seven categories: AI & Machine Learning; AI for Materials & Chemistry; MOFs, COFs & Porous Materials; Adsorption & Separations; Simulation & Theory; Materials & Characterisation; and Automation & Digital Chemistry. Cards show these same groups. Detailed research keywords remain searchable and appear under **Dates, research fit & sources**; schools and courses belong to **Activity**.
 - The scrollable **Timeline** uses exactly the visible conference results. It shows conference dates by default, or the selected registration, submission, application or opening dates. Dates awaiting confirmation stay explicit. Select an entry to jump to its highlighted card, then use **Back to timeline** to return.
 - **Sources to review**, **Source errors** and **Sources not automatically checkable** show all affected activities worldwide. Use the separate Source check filter to combine evidence status with other filters. Source review is distinct from unconfirmed conference dates or attendance availability. Bot challenges, JavaScript-only pages and timeouts are marked unverifiable rather than failed.
@@ -35,6 +37,8 @@ The website distinguishes the last attempted source check from initial research/
 GitHub Actions schedules can be delayed, and public-repository schedules can be disabled after 60 days without repository activity. The site marks checks older than 48 hours as overdue. See [GitHub’s schedule documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
 
 To verify an unadapted source manually, review its current official content and all affected fields, update the corresponding facts and evidence in `data/conferences.json`, and clear that event’s `review_required` flag/message under the URL in `data/source-checks.json`. Record the actual verification date. Clear `reminders_paused` only after resolving any cancellation/rescheduling notice. Adding an adapter with representative tests enables future automatic parsing.
+
+People are stored on each event in `people`, with `organizers`, `committee`, `speakers` and `participants` arrays. Each entry requires a name, published role and source; affiliation is optional. `people.sources` records the pages reviewed, and `checked_on` records that separate review date. People source URLs also enter the event’s monitored `sources`; the daily checker flags page changes for review and preserves the curated names. People pages use the readable body for monitoring so rosters outside a page’s main landmark are included; date parsing retains its original scope. The first check of an existing source under this wider fingerprint can require a one-time review. The checker does not automatically extract or verify people lists.
 
 ## Daily web discovery
 

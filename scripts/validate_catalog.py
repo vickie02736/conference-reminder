@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 KINDS = {"abstract", "paper", "poster", "application", "early_registration",
          "registration", "funding", "conference_start", "conference_end", "other"}
 CHECK_STATUSES = {"not_checked", "checked", "review_required", "failed", "unverifiable"}
+PEOPLE_GROUPS = ("organizers", "committee", "speakers", "participants")
 
 
 def valid_url(value):
@@ -21,6 +22,47 @@ def valid_url(value):
         return parsed.scheme in {"http", "https"} and bool(parsed.netloc) and not parsed.username
     except (TypeError, ValueError):
         return False
+
+
+def validate_people(people, prefix):
+    errors = []
+    if not isinstance(people, dict):
+        return [f"{prefix}: people must be an object."]
+    sources = people.get("sources")
+    if not isinstance(sources, list) or not sources or any(not valid_url(source) for source in sources):
+        errors.append(f"{prefix}: people.sources must list the reviewed HTTP(S) pages.")
+    try:
+        date.fromisoformat(people.get("checked_on"))
+    except (TypeError, ValueError):
+        errors.append(f"{prefix}: people.checked_on must be an ISO date.")
+    if people.get("status") not in {"published", "unavailable"}:
+        errors.append(f"{prefix}: invalid people status.")
+    if not isinstance(people.get("note"), str):
+        errors.append(f"{prefix}: people.note must be a string.")
+    count = 0
+    for group in PEOPLE_GROUPS:
+        entries = people.get(group)
+        if not isinstance(entries, list):
+            errors.append(f"{prefix}: people.{group} must be an array.")
+            continue
+        count += len(entries)
+        for index, entry in enumerate(entries):
+            label = f"{prefix}/people.{group}[{index}]"
+            if not isinstance(entry, dict):
+                errors.append(f"{label}: must be an object.")
+                continue
+            for field in ("name", "role"):
+                if not isinstance(entry.get(field), str) or not entry[field].strip():
+                    errors.append(f"{label}: {field} is required.")
+            if "affiliation" in entry and not isinstance(entry["affiliation"], str):
+                errors.append(f"{label}: affiliation must be a string.")
+            if not valid_url(entry.get("source")):
+                errors.append(f"{label}: a valid HTTP(S) source is required.")
+    if people.get("status") == "published" and not count:
+        errors.append(f"{prefix}: published people require at least one sourced entry.")
+    if people.get("status") == "unavailable" and count:
+        errors.append(f"{prefix}: unavailable people must not contain published entries.")
+    return errors
 
 
 def validate_catalog(catalog):
@@ -50,6 +92,8 @@ def validate_catalog(catalog):
             all_ids.add(event_id)
             if not event.get("name"):
                 errors.append(f"{prefix}: name is required.")
+            if "people" in event:
+                errors.extend(validate_people(event["people"], prefix))
             if "reminders_paused" in event and not isinstance(event["reminders_paused"], bool):
                 errors.append(f"{prefix}: reminders_paused must be a boolean.")
             if event.get("reminders_paused") is True and (not isinstance(event.get("reminders_pause_reason"), str) or not event["reminders_pause_reason"].strip()):

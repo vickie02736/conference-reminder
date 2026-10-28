@@ -20,12 +20,12 @@ class Element {
   click() { this.dispatch('click'); }
 }
 
-async function harness({ delayed = false, failed = false } = {}) {
+async function harness({ delayed = false, failed = false, data = catalogue } = {}) {
   const elements = new Map([...html.matchAll(/\bid="([^"]+)"/g)].map((match) => [match[1], new Element()]));
   for (const match of html.matchAll(/<select id="([^"]+)"[^>]*>\s*<option value="([^"]+)"/g)) elements.get(match[1]).value = match[2];
   elements.get('catalogue-list').innerHTML = 'Loading the conference collection…';
   let release;
-  const response = { ok: !failed, json: async () => structuredClone(catalogue) };
+  const response = { ok: !failed, json: async () => structuredClone(data) };
   const catalogueResponse = delayed ? new Promise((resolve) => { release = () => resolve(response); }) : Promise.resolve(response);
   const context = vm.createContext({
     ...core, URL, Date, console,
@@ -58,6 +58,33 @@ test('global totals and provisional cards use the same scheduled/watchlist class
     assert.doesNotMatch(card, /script\.google\.com/);
     if (event.start) assert.match(card, /Provisional:/);
   }
+});
+
+test('people searches show sourced roles, open matching details and keep timeline results aligned', async () => {
+  const data=structuredClone(catalogue), event=data.events[0];
+  event.people={organizers:[{name:'Sample Science Society',role:'Organiser',source:'https://example.org/2026'}],committee:[{name:'Zoë García',role:'Programme chair',affiliation:'University of Zürich',source:'https://example.org/2026/committee'}],speakers:[],participants:[],checked_on:'2026-10-28',status:'published',note:'Selected published chairs.',sources:['https://example.org/2026/committee']};
+  const h=await harness({data});
+  h.set('search','zoe zurich');
+  assert.equal((h.list().match(/<article /g)||[]).length,1);
+  assert.match(h.list(),/class="card-details people-details" open/);
+  assert.match(h.list(),/Zoë García/);
+  assert.match(h.list(),/class="people-matches"/);
+  assert.match(h.list(),/Programme chair · University of Zürich/);
+  assert.match(h.list(),/href="https:\/\/example.org\/2026\/committee"/);
+  assert.match(h.list(),/No names found in the reviewed sources/);
+  assert.match(h.elements.get('timeline-list').innerHTML,new RegExp('href="#event-'+event.id+'"'));
+  h.set('region','Other');
+  assert.match(h.list(),/No conferences match/);
+});
+
+test('people details escape supplied text and reject executable source links', async () => {
+  const data=structuredClone(catalogue);
+  data.events[0].people={organizers:[],committee:[],speakers:[{name:'<img src=x onerror=alert(1)>',role:'<script>alert(2)</script>',affiliation:'Example & Co',source:'javascript:alert(3)'}],participants:[],checked_on:'2026-10-28',status:'published',note:'<script>alert(4)</script>',sources:['javascript:alert(5)']};
+  const h=await harness({data});
+  h.set('search','onerror');
+  assert.match(h.list(),/&lt;img src=x onerror=alert\(1\)&gt;/);
+  assert.match(h.list(),/Example &amp; Co/);
+  assert.doesNotMatch(h.list(),/<img|<script|javascript:/);
 });
 
 test('source shortcuts reveal all affected activities and the source filter combines with topics', async () => {
