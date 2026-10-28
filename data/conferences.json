@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-10-28T06:53:20Z",
-    "last_updated_at": "2026-10-28T12:00:00Z",
+    "last_updated_at": "2026-10-28T12:19:19Z",
     "people_reviewed_on": "2026-10-28"
   },
   "events": [
@@ -1101,21 +1101,21 @@
       "type": "Workshop / Discussion",
       "deadline": "Registration link published by the organiser. Registration cutoff, fees and submission opportunities have not been verified.",
       "status": "Registration link available via PR[AI]RIE; current ticket availability is not confirmed. Detailed programme forthcoming.",
-      "note": "A 1.5-day workshop organised by PR[AI]RIE and Chimie ParisTech–PSL on machine learning for molecular discovery, materials design and computational chemistry. Keynote speakers: Kim Jelfs, Pascal Friederich, Alexandre Tkatchenko, Simon Olsson, Ola Engkvist and Max Welling. Scientific committee includes François-Xavier Coudert. Starts at 14:00 Paris local time on 14 December. End time on 15 December conflicts: the school lists 17:00, while Weezevent lists 20:00; confirm the final programme before booking travel.",
+      "note": "A 1.5-day workshop organised by PR[AI]RIE and Chimie ParisTech–PSL on machine learning for molecular discovery, materials design and computational chemistry. Keynote speakers: Kim Jelfs, Pascal Friederich, Alexandre Tkatchenko, Simon Olsson, Ola Engkvist and Max Welling. Scientific committee includes François-Xavier Coudert. Starts at 14:00 Paris local time on 14 December. End time on 15 December conflicts: the school lists 17:00, while PR[AI]RIE and Weezevent list 20:00; confirm the final programme before booking travel.",
       "sources": [
-        "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
         "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
+        "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
         "https://my.weezevent.com/recent-advances-in-chemistry-and-ai"
       ],
-      "url": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+      "url": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
       "priority": 1,
-      "verified_on": "2026-10-27",
-      "evidence": "The school, organiser and organiser-linked registration page agree on 14–15 December 2026 and Chimie ParisTech–PSL in Paris. Weezevent structured data confirms the start at 13:00 UTC (14:00 Europe/Paris). Only the end date is used for the end reminder because the published end times disagree.",
+      "verified_on": "2026-10-28",
+      "evidence": "Manually reviewed the organiser, school and organiser-linked registration pages on 2026-10-28. All confirm 14–15 December 2026 at Chimie ParisTech–PSL in Paris. Weezevent structured data confirms the start at 13:00 UTC (14:00 Europe/Paris). The organiser and Weezevent list 20:00 on 15 December, while the school lists 17:00; only the confirmed end date is used for the end reminder. No registration cutoff or current ticket availability was confirmed.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-28T06:53:20Z",
-        "last_verified_at": "2026-10-27T16:40:42Z",
-        "message": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://my.weezevent.com/recent-advances-in-chemistry-and-ai: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "status": "checked",
+        "last_checked_at": "2026-10-28T12:19:19Z",
+        "last_verified_at": "2026-10-28T12:19:19Z",
+        "message": null
       },
       "milestones": [
         {
@@ -1142,51 +1142,57 @@
           "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
           "precision": "date",
           "status": "verified",
-          "evidence": "Both official pages confirm 15 December 2026. End time is unresolved: school 17:00 versus registration page 20:00. This reminder uses the confirmed date only."
+          "evidence": "All three official pages confirm 15 December 2026. End time is unresolved: school 17:00 versus organiser and registration page 20:00. This reminder uses the confirmed date only."
         }
       ],
       "people": {
         "organizers": [
           {
-            "name": "PR[AI]RIE",
+            "name": "PR[AI]RIE (PRAIRIE)",
             "role": "Co-organiser",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/"
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/"
           },
           {
             "name": "Chimie ParisTech – PSL",
             "role": "Co-organiser",
             "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/"
+          },
+          {
+            "name": "Helene ROBAK",
+            "role": "Event contact",
+            "affiliation": "PR[AI]RIE (PRAIRIE)",
+            "source": "https://my.weezevent.com/recent-advances-in-chemistry-and-ai"
           }
         ],
         "committee": [
           {
             "name": "François-Xavier Coudert",
             "role": "Scientific committee member",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "Chimie ParisTech – PSL (PR[AI]RIE)"
           },
           {
             "name": "Amandine Guerinot",
             "role": "Scientific committee member",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "ESPCI – PSL"
           },
           {
             "name": "Damien Laage",
             "role": "Scientific committee member",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "ENS – PSL"
           },
           {
             "name": "Guillaume Stirnemann",
             "role": "Scientific committee member",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "ENS – PSL"
           },
           {
             "name": "Thijs Stuyver",
             "role": "Scientific committee member",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "Chimie ParisTech – PSL (PR[AI]RIE)"
           }
         ],
@@ -1194,46 +1200,48 @@
           {
             "name": "Kim Jelfs",
             "role": "Featured keynote speaker",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "Imperial College London"
           },
           {
             "name": "Pascal Friederich",
             "role": "Featured keynote speaker",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "Karlsruhe Institute of Technology"
           },
           {
             "name": "Alexandre Tkatchenko",
             "role": "Featured keynote speaker",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "University of Luxembourg"
           },
           {
             "name": "Simon Olsson",
             "role": "Featured keynote speaker",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "Chalmers University"
           },
           {
             "name": "Ola Engkvist",
             "role": "Featured keynote speaker",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "AstraZeneca"
           },
           {
             "name": "Max Welling",
             "role": "Featured keynote speaker",
-            "source": "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+            "source": "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
             "affiliation": "CuspAI and University of Amsterdam"
           }
         ],
         "participants": [],
         "checked_on": "2026-10-28",
         "status": "published",
-        "note": "Scientific committee and featured keynotes explicitly announced for 14–15 December 2026.",
+        "note": "The organiser announces the scientific committee and featured keynotes for 14–15 December 2026. The school confirms both co-organisers; the registration page identifies Helene ROBAK as the PR[AI]RIE event contact.",
         "sources": [
-          "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/"
+          "https://www.prairie-psai.fr/agenda/recent-advances-in-chemistry-and-ai/",
+          "https://www.chimieparistech.psl.eu/evenement-agenda/workshop-psl-ia-chimie/",
+          "https://my.weezevent.com/recent-advances-in-chemistry-and-ai"
         ]
       }
     },
