@@ -89,15 +89,26 @@
       "replacement_source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a"
     },
     "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。",
+      "message": "原活动页连接重置；发现并下载同站 WordPress 官方事件 API，正文和事件元数据可读。 全天事件的 00:00/23:59:59 是系统占位时间，未写入精确提醒。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
-        "outcome": "manual",
-        "final_source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
-        "reason": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。"
-      }
+        "at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "final_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
+        "reason": "原活动页连接重置；发现并下载同站 WordPress 官方事件 API，正文和事件元数据可读。 全天事件的 00:00/23:59:59 是系统占位时间，未写入精确提醒。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "verified": "2027-04-14 至 2027-04-15，Imperial College London；注册和海报征集尚未公布截止日期。",
+        "remaining": "全天事件的 00:00/23:59:59 是系统占位时间，未写入精确提醒。",
+        "automatic_fetch": "monitor_verified",
+        "final_sources": [
+          "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
+        ]
+      },
+      "replacement_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
     },
     "https://aistats.org/aistats2027/dates.html": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -134,26 +145,48 @@
       "fingerprint_version": 2
     },
     "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。",
+      "message": "原页、RSS、集合 API 和 slug API 连接重置；浏览器页头提供事件 ID，curl HTTP/1.1 下载该 ID 的官方 API 成功。 结束时间冲突仍保留，里程碑维持日期精度；现有 urllib 监测再次连接重置，不能称日常抓取已稳定。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
-        "outcome": "manual",
-        "final_source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
-        "reason": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。"
-      }
+        "at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "final_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
+        "reason": "原页、RSS、集合 API 和 slug API 连接重置；浏览器页头提供事件 ID，curl HTTP/1.1 下载该 ID 的官方 API 成功。 结束时间冲突仍保留，里程碑维持日期精度；现有 urllib 监测再次连接重置，不能称日常抓取已稳定。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "verified": "2027-01-22，Imperial College London；正文与 API 元数据写 10:00–16:00，详细议程却写 16:30 Close。",
+        "remaining": "结束时间冲突仍保留，里程碑维持日期精度；现有 urllib 监测再次连接重置，不能称日常抓取已稳定。",
+        "automatic_fetch": "curl_verified_monitor_reset",
+        "final_sources": [
+          "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
+        ]
+      },
+      "replacement_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
     },
     "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。",
+      "message": "原页及多个替代入口连接重置；浏览器页头提供事件 ID，curl HTTP/1.1 下载官方 API 成功。 现有 urllib 监测仍连接重置；全天事件元数据不作精确时刻使用。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
-        "outcome": "manual",
-        "final_source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
-        "reason": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。"
-      }
+        "at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "final_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
+        "reason": "原页及多个替代入口连接重置；浏览器页头提供事件 ID，curl HTTP/1.1 下载官方 API 成功。 现有 urllib 监测仍连接重置；全天事件元数据不作精确时刻使用。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "verified": "2026-11-23 至 2026-11-27，Liverpool；申请已关闭，申请截止 2026-08-24；7 位讲者和具名组织委员会可读。",
+        "remaining": "现有 urllib 监测仍连接重置；全天事件元数据不作精确时刻使用。",
+        "automatic_fetch": "curl_verified_monitor_reset",
+        "final_sources": [
+          "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+        ]
+      },
+      "replacement_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
     },
     "https://aixmat.candela.org.pl/": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -643,15 +676,28 @@
       "fingerprint_version": 2
     },
     "https://event.fourwaves.com/interpore2027/submission": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "投稿页仅返回JavaScript外壳；已抓到官方主页和日期/节目页，但不能代替投稿平台状态，日期冲突仍需人工核实。",
+      "message": "原页仅有 Nuxt 外壳；从公开脚本定位无需登录的官方 API，并用真实浏览器读取动态投稿页。抓取问题已绕过，但内容冲突仍在。 没有官方更正说明可确定哪个日期优先；不能把时差推测当作解决。保留两候选日期，不启用单一截止提醒。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "outcome": "manual",
-        "final_source": "https://event.fourwaves.com/interpore2027/submission",
-        "reason": "投稿页仅返回JavaScript外壳；已抓到官方主页和日期/节目页，但不能代替投稿平台状态，日期冲突仍需人工核实。"
-      }
+        "final_source": "https://api.fourwaves.com/api/events/interpore2027",
+        "reason": "原页仅有 Nuxt 外壳；从公开脚本定位无需登录的官方 API，并用真实浏览器读取动态投稿页。抓取问题已绕过，但内容冲突仍在。 没有官方更正说明可确定哪个日期优先；不能把时差推测当作解决。保留两候选日期，不启用单一截止提醒。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "manual",
+        "verified": "动态页显示 2027-01-12；API submissionEndDate=2027-01-12T07:00:00Z，event.timeZone=America/Buenos_Aires，换算后仍为 1 月 12 日；Important Dates 页写 1 月 11 日。",
+        "remaining": "没有官方更正说明可确定哪个日期优先；不能把时差推测当作解决。保留两候选日期，不启用单一截止提醒。",
+        "automatic_fetch": "monitor_verified_conflict_pending",
+        "final_sources": [
+          "https://api.fourwaves.com/api/events/interpore2027",
+          "https://event.fourwaves.com/interpore2027/submission",
+          "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a"
+        ]
+      },
+      "replacement_source": "https://api.fourwaves.com/api/events/interpore2027"
     },
     "https://fomms.cache.org/2027/important-dates": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -1140,15 +1186,27 @@
       "fingerprint_version": 2
     },
     "https://uon-comp-chem.github.io/mm2027/": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "HTTP 200但仅返回React入口；搜索可读官方会议内容，自动监测需要渲染支持。",
+      "message": "HTTP 200 的 React 页面没有正文；从 GitHub Pages 对应官方仓库定位 App.jsx，并与当前部署的 JS bundle 核对。 摘要、注册、节目仍为 Details Coming Soon，不填造日期；源文件由哈希监测，尚不支持自动抽取事实。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
-        "outcome": "manual",
-        "final_source": "https://uon-comp-chem.github.io/mm2027/",
-        "reason": "HTTP 200但仅返回React入口；搜索可读官方会议内容，自动监测需要渲染支持。"
-      }
+        "at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "final_source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
+        "reason": "HTTP 200 的 React 页面没有正文；从 GitHub Pages 对应官方仓库定位 App.jsx，并与当前部署的 JS bundle 核对。 摘要、注册、节目仍为 Details Coming Soon，不填造日期；源文件由哈希监测，尚不支持自动抽取事实。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "verified": "2027-09-26 至 2027-09-29，Newcastle, Australia；Alister Page 主席等6位委员会成员。",
+        "remaining": "摘要、注册、节目仍为 Details Coming Soon，不填造日期；源文件由哈希监测，尚不支持自动抽取事实。",
+        "automatic_fetch": "monitor_verified",
+        "final_sources": [
+          "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
+          "https://github.com/UON-comp-chem/mm2027/blob/main/src/App.jsx"
+        ]
+      },
+      "replacement_source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx"
     },
     "https://rscfirst.org.cn/": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -1226,25 +1284,45 @@
       "fingerprint_version": 2
     },
     "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。",
+      "message": "原址持续 403；检索组织方 IZA 入口及网页缓存，Wayback CDX 对该 URL 的 2026 年记录为空。网页检索工具可读取官方正文。 未找到能直接下载且覆盖原页组织信息的官方镜像、PDF 或 RSS；现有自动抓取仍 403。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "outcome": "manual",
         "final_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
-        "reason": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "reason": "原址持续 403；检索组织方 IZA 入口及网页缓存，Wayback CDX 对该 URL 的 2026 年记录为空。网页检索工具可读取官方正文。 未找到能直接下载且覆盖原页组织信息的官方镜像、PDF 或 RSS；现有自动抓取仍 403。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "manual",
+        "verified": "IZA 与 AIChE 合作组织；2028-07-23 至 2028-07-28，Philadelphia。",
+        "remaining": "未找到能直接下载且覆盖原页组织信息的官方镜像、PDF 或 RSS；现有自动抓取仍 403。",
+        "automatic_fetch": "blocked_403_content_verified",
+        "final_sources": [
+          "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization"
+        ]
       }
     },
     "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。",
+      "message": "原址持续 403；检索官方委员会页面和缓存，Wayback CDX 对该 URL 的 2026 年记录为空。网页工具可读官方委员名单。 未找到覆盖完整委员会名单的可下载官方镜像/PDF/RSS；现有自动抓取仍 403。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "outcome": "manual",
         "final_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
-        "reason": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "reason": "原址持续 403；检索官方委员会页面和缓存，Wayback CDX 对该 URL 的 2026 年记录为空。网页工具可读官方委员名单。 未找到覆盖完整委员会名单的可下载官方镜像/PDF/RSS；现有自动抓取仍 403。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "manual",
+        "verified": "执行规划委员会含 Jeffrey Rimer、Dongxia Liu、Tina Nenoff、Rajamani Gounder、Michele Sarazen；与已有组织信息核对。",
+        "remaining": "未找到覆盖完整委员会名单的可下载官方镜像/PDF/RSS；现有自动抓取仍 403。",
+        "automatic_fetch": "blocked_403_content_verified",
+        "final_sources": [
+          "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee"
+        ]
       }
     },
     "https://www.bcs-sgai.org/ai2026/": {
@@ -2404,14 +2482,25 @@
       "fingerprint_version": 2
     },
     "https://www.siam.org/conferences-events/siam-conferences/ms27/": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。",
+      "message": "原址 403；主页和投稿页通过网页工具核对；Wayback 找到 2026-01-09 快照，但重放返回 429，且旧快照不能证明当前截止。 未恢复自动抓取；延期公告没有独立确认新的精确钟点，不将旧截止的 23:59 沿用到新日期。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "outcome": "manual",
         "final_source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
-        "reason": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "reason": "原址 403；主页和投稿页通过网页工具核对；Wayback 找到 2026-01-09 快照，但重放返回 429，且旧快照不能证明当前截止。 未恢复自动抓取；延期公告没有独立确认新的精确钟点，不将旧截止的 23:59 沿用到新日期。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "manual",
+        "verified": "会议 2027-05-02 至 2027-05-05，Bellevue；顶部明确的延期公告将 minisymposium proposal 截止延至 2026-11-02，优先于下方旧 10 月 5 日文案。",
+        "remaining": "未恢复自动抓取；延期公告没有独立确认新的精确钟点，不将旧截止的 23:59 沿用到新日期。",
+        "automatic_fetch": "blocked_403_content_verified",
+        "final_sources": [
+          "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+          "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/"
+        ]
       }
     },
     "https://www.spmateriais.pt/eventos/materiais-2027": {
@@ -2483,37 +2572,71 @@
       "fingerprint_version": 2
     },
     "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。",
+      "message": "原站及 archive.tms.org 相同页面均 403；官方首页与 Technical Topics 通过网页工具交叉核对；Wayback CDX 未返回该页 2026 年快照。 未发现覆盖该会议日期及组织委员会的可直接抓取官方镜像、PDF 或 RSS；自动抓取仍 403。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "outcome": "manual",
         "final_source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
-        "reason": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "reason": "原站及 archive.tms.org 相同页面均 403；官方首页与 Technical Topics 通过网页工具交叉核对；Wayback CDX 未返回该页 2026 年快照。 未发现覆盖该会议日期及组织委员会的可直接抓取官方镜像、PDF 或 RSS；自动抓取仍 403。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "manual",
+        "verified": "2027-06-13 至 2027-06-17，Chicago；摘要 2026-12-01，优惠注册 2027-04-30；主席 Aaron Stebner、编程主席 Sean Donegan。",
+        "remaining": "未发现覆盖该会议日期及组织委员会的可直接抓取官方镜像、PDF 或 RSS；自动抓取仍 403。",
+        "automatic_fetch": "blocked_403_content_verified",
+        "final_sources": [
+          "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+          "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx"
+        ]
       }
     },
     "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。",
+      "message": "原站及 archive 域同页 403；网页工具可读官方 FAQ，官方专题 CFA PDF 可下载，但只覆盖一个专题，不能充作整个 FAQ。Wayback CDX 无 2026 年快照。 已定位并读取 TMS 官方 LinkedIn 的延期公告，补全此前缺失的原始来源。 完整 FAQ 仍无可直接抓取替代，原站和 archive 域均 403。7 月 15 日延期已补上官方公告链接并核实为历史日期；未公布的精确钟点仍不填写。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "outcome": "manual",
         "final_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
-        "reason": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "reason": "原站及 archive 域同页 403；网页工具可读官方 FAQ，官方专题 CFA PDF 可下载，但只覆盖一个专题，不能充作整个 FAQ。Wayback CDX 无 2026 年快照。 已定位并读取 TMS 官方 LinkedIn 的延期公告，补全此前缺失的原始来源。 完整 FAQ 仍无可直接抓取替代，原站和 archive 域均 403。7 月 15 日延期已补上官方公告链接并核实为历史日期；未公布的精确钟点仍不填写。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "manual",
+        "verified": "FAQ 的 2026-07-01 为原始常规摘要截止；TMS 官方 LinkedIn 明确宣布延期至 2026-07-15，故 FAQ 的原日期未同步。当前技术节目的两个后续专题截止不代表常规投稿重开。",
+        "remaining": "完整 FAQ 仍无可直接抓取替代，原站和 archive 域均 403。7 月 15 日延期已补上官方公告链接并核实为历史日期；未公布的精确钟点仍不填写。",
+        "automatic_fetch": "blocked_403_content_verified",
+        "final_sources": [
+          "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx"
+        ]
       }
     },
     "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。",
+      "message": "原站及 archive 域同页 403；跟随官网 ProgramMaster 链接，完整专题目录及两个仍收稿专题的独立页面均可直接抓取。 ProgramMaster 是专题清单，不能当作尚未发布的逐场最终会议日程。原网站入口 403 仍保留审计。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
-        "outcome": "manual",
-        "final_source": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
-        "reason": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
-      }
+        "at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "final_source": "https://www.programmaster.org/TMS2027",
+        "reason": "原站及 archive 域同页 403；跟随官网 ProgramMaster 链接，完整专题目录及两个仍收稿专题的独立页面均可直接抓取。 ProgramMaster 是专题清单，不能当作尚未发布的逐场最终会议日程。原网站入口 403 仍保留审计。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "verified": "专题目录与会议日期 2027-03-14 至 2027-03-18；Bladesmithing 截止 2026-10-31，Student Poster Contest 截止 2027-01-22。",
+        "remaining": "ProgramMaster 是专题清单，不能当作尚未发布的逐场最终会议日程。原网站入口 403 仍保留审计。",
+        "automatic_fetch": "monitor_verified",
+        "final_sources": [
+          "https://www.programmaster.org/TMS2027",
+          "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5"
+        ]
+      },
+      "replacement_source": "https://www.programmaster.org/TMS2027"
     },
     "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -2584,15 +2707,26 @@
       "fingerprint_version": 2
     },
     "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib、curl与网页打开均超时；搜索可读官方页面，但其日期表存在既有矛盾，需要人工核实。",
+      "message": "原课程页 HTTPS/HTTP/打印入口均超时；Wayback 虽有快照索引，重放 429；找到同一大学的官方报名页面并成功直接抓取。 旧表的 Tuesday 17th/Wednesday 18th/Thursday 19th 与 2026 年星期相符，结合报名页判为旧表未同步（推断）；不把旧日程钟点迁到 2027 年。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
-        "outcome": "manual",
-        "final_source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
-        "reason": "urllib、curl与网页打开均超时；搜索可读官方页面，但其日期表存在既有矛盾，需要人工核实。"
-      }
+        "at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "final_source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027",
+        "reason": "原课程页 HTTPS/HTTP/打印入口均超时；Wayback 虽有快照索引，重放 429；找到同一大学的官方报名页面并成功直接抓取。 旧表的 Tuesday 17th/Wednesday 18th/Thursday 19th 与 2026 年星期相符，结合报名页判为旧表未同步（推断）；不把旧日程钟点迁到 2027 年。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "verified": "报名页确认 2027-02-16 至 2027-02-18，与课程正文一致；主办者 Stefano Brandani、Enzo Mangano 匹配；最后报名日 2027-02-12。",
+        "remaining": "旧表的 Tuesday 17th/Wednesday 18th/Thursday 19th 与 2026 年星期相符，结合报名页判为旧表未同步（推断）；不把旧日程钟点迁到 2027 年。",
+        "automatic_fetch": "monitor_verified",
+        "final_sources": [
+          "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027"
+        ]
+      },
+      "replacement_source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027"
     },
     "https://www.ukairs.ac.uk/i/SubmissionThemes": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -3650,15 +3784,29 @@
       "replacement_source": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en"
     },
     "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx": {
-      "last_checked_at": "2026-10-29T12:14:51Z",
+      "last_checked_at": "2026-10-29T12:26:53Z",
       "status": "failed",
-      "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。",
+      "message": "原站及 archive 域页面 403；沿官方页面列出的 archive.tms.org 下载链接，演示模板和三张宣传图全部 HTTP 200。 下载文件恢复不代表 Organizer Tools HTML 已解除 403；这些素材不能用于证明日期或讲者。",
       "recovery": {
-        "at": "2026-10-29T12:14:51Z",
-        "outcome": "manual",
-        "final_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
-        "reason": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
-      }
+        "at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "final_source": "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+        "reason": "原站及 archive 域页面 403；沿官方页面列出的 archive.tms.org 下载链接，演示模板和三张宣传图全部 HTTP 200。 下载文件恢复不代表 Organizer Tools HTML 已解除 403；这些素材不能用于证明日期或讲者。"
+      },
+      "manual_review": {
+        "checked_at": "2026-10-29T12:26:53Z",
+        "outcome": "alternative",
+        "verified": "PPTX 模板 328079 字节（ZIP/PK 内容），三张 PNG 分别 619847、620892、1097336 字节；现有监测器复抓均成功。",
+        "remaining": "下载文件恢复不代表 Organizer Tools HTML 已解除 403；这些素材不能用于证明日期或讲者。",
+        "automatic_fetch": "monitor_verified",
+        "final_sources": [
+          "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+          "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png",
+          "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
+          "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png"
+        ]
+      },
+      "replacement_source": "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx"
     },
     "https://www.ukairs.ac.uk/i/ConferenceCommittees": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -3989,6 +4137,125 @@
       "hash": "10ee947985db69657802cd41ca0d91dfb265ad39fd707ca1eb53e174fc111286",
       "content_type": "application/pdf",
       "fingerprint_version": 2,
+      "message": null
+    },
+    "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "45bfe6f9c96a0b9398fec789fc38aab0dec79aee4c05770bfda8c1eff9ecca51",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "application/json",
+      "message": null
+    },
+    "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "failed",
+      "message": "[Errno 54] Connection reset by peer",
+      "curl_recovery": {
+        "verified_on": "2026-10-29",
+        "http_status": 200,
+        "note": "curl 下载成功；现有 urllib 日常监测仍连接重置。"
+      }
+    },
+    "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "failed",
+      "message": "[Errno 54] Connection reset by peer",
+      "curl_recovery": {
+        "verified_on": "2026-10-29",
+        "http_status": 200,
+        "note": "curl 下载成功；现有 urllib 日常监测仍连接重置。"
+      }
+    },
+    "https://api.fourwaves.com/api/events/interpore2027": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "82b1635703bb44354f38617418756ce894216ffb19627933babad80e48305783",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "application/json",
+      "message": null
+    },
+    "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "50da0ad6a2a84d12085e0e9759f40d2bcb0243a7fc13573b1f42849d2639c5ea",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "text/plain",
+      "message": null
+    },
+    "https://www.programmaster.org/TMS2027": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "6c3eeb47fc3386722cec8931697f7f5dbe551c02c6bf4b5aa281bafbe8f215d4",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "text/html",
+      "message": null
+    },
+    "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "47879968b33860487f2c2f9698eeccdcf17e48a96d73d4466e7b62d4b7a8000c",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "text/html",
+      "message": null
+    },
+    "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "bc1a7868b386ba2c5409c95fd33eef712d766b77d5103aadb26a2a9497a0d4e3",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "text/html",
+      "message": null
+    },
+    "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "163441cade749f0700b236faa310edef0a2a9fc97e84686dc3958853293fae36",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "text/html",
+      "message": null
+    },
+    "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "2b9c0295754d6741ca15bd32f0a963c90b18113ba556aa42a300d70429435e5d",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "message": null
+    },
+    "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "4b739d208d3d4a6ad7582272c177de3e486491b9e23e8b83be7f1507b227caee",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "image/png",
+      "message": null
+    },
+    "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "330d7279f64fca03f0fed7494353ea609b0d812b9dbbf38858468992285aa695",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "image/png",
+      "message": null
+    },
+    "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png": {
+      "last_checked_at": "2026-10-29T12:26:53Z",
+      "status": "checked",
+      "hash": "79bf090ea5b7ef1294378b111b7ac52142b66f24182eec3065942609427ac492",
+      "last_success_at": "2026-10-29T12:26:53Z",
+      "fingerprint_version": 2,
+      "content_type": "image/png",
       "message": null
     }
   },

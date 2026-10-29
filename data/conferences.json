@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-10-29T07:08:30Z",
-    "last_updated_at": "2026-10-29T11:34:41Z",
+    "last_updated_at": "2026-10-29T12:26:53Z",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -234,17 +234,18 @@
       "status": "Applications closed; the school has not yet taken place.",
       "note": "Five-day training in Bayesian optimisation, robotic chemistry, digital twins, multimodal machine learning and agentic discovery. Strong Python skills are required.",
       "sources": [
-        "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/"
+        "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+        "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
       ],
       "url": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
       "priority": 2,
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。"
+        "message": "2026-11-23 至 2026-11-27，Liverpool；申请已关闭，申请截止 2026-08-24；7 位讲者和具名组织委员会可读。 现有 urllib 监测仍连接重置；全天事件元数据不作精确时刻使用。"
       },
       "milestones": [
         {
@@ -255,7 +256,7 @@
           "timezone": null,
           "id": "aichemy-winter-school-robotics-and-ai-for-materials-chemistry-2026:conference-start",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
@@ -268,7 +269,7 @@
           "timezone": null,
           "id": "aichemy-winter-school-robotics-and-ai-for-materials-chemistry-2026:conference-end",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
           "precision": "date",
           "status": "verified",
           "evidence": "End date from the source-verified official event date range; exact end time is not published."
@@ -281,7 +282,7 @@
           "timezone": null,
           "id": "aichemy-winter-school-robotics-and-ai-for-materials-chemistry-2026:application",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
@@ -292,72 +293,136 @@
           {
             "name": "University of Liverpool",
             "role": "Host institution",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/"
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
           }
         ],
-        "committee": [],
+        "committee": [
+          {
+            "name": "Ben Alston",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          },
+          {
+            "name": "Caroline Woods",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          },
+          {
+            "name": "Gabriella Pizzuto",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          },
+          {
+            "name": "Xenofon Evangelopoulos",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          },
+          {
+            "name": "Alessandro Troisi",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          },
+          {
+            "name": "Minh Cao",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          },
+          {
+            "name": "Mengjia Zhu",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          },
+          {
+            "name": "Xin Yang",
+            "role": "Organising committee",
+            "affiliation": "University of Liverpool",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          }
+        ],
         "speakers": [
           {
             "name": "Jihong Zhu",
             "role": "School speaker",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
             "affiliation": "University of York"
           },
           {
             "name": "Lauren Ye Seol",
             "role": "School speaker",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
             "affiliation": "University College London"
           },
           {
             "name": "Andi Zhang",
             "role": "School speaker",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
             "affiliation": "University of Warwick"
           },
           {
             "name": "Chenghao Liu",
             "role": "School speaker",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
             "affiliation": "California Institute of Technology"
           },
           {
             "name": "Alexandra Gessner",
             "role": "School speaker",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
             "affiliation": "AstraZeneca"
           },
           {
             "name": "Satheeshkumar Veeramani",
             "role": "School speaker",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
             "affiliation": "University of Liverpool"
           },
           {
             "name": "Simos Gerasimou",
             "role": "School speaker",
-            "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
             "affiliation": "University of York"
           }
         ],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "status": "published",
-        "note": "The 2026 school page lists these speakers; no named organising committee or public attendee roster was verified.",
+        "note": "The official event API publishes seven speakers and a named organising committee; no public attendee roster was verified.",
         "sources": [
-          "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/"
+          "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+          "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
-            "outcome": "manual",
-            "final_source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/"
+            "outcome": "alternative",
+            "final_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 6,
+          "original_source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+          "outcome": "alternative",
+          "final_sources": [
+            "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+          ],
+          "verified": "2026-11-23 至 2026-11-27，Liverpool；申请已关闭，申请截止 2026-08-24；7 位讲者和具名组织委员会可读。",
+          "remaining": "现有 urllib 监测仍连接重置；全天事件元数据不作精确时刻使用。",
+          "automatic_fetch": "curl_verified_monitor_reset",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "automated-intelligent-chemistry-2026",
@@ -1980,20 +2045,21 @@
       "region": "UK",
       "type": "School / Training",
       "deadline": "No explicit application deadline was found; an application link is provided.",
-      "status": "Applications offered; successful applicants pay after acceptance.",
+      "status": "Applications offered; successful applicants pay after acceptance. End time requires confirmation: key details and API metadata say 16:00; the indicative agenda ends at 16:30.",
       "note": "One-day training in basic machine learning, supervised/unsupervised learning and feature engineering. Fee £25. Categorised separately from research conferences.",
       "sources": [
-        "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/"
+        "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+        "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
       ],
       "url": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
       "priority": 2,
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。"
+        "message": "2027-01-22，Imperial College London；正文与 API 元数据写 10:00–16:00，详细议程却写 16:30 Close。 结束时间冲突仍保留，里程碑维持日期精度；现有 urllib 监测再次连接重置，不能称日常抓取已稳定。"
       },
       "milestones": [
         {
@@ -2004,7 +2070,7 @@
           "timezone": null,
           "id": "introduction-to-machine-learning-for-chemists-workshop:conference-start",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
@@ -2017,7 +2083,7 @@
           "timezone": null,
           "id": "introduction-to-machine-learning-for-chemists-workshop:conference-end",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
           "precision": "date",
           "status": "verified",
           "evidence": "End date from the source-verified official event date range; exact end time is not published."
@@ -2030,7 +2096,7 @@
           "timezone": null,
           "id": "introduction-to-machine-learning-for-chemists-workshop:application",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
           "precision": "unknown",
           "status": "unknown",
           "evidence": "No exact date was verified in the linked source."
@@ -2041,29 +2107,44 @@
           {
             "name": "AIchemy",
             "role": "Workshop organiser",
-            "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/"
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
           }
         ],
         "committee": [],
         "speakers": [],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "status": "published",
         "note": "AIchemy is explicitly hosting the workshop; named instructors, committee members and attendees were not found in the reviewed source.",
         "sources": [
-          "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/"
+          "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+          "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
-            "outcome": "manual",
-            "final_source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/"
+            "outcome": "alternative",
+            "final_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 5,
+          "original_source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+          "outcome": "alternative",
+          "final_sources": [
+            "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
+          ],
+          "verified": "2027-01-22，Imperial College London；正文与 API 元数据写 10:00–16:00，详细议程却写 16:30 Close。",
+          "remaining": "结束时间冲突仍保留，里程碑维持日期精度；现有 urllib 监测再次连接重置，不能称日常抓取已稳定。",
+          "automatic_fetch": "curl_verified_monitor_reset",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques",
@@ -2081,20 +2162,21 @@
       "region": "UK",
       "type": "School / Training",
       "deadline": "Early registration: 8 January 2027.",
-      "status": "Registration open with limited places. Academic/PhD early fee £1,000, then £1,200. Main text and Dates section give 16–18 February, but an older daily schedule still says 17–19 February; confirm travel dates with the organiser.",
+      "status": "Registration open with limited places. Official university booking page confirms 16–18 February 2027 and last booking on 12 February. The old course-page daily table has not been synchronised; exact daily times remain unverified.",
       "note": "Three-day intensive course on gas mass transport in nanopores, adsorption kinetics, analysing experimental responses and numerical tutorials.",
       "sources": [
-        "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course"
+        "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+        "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027"
       ],
       "url": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
       "priority": 2,
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "urllib、curl与网页打开均超时；搜索可读官方页面，但其日期表存在既有矛盾，需要人工核实。"
+        "message": "报名页确认 2027-02-16 至 2027-02-18，与课程正文一致；主办者 Stefano Brandani、Enzo Mangano 匹配；最后报名日 2027-02-12。 旧表的 Tuesday 17th/Wednesday 18th/Thursday 19th 与 2026 年星期相符，结合报名页判为旧表未同步（推断）；不把旧日程钟点迁到 2027 年。"
       },
       "milestones": [
         {
@@ -2105,10 +2187,10 @@
           "timezone": null,
           "id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques:conference-start",
           "version": 1,
-          "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+          "source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "University of Edinburgh official booking page explicitly confirms 16–18 February 2027, matching the course description. The old daily table is not used for 2027 dates or clock times."
         },
         {
           "kind": "conference_end",
@@ -2118,10 +2200,10 @@
           "timezone": null,
           "id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques:conference-end",
           "version": 1,
-          "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+          "source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027",
           "precision": "date",
           "status": "verified",
-          "evidence": "End date from the source-verified official event date range; exact end time is not published."
+          "evidence": "University of Edinburgh official booking page explicitly confirms 16–18 February 2027, matching the course description. The old daily table is not used for 2027 dates or clock times."
         },
         {
           "kind": "early_registration",
@@ -2135,6 +2217,19 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "registration",
+          "label": "Last booking date",
+          "date": "2027-02-12",
+          "time": null,
+          "timezone": null,
+          "id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques:registration",
+          "version": 1,
+          "source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "University of Edinburgh official event booking page: Last Booking Date for this Event, 12 February 2027."
         }
       ],
       "people": {
@@ -2176,15 +2271,29 @@
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
-            "outcome": "manual",
-            "final_source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course"
+            "outcome": "alternative",
+            "final_source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 24,
+          "original_source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+          "outcome": "alternative",
+          "final_sources": [
+            "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027"
+          ],
+          "verified": "报名页确认 2027-02-16 至 2027-02-18，与课程正文一致；主办者 Stefano Brandani、Enzo Mangano 匹配；最后报名日 2027-02-12。",
+          "remaining": "旧表的 Tuesday 17th/Wednesday 18th/Thursday 19th 与 2026 年星期相符，结合报名页判为旧表未同步（推断）；不把旧日程钟点迁到 2027 年。",
+          "automatic_fetch": "monitor_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "the-future-of-materials-discovery",
@@ -2740,17 +2849,18 @@
       "status": "Dates announced; submissions not yet open.",
       "note": "Annual conference of the UK AI for Chemistry Hub, bringing together AI, chemistry, materials and robotics. Includes short research presentations, posters, invited talks and discussions.",
       "sources": [
-        "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+        "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+        "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
       ],
       "url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
       "priority": 1,
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "多次完整下载均连接重置/截断；搜索可发现官方活动内容，仍需人工浏览器核对或修复传输。"
+        "message": "2027-04-14 至 2027-04-15，Imperial College London；注册和海报征集尚未公布截止日期。 全天事件的 00:00/23:59:59 是系统占位时间，未写入精确提醒。"
       },
       "milestones": [
         {
@@ -2761,7 +2871,7 @@
           "timezone": null,
           "id": "aichemy-annual-conference-2027:conference-start",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
@@ -2774,7 +2884,7 @@
           "timezone": null,
           "id": "aichemy-annual-conference-2027:conference-end",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
           "precision": "date",
           "status": "verified",
           "evidence": "End date from the source-verified official event date range; exact end time is not published."
@@ -2787,7 +2897,7 @@
           "timezone": null,
           "id": "aichemy-annual-conference-2027:poster",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
           "precision": "unknown",
           "status": "unknown",
           "evidence": "No exact date was verified in the linked source."
@@ -2800,7 +2910,7 @@
           "timezone": null,
           "id": "aichemy-annual-conference-2027:registration",
           "version": 1,
-          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
           "precision": "unknown",
           "status": "unknown",
           "evidence": "No exact date was verified in the linked source."
@@ -2811,29 +2921,44 @@
           {
             "name": "AIchemy",
             "role": "Conference organiser",
-            "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+            "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
           }
         ],
         "committee": [],
         "speakers": [],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "status": "published",
         "note": "The official 2027 announcement says agenda and speakers TBA; no named committee or attendee list was verified.",
         "sources": [
-          "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+          "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
-            "outcome": "manual",
-            "final_source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+            "outcome": "alternative",
+            "final_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 4,
+          "original_source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "outcome": "alternative",
+          "final_sources": [
+            "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
+          ],
+          "verified": "2027-04-14 至 2027-04-15，Imperial College London；注册和海报征集尚未公布截止日期。",
+          "remaining": "全天事件的 00:00/23:59:59 是系统占位时间，未写入精确提醒。",
+          "automatic_fetch": "monitor_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "aisb-convention-2027",
@@ -11410,24 +11535,32 @@
       "location": "Orlando, Florida, USA",
       "region": "Other",
       "type": "Conference",
-      "deadline": "Regular abstract deadline: 1 July 2026, passed; an official society LinkedIn notice announced an extension to 15 July. Discount registration: 31 January 2027.",
-      "status": "Regular submissions closed.",
+      "deadline": "Regular abstracts: original 1 July 2026, extended to 15 July 2026 by the official TMS announcement; now closed. Separate remaining calls: Bladesmithing 31 October 2026; Student Poster Contest 22 January 2027. Discount registration: 31 January 2027.",
+      "status": "Regular submissions closed; the official technical page identifies two remaining calls: Bladesmithing 2027 (31 October 2026) and Technical Division Student Poster Contest (22 January 2027). These are not a reopening of general abstracts.",
       "note": "Includes AI/ML/Data Informatics for Materials Discovery. Do not present the regular abstract call as still open.",
       "sources": [
         "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
         "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf",
         "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
-        "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx"
+        "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
+        "https://www.programmaster.org/TMS2027",
+        "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+        "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+        "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+        "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png",
+        "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
+        "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png",
+        "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm"
       ],
       "url": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
       "priority": 2,
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "message": "FAQ 的 2026-07-01 为原始常规摘要截止；TMS 官方 LinkedIn 明确宣布延期至 2026-07-15，故 FAQ 的原日期未同步。当前技术节目的两个后续专题截止不代表常规投稿重开。 完整 FAQ 仍无可直接抓取替代，原站和 archive 域均 403。7 月 15 日延期已补上官方公告链接并核实为历史日期；未公布的精确钟点仍不填写。 | 专题目录与会议日期 2027-03-14 至 2027-03-18；Bladesmithing 截止 2026-10-31，Student Poster Contest 截止 2027-01-22。 ProgramMaster 是专题清单，不能当作尚未发布的逐场最终会议日程。原网站入口 403 仍保留审计。 | PPTX 模板 328079 字节（ZIP/PK 内容），三张 PNG 分别 619847、620892、1097336 字节；现有监测器复抓均成功。 下载文件恢复不代表 Organizer Tools HTML 已解除 403；这些素材不能用于证明日期或讲者。"
       },
       "milestones": [
         {
@@ -11471,15 +11604,15 @@
         },
         {
           "kind": "abstract",
-          "label": "Reported extended regular abstracts",
+          "label": "Extended regular abstract deadline",
           "date": "2026-07-15",
           "time": null,
           "timezone": null,
-          "status": "unknown",
-          "evidence": "An official society LinkedIn announcement reported an extension; the current source set does not include a direct link to that notice.",
+          "status": "verified",
+          "evidence": "The official TMS society LinkedIn announcement explicitly extends the TMS2027 regular abstract deadline to July 15, 2026. This is historical; the current technical page says regular submissions are closed, with separate symposium-specific exceptions.",
           "id": "tms2027:abstract",
-          "version": 1,
-          "source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
+          "version": 2,
+          "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
           "precision": "date"
         },
         {
@@ -11494,6 +11627,32 @@
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "abstract",
+          "label": "Bladesmithing symposium abstracts",
+          "date": "2026-10-31",
+          "time": null,
+          "timezone": null,
+          "id": "tms2027:bladesmithing-abstract",
+          "version": 1,
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The official symposium page explicitly lists this Abstracts Due date; this deadline applies only to this symposium."
+        },
+        {
+          "kind": "poster",
+          "label": "Technical Division Student Poster Contest abstracts",
+          "date": "2027-01-22",
+          "time": null,
+          "timezone": null,
+          "id": "tms2027:student-poster-abstract",
+          "version": 1,
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The official symposium page explicitly lists this Abstracts Due date; this deadline applies only to this symposium."
         }
       ],
       "people": {
@@ -11573,7 +11732,7 @@
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
@@ -11582,16 +11741,59 @@
           },
           {
             "original_source": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
-            "outcome": "manual",
-            "final_source": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx"
+            "outcome": "alternative",
+            "final_source": "https://www.programmaster.org/TMS2027"
           },
           {
             "original_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
-            "outcome": "manual",
-            "final_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx"
+            "outcome": "alternative",
+            "final_source": "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 22,
+          "original_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
+          "outcome": "manual",
+          "final_sources": [
+            "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx"
+          ],
+          "verified": "FAQ 的 2026-07-01 为原始常规摘要截止；TMS 官方 LinkedIn 明确宣布延期至 2026-07-15，故 FAQ 的原日期未同步。当前技术节目的两个后续专题截止不代表常规投稿重开。",
+          "remaining": "完整 FAQ 仍无可直接抓取替代，原站和 archive 域均 403。7 月 15 日延期已补上官方公告链接并核实为历史日期；未公布的精确钟点仍不填写。",
+          "automatic_fetch": "blocked_403_content_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        },
+        {
+          "number": 23,
+          "original_source": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
+          "outcome": "alternative",
+          "final_sources": [
+            "https://www.programmaster.org/TMS2027",
+            "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+            "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5"
+          ],
+          "verified": "专题目录与会议日期 2027-03-14 至 2027-03-18；Bladesmithing 截止 2026-10-31，Student Poster Contest 截止 2027-01-22。",
+          "remaining": "ProgramMaster 是专题清单，不能当作尚未发布的逐场最终会议日程。原网站入口 403 仍保留审计。",
+          "automatic_fetch": "monitor_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        },
+        {
+          "number": 29,
+          "original_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
+          "outcome": "alternative",
+          "final_sources": [
+            "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+            "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png",
+            "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
+            "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png"
+          ],
+          "verified": "PPTX 模板 328079 字节（ZIP/PK 内容），三张 PNG 分别 619847、620892、1097336 字节；现有监测器复抓均成功。",
+          "remaining": "下载文件恢复不代表 Organizer Tools HTML 已解除 403；这些素材不能用于证明日期或讲者。",
+          "automatic_fetch": "monitor_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "modelling-water-across-scales",
@@ -11951,17 +12153,18 @@
       "status": "Submissions invited.",
       "note": "SIAM mathematical materials-science meeting, explicitly including materials ML and data science, electronic structure, soft matter and inverse problems. Methods/theory emphasis.",
       "sources": [
-        "https://www.siam.org/conferences-events/siam-conferences/ms27/"
+        "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+        "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/"
       ],
       "url": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
       "priority": 2,
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "message": "会议 2027-05-02 至 2027-05-05，Bellevue；顶部明确的延期公告将 minisymposium proposal 截止延至 2026-11-02，优先于下方旧 10 月 5 日文案。 未恢复自动抓取；延期公告没有独立确认新的精确钟点，不将旧截止的 23:59 沿用到新日期。"
       },
       "milestones": [
         {
@@ -12014,7 +12217,7 @@
           "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official main and submissions pages explicitly announce an extended proposal deadline of November 2, 2026. This extension supersedes the old October 5 date remaining in the lower page body; no new precise clock time was verified."
         },
         {
           "kind": "funding",
@@ -12124,7 +12327,7 @@
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
@@ -12132,7 +12335,22 @@
             "final_source": "https://www.siam.org/conferences-events/siam-conferences/ms27/"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 20,
+          "original_source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+          "outcome": "manual",
+          "final_sources": [
+            "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+            "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/"
+          ],
+          "verified": "会议 2027-05-02 至 2027-05-05，Bellevue；顶部明确的延期公告将 minisymposium proposal 截止延至 2026-11-02，优先于下方旧 10 月 5 日文案。",
+          "remaining": "未恢复自动抓取；延期公告没有独立确认新的精确钟点，不将旧截止的 23:59 沿用到新日期。",
+          "automatic_fetch": "blocked_403_content_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "aistats-2027",
@@ -12324,7 +12542,8 @@
         "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
         "https://event.fourwaves.com/interpore2027/submission",
         "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
-        "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+        "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+        "https://api.fourwaves.com/api/events/interpore2027"
       ],
       "url": "https://event.fourwaves.com/interpore2027",
       "priority": 1,
@@ -12332,9 +12551,9 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "投稿页仅返回JavaScript外壳；已抓到官方主页和日期/节目页，但不能代替投稿平台状态，日期冲突仍需人工核实。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "动态页显示 2027-01-12；API submissionEndDate=2027-01-12T07:00:00Z，event.timeZone=America/Buenos_Aires，换算后仍为 1 月 12 日；Important Dates 页写 1 月 11 日。 没有官方更正说明可确定哪个日期优先；不能把时差推测当作解决。保留两候选日期，不启用单一截止提醒。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
       "milestones": [
         {
@@ -12382,7 +12601,7 @@
               "date": "2027-01-12",
               "time": null,
               "timezone": null,
-              "evidence": "Submission platform date.",
+              "evidence": "Rechecked rendered submission page; public API submissionEndDate=2027-01-12T07:00:00Z. API time is platform configuration, not a reconciled organiser-approved deadline.",
               "source": "https://event.fourwaves.com/interpore2027/submission"
             }
           ],
@@ -12390,7 +12609,7 @@
           "version": 1,
           "source": "https://event.fourwaves.com/interpore2027",
           "precision": "unknown",
-          "evidence": "Official sources disagree; no single deadline is selected."
+          "evidence": "Official Important Dates page says 11 January 2027. Rendered submission page says 12 January; its public API submissionEndDate is 2027-01-12T07:00:00Z (04:00 in configured America/Buenos_Aires). The official conflict remains unresolved; no single deadline is selected."
         },
         {
           "kind": "early_registration",
@@ -12466,15 +12685,31 @@
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://event.fourwaves.com/interpore2027/submission",
             "outcome": "manual",
-            "final_source": "https://event.fourwaves.com/interpore2027/submission"
+            "final_source": "https://api.fourwaves.com/api/events/interpore2027"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 10,
+          "original_source": "https://event.fourwaves.com/interpore2027/submission",
+          "outcome": "manual",
+          "final_sources": [
+            "https://api.fourwaves.com/api/events/interpore2027",
+            "https://event.fourwaves.com/interpore2027/submission",
+            "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a"
+          ],
+          "verified": "动态页显示 2027-01-12；API submissionEndDate=2027-01-12T07:00:00Z，event.timeZone=America/Buenos_Aires，换算后仍为 1 月 12 日；Important Dates 页写 1 月 11 日。",
+          "remaining": "没有官方更正说明可确定哪个日期优先；不能把时差推测当作解决。保留两候选日期，不启用单一截止提醒。",
+          "automatic_fetch": "monitor_verified_conflict_pending",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "pbast10",
@@ -12796,17 +13031,18 @@
       "status": "Abstract and discount-registration deadlines announced.",
       "note": "First TMS World Congress on Autonomous Materials Science & Experimentation: autonomous experimentation, high-throughput discovery, AI-driven design and predictive modelling.",
       "sources": [
-        "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx"
+        "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+        "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx"
       ],
       "url": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
       "priority": 1,
       "verified_on": "2026-10-27",
       "evidence": "The official homepage lists the 1 December 2026 abstract deadline and 30 April 2027 discount-registration deadline.",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "message": "2027-06-13 至 2027-06-17，Chicago；摘要 2026-12-01，优惠注册 2027-04-30；主席 Aaron Stebner、编程主席 Sean Donegan。 未发现覆盖该会议日期及组织委员会的可直接抓取官方镜像、PDF 或 RSS；自动抓取仍 403。"
       },
       "milestones": [
         {
@@ -12925,7 +13161,7 @@
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
@@ -12933,7 +13169,22 @@
             "final_source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 21,
+          "original_source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+          "outcome": "manual",
+          "final_sources": [
+            "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+            "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx"
+          ],
+          "verified": "2027-06-13 至 2027-06-17，Chicago；摘要 2026-12-01，优惠注册 2027-04-30；主席 Aaron Stebner、编程主席 Sean Donegan。",
+          "remaining": "未发现覆盖该会议日期及组织委员会的可直接抓取官方镜像、PDF 或 RSS；自动抓取仍 403。",
+          "automatic_fetch": "blocked_403_content_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "actc-2027-american-conference-on-theoretical-chemistry",
@@ -14140,17 +14391,19 @@
       "status": "Dates announced; submission details not verified.",
       "note": "Australasian Molecular Modelling Association meeting on methods development, ML, energy and sustainability. Organising committee includes Newcastle, Queensland and UNSW researchers.",
       "sources": [
-        "https://uon-comp-chem.github.io/mm2027/"
+        "https://uon-comp-chem.github.io/mm2027/",
+        "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
+        "https://github.com/UON-comp-chem/mm2027/blob/main/src/App.jsx"
       ],
       "url": "https://uon-comp-chem.github.io/mm2027/",
       "priority": 2,
       "verified_on": "2026-10-27",
       "evidence": "The organiser research-group search index confirms 26–29 September in Newcastle and AMMA organisation.",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "HTTP 200但仅返回React入口；搜索可读官方会议内容，自动监测需要渲染支持。"
+        "message": "2027-09-26 至 2027-09-29，Newcastle, Australia；Alister Page 主席等6位委员会成员。 摘要、注册、节目仍为 Details Coming Soon，不填造日期；源文件由哈希监测，尚不支持自动抽取事实。"
       },
       "milestones": [
         {
@@ -14161,7 +14414,7 @@
           "timezone": null,
           "id": "mm27-molecular-modelling-2027:conference-start",
           "version": 1,
-          "source": "https://uon-comp-chem.github.io/mm2027/",
+          "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
@@ -14174,7 +14427,7 @@
           "timezone": null,
           "id": "mm27-molecular-modelling-2027:conference-end",
           "version": 1,
-          "source": "https://uon-comp-chem.github.io/mm2027/",
+          "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
           "precision": "date",
           "status": "verified",
           "evidence": "End date from the source-verified official event date range; exact end time is not published."
@@ -14187,7 +14440,7 @@
           "timezone": null,
           "id": "mm27-molecular-modelling-2027:abstract",
           "version": 1,
-          "source": "https://uon-comp-chem.github.io/mm2027/",
+          "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
           "precision": "unknown",
           "status": "unknown",
           "evidence": "No exact date was verified in the linked source."
@@ -14200,7 +14453,7 @@
           "timezone": null,
           "id": "mm27-molecular-modelling-2027:registration",
           "version": 1,
-          "source": "https://uon-comp-chem.github.io/mm2027/",
+          "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
           "precision": "unknown",
           "status": "unknown",
           "evidence": "No exact date was verified in the linked source."
@@ -14211,66 +14464,82 @@
           {
             "name": "Association of Molecular Modellers of Australasia (AMMA)",
             "role": "Conference organiser",
-            "source": "https://uon-comp-chem.github.io/mm2027/"
+            "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx"
           }
         ],
         "committee": [
           {
             "name": "Alister Page",
             "role": "Organising committee chair",
-            "source": "https://uon-comp-chem.github.io/mm2027/",
+            "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
             "affiliation": "The University of Newcastle"
           },
           {
             "name": "Megan O’Mara",
             "role": "Organising committee member",
-            "source": "https://uon-comp-chem.github.io/mm2027/",
+            "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
             "affiliation": "The University of Queensland"
           },
           {
             "name": "Amir Karton",
             "role": "Organising committee member",
-            "source": "https://uon-comp-chem.github.io/mm2027/",
+            "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
             "affiliation": "The University of New England"
           },
           {
             "name": "Martina Lessio",
             "role": "Organising committee member",
-            "source": "https://uon-comp-chem.github.io/mm2027/",
+            "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
             "affiliation": "University of New South Wales"
           },
           {
             "name": "Ben Noble",
             "role": "Organising committee member",
-            "source": "https://uon-comp-chem.github.io/mm2027/",
+            "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
             "affiliation": "The University of Newcastle"
           },
           {
             "name": "Kasimir Gregory",
             "role": "Organising committee member",
-            "source": "https://uon-comp-chem.github.io/mm2027/",
+            "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
             "affiliation": "The University of New England"
           }
         ],
         "speakers": [],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "status": "published",
         "note": "Committee names are available in the indexed official MM27 website; named speakers were not found in the reviewed content.",
         "sources": [
-          "https://uon-comp-chem.github.io/mm2027/"
+          "https://uon-comp-chem.github.io/mm2027/",
+          "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx"
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://uon-comp-chem.github.io/mm2027/",
-            "outcome": "manual",
-            "final_source": "https://uon-comp-chem.github.io/mm2027/"
+            "outcome": "alternative",
+            "final_source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 11,
+          "original_source": "https://uon-comp-chem.github.io/mm2027/",
+          "outcome": "alternative",
+          "final_sources": [
+            "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
+            "https://github.com/UON-comp-chem/mm2027/blob/main/src/App.jsx"
+          ],
+          "verified": "2027-09-26 至 2027-09-29，Newcastle, Australia；Alister Page 主席等6位委员会成员。",
+          "remaining": "摘要、注册、节目仍为 Details Coming Soon，不填造日期；源文件由哈希监测，尚不支持自动抽取事实。",
+          "automatic_fetch": "monitor_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "watoc-2028-14th-triennial-congress",
@@ -15118,10 +15387,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-29T12:26:53Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "urllib和curl均403；搜索/网页工具能读部分官方内容，但自动抓取限制尚未解除，需人工核对。"
+        "message": "IZA 与 AIChE 合作组织；2028-07-23 至 2028-07-28，Philadelphia。 未找到能直接下载且覆盖原页组织信息的官方镜像、PDF 或 RSS；现有自动抓取仍 403。 | 执行规划委员会含 Jeffrey Rimer、Dongxia Liu、Tina Nenoff、Rajamani Gounder、Michele Sarazen；与已有组织信息核对。 未找到覆盖完整委员会名单的可下载官方镜像/PDF/RSS；现有自动抓取仍 403。"
       },
       "milestones": [
         {
@@ -15215,7 +15484,7 @@
         ]
       },
       "source_recovery": {
-        "at": "2026-10-29T12:14:51Z",
+        "at": "2026-10-29T12:26:53Z",
         "results": [
           {
             "original_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
@@ -15228,7 +15497,33 @@
             "final_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee"
           }
         ]
-      }
+      },
+      "manual_source_review": [
+        {
+          "number": 14,
+          "original_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
+          "outcome": "manual",
+          "final_sources": [
+            "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization"
+          ],
+          "verified": "IZA 与 AIChE 合作组织；2028-07-23 至 2028-07-28，Philadelphia。",
+          "remaining": "未找到能直接下载且覆盖原页组织信息的官方镜像、PDF 或 RSS；现有自动抓取仍 403。",
+          "automatic_fetch": "blocked_403_content_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        },
+        {
+          "number": 15,
+          "original_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
+          "outcome": "manual",
+          "final_sources": [
+            "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee"
+          ],
+          "verified": "执行规划委员会含 Jeffrey Rimer、Dongxia Liu、Tina Nenoff、Rajamani Gounder、Michele Sarazen；与已有组织信息核对。",
+          "remaining": "未找到覆盖完整委员会名单的可下载官方镜像/PDF/RSS；现有自动抓取仍 403。",
+          "automatic_fetch": "blocked_403_content_verified",
+          "checked_at": "2026-10-29T12:26:53Z"
+        }
+      ]
     },
     {
       "id": "digichem27-raci-chemistry-automation-conference",
