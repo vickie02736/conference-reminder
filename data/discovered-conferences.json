@@ -2,11 +2,11 @@
   "schema_version": 1,
   "metadata": {
     "provider": "you",
-    "last_run_at": "2026-10-28T06:53:21Z",
-    "last_success_at": "2026-10-28T06:53:21Z",
+    "last_run_at": "2026-10-29T07:08:30Z",
+    "last_success_at": "2026-10-29T07:08:30Z",
     "query_count": 18,
     "result_count": 179,
-    "candidate_count": 94,
+    "candidate_count": 101,
     "error_count": 0,
     "errors": [],
     "note": "Search results are leads for manual verification; they are not official catalogue entries."
@@ -33,9 +33,9 @@
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4,
+      "seen_count": 6,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -60,35 +60,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
-    },
-    {
-      "id": "web-e8cd2e85da3a7a5d59ae",
-      "name": "New Starters in AI for Chemistry Symposium – aichemy",
-      "url": "https://aichemy.ac.uk/new-starters-in-ai-for-chemistry-symposium",
-      "domain": "aichemy.ac.uk",
-      "description": "On Tuesday 27 January 2026, researchers from across the UK and beyond gathered at Cloth Hall Court, University of Leeds for New Starters in AI for Chemistry Symposium, a full-day event celebrating emerging voices, fresh ideas, and the growing intersection between artificial intelligence and ...",
-      "topics": [
-        "AI and machine learning",
-        "AI for materials and chemistry"
-      ],
-      "score": 6,
-      "reasons": [
-        "event wording: symposium",
-        "future year: 2026",
-        "research topic: AI and machine learning, AI for materials and chemistry"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-27T21:11:15Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 1,
+      "seen_count": 3,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -138,11 +112,64 @@
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
+    },
+    {
+      "id": "web-92359ca81402437b8e62",
+      "name": "Events | Materials Informatics Laboratory",
+      "url": "https://sites.utu.fi/mil/seminars",
+      "domain": "sites.utu.fi",
+      "description": "CECAM Workshop: Frontiers in modelling charge and proton transport for energy materials, Atomistic Modelling of Semiconductor Materials in Complex Environments, 7.-9.9.2026, Bologna, IT, (Marco Severi, Poster presentation) 2026 symposium on Machine Learning for Materials and Molecular Discoveries (ML2MD), Data-efficient computational ...",
+      "topics": [
+        "AI and machine learning",
+        "AI for materials and chemistry"
+      ],
+      "score": 6,
+      "reasons": [
+        "event wording: symposium, workshop",
+        "future year: 2026",
+        "research topic: AI and machine learning, AI for materials and chemistry"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-28T06:53:21Z",
+      "seen_count": 2,
+      "reviewed_at": "2026-10-28T10:30:17Z",
+      "user_decision": "dismiss",
+      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
+    },
+    {
+      "id": "web-e8cd2e85da3a7a5d59ae",
+      "name": "New Starters in AI for Chemistry Symposium – aichemy",
+      "url": "https://aichemy.ac.uk/new-starters-in-ai-for-chemistry-symposium",
+      "domain": "aichemy.ac.uk",
+      "description": "On Tuesday 27 January 2026, researchers from across the UK and beyond gathered at Cloth Hall Court, University of Leeds for New Starters in AI for Chemistry Symposium, a full-day event celebrating emerging voices, fresh ideas, and the growing intersection between artificial intelligence and ...",
+      "topics": [
+        "AI and machine learning",
+        "AI for materials and chemistry"
+      ],
+      "score": 6,
+      "reasons": [
+        "event wording: symposium",
+        "future year: 2026",
+        "research topic: AI and machine learning, AI for materials and chemistry"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 2,
       "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
     {
       "id": "web-86a81db19e2e7fd60474",
@@ -170,257 +197,56 @@
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
     {
-      "id": "web-dcd1a9b3c478c43209d0",
-      "name": "2026 French MOFs, COFs and Porous Polymers Conference - ...",
-      "url": "https://frenchmof2026.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en",
-      "domain": "frenchmof2026.sciencesconf.org",
-      "description": "Inaugurated in 2018, this conference ... of new porous materials. Beyond fundamental knowledge and academic results on the development of innovative materials, the goal of the conference is also to promote the competitiveness of this research area and to strengthen collaborations with industrial partners, in particular on the subject of air pollution control, carbon dioxide capture and conversion, towards increased sustainability of chemical processes. The 2026 French MOFs COFs and Porous ...",
-      "topics": [
-        "MOFs, COFs and porous materials"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026",
-        "research topic: MOFs, COFs and porous materials"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
-    },
-    {
-      "id": "web-55dc74ac424301e281d4",
-      "name": "3rd Conference on Artificial Intelligence in Materials Science ...",
-      "url": "https://dgm.de/aimse/2027",
-      "domain": "dgm.de",
-      "description": "Join us at the Third Conference on Artificial Intelligence in Material Science and Engineering (AI MSE 2027) on 17 - 18 November 2025 at Aalen University of Applied Sciences, Germany! Organized by DGM, this interdisciplinary event brings together top researchers to share insights on AI applications ...",
+      "id": "web-3f3c2d2d8677573885da",
+      "name": "Home | 9th MABC Cambridge",
+      "url": "https://mabc-cambridge.ai/",
+      "domain": "mabc-cambridge.ai",
+      "description": "The 9th MABC Cambridge: International Conference on Machine Learning (ML) and AI in (bio)Chemical Engineering will take place on 06-07 July 2026.",
       "topics": [
         "AI and machine learning"
       ],
       "score": 5,
       "reasons": [
         "event wording: conference",
-        "future year: 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
-      ],
-      "status": "accepted",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
-    },
-    {
-      "id": "web-2602af5a39e8362ab4e5",
-      "name": "AAAI 2026 Spring Symposium Series - AAAI",
-      "url": "https://aaai.org/conference/spring-symposia/sss26",
-      "domain": "aaai.org",
-      "description": "Sponsored by the Association for the Advancement of Artificial Intelligence April 7- April 9, 2026 Hyatt Regency, San Francisco Airport | Burlingame, CA, USA The Association for the Advancement of Artificial Intelligence is pleased to present the 2026 Spring Symposium Series to be held Tuesday, ...",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: symposium",
         "future year: 2026",
         "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
-    },
-    {
-      "id": "web-edee5d91a53b589d350d",
-      "name": "CCG | UGM & Conference 2026 | North America",
-      "url": "https://chemcomp.com/en/UGM-2026-North_America-Register.htm",
-      "domain": "chemcomp.com",
-      "description": "The UGM & Conference is a 4-day event focused on the applications of computational chemistry, drug design, and discovery across biologics, peptides, and small molecules. The program includes workshops, scientific talks, a poster session, and networking activities, including receptions and a ...",
-      "topics": [
-        "simulation and theory"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, workshop",
-        "future year: 2026",
-        "research topic: simulation and theory"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
-    },
-    {
-      "id": "web-319e5c6b02a7b7e4f574",
-      "name": "CCG | UGM & Conference 2026 | North America",
-      "url": "https://chemcomp.com/en/UGM-2026-North_America.htm",
-      "domain": "chemcomp.com",
-      "description": "The UGM & Conference is a 4-day event focused on the applications of computational chemistry, drug design, and discovery across biologics, peptides, and small molecules. The program includes workshops, scientific talks, a poster session, and networking activities, including receptions and a ...",
-      "topics": [
-        "simulation and theory"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, workshop",
-        "future year: 2026",
-        "research topic: simulation and theory"
       ],
       "queries": [
         "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "dismissed",
       "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+      "first_seen_at": "2026-10-28T06:53:21Z",
+      "seen_count": 1,
+      "reviewed_at": "2026-10-28T10:30:17Z",
+      "user_decision": "dismiss",
+      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
     },
     {
-      "id": "web-5bec3c9625517c3f3e52",
-      "name": "Cheminformatics Resources of U.S. Governmental Organizations 2027 ...",
-      "url": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
-      "domain": "fda.gov",
-      "description": "Cheminformatics Resources of U.S. Governmental Organizations 2027 Workshop",
+      "id": "web-10fa3015848205887cd5",
+      "name": "The 2026 MATERIALS SCIENCE Agenda: Global Conferences You Can't ...",
+      "url": "https://worldconferencecalendar.com/blog/the-2026-materials-sciences-agenda-global-conferences-you-cant-miss-bftssca",
+      "domain": "worldconferencecalendar.com",
+      "description": "Automation is rapidly transforming industries across the globe, redefining how organizations operate, innovate, and compete. From intelligent robotics and...",
       "topics": [
         "automation and digital chemistry"
       ],
       "score": 5,
       "reasons": [
-        "event wording: workshop",
-        "future year: 2027",
+        "event wording: conference",
+        "future year: 2026",
         "research topic: automation and digital chemistry"
       ],
       "queries": [
-        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
-        "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
-      ],
-      "status": "accepted",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
-    },
-    {
-      "id": "web-e64663a800770204d479",
-      "name": "Conference | MOFES'26",
-      "url": "https://mofes26.com/conference",
-      "domain": "mofes26.com",
-      "description": "Abstract Submission/ Registration · Conference Overview:",
-      "topics": [
-        "MOFs, COFs and porous materials"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "conference planning wording: abstract submission, registration",
-        "research topic: MOFs, COFs and porous materials"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)",
-        "2027 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)",
-        "2028 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
+        "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
       "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 5,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
-    },
-    {
-      "id": "web-094c747ab64e38051daa",
-      "name": "Feza 2026 – 10 th Conference of the Federation of European Zeolite ...",
-      "url": "https://feza2026.org/",
-      "domain": "feza2026.org",
-      "description": "Feza 2026 is the 10th conference organized in Naples by the Italian Zeolite Association and the Federation of European Zeolite Associations for scientist and industrial partners interested in the science technology of ordered porous materials",
-      "topics": [
-        "MOFs, COFs and porous materials"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026",
-        "research topic: MOFs, COFs and porous materials"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
-    },
-    {
-      "id": "web-4f9138660fcef261260c",
-      "name": "MOF 2026 Conference",
-      "url": "https://na.eventscloud.com/website/86715/home",
-      "domain": "na.eventscloud.com",
-      "description": "MOF 2026 Conference, MOF 2026, Metal-Organic Frameworks, Metal-Organic Frameworks - International Commission, International MOF Conferences, MOF2026 New Orleans, Young Scientist Symposium",
-      "topics": [
-        "MOFs, COFs and porous materials"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, symposium",
-        "future year: 2026",
-        "research topic: MOFs, COFs and porous materials"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
-    },
-    {
-      "id": "web-dcf6a64c9f71ad7dc219",
-      "name": "Related events - ICIM 2026",
-      "url": "https://icim2026.org/related-events",
-      "domain": "icim2026.org",
-      "description": "The COPS XII symposium brings together researchers and industry professionals to explore the latest advancements in the characterization of porous materials. From metal-organic frameworks (MOFs) and zeolites to porous polymers and carbons, the event highlights cutting-edge techniques such as ...",
-      "topics": [
-        "MOFs, COFs and porous materials"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: symposium",
-        "future year: 2026",
-        "research topic: MOFs, COFs and porous materials"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+      "first_seen_at": "2026-10-28T06:53:21Z",
+      "seen_count": 1,
+      "reviewed_at": "2026-10-28T10:30:17Z",
+      "user_decision": "dismiss",
+      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
     },
     {
       "id": "web-14c60254567e38cd3445",
@@ -448,6 +274,312 @@
       "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
     },
     {
+      "id": "web-dcd1a9b3c478c43209d0",
+      "name": "2026 French MOFs, COFs and Porous Polymers Conference - ...",
+      "url": "https://frenchmof2026.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en",
+      "domain": "frenchmof2026.sciencesconf.org",
+      "description": "Inaugurated in 2018, this conference ... of new porous materials. Beyond fundamental knowledge and academic results on the development of innovative materials, the goal of the conference is also to promote the competitiveness of this research area and to strengthen collaborations with industrial partners, in particular on the subject of air pollution control, carbon dioxide capture and conversion, towards increased sustainability of chemical processes. The 2026 French MOFs COFs and Porous ...",
+      "topics": [
+        "MOFs, COFs and porous materials"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026",
+        "research topic: MOFs, COFs and porous materials"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-55dc74ac424301e281d4",
+      "name": "3rd Conference on Artificial Intelligence in Materials Science ...",
+      "url": "https://dgm.de/aimse/2027",
+      "domain": "dgm.de",
+      "description": "Join us at the Third Conference on Artificial Intelligence in Material Science and Engineering (AI MSE 2027) on 17 - 18 November 2025 at Aalen University of Applied Sciences, Germany! Organized by DGM, this interdisciplinary event brings together top researchers to share insights on AI applications ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
+      ],
+      "status": "accepted",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
+    },
+    {
+      "id": "web-2602af5a39e8362ab4e5",
+      "name": "AAAI 2026 Spring Symposium Series - AAAI",
+      "url": "https://aaai.org/conference/spring-symposia/sss26",
+      "domain": "aaai.org",
+      "description": "Sponsored by the Association for the Advancement of Artificial Intelligence April 7- April 9, 2026 Hyatt Regency, San Francisco Airport | Burlingame, CA, USA The Association for the Advancement of Artificial Intelligence is pleased to present the 2026 Spring Symposium Series to be held Tuesday, ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: symposium",
+        "future year: 2026",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 4,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-3c3e26208e231055d3c8",
+      "name": "AAIML 2027 : IEEE--2027 2nd International Conference on Advances ...",
+      "url": "http://wikicfp.com/cfp/servlet/event.showcfp?eventid=187796",
+      "domain": "wikicfp.com",
+      "description": "AAIML 2027 : IEEE--2027 2nd International Conference on Advances in Artificial Intelligence and Machine Learning",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-28T06:53:21Z",
+      "seen_count": 2,
+      "reviewed_at": "2026-10-28T10:30:17Z",
+      "user_decision": "dismiss",
+      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
+    },
+    {
+      "id": "web-edee5d91a53b589d350d",
+      "name": "CCG | UGM & Conference 2026 | North America",
+      "url": "https://chemcomp.com/en/UGM-2026-North_America-Register.htm",
+      "domain": "chemcomp.com",
+      "description": "The UGM & Conference is a 4-day event focused on the applications of computational chemistry, drug design, and discovery across biologics, peptides, and small molecules. The program includes workshops, scientific talks, a poster session, and networking activities, including receptions and a ...",
+      "topics": [
+        "simulation and theory"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, workshop",
+        "future year: 2026",
+        "research topic: simulation and theory"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-319e5c6b02a7b7e4f574",
+      "name": "CCG | UGM & Conference 2026 | North America",
+      "url": "https://chemcomp.com/en/UGM-2026-North_America.htm",
+      "domain": "chemcomp.com",
+      "description": "The UGM & Conference is a 4-day event focused on the applications of computational chemistry, drug design, and discovery across biologics, peptides, and small molecules. The program includes workshops, scientific talks, a poster session, and networking activities, including receptions and a ...",
+      "topics": [
+        "simulation and theory"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, workshop",
+        "future year: 2026",
+        "research topic: simulation and theory"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-5bec3c9625517c3f3e52",
+      "name": "Cheminformatics Resources of U.S. Governmental Organizations 2027 ...",
+      "url": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+      "domain": "fda.gov",
+      "description": "Cheminformatics Resources of U.S. Governmental Organizations 2027 Workshop",
+      "topics": [
+        "automation and digital chemistry"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: workshop",
+        "future year: 2027",
+        "research topic: automation and digital chemistry"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
+        "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "accepted",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 6,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
+    },
+    {
+      "id": "web-e64663a800770204d479",
+      "name": "Conference | MOFES'26",
+      "url": "https://mofes26.com/conference",
+      "domain": "mofes26.com",
+      "description": "Abstract Submission/ Registration · Conference Overview:",
+      "topics": [
+        "MOFs, COFs and porous materials"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "conference planning wording: abstract submission, registration",
+        "research topic: MOFs, COFs and porous materials"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)",
+        "2027 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)",
+        "2028 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 7,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-094c747ab64e38051daa",
+      "name": "Feza 2026 – 10 th Conference of the Federation of European Zeolite ...",
+      "url": "https://feza2026.org/",
+      "domain": "feza2026.org",
+      "description": "Feza 2026 is the 10th conference organized in Naples by the Italian Zeolite Association and the Federation of European Zeolite Associations for scientist and industrial partners interested in the science technology of ordered porous materials",
+      "topics": [
+        "MOFs, COFs and porous materials"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026",
+        "research topic: MOFs, COFs and porous materials"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-4f9138660fcef261260c",
+      "name": "MOF 2026 Conference",
+      "url": "https://na.eventscloud.com/website/86715/home",
+      "domain": "na.eventscloud.com",
+      "description": "MOF 2026 Conference, MOF 2026, Metal-Organic Frameworks, Metal-Organic Frameworks - International Commission, International MOF Conferences, MOF2026 New Orleans, Young Scientist Symposium",
+      "topics": [
+        "MOFs, COFs and porous materials"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, symposium",
+        "future year: 2026",
+        "research topic: MOFs, COFs and porous materials"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-dcf6a64c9f71ad7dc219",
+      "name": "Related events - ICIM 2026",
+      "url": "https://icim2026.org/related-events",
+      "domain": "icim2026.org",
+      "description": "The COPS XII symposium brings together researchers and industry professionals to explore the latest advancements in the characterization of porous materials. From metal-organic frameworks (MOFs) and zeolites to porous polymers and carbons, the event highlights cutting-edge techniques such as ...",
+      "topics": [
+        "MOFs, COFs and porous materials"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: symposium",
+        "future year: 2026",
+        "research topic: MOFs, COFs and porous materials"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
+    },
+    {
+      "id": "web-20d9b98969775ee50151",
+      "name": "Top 13 AI Conferences for 2026 | DataCamp",
+      "url": "https://datacamp.com/blog/top-ai-conferences",
+      "domain": "datacamp.com",
+      "description": "Discover the most popular AI conferences and events scheduled for 2026.",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-28T06:53:21Z",
+      "seen_count": 2,
+      "reviewed_at": "2026-10-28T10:30:17Z",
+      "user_decision": "dismiss",
+      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
+    },
+    {
       "id": "web-20d2a23719421211a7b6",
       "name": "2027 Upcoming AI Conferences Call for Papers & Deadlines--iConf",
       "url": "https://iconf.org/news/900",
@@ -467,9 +599,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-50fac426b76b18d66764",
@@ -492,9 +624,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
+      "seen_count": 6
     },
     {
       "id": "web-02857a320f106a9bbd70",
@@ -517,9 +649,33 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 3
+      "seen_count": 4
+    },
+    {
+      "id": "web-a1dbd3f74bd14f797b78",
+      "name": "Call for Papers: AISTATS 2027",
+      "url": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+      "domain": "virtual.aistats.org",
+      "description": "We invite submissions to the 30th International Conference on Artificial Intelligence and Statistics (AISTATS 2027) and welcome paper submissions at the intersection of artificial intelligence, machine learning, statistics, and related areas. Accepted papers will be presented at the conference ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 7,
+      "reasons": [
+        "event wording: conference",
+        "conference planning wording: call for papers",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
+      "seen_count": 1
     },
     {
       "id": "web-5f82516f5e38f38fa156",
@@ -539,9 +695,30 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
+      "seen_count": 6
+    },
+    {
+      "id": "web-3a8f5e18ab368a20a83f",
+      "name": "Call for Papers: International Conference on Chemistry - PhDTalks",
+      "url": "https://phdtalks.org/2026/08/call-for-papers-international-conference-on-chemistry.html",
+      "domain": "phdtalks.org",
+      "description": "International Conference on Chemistry for Science, Innovation and Well-Being (ICCSIW 2026) at Miranda House, University of Delhi, on 14–15 October 2026.",
+      "topics": [],
+      "score": 6,
+      "reasons": [
+        "event wording: conference",
+        "conference planning wording: call for papers",
+        "future year: 2026"
+      ],
+      "queries": [
+        "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
+      "seen_count": 1
     },
     {
       "id": "web-ad2162c6f10472f84d92",
@@ -561,39 +738,13 @@
       ],
       "queries": [
         "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
+        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
-    },
-    {
-      "id": "web-92359ca81402437b8e62",
-      "name": "Events | Materials Informatics Laboratory",
-      "url": "https://sites.utu.fi/mil/seminars",
-      "domain": "sites.utu.fi",
-      "description": "CECAM Workshop: Frontiers in modelling charge and proton transport for energy materials, Atomistic Modelling of Semiconductor Materials in Complex Environments, 7.-9.9.2026, Bologna, IT, (Marco Severi, Poster presentation) 2026 symposium on Machine Learning for Materials and Molecular Discoveries (ML2MD), Data-efficient computational ...",
-      "topics": [
-        "AI and machine learning",
-        "AI for materials and chemistry"
-      ],
-      "score": 6,
-      "reasons": [
-        "event wording: symposium, workshop",
-        "future year: 2026",
-        "research topic: AI and machine learning, AI for materials and chemistry"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-28T06:53:21Z",
-      "seen_count": 1,
-      "reviewed_at": "2026-10-28T10:30:17Z",
-      "user_decision": "dismiss",
-      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
+      "seen_count": 7
     },
     {
       "id": "web-88b807d9c6d7d09cf0ad",
@@ -612,9 +763,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-e32917cba0c0c427e2be",
@@ -633,9 +784,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-adf266bc953ad3d8f563",
@@ -654,9 +805,9 @@
         "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-ac1235c9c71d687556c2",
@@ -675,9 +826,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-d5d5adefc49ccd14b399",
@@ -726,314 +877,6 @@
       "seen_count": 1
     },
     {
-      "id": "web-14c01b53a8ef17528eee",
-      "name": "2026 Computational Chemistry Conference GRC",
-      "url": "https://grc.org/computational-chemistry-conference/2026",
-      "domain": "grc.org",
-      "description": "The 2026 Gordon Research Conference on Computational Chemistry will be held in Castelldefels, Barcelona Spain. Apply today to reserve your spot.",
-      "topics": [
-        "simulation and theory"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026",
-        "research topic: simulation and theory"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-fc4bd523b7c5fd4fde0f",
-      "name": "2026 Conference",
-      "url": "https://icml.cc/",
-      "domain": "icml.cc",
-      "description": "Getting Started Schedule Conference ... Awards Workshops Hugging Face Space for ICML 2026 Awards ... We thank our exhibitors for all their support! ... The International Conference on Machine Learning (ICML) is the premier gathering of professionals dedicated to the advancement of the branch of artificial intelligence known as machine ...",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, workshop",
-        "future year: 2026",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-806cf64f818a0e00ceed",
-      "name": "2026 International Conference List on Artificial Intelligence",
-      "url": "https://mi-research.net/news/712",
-      "domain": "mi-research.net",
-      "description": "Search · E-alert · Submit · Browse MIR · Early Access · Current Issue · Special Issue · Archive · Selected Papers · About MIR",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-a1198279abf03d2c2090",
-      "name": "2027 Conference",
-      "url": "https://mlsys.org/",
-      "domain": "mlsys.org",
-      "description": "Tenth Annual Conference on Machine Learning and Systems · Bellevue, WA June 21st - 25th 2027 Contact Us",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
-        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
-        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 6
-    },
-    {
-      "id": "web-3c3e26208e231055d3c8",
-      "name": "AAIML 2027 : IEEE--2027 2nd International Conference on Advances ...",
-      "url": "http://wikicfp.com/cfp/servlet/event.showcfp?eventid=187796",
-      "domain": "wikicfp.com",
-      "description": "AAIML 2027 : IEEE--2027 2nd International Conference on Advances in Artificial Intelligence and Machine Learning",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-28T06:53:21Z",
-      "seen_count": 1,
-      "reviewed_at": "2026-10-28T10:30:17Z",
-      "user_decision": "dismiss",
-      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
-    },
-    {
-      "id": "web-660a180635f1b9a8d1ba",
-      "name": "AAIML 2027 | Tokyo, Japan",
-      "url": "https://aaiml.net/",
-      "domain": "aaiml.net",
-      "description": "This premier event aims to bring ... in artificial intelligence and machine learning. Participants will have the opportunity to present their research findings, engage in informative discussions, and network with experts in the field. The conference will feature keynote speeches from distinguished speakers, multiple parallel sessions, and workshops focusing on ...",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, workshop",
-        "future year: 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-33509885afd4f7b1c7ba",
-      "name": "AI & Machine Learning Conferences: October 2026",
-      "url": "https://eventify.io/blog/ai-and-machine-learning-conferences",
-      "domain": "eventify.io",
-      "description": "Explore the top AI and machine learning conferences from October 2026 through 2027, including dates, locations, pricing, and who should attend each event.",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026, 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-bc77b3f908f6db1310b7",
-      "name": "AI & ML Conference Deadlines 2026–2027 | Underleaf",
-      "url": "https://underleaf.ai/conference-deadlines",
-      "domain": "underleaf.ai",
-      "description": "Verified submission deadlines for NeurIPS, ICML, ICLR, CVPR, ACL, AAAI, KDD and other major AI conferences, with conference dates, locations and LaTeX templates.",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026, 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-56fe59fe1de4f7ffad50",
-      "name": "AI Conference Deadlines 2027: NeurIPS, ICML, ICLR, CVPR | OpenCurious",
-      "url": "https://opencurious.com/ai-conference-deadlines",
-      "domain": "opencurious.com",
-      "description": "Live countdowns to 2027 AI/ML conference submission deadlines and calls for papers.",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-b3bd86ffad02ac7dbd7a",
-      "name": "AI Deadlines – AI Conference Call For Paper Deadlines",
-      "url": "http://aideadlines.org/",
-      "domain": "aideadlines.org",
-      "description": "Deadlines for AI, machine learning, computer vision, NLP, robotics conference call for papers",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "conference planning wording: call for papers",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
-        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
-        "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
-        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 7
-    },
-    {
-      "id": "web-3c42f4dbc2e9d9dec6fc",
-      "name": "Artificial Intelligence (ai) Conferences 2026/2027/2028 - Conference ...",
-      "url": "https://conferenceindex.org/conferences/artificial-intelligence-ai",
-      "domain": "conferenceindex.org",
-      "description": "Artificial Intelligence (ai) Conferences 2026 2027 2028 is for the researchers, scientists, scholars, engineers, academic, scientific and university practitioners to present research activities that might want to attend events, meetings, seminars, congresses, workshops, summit, and symposiums.",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, symposium, workshop",
-        "future year: 2026, 2027, 2028",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-5f6f42f4a33631443e4f",
-      "name": "Artificial Intelligence and Machine Learning Conference | Artificial ...",
-      "url": "https://artificialintelligence.unitedscientificgroup.org/conference-info",
-      "domain": "artificialintelligence.unitedscientificgroup.org",
-      "description": "AIM-2027 is a high-level scientific event that will give great knowledge to all the researchers in AI, Machine Learning, and Robotics. An inspiring program by the Scientific Organizing Committee addresses new trends and emerging subjects in the field of Artificial Intelligence, Machine Learning, ...",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
-        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
-    },
-    {
-      "id": "web-186157f04294abd715c4",
-      "name": "Artificial Intelligence Conferences | AI Conferences 2027 | Data ...",
-      "url": "https://artificialintelligence.novelticsconferences.com/",
-      "domain": "artificialintelligence.novelticsconferences.com",
-      "description": "Join the 3rd International Conference on Artificial Intelligence & Machine Learning 2027 to explore AI innovations, machine learning, emerging technologies, and global collaboration.",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2027",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
       "id": "web-141d67a9e4ff5883e109",
       "name": "Artificial Intelligence, Machine Learning & Data Science",
       "url": "https://innovatexconference.com/artificialintelligence",
@@ -1078,82 +921,6 @@
       "last_seen_at": "2026-10-28T06:53:21Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 2
-    },
-    {
-      "id": "web-5c5fe3fd8ee703c7e44d",
-      "name": "Chemical Science symposium 2026: Digital chemistry in the age of ...",
-      "url": "https://rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
-      "domain": "rsc.org",
-      "description": "Log in to access your member benefits, update your details and more · Explore our prize winners to find profiles, see photo galleries, get insights into their work, and read a question and answer session with the prize winner",
-      "topics": [
-        "automation and digital chemistry"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: symposium",
-        "future year: 2026",
-        "research topic: automation and digital chemistry"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
-        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
-        "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 6
-    },
-    {
-      "id": "web-6cb4326b571e1fb0963c",
-      "name": "Cheminformatics Resources of U.S. Governmental Organizations 2026 ...",
-      "url": "https://fda.gov/news-events/fda-meetings-conferences-and-workshops/cheminformatics-resources-us-governmental-organizations-2026-workshop-01052026",
-      "domain": "fda.gov",
-      "description": "The FDA Modeling and Simulation Working Group, Chemical Informatics and Modeling Interest Group will be hosting their annual hybrid-workshop January 5 - 7, 2026.",
-      "topics": [
-        "automation and digital chemistry"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: workshop",
-        "future year: 2026",
-        "research topic: automation and digital chemistry"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
-        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
-        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
-        "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8
-    },
-    {
-      "id": "web-1c0b2cf933a6abfd29d8",
-      "name": "Computational Chemistry Conferences 2026/2027/2028 - Conference Index",
-      "url": "https://conferenceindex.org/conferences/computational-chemistry",
-      "domain": "conferenceindex.org",
-      "description": "Computational Chemistry Conferences 2026 2027 2028 is for the researchers, scientists, scholars, engineers, academic, scientific and university practitioners to present research activities that might want to attend events, meetings, seminars, congresses, workshops, summit, and symposiums.",
-      "topics": [
-        "simulation and theory"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, symposium, workshop",
-        "future year: 2026, 2027, 2028",
-        "research topic: simulation and theory"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
-        "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
-        "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 6
     },
     {
       "id": "web-9801a5323c537feb5c3f",
@@ -1203,6 +970,387 @@
       "seen_count": 4
     },
     {
+      "id": "web-14c01b53a8ef17528eee",
+      "name": "2026 Computational Chemistry Conference GRC",
+      "url": "https://grc.org/computational-chemistry-conference/2026",
+      "domain": "grc.org",
+      "description": "The 2026 Gordon Research Conference on Computational Chemistry will be held in Castelldefels, Barcelona Spain. Apply today to reserve your spot.",
+      "topics": [
+        "simulation and theory"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026",
+        "research topic: simulation and theory"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-fc4bd523b7c5fd4fde0f",
+      "name": "2026 Conference",
+      "url": "https://icml.cc/",
+      "domain": "icml.cc",
+      "description": "Getting Started Schedule Conference ... Awards Workshops Hugging Face Space for ICML 2026 Awards ... We thank our exhibitors for all their support! ... The International Conference on Machine Learning (ICML) is the premier gathering of professionals dedicated to the advancement of the branch of artificial intelligence known as machine ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, workshop",
+        "future year: 2026",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-806cf64f818a0e00ceed",
+      "name": "2026 International Conference List on Artificial Intelligence",
+      "url": "https://mi-research.net/news/712",
+      "domain": "mi-research.net",
+      "description": "Search · E-alert · Submit · Browse MIR · Early Access · Current Issue · Special Issue · Archive · Selected Papers · About MIR",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-a1198279abf03d2c2090",
+      "name": "2027 Conference",
+      "url": "https://mlsys.org/",
+      "domain": "mlsys.org",
+      "description": "Tenth Annual Conference on Machine Learning and Systems · Bellevue, WA June 21st - 25th 2027 Contact Us",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
+        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 9
+    },
+    {
+      "id": "web-660a180635f1b9a8d1ba",
+      "name": "AAIML 2027 | Tokyo, Japan",
+      "url": "https://aaiml.net/",
+      "domain": "aaiml.net",
+      "description": "This premier event aims to bring ... in artificial intelligence and machine learning. Participants will have the opportunity to present their research findings, engage in informative discussions, and network with experts in the field. The conference will feature keynote speeches from distinguished speakers, multiple parallel sessions, and workshops focusing on ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, workshop",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-33509885afd4f7b1c7ba",
+      "name": "AI & Machine Learning Conferences: October 2026",
+      "url": "https://eventify.io/blog/ai-and-machine-learning-conferences",
+      "domain": "eventify.io",
+      "description": "Explore the top AI and machine learning conferences from October 2026 through 2027, including dates, locations, pricing, and who should attend each event.",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026, 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-bc77b3f908f6db1310b7",
+      "name": "AI & ML Conference Deadlines 2026–2027 | Underleaf",
+      "url": "https://underleaf.ai/conference-deadlines",
+      "domain": "underleaf.ai",
+      "description": "Verified submission deadlines for NeurIPS, ICML, ICLR, CVPR, ACL, AAAI, KDD and other major AI conferences, with conference dates, locations and LaTeX templates.",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026, 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-56fe59fe1de4f7ffad50",
+      "name": "AI Conference Deadlines 2027: NeurIPS, ICML, ICLR, CVPR | OpenCurious",
+      "url": "https://opencurious.com/ai-conference-deadlines",
+      "domain": "opencurious.com",
+      "description": "Live countdowns to 2027 AI/ML conference submission deadlines and calls for papers.",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-b3bd86ffad02ac7dbd7a",
+      "name": "AI Deadlines – AI Conference Call For Paper Deadlines",
+      "url": "http://aideadlines.org/",
+      "domain": "aideadlines.org",
+      "description": "Deadlines for AI, machine learning, computer vision, NLP, robotics conference call for papers",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "conference planning wording: call for papers",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
+        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
+        "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
+        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 10
+    },
+    {
+      "id": "web-3c42f4dbc2e9d9dec6fc",
+      "name": "Artificial Intelligence (ai) Conferences 2026/2027/2028 - Conference ...",
+      "url": "https://conferenceindex.org/conferences/artificial-intelligence-ai",
+      "domain": "conferenceindex.org",
+      "description": "Artificial Intelligence (ai) Conferences 2026 2027 2028 is for the researchers, scientists, scholars, engineers, academic, scientific and university practitioners to present research activities that might want to attend events, meetings, seminars, congresses, workshops, summit, and symposiums.",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, symposium, workshop",
+        "future year: 2026, 2027, 2028",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-5f6f42f4a33631443e4f",
+      "name": "Artificial Intelligence and Machine Learning Conference | Artificial ...",
+      "url": "https://artificialintelligence.unitedscientificgroup.org/conference-info",
+      "domain": "artificialintelligence.unitedscientificgroup.org",
+      "description": "AIM-2027 is a high-level scientific event that will give great knowledge to all the researchers in AI, Machine Learning, and Robotics. An inspiring program by the Scientific Organizing Committee addresses new trends and emerging subjects in the field of Artificial Intelligence, Machine Learning, ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
+        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 6
+    },
+    {
+      "id": "web-3312ed251577098a4025",
+      "name": "Artificial Intelligence and Materials Science Conferences | ...",
+      "url": "https://magnusconferences.com/materials-science/program/scientific-sessions/artificial-intelligence-and-materials-science",
+      "domain": "magnusconferences.com",
+      "description": "Artificial Intelligence and Materials Science Conferences, Artificial Intelligence and Materials Science Conference, Artificial Intelligence and Materials Science Conferences 2026, Artificial Intelligence and Materials Science Conference 2026",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
+      "seen_count": 1
+    },
+    {
+      "id": "web-186157f04294abd715c4",
+      "name": "Artificial Intelligence Conferences | AI Conferences 2027 | Data ...",
+      "url": "https://artificialintelligence.novelticsconferences.com/",
+      "domain": "artificialintelligence.novelticsconferences.com",
+      "description": "Join the 3rd International Conference on Artificial Intelligence & Machine Learning 2027 to explore AI innovations, machine learning, emerging technologies, and global collaboration.",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-5c5fe3fd8ee703c7e44d",
+      "name": "Chemical Science symposium 2026: Digital chemistry in the age of ...",
+      "url": "https://rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
+      "domain": "rsc.org",
+      "description": "Log in to access your member benefits, update your details and more · Explore our prize winners to find profiles, see photo galleries, get insights into their work, and read a question and answer session with the prize winner",
+      "topics": [
+        "automation and digital chemistry"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: symposium",
+        "future year: 2026",
+        "research topic: automation and digital chemistry"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
+        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
+        "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 9
+    },
+    {
+      "id": "web-6cb4326b571e1fb0963c",
+      "name": "Cheminformatics Resources of U.S. Governmental Organizations 2026 ...",
+      "url": "https://fda.gov/news-events/fda-meetings-conferences-and-workshops/cheminformatics-resources-us-governmental-organizations-2026-workshop-01052026",
+      "domain": "fda.gov",
+      "description": "The FDA Modeling and Simulation Working Group, Chemical Informatics and Modeling Interest Group will be hosting their annual hybrid-workshop January 5 - 7, 2026.",
+      "topics": [
+        "automation and digital chemistry"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: workshop",
+        "future year: 2026",
+        "research topic: automation and digital chemistry"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
+        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
+        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
+        "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 12
+    },
+    {
+      "id": "web-1c0b2cf933a6abfd29d8",
+      "name": "Computational Chemistry Conferences 2026/2027/2028 - Conference Index",
+      "url": "https://conferenceindex.org/conferences/computational-chemistry",
+      "domain": "conferenceindex.org",
+      "description": "Computational Chemistry Conferences 2026 2027 2028 is for the researchers, scientists, scholars, engineers, academic, scientific and university practitioners to present research activities that might want to attend events, meetings, seminars, congresses, workshops, summit, and symposiums.",
+      "topics": [
+        "simulation and theory"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, symposium, workshop",
+        "future year: 2026, 2027, 2028",
+        "research topic: simulation and theory"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
+        "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
+        "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 9
+    },
+    {
       "id": "web-f1f3f699989e1f23aef9",
       "name": "Frontiers of Metastable Materials Development Using Artificial ...",
       "url": "https://nationalacademies.org/projects/DEPS-BPA-25-02/events/archive",
@@ -1221,35 +1369,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
-    },
-    {
-      "id": "web-3f3c2d2d8677573885da",
-      "name": "Home | 9th MABC Cambridge",
-      "url": "https://mabc-cambridge.ai/",
-      "domain": "mabc-cambridge.ai",
-      "description": "The 9th MABC Cambridge: International Conference on Machine Learning (ML) and AI in (bio)Chemical Engineering will take place on 06-07 July 2026.",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-28T06:53:21Z",
-      "seen_count": 1,
-      "reviewed_at": "2026-10-28T10:30:17Z",
-      "user_decision": "dismiss",
-      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
+      "seen_count": 3
     },
     {
       "id": "web-312a9278bcc0e32a7a00",
@@ -1270,9 +1392,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-5e59b0f4402c8b1854a4",
@@ -1293,9 +1415,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-61eec2686833e0066102",
@@ -1318,9 +1440,9 @@
         "2028 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 6
+      "seen_count": 9
     },
     {
       "id": "web-9074c5d8ffcadd36a959",
@@ -1341,9 +1463,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-795ebf6e4df047c2e40c",
@@ -1364,16 +1486,16 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-80c8b942e8c35ccc2f1e",
       "name": "MATERIALS SCIENCE 2027: Advanced Materials, Nanotechnology, & ...",
       "url": "https://srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
       "domain": "srcmeetings.com",
-      "description": "BioIntelli 2026: World Congress on Artificial Intelligence, Bioinformatics & Computational Biology November 19–20, 2026 | Tokyo, Japan Venue: ANA Holiday... ... Welcome to the International Conference on Green Chemistry: Next-Generation Organic Materials & Polymers 2027 ...",
+      "description": "Bio intelligence 2026: World Congress on Artificial Intelligence, Bioinformatics & Computational Biology November 19–20, 2026 | Tokyo, Japan Venue: The St... ... Welcome to the International Conference on Green Chemistry: Next-Generation Organic Materials & Polymers 2027 ...",
       "topics": [
         "AI and machine learning"
       ],
@@ -1387,9 +1509,9 @@
         "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-21c17745142e252f46fe",
@@ -1410,9 +1532,9 @@
         "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-e1461f6e5bb4dbe225cb",
@@ -1433,9 +1555,9 @@
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-feb351a2e9a58792d4ca",
@@ -1456,9 +1578,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-dabe00b2b83fb5227771",
@@ -1479,35 +1601,32 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
-      "id": "web-10fa3015848205887cd5",
-      "name": "The 2026 MATERIALS SCIENCE Agenda: Global Conferences You Can't ...",
-      "url": "https://worldconferencecalendar.com/blog/the-2026-materials-sciences-agenda-global-conferences-you-cant-miss-bftssca",
-      "domain": "worldconferencecalendar.com",
-      "description": "Automation is rapidly transforming industries across the globe, redefining how organizations operate, innovate, and compete. From intelligent robotics and...",
+      "id": "web-f2bc4ffc6339faab400c",
+      "name": "The Best Artificial Intelligence Conferences & Events of 2026 | Splunk",
+      "url": "https://splunk.com/en_us/blog/learn/ai-artificial-intelligence-conferences-events.html",
+      "domain": "splunk.com",
+      "description": "Discover the top AI and machine learning conferences of 2026, featuring global events, expert speakers, and networking opportunities to advance your AI knowledge and career.",
       "topics": [
-        "automation and digital chemistry"
+        "AI and machine learning"
       ],
       "score": 5,
       "reasons": [
         "event wording: conference",
         "future year: 2026",
-        "research topic: automation and digital chemistry"
+        "research topic: AI and machine learning"
       ],
       "queries": [
-        "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-28T06:53:21Z",
-      "seen_count": 1,
-      "reviewed_at": "2026-10-28T10:30:17Z",
-      "user_decision": "dismiss",
-      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
+      "seen_count": 1
     },
     {
       "id": "web-734562f82673ef618004",
@@ -1528,9 +1647,9 @@
         "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-eff8269d5a7028d5771d",
@@ -1552,66 +1671,41 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
-    },
-    {
-      "id": "web-20d9b98969775ee50151",
-      "name": "Top 13 AI Conferences for 2026 | DataCamp",
-      "url": "https://datacamp.com/blog/top-ai-conferences",
-      "domain": "datacamp.com",
-      "description": "Discover the most popular AI conferences and events scheduled for 2026.",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-28T06:53:21Z",
-      "seen_count": 1,
-      "reviewed_at": "2026-10-28T10:30:17Z",
-      "user_decision": "dismiss",
-      "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
+      "seen_count": 5
     },
     {
       "id": "web-0383dfcb8aba4f6e7520",
-      "name": "Top AI & Machine Learning Congress | Global Artificial Intelligence ...",
+      "name": "Top AI & Machine learning 2027 Congress | Global Artificial ...",
       "url": "https://artificialintelligence.conferenceseries.com/",
       "domain": "artificialintelligence.conferenceseries.com",
-      "description": "Join us for the 7th International Congress on AI and Machine Learning, taking place on June 18–19, 2026 in Paris, France. This global event will spotlight the latest advancements in Artificial Intelligence, Deep Learning, Generative AI, Large Language Models, Computer Vision, Natural Language ...",
+      "description": "Join the 8th International Congress on AI and Machine Learning, scheduled on March 22–23, 2027 in Rome, Italy, to explore breakthroughs in artificial intelligence, machine learning, deep learning, generative AI, intelligent systems and emerging AI technologies.",
       "topics": [
         "AI and machine learning"
       ],
       "score": 5,
       "reasons": [
         "event wording: congress",
-        "future year: 2026",
+        "future year: 2027",
         "research topic: AI and machine learning"
       ],
       "queries": [
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
-        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
+        "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
+      "seen_count": 6
     },
     {
       "id": "web-60e13466d07eb50bada7",
-      "name": "Top AI & Machine Learning Symposium in 2026",
+      "name": "Top AI & Machine Learning Symposium in 2026 · DSC Next",
       "url": "https://dscnextconference.com/top-ai-machine-learning-symposium-in-2026",
       "domain": "dscnextconference.com",
-      "description": "As AI and machine learning continue to transform industries, 2026 promises an exciting lineup of global conferences that will shape the future of intelligent technologies. From theory to real-world applications, these symposiums gather leading minds in academia, industry, and innovation.",
+      "description": "As AI and machine learning continue to transform industries, 2026 promises an exciting lineup of global conferences that will shape the future of intelligent te",
       "topics": [
         "AI and machine learning"
       ],
@@ -1625,9 +1719,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-a397ddc54966f8fc64cf",
@@ -1648,9 +1742,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-60a6e97cb3fd90a0bf20",
@@ -1671,9 +1765,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-49e59e5b5d0ff1bbf3c6",
@@ -1694,29 +1788,29 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
-      "id": "web-8d4004f733312453aeb0",
-      "name": "Promedicon 2027 – Top International Medicinal Chemistry Conference",
-      "url": "https://medicinalchemistryconference.com/",
-      "domain": "medicinalchemistryconference.com",
-      "description": "Promedicon 2027- Top International Medicinal Chemistry Conference and Exhibition in Japan. Best drug discovery congress for researchers, major pharma companies, students for high-quality networking.",
+      "id": "web-153e65bcf0fc88bf2c04",
+      "name": "Researchfoundation",
+      "url": "https://researchfoundation.net/event/index.php?id=100971672",
+      "domain": "researchfoundation.net",
+      "description": "Early Bird Registration : 27th October 2026 · Paper Submission : 6th November, 2026",
       "topics": [],
       "score": 4,
       "reasons": [
-        "event wording: conference, congress",
-        "future year: 2027"
+        "conference planning wording: registration",
+        "future year: 2026"
       ],
       "queries": [
-        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-27T21:11:15Z",
+      "last_seen_at": "2026-10-28T06:53:21Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-691ae2e1a9ca08b650aa",
@@ -1734,9 +1828,9 @@
         "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-a1012dc2fc5f4a11b7e3",
@@ -1757,9 +1851,9 @@
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-a9716b790e2a45e2f129",
@@ -1779,9 +1873,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 5
+      "seen_count": 8
     },
     {
       "id": "web-760a3924cf8a24fc9142",
@@ -1800,9 +1894,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
+      "seen_count": 6
     },
     {
       "id": "web-bcea4d35a4c19afb4279",
@@ -1820,9 +1914,29 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "id": "web-01de502ac41834737358",
+      "name": "AICMSN2027 | Materials Science Conference | Materials Science and ...",
+      "url": "https://aicmsn2027.synergiasummits.com/",
+      "domain": "aicmsn2027.synergiasummits.com",
+      "description": "conference, meeting, symposium, summit, abstracts, registration, cell biology, molecular biology, speakers, plenary speakers, keynote speakers, call for papers, call for abstracts",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference, symposium, meeting",
+        "conference planning wording: call for papers, registration"
+      ],
+      "queries": [
+        "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
+      "seen_count": 1
     },
     {
       "id": "web-db49c96574e3d2666844",
@@ -1841,9 +1955,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
+      "seen_count": 6
     },
     {
       "id": "web-7ea2c50c27beee67c564",
@@ -1862,9 +1976,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
+      "seen_count": 6
     },
     {
       "id": "web-c93c99f4838824e96963",
@@ -1882,9 +1996,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-057f547d2647086edcab",
@@ -1902,9 +2016,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-df929a5fe446e56d8657",
@@ -1922,9 +2036,9 @@
         "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-0ac2983c9fbd04fa3ed3",
@@ -1942,9 +2056,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-779b04bb18b2d0ef6065",
@@ -1966,9 +2080,29 @@
         "2027 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 3
+      "seen_count": 5
+    },
+    {
+      "id": "web-800503c17cd056b758b9",
+      "name": "Chemistry Meeting | Chemistry Meeting| Chemical Engineering Conference",
+      "url": "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
+      "domain": "chemistrymeeting.chemistryconferences.org",
+      "description": "Conference series inviting participants for the 17th International Conference on Chemistry is scheduled for February 25-26, 2027 in Paris, France",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference, meeting",
+        "future year: 2027"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
+      "seen_count": 1
     },
     {
       "id": "web-d0171d6e83820a0be525",
@@ -1986,9 +2120,9 @@
         "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-a20c8fc1b588af6d1e25",
@@ -2009,9 +2143,9 @@
         "2028 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-ee952f78c6c39a1c9167",
@@ -2033,9 +2167,9 @@
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-28T06:53:21Z",
-      "seen_count": 2,
+      "seen_count": 3,
       "reviewed_at": "2026-10-28T10:30:17Z",
       "user_decision": "keep",
       "review_note": "User selected candidate 6 to retain. The specific edition, dates, location and organiser remain unverified; this is not a formal catalogue entry."
@@ -2056,9 +2190,9 @@
         "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-d153486281b0f944417b",
@@ -2077,9 +2211,9 @@
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 4
+      "seen_count": 6
     },
     {
       "id": "web-447e983fa809a2c5cfdd",
@@ -2097,9 +2231,9 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "id": "web-9fa125c4df62f65f865d",
@@ -2118,9 +2252,9 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 3
+      "seen_count": 5
     },
     {
       "id": "web-7bb62277d1fd050e6bb5",
@@ -2140,9 +2274,9 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 6
+      "seen_count": 9
     },
     {
       "id": "web-e7c8336d6e33c27f3418",
@@ -2160,7 +2294,27 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 3
+    },
+    {
+      "id": "web-8d4004f733312453aeb0",
+      "name": "Promedicon 2027 – Top International Medicinal Chemistry Conference",
+      "url": "https://medicinalchemistryconference.com/",
+      "domain": "medicinalchemistryconference.com",
+      "description": "Promedicon 2027- Top International Medicinal Chemistry Conference and Exhibition in Japan. Best drug discovery congress for researchers, major pharma companies, students for high-quality networking.",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference, congress",
+        "future year: 2027"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 2
     },
@@ -2182,28 +2336,29 @@
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 6
+      "seen_count": 8
     },
     {
-      "id": "web-153e65bcf0fc88bf2c04",
-      "name": "Researchfoundation",
-      "url": "https://researchfoundation.net/event/index.php?id=100971672",
-      "domain": "researchfoundation.net",
-      "description": "Early Bird Registration : 27th October 2026 · Paper Submission : 6th November, 2026",
+      "id": "web-83aed8d8ad084f172578",
+      "name": "Top Chemistry Conferences 2026 and 2027 | USA Europe | Asia | ...",
+      "url": "https://chemistryconferences.com/",
+      "domain": "chemistryconferences.com",
+      "description": "Network with world-renowned experts and pioneers in chemistry as you discover groundbreaking research at Global Chemistry Conferences in 2026 and 2027-including Europe, North America, Asia-Pacific, the Middle East and beyond.",
       "topics": [],
       "score": 4,
       "reasons": [
-        "conference planning wording: registration",
-        "future year: 2026"
+        "event wording: conference",
+        "future year: 2026, 2027"
       ],
       "queries": [
-        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
+        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
+        "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-10-28T06:53:21Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
+      "last_seen_at": "2026-10-29T07:08:30Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
       "seen_count": 2
     }
   ]
