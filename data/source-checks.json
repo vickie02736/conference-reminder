@@ -1204,18 +1204,18 @@
       "fingerprint_version": 2
     },
     "https://virtual.aistats.org/Conferences/2027/CallForPapers": {
-      "last_checked_at": "2026-10-29T07:08:30Z",
+      "last_checked_at": "2026-10-29T11:34:41Z",
       "status": "checked",
-      "hash": "b55b7fdabea4dc642a8031275299b179839f79b04a58cbb62ec39a4de80e990d",
-      "last_success_at": "2026-10-29T07:08:30Z",
+      "hash": "66292341e941b86eef34d42d04226ab20f9cf5238c9863277d7f1068e2d3dec5",
+      "last_success_at": "2026-10-29T11:34:41Z",
       "content_type": "text/html",
       "message": null,
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "aistats-2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "message": null,
+          "reason": null
         }
       },
       "fingerprint_version": 2
@@ -2775,10 +2775,10 @@
       }
     },
     "https://aistats.org/aistats2027/committee.html": {
-      "last_checked_at": "2026-10-29T07:08:30Z",
+      "last_checked_at": "2026-10-29T11:34:41Z",
       "status": "checked",
-      "hash": "e31a263d1b659ee8359034b5f7d19e4b12e7a1621360f2d972c3abd1c1ca2ead",
-      "last_success_at": "2026-10-29T07:08:30Z",
+      "hash": "d1716861039e82a2034527214a9c0fb022f2cf13342bbcb3bc11417f7efb4e85",
+      "last_success_at": "2026-10-29T11:34:41Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
       "message": null,
@@ -3517,6 +3517,262 @@
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "zmpc2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://virtual.aistats.org/Conferences/2027/Dates": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "11b28c1eee2b33a29c1b03c0ae440a3585414fc00382304ddf81cd4e015c7945",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aistats-2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://virtual.aistats.org/Conferences/2027/CallForJournalTrack": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "921ea8473a74614d33e3916b798f5f28f918cf008d6022c8decd3b31a055df2e",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aistats-2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://virtual.aistats.org/Conferences/2027/CallForWorkshops": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "00cc5a07f173c0fa400a211ccd79087b73cb870eebb5411d78664cd241c936c1",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aistats-2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "80654299345213dbb414209f35a4037f14b02ed0adffdaf8c3b74a3789207be5",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "application/pdf",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "iccsiw-2026": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://magnusconferences.com/materials-science/": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "baeed56b870845d845721b9c4ae0a28df66aafa54eb763d32713d8a9d14a0d94",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "materials-2027-magnus": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://magnusconferences.com/materials-science/program/scientific-sessions/artificial-intelligence-and-materials-science": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "3d1fac5bfe349964a4e1e9fb868d976762cf64e7b79bfea5f93081aa4f8416d4",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "materials-2027-magnus": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://magnusconferences.com/materials-science/information/important-dates": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "d6a354e8ab662c73dfe0ccc57539d8dd96f3f8e26ac766c742f8cddbc7ebb3e0",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "materials-2027-magnus": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://magnusconferences.com/materials-science/register": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "7975629bafefaa574d3edfebc96ac36f7c23c34b386a5ac805099ff3559ffbb5",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "materials-2027-magnus": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://magnusconferences.com/materials-science/submit-abstract": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "efa2619f95efb6e069e1bb7071ecd8f517e9eab8f72862eb488ca239beca3a0d",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "materials-2027-magnus": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://magnusconferences.com/materials-science/scientific-committee/2027": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "b94fa2c1e7f9e2047c05aa10a62a1ac5c0a0108c4f518ecb9c5ed5928a09e30b",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "materials-2027-magnus": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://magnusconferences.com/materials-science/speaker/manjunatha-channegowda": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "d6647dac928fc80695bd58823d13ed9664a2e03e2d7fa18ae53a7db6e04be22f",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "materials-2027-magnus": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://aicmsn2027.synergiasummits.com/": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "29a499453fcf42fa2144e36310a386d0907f4f0eaaee69957f6639cac30304cf",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aicmsn-2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://aicmsn2027.synergiasummits.com/abstract": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "b6fab2cac1f80ebeb6f33fe91ed4a9a3b3e1c23ea91cc81af9fdf05247f70011",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aicmsn-2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://aicmsn2027.synergiasummits.com/register": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "6e60e5c156470de78ed6059a8b7622959fe828cfe264ee192888d4667c1924e9",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aicmsn-2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://aicmsn2027.synergiasummits.com/venue": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "be271dc7c7acfb24a267d16b9fa8853d94b27c3e11d2e7d9fa24beecb3bb9c44",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aicmsn-2027": {
+          "review_required": false,
+          "message": null,
+          "reason": null
+        }
+      }
+    },
+    "https://aicmsn2027.synergiasummits.com/committee": {
+      "last_checked_at": "2026-10-29T11:34:41Z",
+      "status": "checked",
+      "hash": "b639cfb82cdcfc22b39673aa3664b5d7a63bca49d73a664bb8ee1872c849cf76",
+      "last_success_at": "2026-10-29T11:34:41Z",
+      "content_type": "text/html",
+      "message": null,
+      "fingerprint_version": 2,
+      "checks": {
+        "aicmsn-2027": {
           "review_required": false,
           "message": null,
           "reason": null

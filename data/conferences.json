@@ -3,13 +3,13 @@
   "metadata": {
     "schema_version": 1,
     "verified_on": "2026-10-27",
-    "scope": "Future AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration are retained.",
-    "count": 101,
+    "scope": "AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration and past activities specifically retained by the user are included.",
+    "count": 104,
     "watchlist_count": 6,
     "regions": {
       "UK": 25,
-      "Europe": 45,
-      "Other": 37
+      "Europe": 46,
+      "Other": 39
     },
     "notes": [
       "A non-exhaustive research snapshot based on conference, organiser, society and university sources.",
@@ -21,8 +21,8 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-10-29T07:08:30Z",
-    "last_updated_at": "2026-10-28T12:19:19Z",
-    "people_reviewed_on": "2026-10-28"
+    "last_updated_at": "2026-10-29T11:34:41Z",
+    "people_reviewed_on": "2026-10-29"
   },
   "events": [
     {
@@ -11981,24 +11981,25 @@
       "location": "Montréal, Canada",
       "region": "Other",
       "type": "Conference",
-      "deadline": "Regular abstracts closed on 29 September 2026; full papers closed on 6 October 2026. Journal-to-Conference submissions: 18 January 2027 AoE; check eligibility.",
-      "status": "Regular submissions closed; a separate Journal-to-Conference route is available.",
-      "note": "AI, statistical learning and uncertainty; relevance to materials depends on the methods. Journal-to-Conference is not an ordinary new-paper submission route.",
+      "deadline": "Regular abstracts: 29 September 2026, 23:59 AoE; full papers: 6 October 2026, 23:59 AoE (both closed). Workshop proposals: 30 October 2026 at 22:59 CET (21:59 UTC). Journal-to-Conference requests: 18 January 2027 AoE; eligibility restrictions apply.",
+      "status": "Workshop proposals invited. Journal-to-Conference submissions open for eligible journal papers. Registration opening unconfirmed.",
+      "note": "Statistical machine learning and uncertainty. Workshops take place on 3 May; the main programme is 4–6 May. Journal-to-Conference is for eligible published or accepted journal papers. The dedicated workshop call overrides the older generic AoE cutoff.",
       "sources": [
-        "https://virtual.aistats.org/",
-        "https://aistats.org/aistats2027/dates.html",
         "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+        "https://virtual.aistats.org/Conferences/2027/Dates",
+        "https://virtual.aistats.org/Conferences/2027/CallForJournalTrack",
+        "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
         "https://aistats.org/aistats2027/committee.html"
       ],
-      "url": "https://virtual.aistats.org/",
+      "url": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
       "priority": 3,
-      "verified_on": "2026-10-27",
-      "evidence": "",
+      "verified_on": "2026-10-29",
+      "evidence": "Official calls and dates reviewed on 29 October 2026: Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 22 October gives 30 October at 22:59 CET, matching 21:59 UTC on the dates page; this supersedes the older generic AoE wording.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://virtual.aistats.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://aistats.org/aistats2027/dates.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://virtual.aistats.org/Conferences/2027/CallForPapers: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "status": "checked",
+        "last_checked_at": "2026-10-29T11:34:41Z",
+        "last_verified_at": "2026-10-29T11:34:41Z",
+        "message": null
       },
       "milestones": [
         {
@@ -12009,7 +12010,7 @@
           "timezone": null,
           "id": "aistats-2027:conference-start",
           "version": 1,
-          "source": "https://virtual.aistats.org/",
+          "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
           "precision": "date",
           "status": "verified",
           "evidence": "The linked official source lists this date."
@@ -12022,7 +12023,7 @@
           "timezone": null,
           "id": "aistats-2027:conference-end",
           "version": 1,
-          "source": "https://virtual.aistats.org/",
+          "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
           "precision": "date",
           "status": "verified",
           "evidence": "End date from the source-verified official event date range; exact end time is not published."
@@ -12031,27 +12032,27 @@
           "kind": "abstract",
           "label": "Regular abstracts",
           "date": "2026-09-29",
-          "time": null,
+          "time": "23:59",
           "timezone": "Etc/GMT+12",
           "id": "aistats-2027:abstract",
-          "version": 1,
-          "source": "https://virtual.aistats.org/",
-          "precision": "date",
+          "version": 2,
+          "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+          "precision": "datetime",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "The official Call for Papers gives this deadline at 23:59 Anywhere on Earth (AoE)."
         },
         {
           "kind": "paper",
           "label": "Full papers",
           "date": "2026-10-06",
-          "time": null,
+          "time": "23:59",
           "timezone": "Etc/GMT+12",
           "id": "aistats-2027:paper",
-          "version": 1,
-          "source": "https://virtual.aistats.org/",
-          "precision": "date",
+          "version": 2,
+          "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+          "precision": "datetime",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "The official Call for Papers gives this deadline at 23:59 Anywhere on Earth (AoE)."
         },
         {
           "kind": "paper",
@@ -12061,10 +12062,23 @@
           "timezone": "Etc/GMT+12",
           "id": "aistats-2027:journal-to-conference",
           "version": 1,
-          "source": "https://virtual.aistats.org/",
+          "source": "https://virtual.aistats.org/Conferences/2027/CallForJournalTrack",
           "precision": "date",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "The dedicated official journal-track call gives 18 January 2027 AoE; the date-level precision is retained."
+        },
+        {
+          "id": "aistats-2027:workshop-proposals",
+          "kind": "other",
+          "label": "Workshop proposal submission deadline",
+          "date": "2026-10-30",
+          "time": "22:59",
+          "timezone": "Europe/Paris",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
+          "evidence": "The workshop call updated on 22 October specifies 30 October 2026 at 10:59pm CET; the dates page confirms 21:59 UTC."
         }
       ],
       "people": {
@@ -12115,13 +12129,10 @@
         ],
         "speakers": [],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "status": "published",
         "note": "Named leadership from the 2027 organising committee page; no keynote or attendee list was found in the reviewed sources.",
         "sources": [
-          "https://virtual.aistats.org/",
-          "https://aistats.org/aistats2027/dates.html",
-          "https://virtual.aistats.org/Conferences/2027/CallForPapers",
           "https://aistats.org/aistats2027/committee.html"
         ]
       }
@@ -15758,6 +15769,426 @@
           "https://multimodalai.github.io/"
         ]
       }
+    },
+    {
+      "id": "iccsiw-2026",
+      "name": "ICCSIW 2026 — Chemistry for Science, Innovation and Well-Being",
+      "tags": [
+        "Materials Chemistry",
+        "Simulation"
+      ],
+      "start": "2026-10-14",
+      "end": "2026-10-15",
+      "date": "2026-10-14 — 2026-10-15",
+      "location": "Miranda House, University of Delhi, Delhi 110007, India",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Registration closed on 30 September 2026; abstracts closed on 5 October 2026. No cutoff clock times were published.",
+      "status": "Finished; the published conference dates and abstract/registration deadlines have passed.",
+      "note": "Retained at the user’s request as a past conference. Themes include sustainable chemistry, materials innovation and health. No next edition is inferred.",
+      "sources": [
+        "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf"
+      ],
+      "url": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+      "priority": 3,
+      "verified_on": "2026-10-29",
+      "evidence": "Manually checked the organiser’s image-only conference poster: 14–15 October 2026 at Miranda House; registration 30 September and abstracts 5 October. The PDF has no extractable text.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-29T11:34:41Z",
+        "last_verified_at": "2026-10-29T11:34:41Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "iccsiw-2026:conference-start",
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2026-10-14",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+          "evidence": "The organiser confirms the conference date range; no start clock time is published."
+        },
+        {
+          "id": "iccsiw-2026:conference-end",
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-10-15",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+          "evidence": "The organiser confirms the conference date range; no end clock time is published."
+        },
+        {
+          "id": "iccsiw-2026:registration",
+          "kind": "registration",
+          "label": "Registration deadline",
+          "date": "2026-09-30",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+          "evidence": "The official poster gives 30 September 2026; no clock time or time zone is specified."
+        },
+        {
+          "id": "iccsiw-2026:abstract",
+          "kind": "abstract",
+          "label": "Abstract submission deadline",
+          "date": "2026-10-05",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+          "evidence": "The official poster gives 5 October 2026; no clock time or time zone is specified."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Department of Chemistry, Miranda House, University of Delhi",
+            "role": "Organising department",
+            "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Priyamvada Singh",
+            "role": "Convenor",
+            "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+            "affiliation": "Miranda House"
+          },
+          {
+            "name": "Mallika Pathak",
+            "role": "Co-convenor",
+            "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+            "affiliation": "Miranda House"
+          },
+          {
+            "name": "Nutan Rani",
+            "role": "Co-convenor",
+            "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+            "affiliation": "Miranda House"
+          }
+        ],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-10-29",
+        "status": "published",
+        "note": "Selected published organisers from the official poster; the full speaker roster is not transcribed.",
+        "sources": [
+          "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf"
+        ]
+      }
+    },
+    {
+      "id": "materials-2027-magnus",
+      "name": "Materials 2027 — 10th International Conference on Materials Science and Engineering",
+      "tags": [
+        "General Materials",
+        "AI for Materials",
+        "Materials Informatics",
+        "ML",
+        "Simulation"
+      ],
+      "start": "2027-03-18",
+      "end": "2027-03-20",
+      "date": "2027-03-18 — 2027-03-20",
+      "location": "Village Hotel Changi, Singapore / online (hybrid)",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Abstract rounds: 29 October 2026, 29 December 2026 and 3 March 2027. Early-bird registration: 31 October 2026. Published cutoffs use 23:59 Singapore time. The 31 December mid-term registration date is a fee stage, not a verified final attendance cutoff.",
+      "status": "Abstract submissions and registration open. Later abstract rounds are announced.",
+      "note": "Includes the Artificial Intelligence, Machine Learning and Materials Informatics track, covering materials discovery, predictive modelling, automated experimentation and digital twins. The track is part of this parent meeting. Final programme and virtual-access details are pending.",
+      "sources": [
+        "https://magnusconferences.com/materials-science/",
+        "https://magnusconferences.com/materials-science/program/scientific-sessions/artificial-intelligence-and-materials-science",
+        "https://magnusconferences.com/materials-science/information/important-dates",
+        "https://magnusconferences.com/materials-science/register",
+        "https://magnusconferences.com/materials-science/submit-abstract",
+        "https://magnusconferences.com/materials-science/scientific-committee/2027",
+        "https://magnusconferences.com/materials-science/speaker/manjunatha-channegowda"
+      ],
+      "url": "https://magnusconferences.com/materials-science/",
+      "priority": 2,
+      "verified_on": "2026-10-29",
+      "evidence": "The organiser’s conference, track and Important Dates pages confirm 18–20 March 2027 at Village Hotel Changi plus online participation, three abstract rounds and Singapore-time cutoffs.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-29T11:34:41Z",
+        "last_verified_at": "2026-10-29T11:34:41Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "materials-2027-magnus:conference-start",
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-03-18",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://magnusconferences.com/materials-science/",
+          "evidence": "The organiser confirms the conference date range; no start clock time is published."
+        },
+        {
+          "id": "materials-2027-magnus:conference-end",
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-20",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://magnusconferences.com/materials-science/",
+          "evidence": "The organiser confirms the conference date range; no end clock time is published."
+        },
+        {
+          "id": "materials-2027-magnus:abstract-round-1",
+          "kind": "abstract",
+          "label": "First-round abstract submission deadline",
+          "date": "2026-10-29",
+          "time": "23:59",
+          "timezone": "Asia/Singapore",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://magnusconferences.com/materials-science/information/important-dates",
+          "evidence": "The official Important Dates page specifies this round’s cutoff at 23:59 Singapore time (UTC+8)."
+        },
+        {
+          "id": "materials-2027-magnus:abstract-round-2",
+          "kind": "abstract",
+          "label": "Second-round abstract submission deadline",
+          "date": "2026-12-29",
+          "time": "23:59",
+          "timezone": "Asia/Singapore",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://magnusconferences.com/materials-science/information/important-dates",
+          "evidence": "The official Important Dates page specifies this round’s cutoff at 23:59 Singapore time (UTC+8)."
+        },
+        {
+          "id": "materials-2027-magnus:abstract-final",
+          "kind": "abstract",
+          "label": "Final-round abstract submission deadline",
+          "date": "2027-03-03",
+          "time": "23:59",
+          "timezone": "Asia/Singapore",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://magnusconferences.com/materials-science/information/important-dates",
+          "evidence": "The official Important Dates page specifies this round’s cutoff at 23:59 Singapore time (UTC+8)."
+        },
+        {
+          "id": "materials-2027-magnus:early-registration",
+          "kind": "early_registration",
+          "label": "Early-bird registration deadline",
+          "date": "2026-10-31",
+          "time": "23:59",
+          "timezone": "Asia/Singapore",
+          "precision": "datetime",
+          "status": "verified",
+          "version": 1,
+          "source": "https://magnusconferences.com/materials-science/information/important-dates",
+          "evidence": "The official Important Dates page gives 31 October 2026 at 23:59 Singapore time."
+        },
+        {
+          "id": "materials-2027-magnus:registration",
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "precision": "unknown",
+          "status": "unknown",
+          "version": 1,
+          "source": "https://magnusconferences.com/materials-science/information/important-dates",
+          "evidence": "The page lists early/mid-term fee stages and on-site registration opening, but no final attendance-registration cutoff."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Magnus Group",
+            "role": "Conference organiser",
+            "source": "https://magnusconferences.com/materials-science/"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Manjunatha Channegowda",
+            "role": "Scientific committee member",
+            "source": "https://magnusconferences.com/materials-science/scientific-committee/2027",
+            "affiliation": "RV College of Engineering"
+          },
+          {
+            "name": "Paulo Cesar De Morais",
+            "role": "Scientific committee member",
+            "source": "https://magnusconferences.com/materials-science/scientific-committee/2027",
+            "affiliation": "Catholic University of Brasilia"
+          }
+        ],
+        "speakers": [
+          {
+            "name": "Manjunatha Channegowda",
+            "role": "Keynote speaker",
+            "source": "https://magnusconferences.com/materials-science/speaker/manjunatha-channegowda",
+            "affiliation": "RV College of Engineering"
+          }
+        ],
+        "participants": [],
+        "checked_on": "2026-10-29",
+        "status": "published",
+        "note": "Selected current-edition scientific committee and keynote entries; earlier-edition research examples on the track page are excluded.",
+        "sources": [
+          "https://magnusconferences.com/materials-science/",
+          "https://magnusconferences.com/materials-science/scientific-committee/2027",
+          "https://magnusconferences.com/materials-science/speaker/manjunatha-channegowda"
+        ]
+      }
+    },
+    {
+      "id": "aicmsn-2027",
+      "name": "AICMSN 2027 — 3rd Annual International Conference on Materials Science and Nanoscience",
+      "tags": [
+        "General Materials"
+      ],
+      "start": "2027-04-26",
+      "end": "2027-04-28",
+      "date": "2027-04-26 — 2027-04-28",
+      "location": "Athens, Greece — exact venue to be announced",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "First-round abstract submission: 31 December 2026; no cutoff time or time zone published. Final registration deadline not verified. Published early-bird dates have passed.",
+      "status": "Abstract submissions invited; registration is offered. Published early-bird dates have passed; confirm current fees.",
+      "note": "Low-dimensional and functional materials, energy storage and catalysis. The venue page gives Athens only. Registration forms are available, but the site still displays expired early-bird dates from June/August 2026; confirm fees with the organiser.",
+      "sources": [
+        "https://aicmsn2027.synergiasummits.com/",
+        "https://aicmsn2027.synergiasummits.com/abstract",
+        "https://aicmsn2027.synergiasummits.com/register",
+        "https://aicmsn2027.synergiasummits.com/venue",
+        "https://aicmsn2027.synergiasummits.com/committee"
+      ],
+      "url": "https://aicmsn2027.synergiasummits.com/",
+      "priority": 3,
+      "verified_on": "2026-10-29",
+      "evidence": "The organiser confirms 26–28 April 2027 in Athens. The abstract page gives a first-round deadline of 31 December 2026. The venue page says the exact location will be updated.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-10-29T11:34:41Z",
+        "last_verified_at": "2026-10-29T11:34:41Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "aicmsn-2027:conference-start",
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-04-26",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://aicmsn2027.synergiasummits.com/",
+          "evidence": "The organiser confirms the conference date range; no start clock time is published."
+        },
+        {
+          "id": "aicmsn-2027:conference-end",
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-04-28",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://aicmsn2027.synergiasummits.com/",
+          "evidence": "The organiser confirms the conference date range; no end clock time is published."
+        },
+        {
+          "id": "aicmsn-2027:abstract-round-1",
+          "kind": "abstract",
+          "label": "First-round abstract submission deadline",
+          "date": "2026-12-31",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://aicmsn2027.synergiasummits.com/abstract",
+          "evidence": "The official abstract page gives 31 December 2026; no cutoff time or time zone is specified."
+        },
+        {
+          "id": "aicmsn-2027:registration",
+          "kind": "registration",
+          "label": "Registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "precision": "unknown",
+          "status": "unknown",
+          "version": 1,
+          "source": "https://aicmsn2027.synergiasummits.com/register",
+          "evidence": "The registration form is available, but no final registration cutoff is published."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Synergia Summits Private Limited",
+            "role": "Conference organiser",
+            "source": "https://aicmsn2027.synergiasummits.com/abstract"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Ute Kaiser",
+            "role": "Conference Chair",
+            "source": "https://aicmsn2027.synergiasummits.com/committee",
+            "affiliation": "Ulm University"
+          },
+          {
+            "name": "Dieter Bimberg",
+            "role": "Committee member",
+            "source": "https://aicmsn2027.synergiasummits.com/committee",
+            "affiliation": "CIOMP of CAS and TU Berlin"
+          }
+        ],
+        "speakers": [
+          {
+            "name": "Claudia Draxl",
+            "role": "Plenary speaker",
+            "source": "https://aicmsn2027.synergiasummits.com/",
+            "affiliation": "Humboldt University of Berlin"
+          }
+        ],
+        "participants": [],
+        "checked_on": "2026-10-29",
+        "status": "published",
+        "note": "Selected current-edition chair, committee and plenary entries announced by the organiser; attendance is not independently confirmed.",
+        "sources": [
+          "https://aicmsn2027.synergiasummits.com/",
+          "https://aicmsn2027.synergiasummits.com/committee",
+          "https://aicmsn2027.synergiasummits.com/abstract"
+        ]
+      }
     }
   ],
   "watchlist": [
@@ -16275,6 +16706,38 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-10-29T11:34:41Z",
+      "event_id": "aistats-2027",
+      "event_name": "AISTATS 2027",
+      "field": "event",
+      "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+      "message": "Linked the selected discovery lead to the existing event and refreshed official calls, including the workshop proposal cutoff."
+    },
+    {
+      "at": "2026-10-29T11:34:41Z",
+      "event_id": "iccsiw-2026",
+      "event_name": "ICCSIW 2026 — Chemistry for Science, Innovation and Well-Being",
+      "field": "event",
+      "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+      "message": "Added the user-selected past conference from the official Miranda House poster; dates and deadlines remain marked as passed."
+    },
+    {
+      "at": "2026-10-29T11:34:41Z",
+      "event_id": "materials-2027-magnus",
+      "event_name": "Materials 2027 — 10th International Conference on Materials Science and Engineering",
+      "field": "event",
+      "source": "https://magnusconferences.com/materials-science/",
+      "message": "Added Materials 2027 with its AI/ML/materials-informatics track, official submission rounds and Singapore-time cutoffs."
+    },
+    {
+      "at": "2026-10-29T11:34:41Z",
+      "event_id": "aicmsn-2027",
+      "event_name": "AICMSN 2027 — 3rd Annual International Conference on Materials Science and Nanoscience",
+      "field": "event",
+      "source": "https://aicmsn2027.synergiasummits.com/",
+      "message": "Added AICMSN 2027 with the first abstract cutoff; exact venue and final registration deadline remain unconfirmed."
+    },
     {
       "at": "2026-10-27T16:40:42Z",
       "event_id": "recent-advances-in-chemistry-and-ai-2026",

@@ -56,7 +56,9 @@ test('submission timelines keep independent routes and exclude closed or expired
   assert.equal(entries.length,1);
   assert.equal(entries[0].date,'2026-10-30');
  }
- for (const name of ['AISTATS 2027','Euro-Asia Zeolite']) {
+ const aistats=snapshot([canonical('AISTATS 2027')],'submission');
+ assert.deepEqual(aistats.map(entry=>entry.label),['Workshop proposal submission deadline','Journal-to-Conference submissions']);
+ for (const name of ['Euro-Asia Zeolite']) {
   const entries=snapshot([canonical(name)],'submission');
   assert.equal(entries.length,1);
   assert.match(entries[0].label,/Journal-to-Conference|Recent Reports/);

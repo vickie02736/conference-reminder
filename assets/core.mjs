@@ -83,7 +83,7 @@ function phaseLabel(node) {
   if (node.kind === 'poster') return 'Poster submission';
   if (node.kind === 'paper') return /full paper.*(?:required|oral presentation)/i.test(node.label) ? 'Full paper submission' : 'Paper submission';
   if (node.kind === 'abstract') return 'Abstract submission';
-  if (/proposal/i.test(node.label)) return 'Symposium proposals';
+  if (/proposal/i.test(node.label)) return /workshop/i.test(node.label) ? 'Workshop proposals' : 'Symposium proposals';
   if (node.kind === 'funding') return /travel/i.test(node.label) ? 'Travel-grant applications' : 'Funding applications';
   return node.kind === 'application' ? 'Applications' : 'Registration';
 }
@@ -229,7 +229,7 @@ export function eventStatuses(event, today = todayISO(), now = Date.now()) {
     // An early-bird cutoff does not close a separately announced standard registration route.
     const onlyEarlyPast=channel==='registration' && past.length && past.every(m=>m.kind==='early_registration') && routeNodes.some(m=>m.kind==='registration' && !m.date);
     const expired=!next && past.length>0 && !onlyEarlyPast;
-    const title=statusRouteLabel(route), extra=reference?{milestoneId:reference.id,date:reference.date}:{};
+    const title=route==='proposal' && /workshop/i.test(reference?.label) ? 'Workshop proposals' : statusRouteLabel(route), extra=reference?{milestoneId:reference.id,date:reference.date}:{};
     const filters=[channel];
     if (channel==='submission') {
       if (['oral','poster','paper'].includes(route)) filters.push(route);

@@ -89,7 +89,8 @@ test('announced opening dates and explicit not-yet-open statements never become 
 });
 test('separate submission routes survive closure of a regular round and funding is not submission',()=>{
  assert.equal(snapshotPhase(canonical('Euro-Asia Zeolite')).label,'Recent Reports submission');
- assert.equal(snapshotPhase(canonical('AISTATS 2027')).label,'Journal-to-Conference submission');
+ assert.equal(snapshotPhase(canonical('AISTATS 2027')).label,'Workshop proposals');
+ assert.ok(eventStatuses(canonical('AISTATS 2027'),'2026-10-27',Date.parse('2026-10-27T12:00Z')).some(s=>s.label==='Journal-to-Conference submission open'));
  assert.equal(snapshotPhase(canonical('AIxMAT 2026')).label,'Poster submission');
  assert.match(snapshotPhase(canonical('AIxMAT 2026')).help,/Registration is closed/);
  const ai4mat=snapshotPhase(canonical('AI4Mat @'));
