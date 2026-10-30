@@ -20,7 +20,7 @@
       "The watch list includes incomplete or weaker announcements, including an organiser LinkedIn announcement for MEDPore2027.",
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
-    "last_checked_at": "2026-10-29T07:08:30Z",
+    "last_checked_at": "2026-10-30T07:09:21Z",
     "last_updated_at": "2026-10-29T12:26:53Z",
     "people_reviewed_on": "2026-10-29"
   },
@@ -53,9 +53,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T14:55:25Z",
-        "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
       "milestones": [
         {
@@ -242,10 +242,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "2026-11-23 至 2026-11-27，Liverpool；申请已关闭，申请截止 2026-08-24；7 位讲者和具名组织委员会可读。 现有 urllib 监测仍连接重置；全天事件元数据不作精确时刻使用。"
+        "message": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/: IncompleteRead(15943 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897: IncompleteRead(8192 bytes read)"
       },
       "milestones": [
         {
@@ -451,7 +451,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.rsc.org/events/find-an-event/automated-intelligent-chemistry: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -620,7 +620,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.ukairs.ac.uk/i/Registration: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.ukairs.ac.uk/i/SubmissionThemes: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.ukairs.ac.uk/Home/Welcome: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -786,7 +786,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -911,7 +911,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -1039,7 +1039,7 @@
       "evidence": "The TYC website gives 14–15 December and the 1 November registration deadline; the KCL official store confirms the Great Hall, £75 student ticket and last booking date.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -1198,7 +1198,7 @@
       "evidence": "Manually reviewed the organiser, school and organiser-linked registration pages on 2026-10-28. All confirm 14–15 December 2026 at Chimie ParisTech–PSL in Paris. Weezevent structured data confirms the start at 13:00 UTC (14:00 Europe/Paris). The organiser and Weezevent list 20:00 on 15 December, while the school lists 17:00; only the confirmed end date is used for the end reminder. No registration cutoff or current ticket availability was confirmed.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-28T12:19:19Z",
         "message": null
       },
@@ -1356,7 +1356,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://sscg.uk/2026-sscg-christmas-meeting: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -1556,7 +1556,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.bcs-sgai.org/ai2026/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.bcs-sgai.org/ai2026/?section=registration: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -1710,9 +1710,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "已找到并实抓官方替代来源；仅覆盖该来源明确提供的事实，旧来源的专有内容仍保留核实要求。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://psi-k.net/workshops/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
       },
       "milestones": [
         {
@@ -1896,7 +1896,7 @@
       "evidence": "The RSC page lists the date, venue, all deadlines and presentation eligibility.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T14:55:25Z",
         "message": "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -2056,10 +2056,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "2027-01-22，Imperial College London；正文与 API 元数据写 10:00–16:00，详细议程却写 16:30 Close。 结束时间冲突仍保留，里程碑维持日期精度；现有 urllib 监测再次连接重置，不能称日常抓取已稳定。"
+        "message": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/: IncompleteRead(24129 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552: IncompleteRead(7641 bytes read)"
       },
       "milestones": [
         {
@@ -2173,10 +2173,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "报名页确认 2027-02-16 至 2027-02-18，与课程正文一致；主办者 Stefano Brandani、Enzo Mangano 匹配；最后报名日 2027-02-12。 旧表的 Tuesday 17th/Wednesday 18th/Thursday 19th 与 2026 年星期相符，结合报名页判为旧表未同步（推断）；不把旧日程钟点迁到 2027 年。"
+        "message": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course: <urlopen error timed out>"
       },
       "milestones": [
         {
@@ -2319,7 +2319,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -2492,7 +2492,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://spring2027.camml.ac.uk/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://spring2027.camml.ac.uk/registration/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.psdi.ac.uk/event/camml-2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -2718,7 +2718,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T14:55:25Z",
         "message": "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -2857,10 +2857,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "2027-04-14 至 2027-04-15，Imperial College London；注册和海报征集尚未公布截止日期。 全天事件的 00:00/23:59:59 是系统占位时间，未写入精确提醒。"
+        "message": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: IncompleteRead(7761 bytes read)"
       },
       "milestones": [
         {
@@ -2984,7 +2984,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://aisb.org.uk/call-for-symposia-proposals-aisb-2027-university-of-liverpool/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -3099,7 +3099,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://advancedmaterialsshow.com/full-conference/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -3190,7 +3190,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.leachresearchgroup.net/home/chemoinformatics-conference-2027: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -3343,7 +3343,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.rsc.org/events/find-an-event/18th-international-conference-on-materials-chemistry-%28mc18%29: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -3570,7 +3570,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T14:55:25Z",
         "message": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -3815,7 +3815,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -3974,7 +3974,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.icmm.csic.es/es/node/37130: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -4106,9 +4106,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "已找到并实抓官方替代来源；仅覆盖该来源明确提供的事实，旧来源的专有内容仍保留核实要求。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://www.acnetwork.nl/chemai: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://ai4science-amsterdam.github.io/news/chemai/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -4281,7 +4281,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://sapem2026.matelys.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -4465,7 +4465,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://interpore.org/event/vii-annual-spain-interpore-meeting: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -4600,7 +4600,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://aixmat.candela.org.pl/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -4811,7 +4811,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://interpore.org/event/9th-norway-national-workshop-porous-media: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -4916,7 +4916,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.iswpm26.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.iswpm26.org/172246/author?version=latest: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://interpore.org/event/7th-interpore-benelux-chapter-meeting: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -5046,7 +5046,7 @@
       "evidence": "ESI and University of Innsbruck pages confirm dates and venue; the GDR MePhy organiser announcement gives the 15 July abstract deadline and no conference fee.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.esi.ac.at/events/e610/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.uibk.ac.at/en/th-physik/bio-nano/events/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.cecam.org/workshop-details/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-1497: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -5236,7 +5236,7 @@
       "evidence": "The CECAM official search index lists dates, venue and 15 November registration; the page describes theoretical, simulation and ML approaches.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/workshop-details/1272: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -5407,7 +5407,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.nldl.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.nldl.org/submission/call-for-papers: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -5574,7 +5574,7 @@
       "evidence": "ICTP gives 13–15 January 2027, deadline 11/10/2026 and no registration fee. The European date format is interpreted as 11 October.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://indico.ictp.it/event/11409: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -5743,7 +5743,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://fems.org/industry-symposium-frankfurt-14-january-2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -5941,7 +5941,7 @@
       "evidence": "The CECAM text explicitly gives 16 October 2026 as the application deadline; Psi-k confirms 25–27 January.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/workshop-details/automating-atomistic-machine-learning-1494: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://psi-k.net/workshops/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6045,7 +6045,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/workshop-details/1480: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6156,7 +6156,7 @@
       "evidence": "The DECHEMA organiser page gives 3–5 March, the 27 November deadline and porous-materials theory/adsorption topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://dechema.de/en/dzt38.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6304,7 +6304,7 @@
       "evidence": "CECAM and Psi-k both list 8–12 March; the activity page confirms venue and topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/workshop-details/theoretical-spectroscopy-lectures-1482: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://psi-k.net/workshops/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6410,7 +6410,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/workshop-details/self-assembly-of-materials-merging-direct-experiments-with-simulations-at-different-resolutions-and-data-science-techniques-1522: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6529,7 +6529,7 @@
       "evidence": "CECAM and the FLUXIONIC organising research network both confirm dates and venue.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/program?location=all&month=all&page=2&type=all: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.fluxionic.org/events: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.fluxionic.org/events/challenges-ionic-fluids-2027: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6647,7 +6647,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://congressomateriais.pt/editions/2027: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.spmateriais.pt/eventos/materiais-2027: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6762,7 +6762,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.dpg-physik.de/aktivitaeten-und-programme/programme/bad-honnef-physics-schools: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -6897,7 +6897,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://emmc.eu/events/emmc2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -7076,7 +7076,7 @@
       "evidence": "Official Welcome and Key dates pages give 9–12 May, 15 November oral abstracts and 31 March late posters.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.esat2027.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -7299,7 +7299,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.european-mrs.com/computations-materials-%E2%80%93-discovery-design-and-role-ai-emrs: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -7410,7 +7410,7 @@
       "evidence": "The workshop website gives the 1 December abstract deadline; DECHEMA confirms 23–26 May and Garmisch-Partenkirchen.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://cpm-workshop.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://dechema.de/en/cpm10.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -7522,9 +7522,9 @@
       "evidence": "The official Important Dates table lists both submission rounds, 21 April early registration and 9 May standard/presenting-author registration. Submission deadlines explicitly use 23:59 AoE.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://ai4x.cc/2027/call-for-papers/important-dates/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://ai4x.cc/2027/call-for-papers/important-dates/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://ai4x.cc/2027/speakers/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -7768,7 +7768,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://metfoam2027.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -7983,9 +7983,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "Recovered source content differs from the prior successful fetch; facts require review. | Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://euromof2027.com/index.html: Recovered source content differs from the prior successful fetch; facts require review. | https://mofs.lakecomoschool.org/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -8083,9 +8083,9 @@
       "evidence": "The homepage gives the 1 February abstract and 5 April early-registration deadlines; the abstract page includes AI/ML and states guidelines in preparation.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "Recovered source content differs from the prior successful fetch; facts require review. | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://euromof2027.com/index.html: Recovered source content differs from the prior successful fetch; facts require review. | https://euromof2027.com/abstracts.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://euromof2027.com/registration.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
       "milestones": [
         {
@@ -8343,7 +8343,7 @@
       "evidence": "CECAM gives 6–8 July, 1 June registration and the meeting topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/workshop-details/2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches-1490: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -8442,7 +8442,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.elsevier.com/events/conferences/all/materials-today-conference: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -8637,9 +8637,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://ecmlpkdd.org/2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://ecmlpkdd.org/2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://ecmlpkdd.org/2027/organisation-chairs/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -8755,9 +8755,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://www.euromat2027.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://fems.org/about-fems/fems-euromat-conference-series/fems-euromat/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
       "milestones": [
         {
@@ -8903,7 +8903,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.european-mrs.com/meetings/2027-fall-meeting-exhibit: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -9028,7 +9028,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://ecai2027.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -9140,9 +9140,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "已找到并实抓官方替代来源；仅覆盖该来源明确提供的事实，旧来源的专有内容仍保留核实要求。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://www.ai4am.net/2027/deadlines.php: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://ai4am.net/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -9399,7 +9399,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://dgm.de/aimse/2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://dgm.de/aimse/2027/submission/abstract-submission: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://dgm.de/aimse/2027: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -9541,7 +9541,7 @@
       "evidence": "CECAM gives 23–25 November, registration opening on 1 April, Lausanne and the organisers.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/workshop-details/mathematics-for-quantum-dynamics-1486: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -9658,7 +9658,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.carbon2028.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -9785,7 +9785,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://cops-xii.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -9881,7 +9881,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -9978,7 +9978,7 @@
       "evidence": "The homepage gives the meeting dates and extension to 28 October; symposium pages list AI/ML and MD themes.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.mmm12.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.mmm12.org/symposia/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -10166,7 +10166,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.rscfirst.org.cn/en/web/index/36624_3190136: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://rscfirst.org.cn/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -10326,7 +10326,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://events.polyu.edu.hk/ecomat2026/home: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -10541,7 +10541,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.mrs.org/meetings-events/annual-meetings: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -10698,9 +10698,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://nips.cc/Conferences/2026: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://neurips.cc/Conferences/2026/Dates: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://nips.cc/Conferences/2026: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://neurips.cc/Conferences/2026/Dates: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://nips.cc/Conferences/2026/Committees: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -10927,7 +10927,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://sites.google.com/view/ai4mat/home: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://sites.google.com/view/ai4mat/schedule: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.; The authoritative AI4Mat schedule sentence is missing or ambiguous. | https://sites.google.com/view/ai4mat/submissions: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -11055,7 +11055,7 @@
       "evidence": "The CECAM programme index gives dates and CECAM-BJ; no city or building is inferred.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -11182,7 +11182,7 @@
       "evidence": "The site gives 17–20 January overall, distinguishing 17 January arrivals from the 18–20 January conference. Important Dates lists Recent Reports on 30 November.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.eazc2027.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.eazc2027.com/index/page.html?id=1844: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -11408,7 +11408,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://aaai.org/conference/aaai/aaai-27/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -11557,10 +11557,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "FAQ 的 2026-07-01 为原始常规摘要截止；TMS 官方 LinkedIn 明确宣布延期至 2026-07-15，故 FAQ 的原日期未同步。当前技术节目的两个后续专题截止不代表常规投稿重开。 完整 FAQ 仍无可直接抓取替代，原站和 archive 域均 403。7 月 15 日延期已补上官方公告链接并核实为历史日期；未公布的精确钟点仍不填写。 | 专题目录与会议日期 2027-03-14 至 2027-03-18；Bladesmithing 截止 2026-10-31，Student Poster Contest 截止 2027-01-22。 ProgramMaster 是专题清单，不能当作尚未发布的逐场最终会议日程。原网站入口 403 仍保留审计。 | PPTX 模板 328079 字节（ZIP/PK 内容），三张 PNG 分别 619847、620892、1097336 字节；现有监测器复抓均成功。 下载文件恢复不代表 Organizer Tools HTML 已解除 403；这些素材不能用于证明日期或讲者。"
+        "message": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -11822,7 +11822,7 @@
       "evidence": "ICTS confirms the dates, themes and 25 November deadline; its application form gives 9 December for recommendation letters.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.icts.res.in/program/mwas: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://register1.icts.res.in/mwas: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -11952,7 +11952,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit/call-for-abstracts: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/2027-mrs-spring-meeting-exhibit: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -12043,7 +12043,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.iclr.cc/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -12161,10 +12161,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "会议 2027-05-02 至 2027-05-05，Bellevue；顶部明确的延期公告将 minisymposium proposal 截止延至 2026-11-02，优先于下方旧 10 月 5 日文案。 未恢复自动抓取；延期公告没有独立确认新的精确钟点，不将旧截止的 23:59 沿用到新日期。"
+        "message": "https://www.siam.org/conferences-events/siam-conferences/ms27/: HTTP Error 403: Forbidden | https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -12379,10 +12379,10 @@
       "verified_on": "2026-10-29",
       "evidence": "Official calls and dates reviewed on 29 October 2026: Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 22 October gives 30 October at 22:59 CET, matching 21:59 UTC on the dates page; this supersedes the older generic AoE wording.",
       "check": {
-        "status": "checked",
-        "last_checked_at": "2026-10-29T11:34:41Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-29T11:34:41Z",
-        "message": null
+        "message": "https://aistats.org/aistats2027/committee.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -12551,9 +12551,9 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "动态页显示 2027-01-12；API submissionEndDate=2027-01-12T07:00:00Z，event.timeZone=America/Buenos_Aires，换算后仍为 1 月 12 日；Important Dates 页写 1 月 11 日。 没有官方更正说明可确定哪个日期优先；不能把时差推测当作解决。保留两候选日期，不启用单一截止提醒。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://event.fourwaves.com/interpore2027: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -12740,7 +12740,7 @@
       "evidence": "Important Dates gives 30 November abstracts and 31 March early registration; Topics lists Simulation & machine learning.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://pbast10.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -12941,7 +12941,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://registration.telluridescience.org/workshops/the-future-of-porous-frameworks: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -13039,10 +13039,10 @@
       "verified_on": "2026-10-27",
       "evidence": "The official homepage lists the 1 December 2026 abstract deadline and 30 April 2027 discount-registration deadline.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "2027-06-13 至 2027-06-17，Chicago；摘要 2026-12-01，优惠注册 2027-04-30；主席 Aaron Stebner、编程主席 Sean Donegan。 未发现覆盖该会议日期及组织委员会的可直接抓取官方镜像、PDF 或 RSS；自动抓取仍 403。"
+        "message": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx: HTTP Error 403: Forbidden | https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -13212,7 +13212,7 @@
       "evidence": "The official search index gives 15–18 June and University of Utah and says full registration details will follow. Direct access may trigger JavaScript verification.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://actc2027.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -13338,7 +13338,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://carbon2027.or.kr/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://carbon2027.or.kr/cfp.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://europeancarbon.eu/index.php/event/world-conference-on-carbon-2027-carbon-2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -13467,7 +13467,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://learningtheory.org/colt2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -13564,7 +13564,7 @@
       "evidence": "The official Important Dates page lists the dates; the CACHE announcement dated 20 October 2026 confirms abstracts are open and includes AI/ML.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://fomms.cache.org/2027/important-dates: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.cache.org/fomms-2027-abstract-submissions-are-now-open: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://fomms.cache.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -13761,7 +13761,7 @@
       "evidence": "Call for Abstracts gives the 1 October–15 December 2026 window, JST time zone and AI/simulation/MOF topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://zmpc.org/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://zmpc.org/dates/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://zmpc.org/call-for-abstracts/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -14017,9 +14017,9 @@
       "evidence": "Application Information gives the 3 July attendance deadline and 25 April speaker-abstract deadline separately.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "Recovered source content differs from the prior successful fetch; facts require review."
+        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/: Recovered source content differs from the prior successful fetch; facts require review."
       },
       "milestones": [
         {
@@ -14147,7 +14147,7 @@
       "evidence": "Application Information lists 4 July; the description explicitly includes MOF/COF and experimental/computational work.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -14257,7 +14257,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -14400,10 +14400,10 @@
       "verified_on": "2026-10-27",
       "evidence": "The organiser research-group search index confirms 26–29 September in Newcastle and AMMA organisation.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "2027-09-26 至 2027-09-29，Newcastle, Australia；Alister Page 主席等6位委员会成员。 摘要、注册、节目仍为 Details Coming Soon，不填造日期；源文件由哈希监测，尚不支持自动抽取事实。"
+        "message": "https://uon-comp-chem.github.io/mm2027/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -14567,9 +14567,9 @@
       "evidence": "The WATOC association and congress sites both confirm 9–14 January in Mérida and Young WATOC on 8 January.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "已找到并实抓官方替代来源；仅覆盖该来源明确提供的事实，旧来源的专有内容仍保留核实要求。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://www.watoc.net/watoc.congress.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://watoc2028.org/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -14697,7 +14697,7 @@
       "evidence": "The homepage confirms 28 May–2 June 2028; the registration page explicitly labels abstract/early-registration dates provisional.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.foa16.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.foa16.com/registrations: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -15290,7 +15290,7 @@
       "evidence": "The official Forthcoming list states MOF2028 Seoul, Korea, Main Event 28–31 May.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://mof-international.org/mof-conferences/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -15387,10 +15387,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-10-29T12:26:53Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "IZA 与 AIChE 合作组织；2028-07-23 至 2028-07-28，Philadelphia。 未找到能直接下载且覆盖原页组织信息的官方镜像、PDF 或 RSS；现有自动抓取仍 403。 | 执行规划委员会含 Jeffrey Rimer、Dongxia Liu、Tina Nenoff、Rajamani Gounder、Michele Sarazen；与已有组织信息核对。 未找到覆盖完整委员会名单的可下载官方镜像/PDF/RSS；现有自动抓取仍 403。"
+        "message": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization: HTTP Error 403: Forbidden | https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -15551,7 +15551,7 @@
       "evidence": "The official RACI conference page confirms 22–23 February 2027 in Melbourne, the Monash venue and the abstract, notification and early-bird dates.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T21:25:00Z",
         "message": null
       },
@@ -15751,7 +15751,7 @@
       "evidence": "The official DGM page confirms 17–18 November 2027 in Aalen and online and lists the AI-for-materials research themes.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T21:25:00Z",
         "message": "https://dgm.de/aimse/2027: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://dgm.de/aimse/2027/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -15906,7 +15906,7 @@
       "evidence": "The official FDA page confirms 12–14 April 2027 at FDA White Oak and online, the computational chemistry/AI content and the attendance restriction.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T21:25:00Z",
         "message": null
       },
@@ -16079,7 +16079,7 @@
       "evidence": "The official workshop page confirms 1 December 2026 in Glasgow, the ACM MUM affiliation and all published paper dates.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T21:25:00Z",
         "message": "https://wmt2026workshop.github.io/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -16230,7 +16230,7 @@
       "evidence": "The official Round 3 call confirms the Sheffield sandpit on 21–22 January 2027, application opening on 20 November 2026 and cutoff on 11 December 2026 at 16:00. The linked full call labels its timeline “Date/time (UK local time)”.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-28T12:00:00Z",
         "message": null
       },
@@ -16333,7 +16333,7 @@
       "evidence": "Manually checked the organiser’s image-only conference poster: 14–15 October 2026 at Miranda House; registration 30 September and abstracts 5 October. The PDF has no extractable text.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-10-29T11:34:41Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-29T11:34:41Z",
         "message": null
       },
@@ -16462,10 +16462,10 @@
       "verified_on": "2026-10-29",
       "evidence": "The organiser’s conference, track and Important Dates pages confirm 18–20 March 2027 at Village Hotel Changi plus online participation, three abstract rounds and Singapore-time cutoffs.",
       "check": {
-        "status": "checked",
-        "last_checked_at": "2026-10-29T11:34:41Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-29T11:34:41Z",
-        "message": null
+        "message": "https://magnusconferences.com/materials-science/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://magnusconferences.com/materials-science/information/important-dates: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -16628,10 +16628,10 @@
       "verified_on": "2026-10-29",
       "evidence": "The organiser confirms 26–28 April 2027 in Athens. The abstract page gives a first-round deadline of 31 December 2026. The venue page says the exact location will be updated.",
       "check": {
-        "status": "checked",
-        "last_checked_at": "2026-10-29T11:34:41Z",
+        "status": "review_required",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-29T11:34:41Z",
-        "message": null
+        "message": "https://aicmsn2027.synergiasummits.com/abstract: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -16755,7 +16755,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://composites.blogs.bristol.ac.uk/2026/06/19/1058/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.ukpormat.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -16838,7 +16838,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -16932,10 +16932,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "failed",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "urllib、curl及网页工具均超时；两次针对PMEA2028及会议全名的搜索未找到可确认的新官方地址。需主办方提供可用文件。"
+        "message": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf: <urlopen error timed out>"
       },
       "milestones": [
         {
@@ -17027,9 +17027,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T12:14:51Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "已找到并实抓官方替代来源；仅覆盖该来源明确提供的事实，旧来源的专有内容仍保留核实要求。 | Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc: <urlopen error [Errno -2] Name or service not known>"
       },
       "milestones": [
         {
@@ -17127,7 +17127,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://icml.cc/Conferences/FutureMeetings: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
@@ -17197,7 +17197,7 @@
       "evidence": "The EuChemS Honours page’s 2026 award announcement names CompChem2027 and Cluj-Napoca.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-10-29T07:08:30Z",
+        "last_checked_at": "2026-10-30T07:09:21Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.euchems.eu/divisions/computational-chemistry-2/honours/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
       },
