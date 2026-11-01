@@ -1900,4 +1900,10 @@
 ## 验证与发布
 
 PASS: npm test (109 JavaScript + 40 Python); python3 scripts/validate_catalog.py; git diff --check. No emails sent.
-Prior daily run 41285290046 succeeded. This maintenance publication is verified separately by the subsequent successful push workflow and deployed catalogue comparison.
+本次数据提交：71dad2e13013dd0b91bccd0e3cceae75bf472991，已推送 origin/main。
+
+[发布工作流 41335479003](https://github.com/vickie02736/conference-reminder/actions/runs/41335479003) 已完成，conclusion=success。线上 data/conferences.json HTTP 200，与该提交的本地文件逐字节相同，SHA-256：64b3659b0918a7aa69195e4c685d97b31b5be1aefc11e9fbb2e3205d4a24b035。推送触发的发布跳过了已完成的日常来源更新与发现步骤。
+
+处置分类为原址本次可读 15、可用替代 7、待人工 166、无可用入口且归为 failed 0；其中原址单次成功不等于自动抓取恢复，稳定恢复仍为 0。原每日来源状态保留 225 checked、26 unverifiable、4 failed；这些状态包含仍保留的旧地址，不能与互斥处置分类相加。
+
+166 条待人工的逐字段语义核对尚未完成；本次对所有记录都作了读取、有限重试或替代入口检查，但不以此清除待人工标记。上方每条均附原问题、本次尝试、具体未解原因和链接；JSON 还保存受影响的既有里程碑、尚未从当前文本确认的人员姓名和最近三次日常检查状态。
