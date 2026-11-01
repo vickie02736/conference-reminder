@@ -3804,7 +3804,7 @@
       "region": "Europe",
       "type": "Workshop / Discussion",
       "deadline": "No open abstract call was listed; presentations are mainly invited. Registration deadline: 23 October 2026, now passed.",
-      "status": "Not yet held. The heading still says Open for registration, but the page gives 23 October as the deadline twice; late attendance requires confirmation. English language; 12:00 on 2 November to 14:30 on 3 November.",
+      "status": "Closed for admission, as explicitly stated on the official page. English language; 12:00 on 2 November to 14:30 on 3 November.",
       "note": "Keynotes include Inverse design of Nanoporous materials and Data-driven AI for COF Synthesis and Structure Prediction, plus MOF applications, quantum MOFs and DFT methods.",
       "sources": [
         "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/"
@@ -5031,9 +5031,9 @@
       "location": "Vienna, Austria — ESI Boltzmann Lecture Hall",
       "region": "Europe",
       "type": "Workshop / Discussion",
-      "deadline": "Contributed-talk and poster abstracts closed on 15 July 2026. Remaining registration places were not verified.",
-      "status": "Abstracts closed; ask the organisers about remaining attendance places.",
-      "note": "Nonequilibrium dynamics and theory of glasses, colloids, polymers and granular matter, with a statistical-physics and soft-matter focus. Late applications require organiser confirmation.",
+      "deadline": "Contributed-talk and poster abstracts closed on 15 July 2026. CECAM reports that attendance applications closed on 28 September 2026 because the lecture hall had reached capacity.",
+      "status": "Applications closed: the organisers report capacity has been reached.",
+      "note": "Nonequilibrium dynamics and theory of glasses, colloids, polymers and granular matter, with a statistical-physics and soft-matter focus. CECAM explicitly reports closure of applications due to capacity.",
       "sources": [
         "https://www.esi.ac.at/events/e610/",
         "https://www.uibk.ac.at/en/th-physik/bio-nano/events/",
@@ -10684,7 +10684,7 @@
       "region": "Other",
       "type": "Conference",
       "deadline": "Main papers closed on 6 May 2026 AoE. Early registration: 30 October 2026 AoE; remaining places need checking.",
-      "status": "Main paper submissions closed; attendance places need checking.",
+      "status": "Main paper submissions closed. Sydney and Atlanta waitlists were activated on 30 October at 11 am PDT, with more registrations released daily; non-presenting attendees should use the official waitlist. Paris availability must be checked separately.",
       "note": "General AI meeting with a Paris attendance option. Sydney workshops: 11–12 December; Paris/Atlanta workshops: 12–13 December. AI4Mat is confirmed in Sydney; do not assume Paris offers the same workshop.",
       "sources": [
         "https://nips.cc/Conferences/2026",
@@ -12197,14 +12197,14 @@
           "kind": "abstract",
           "label": "Contributed abstracts",
           "date": "2026-11-02",
-          "time": null,
-          "timezone": null,
+          "time": "23:59",
+          "timezone": "America/New_York",
           "id": "siam-ms27-mathematical-aspects-of-materials-science:abstract",
-          "version": 1,
-          "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
-          "precision": "date",
+          "version": 2,
+          "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
+          "precision": "datetime",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official Submissions page explicitly states November 2, 2026 (11:59 p.m. Eastern Time) for contributed abstracts. Verified 2026-11-01. This clock time is not applied to the separately extended minisymposium proposals."
         },
         {
           "kind": "other",
@@ -17264,6 +17264,33 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-01T18:10:00Z",
+      "event_id": "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems",
+      "field": "status",
+      "message": "Official Chalmers page now explicitly says Closed for admission; reviewed 2026-11-01. Full source audit: data/maintenance-review-2026-11-01.json."
+    },
+    {
+      "at": "2026-11-01T18:10:00Z",
+      "event_id": "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses",
+      "field": "status",
+      "source": "https://www.cecam.org/workshop-details/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-1497",
+      "message": "CECAM explicitly reports applications closed on 28 September 2026 after reaching lecture hall capacity."
+    },
+    {
+      "at": "2026-11-01T18:10:00Z",
+      "event_id": "neurips-2026",
+      "field": "status",
+      "source": "https://nips.cc/Conferences/2026",
+      "message": "Official announcement confirms Sydney and Atlanta waitlists activated on 30 October at 11 am PDT; Paris availability remains separate."
+    },
+    {
+      "at": "2026-11-01T18:10:00Z",
+      "event_id": "siam-ms27-mathematical-aspects-of-materials-science",
+      "field": "milestone:abstract",
+      "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
+      "message": "Contributed abstracts explicitly close 2 November 2026 at 11:59 p.m. Eastern Time; version increased to 2. The extended proposal deadline retains date-only precision."
+    },
     {
       "at": "2026-10-29T11:34:41Z",
       "event_id": "aistats-2027",
