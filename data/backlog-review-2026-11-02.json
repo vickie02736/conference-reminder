@@ -1783,6 +1783,14 @@
   ],
   "user_decisions_required": [],
   "validation": "PASS: npm test (109 JavaScript + 44 Python); python3 scripts/validate_catalog.py; git diff --check. Review queue priority, preserved review evidence, changed-content reopening and historical-404 exclusion tested.",
-  "publication": "pending",
+  "publication": {
+    "status": "verified",
+    "commit": "ef2408023067bf1ea0b85f764592cb033348c0ae",
+    "workflow": "https://github.com/vickie02736/conference-reminder/actions/runs/41492447359",
+    "conclusion": "success",
+    "catalog_bytes_match": true,
+    "catalog_sha256": "30319f6ea641e575185c8feb6eba4f7eb70ef3e394c02cf7a6e9cd65a7f91817",
+    "verified_at": "2026-11-02T17:36:01+00:00"
+  },
   "automation": "Existing daily 09:00 heartbeat instructions updated to semantic batches and saved progress. GitHub daily source refresh also rebuilds and commits review-progress.json."
 }

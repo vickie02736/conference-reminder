@@ -115,6 +115,6 @@ WMT 已更正为滚动投稿，旧固定截止被官网新公告取代，节点�
 ## 测试与发布
 
 PASS: npm test (109 JavaScript + 44 Python); python3 scripts/validate_catalog.py; git diff --check. Review queue priority, preserved review evidence, changed-content reopening and historical-404 exclusion tested.
-发布结果将在完成部署后补入本报告。
+已提交并推送 ef24080。[发布工作流](https://github.com/vickie02736/conference-reminder/actions/runs/41492447359) 成功；线上会议数据与本地逐字节一致，SHA-256：30319f6ea641e575185c8feb6eba4f7eb70ef3e394c02cf7a6e9cd65a7f91817。
 
 Existing daily 09:00 heartbeat instructions updated to semantic batches and saved progress. GitHub daily source refresh also rebuilds and commits review-progress.json.
