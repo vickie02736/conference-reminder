@@ -458,9 +458,8 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "euromof2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "message": "Reviewed 2026-11-02: explicit open statement and all adapter deadline dates verified; dates remain date-only."
         }
       },
       "fingerprint_version": 2,
@@ -469,6 +468,12 @@
         "outcome": "success",
         "final_source": "https://euromof2027.com/abstracts.html",
         "reason": "原地址本次已返回可读正文；先前为临时网络/响应异常。"
+      },
+      "maintenance_review": {
+        "at": "2026-11-02T09:15:10+00:00",
+        "content_verified": "adapter dates and platform status",
+        "automatic_fetch_restored": false,
+        "report": "data/maintenance-review-2026-11-02.json"
       }
     },
     "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/": {
@@ -526,9 +531,8 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "euromof2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "message": "Reviewed 2026-11-02: explicit open statement and all adapter deadline dates verified; dates remain date-only."
         }
       },
       "fingerprint_version": 2,
@@ -537,6 +541,12 @@
         "outcome": "success",
         "final_source": "https://euromof2027.com/registration.html",
         "reason": "原地址本次已返回可读正文；先前为临时网络/响应异常。"
+      },
+      "maintenance_review": {
+        "at": "2026-11-02T09:15:10+00:00",
+        "content_verified": "adapter dates and platform status",
+        "automatic_fetch_restored": false,
+        "report": "data/maintenance-review-2026-11-02.json"
       }
     },
     "https://europeancarbon.eu/index.php/event/world-conference-on-carbon-2027-carbon-2027/": {
@@ -1761,7 +1771,15 @@
           "reason": "fingerprint_upgrade"
         }
       },
-      "fingerprint_version": 2
+      "fingerprint_version": 2,
+      "maintenance_review": {
+        "at": "2026-11-02T09:15:10+00:00",
+        "local_fetch": "failed",
+        "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>",
+        "daily_status_preserved": "checked",
+        "automatic_fetch_restored": false,
+        "report": "data/maintenance-review-2026-11-02.json"
+      }
     },
     "https://www.elsevier.com/events/conferences/all/materials-today-conference": {
       "last_checked_at": "2026-11-02T07:42:43Z",
@@ -3621,6 +3639,14 @@
           "message": null,
           "reason": null
         }
+      },
+      "maintenance_review": {
+        "at": "2026-11-02T09:15:10+00:00",
+        "local_fetch": "failed",
+        "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>",
+        "daily_status_preserved": "checked",
+        "automatic_fetch_restored": false,
+        "report": "data/maintenance-review-2026-11-02.json"
       }
     },
     "https://www.esat2027.com/speakers/": {
@@ -3638,6 +3664,14 @@
           "message": null,
           "reason": null
         }
+      },
+      "maintenance_review": {
+        "at": "2026-11-02T09:15:10+00:00",
+        "local_fetch": "failed",
+        "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>",
+        "daily_status_preserved": "checked",
+        "automatic_fetch_restored": false,
+        "report": "data/maintenance-review-2026-11-02.json"
       }
     },
     "https://www.fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027": {

@@ -175,7 +175,7 @@ def known_adapter(text, config):
                                              "evidence": f"{label}: until {value}."})
             if re.search(r"online registration platform will open shortly", text, re.I):
                 result["status_parts"]["registration"] = "Registration platform not yet open"
-            elif re.search(r"(?:Online registration is open|Registration is now open)", text, re.I):
+            elif re.search(r"(?:Online registration is open|Registration is (?:now )?open)", text, re.I):
                 result["status_parts"]["registration"] = "Registration is open"
             else:
                 result["review"].append("Registration platform status is no longer recognised; verify it before changing the status.")

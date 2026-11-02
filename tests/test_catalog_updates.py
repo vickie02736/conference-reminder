@@ -352,6 +352,17 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(actual["deadline_notes"], row["deadline"])
         self.assertTrue(changes)
 
+    def test_euromof_explicit_registration_open_statement(self):
+        config = next(a for a in ADAPTERS["adapters"] if a["parser"] == "euromof_registration")
+        observation = known_adapter(
+            "Registration is open. Register online for EuroMOF 2027 through the registration platform. "
+            "Early bird Until April 5, 2027. Regular fee Until July 3, 2027.", config)
+        self.assertTrue(observation["verified"])
+        self.assertEqual(observation["review"], [])
+        self.assertEqual(observation["status_parts"]["registration"], "Registration is open")
+        self.assertEqual([node["date"] for node in observation["milestones"]],
+                         ["2027-04-05", "2027-07-03"])
+
     def test_fee_opening_transitions_are_not_generated_as_reminder_nodes(self):
         config = next(a for a in ADAPTERS["adapters"] if a["parser"] == "euromof_registration")
         text, _ = parse_html((FIXTURES / "euromof-registration.html").read_text() +

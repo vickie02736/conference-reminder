@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-11-02T07:42:43Z",
-    "last_updated_at": "2026-10-29T12:26:53Z",
+    "last_updated_at": "2026-11-02T09:15:10+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -7369,15 +7369,22 @@
             "role": "Conference chairperson",
             "source": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit",
             "affiliation": "University of Cologne"
+          },
+          {
+            "name": "Junjie Zhao",
+            "role": "Symposium KK co-organizer",
+            "affiliation": "FunGlass, Alexander Dubček University of Trenčín",
+            "source": "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond"
           }
         ],
         "speakers": [],
         "participants": [],
         "checked_on": "2026-10-28",
         "status": "published",
-        "note": "Conference-level chairs are listed. Symposium organisers and speakers vary by symposium; see the official symposia programme for the full set.",
+        "note": "Conference-level chairs are listed. Symposium organisers and speakers vary by symposium; see the official symposia programme for the full set. Symposium KK co-organizer Junjie Zhao is listed at FunGlass, Alexander Dubček University of Trenčín (official affiliation update checked 2 November 2026).",
         "sources": [
-          "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit"
+          "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit",
+          "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond"
         ]
       }
     },
@@ -8068,7 +8075,7 @@
       "region": "Europe",
       "type": "Conference",
       "deadline": "Abstracts: 1 February 2027; early registration: 5 April 2027; regular-fee deadline: 3 July 2027.",
-      "status": "Abstract deadline announced; submission platform not yet open. Registration platform not yet open.",
+      "status": "Abstract submission is open. Registration is open.",
       "note": "The official topics explicitly include Computation, AI and machine learning, plus adsorption, molecular separation, MOF design, structure and dynamics.",
       "sources": [
         "https://euromof2027.com/index.html",
@@ -8080,12 +8087,12 @@
       "url": "https://euromof2027.com/index.html",
       "priority": 1,
       "verified_on": "2026-10-27",
-      "evidence": "The homepage gives the 1 February abstract and 5 April early-registration deadlines; the abstract page includes AI/ML and states guidelines in preparation.",
+      "evidence": "Official abstract and registration pages explicitly state that submission and registration are open. Abstract deadline: 1 February 2027; early bird: 5 April 2027; regular fee: 3 July 2027. No exact deadline times or time zones are published. Reviewed 2 November 2026.",
       "check": {
         "status": "review_required",
         "last_checked_at": "2026-11-02T07:42:43Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://euromof2027.com/index.html: Recovered source content differs from the prior successful fetch; facts require review. | https://euromof2027.com/abstracts.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://euromof2027.com/registration.html: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://euromof2027.com/index.html: Recovered source content differs from the prior successful fetch; remaining homepage facts require review. Abstract and registration adapter fields reviewed on 2026-11-02."
       },
       "milestones": [
         {
@@ -10684,7 +10691,7 @@
       "region": "Other",
       "type": "Conference",
       "deadline": "Main papers closed on 6 May 2026 AoE. Early registration: 30 October 2026 AoE; remaining places need checking.",
-      "status": "Main paper submissions closed. Sydney and Atlanta waitlists were activated on 30 October at 11 am PDT, with more registrations released daily; non-presenting attendees should use the official waitlist. Paris availability must be checked separately.",
+      "status": "Main paper submissions closed. Sydney and Atlanta waitlists were activated on 1 November at 11 am PST, with more waitlist spots released daily; non-presenting attendees should use the official waitlist. Paris availability must be checked separately.",
       "note": "General AI meeting with a Paris attendance option. Sydney workshops: 11–12 December; Paris/Atlanta workshops: 12–13 December. AI4Mat is confirmed in Sydney; do not assume Paris offers the same workshop.",
       "sources": [
         "https://nips.cc/Conferences/2026",
@@ -11372,7 +11379,7 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-02",
         "status": "published",
         "note": "Selected conference leadership and announced plenary/special lecturers; the official website lists additional committee members and speakers.",
         "sources": [
@@ -12364,7 +12371,7 @@
       "location": "Montréal, Canada",
       "region": "Other",
       "type": "Conference",
-      "deadline": "Regular abstracts: 29 September 2026, 23:59 AoE; full papers: 6 October 2026, 23:59 AoE (both closed). Workshop proposals: 30 October 2026 at 22:59 CET (21:59 UTC). Journal-to-Conference requests: 18 January 2027 AoE; eligibility restrictions apply.",
+      "deadline": "Regular abstracts: 29 September 2026, 23:59 AoE; full papers: 6 October 2026, 23:59 AoE (both closed). Workshop proposals extended to 6 November 2026 at 22:59 CET (21:59 UTC). Journal-to-Conference requests: 18 January 2027 AoE; eligibility restrictions apply.",
       "status": "Workshop proposals invited. Journal-to-Conference submissions open for eligible journal papers. Registration opening unconfirmed.",
       "note": "Statistical machine learning and uncertainty. Workshops take place on 3 May; the main programme is 4–6 May. Journal-to-Conference is for eligible published or accepted journal papers. The dedicated workshop call overrides the older generic AoE cutoff.",
       "sources": [
@@ -12377,7 +12384,7 @@
       "url": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
       "priority": 3,
       "verified_on": "2026-10-29",
-      "evidence": "Official calls and dates reviewed on 29 October 2026: Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 22 October gives 30 October at 22:59 CET, matching 21:59 UTC on the dates page; this supersedes the older generic AoE wording.",
+      "evidence": "Official calls confirm Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 2 November explicitly extends proposals to 6 November 2026 at 22:59 CET (21:59 UTC), superseding the 30 October deadline. Other existing deadlines are retained.",
       "check": {
         "status": "review_required",
         "last_checked_at": "2026-11-02T07:42:43Z",
@@ -12454,14 +12461,14 @@
           "id": "aistats-2027:workshop-proposals",
           "kind": "other",
           "label": "Workshop proposal submission deadline",
-          "date": "2026-10-30",
+          "date": "2026-11-06",
           "time": "22:59",
           "timezone": "Europe/Paris",
           "precision": "datetime",
           "status": "verified",
-          "version": 1,
+          "version": 2,
           "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
-          "evidence": "The workshop call updated on 22 October specifies 30 October 2026 at 10:59pm CET; the dates page confirms 21:59 UTC."
+          "evidence": "Official workshop call, Update November 2: Friday November 6, 2026, 10:59pm CET. Explicit one-week extension supersedes October 30."
         }
       ],
       "people": {
@@ -17264,6 +17271,104 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-02T09:15:10+00:00",
+      "event_id": "euromof2027",
+      "event_name": "EuroMOF 2027",
+      "field": "status",
+      "previous": "Abstract deadline announced; submission platform not yet open. Registration platform not yet open.",
+      "value": "Abstract submission is open. Registration is open.",
+      "source": "https://euromof2027.com/registration.html",
+      "evidence": "Both official pages explicitly state the platforms are open and link to the AIM Group platform. Abstracts 1 February, early bird 5 April and regular fee 3 July 2027 remain date-only deadlines. Checked 2026-11-02."
+    },
+    {
+      "at": "2026-11-02T09:15:10+00:00",
+      "event_id": "euromof2027",
+      "event_name": "EuroMOF 2027",
+      "field": "evidence",
+      "previous": "The homepage gives the 1 February abstract and 5 April early-registration deadlines; the abstract page includes AI/ML and states guidelines in preparation.",
+      "value": "Official abstract and registration pages explicitly state that submission and registration are open. Abstract deadline: 1 February 2027; early bird: 5 April 2027; regular fee: 3 July 2027. No exact deadline times or time zones are published. Reviewed 2 November 2026.",
+      "source": "https://euromof2027.com/abstracts.html",
+      "evidence": "Explicit open statements and labelled dates, not inference from dates."
+    },
+    {
+      "at": "2026-11-02T09:15:10+00:00",
+      "event_id": "aistats-2027",
+      "event_name": "AISTATS 2027",
+      "field": "deadline",
+      "previous": "Regular abstracts: 29 September 2026, 23:59 AoE; full papers: 6 October 2026, 23:59 AoE (both closed). Workshop proposals: 30 October 2026 at 22:59 CET (21:59 UTC). Journal-to-Conference requests: 18 January 2027 AoE; eligibility restrictions apply.",
+      "value": "Regular abstracts: 29 September 2026, 23:59 AoE; full papers: 6 October 2026, 23:59 AoE (both closed). Workshop proposals extended to 6 November 2026 at 22:59 CET (21:59 UTC). Journal-to-Conference requests: 18 January 2027 AoE; eligibility restrictions apply.",
+      "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
+      "evidence": "The official workshop call, Update November 2, specifies Friday November 6, 2026, 10:59pm CET. The homepage announces the one-week extension."
+    },
+    {
+      "at": "2026-11-02T09:15:10+00:00",
+      "event_id": "aistats-2027",
+      "event_name": "AISTATS 2027",
+      "field": "evidence",
+      "previous": "Official calls and dates reviewed on 29 October 2026: Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 22 October gives 30 October at 22:59 CET, matching 21:59 UTC on the dates page; this supersedes the older generic AoE wording.",
+      "value": "Official calls confirm Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 2 November explicitly extends proposals to 6 November 2026 at 22:59 CET (21:59 UTC), superseding the 30 October deadline. Other existing deadlines are retained.",
+      "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
+      "evidence": "Explicit dated extension announcement."
+    },
+    {
+      "at": "2026-11-02T09:15:10+00:00",
+      "event_id": "aistats-2027",
+      "event_name": "AISTATS 2027",
+      "field": "milestone:workshop-proposals",
+      "previous": {
+        "id": "aistats-2027:workshop-proposals",
+        "kind": "other",
+        "label": "Workshop proposal submission deadline",
+        "date": "2026-10-30",
+        "time": "22:59",
+        "timezone": "Europe/Paris",
+        "precision": "datetime",
+        "status": "verified",
+        "version": 1,
+        "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
+        "evidence": "The workshop call updated on 22 October specifies 30 October 2026 at 10:59pm CET; the dates page confirms 21:59 UTC."
+      },
+      "value": {
+        "id": "aistats-2027:workshop-proposals",
+        "kind": "other",
+        "label": "Workshop proposal submission deadline",
+        "date": "2026-11-06",
+        "time": "22:59",
+        "timezone": "Europe/Paris",
+        "precision": "datetime",
+        "status": "verified",
+        "version": 2,
+        "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
+        "evidence": "Official workshop call, Update November 2: Friday November 6, 2026, 10:59pm CET. Explicit one-week extension supersedes October 30."
+      },
+      "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
+      "evidence": "Official workshop call, Update November 2: Friday November 6, 2026, 10:59pm CET. Explicit one-week extension supersedes October 30."
+    },
+    {
+      "at": "2026-11-02T09:15:10+00:00",
+      "event_id": "neurips-2026",
+      "event_name": "NeurIPS 2026",
+      "field": "status",
+      "previous": "Main paper submissions closed. Sydney and Atlanta waitlists were activated on 30 October at 11 am PDT, with more registrations released daily; non-presenting attendees should use the official waitlist. Paris availability must be checked separately.",
+      "value": "Main paper submissions closed. Sydney and Atlanta waitlists were activated on 1 November at 11 am PST, with more waitlist spots released daily; non-presenting attendees should use the official waitlist. Paris availability must be checked separately.",
+      "source": "https://nips.cc/Conferences/2026",
+      "evidence": "Current official homepage now says November 1st at 11 am PST, superseding the October 30 / PDT wording seen on November 1. Fresh HTTP and official web reader agree. This is an announcement, not a submission deadline."
+    },
+    {
+      "at": "2026-11-02T09:15:10+00:00",
+      "event_id": "e-mrs-spring-meeting-2027",
+      "event_name": "E-MRS Spring Meeting 2027",
+      "field": "people.committee",
+      "source": "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond",
+      "value": {
+        "name": "Junjie Zhao",
+        "role": "Symposium KK co-organizer",
+        "affiliation": "FunGlass, Alexander Dubček University of Trenčín",
+        "source": "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond"
+      },
+      "evidence": "Under Symposium organizers, Junjie ZHAO is now listed at FunGlass, Alexander Dubček University of Trenčín, Slovakia. Previous fetched page listed Tohoku University, Japan. Added this relevant symposium organizer to the selected list; other people facts are retained."
+    },
     {
       "at": "2026-11-01T18:10:00Z",
       "event_id": "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems",

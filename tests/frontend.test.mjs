@@ -79,10 +79,11 @@ test('future submission cutoffs take priority but do not assert an unconfirmed p
  assert.equal(eventPhase(transitioning,'2026-11-02').key,'closed');
 });
 test('announced opening dates and explicit not-yet-open statements never become active calls',()=>{
- assert.equal(snapshotPhase(canonical('EuroMOF 2027')).label,'Submission opening soon');
+ const pendingEuroMOF={...canonical('EuroMOF 2027'),status:'Abstract deadline announced; submission platform not yet open. Registration platform not yet open.'};
+ assert.equal(snapshotPhase(pendingEuroMOF).label,'Submission opening soon');
  assert.equal(snapshotPhase(canonical('Characterisation of Catalysts')).label,'Submission opening soon');
  assert.equal(snapshotPhase(canonical('Mathematics for Quantum Dynamics')).label,'Registration opening soon');
- assert.equal(eventPhase(canonical('EuroMOF 2027'),'2027-03-01').label,'Registration opening soon');
+ assert.equal(eventPhase(pendingEuroMOF,'2027-03-01').label,'Registration opening soon');
  const e={start:'2027-06-01',status:'Dates announced.',milestones:[phaseNode('abstract','2027-03-01'),phaseNode('other','2026-11-01','Abstract submissions open')]};
  assert.equal(snapshotPhase(e).key,'opening_soon');
  assert.equal(snapshotPhase({...e,status:'Abstract submissions not yet open; registration is open.',milestones:[...e.milestones,phaseNode('registration','2027-05-01')]}).key,'registration');
@@ -210,7 +211,7 @@ test('announced openings coexist with other channels and never match the active 
  assert.equal(filterEvents([e],{stage:'submission'},'2026-10-27').length,0);
  assert.equal(filterEvents([e],{stage:'opening_soon'},'2026-10-27').length,1);
  assert.equal(filterEvents([e],{stage:'registration'},'2026-10-27').length,1);
- assert.deepEqual(snapshotStatuses(canonical('EuroMOF 2027')).map(s=>s.label),['Abstract submission opening soon','Registration opening soon']);
+ assert.deepEqual(snapshotStatuses(canonical('EuroMOF 2027')).map(s=>s.label),['Abstract submission open','Registration open']);
  assert.deepEqual(snapshotStatuses(canonical('FOMMS 2027')).map(s=>s.label),['Abstract submission open','Registration opening soon']);
 });
 test('conflicting and invalid exact dates warn while independent verified routes stay available',()=>{
