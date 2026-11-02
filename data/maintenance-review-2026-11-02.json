@@ -16,9 +16,10 @@
   },
   "scope_count": 190,
   "counts": {
-    "manual": 165,
+    "manual": 163,
     "alternative": 10,
     "success": 15,
+    "verified": 2,
     "failed": 0
   },
   "daily_source_counts": {
@@ -217,7 +218,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aaai.org/conference/aaai/aaai-27/",
@@ -285,7 +287,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://actc2027.com/",
@@ -364,7 +367,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://advancedmaterialsshow.com/full-conference/",
@@ -430,7 +434,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://ai4am.net/",
@@ -542,7 +547,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://ai4science-amsterdam.github.io/news/chemai/",
@@ -600,7 +606,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://ai4x.cc/2027/call-for-papers/important-dates/",
@@ -694,7 +701,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://ai4x.cc/2027/speakers/",
@@ -738,7 +746,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
@@ -797,7 +806,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "[Errno 54] Connection reset by peer"
+      "this_run_failure": "[Errno 54] Connection reset by peer",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
@@ -910,7 +920,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "[Errno 54] Connection reset by peer"
+      "this_run_failure": "[Errno 54] Connection reset by peer",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
@@ -966,7 +977,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "[Errno 54] Connection reset by peer"
+      "this_run_failure": "[Errno 54] Connection reset by peer",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
@@ -1022,7 +1034,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "[Errno 54] Connection reset by peer"
+      "this_run_failure": "[Errno 54] Connection reset by peer",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
@@ -1097,7 +1110,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
@@ -1175,7 +1189,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "[Errno 54] Connection reset by peer"
+      "this_run_failure": "[Errno 54] Connection reset by peer",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
@@ -1253,7 +1268,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "[Errno 54] Connection reset by peer"
+      "this_run_failure": "[Errno 54] Connection reset by peer",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aicmsn2027.synergiasummits.com/abstract",
@@ -1307,7 +1323,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aisb.org.uk/call-for-symposia-proposals-aisb-2027-university-of-liverpool/",
@@ -1382,7 +1399,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aistats.org/aistats2027/committee.html",
@@ -1426,7 +1444,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aistats.org/aistats2027/dates.html",
@@ -1461,7 +1480,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://aixmat.candela.org.pl/",
@@ -1534,7 +1554,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://carbon2027.or.kr/",
@@ -1623,7 +1644,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://carbon2027.or.kr/cfp.html",
@@ -1667,7 +1689,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://composites.blogs.bristol.ac.uk/2026/06/19/1058/",
@@ -1733,7 +1756,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://congressomateriais.pt/editions/2027",
@@ -1809,7 +1833,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
@@ -1877,7 +1902,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://cops-xii.org/",
@@ -1950,7 +1976,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://cpm-workshop.org/",
@@ -2023,7 +2050,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/",
@@ -2069,7 +2097,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://dechema.de/en/cpm10.html",
@@ -2113,7 +2142,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://dechema.de/en/dzt38.html",
@@ -2188,7 +2218,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://dgm.de/aimse/2027",
@@ -2268,7 +2299,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://dgm.de/aimse/2027/",
@@ -2341,7 +2373,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://dgm.de/aimse/2027/submission/abstract-submission",
@@ -2385,7 +2418,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://ecai2027.org/",
@@ -2454,7 +2488,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://ecmlpkdd.org/2027/",
@@ -2520,7 +2555,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://ecmlpkdd.org/2027/organisation-chairs/",
@@ -2564,7 +2600,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://emmc.eu/events/emmc2027/",
@@ -2637,7 +2674,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://emmc.eu/events/emmc2027/committees/",
@@ -2683,7 +2721,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
@@ -2727,7 +2766,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://euromof2027.com/abstracts.html",
@@ -2751,7 +2791,7 @@
         "checked_at": "2026-11-01T18:07:19+00:00",
         "outcome": "manual"
       },
-      "outcome": "manual",
+      "outcome": "verified",
       "content_verified": "官网明确 Abstract submission is open；摘要截止仍 2027-02-01，未发布精确钟点或时区。已核实该适配器全部字段并清除相应 fingerprint 人工标记。",
       "final_sources": [
         "https://euromof2027.com/abstracts.html"
@@ -2779,7 +2819,9 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "content_verification_status": "complete_for_adapter_scope",
+      "requires_manual_review": false
     },
     {
       "original_source": "https://euromof2027.com/index.html",
@@ -2867,7 +2909,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://euromof2027.com/registration.html",
@@ -2891,7 +2934,7 @@
         "checked_at": "2026-11-01T18:07:19+00:00",
         "outcome": "manual"
       },
-      "outcome": "manual",
+      "outcome": "verified",
       "content_verified": "官网明确 Registration is open；early bird 2027-04-05、regular fee 2027-07-03，仍日期精度。已核实该适配器全部字段并清除相应 fingerprint 人工标记。",
       "final_sources": [
         "https://euromof2027.com/registration.html"
@@ -2926,7 +2969,9 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "content_verification_status": "complete_for_adapter_scope",
+      "requires_manual_review": false
     },
     {
       "original_source": "https://europeancarbon.eu/index.php/event/world-conference-on-carbon-2027-carbon-2027/",
@@ -2970,7 +3015,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://event.fourwaves.com/interpore2027",
@@ -3022,7 +3068,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
@@ -3088,7 +3135,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
@@ -3147,7 +3195,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://event.fourwaves.com/interpore2027/submission",
@@ -3248,7 +3297,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://events.polyu.edu.hk/ecomat2026/home",
@@ -3321,7 +3371,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
@@ -3370,7 +3421,8 @@
       "automatic_fetch": "Latest scheduled failed retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 404: Not Found"
+      "this_run_failure": "HTTP Error 404: Not Found",
+      "requires_manual_review": false
     },
     {
       "original_source": "https://fems.org/about-fems/fems-euromat-conference-series/fems-euromat/",
@@ -3414,7 +3466,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
@@ -3489,7 +3542,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://fomms.cache.org/",
@@ -3533,7 +3587,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://fomms.cache.org/2027/important-dates",
@@ -3606,7 +3661,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://icml.cc/Conferences/FutureMeetings",
@@ -3665,7 +3721,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://indico.ictp.it/event/11409",
@@ -3731,7 +3788,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://interpore.org/event/7th-interpore-benelux-chapter-meeting",
@@ -3775,7 +3833,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://interpore.org/event/9th-norway-national-workshop-porous-media",
@@ -3850,7 +3909,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://interpore.org/event/vii-annual-spain-interpore-meeting",
@@ -3894,7 +3954,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://learningtheory.org/colt2027/",
@@ -3960,7 +4021,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://magnusconferences.com/materials-science/",
@@ -4019,7 +4081,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://magnusconferences.com/materials-science/information/important-dates",
@@ -4099,7 +4162,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://magnusconferences.com/materials-science/register",
@@ -4143,7 +4207,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/",
@@ -4187,7 +4252,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://metfoam2027.com/",
@@ -4274,7 +4340,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://mof-international.org/mof-conferences/",
@@ -4347,7 +4414,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://mofs.lakecomoschool.org/",
@@ -4391,7 +4459,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://neurips.cc/Conferences/2026/Dates",
@@ -4464,7 +4533,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://nips.cc/Conferences/2026",
@@ -4523,7 +4593,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://nips.cc/Conferences/2026/Committees",
@@ -4567,7 +4638,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
@@ -4611,7 +4683,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://pbast10.org/",
@@ -4694,7 +4767,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://psi-k.net/workshops/",
@@ -4752,7 +4826,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://register1.icts.res.in/mwas",
@@ -4810,7 +4885,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "<urlopen error timed out>"
+      "this_run_failure": "<urlopen error timed out>",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://registration.telluridescience.org/workshops/the-future-of-porous-frameworks",
@@ -4876,7 +4952,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://rscfirst.org.cn/",
@@ -4920,7 +4997,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://sapem2026.matelys.com/",
@@ -5000,7 +5078,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://sites.google.com/view/ai4mat/home",
@@ -5072,7 +5151,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://sites.google.com/view/ai4mat/schedule",
@@ -5116,7 +5196,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://sites.google.com/view/ai4mat/submissions",
@@ -5168,7 +5249,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/",
@@ -5243,7 +5325,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://spring2027.camml.ac.uk/",
@@ -5316,7 +5399,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://spring2027.camml.ac.uk/registration/",
@@ -5360,7 +5444,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://sscg.uk/2026-sscg-christmas-meeting",
@@ -5433,7 +5518,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
@@ -5499,7 +5585,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
@@ -5577,7 +5664,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "<urlopen error timed out>"
+      "this_run_failure": "<urlopen error timed out>",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://uon-comp-chem.github.io/mm2027/",
@@ -5644,7 +5732,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://virtual.aistats.org/",
@@ -5679,7 +5768,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://watoc2028.org/",
@@ -5775,7 +5865,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc",
@@ -5855,7 +5946,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "this_run_failure": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://wmt2026workshop.github.io/",
@@ -5935,7 +6027,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.acnetwork.nl/chemai",
@@ -6008,7 +6101,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.ai4am.net/2027/deadlines.php",
@@ -6052,7 +6146,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
@@ -6154,7 +6249,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
@@ -6218,7 +6314,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.bcs-sgai.org/ai2026/",
@@ -6293,7 +6390,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.bcs-sgai.org/ai2026/?section=registration",
@@ -6337,7 +6435,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cache.org/fomms-2027-abstract-submissions-are-now-open",
@@ -6389,7 +6488,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.carbon2028.org/",
@@ -6471,7 +6571,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
@@ -6542,7 +6643,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "<urlopen error timed out>"
+      "this_run_failure": "<urlopen error timed out>",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop",
@@ -6634,7 +6736,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/program?location=all&month=all&page=2&type=all",
@@ -6739,7 +6842,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/1272",
@@ -6805,7 +6909,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/1480",
@@ -6871,7 +6976,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/2nd-quantum-transport-methods-and-algorithms-meeting-from-particles-to-waves-approaches-1490",
@@ -6937,7 +7043,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/automating-atomistic-machine-learning-1494",
@@ -7003,7 +7110,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/mathematics-for-quantum-dynamics-1486",
@@ -7076,7 +7184,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-1497",
@@ -7120,7 +7229,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/self-assembly-of-materials-merging-direct-experiments-with-simulations-at-different-resolutions-and-data-science-techniques-1522",
@@ -7193,7 +7303,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.cecam.org/workshop-details/theoretical-spectroscopy-lectures-1482",
@@ -7259,7 +7370,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/",
@@ -7328,7 +7440,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.dpg-physik.de/aktivitaeten-und-programme/programme/bad-honnef-physics-schools",
@@ -7396,7 +7509,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials",
@@ -7464,7 +7578,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en",
@@ -7554,7 +7669,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.eazc2027.com/",
@@ -7684,7 +7800,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.eazc2027.com/index/page.html?id=1835",
@@ -7764,7 +7881,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.eazc2027.com/index/page.html?id=1843",
@@ -7844,7 +7962,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.eazc2027.com/index/page.html?id=1844",
@@ -7918,7 +8037,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.elsevier.com/en-gb/events/conferences/all/materials-today-conference/committee-and-speakers",
@@ -7964,7 +8084,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.elsevier.com/en-in/events/conferences/all/materials-today-conference/committee-and-speakers",
@@ -8008,7 +8129,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.elsevier.com/events/conferences/all/materials-today-conference",
@@ -8088,7 +8210,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027",
@@ -8154,7 +8277,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.esat2027.com/",
@@ -8252,7 +8376,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>"
+      "this_run_failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.esat2027.com/committees/",
@@ -8314,7 +8439,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>"
+      "this_run_failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.esat2027.com/speakers/",
@@ -8371,7 +8497,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>"
+      "this_run_failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.esat2027.com'. (_ssl.c:1129)>",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.esi.ac.at/events/e610/",
@@ -8451,7 +8578,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.euchems.eu/divisions/computational-chemistry-2/honours/",
@@ -8517,7 +8645,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.euromat2027.com/",
@@ -8593,7 +8722,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.european-mrs.com/computations-materials-%E2%80%93-discovery-design-and-role-ai-emrs",
@@ -8637,7 +8767,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond",
@@ -8681,7 +8812,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.european-mrs.com/meetings/2027-fall-meeting-exhibit",
@@ -8757,7 +8889,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit",
@@ -8823,7 +8956,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.fluxionic.org/events",
@@ -8867,7 +9001,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.fluxionic.org/events/challenges-ionic-fluids-2027",
@@ -8911,7 +9046,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.foa16.com/",
@@ -8977,7 +9113,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.foa16.com/registrations",
@@ -9043,7 +9180,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
@@ -9114,7 +9252,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/",
@@ -9176,7 +9315,8 @@
       "automatic_fetch": "Latest scheduled failed retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 404: Not Found"
+      "this_run_failure": "HTTP Error 404: Not Found",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
@@ -9271,7 +9411,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "Official source returned no readable page content."
+      "this_run_failure": "Official source returned no readable page content.",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.iclr.cc/",
@@ -9344,7 +9485,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.icmm.csic.es/es/node/37130",
@@ -9410,7 +9552,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.icts.res.in/program/mwas",
@@ -9483,7 +9626,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.iswpm26.org/",
@@ -9556,7 +9700,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.iswpm26.org/172246/author?version=latest",
@@ -9600,7 +9745,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.leachresearchgroup.net/home/chemoinformatics-conference-2027",
@@ -9683,7 +9829,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
@@ -9729,7 +9876,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
@@ -9781,7 +9929,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
@@ -9847,7 +9996,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mmm12.org/",
@@ -9929,7 +10079,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mmm12.org/symposia/",
@@ -9973,7 +10124,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mrs.org/meetings-events/annual-meetings",
@@ -10047,7 +10199,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts",
@@ -10157,7 +10310,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/meeting-chairs",
@@ -10233,7 +10387,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit",
@@ -10303,7 +10458,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit/call-for-abstracts",
@@ -10395,7 +10551,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/2027-mrs-spring-meeting-exhibit",
@@ -10467,7 +10624,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.mrs.org/publications-digital-content/news/press-room/press-release/2026/08/28/dierk-raabe-named-fred-kavli-distinguished-lecturer-in-materials-science-for-2026-mrs-fall-meeting",
@@ -10541,7 +10699,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.nldl.org/",
@@ -10614,7 +10773,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.nldl.org/submission/call-for-papers",
@@ -10661,7 +10821,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.psdi.ac.uk/event/camml-2027/",
@@ -10705,7 +10866,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/",
@@ -10771,7 +10933,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/18th-international-conference-on-materials-chemistry-%28mc18%29",
@@ -10872,7 +11035,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/automated-intelligent-chemistry",
@@ -10939,7 +11103,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts",
@@ -11033,7 +11198,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
@@ -11136,7 +11302,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
@@ -11244,7 +11411,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium",
@@ -11326,7 +11494,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry",
@@ -11447,7 +11616,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting",
@@ -11548,7 +11718,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.rsc.org/getContentAsset/711ed80e-95d2-4169-905d-afa1bb46dab5/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
@@ -11597,7 +11768,8 @@
       "automatic_fetch": "Latest scheduled failed retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 404: Not Found"
+      "this_run_failure": "HTTP Error 404: Not Found",
+      "requires_manual_review": false
     },
     {
       "original_source": "https://www.rscfirst.org.cn/en/web/index/36624_3190136",
@@ -11641,7 +11813,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/",
@@ -11707,7 +11880,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
@@ -11818,7 +11992,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
@@ -11890,7 +12065,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026",
@@ -11965,7 +12141,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.spmateriais.pt/eventos/materiais-2027",
@@ -12009,7 +12186,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx",
@@ -12073,7 +12251,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
@@ -12166,7 +12345,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
@@ -12342,7 +12522,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
@@ -12491,7 +12672,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
@@ -12638,7 +12820,8 @@
       "automatic_fetch": "Latest scheduled unverifiable retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": "HTTP Error 403: Forbidden"
+      "this_run_failure": "HTTP Error 403: Forbidden",
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/",
@@ -12682,7 +12865,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.uibk.ac.at/en/th-physik/bio-nano/events/",
@@ -12726,7 +12910,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.ukairs.ac.uk/Home/Welcome",
@@ -12770,7 +12955,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.ukairs.ac.uk/i/Registration",
@@ -12843,7 +13029,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.ukairs.ac.uk/i/SubmissionThemes",
@@ -12887,7 +13074,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.ukpormat.com/",
@@ -12931,7 +13119,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://www.watoc.net/watoc.congress.html",
@@ -12975,7 +13164,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://zmpc.org/",
@@ -13034,7 +13224,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://zmpc.org/call-for-abstracts/",
@@ -13100,7 +13291,8 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     },
     {
       "original_source": "https://zmpc.org/dates/",
@@ -13159,9 +13351,23 @@
       "automatic_fetch": "Latest scheduled checked retained. One download is not evidence of stable automatic recovery.",
       "daily_fetch_restored": false,
       "new_daily_failure_since_previous_review": false,
-      "this_run_failure": null
+      "this_run_failure": null,
+      "requires_manual_review": true
     }
   ],
   "validation": "PASS: npm test (109 JavaScript + 41 Python); python3 scripts/validate_catalog.py (104 scheduled + 6 watchlist); git diff --check; full review coverage assertion passed. No emails or organizer contacts. All existing event dates, unrelated milestones, people and daily transport statuses preserved; AISTATS deadline version transition checked.",
-  "publication": "Pending maintenance push and live catalogue verification."
+  "publication": {
+    "status": "verified",
+    "content_commit": "4877bea16ef7fa8b5c3c69b8b4e73bc8d2907b42",
+    "run_id": 41419537740,
+    "workflow_url": "https://github.com/vickie02736/conference-reminder/actions/runs/41419537740",
+    "conclusion": "success",
+    "publish_website_step": "success",
+    "website": "https://vickie02736.github.io/conference-reminder/",
+    "verified_at": "2026-11-02T09:20:20+00:00",
+    "live_catalog_sha256": "4633a126f0052ff850b1016a3384696bb5e2cf57588422800d354f36c63c0bad",
+    "catalog_bytes_equal": true,
+    "source_refresh_skipped_on_push": true,
+    "note": "This proves publication of the maintained catalogue; the following audit-only commit records this evidence without rerunning source refresh."
+  }
 }

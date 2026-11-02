@@ -4,7 +4,7 @@
 
 今日每日自动更新及发布已成功：[工作流 41407926578](https://github.com/vickie02736/conference-reminder/actions/runs/41407926578)，来源检查时间 07:42:43 UTC；未重复执行每日 updater。
 
-互斥处理结果：原址本次可读（success）15；替代来源 10；待人工/仍需语义复核 165；仍失败且无替代 0。这些不是全页内容通过率。
+互斥处理结果：原址本次可读（success）15；原址适配器内容复核通过（verified）2；替代来源 10；待人工/仍需语义复核 163；仍失败且无替代 0。这些不是全页内容通过率。
 
 日常检查状态：{'checked': 227, 'unverifiable': 25, 'failed': 3}。相较昨日新增日常失败 0；ESAT 三个地址新增本地 TLS 问题，未覆盖 GitHub 成功状态。原址日常抓取确认稳定恢复 0；METFOAM 与 ICTS MWAS 今日各有一次定时成功观察，继续观察，不宣布稳定恢复。
 
@@ -454,7 +454,7 @@
 
 - 原址：[https://euromof2027.com/abstracts.html](https://euromof2027.com/abstracts.html)
 - 原失败/待复核原因：Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.
-- 最终状态：manual；内容核实范围：官网明确 Abstract submission is open；摘要截止仍 2027-02-01，未发布精确钟点或时区。已核实该适配器全部字段并清除相应 fingerprint 人工标记。；稳定自动恢复：否。
+- 最终状态：verified；内容核实范围：官网明确 Abstract submission is open；摘要截止仍 2027-02-01，未发布精确钟点或时区。已核实该适配器全部字段并清除相应 fingerprint 人工标记。；稳定自动恢复：否。
 - 未解决的具体原因/边界：官网明确 Abstract submission is open；摘要截止仍 2027-02-01，未发布精确钟点或时区。已核实该适配器全部字段并清除相应 fingerprint 人工标记。 该页内容已核实；不据此宣称全站自动抓取稳定。
 - 关联字段（保留已有事实）：Abstracts: 2027-02-01（日期精度）
 - 核实/尝试日期：2026-11-02T09:15:10+00:00
@@ -476,7 +476,7 @@
 
 - 原址：[https://euromof2027.com/registration.html](https://euromof2027.com/registration.html)
 - 原失败/待复核原因：Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.
-- 最终状态：manual；内容核实范围：官网明确 Registration is open；early bird 2027-04-05、regular fee 2027-07-03，仍日期精度。已核实该适配器全部字段并清除相应 fingerprint 人工标记。；稳定自动恢复：否。
+- 最终状态：verified；内容核实范围：官网明确 Registration is open；early bird 2027-04-05、regular fee 2027-07-03，仍日期精度。已核实该适配器全部字段并清除相应 fingerprint 人工标记。；稳定自动恢复：否。
 - 未解决的具体原因/边界：官网明确 Registration is open；early bird 2027-04-05、regular fee 2027-07-03，仍日期精度。已核实该适配器全部字段并清除相应 fingerprint 人工标记。 该页内容已核实；不据此宣称全站自动抓取稳定。
 - 关联字段（保留已有事实）：Early registration: 2027-04-05（日期精度）；Regular registration rate ends: 2027-07-03（日期精度）
 - 核实/尝试日期：2026-11-02T09:15:10+00:00
@@ -2116,4 +2116,8 @@
 ## 测试、提交与发布
 
 PASS: npm test (109 JavaScript + 41 Python); python3 scripts/validate_catalog.py (104 scheduled + 6 watchlist); git diff --check; full review coverage assertion passed. No emails or organizer contacts. All existing event dates, unrelated milestones, people and daily transport statuses preserved; AISTATS deadline version transition checked.
-Pending maintenance push and live catalogue verification.
+已提交并推送会议内容：`4877bea`。维护发布 [41419537740](https://github.com/vickie02736/conference-reminder/actions/runs/41419537740) 完整成功，Publish website 步骤成功；push 时来源更新步骤按设计跳过，未重复每日更新。
+
+2026-11-02T09:20:20+00:00 下载[线上会议数据](https://vickie02736.github.io/conference-reminder/data/conferences.json)，与本地逐字节一致。SHA-256：`4633a126f0052ff850b1016a3384696bb5e2cf57588422800d354f36c63c0bad`。后续仅补充复核分类和此发布证据，不再修改会议事实。
+
+本次未发送邮件、未联系会议主办方。
