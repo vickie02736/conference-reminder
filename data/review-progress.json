@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-02",
-  "remaining_count": 152,
-  "remaining_source_count": 141,
+  "remaining_count": 161,
+  "remaining_source_count": 150,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -16,6 +16,86 @@
         "notification_date",
         "supervisor_letter_year",
         "accommodation"
+      ]
+    },
+    {
+      "source": "https://www.bmss.org.uk/biomacromolecular-structure-sig-meeting-2027/",
+      "event_id": "bmss-bioms-sig-2027",
+      "reason": "content_conflict",
+      "message": "Registration cutoff conflict: overview says 12 January 2027; training booking page says 15 January with an inconsistent weekday. Registration reminders remain unavailable until resolved.",
+      "content_hash": "2073dcabd36dcc4d9ad875834911d043d51633d2f975aaffbc4c9f5a1bda893f",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
+      ]
+    },
+    {
+      "source": "https://www.bmss.org.uk/meeting-booking/biomacromolecular-structure-training-event-2027-day-1/",
+      "event_id": "bmss-bioms-sig-2027",
+      "reason": "content_conflict",
+      "message": "Registration cutoff conflict: overview says 12 January 2027; training booking page says 15 January with an inconsistent weekday. Registration reminders remain unavailable until resolved.",
+      "content_hash": "b5fcd90a1082adbe4414c23c1222a1bbf25e28fe75c25fc189e3f5a41b9fccc5",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
+      ]
+    },
+    {
+      "source": "https://cecamsimul.eu/events/events-2026",
+      "event_id": "cecam-esi-simulation-scales-2027",
+      "reason": "content_conflict",
+      "message": "Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional.",
+      "content_hash": null,
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.cecam.org/workshop-details/all-electron-dft-with-fleur-a-hands-on-tutorial-1506",
+      "event_id": "cecam-fleur-school-2027",
+      "reason": "content_conflict",
+      "message": "Reconfirm the indexed 8–12 March 2027 schedule and 5 February cutoff on the current official page.",
+      "content_hash": "a402f4e352406baf2851b69f7db952e1fa2fa8fb6d57a360cebab9cefafc41b2",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
+      ]
+    },
+    {
+      "source": "https://www.cecam.org/workshop-details/fracture-of-amorphous-materials-across-the-scales-1564",
+      "event_id": "cecam-fracture-amorphous-2027",
+      "reason": "content_conflict",
+      "message": "The indexed 12–16 April 2027 dates need live official confirmation.",
+      "content_hash": "daf83256f9bb4f68abd5483f51eb60d3e69483c00fb8c5081ed013af78f956eb",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
+      ]
+    },
+    {
+      "source": "https://www.compchemday.org/",
+      "event_id": "computational-chemistry-day-2027",
+      "reason": "content_conflict",
+      "message": "Exact 2027 dates and location are not yet published.",
+      "content_hash": "08e8308b4852d23cdb837ddb2d9a14652ade86d3c24fbd3252665a65be191519",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
       ]
     },
     {
@@ -91,6 +171,45 @@
         "times",
         "timezones",
         "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.cecam.org/program?location=all&month=all&type=flagship_school",
+      "event_id": "molsim-2027",
+      "reason": "content_conflict",
+      "message": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable.",
+      "content_hash": "c2f2d5de7e07efad527b724afd410364698ae1d10c4c509d4a5436eef32932c5",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
+      ]
+    },
+    {
+      "source": "https://www.compchem.nl/molsim/",
+      "event_id": "molsim-2027",
+      "reason": "content_conflict",
+      "message": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable.",
+      "content_hash": "370df7710a3524b2639e73430b6d20c0c431fe09b148b25d9f460e46c1ecfc2c",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
+      ]
+    },
+    {
+      "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
+      "event_id": "sampling-with-agents-2026",
+      "reason": "content_conflict",
+      "message": "8 December 2026 is referenced by TYC, but the hackathon’s own announcement and participation details need confirmation.",
+      "content_hash": "5b1b008fabbb793537308016846ec6beaa117c105148a067f2909671a748e8b9",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "deadlines"
       ]
     },
     {
@@ -2326,6 +2445,11 @@
       "reason": "IncompleteRead(8192 bytes read)"
     },
     {
+      "source": "https://cecamsimul.eu/events/events-2026",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
       "source": "https://event.fourwaves.com/interpore2027/submission",
       "status": "unverifiable",
       "reason": "Official source returned no readable page content."
@@ -2374,6 +2498,11 @@
       "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
       "status": "unverifiable",
       "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.rsc.org/events/find-an-event/understanding-molecular-catalysis-through-computation-and-experiment-faraday-discussion",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",

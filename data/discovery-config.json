@@ -26,13 +26,62 @@
     "submit an abstract"
   ],
   "topic_terms": {
-    "AI and machine learning": ["artificial intelligence", "machine learning", "deep learning", "AI conference", "neural network"],
-    "AI for materials and chemistry": ["AI for materials", "materials informatics", "computational materials", "AI for chemistry", "materials machine learning"],
-    "MOFs, COFs and porous materials": ["metal-organic framework", "MOF", "covalent organic framework", "COF", "porous materials", "zeolite"],
-    "adsorption and separations": ["adsorption", "separation science", "membrane separation"],
-    "simulation and theory": ["molecular simulation", "computational chemistry", "theoretical chemistry", "molecular modelling", "atomistic simulation"],
-    "materials and characterisation": ["materials chemistry", "materials characterization", "materials characterisation", "catalysis", "electrochemistry"],
-    "automation and digital chemistry": ["automated experimentation", "automation", "digital chemistry", "cheminformatics"]
+    "AI and machine learning": [
+      "artificial intelligence",
+      "machine learning",
+      "deep learning",
+      "AI conference",
+      "neural network"
+    ],
+    "AI for materials and chemistry": [
+      "AI for materials",
+      "materials informatics",
+      "computational materials",
+      "AI for chemistry",
+      "materials machine learning"
+    ],
+    "MOFs, COFs and porous materials": [
+      "metal-organic framework",
+      "MOF",
+      "covalent organic framework",
+      "COF",
+      "porous materials",
+      "zeolite"
+    ],
+    "adsorption and separations": [
+      "adsorption",
+      "separation science",
+      "membrane separation"
+    ],
+    "simulation and theory": [
+      "molecular simulation",
+      "computational chemistry",
+      "theoretical chemistry",
+      "molecular modelling",
+      "atomistic simulation",
+      "molecular dynamics",
+      "Monte Carlo",
+      "enhanced sampling",
+      "free energy",
+      "coarse-grained",
+      "multiscale modelling",
+      "GROMACS",
+      "LAMMPS",
+      "PLUMED"
+    ],
+    "materials and characterisation": [
+      "materials chemistry",
+      "materials characterization",
+      "materials characterisation",
+      "catalysis",
+      "electrochemistry"
+    ],
+    "automation and digital chemistry": [
+      "automated experimentation",
+      "automation",
+      "digital chemistry",
+      "cheminformatics"
+    ]
   },
   "queries": [
     "{year} (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
@@ -40,7 +89,11 @@
     "{year} (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)",
     "{year} (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
     "{year} (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
-    "{year} (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+    "{year} (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
+    "{year} (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")",
+    "{year} (conference OR workshop OR school) (\"enhanced sampling\" OR \"free energy\" OR \"coarse-grained\")",
+    "{year} (conference OR workshop OR course) (\"biomolecular simulation\" OR GROMACS OR LAMMPS OR PLUMED)",
+    "{year} (conference OR workshop OR school) (CECAM OR CCP5 OR CCPBioSim OR BioExcel) (simulation OR modelling OR dynamics)"
   ],
   "blocked_domains": [
     "facebook.com",

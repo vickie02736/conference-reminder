@@ -4533,6 +4533,1056 @@
       "last_checked_at": "2026-11-02T07:42:43Z",
       "status": "unverifiable",
       "message": "HTTP Error 403: Forbidden"
+    },
+    "https://moansi2026.pages.math.cnrs.fr/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "7bfe462f67b06b8dea2e34f602bdcc0307ae41e199cfda76c551d69818e692b6",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "moansi-2026": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "7bfe462f67b06b8dea2e34f602bdcc0307ae41e199cfda76c551d69818e692b6",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.ccpbiosim.ac.uk/events/upcoming-events/prep2026": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "0ffcd535e1fc8b3ee4049f7cd8c8170c5e6a00646c6b0b539395853ea0ad914a",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "ccpbiosim-building-md-systems-2026": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "0ffcd535e1fc8b3ee4049f7cd8c8170c5e6a00646c6b0b539395853ea0ad914a",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.brunel.ac.uk/news-and-events/events/2026/Advances-in-Computational-Approaches-to-Antimicrobial-Resistance": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "1ff13c72e6b140b7212805de07a29c6e7e093800bb07317de96451ad8648de77",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "computational-antimicrobial-resistance-2026": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "1ff13c72e6b140b7212805de07a29c6e7e093800bb07317de96451ad8648de77",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.ccpbiosim.ac.uk/events/upcoming-events/antimicrobial2026": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "253644d0f99edd6d4e83444f3991386eebbf7c262907ee397d078d428b8bb662",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "computational-antimicrobial-resistance-2026": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "253644d0f99edd6d4e83444f3991386eebbf7c262907ee397d078d428b8bb662",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "5b1b008fabbb793537308016846ec6beaa117c105148a067f2909671a748e8b9",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "tyc-frontiers-molecular-sampling-2026": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "5b1b008fabbb793537308016846ec6beaa117c105148a067f2909671a748e8b9",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        },
+        "sampling-with-agents-2026": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "8 December 2026 is referenced by TYC, but the hackathon’s own announcement and participation details need confirmation.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "5b1b008fabbb793537308016846ec6beaa117c105148a067f2909671a748e8b9",
+          "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://www.chemcomp.com/en/Workshops-Europe.htm": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "52727800e93bdf5512d1069c33cead865aff21bc24ba9a035fc147c436046375",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "ccg-cambridge-molecular-modelling-2026": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "52727800e93bdf5512d1069c33cead865aff21bc24ba9a035fc147c436046375",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.bmss.org.uk/biomacromolecular-structure-sig-meeting-2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "2073dcabd36dcc4d9ad875834911d043d51633d2f975aaffbc4c9f5a1bda893f",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bmss-bioms-sig-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "Registration cutoff conflict: overview says 12 January 2027; training booking page says 15 January with an inconsistent weekday. Registration reminders remain unavailable until resolved.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "2073dcabd36dcc4d9ad875834911d043d51633d2f975aaffbc4c9f5a1bda893f",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://www.bmss.org.uk/meeting-booking/biomacromolecular-structure-training-event-2027-day-1/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "b5fcd90a1082adbe4414c23c1222a1bbf25e28fe75c25fc189e3f5a41b9fccc5",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bmss-bioms-sig-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "Registration cutoff conflict: overview says 12 January 2027; training booking page says 15 January with an inconsistent weekday. Registration reminders remain unavailable until resolved.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "b5fcd90a1082adbe4414c23c1222a1bbf25e28fe75c25fc189e3f5a41b9fccc5",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://winterschool.cc/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "42da3ed655dfbf8b304b3621ee6fe1683a6821bc2ddd29bee69ba3bd6f869188",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "vwscc-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "42da3ed655dfbf8b304b3621ee6fe1683a6821bc2ddd29bee69ba3bd6f869188",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.chemcomp.com/en/Tides-2027-Europe.htm": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "8e8b950f4e7e651616f4fdb2ee87c2e607eaef717c0f9954a1aba4718c0cfdb3",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "ccg-tides-by-design-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "8e8b950f4e7e651616f4fdb2ee87c2e607eaef717c0f9954a1aba4718c0cfdb3",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.h-its.org/event/5th-simplaix-workshop-on-machine-learning-for-multiscale-molecular-modeling/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "6eec3ff6ec2e128bfc8cc68127298959337f6193e61ae7266eb14446b5248233",
+      "fingerprint_version": 2,
+      "content_type": "text/html",
+      "message": null,
+      "checks": {
+        "simplaix-workshop-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "6eec3ff6ec2e128bfc8cc68127298959337f6193e61ae7266eb14446b5248233",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://meetings.embo.org/event/27-biomol-interactions": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "94c9649acedf0916ee5d49d3de235a0c819c84e811a08cc1719959855e062642",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "embo-integrative-biomolecular-modelling-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "94c9649acedf0916ee5d49d3de235a0c819c84e811a08cc1719959855e062642",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.embl.org/about/info/course-and-conference-office/events/csb27-01/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "e1a9895f7093efc79d17e8db126c3ab05d00036e330700973f8c67fa2ff2ed19",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "embo-computational-structural-biology-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "e1a9895f7093efc79d17e8db126c3ab05d00036e330700973f8c67fa2ff2ed19",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://lmc2027.com/LMC2027": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "ea94f661cc469f79df697542bae56eb603beb69d2edd2130e5cde47bfc621b34",
+      "fingerprint_version": 2,
+      "content_type": "text/html",
+      "message": null,
+      "checks": {
+        "lmc-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "ea94f661cc469f79df697542bae56eb603beb69d2edd2130e5cde47bfc621b34",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.chemcomp.com/en/UGM-2027-Europe.htm": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "796ded16f2779bb11c86c7cce0d927937b585a4a64fdae82c773f7dcefef8506",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "ccg-ugm-europe-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "796ded16f2779bb11c86c7cce0d927937b585a4a64fdae82c773f7dcefef8506",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.chemcomp.com/en/UGM-2027-North_America.htm": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "f8ebfd69dffb3cfb9584bb4f41808f03ae8901efa5f17c89135b852b8f71d5db",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "ccg-ugm-north-america-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "f8ebfd69dffb3cfb9584bb4f41808f03ae8901efa5f17c89135b852b8f71d5db",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://istcp2027.ar/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "ddb7710a7eb4ef0eb05fbd1dcf6ade98e5f391fe7ab4ef23d3a8328af5903fdf",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "istcp-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "ddb7710a7eb4ef0eb05fbd1dcf6ade98e5f391fe7ab4ef23d3a8328af5903fdf",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://istcp2027.ar/register": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "9493ca52c61c628f33f667c6241df22d80e9bdad52e31721bee0d5271a282614",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "istcp-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "9493ca52c61c628f33f667c6241df22d80e9bdad52e31721bee0d5271a282614",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://istcp2027.ar/abstracts": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "2d96f2fdb329f967139793952558a81e04ca09275e5fb6af845a6ca6a318eb82",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "istcp-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "2d96f2fdb329f967139793952558a81e04ca09275e5fb6af845a6ca6a318eb82",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://sites.google.com/as.edu.tw/cttc2027/cttc-2027": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "0084964474a544d1a268677aee87b61dc0174541c400ba22e9f8d6e3c0838e21",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "cttc-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "0084964474a544d1a268677aee87b61dc0174541c400ba22e9f8d6e3c0838e21",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://sites.google.com/as.edu.tw/cttc2027/registration": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "29c9c30e0604515ced98b3d14fd88751a8f8e4b9bc69d483a67a257c14ab79fb",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "cttc-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "29c9c30e0604515ced98b3d14fd88751a8f8e4b9bc69d483a67a257c14ab79fb",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.events.cineca.it/en/hpc/hpc-molecular-modelling/bologna-20270510": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "e5ffa4826ce5c3bddac5497ea9050c621eeef8fb8f479aff5d42187651265d05",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "cineca-hpc-molecular-modelling-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "e5ffa4826ce5c3bddac5497ea9050c621eeef8fb8f479aff5d42187651265d05",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.societachimica.it/index.php/it/node/71690": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "56d1394319e00769f7185ff04fd310a8492d35430529daaa746d742aca215e43",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "crysteng-school-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "56d1394319e00769f7185ff04fd310a8492d35430529daaa746d742aca215e43",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.dyfp-conferences.org/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "d14fa4177f1442ea99a3b79e9e390fa3aee9dfb86234c8a2760683f759530341",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "dyfp-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "d14fa4177f1442ea99a3b79e9e390fa3aee9dfb86234c8a2760683f759530341",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://iop-physics-of-life-2027.eventsairsite.com": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "5b3642b4393d19f3eaf4f4c2eaea4a5d6959b3e90b33566df1215486fb7f8150",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "physics-of-life-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "5b3642b4393d19f3eaf4f4c2eaea4a5d6959b3e90b33566df1215486fb7f8150",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.rsc.org/events/find-an-event/understanding-molecular-catalysis-through-computation-and-experiment-faraday-discussion": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "status": "unverifiable",
+      "message": "HTTP Error 403: Forbidden",
+      "checks": {
+        "rsc-molecular-catalysis-faraday-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "evidence": "The official RSC page, read through the web reader, confirms 21–23 June 2027 and the five listed deadline dates. Direct HTTP retrieval returned 403; source monitoring remains unverifiable."
+        }
+      }
+    },
+    "https://www.chem.iitb.ac.in/ibs2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "2b474d4dff55e8d02d73c1e65ae36ac6018d4ef290c0f518c190f667f7da06d9",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "ibs-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "2b474d4dff55e8d02d73c1e65ae36ac6018d4ef290c0f518c190f667f7da06d9",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.chem.iitb.ac.in/ibs2027/program.php": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "b58e22895b7b9dfbcb9c0e74c4abacc655e3fc84f37fbd99c7fe05609ae7298e",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "ibs-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "b58e22895b7b9dfbcb9c0e74c4abacc655e3fc84f37fbd99c7fe05609ae7298e",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.biophysics.org/blog/message-from-the-organizers": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "b9b60fddc0051c472a38a6e2f57ac0664fd7ebd11c95c1edfa06ce2972f55759",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bps-protons-in-biology-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "b9b60fddc0051c472a38a6e2f57ac0664fd7ebd11c95c1edfa06ce2972f55759",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.biophysics.org/meetings-events/bps-conferences/2027-protons-in-biology-bps-conference/general-info/bps-conference-faqs": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "cdf32931a0e3b4a510fac33bd6b272f818f3b8fddf3d96dd00915a59050c9397",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bps-protons-in-biology-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "cdf32931a0e3b4a510fac33bd6b272f818f3b8fddf3d96dd00915a59050c9397",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.biophysics.org/meetings-events/bps-conferences/2027-protons-in-biology-bps-conference": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "19be778fb41c2ea19e1ceb89127ae684933ef86ebd7291f648d6817248309560",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bps-protons-in-biology-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "19be778fb41c2ea19e1ceb89127ae684933ef86ebd7291f648d6817248309560",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.waterbiophysics.eu/Main/HomePage": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "a81db3b5931fa266a3647094fbea98ce1c1c269d7cbab4b6d9b6b78cd9fab1a6",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=ISO-8859-1;",
+      "message": null,
+      "checks": {
+        "water-biophysics-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "a81db3b5931fa266a3647094fbea98ce1c1c269d7cbab4b6d9b6b78cd9fab1a6",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.waterbiophysics.eu/Main/Deadlines": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "0b95a734c758f4cf812551f9aee933ede8a793254c095a505c9ed1ccf40db739",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=ISO-8859-1;",
+      "message": null,
+      "checks": {
+        "water-biophysics-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "0b95a734c758f4cf812551f9aee933ede8a793254c095a505c9ed1ccf40db739",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.waterbiophysics.eu/Main/ConferenceTopics": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "ee71059af56329273a2e1610f1a3764c96da431e15a47c2aeab03e1a401f290d",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=ISO-8859-1;",
+      "message": null,
+      "checks": {
+        "water-biophysics-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "ee71059af56329273a2e1610f1a3764c96da431e15a47c2aeab03e1a401f290d",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.biophysics.org/2027meeting": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "9c0b5e94e7a4e214b96ab1376f4c38e33b9c2da25c9970661c9c976dbcdcbcaf",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bps-annual-meeting-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "9c0b5e94e7a4e214b96ab1376f4c38e33b9c2da25c9970661c9c976dbcdcbcaf",
+          "evidence": "The official BPS calendar confirms 20–24 February 2027 in Philadelphia; the annual-meeting page describes its MD workshop and names the programme chairs.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.biophysics.org/2027meeting/registration": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "1fc5459302231254f0ed777cbb72816a44a5b2dfbbd19e2c125e662d6d461973",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bps-annual-meeting-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "1fc5459302231254f0ed777cbb72816a44a5b2dfbbd19e2c125e662d6d461973",
+          "evidence": "The official BPS calendar confirms 20–24 February 2027 in Philadelphia; the annual-meeting page describes its MD workshop and names the programme chairs.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.biophysics.org/events-calendar": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "dc11f6a2e66221816c8305972d5390ed174480c9ed11bb7b247834ff30d64022",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "bps-annual-meeting-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "dc11f6a2e66221816c8305972d5390ed174480c9ed11bb7b247834ff30d64022",
+          "evidence": "The official BPS calendar confirms 20–24 February 2027 in Philadelphia; the annual-meeting page describes its MD workshop and names the programme chairs.",
+          "remaining_fields": []
+        },
+        "biomolecular-dynamics-berlin-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "dc11f6a2e66221816c8305972d5390ed174480c9ed11bb7b247834ff30d64022",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.biophysics.org/upcoming-thematic-meetings/biomolecular-dynamics-integrating-experiments-and-computation": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "7061b4406dd7c864856a5b8fcec3f8c15a4a4ec88ccb34c7044c37e1565295b5",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "biomolecular-dynamics-berlin-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "7061b4406dd7c864856a5b8fcec3f8c15a4a4ec88ccb34c7044c37e1565295b5",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.grc.org/chemistry-and-physics-of-liquids-conference/2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "d7855cd81f9cb83dedac240a4b15af3edff495aa4895a902a76320204eff91ac",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "grc-liquids-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "d7855cd81f9cb83dedac240a4b15af3edff495aa4895a902a76320204eff91ac",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "ea0f93ecd177f37aa09e0992221151ae5b05d8810014ae8bcc07fce8339ab86c",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "grs-liquids-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "ea0f93ecd177f37aa09e0992221151ae5b05d8810014ae8bcc07fce8339ab86c",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.grc.org/computer-aided-drug-design-conference/2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "856f32331dd6f2149bacd5952feb726e2a5697d43914443bf17b4dc452b4e64b",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "grc-cadd-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "856f32331dd6f2149bacd5952feb726e2a5697d43914443bf17b4dc452b4e64b",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.grc.org/computer-aided-drug-design-grs-conference/2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "746689df0712915c6b38d2b721647a5e3b796c7cae207cb06eafb5261fcdfad6",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "grs-cadd-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "746689df0712915c6b38d2b721647a5e3b796c7cae207cb06eafb5261fcdfad6",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.grc.org/soft-condensed-matter-physics-conference/2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "d0bf01ef69ade0fa9d7ddbdb7a18cedc409811afc7b90f013052ad3c97e2096e",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "grc-soft-condensed-matter-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "d0bf01ef69ade0fa9d7ddbdb7a18cedc409811afc7b90f013052ad3c97e2096e",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.grc.org/soft-condensed-matter-physics-grs-conference/2027/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "b32a342641cc817a12532b140cddaa6eccc4c438cf2204dd8140afc8173e8114",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "grs-soft-condensed-matter-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "b32a342641cc817a12532b140cddaa6eccc4c438cf2204dd8140afc8173e8114",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://simbiochem.com/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "4860ee76c13ff340a3b145ff98ca3ad89db35f66882e60f60ec2a4358020c5ae",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "simbiochem-neurips-2026": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "4860ee76c13ff340a3b145ff98ca3ad89db35f66882e60f60ec2a4358020c5ae",
+          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://www.compchemday.org/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "08e8308b4852d23cdb837ddb2d9a14652ade86d3c24fbd3252665a65be191519",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "computational-chemistry-day-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "Exact 2027 dates and location are not yet published.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "08e8308b4852d23cdb837ddb2d9a14652ade86d3c24fbd3252665a65be191519",
+          "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://www.cecam.org/program?location=all&month=all&type=flagship_school": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "c2f2d5de7e07efad527b724afd410364698ae1d10c4c509d4a5436eef32932c5",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "molsim-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "c2f2d5de7e07efad527b724afd410364698ae1d10c4c509d4a5436eef32932c5",
+          "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://www.compchem.nl/molsim/": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "370df7710a3524b2639e73430b6d20c0c431fe09b148b25d9f460e46c1ecfc2c",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=UTF-8",
+      "message": null,
+      "checks": {
+        "molsim-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "370df7710a3524b2639e73430b6d20c0c431fe09b148b25d9f460e46c1ecfc2c",
+          "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/all-electron-dft-with-fleur-a-hands-on-tutorial-1506": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "a402f4e352406baf2851b69f7db952e1fa2fa8fb6d57a360cebab9cefafc41b2",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "cecam-fleur-school-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "Reconfirm the indexed 8–12 March 2027 schedule and 5 February cutoff on the current official page.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "a402f4e352406baf2851b69f7db952e1fa2fa8fb6d57a360cebab9cefafc41b2",
+          "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/fracture-of-amorphous-materials-across-the-scales-1564": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "last_success_at": "2026-11-02T17:49:53Z",
+      "status": "checked",
+      "hash": "daf83256f9bb4f68abd5483f51eb60d3e69483c00fb8c5081ed013af78f956eb",
+      "fingerprint_version": 2,
+      "content_type": "text/html; charset=utf-8",
+      "message": null,
+      "checks": {
+        "cecam-fracture-amorphous-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "The indexed 12–16 April 2027 dates need live official confirmation.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "reviewed_hash": "daf83256f9bb4f68abd5483f51eb60d3e69483c00fb8c5081ed013af78f956eb",
+          "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
+          "remaining_fields": [
+            "dates",
+            "deadlines"
+          ]
+        }
+      }
+    },
+    "https://cecamsimul.eu/events/events-2026": {
+      "last_checked_at": "2026-11-02T17:49:53Z",
+      "status": "unverifiable",
+      "message": "HTTP Error 403: Forbidden",
+      "checks": {
+        "cecam-esi-simulation-scales-2027": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional.",
+          "reviewed_at": "2026-11-02T17:49:53Z",
+          "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified."
+        }
+      }
     }
   },
   "last_checked_at": "2026-11-02T07:42:43Z"

@@ -1,4 +1,4 @@
-import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,nextDeadline,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary,timelineEntries,eventTopics,peopleGroups,peopleSearchText,matchesSearch} from './core.mjs?v=20261028-people';
+import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,nextDeadline,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary,timelineEntries,eventTopics,peopleGroups,peopleSearchText,matchesSearch} from './core.mjs?v=20261102-simulation';
 
 const $=id=>document.getElementById(id);
 let catalogue={events:[],watchlist:[],metadata:{},updates:[]};

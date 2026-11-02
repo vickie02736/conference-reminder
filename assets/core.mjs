@@ -6,12 +6,15 @@ export const isConferenceDate = m => ['conference_start','conference_end'].inclu
 // Keep the research keywords in the catalogue while presenting a short, shared
 // taxonomy in the topic filter and on conference cards.
 export const topicGroups = [
-  {label:'AI & Machine Learning', tags:['AI','ML','Machine Learning','GNN','Intelligent Computing','AI for Science']},
+  {label:'AI & Machine Learning', tags:['AI','ML','Machine Learning','GNN','Intelligent Computing','AI for Science','AI Agents']},
   {label:'AI for Materials & Chemistry', tags:['AI for Materials','AI for Chemistry','AI for Materials Chemistry','Materials Informatics','ML Potentials','Materials Data','Inverse Design']},
   {label:'MOFs, COFs & Porous Materials', tags:['MOF','COF','Porous Materials','Porous Media','Poroelasticity','Porous Metals','Reticular Chemistry','Zeolites']},
   {label:'Adsorption & Separations', tags:['Adsorption']},
-  {label:'Simulation & Theory', tags:['Simulation','Electronic Structure','Computational Chemistry','Theoretical Chemistry','Molecular Modelling','Statistical Physics','Computational Materials','Thermodynamics','Phase Equilibria','Quantum Transport','Quantum Dynamics','Theoretical and Computational Chemistry','Computational and Theoretical Chemistry','Ionic Fluids','Transport','Confined Water','Soft Matter','Self-assembly']},
-  {label:'Materials & Characterisation', tags:['General Materials','Materials Chemistry','Catalysis','Electrochemistry','Carbon Materials','Characterisation']},
+  {label:'Simulation & Theory', tags:[
+    'Simulation','Electronic Structure','Computational Chemistry','Theoretical Chemistry','Molecular Modelling','Statistical Physics','Computational Materials','Thermodynamics','Phase Equilibria','Quantum Transport','Quantum Dynamics','Theoretical and Computational Chemistry','Computational and Theoretical Chemistry','Ionic Fluids','Transport','Confined Water','Soft Matter','Self-assembly',
+    'Molecular Simulation','Molecular Dynamics','Quantum Chemistry','Multiscale Modelling','Biomolecular Simulation','Enhanced Sampling','Free Energy','Molecular Kinetics','Drug Design','Protein Modelling','LAMMPS','OpenMolcas','Peptide Modelling','Integrative Modelling','Liquid Matter','Statistical Mechanics','Confinement','GROMACS','HPC','Materials Modelling','Biophysics','Biomolecular Modelling','Protein Design','Proton Transfer','Water','Computational Biophysics','Monte Carlo','DFT'
+  ]},
+  {label:'Materials & Characterisation', tags:['General Materials','Materials Chemistry','Catalysis','Electrochemistry','Carbon Materials','Characterisation','Crystal Engineering','Polymers','Structural Mass Spectrometry']},
   {label:'Automation & Digital Chemistry', tags:['Automation','Automated Experimentation','Cheminformatics','Process Chemistry']}
 ];
 const nonTopicTags = new Set(['School','AI and simulation symposia pending']);

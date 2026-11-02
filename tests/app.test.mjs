@@ -10,6 +10,12 @@ const catalogue = JSON.parse(fs.readFileSync(new URL('../data/conferences.json',
 const config = JSON.parse(fs.readFileSync(new URL('../config.json', import.meta.url), 'utf8'));
 const today = '2026-10-27', now = Date.parse('2026-10-27T18:00:00Z');
 
+function expectedResultCount(data, europeOnly = false) {
+  const visible = event => (!event.end || event.end >= today) && (!europeOnly || core.hasEuropeanSite(event));
+  const scheduled = data.events.filter(visible).length, pending = data.watchlist.filter(visible).length;
+  return `${scheduled} scheduled · ${pending} ${pending === 1 ? 'date' : 'dates'} pending / unconfirmed`;
+}
+
 class Element {
   constructor() { this.value = ''; this.textContent = ''; this.innerHTML = ''; this.checked = false; this.open = false; this.children = []; this.attributes = {}; this.listeners = {}; }
   append(child) { this.children.push(child); }
@@ -48,8 +54,8 @@ async function harness({ delayed = false, failed = false, data = catalogue } = {
 
 test('global totals and provisional cards use the same scheduled/watchlist classification', async () => {
   const h = await harness(); h.set('region', 'all');
-  assert.deepEqual([...h.elements.get('catalogue-stats').innerHTML.matchAll(/<b>(\d+)<\/b>/g)].map((m) => Number(m[1])), [104, 24, 43, 6]);
-  assert.equal(h.elements.get('result-count').textContent, '103 scheduled · 6 dates pending / unconfirmed');
+  assert.deepEqual([...h.elements.get('catalogue-stats').innerHTML.matchAll(/<b>(\d+)<\/b>/g)].map((m) => Number(m[1])), [catalogue.events.length, catalogue.events.filter(e => e.region === 'UK').length, catalogue.events.filter(e => e.region === 'Europe').length, catalogue.watchlist.length]);
+  assert.equal(h.elements.get('result-count').textContent, expectedResultCount(catalogue));
   for (const event of catalogue.watchlist) {
     const card = h.list().match(new RegExp('<article[^>]*id="event-' + event.id + '"[\\s\\S]*?<\\/article>'))?.[0];
     assert.ok(card, event.id);
@@ -121,7 +127,7 @@ test('source shortcuts reveal all affected activities and the source filter comb
   assert.equal(h.elements.get('advanced-count').textContent, '');
   assert.equal(h.elements.get('advanced-filters').open, false);
   assert.equal(shortcuts[1].attributes['aria-pressed'], 'false');
-  assert.equal(h.elements.get('result-count').textContent, '68 scheduled · 4 dates pending / unconfirmed');
+  assert.equal(h.elements.get('result-count').textContent, expectedResultCount(catalogue, true));
 });
 
 test('loading retains its loading state even if email configuration arrives first', async () => {
