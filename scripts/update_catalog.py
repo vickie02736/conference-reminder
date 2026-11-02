@@ -380,7 +380,7 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
                 # Parsers verify narrowly scoped facts, not all main-page copy.
                 # A matching date-only Event cannot explain a changed deadline
                 # clock time elsewhere in the same page.
-                pending, reason = True, "content_changed"
+                pending, reason = True, ("content_conflict" if not changed and prior_check.get("reason") == "content_conflict" else "content_changed")
                 message = (prior_check.get("message") if prior_review and prior_check.get("reason") != "observation" else None) or (
                     "Official content changed; recognised fields may be updated, but the remaining content requires review.")
                 for item in observation["review"]:
@@ -397,8 +397,12 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
             else:
                 # A first baseline alone does not imply a change since research.
                 pending, message, reason = False, "", None
-            states[url].setdefault("checks", {})[event["id"]] = {
-                "review_required": pending, "message": message or None, "reason": reason}
+            next_check = dict(prior_check)
+            if changed and prior_check.get("reviewed_hash"):
+                next_check["review_invalidated_at"] = now
+                next_check["remaining_fields"] = ["dates", "times", "timezones", "people_roles_affiliations"]
+            next_check.update(review_required=pending, message=message or None, reason=reason)
+            states[url].setdefault("checks", {})[event["id"]] = next_check
             if pending:
                 reviews.append(f"{url}: {message}")
             verified = verified or observation["verified"]

@@ -276,16 +276,20 @@
     "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/": {
       "last_checked_at": "2026-11-02T07:42:43Z",
       "status": "checked",
-      "hash": "92c0ad74d8d3b0b1fa6f5f47d7120050354fb143049ab0535cc75d372b6fbcba",
+      "hash": "63485a2280c25007d0529b798909034ca1074ff0ccc4d144022b4099d6ff90fa",
       "last_success_at": "2026-11-02T07:42:43Z",
       "content_type": "text/html",
       "message": null,
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "do-androids-dream-of-electric-papers-benchmarking-ai-scientists": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "63485a2280c25007d0529b798909034ca1074ff0ccc4d144022b4099d6ff90fa",
+          "evidence": "逐项核实：2026-11-25，09:30–15:45 GMT；申请 11-02 未发布截止钟点/时区。Constructor Knowledge Labs 与 ARIA 主办；Andrey Ustyuzhanin/CKL、Aayush Chadha/ARIA Frontier Specialist、Alice Pettitt/同角色、Izzy Foord/ARIA Programme Associate 均相符；Tatiana Shavrina 为 keynote，FAIR, Meta SuperIntelligence Labs。页面计数器 0 不作为日期。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -576,9 +580,13 @@
       "changed_at": "2026-11-01T07:35:21Z",
       "checks": {
         "aisb-convention-2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "5f667bd7731877222385b68f88492992eff82e9570c0595ad09033b38ed8367b",
+          "evidence": "2027-06-01 至 03 Liverpool，symposium 提案 2026-11-15；无精确钟点/时区。AISB 主办、Liverpool 承办，Floriana Grasso 为 Liverpool 联系人；未发布各 symposium 投稿截止和讲者，保留未知。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -1154,9 +1162,13 @@
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "9b7d5f686076d4d74205961036c911b040ae4af8c4dd29d086754ceb6a67efaf",
+          "evidence": "会议 12-15 至 17；摘要 10-30；注册 11-25，截止没有钟点/时区。四位 keynote Spaldin/ETH Zürich、Morris/St Andrews、Regoutz/Oxford、Dutton/Cambridge；四位 ECR Geddes/Nature Communications、Anker/DTU、Meekel/Birmingham、Scatena/Diamond；七位已收录组织者角色及机构逐项核实。初步节目 13:00 结束与会场 noon→noon 文案不完全一致，不升格为精确会议结束时间。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -1188,9 +1200,13 @@
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "camml2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "916fa22103fb0b03cbf1f0cf75ce451f0e7a45d00690f732dc937c26bc5143c4",
+          "evidence": "注册页明确 2026-10-15 开放、11-26 截止；未发布钟点/时区；Alin Elena 联系邮箱与官方机构域相符。此页无已收录委员会/讲者，相关人员在 about/speakers 分别核对。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -1269,9 +1285,13 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "camml2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "24ddd59cb0341f73e24484edb826adb318e83366d3e42042e240e0c14a036f1f",
+          "evidence": "主页明确 2027-04-05 至 09、Daresbury Laboratory、Registration is open；未发布截止钟点/时区，无本页人员关联。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -1732,9 +1752,14 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "eazc2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "608ed7b34d97fa5820febba2830588db5dafe45bd84543f5d51572bdf374a807",
+          "evidence": "浏览器确认主文仍写旧 2026-07-31，侧栏明确 Extended deadline 2026-08-31；延期期限优先。Recent Reports 11-30、注册 12-31 不变。",
+          "evidence_record": "data/maintenance-review-2026-11-02.json",
+          "remaining_transport_issue": "checked"
         }
       },
       "fingerprint_version": 2
@@ -1749,9 +1774,14 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "eazc2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "123a5e559adcbaf915a293ccd2eaf56d53a1cc49a5209ae73ebc6fcad77f59c3",
+          "evidence": "浏览器本次确认：会议主日程 2027-01-18 至 20，报到 01-17；常规摘要延期 2026-08-31、Recent Reports 11-30、注册 12-31；五个现有主办机构均仍列出。与已有事实相符。",
+          "evidence_record": "data/maintenance-review-2026-11-02.json",
+          "remaining_transport_issue": "checked"
         }
       },
       "fingerprint_version": 2
@@ -2012,7 +2042,11 @@
         "outcome": "success",
         "final_source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/",
         "reason": "原地址本次已返回可读正文；先前为临时网络/响应异常。"
-      }
+      },
+      "lifecycle": "historical_replaced",
+      "replacement": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
+      "retired_at": "2026-11-02T17:32:06+00:00",
+      "retirement_evidence": "Replacement verified in maintenance-review-2026-11-02.json. Last old-address error retained; not a newly missing activity source."
     },
     "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/": {
       "last_checked_at": "2026-11-02T07:42:43Z",
@@ -2364,9 +2398,13 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "camml2027": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "004b9b7b72064a04f59da2d112ecc8daf09de194016c1c7fae7c6253cafcac72",
+          "evidence": "2027-04-05 至 09、Daresbury；申请 2026-11-26、付款 2027-02-13；PSDI 与 AIchemy 组织者明确。页面 other events 的钟点不属于 CaMML，不能转移到本活动。通知 12-17 与 about 的 12-19 冲突、住宿四晚与五晚冲突另存，不新建这些节点。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -2691,9 +2729,13 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "a0677491eeacecd0f222d65cdd09cfbee416fb3a18e98f003613a4a54e786ec0",
+          "evidence": "11-24 至 25 日期核实；APRIL AI Hub 与 Generative AI Lab 均为 University of Edinburgh 的 host；Themis Prodromakis 与 Ram Ramamoorthy 为 co-chairs。注册开放、投稿已关闭；未推测钟点。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -2764,9 +2806,13 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "e3d90e62dade2f32116ef82402fb9cc8a94fad5626a07e2483f2d2afe2896bb3",
+          "evidence": "正文各主题及侧栏 11-24 至 25、投稿 06-26 核实；无新的截止钟点、时区或选录人员。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -2781,9 +2827,13 @@
       "changed_at": "2026-10-28T06:53:20Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "message": "Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag.",
-          "reason": "fingerprint_upgrade"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "d566e102d98456d5ff70ea1af9b49f6e0bb7254773d5c98714d8a7bd0658a79c",
+          "evidence": "11-24 至 11-25 会议；投稿 06-26 已关闭；注册至 11-10。三者均无精确钟点/时区。所列会场为 Edinburgh，注册开放；本页没有额外选录人物。",
+          "resolved_reason": "fingerprint_upgrade"
         }
       },
       "fingerprint_version": 2
@@ -3024,7 +3074,11 @@
         "final_source": "https://www.fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
         "reason": "已找到并实抓官方替代来源；仅覆盖该来源明确提供的事实，旧来源的专有内容仍保留核实要求。"
       },
-      "replacement_source": "https://www.fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027"
+      "replacement_source": "https://www.fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+      "lifecycle": "historical_replaced",
+      "replacement": "https://www.fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+      "retired_at": "2026-11-02T17:32:06+00:00",
+      "retirement_evidence": "Replacement verified in maintenance-review-2026-11-02.json. Last old-address error retained; not a newly missing activity source."
     },
     "https://wmt2026workshop.github.io/": {
       "last_checked_at": "2026-11-02T07:42:43Z",
@@ -3037,9 +3091,13 @@
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "wmt-2026-when-materials-think": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "625376af7ddb3935491cf311a18032a10fe23acd78aca2bc733baee309486fc7",
+          "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。",
+          "resolved_reason": "content_changed"
         }
       }
     },
@@ -3097,7 +3155,7 @@
     "https://aistats.org/aistats2027/committee.html": {
       "last_checked_at": "2026-11-02T07:42:43Z",
       "status": "checked",
-      "hash": "e31a263d1b659ee8359034b5f7d19e4b12e7a1621360f2d972c3abd1c1ca2ead",
+      "hash": "d1716861039e82a2034527214a9c0fb022f2cf13342bbcb3bc11417f7efb4e85",
       "last_success_at": "2026-11-02T07:42:43Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
@@ -3105,9 +3163,13 @@
       "changed_at": "2026-10-30T07:09:21Z",
       "checks": {
         "aistats-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "d1716861039e82a2034527214a9c0fb022f2cf13342bbcb3bc11417f7efb4e85",
+          "evidence": "全部七位已收录人员逐项核对：General Chairs Aaditya Ramdas/Stanford、Arno Solin/ELLIS Finland+Aalto；Program Chairs Quentin Berthet/Google DeepMind、Aymeric Dieuleveut/École polytechnique；Workflow Mathieu Dagréou/INRIA、Jean-Baptiste Fermanian/INRIA-INRAE；Publication Martin Trapp/KTH。该页无会议或截止日期钟点。",
+          "resolved_reason": "content_changed"
         }
       }
     },
@@ -3448,9 +3510,23 @@
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "camml2027": {
-          "review_required": false,
-          "message": null,
-          "reason": null
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "首页/registration 显示开放，但 about 的 Key dates 写 registration is closed。; PSDI: 2026-12-17；about: 2026-12-19。; about 写 2025-12-06，早于本轮申请；不猜测应为 2026。; PSDI 四晚；about 五晚。",
+          "remaining_fields": [
+            "registration_availability",
+            "notification_date",
+            "supervisor_letter_year",
+            "accommodation"
+          ],
+          "verified_fields": [
+            "all selected organizer/committee names, roles, affiliations",
+            "application deadline 2026-11-26",
+            "opening 2026-10-15",
+            "school dates 2027-04-05 to 09"
+          ],
+          "reviewed_at": "2026-11-02T17:32:06+00:00",
+          "reviewed_hash": "6e4b0da8ef403c34b194b11448d309077c7155489c022c66babcae5d704964c2"
         }
       }
     },
@@ -3837,7 +3913,11 @@
         "final_source": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
         "reason": "官网活动页的Speakers链接已更换资源ID；新PDF已成功完整下载（12页），旧链接确认为404。"
       },
-      "replacement_source": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en"
+      "replacement_source": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
+      "lifecycle": "historical_replaced",
+      "replacement": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
+      "retired_at": "2026-11-02T17:32:06+00:00",
+      "retirement_evidence": "Replacement verified in maintenance-review-2026-11-02.json. Last old-address error retained; not a newly missing activity source."
     },
     "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx": {
       "last_checked_at": "2026-11-02T07:42:43Z",

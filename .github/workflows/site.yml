@@ -66,7 +66,9 @@ jobs:
         run: python scripts/validate_catalog.py
       - name: Check registered official sources
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
-        run: python scripts/update_catalog.py
+        run: |
+          python scripts/update_catalog.py
+          python scripts/review_backlog.py
       - name: Discover possible new conferences
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.discover_conferences)
         env:
@@ -76,7 +78,7 @@ jobs:
       - name: Commit checked data
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.refresh_sources || inputs.discover_conferences))
         run: |
-          git add data/conferences.json data/source-checks.json data/discovered-conferences.json
+          git add data/conferences.json data/source-checks.json data/discovered-conferences.json data/review-progress.json
           if git diff --cached --quiet; then
             echo "No catalogue changes to commit."
             exit 0

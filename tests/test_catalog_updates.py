@@ -419,6 +419,25 @@ class SourceUpdateTests(unittest.TestCase):
         updated, _, _ = update_catalog(data, {}, ADAPTERS, {row["url"]: fetched(jsonld_html())}, NOW)
         self.assertEqual(len(updated["updates"]), 200)
 
+    def test_manual_review_evidence_survives_daily_checks_and_changes_reopen_it(self):
+        row = event()
+        fetches = {row["url"]: fetched(jsonld_html())}
+        updated, state, _ = update_catalog(catalog(row), {}, ADAPTERS, fetches, NOW)
+        state["sources"][row["url"]]["checks"][row["id"]] = {
+            "review_required": False, "reviewed_hash": fetches[row["url"]]["hash"],
+            "evidence": "Human checked dates, clock times and the selected roster.",
+            "remaining_fields": []}
+        same, stable_state, _ = update_catalog(updated, state, ADAPTERS, fetches, NOW)
+        check = stable_state["sources"][row["url"]]["checks"][row["id"]]
+        self.assertFalse(check["review_required"])
+        self.assertIn("selected roster", check["evidence"])
+        changed = {row["url"]: fetched(jsonld_html().replace("</main>", "<p>New announcement.</p></main>"))}
+        _, changed_state, _ = update_catalog(same, stable_state, ADAPTERS, changed, NOW)
+        check = changed_state["sources"][row["url"]]["checks"][row["id"]]
+        self.assertTrue(check["review_required"])
+        self.assertEqual(check["review_invalidated_at"], NOW)
+        self.assertIn("timezones", check["remaining_fields"])
+
     def test_validator_rejects_exact_time_without_timezone_and_duplicate_nodes(self):
         row = event()
         node = {"id": "abstract", "kind": "abstract", "label": "Abstract", "date": "2027-01-01", "time": "23:59",

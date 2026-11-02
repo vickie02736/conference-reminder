@@ -21,7 +21,7 @@
       "Milestone verification status does not indicate that submissions or registration are currently open."
     ],
     "last_checked_at": "2026-11-02T07:42:43Z",
-    "last_updated_at": "2026-11-02T09:15:10+00:00",
+    "last_updated_at": "2026-11-02T17:32:06+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -619,10 +619,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.ukairs.ac.uk/i/Registration: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.ukairs.ac.uk/i/SubmissionThemes: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.ukairs.ac.uk/Home/Welcome: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "last_verified_at": "2026-11-02T17:32:06+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -785,37 +785,37 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "last_verified_at": "2026-11-02T17:32:06+00:00",
+        "message": null
       },
       "milestones": [
         {
           "kind": "conference_start",
           "label": "Workshop starts",
           "date": "2026-11-25",
-          "time": null,
-          "timezone": null,
+          "time": "09:30",
+          "timezone": "Europe/London",
           "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-start",
-          "version": 1,
+          "version": 2,
           "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-          "precision": "date",
+          "precision": "datetime",
           "status": "verified",
-          "evidence": "The linked official source lists this date."
+          "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
         },
         {
           "kind": "conference_end",
           "label": "Workshop ends",
           "date": "2026-11-25",
-          "time": null,
-          "timezone": null,
+          "time": "15:45",
+          "timezone": "Europe/London",
           "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
-          "version": 1,
+          "version": 2,
           "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-          "precision": "date",
+          "precision": "datetime",
           "status": "verified",
-          "evidence": "End date from the source-verified official event date range; exact end time is not published."
+          "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
         },
         {
           "kind": "application",
@@ -1355,10 +1355,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://sscg.uk/2026-sscg-christmas-meeting: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "last_verified_at": "2026-11-02T17:32:06+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -2477,7 +2477,7 @@
       "region": "UK",
       "type": "School / Training",
       "deadline": "Applications: 26 November 2026. The 2027 registration page says applications open on 15 October and close on 26 November; acceptance by the form remains subject to the organiser.",
-      "status": "The application page is open; 40 places are advertised. Some related pages retain inconsistent old dates or closed notices.",
+      "status": "Application availability unconfirmed: official pages disagree. Published application deadline: 26 November 2026.",
       "note": "Five-day chemistry and materials machine-learning school, mainly for PhD students, covering machine-learning interatomic potentials and graph neural networks. Use the 2027 main site rather than stale linked pages; this is training, not an ordinary conference call.",
       "sources": [
         "https://spring2027.camml.ac.uk/",
@@ -2494,7 +2494,7 @@
         "status": "review_required",
         "last_checked_at": "2026-11-02T07:42:43Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://spring2027.camml.ac.uk/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://spring2027.camml.ac.uk/registration/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.psdi.ac.uk/event/camml-2027/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "message": "https://spring2027.camml.ac.uk/about/: 首页/registration 显示开放，但 about 的 Key dates 写 registration is closed。; PSDI: 2026-12-17；about: 2026-12-19。; about 写 2025-12-06，早于本轮申请；不猜测应为 2026。; PSDI 四晚；about 五晚。"
       },
       "milestones": [
         {
@@ -2682,7 +2682,7 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-02",
         "status": "published",
         "note": "Published 2027 organising committee, speaker and lecturer roster.",
         "sources": [
@@ -2983,10 +2983,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://aisb.org.uk/call-for-symposia-proposals-aisb-2027-university-of-liverpool/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "last_verified_at": "2026-11-02T17:32:06+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -11188,10 +11188,10 @@
       "verified_on": "2026-10-27",
       "evidence": "The site gives 17–20 January overall, distinguishing 17 January arrivals from the 18–20 January conference. Important Dates lists Recent Reports on 30 November.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.eazc2027.com/: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag. | https://www.eazc2027.com/index/page.html?id=1844: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
+        "last_verified_at": "2026-11-02T17:32:06+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -12386,10 +12386,10 @@
       "verified_on": "2026-10-29",
       "evidence": "Official calls confirm Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 2 November explicitly extends proposals to 6 November 2026 at 22:59 CET (21:59 UTC), superseding the 30 October deadline. Other existing deadlines are retained.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-29T11:34:41Z",
-        "message": "https://aistats.org/aistats2027/committee.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "last_verified_at": "2026-11-02T17:32:06+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -14015,8 +14015,7 @@
       "status": "Applications open. Applications after 25 April are generally considered for posters. GRS and GRC require separate applications.",
       "note": "Early-career seminar before the GRC. All participants must submit an abstract and present orally or as a poster.",
       "sources": [
-        "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
-        "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/"
+        "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/"
       ],
       "url": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
       "priority": 1,
@@ -14108,8 +14107,7 @@
         "status": "published",
         "note": "Chair names transcribed from the official conference page’s name images. The preliminary programme and invited speaker list are still being developed.",
         "sources": [
-          "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
-          "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/"
+          "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/"
         ]
       },
       "source_recovery": {
@@ -16074,8 +16072,8 @@
       "location": "Glasgow, UK — Advanced Research Centre, University of Glasgow",
       "region": "UK",
       "type": "Workshop / Discussion",
-      "deadline": "Challenge paper submission: 15 October 2026 AoE (closed); notification: 26 October 2026; camera-ready: 9 November 2026.",
-      "status": "Submission closed; workshop scheduled for 1 December 2026.",
+      "deadline": "Challenge papers: rolling submissions, no fixed deadline; notifications individually after review. Final-version instructions will be sent individually to accepted authors.",
+      "status": "Rolling submissions open; no fixed deadline. Workshop scheduled for 1 December 2026.",
       "note": "ACM MUM 2026 workshop on computational materials, embedded AI, sensing and actuation. Adjacent to materials informatics rather than porous-materials chemistry.",
       "sources": [
         "https://wmt2026workshop.github.io/"
@@ -16085,10 +16083,10 @@
       "verified_on": "2026-10-27",
       "evidence": "The official workshop page confirms 1 December 2026 in Glasgow, the ACM MUM affiliation and all published paper dates.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-27T21:25:00Z",
-        "message": "https://wmt2026workshop.github.io/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "last_verified_at": "2026-11-02T17:32:06+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -16120,41 +16118,41 @@
         {
           "kind": "paper",
           "label": "Challenge paper submission",
-          "date": "2026-10-15",
+          "date": null,
           "time": null,
           "timezone": null,
           "id": "wmt-2026-when-materials-think:challenge-paper",
-          "version": 1,
+          "version": 2,
           "source": "https://wmt2026workshop.github.io/",
-          "precision": "date",
-          "status": "verified",
-          "evidence": "Official page states the deadline was extended to 15 October 2026 AoE."
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
         },
         {
           "kind": "other",
           "label": "Author notification",
-          "date": "2026-10-26",
+          "date": null,
           "time": null,
           "timezone": null,
           "id": "wmt-2026-when-materials-think:other",
-          "version": 1,
+          "version": 2,
           "source": "https://wmt2026workshop.github.io/",
-          "precision": "date",
-          "status": "verified",
-          "evidence": "Official page lists 26 October 2026."
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
         },
         {
           "kind": "paper",
           "label": "Camera-ready",
-          "date": "2026-11-09",
+          "date": null,
           "time": null,
           "timezone": null,
           "id": "wmt-2026-when-materials-think:camera-ready",
-          "version": 1,
+          "version": 2,
           "source": "https://wmt2026workshop.github.io/",
-          "precision": "date",
-          "status": "verified",
-          "evidence": "Official page lists 9 November 2026."
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
         }
       ],
       "people": {
@@ -17271,6 +17269,200 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "wmt-2026-when-materials-think",
+      "field": "status",
+      "previous": "Submission closed; workshop scheduled for 1 December 2026.",
+      "value": "Rolling submissions open; no fixed deadline. Workshop scheduled for 1 December 2026.",
+      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+    },
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "wmt-2026-when-materials-think",
+      "field": "deadline",
+      "previous": "Challenge paper submission: 15 October 2026 AoE (closed); notification: 26 October 2026; camera-ready: 9 November 2026.",
+      "value": "Challenge papers: rolling submissions, no fixed deadline; notifications individually after review. Final-version instructions will be sent individually to accepted authors.",
+      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+    },
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "wmt-2026-when-materials-think",
+      "field": "milestone:wmt-2026-when-materials-think:challenge-paper",
+      "previous": {
+        "kind": "paper",
+        "label": "Challenge paper submission",
+        "date": "2026-10-15",
+        "time": null,
+        "timezone": null,
+        "id": "wmt-2026-when-materials-think:challenge-paper",
+        "version": 1,
+        "source": "https://wmt2026workshop.github.io/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "Official page states the deadline was extended to 15 October 2026 AoE."
+      },
+      "value": {
+        "kind": "paper",
+        "label": "Challenge paper submission",
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "id": "wmt-2026-when-materials-think:challenge-paper",
+        "version": 2,
+        "source": "https://wmt2026workshop.github.io/",
+        "precision": "unknown",
+        "status": "unknown",
+        "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
+      },
+      "source": "https://wmt2026workshop.github.io/",
+      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+    },
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "wmt-2026-when-materials-think",
+      "field": "milestone:wmt-2026-when-materials-think:other",
+      "previous": {
+        "kind": "other",
+        "label": "Author notification",
+        "date": "2026-10-26",
+        "time": null,
+        "timezone": null,
+        "id": "wmt-2026-when-materials-think:other",
+        "version": 1,
+        "source": "https://wmt2026workshop.github.io/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "Official page lists 26 October 2026."
+      },
+      "value": {
+        "kind": "other",
+        "label": "Author notification",
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "id": "wmt-2026-when-materials-think:other",
+        "version": 2,
+        "source": "https://wmt2026workshop.github.io/",
+        "precision": "unknown",
+        "status": "unknown",
+        "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
+      },
+      "source": "https://wmt2026workshop.github.io/",
+      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+    },
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "wmt-2026-when-materials-think",
+      "field": "milestone:wmt-2026-when-materials-think:camera-ready",
+      "previous": {
+        "kind": "paper",
+        "label": "Camera-ready",
+        "date": "2026-11-09",
+        "time": null,
+        "timezone": null,
+        "id": "wmt-2026-when-materials-think:camera-ready",
+        "version": 1,
+        "source": "https://wmt2026workshop.github.io/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "Official page lists 9 November 2026."
+      },
+      "value": {
+        "kind": "paper",
+        "label": "Camera-ready",
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "id": "wmt-2026-when-materials-think:camera-ready",
+        "version": 2,
+        "source": "https://wmt2026workshop.github.io/",
+        "precision": "unknown",
+        "status": "unknown",
+        "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
+      },
+      "source": "https://wmt2026workshop.github.io/",
+      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+    },
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists",
+      "field": "milestone:do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-start",
+      "previous": {
+        "kind": "conference_start",
+        "label": "Workshop starts",
+        "date": "2026-11-25",
+        "time": null,
+        "timezone": null,
+        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-start",
+        "version": 1,
+        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "The linked official source lists this date."
+      },
+      "value": {
+        "kind": "conference_start",
+        "label": "Workshop starts",
+        "date": "2026-11-25",
+        "time": "09:30",
+        "timezone": "Europe/London",
+        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-start",
+        "version": 2,
+        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
+        "precision": "datetime",
+        "status": "verified",
+        "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
+      },
+      "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
+      "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
+    },
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists",
+      "field": "milestone:do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
+      "previous": {
+        "kind": "conference_end",
+        "label": "Workshop ends",
+        "date": "2026-11-25",
+        "time": null,
+        "timezone": null,
+        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
+        "version": 1,
+        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "End date from the source-verified official event date range; exact end time is not published."
+      },
+      "value": {
+        "kind": "conference_end",
+        "label": "Workshop ends",
+        "date": "2026-11-25",
+        "time": "15:45",
+        "timezone": "Europe/London",
+        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
+        "version": 2,
+        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
+        "precision": "datetime",
+        "status": "verified",
+        "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
+      },
+      "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
+      "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
+    },
+    {
+      "at": "2026-11-02T17:32:06+00:00",
+      "event_id": "camml2027",
+      "field": "status",
+      "previous": "The application page is open; 40 places are advertised. Some related pages retain inconsistent old dates or closed notices.",
+      "value": "Application availability unconfirmed: official pages disagree. Published application deadline: 26 November 2026.",
+      "evidence": {
+        "registration_availability": "首页/registration 显示开放，但 about 的 Key dates 写 registration is closed。",
+        "notification_date": "PSDI: 2026-12-17；about: 2026-12-19。",
+        "supervisor_letter_year": "about 写 2025-12-06，早于本轮申请；不猜测应为 2026。",
+        "accommodation": "PSDI 四晚；about 五晚。"
+      }
+    },
     {
       "at": "2026-11-02T09:15:10+00:00",
       "event_id": "euromof2027",
