@@ -105,7 +105,7 @@ test('separate submission routes survive closure of a regular round and funding 
 test('conflicting and provisional dates stay visibly unverified instead of driving a phase deadline',()=>{
  for(const name of ['Faraday Discussion','InterPore2027']) assert.equal(snapshotPhase(canonical(name)).label,'Deadline needs confirmation');
  assert.equal(snapshotPhase(canonical('FOA16')).label,'Deadlines unverified');
- assert.equal(snapshotPhase(canonical('AI MSE 2027')).key,'needs_review');
+ assert.equal(snapshotPhase(canonical('TYC20')).label,'Deadline needs confirmation');
  assert.equal(snapshotPhase(canonical('ISWPM26')).label,'Availability needs confirmation');
  assert.equal(snapshotPhase(canonical('E-MRS Fall Meeting 2027')).key,'upcoming');
  const e={start:'2027-06-01',milestones:[{...phaseNode('paper','2027-03-28'),precision:'datetime',time:'01:30',timezone:'Europe/London'}]};
@@ -211,7 +211,7 @@ test('announced openings coexist with other channels and never match the active 
  assert.equal(filterEvents([e],{stage:'submission'},'2026-10-27').length,0);
  assert.equal(filterEvents([e],{stage:'opening_soon'},'2026-10-27').length,1);
  assert.equal(filterEvents([e],{stage:'registration'},'2026-10-27').length,1);
- assert.deepEqual(snapshotStatuses(canonical('EuroMOF 2027')).map(s=>s.label),['Abstract submission open','Registration open']);
+ assert.deepEqual(snapshotStatuses(canonical('EuroMOF 2027')).map(s=>s.label),['Abstract submission open','Registration opening soon']);
  assert.deepEqual(snapshotStatuses(canonical('FOMMS 2027')).map(s=>s.label),['Abstract submission open','Registration opening soon']);
 });
 test('conflicting and invalid exact dates warn while independent verified routes stay available',()=>{

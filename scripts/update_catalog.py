@@ -113,6 +113,7 @@ UNVERIFIABLE_HINTS = (
     "403", "forbidden", "access challenge", "no readable page content",
     "timed out", "timeout", "incompleteread", "temporary failure",
     "connection reset", "name or service not known", "errno -2", "errno -3",
+    "certificate verify failed",
 )
 
 
@@ -173,7 +174,8 @@ def known_adapter(text, config):
                 value = labelled_date(text, label, year)
                 result["milestones"].append({"kind": kind, "label": title, "date": value,
                                              "evidence": f"{label}: until {value}."})
-            if re.search(r"online registration platform will open shortly", text, re.I):
+            # The 2026 site keeps an "open" heading above an unlinked "Soon available" button.
+            if re.search(r"online registration platform will open shortly|\bsoon available\b", text, re.I):
                 result["status_parts"]["registration"] = "Registration platform not yet open"
             elif re.search(r"(?:Online registration is open|Registration is (?:now )?open)", text, re.I):
                 result["status_parts"]["registration"] = "Registration is open"

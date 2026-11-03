@@ -126,7 +126,7 @@ class SourceUpdateTests(unittest.TestCase):
             self.assertTrue(state["sources"][row["url"]]["checks"][row["id"]]["review_required"])
 
     def test_dedicated_adapter_updates_scoped_fields_without_verifying_other_changes(self):
-        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts.html")
+        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts/")
         html = (FIXTURES / "euromof-abstracts.html").read_text()
         updated, state, _ = self.merge(row, {row["url"]: fetched(html)})
         changed = fetched(html.replace("February 1, 2027", "February 2, 2027") +
@@ -199,6 +199,7 @@ class SourceUpdateTests(unittest.TestCase):
             "Official source returned an access challenge, not conference content.",
             "<urlopen error timed out>",
             "IncompleteRead(24132 bytes read)",
+            "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
         ):
             with self.subTest(message=message):
                 updated, state, _ = self.merge(row, {row["url"]: {"ok": False, "message": message}})
@@ -255,7 +256,7 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(updated["events"][0]["check"]["status"], "review_required")
 
     def test_deadline_summary_excludes_both_activity_start_and_end(self):
-        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts.html")
+        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts/")
         row["milestones"] = [
             {"id": "start", "kind": "conference_start", "label": "Activity starts", "date": row["start"],
              "time": None, "timezone": None, "precision": "date", "status": "verified", "source": row["url"],
@@ -338,8 +339,8 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(actual["start"], "2026-12-11")
 
     def test_euromof_dates_do_not_imply_open_platforms(self):
-        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/index.html")
-        row["sources"] = ["https://euromof2027.com/abstracts.html", "https://euromof2027.com/registration.html"]
+        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/")
+        row["sources"] = ["https://euromof2027.com/abstracts/", "https://euromof2027.com/registration/"]
         fetches = {row["url"]: fetched("<main>EuroMOF 2027</main>")}
         for filename, url in (("euromof-abstracts.html", row["sources"][0]), ("euromof-registration.html", row["sources"][1])):
             fetches[url] = fetched((FIXTURES / filename).read_text())
@@ -362,6 +363,15 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(observation["status_parts"]["registration"], "Registration is open")
         self.assertEqual([node["date"] for node in observation["milestones"]],
                          ["2027-04-05", "2027-07-03"])
+
+    def test_euromof_unlinked_soon_available_button_outweighs_open_heading(self):
+        config = next(a for a in ADAPTERS["adapters"] if a["parser"] == "euromof_registration")
+        observation = known_adapter(
+            "Registration is open. Register online for EuroMOF 2027 through the registration platform. "
+            "SOON AVAILABLE. EARLY BIRD Until April 5, 2027. REGULAR FEE Until July 3, 2027.", config)
+        self.assertTrue(observation["verified"])
+        self.assertEqual(observation["status_parts"]["registration"], "Registration platform not yet open")
+        self.assertEqual([node["date"] for node in observation["milestones"]], ["2027-04-05", "2027-07-03"])
 
     def test_fee_opening_transitions_are_not_generated_as_reminder_nodes(self):
         config = next(a for a in ADAPTERS["adapters"] if a["parser"] == "euromof_registration")
@@ -390,7 +400,7 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(updated["events"][0]["start"], "2026-12-12")
 
     def test_existing_conflicting_abstract_is_never_silently_resolved(self):
-        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts.html")
+        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts/")
         row["milestones"] = [{"id": "abstract", "kind": "abstract", "label": "Abstract submission", "date": None,
                               "time": None, "timezone": None, "precision": "unknown", "status": "conflict",
                               "source": row["url"], "evidence": "Official dates disagree.", "version": 1}]
@@ -399,7 +409,7 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertEqual(updated["events"][0]["check"]["status"], "review_required")
 
     def test_deadline_change_increments_version_and_keeps_stable_id(self):
-        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts.html")
+        row = event("euromof2027", "EuroMOF 2027", "https://euromof2027.com/abstracts/")
         row["milestones"] = [{"id": "abstract", "kind": "abstract", "label": "Abstract submission", "date": "2027-01-15",
                               "time": "23:59", "timezone": "Europe/Rome", "precision": "datetime", "status": "verified",
                               "source": row["url"], "evidence": "Old announcement.", "version": 2}]

@@ -4,13 +4,13 @@
   "adapters": [
     {
       "event_id": "euromof2027",
-      "url": "https://euromof2027.com/abstracts.html",
+      "url": "https://euromof2027.com/abstracts/",
       "parser": "euromof_abstracts",
       "expected_year": 2027
     },
     {
       "event_id": "euromof2027",
-      "url": "https://euromof2027.com/registration.html",
+      "url": "https://euromof2027.com/registration/",
       "parser": "euromof_registration",
       "expected_year": 2027
     },
