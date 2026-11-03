@@ -2,11 +2,11 @@
   "schema_version": 1,
   "metadata": {
     "provider": "you",
-    "last_run_at": "2026-11-03T01:22:50Z",
-    "last_success_at": "2026-11-03T01:22:50Z",
+    "last_run_at": "2026-11-03T07:57:11Z",
+    "last_success_at": "2026-11-03T07:57:11Z",
     "query_count": 30,
     "result_count": 300,
-    "candidate_count": 148,
+    "candidate_count": 150,
     "error_count": 0,
     "errors": [],
     "note": "Search results are leads for manual verification; they are not official catalogue entries."
@@ -160,6 +160,51 @@
       ]
     },
     {
+      "id": "web-fc4bd523b7c5fd4fde0f",
+      "name": "2027 Conference",
+      "url": "https://icml.cc/",
+      "domain": "icml.cc",
+      "description": "The ICML 2027 submission deadlines and registration dates will appear here once they are confirmed. Our exhibitors make this conference possible. The International Conference on Machine Learning (ICML) is the premier gathering of professionals dedicated to the advancement of the branch of artificial intelligence ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 7,
+      "reasons": [
+        "event wording: conference",
+        "conference planning wording: registration",
+        "future year: 2027",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
+        "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "accepted",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 9,
+      "user_decision": "duplicate",
+      "duplicate_of_event_ids": [
+        "icml-2027"
+      ],
+      "duplicate_of_candidate_ids": [],
+      "catalogue_event_id": "icml-2027",
+      "reviewed_at": "2026-11-03T00:39:14Z",
+      "review_note": "候选标题还是 2026，官网已更新为 2027；目录已有 icml-2027 待定记录，应建议更新原条目。",
+      "review_decision": "duplicate",
+      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-fc4bd523b7c5fd4fde0f",
+      "review_history": [
+        {
+          "at": "2026-11-03T00:39:14Z",
+          "action": "linked_duplicate",
+          "previous_status": "needs_review",
+          "status": "accepted",
+          "reason": "候选标题还是 2026，官网已更新为 2027；目录已有 icml-2027 待定记录，应建议更新原条目。",
+          "record": "data/candidate-review-decisions-2026-11-03.json"
+        }
+      ]
+    },
+    {
       "id": "web-50fac426b76b18d66764",
       "name": "Artificial Intelligence & Machine Learning",
       "url": "https://artificialintelligence.unitedscientificgroup.org/",
@@ -180,9 +225,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 12,
+      "seen_count": 13,
       "user_decision": "add",
       "catalogue_event_id": "aim-2027-usg",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -221,9 +266,9 @@
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 16,
+      "seen_count": 18,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -248,9 +293,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -308,9 +353,9 @@
         "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "add",
       "catalogue_event_id": "aiche-annual-meeting-2026",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -348,9 +393,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -372,9 +417,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 16,
+      "seen_count": 18,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "2026 Spring 旧届 CFP；官方搜索结果指向已结束的 4–5 月活动，原页及替代页面无法完整读取。",
@@ -408,9 +453,9 @@
         "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-29T07:08:30Z",
-      "seen_count": 6,
+      "seen_count": 7,
       "user_decision": "add",
       "reviewed_at": "2026-10-29T11:34:41Z",
       "catalogue_event_id": "iccsiw-2026",
@@ -436,9 +481,9 @@
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
     },
@@ -464,9 +509,9 @@
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 17,
+      "seen_count": 19,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "RSC Publishing 的 collection 路径为期刊专题合集；与会议相关也不等于独立会议。原页 403，未把摘要当作日期证据。",
@@ -503,9 +548,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-28T06:53:21Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "reviewed_at": "2026-10-28T10:30:17Z",
       "user_decision": "dismiss",
       "review_note": "User retained only candidate 6 from the six new search leads first seen on 2026-10-28; this candidate was excluded."
@@ -527,9 +572,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "duplicate",
       "duplicate_of_event_ids": [
         "ijcai-2027"
@@ -571,9 +616,9 @@
         "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -594,9 +639,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "add",
       "catalogue_event_id": "stoc-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -1410,151 +1455,6 @@
       ]
     },
     {
-      "id": "web-14c60254567e38cd3445",
-      "name": "WMT 2026 — When Materials Think",
-      "url": "https://wmt2026workshop.github.io/",
-      "domain": "wmt2026workshop.github.io",
-      "description": "WMT 2026 — When Materials Think. A MUM 2026 workshop on computational materials for mobile and ubiquitous interaction.",
-      "topics": [
-        "AI for materials and chemistry"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: workshop",
-        "future year: 2026",
-        "research topic: AI for materials and chemistry"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
-      ],
-      "status": "accepted",
-      "last_seen_at": "2026-11-02T07:42:43Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 3,
-      "reviewed_at": "2026-10-27T21:25:00Z",
-      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
-    },
-    {
-      "id": "web-8f164f40d6a6fd901f55",
-      "name": "2024 Artificial Intelligence for Materials Science (AIMS) Workshop ...",
-      "url": "https://nist.gov/news-events/events/2024/07/2024-artificial-intelligence-materials-science-aims-workshop",
-      "domain": "nist.gov",
-      "description": "Chemistry, Theoretical chemistry ... Data and informatics, Natural language processing, Materials, Materials characterization, Modeling and computational material science, Mathematics and statistics, Modeling and simulation research, Numerical methods and software, Statistical analysis and Uncertainty quantification ... Read the Code of Conduct for NIST Conferences...",
-      "topics": [
-        "AI and machine learning",
-        "simulation and theory",
-        "materials and characterisation"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, workshop",
-        "research topic: AI and machine learning, simulation and theory, materials and characterisation"
-      ],
-      "queries": [
-        "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
-      "user_decision": "exclude",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "NIST 官方旧届页面，不是 2026／2027 新会议。",
-      "review_decision": "exclude",
-      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-8f164f40d6a6fd901f55",
-      "review_history": [
-        {
-          "at": "2026-11-03T00:39:14Z",
-          "action": "dismissed",
-          "previous_status": "needs_review",
-          "status": "dismissed",
-          "reason": "NIST 官方旧届页面，不是 2026／2027 新会议。",
-          "record": "data/candidate-review-decisions-2026-11-03.json"
-        }
-      ]
-    },
-    {
-      "id": "web-14c01b53a8ef17528eee",
-      "name": "2026 Computational Chemistry Conference GRC",
-      "url": "https://grc.org/computational-chemistry-conference/2026",
-      "domain": "grc.org",
-      "description": "The 2026 Gordon Research Conference on Computational Chemistry will be held in Castelldefels, Barcelona Spain. Apply today to reserve your spot.",
-      "topics": [
-        "simulation and theory"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2026",
-        "research topic: simulation and theory"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
-      ],
-      "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
-      "user_decision": "exclude",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官方页面确认本届已结束；不把相关会议区的 2027 日期当作本届延期。",
-      "review_decision": "exclude",
-      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-14c01b53a8ef17528eee",
-      "review_history": [
-        {
-          "at": "2026-11-03T00:39:14Z",
-          "action": "dismissed",
-          "previous_status": "needs_review",
-          "status": "dismissed",
-          "reason": "官方页面确认本届已结束；不把相关会议区的 2027 日期当作本届延期。",
-          "record": "data/candidate-review-decisions-2026-11-03.json"
-        }
-      ]
-    },
-    {
-      "id": "web-fc4bd523b7c5fd4fde0f",
-      "name": "2026 Conference",
-      "url": "https://icml.cc/",
-      "domain": "icml.cc",
-      "description": "Getting Started Schedule Conference ... Awards Workshops Hugging Face Space for ICML 2026 Awards ... We thank our exhibitors for all their support! ... The International Conference on Machine Learning (ICML) is the premier gathering of professionals dedicated to the advancement of the branch of artificial intelligence known as machine ...",
-      "topics": [
-        "AI and machine learning"
-      ],
-      "score": 5,
-      "reasons": [
-        "event wording: conference, workshop",
-        "future year: 2026",
-        "research topic: AI and machine learning"
-      ],
-      "queries": [
-        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
-      ],
-      "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
-      "user_decision": "duplicate",
-      "duplicate_of_event_ids": [
-        "icml-2027"
-      ],
-      "duplicate_of_candidate_ids": [],
-      "catalogue_event_id": "icml-2027",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "候选标题还是 2026，官网已更新为 2027；目录已有 icml-2027 待定记录，应建议更新原条目。",
-      "review_decision": "duplicate",
-      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-fc4bd523b7c5fd4fde0f",
-      "review_history": [
-        {
-          "at": "2026-11-03T00:39:14Z",
-          "action": "linked_duplicate",
-          "previous_status": "needs_review",
-          "status": "accepted",
-          "reason": "候选标题还是 2026，官网已更新为 2027；目录已有 icml-2027 待定记录，应建议更新原条目。",
-          "record": "data/candidate-review-decisions-2026-11-03.json"
-        }
-      ]
-    },
-    {
       "id": "web-a1198279abf03d2c2090",
       "name": "2027 Conference",
       "url": "https://mlsys.org/",
@@ -1639,6 +1539,83 @@
       ]
     },
     {
+      "id": "web-8f164f40d6a6fd901f55",
+      "name": "2024 Artificial Intelligence for Materials Science (AIMS) Workshop ...",
+      "url": "https://nist.gov/news-events/events/2024/07/2024-artificial-intelligence-materials-science-aims-workshop",
+      "domain": "nist.gov",
+      "description": "Chemistry, Theoretical chemistry ... Data and informatics, Natural language processing, Materials, Materials characterization, Modeling and computational material science, Mathematics and statistics, Modeling and simulation research, Numerical methods and software, Statistical analysis and Uncertainty quantification ... Read the Code of Conduct for NIST Conferences...",
+      "topics": [
+        "AI and machine learning",
+        "simulation and theory",
+        "materials and characterisation"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, workshop",
+        "research topic: AI and machine learning, simulation and theory, materials and characterisation"
+      ],
+      "queries": [
+        "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-10-31T07:01:19Z",
+      "seen_count": 5,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-03T00:39:14Z",
+      "review_note": "NIST 官方旧届页面，不是 2026／2027 新会议。",
+      "review_decision": "exclude",
+      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-8f164f40d6a6fd901f55",
+      "review_history": [
+        {
+          "at": "2026-11-03T00:39:14Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "NIST 官方旧届页面，不是 2026／2027 新会议。",
+          "record": "data/candidate-review-decisions-2026-11-03.json"
+        }
+      ]
+    },
+    {
+      "id": "web-14c01b53a8ef17528eee",
+      "name": "2026 Computational Chemistry Conference GRC",
+      "url": "https://grc.org/computational-chemistry-conference/2026",
+      "domain": "grc.org",
+      "description": "The 2026 Gordon Research Conference on Computational Chemistry will be held in Castelldefels, Barcelona Spain. Apply today to reserve your spot.",
+      "topics": [
+        "simulation and theory"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2026",
+        "research topic: simulation and theory"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
+      ],
+      "status": "dismissed",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 9,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-03T00:39:14Z",
+      "review_note": "官方页面确认本届已结束；不把相关会议区的 2027 日期当作本届延期。",
+      "review_decision": "exclude",
+      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-14c01b53a8ef17528eee",
+      "review_history": [
+        {
+          "at": "2026-11-03T00:39:14Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "官方页面确认本届已结束；不把相关会议区的 2027 日期当作本届延期。",
+          "record": "data/candidate-review-decisions-2026-11-03.json"
+        }
+      ]
+    },
+    {
       "id": "web-55dc74ac424301e281d4",
       "name": "3rd Conference on Artificial Intelligence in Materials Science ...",
       "url": "https://dgm.de/aimse/2027",
@@ -1657,9 +1634,9 @@
         "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
     },
@@ -1683,9 +1660,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 12,
+      "seen_count": 14,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -1708,9 +1685,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "同届会议的 WikiCFP 版本此前被你明确排除；此次官网重现不自动推翻决定。",
@@ -1746,9 +1723,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 5,
+      "seen_count": 6,
       "user_decision": "add",
       "catalogue_event_id": "agsaiml-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -1786,9 +1763,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 12,
+      "seen_count": 13,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Underleaf 的多会议截止日期表；表内未知或旧周期日期不能直接导入正式目录。",
@@ -1824,9 +1801,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "OpenCurious 的多会议倒计时工具；与 ICML 官网的本届信息存在差异，不能代替官方来源。",
@@ -1862,9 +1839,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-30T07:09:21Z",
-      "seen_count": 5,
+      "seen_count": 6,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "AgentConfs 的年度会议索引，列出数百条活动；非具体会议。",
@@ -1904,9 +1881,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 25,
+      "seen_count": 27,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "AI Deadlines 的多会议截止日期工具，含跨年度记录和未确认日期。",
@@ -1942,9 +1919,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的 AI 分类目录；正文 403，按目录类型排除。",
@@ -1980,9 +1957,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的美国 AI 分类目录；正文 403，按目录类型排除。",
@@ -2018,9 +1995,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "第三方链接 404；NIST 官方对应活动确认已结束，且官方版本此前已排除。",
@@ -2056,9 +2033,9 @@
         "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -2084,9 +2061,9 @@
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 25,
+      "seen_count": 29,
       "user_decision": "duplicate",
       "duplicate_of_event_ids": [
         "chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning"
@@ -2130,9 +2107,9 @@
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 28,
+      "seen_count": 31,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "补查 www 版 FDA 页面确认是已结束的 2026 届，与目录 2027 届不同。",
@@ -2170,9 +2147,9 @@
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 18,
+      "seen_count": 20,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
     },
@@ -2197,9 +2174,9 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 24,
+      "seen_count": 27,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的 computational-chemistry 分类目录；正文 403，按目录类型排除。",
@@ -2237,9 +2214,9 @@
         "2028 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 14,
+      "seen_count": 17,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -2262,9 +2239,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "National Academies 的项目活动归档页列出多次 2026 年早期会议；不是新的一场已确定活动。",
@@ -2300,9 +2277,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "add",
       "catalogue_event_id": "ai-ml-2027-cognition",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -2341,9 +2318,9 @@
         "2028 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 24,
+      "seen_count": 27,
       "user_decision": "duplicate",
       "duplicate_of_event_ids": [
         "mof2028"
@@ -2385,9 +2362,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 10,
+      "seen_count": 12,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的 machine-learning 分类目录；正文 403，按目录类型排除。",
@@ -2423,9 +2400,9 @@
         "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "add",
       "catalogue_event_id": "materials-science-2027-src",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -2462,9 +2439,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -2487,9 +2464,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 5,
+      "seen_count": 6,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -2515,9 +2492,9 @@
         "2028 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 14,
+      "seen_count": 18,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的 molecular-dynamics 分类目录；403，非单场会议。",
@@ -2557,9 +2534,9 @@
         "2028 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 16,
+      "seen_count": 20,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的美国 molecular-dynamics 分类目录；403，非单场会议。",
@@ -2597,9 +2574,9 @@
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 12,
+      "seen_count": 15,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "NextMove Software 的出席／活动列表包含多场会议，不能整体作为一个活动。",
@@ -2636,9 +2613,9 @@
         "2027 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 5,
+      "seen_count": 6,
       "user_decision": "add",
       "catalogue_event_id": "physical-theoretical-chemistry-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -2675,9 +2652,9 @@
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "duplicate",
       "duplicate_of_event_ids": [
         "physical-theoretical-chemistry-2027"
@@ -2720,9 +2697,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "reviewed_at": "2026-10-27T21:25:00Z",
       "review_note": "Official page checked; event has already taken place before the current catalogue horizon."
     },
@@ -2745,9 +2722,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-29T07:08:30Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Splunk 的 AI 会议推荐文章，非具体会议官网。",
@@ -2783,9 +2760,9 @@
         "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "add",
       "catalogue_event_id": "chemistry-world-conference-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -2824,9 +2801,9 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 18,
+      "seen_count": 21,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的 theoretical-chemistry 分类目录；正文 403，按目录类型排除。",
@@ -2864,9 +2841,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 12,
+      "seen_count": 13,
       "user_decision": "add",
       "catalogue_event_id": "ai-machine-learning-2027-conference-series",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -2903,9 +2880,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "DSC Next 的 2026 多会议博客；页眉虽更新为 2027 活动，正文仍为旧年度推荐清单。",
@@ -2941,9 +2918,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "专题页属于已结束且此前被排除的 FEZA 2026。",
@@ -2979,9 +2956,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "add",
       "catalogue_event_id": "wcamd-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -3018,9 +2995,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-02T07:42:43Z",
-      "seen_count": 2,
+      "seen_count": 3,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "All Conference Alert 的 artificial-intelligence 分类目录；403，非单场会议。",
@@ -3036,6 +3013,31 @@
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
+    },
+    {
+      "id": "web-14c60254567e38cd3445",
+      "name": "WMT 2026 — When Materials Think",
+      "url": "https://wmt2026workshop.github.io/",
+      "domain": "wmt2026workshop.github.io",
+      "description": "WMT 2026 — When Materials Think. A MUM 2026 workshop on computational materials for mobile and ubiquitous interaction.",
+      "topics": [
+        "AI for materials and chemistry"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: workshop",
+        "future year: 2026",
+        "research topic: AI for materials and chemistry"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
+      ],
+      "status": "accepted",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-10-27T21:11:15Z",
+      "seen_count": 4,
+      "reviewed_at": "2026-10-27T21:25:00Z",
+      "review_note": "Confirmed against the official organiser page and added to the formal catalogue."
     },
     {
       "id": "web-057f547d2647086edcab",
@@ -3327,42 +3329,6 @@
       ]
     },
     {
-      "id": "web-800503c17cd056b758b9",
-      "name": "Chemistry Meeting | Chemistry Meeting| Chemical Engineering Conference",
-      "url": "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
-      "domain": "chemistrymeeting.chemistryconferences.org",
-      "description": "Conference series inviting participants for the 17th International Conference on Chemistry is scheduled for February 25-26, 2027 in Paris, France",
-      "topics": [],
-      "score": 4,
-      "reasons": [
-        "event wording: conference, meeting",
-        "future year: 2027"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
-      ],
-      "status": "accepted",
-      "last_seen_at": "2026-11-02T07:42:43Z",
-      "first_seen_at": "2026-10-29T07:08:30Z",
-      "seen_count": 5,
-      "user_decision": "add",
-      "catalogue_event_id": "chemistry-meeting-2027-conference-series",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原链接是计算化学／AI专题，主会官网给出独立可识别的活动。",
-      "review_decision": "add",
-      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-800503c17cd056b758b9",
-      "review_history": [
-        {
-          "at": "2026-11-03T00:39:14Z",
-          "action": "added",
-          "previous_status": "needs_review",
-          "status": "accepted",
-          "reason": "原链接是计算化学／AI专题，主会官网给出独立可识别的活动。",
-          "record": "data/candidate-review-decisions-2026-11-03.json"
-        }
-      ]
-    },
-    {
       "id": "web-853bdcc369cc912f6f74",
       "name": "Molecular Dynamics Conferences in 2026/2027/2028",
       "url": "https://waset.org/molecular-dynamics-conferences",
@@ -3487,9 +3453,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 16,
+      "seen_count": 17,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "AAAI 官方页面确认该系列活动已结束。",
@@ -3526,9 +3492,9 @@
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 23,
+      "seen_count": 26,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Bibby 的多学科倒计时工具含 EST. 估计日期，不能直接作为会议证据。",
@@ -3561,9 +3527,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "duplicate",
       "duplicate_of_event_ids": [
         "ai4mat-neurips-2026"
@@ -3602,9 +3568,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-29T07:08:30Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "user_decision": "add",
       "reviewed_at": "2026-10-29T11:34:41Z",
       "catalogue_event_id": "aicmsn-2027",
@@ -3627,9 +3593,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 6,
+      "seen_count": 8,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "TMS 官网明确旧届日期与注册已关闭；活动已结束。",
@@ -3663,9 +3629,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 16,
+      "seen_count": 18,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "对应官网确认旧届已结束；原候选泛化标题不应掩盖具体旧届身份。",
@@ -3699,9 +3665,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 16,
+      "seen_count": 18,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Call4Paper 的学科筛选结果包含多场会议和期刊征稿。",
@@ -3734,9 +3700,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "原链接位于 /archive/2025-mrs-fall-meeting/，属于 2025 旧届，不是已收录的 2026 Fall。",
@@ -3769,9 +3735,9 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "add",
       "catalogue_event_id": "ieee-icc-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -3806,9 +3772,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "标题为 CAMSE，正文却复制 CHENG，存在名称混用；两场对应官网都确认 2026-07-28 至 07-29 已结束。",
@@ -3845,9 +3811,9 @@
         "2027 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 11,
+      "seen_count": 12,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "专题页页头明确属于 Eurocatalysis-2026；会期已经过去，不把旁栏其他会议日期当成本会。",
@@ -3860,6 +3826,42 @@
           "previous_status": "needs_review",
           "status": "dismissed",
           "reason": "专题页页头明确属于 Eurocatalysis-2026；会期已经过去，不把旁栏其他会议日期当成本会。",
+          "record": "data/candidate-review-decisions-2026-11-03.json"
+        }
+      ]
+    },
+    {
+      "id": "web-800503c17cd056b758b9",
+      "name": "Chemistry Meeting | Chemistry Meeting| Chemical Engineering Conference",
+      "url": "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
+      "domain": "chemistrymeeting.chemistryconferences.org",
+      "description": "Conference series inviting participants for the 17th International Conference on Chemistry is scheduled for February 25-26, 2027 in Paris, France",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference, meeting",
+        "future year: 2027"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
+      ],
+      "status": "accepted",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-10-29T07:08:30Z",
+      "seen_count": 6,
+      "user_decision": "add",
+      "catalogue_event_id": "chemistry-meeting-2027-conference-series",
+      "reviewed_at": "2026-11-03T00:39:14Z",
+      "review_note": "原链接是计算化学／AI专题，主会官网给出独立可识别的活动。",
+      "review_decision": "add",
+      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-800503c17cd056b758b9",
+      "review_history": [
+        {
+          "at": "2026-11-03T00:39:14Z",
+          "action": "added",
+          "previous_status": "needs_review",
+          "status": "accepted",
+          "reason": "原链接是计算化学／AI专题，主会官网给出独立可识别的活动。",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3880,9 +3882,9 @@
         "2026 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Journal of Cheminformatics 的 CAiSMD 2026 报道，正文确认活动在 2026-03-24 至 03-26 举行。",
@@ -3915,9 +3917,9 @@
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
+      "seen_count": 5,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "官方页面明确是 2025 旧届，已结束。",
@@ -3950,9 +3952,9 @@
         "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "user_decision": "duplicate",
       "duplicate_of_event_ids": [
         "materials-2027-magnus"
@@ -3992,9 +3994,9 @@
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 17,
+      "seen_count": 19,
       "user_decision": "add",
       "catalogue_event_id": "material-science-engineering-2027-conference-series",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -4030,9 +4032,9 @@
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
       "status": "dismissed",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 24,
+      "seen_count": 27,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "Conference Index 的 molecular-modeling 分类目录；403，非单场会议。",
@@ -4067,9 +4069,9 @@
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 17,
+      "seen_count": 18,
       "user_decision": "add",
       "catalogue_event_id": "advanced-materials-world-congress-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -4105,9 +4107,9 @@
         "2028 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "accepted",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-29T07:08:30Z",
-      "seen_count": 6,
+      "seen_count": 7,
       "user_decision": "add",
       "catalogue_event_id": "advanced-chemistry-world-congress-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
@@ -4145,9 +4147,9 @@
         "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-fa708957692c462cee52",
@@ -4170,9 +4172,9 @@
         "2026 (conference OR workshop OR school) (CECAM OR CCP5 OR CCPBioSim OR BioExcel) (simulation OR modelling OR dynamics)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 2
+      "seen_count": 4
     },
     {
       "id": "web-adf266bc953ad3d8f563",
@@ -4191,9 +4193,9 @@
         "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "第三方记录为 11 月 20–22 日，当前官网为 11 月 27–29 日；需明确改期及组织身份。",
       "review_decision": "pending",
@@ -4229,9 +4231,9 @@
         "2027 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-9801a5323c537feb5c3f",
@@ -4317,6 +4319,29 @@
       "seen_count": 1
     },
     {
+      "id": "web-766234e11681dad241b5",
+      "name": "2026 Conference",
+      "url": "https://icml.cc/Conferences/2026",
+      "domain": "icml.cc",
+      "description": "Getting Started Schedule Conference ... Awards Workshops Hugging Face Space for ICML 2026 Awards ... We thank our exhibitors for all their support! ... The International Conference on Machine Learning (ICML) is the premier gathering of professionals dedicated to the advancement of the branch of artificial intelligence known as machine ...",
+      "topics": [
+        "AI and machine learning"
+      ],
+      "score": 5,
+      "reasons": [
+        "event wording: conference, workshop",
+        "future year: 2026",
+        "research topic: AI and machine learning"
+      ],
+      "queries": [
+        "2026 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-11-03T07:57:11Z",
+      "seen_count": 1
+    },
+    {
       "id": "web-7ca7b2abdfb7ca0866af",
       "name": "2026 International Conference on Artificial Intelligence for Science ...",
       "url": "https://ic-ai4science.org/call_for_paper",
@@ -4335,9 +4360,9 @@
         "2026 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-bff8868cbdcbc8b5923d",
@@ -4358,9 +4383,9 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-01T07:35:21Z",
-      "seen_count": 3,
+      "seen_count": 4,
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "www 官网可读并给出日期，但城市、场地和本届组织身份仍不足。",
       "review_decision": "pending",
@@ -4392,12 +4417,13 @@
         "research topic: simulation and theory"
       ],
       "queries": [
+        "2026 (conference OR workshop OR course) (\"biomolecular simulation\" OR GROMACS OR LAMMPS OR PLUMED)",
         "2028 (conference OR workshop OR course) (\"biomolecular simulation\" OR GROMACS OR LAMMPS OR PLUMED)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 3
     },
     {
       "id": "web-e706f8a41f1e33677f0f",
@@ -4420,9 +4446,9 @@
         "2028 (conference OR workshop OR school) (\"enhanced sampling\" OR \"free energy\" OR \"coarse-grained\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 3
+      "seen_count": 6
     },
     {
       "id": "web-8352d0352cce3a521840",
@@ -4443,9 +4469,9 @@
         "2028 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-2fe86b8b0eddfb4f003a",
@@ -4467,9 +4493,9 @@
         "2026 (conference OR workshop OR school) (CECAM OR CCP5 OR CCPBioSim OR BioExcel) (simulation OR modelling OR dynamics)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 2
+      "seen_count": 4
     },
     {
       "id": "web-5e59b0f4402c8b1854a4",
@@ -4490,9 +4516,9 @@
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "大学页超时，mofes26 主页 404／conference 页不可读；历史记录显示同届已排除，但本次证据不足以重新确认。",
       "review_decision": "pending",
@@ -4527,9 +4553,9 @@
         "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-1641633dcf40da616c20",
@@ -4550,9 +4576,9 @@
         "2026 (conference OR workshop OR course) (\"biomolecular simulation\" OR GROMACS OR LAMMPS OR PLUMED)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-dabe00b2b83fb5227771",
@@ -4573,9 +4599,9 @@
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 8,
+      "seen_count": 9,
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "专题页 404，主站仅显示 update soon，不能核实会期、地点或本届身份。",
       "review_decision": "pending",
@@ -4611,9 +4637,9 @@
         "2028 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 2
+      "seen_count": 4
     },
     {
       "id": "web-faf26453bb9e1ac102c4",
@@ -4635,9 +4661,9 @@
         "2028 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 2
+      "seen_count": 4
     },
     {
       "id": "web-153e65bcf0fc88bf2c04",
@@ -4713,69 +4739,6 @@
       ]
     },
     {
-      "id": "web-b07687e5f45fc97d6692",
-      "name": "38th Molecular Modeling Workshop 2026 - Schrödinger",
-      "url": "https://schrodinger.com/life-science/resources/event/38th-molecular-modeling-workshop-2026",
-      "domain": "schrodinger.com",
-      "description": "Schrödinger is excited to be participating in the 38th Molecular Modeling Workshop 2026 conference taking place on March 9th – 10th in Erlangen, Germany.",
-      "topics": [],
-      "score": 4,
-      "reasons": [
-        "event wording: conference, workshop",
-        "future year: 2026"
-      ],
-      "queries": [
-        "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
-    },
-    {
-      "id": "web-24bf52d1cb6b3a22fa8d",
-      "name": "Amber Machine Learning and Free Energy Simulation Workshop ...",
-      "url": "https://dipc.ehu.eus/en/scientific-activities/workshops/amber-machine-learning-and-free-energy-simulation-workshop-amber2026",
-      "domain": "dipc.ehu.eus",
-      "description": "This workshop will equip computational scientists with the knowledge and practical skills to perform robust, accurate, and efficient free energy simulations using the AMBER software suite. AMBER offers an advanced array of free energy simulation and analysis methods with high-throughput enabled ...",
-      "topics": [
-        "AI and machine learning",
-        "simulation and theory"
-      ],
-      "score": 4,
-      "reasons": [
-        "event wording: workshop",
-        "research topic: AI and machine learning, simulation and theory"
-      ],
-      "queries": [
-        "2026 (conference OR workshop OR school) (\"enhanced sampling\" OR \"free energy\" OR \"coarse-grained\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
-    },
-    {
-      "id": "web-ccb03bfba8570a9a503e",
-      "name": "CHASAM 2026: Chalmers School on Atomic-scale Modeling",
-      "url": "https://chasam.materialsmodeling.org/",
-      "domain": "chasam.materialsmodeling.org",
-      "description": "Home of CHASAM 2026, the Chalmers School on Atomic-scale Modeling, held at Chalmers University of Technology",
-      "topics": [],
-      "score": 4,
-      "reasons": [
-        "event wording: school",
-        "future year: 2026"
-      ],
-      "queries": [
-        "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
-    },
-    {
       "id": "web-87a2e589802485bff6ce",
       "name": "Chemistry Meeting | Chemistry Meeting| Chemical Engineering Conference",
       "url": "https://chemistrymeeting.chemistryconferences.org/events-list/cheminformatics-big-data-in-chemistry",
@@ -4794,80 +4757,6 @@
       "last_seen_at": "2026-11-03T01:22:50Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
       "seen_count": 1
-    },
-    {
-      "id": "web-4d79115e53f8b81f61bb",
-      "name": "Hünfeld 2026: Workshop on Computer Simulation and Theory of ...",
-      "url": "https://mpinat.mpg.de/workshop/huenfeld",
-      "domain": "mpinat.mpg.de",
-      "description": "Thank you all for your contributions to this year’s anniversary Theory Workshop in Hünfeld! It was a great pleasure having you all there and celebrating the 25th event with you · Hope to see you 2027 again",
-      "topics": [],
-      "score": 4,
-      "reasons": [
-        "event wording: workshop",
-        "future year: 2026, 2027"
-      ],
-      "queries": [
-        "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
-    },
-    {
-      "id": "web-cdce9ec8926f231d0076",
-      "name": "ICAMSE 2027 - International Conference on Advanced Materials Science ...",
-      "url": "https://icamse2027.com/",
-      "domain": "icamse2027.com",
-      "description": "Join ICAMSE 2027, the premier international conference on Advanced Materials Science and Engineering.",
-      "topics": [],
-      "score": 4,
-      "reasons": [
-        "event wording: conference",
-        "future year: 2027"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
-    },
-    {
-      "id": "web-c7872ee3f5561b878abf",
-      "name": "Index |Polymer Chemistry Conferences | Polymer Chemistry Congress ...",
-      "url": "https://polymerchemistry.annualcongress.com/events-list/computational-polymer-chemistry-and-materials-modeling",
-      "domain": "polymerchemistry.annualcongress.com",
-      "description": "Meet leading scientists, researchers, academics, and industry experts at the upcoming 9th Global Summit on Polymer Chemistry, taking place on January 18-19, 2027, in Paris, France. Explore the latest innovations in polymer chemistry, sustainable polymers, smart materials, advanced polymer ...",
-      "topics": [],
-      "score": 4,
-      "reasons": [
-        "event wording: conference, congress, summit",
-        "future year: 2027"
-      ],
-      "queries": [
-        "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
-      ],
-      "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
-      "first_seen_at": "2026-10-31T07:01:19Z",
-      "seen_count": 4,
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "专题和主会直连反复超时；网页读取工具只返回导航，无法重证具体本届事实。",
-      "review_decision": "pending",
-      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-c7872ee3f5561b878abf",
-      "review_history": [
-        {
-          "at": "2026-11-03T00:39:14Z",
-          "action": "retained_pending",
-          "previous_status": "needs_review",
-          "status": "needs_review",
-          "reason": "专题和主会直连反复超时；网页读取工具只返回导航，无法重证具体本届事实。",
-          "record": "data/candidate-review-decisions-2026-11-03.json"
-        }
-      ]
     },
     {
       "id": "web-ad52fc548faac8941afc",
@@ -4893,6 +4782,163 @@
       "seen_count": 1
     },
     {
+      "id": "web-b07687e5f45fc97d6692",
+      "name": "38th Molecular Modeling Workshop 2026 - Schrödinger",
+      "url": "https://schrodinger.com/life-science/resources/event/38th-molecular-modeling-workshop-2026",
+      "domain": "schrodinger.com",
+      "description": "Schrödinger is excited to be participating in the 38th Molecular Modeling Workshop 2026 conference taking place on March 9th – 10th in Erlangen, Germany.",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference, workshop",
+        "future year: 2026"
+      ],
+      "queries": [
+        "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-11-03T01:22:50Z",
+      "seen_count": 2
+    },
+    {
+      "id": "web-24bf52d1cb6b3a22fa8d",
+      "name": "Amber Machine Learning and Free Energy Simulation Workshop ...",
+      "url": "https://dipc.ehu.eus/en/scientific-activities/workshops/amber-machine-learning-and-free-energy-simulation-workshop-amber2026",
+      "domain": "dipc.ehu.eus",
+      "description": "This workshop will equip computational scientists with the knowledge and practical skills to perform robust, accurate, and efficient free energy simulations using the AMBER software suite. AMBER offers an advanced array of free energy simulation and analysis methods with high-throughput enabled ...",
+      "topics": [
+        "AI and machine learning",
+        "simulation and theory"
+      ],
+      "score": 4,
+      "reasons": [
+        "event wording: workshop",
+        "research topic: AI and machine learning, simulation and theory"
+      ],
+      "queries": [
+        "2026 (conference OR workshop OR school) (\"enhanced sampling\" OR \"free energy\" OR \"coarse-grained\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-11-03T01:22:50Z",
+      "seen_count": 2
+    },
+    {
+      "id": "web-ccb03bfba8570a9a503e",
+      "name": "CHASAM 2026: Chalmers School on Atomic-scale Modeling",
+      "url": "https://chasam.materialsmodeling.org/",
+      "domain": "chasam.materialsmodeling.org",
+      "description": "Home of CHASAM 2026, the Chalmers School on Atomic-scale Modeling, held at Chalmers University of Technology",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: school",
+        "future year: 2026"
+      ],
+      "queries": [
+        "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-11-03T01:22:50Z",
+      "seen_count": 2
+    },
+    {
+      "id": "web-030423899f7640729a13",
+      "name": "Global Mat 2027 | Material Science Conferences | In-Person ...",
+      "url": "https://globalmaterials.annualforums.com/",
+      "domain": "globalmaterials.annualforums.com",
+      "description": "Annual Forums Presents · 2nd Global conference on Materials Science and engineering",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-11-03T07:57:11Z",
+      "seen_count": 1
+    },
+    {
+      "id": "web-4d79115e53f8b81f61bb",
+      "name": "Hünfeld 2026: Workshop on Computer Simulation and Theory of ...",
+      "url": "https://mpinat.mpg.de/workshop/huenfeld",
+      "domain": "mpinat.mpg.de",
+      "description": "Thank you all for your contributions to this year’s anniversary Theory Workshop in Hünfeld! It was a great pleasure having you all there and celebrating the 25th event with you · Hope to see you 2027 again",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: workshop",
+        "future year: 2026, 2027"
+      ],
+      "queries": [
+        "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-11-03T01:22:50Z",
+      "seen_count": 2
+    },
+    {
+      "id": "web-cdce9ec8926f231d0076",
+      "name": "ICAMSE 2027 - International Conference on Advanced Materials Science ...",
+      "url": "https://icamse2027.com/",
+      "domain": "icamse2027.com",
+      "description": "Join ICAMSE 2027, the premier international conference on Advanced Materials Science and Engineering.",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference",
+        "future year: 2027"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-11-03T01:22:50Z",
+      "seen_count": 2
+    },
+    {
+      "id": "web-c7872ee3f5561b878abf",
+      "name": "Index |Polymer Chemistry Conferences | Polymer Chemistry Congress ...",
+      "url": "https://polymerchemistry.annualcongress.com/events-list/computational-polymer-chemistry-and-materials-modeling",
+      "domain": "polymerchemistry.annualcongress.com",
+      "description": "Meet leading scientists, researchers, academics, and industry experts at the upcoming 9th Global Summit on Polymer Chemistry, taking place on January 18-19, 2027, in Paris, France. Explore the latest innovations in polymer chemistry, sustainable polymers, smart materials, advanced polymer ...",
+      "topics": [],
+      "score": 4,
+      "reasons": [
+        "event wording: conference, congress, summit",
+        "future year: 2027"
+      ],
+      "queries": [
+        "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
+      ],
+      "status": "needs_review",
+      "last_seen_at": "2026-11-03T07:57:11Z",
+      "first_seen_at": "2026-10-31T07:01:19Z",
+      "seen_count": 5,
+      "reviewed_at": "2026-11-03T00:39:14Z",
+      "review_note": "专题和主会直连反复超时；网页读取工具只返回导航，无法重证具体本届事实。",
+      "review_decision": "pending",
+      "review_record": "data/candidate-review-decisions-2026-11-03.json#web-c7872ee3f5561b878abf",
+      "review_history": [
+        {
+          "at": "2026-11-03T00:39:14Z",
+          "action": "retained_pending",
+          "previous_status": "needs_review",
+          "status": "needs_review",
+          "reason": "专题和主会直连反复超时；网页读取工具只返回导航，无法重证具体本届事实。",
+          "record": "data/candidate-review-decisions-2026-11-03.json"
+        }
+      ]
+    },
+    {
       "id": "web-f6ecf8a3100669b0b22e",
       "name": "ONLINE: Advanced GROMACS workshop – BioExcel – Centre of ...",
       "url": "https://bioexcel.eu/events/online-advanced-gromacs-workshop",
@@ -4912,9 +4958,9 @@
         "2028 (conference OR workshop OR course) (\"biomolecular simulation\" OR GROMACS OR LAMMPS OR PLUMED)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 2
+      "seen_count": 4
     },
     {
       "id": "web-9940bdf8bb9928bed017",
@@ -4932,9 +4978,9 @@
         "2027 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "id": "web-8d4004f733312453aeb0",
@@ -4952,9 +4998,9 @@
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
-      "seen_count": 7,
+      "seen_count": 8,
       "reviewed_at": "2026-11-03T00:39:14Z",
       "review_note": "主页及抽象提交页写 4 月12–14 日，注册页正文另写 March 2027；主办合作和日期冲突需要澄清。",
       "review_decision": "pending",
@@ -4990,9 +5036,9 @@
         "2028 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
       "status": "needs_review",
-      "last_seen_at": "2026-11-03T01:22:50Z",
+      "last_seen_at": "2026-11-03T07:57:11Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 2
+      "seen_count": 4
     }
   ]
 }
