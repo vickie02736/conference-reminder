@@ -11,6 +11,40 @@ const sourceButtons=new Map();
 let catalogueDay=todayISO();
 let catalogueStatusSignature='';
 let timelineMarkup='';
+let layoutFrame=0;
+const catalogueResizeObserver=typeof ResizeObserver==='function'?new ResizeObserver(()=>{
+  if(!layoutFrame)layoutFrame=requestAnimationFrame(()=>{layoutFrame=0;layoutCatalogueCards();});
+}):null;
+function layoutCatalogueCards(){
+  const list=$('catalogue-list');
+  const cards=[...list.querySelectorAll('.conference')];
+  const styles=getComputedStyle(list);
+  const twoColumns=styles.gridTemplateColumns.split(' ').length===2;
+  list.classList.toggle('masonry',twoColumns&&cards.length>0);
+  if(!twoColumns||!cards.length){
+    list.style.height='';
+    for(const card of cards)card.style.top='';
+    return;
+  }
+  // Keep the sorted DOM order and each card's column stable when details open.
+  const gap=parseFloat(styles.columnGap);
+  const heights=cards.map(card=>card.getBoundingClientRect().height);
+  const bottoms=[0,0];
+  cards.forEach((card,index)=>{
+    const column=index%2;
+    card.style.top=`${bottoms[column]}px`;
+    bottoms[column]+=heights[index]+gap;
+  });
+  list.style.height=`${Math.max(...bottoms)-gap}px`;
+}
+function refreshCatalogueLayout(){
+  // Browsers without ResizeObserver retain the ordinary responsive grid.
+  if(!catalogueResizeObserver)return;
+  catalogueResizeObserver.disconnect();
+  layoutCatalogueCards();
+  catalogueResizeObserver.observe($('catalogue-list'));
+  for(const card of $('catalogue-list').querySelectorAll('.conference'))catalogueResizeObserver.observe(card);
+}
 function anchor(url,label,cls=''){const href=safeUrl(url);return href?`<a class="${esc(cls)}" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`:'';}
 function shortTime(value){if(!value)return 'Not yet checked';const d=new Date(value);return Number.isFinite(d.getTime())?d.toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}):String(value);}
 function emailUrl(id){if(!config.emailRemindersEnabled)return '';try{const u=new URL(config.emailReminderUrl);if(u.protocol!=='https:'||u.hostname!=='script.google.com'||!u.pathname.endsWith('/exec'))return '';if(id)u.searchParams.set('eventId',id);else u.searchParams.set('view','request-manage');return u.href;}catch{return '';}}
@@ -89,6 +123,7 @@ function renderCatalogue(){
   for(const [status,button] of sourceButtons)button.setAttribute('aria-pressed',String(sourceCheck===status));
   catalogueStatusSignature=statusSignature();
   $('catalogue-list').innerHTML=events.length?events.map(card).join(''):'<div class="empty">No conferences match these filters.<br>Try adjusting the filters or use Reset filters.</div>';
+  refreshCatalogueLayout();
   renderTimeline(events,f.stage);
 }
 function refreshPhases(){
