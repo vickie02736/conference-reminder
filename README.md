@@ -77,4 +77,16 @@ npm run serve
 
 Check official sources locally with `python3 scripts/update_catalog.py`; add `--dry-run` to report without saving. Only supported facts are automatically changed. Tests use saved fixtures and mocked Google services, without sending emails.
 
+### 来源语义复核：以运行器正文为准
+
+从独立工作树开始，先 `git pull`；提交前再次拉取，避免覆盖其他维护者的更新。不要对原工作目录执行 stash 或 reset。
+
+1. 用 `gh run list --workflow site.yml -L 5` 找最近实际执行来源检查的定时运行或 `refresh_sources=true` 手动运行。用 `gh run download <运行编号> -n source-text -D /tmp/source-text-<运行编号>` 下载附件（保留 7 天）。先确认 `index.json` 的 URL 哈希与当前 `data/source-checks.json` 一致；不一致应换用更新运行的附件。
+2. 按 `data/review-progress.json` 的 `(event_id, source)` 队列，将附件指定的完整正文与此前运行正文逐行比较，只核对差异涉及的日期、钟点、时区、截止、状态、人员及机构。事实修改须有官方原文引用；冲突保持 `conflict`，不推断钟点或时区；录用通知不建提醒节点。
+3. 完成核实的来源活动检查写入 `review_required=false`、`reason=null`、`message=null`，`reviewed_hash` 直接采用匹配附件中的值，`reviewed_at` 用实际 UTC 时间，`review_method="runner_text"`、`review_run` 用运行编号，`evidence` 保存中文证据摘要。部分核实仍保留未解字段。重算活动的 `check.status` 与 `check.message`，再运行 `python3 scripts/review_backlog.py`。
+4. 附件 `ok=false` 且没有正文文件时可用浏览器核实，记录 `review_method="browser"` 并在证据中说明；保留原有可信事实，不写入或修改来源哈希。新增或替换 URL 只写检查记录，下一次日常检查自行建立首个哈希基准。
+5. 验证码、计数器、随机令牌等持续噪声应在 `VOLATILE_TEXT` 中增加精确模式并补回归测试，使用附件正文迁移受影响的已存哈希；不能用本机正文登记已完成复核或每天手动结案。
+
+提交前必须通过 `npm test` 与 `python3 scripts/validate_catalog.py`；推送后确认发布及线上数据一致。历史复核记录保持原样，纠正记录应另存并保留前后来源。
+
 GitHub Pages uses **GitHub Actions**, not legacy branch publishing. The combined workflow validates and tests changes, optionally updates catalogue data with a normal commit, and explicitly deploys only `index.html`, `config.json`, `assets/` and `data/`. Email service code, tests, owner documentation and research intermediates are excluded from the public Pages artifact. A bot data commit alone would not trigger legacy Pages publishing.

@@ -3413,10 +3413,10 @@
           "review_required": false,
           "message": null,
           "reason": null,
-          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_at": "2026-11-03T12:42:46+00:00",
           "reviewed_hash": "e08a81d75d139d567e3834a3b9395ebd764d3f2061e57227a83464a89573adc2",
-          "evidence": "SPM 公告核实 2027-03-22 至 24、Instituto Superior de Engenharia do Porto (ISEP)。逐名核对 Chairs António Gonçalves Magalhães、João Francisco Silva；组委会 Jorge Lino Alves、Manuel Jorge Castro、Púria Esfandiari、Rui Filipe Rego、Ana Rita Carreiras、Olga Coutinho Paiva、Valentina Maria Domingues、Paulo Jorge Nóvoa，与库一致。页面无各人的机构，不臆填；无活动钟点/时区或截止，不覆盖其他已核实来源的摘要延期日期。",
-          "review_method": "official_full_body_semantic_review",
+          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：SPM 公告核实 2027-03-22 至 24、Instituto Superior de Engenharia do Porto (ISEP)。逐名核对 Chairs António Gonçalves Magalhães、João Francisco Silva；组委会 Jorge Lino Alves、Manuel Jorge Castro、Púria Esfandiari、Rui Filipe Rego、Ana Rita Carreiras、Olga Coutinho Paiva、Valentina Maria Domingues、Paulo Jorge Nóvoa，与库一致。页面无各人的机构，不臆填；无活动钟点/时区或截止，不覆盖其他已核实来源的摘要延期日期。",
+          "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-03T07:57:11Z",
           "remaining_fields": [],
@@ -3424,7 +3424,8 @@
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ]
+          ],
+          "review_run": 41625735289
         }
       },
       "fingerprint_version": 2
@@ -3776,10 +3777,10 @@
           "review_required": false,
           "message": null,
           "reason": null,
-          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_at": "2026-11-03T12:42:46+00:00",
           "reviewed_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
-          "evidence": "FAU 正文核实 CPM-10 为 2027-05-23 至 26、Garmisch-Partenkirchen；组织者 Matthias Thommes（FAU Erlangen-Nürnberg）、Alexander Neimark（Rutgers University, NJ, USA）与 DECHEMA 合作，姓名、角色、机构均与库一致。15:54 是 2026-06-22 页面更新时间，非活动钟点。本页没有摘要/注册截止或时区，其他来源已证实的 12-01 摘要截止不被覆盖。",
-          "review_method": "official_full_body_semantic_review",
+          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：FAU 正文核实 CPM-10 为 2027-05-23 至 26、Garmisch-Partenkirchen；组织者 Matthias Thommes（FAU Erlangen-Nürnberg）、Alexander Neimark（Rutgers University, NJ, USA）与 DECHEMA 合作，姓名、角色、机构均与库一致。15:54 是 2026-06-22 页面更新时间，非活动钟点。本页没有摘要/注册截止或时区，其他来源已证实的 12-01 摘要截止不被覆盖。",
+          "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-03T07:57:11Z",
           "remaining_fields": [],
@@ -3787,7 +3788,8 @@
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ]
+          ],
+          "review_run": 41625735289
         }
       },
       "fingerprint_version": 2
@@ -6923,11 +6925,12 @@
           "review_required": false,
           "message": null,
           "reason": null,
-          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_at": "2026-11-03T12:42:46+00:00",
           "reviewed_hash": "928ee3782127b6d0910e5a3f11519e69ba19969b2e299d160697757363534d7c",
-          "evidence": "Chrome 可见正文逐卡核实早鸟 2026-11-22、普通 2027-01-22、最终 2027-03-22，均标 On or Before；无钟点/时区。静态原始文本含 under new development，但浏览器显示三张带明确标签的卡片及表单，故日期映射已解决；注册可完成性未测试。",
-          "review_method": "browser_visible_registration_cards",
-          "remaining_fields": []
+          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：Chrome 可见正文逐卡核实早鸟 2026-11-22、普通 2027-01-22、最终 2027-03-22，均标 On or Before；无钟点/时区。静态原始文本含 under new development，但浏览器显示三张带明确标签的卡片及表单，故日期映射已解决；注册可完成性未测试。",
+          "review_method": "runner_text",
+          "remaining_fields": [],
+          "review_run": 41625735289
         }
       }
     },
@@ -6962,17 +6965,18 @@
           "review_required": false,
           "message": null,
           "reason": null,
-          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_at": "2026-11-03T12:42:46+00:00",
           "reviewed_hash": "cbc5fe05c25516d38f5590e9e0e6e90dc241039e4be71f48eeba94ab0f272e95",
-          "evidence": "本届主页为第 8 届 AI and Machine Learning，2027-03-22 至 23、Rome，Conference Series 组织声明与记录一致，无会议起止钟点/时区。主页无明确投稿截止，保持 unknown。原库无关联个人名单，不推断讲者出席或机构背书。注册页日期标签另经浏览器逐列核实，见该来源记录。",
-          "review_method": "official_full_body_semantic_review",
+          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：本届主页为第 8 届 AI and Machine Learning，2027-03-22 至 23、Rome，Conference Series 组织声明与记录一致，无会议起止钟点/时区。主页无明确投稿截止，保持 unknown。原库无关联个人名单，不推断讲者出席或机构背书。注册页日期标签另经浏览器逐列核实，见该来源记录。",
+          "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "remaining_fields": [],
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ]
+          ],
+          "review_run": 41625735289
         }
       }
     },
@@ -7528,17 +7532,18 @@
           "review_required": false,
           "message": null,
           "reason": null,
-          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_at": "2026-11-03T12:42:46+00:00",
           "reviewed_hash": "3f669e99f9fe6105dadeb50e92044d527c2123a2004339ab8aba527f3ca5eb74",
-          "evidence": "官网 Important News 首轮摘要现为 2026-11-09、预早鸟注册为 2026-11-10（原记录分别为 11-02/11-03）；会议仍为 2027-08-23 至 25、Berlin。The Iconic Meetings 主办方声明无变。检查主页所列讲者姓名、职位与机构均为主办方自述，原库未导入个人名单，不能据此声称机构背书或确认出席。日程有无时区且互相重叠的示意钟点，不作为起止或截止瞬时；两个截止均仅精确到日期。最终注册截止未公布。",
-          "review_method": "official_full_body_semantic_review",
+          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：官网 Important News 首轮摘要现为 2026-11-09、预早鸟注册为 2026-11-10（原记录分别为 11-02/11-03）；会议仍为 2027-08-23 至 25、Berlin。The Iconic Meetings 主办方声明无变。检查主页所列讲者姓名、职位与机构均为主办方自述，原库未导入个人名单，不能据此声称机构背书或确认出席。日程有无时区且互相重叠的示意钟点，不作为起止或截止瞬时；两个截止均仅精确到日期。最终注册截止未公布。",
+          "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "remaining_fields": [],
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ]
+          ],
+          "review_run": 41625735289
         }
       }
     },
