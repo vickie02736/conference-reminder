@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-03T07:57:11Z",
-    "last_updated_at": "2026-11-03T01:54:04Z",
+    "last_updated_at": "2026-11-03T09:14:25Z",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -7025,10 +7025,10 @@
       "verified_on": "2026-11-03",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-03T07:57:11Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.spmateriais.pt/eventos/materiais-2027: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-03T09:14:25Z",
+        "last_verified_at": "2026-11-03T09:14:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -7158,7 +7158,7 @@
         "participants": [],
         "checked_on": "2026-11-03",
         "status": "published",
-        "note": "Institutional and registration roles are published; named committee members and invited speakers were not found in the reviewed 2027 pages.",
+        "note": "SPM official announcement names two chairs and eight organizing committee members; names and roles reconfirmed on 3 November 2026. That announcement does not give individual affiliations; none inferred.",
         "sources": [
           "https://congressomateriais.pt/editions/2027",
           "https://congressomateriais.pt/",
@@ -7902,10 +7902,10 @@
       "verified_on": "2026-11-03",
       "evidence": "The workshop website gives the 1 December abstract deadline; DECHEMA confirms 23–26 May and Garmisch-Partenkirchen.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-03T07:57:11Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-03T09:14:25Z",
+        "last_verified_at": "2026-11-03T09:14:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -9406,7 +9406,9 @@
       "sources": [
         "https://www.euromat2027.com/",
         "https://fems.org/about-fems/fems-euromat-conference-series/fems-euromat/",
-        "https://www.euromat2027.com/committee.html"
+        "https://www.euromat2027.com/committee.html",
+        "https://fems.org/fems-euromat-2027/",
+        "https://fems.org/abtract-submission-is-now-open-for-fems-euromat-2027/"
       ],
       "url": "https://www.euromat2027.com/",
       "priority": 2,
@@ -9414,7 +9416,7 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-11-03T07:57:11Z",
+        "last_checked_at": "2026-11-03T09:14:25Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.euromat2027.com/: HTTP Error 503: Service Unavailable | https://www.euromat2027.com/committee.html: HTTP Error 503: Service Unavailable"
       },
@@ -12337,9 +12339,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-03T07:57:11Z",
+        "last_checked_at": "2026-11-03T09:14:25Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx: HTTP Error 403: Forbidden"
+        "message": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -23422,9 +23424,9 @@
       "location": "Rome, Italy / Hybrid",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "No submission or registration cutoff verified.",
+      "deadline": "Early-bird registration: 2026-11-22; Normal registration fee cutoff: 2027-01-22; Final registration deadline: 2027-03-22; Submission: Date TBA",
       "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
-      "note": "Commercial congress on human-centred AI and machine learning. The fee table lists 22 November 2026 and 22 January 2027, but the column-to-rate mapping was not verified. These are not schedulable cutoffs. The final abstract deadline and specific venue remain unconfirmed.",
+      "note": "Commercial congress on human-centred AI and machine learning. Browser review on 3 November 2026 confirmed the visible early-bird, normal and final registration date labels. The submission cutoff, specific venue and successful completion of registration remain unconfirmed.",
       "sources": [
         "https://artificialintelligence.conferenceseries.com/",
         "https://artificialintelligence.conferenceseries.com/registration.php"
@@ -23434,10 +23436,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-03T07:57:11Z",
-        "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://artificialintelligence.conferenceseries.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-03T09:14:25Z",
+        "last_verified_at": "2026-11-03T09:14:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -23468,20 +23470,16 @@
         },
         {
           "id": "ai-machine-learning-2027-conference-series:registration-2",
-          "version": 1,
-          "kind": "registration",
-          "label": "Registration fee dates — labels unconfirmed",
-          "date": null,
+          "version": 2,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-22",
           "time": null,
           "timezone": null,
-          "candidates": [
-            "2026-11-22",
-            "2027-01-22"
-          ],
-          "evidence": "Dates are printed in the fee table, but their column labels have not been verified. Do not interpret either as a final registration cutoff.",
+          "evidence": "2026-11-03 浏览器可见卡片：Early Bird Registration 对应 on or before 2026-11-22；无钟点/时区。",
           "source": "https://artificialintelligence.conferenceseries.com/registration.php",
-          "precision": "unknown",
-          "status": "conflict"
+          "precision": "date",
+          "status": "verified"
         },
         {
           "id": "ai-machine-learning-2027-conference-series:abstract",
@@ -23495,6 +23493,32 @@
           "source": "https://artificialintelligence.conferenceseries.com/",
           "precision": "unknown",
           "status": "unknown"
+        },
+        {
+          "id": "ai-machine-learning-2027-conference-series:normal-registration",
+          "version": 1,
+          "kind": "other",
+          "label": "Normal registration fee cutoff",
+          "date": "2027-01-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Normal registration fee cutoff 标签；无钟点/时区。"
+        },
+        {
+          "id": "ai-machine-learning-2027-conference-series:final-registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": "2027-03-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Final registration deadline 标签；无钟点/时区。"
         }
       ],
       "people": {
@@ -23533,7 +23557,7 @@
       "location": "Berlin, Germany",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "First-round abstracts: 2026-11-02; Pre-early-bird registration: 2026-11-03",
+      "deadline": "First-round abstracts: 2026-11-09; Pre-early-bird registration: 2026-11-10",
       "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
       "note": "Commercial AI, machine learning and data science conference. The specific venue, full programme and institutional partnerships listed by the organizer remain unconfirmed.",
       "sources": [
@@ -23544,10 +23568,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-03T07:57:11Z",
-        "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://www.machinelearning.theiconicmeetings.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-03T09:14:25Z",
+        "last_verified_at": "2026-11-03T09:14:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -23578,29 +23602,29 @@
         },
         {
           "id": "wcamd-2027:abstract-2",
-          "version": 1,
+          "version": 2,
           "kind": "abstract",
           "label": "First-round abstracts",
-          "date": "2026-11-02",
+          "date": "2026-11-09",
           "time": null,
           "timezone": null,
           "source": "https://www.machinelearning.theiconicmeetings.com/",
           "precision": "date",
           "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
         },
         {
           "id": "wcamd-2027:early-registration-3",
-          "version": 1,
+          "version": 2,
           "kind": "early_registration",
           "label": "Pre-early-bird registration",
-          "date": "2026-11-03",
+          "date": "2026-11-10",
           "time": null,
           "timezone": null,
           "source": "https://www.machinelearning.theiconicmeetings.com/",
           "precision": "date",
           "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
         },
         {
           "id": "wcamd-2027:registration",
@@ -24466,10 +24490,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-03T07:57:11Z",
-        "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://www.materialsscienceconference.com/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.materialsscienceconference.com/registration: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-03T09:14:25Z",
+        "last_verified_at": "2026-11-03T09:14:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -24611,10 +24635,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-03T07:57:11Z",
-        "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://www.chemistryconferences.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-03T09:14:25Z",
+        "last_verified_at": "2026-11-03T09:14:25Z",
+        "message": null
       },
       "milestones": [
         {
@@ -25858,6 +25882,140 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-03T09:14:25Z",
+      "event_id": "wcamd-2027",
+      "event_name": "WCAMD 2027 — World Conference on Artificial Intelligence, Machine Learning and Data Science",
+      "field": "milestones.wcamd-2027:abstract-2",
+      "before": {
+        "id": "wcamd-2027:abstract-2",
+        "version": 1,
+        "kind": "abstract",
+        "label": "First-round abstracts",
+        "date": "2026-11-02",
+        "time": null,
+        "timezone": null,
+        "source": "https://www.machinelearning.theiconicmeetings.com/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+      },
+      "after": {
+        "id": "wcamd-2027:abstract-2",
+        "version": 2,
+        "kind": "abstract",
+        "label": "First-round abstracts",
+        "date": "2026-11-09",
+        "time": null,
+        "timezone": null,
+        "source": "https://www.machinelearning.theiconicmeetings.com/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
+      },
+      "source": "https://www.machinelearning.theiconicmeetings.com/",
+      "message": "官网当前截止日期比原记录延后一周；未发现带日期的延期公告，按当前明确日期更新，不推断钟点或时区。"
+    },
+    {
+      "at": "2026-11-03T09:14:25Z",
+      "event_id": "wcamd-2027",
+      "event_name": "WCAMD 2027 — World Conference on Artificial Intelligence, Machine Learning and Data Science",
+      "field": "milestones.wcamd-2027:early-registration-3",
+      "before": {
+        "id": "wcamd-2027:early-registration-3",
+        "version": 1,
+        "kind": "early_registration",
+        "label": "Pre-early-bird registration",
+        "date": "2026-11-03",
+        "time": null,
+        "timezone": null,
+        "source": "https://www.machinelearning.theiconicmeetings.com/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+      },
+      "after": {
+        "id": "wcamd-2027:early-registration-3",
+        "version": 2,
+        "kind": "early_registration",
+        "label": "Pre-early-bird registration",
+        "date": "2026-11-10",
+        "time": null,
+        "timezone": null,
+        "source": "https://www.machinelearning.theiconicmeetings.com/",
+        "precision": "date",
+        "status": "verified",
+        "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
+      },
+      "source": "https://www.machinelearning.theiconicmeetings.com/",
+      "message": "官网当前截止日期比原记录延后一周；未发现带日期的延期公告，按当前明确日期更新，不推断钟点或时区。"
+    },
+    {
+      "at": "2026-11-03T09:14:25Z",
+      "event_id": "ai-machine-learning-2027-conference-series",
+      "event_name": "8th International Congress on AI and Machine Learning 2027",
+      "field": "registration_dates",
+      "before": {
+        "id": "ai-machine-learning-2027-conference-series:registration-2",
+        "version": 1,
+        "kind": "registration",
+        "label": "Registration fee dates — labels unconfirmed",
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "candidates": [
+          "2026-11-22",
+          "2027-01-22"
+        ],
+        "evidence": "Dates are printed in the fee table, but their column labels have not been verified. Do not interpret either as a final registration cutoff.",
+        "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+        "precision": "unknown",
+        "status": "conflict"
+      },
+      "after": [
+        {
+          "id": "ai-machine-learning-2027-conference-series:registration-2",
+          "version": 2,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-22",
+          "time": null,
+          "timezone": null,
+          "evidence": "2026-11-03 浏览器可见卡片：Early Bird Registration 对应 on or before 2026-11-22；无钟点/时区。",
+          "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+          "precision": "date",
+          "status": "verified"
+        },
+        {
+          "id": "ai-machine-learning-2027-conference-series:normal-registration",
+          "version": 1,
+          "kind": "other",
+          "label": "Normal registration fee cutoff",
+          "date": "2027-01-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Normal registration fee cutoff 标签；无钟点/时区。"
+        },
+        {
+          "id": "ai-machine-learning-2027-conference-series:final-registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": "2027-03-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Final registration deadline 标签；无钟点/时区。"
+        }
+      ],
+      "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+      "message": "浏览器可见注册卡片解除日期标签冲突；核实三档日期，不据此确认交易可完成。"
+    },
     {
       "at": "2026-11-03T00:39:14Z",
       "event_id": "date-2027",

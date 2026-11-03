@@ -2486,7 +2486,22 @@
         "outcome": "success",
         "final_source": "https://www.euromat2027.com/",
         "reason": "原地址本次已返回可读正文；先前为临时网络/响应异常。"
-      }
+      },
+      "latest_review": {
+        "at": "2026-11-03T09:14:25Z",
+        "content_status": "verified_via_alternative",
+        "transport_status": "failed",
+        "attempts": [
+          "使用项目 User-Agent 定向读取两次，均失败",
+          "核对官方学会公告/官方 PDF 替代入口"
+        ],
+        "evidence_links": [
+          "https://fems.org/abtract-submission-is-now-open-for-fems-euromat-2027/"
+        ],
+        "unresolved_reason": "原址两次仍为503；FEMS替代公告覆盖会议日期、摘要截止、主办与共同主席，但不覆盖完整委员会名单及机构。",
+        "automatic_fetch_recovered": false
+      },
+      "fallback_source": "https://fems.org/abtract-submission-is-now-open-for-fems-euromat-2027/"
     },
     "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/": {
       "last_checked_at": "2026-11-03T07:57:11Z",
@@ -3408,29 +3423,29 @@
       }
     },
     "https://www.spmateriais.pt/eventos/materiais-2027": {
-      "last_checked_at": "2026-11-03T07:57:11Z",
+      "last_checked_at": "2026-11-03T09:14:25Z",
       "status": "checked",
       "hash": "e08a81d75d139d567e3834a3b9395ebd764d3f2061e57227a83464a89573adc2",
-      "last_success_at": "2026-11-03T07:57:11Z",
+      "last_success_at": "2026-11-03T09:14:25Z",
       "content_type": "text/html",
       "message": null,
       "changed_at": "2026-11-03T07:57:11Z",
       "checks": {
         "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "5e4117a57bb9428cb301dc73c70b7d118eae3f1eb7e835d0c47394bac7260755",
-          "evidence": "SPM 公告：“22 a 24 de março de 2027, no Instituto Superior de Engenharia do Porto (ISEP)”，与日期、地点相符；无钟点。页面公布 Chairs António Gonçalves Magalhães、João Francisco Silva 及组委会 8 人（Jorge Lino Alves 等），记录尚未收录，建议新增（页面未给机构）。",
-          "review_method": "fetcher_text",
-          "resolved_reason": "fingerprint_upgrade",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "e08a81d75d139d567e3834a3b9395ebd764d3f2061e57227a83464a89573adc2",
+          "evidence": "SPM 公告核实 2027-03-22 至 24、Instituto Superior de Engenharia do Porto (ISEP)。逐名核对 Chairs António Gonçalves Magalhães、João Francisco Silva；组委会 Jorge Lino Alves、Manuel Jorge Castro、Púria Esfandiari、Rui Filipe Rego、Ana Rita Carreiras、Olga Coutinho Paiva、Valentina Maria Domingues、Paulo Jorge Nóvoa，与库一致。页面无各人的机构，不臆填；无活动钟点/时区或截止，不覆盖其他已核实来源的摘要延期日期。",
+          "review_method": "official_full_body_semantic_review",
+          "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-03T07:57:11Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "remaining_fields": [],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -3771,29 +3786,29 @@
       "fingerprint_version": 2
     },
     "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/": {
-      "last_checked_at": "2026-11-03T07:57:11Z",
+      "last_checked_at": "2026-11-03T09:14:25Z",
       "status": "checked",
       "hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
-      "last_success_at": "2026-11-03T07:57:11Z",
+      "last_success_at": "2026-11-03T09:14:25Z",
       "content_type": "text/html",
       "message": null,
       "changed_at": "2026-11-03T07:57:11Z",
       "checks": {
         "cpm10": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "06f8fdf1add3605e05ba3b4991751f121f561a70f27c71bf1b3f9994ddc28fb9",
-          "evidence": "FAU 公告 (2026-06-22)：\"vom 23. bis 26. Mai 2027 ... in Garmisch-Partenkirchen\" 与起止及地点相符；唯一钟点 \"Zuletzt aktualisiert: 22. Juni 2026 - 15:54\" 为页面更新时间戳，属噪声。页面写明由 Prof. Matthias Thommes (FAU Erlangen-Nürnberg) 与 Prof. Alexander Neimark (Rutgers University) 与 DECHEMA 合作组织，记录中尚无此二人，建议新增为组织者。",
-          "review_method": "fetcher_text",
-          "resolved_reason": "fingerprint_upgrade",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
+          "evidence": "FAU 正文核实 CPM-10 为 2027-05-23 至 26、Garmisch-Partenkirchen；组织者 Matthias Thommes（FAU Erlangen-Nürnberg）、Alexander Neimark（Rutgers University, NJ, USA）与 DECHEMA 合作，姓名、角色、机构均与库一致。15:54 是 2026-06-22 页面更新时间，非活动钟点。本页没有摘要/注册截止或时区，其他来源已证实的 12-01 摘要截止不被覆盖。",
+          "review_method": "official_full_body_semantic_review",
+          "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-03T07:57:11Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "remaining_fields": [],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -5059,7 +5074,22 @@
           "message": null,
           "reason": null
         }
-      }
+      },
+      "latest_review": {
+        "at": "2026-11-03T09:14:25Z",
+        "content_status": "verified_via_alternative",
+        "transport_status": "failed",
+        "attempts": [
+          "使用项目 User-Agent 定向读取两次，均失败",
+          "核对官方学会公告/官方 PDF 替代入口"
+        ],
+        "evidence_links": [
+          "https://fems.org/abtract-submission-is-now-open-for-fems-euromat-2027/"
+        ],
+        "unresolved_reason": "原址两次仍为503；FEMS替代公告覆盖会议日期、摘要截止、主办与共同主席，但不覆盖完整委员会名单及机构。",
+        "automatic_fetch_recovered": false
+      },
+      "fallback_source": "https://fems.org/abtract-submission-is-now-open-for-fems-euromat-2027/"
     },
     "https://zmpc.org/committees/": {
       "last_checked_at": "2026-11-03T07:57:11Z",
@@ -6943,7 +6973,12 @@
         "ai-machine-learning-2027-conference-series": {
           "review_required": false,
           "message": null,
-          "reason": null
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "928ee3782127b6d0910e5a3f11519e69ba19969b2e299d160697757363534d7c",
+          "evidence": "Chrome 可见正文逐卡核实早鸟 2026-11-22、普通 2027-01-22、最终 2027-03-22，均标 On or Before；无钟点/时区。静态原始文本含 under new development，但浏览器显示三张带明确标签的卡片及表单，故日期映射已解决；注册可完成性未测试。",
+          "review_method": "browser_visible_registration_cards",
+          "remaining_fields": []
         }
       }
     },
@@ -6965,19 +7000,30 @@
       }
     },
     "https://artificialintelligence.conferenceseries.com/": {
-      "last_checked_at": "2026-11-03T07:57:11Z",
+      "last_checked_at": "2026-11-03T09:14:25Z",
       "status": "checked",
       "hash": "cbc5fe05c25516d38f5590e9e0e6e90dc241039e4be71f48eeba94ab0f272e95",
-      "last_success_at": "2026-11-03T07:57:11Z",
+      "last_success_at": "2026-11-03T09:14:25Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
       "message": null,
       "changed_at": "2026-11-03T07:57:11Z",
       "checks": {
         "ai-machine-learning-2027-conference-series": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "cbc5fe05c25516d38f5590e9e0e6e90dc241039e4be71f48eeba94ab0f272e95",
+          "evidence": "本届主页为第 8 届 AI and Machine Learning，2027-03-22 至 23、Rome，Conference Series 组织声明与记录一致，无会议起止钟点/时区。主页无明确投稿截止，保持 unknown。原库无关联个人名单，不推断讲者出席或机构背书。注册页日期标签另经浏览器逐列核实，见该来源记录。",
+          "review_method": "official_full_body_semantic_review",
+          "resolved_reason": "content_changed",
+          "remaining_fields": [],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -7424,19 +7470,30 @@
       }
     },
     "https://www.chemistryconferences.com/": {
-      "last_checked_at": "2026-11-03T07:57:11Z",
+      "last_checked_at": "2026-11-03T09:14:25Z",
       "status": "checked",
-      "hash": "c38df5c52c1c401f06e6222a78177b24e556ac1c34405f7cf91cf7898b821c98",
-      "last_success_at": "2026-11-03T07:57:11Z",
+      "hash": "a26337d1201817c855e42cb5c1c6f625250bca4f2be054160928107f6b1d9d27",
+      "last_success_at": "2026-11-03T09:14:25Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
       "message": null,
-      "changed_at": "2026-11-03T07:57:11Z",
+      "changed_at": "2026-11-03T09:14:25Z",
       "checks": {
         "advanced-chemistry-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "a26337d1201817c855e42cb5c1c6f625250bca4f2be054160928107f6b1d9d27",
+          "evidence": "主页欢迎词和本届标题均给出 2027-03-18 至 19、Vienna；Peers Alley Conferences 主办声明相符。同步复查官方 registration 页，早鸟 2026-11-18、普通费率 2027-01-18、现场 2027-03-18 相符，均无钟点/时区。原库仅导入机构组织者，未将主办方宣传的人物名单当作独立机构认可；摘要及最终注册截止保持 unknown。",
+          "review_method": "official_full_body_semantic_review",
+          "resolved_reason": "content_changed",
+          "remaining_fields": [],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -7475,53 +7532,86 @@
       }
     },
     "https://www.materialsscienceconference.com/registration": {
-      "last_checked_at": "2026-11-03T07:57:11Z",
+      "last_checked_at": "2026-11-03T09:14:25Z",
       "status": "checked",
-      "hash": "2aa48433463f5e20cab71f68a9a1f45c97b2a3e673fca823a50b089e9055f62f",
-      "last_success_at": "2026-11-03T07:57:11Z",
+      "hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
+      "last_success_at": "2026-11-03T09:14:25Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
       "message": null,
-      "changed_at": "2026-11-03T07:57:11Z",
+      "changed_at": "2026-11-03T09:14:25Z",
       "checks": {
         "advanced-materials-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
+          "evidence": "逐档核对 academia/industry 等价目：早鸟 2026-11-13、普通费率 2026-12-30、现场 2027-03-22，与既有三节点一致。无钟点/时区；现场费率日期不是最终注册截止。无关联个人角色或机构字段。未测试付款流程，注册可完成性未确认。",
+          "review_method": "official_full_body_semantic_review",
+          "resolved_reason": "content_changed",
+          "remaining_fields": [],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
     "https://www.machinelearning.theiconicmeetings.com/": {
-      "last_checked_at": "2026-11-03T07:57:11Z",
+      "last_checked_at": "2026-11-03T09:14:25Z",
       "status": "checked",
       "hash": "3f669e99f9fe6105dadeb50e92044d527c2123a2004339ab8aba527f3ca5eb74",
-      "last_success_at": "2026-11-03T07:57:11Z",
+      "last_success_at": "2026-11-03T09:14:25Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
       "message": null,
       "changed_at": "2026-11-03T07:57:11Z",
       "checks": {
         "wcamd-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "3f669e99f9fe6105dadeb50e92044d527c2123a2004339ab8aba527f3ca5eb74",
+          "evidence": "官网 Important News 首轮摘要现为 2026-11-09、预早鸟注册为 2026-11-10（原记录分别为 11-02/11-03）；会议仍为 2027-08-23 至 25、Berlin。The Iconic Meetings 主办方声明无变。检查主页所列讲者姓名、职位与机构均为主办方自述，原库未导入个人名单，不能据此声称机构背书或确认出席。日程有无时区且互相重叠的示意钟点，不作为起止或截止瞬时；两个截止均仅精确到日期。最终注册截止未公布。",
+          "review_method": "official_full_body_semantic_review",
+          "resolved_reason": "content_changed",
+          "remaining_fields": [],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
     "https://www.materialsscienceconference.com/": {
-      "last_checked_at": "2026-11-03T07:57:11Z",
+      "last_checked_at": "2026-11-03T09:14:25Z",
       "status": "checked",
-      "hash": "258d4a25f7d27c5aec05df22bc521e2935cbcd0a5e509ee652ea5990708a477a",
-      "last_success_at": "2026-11-03T07:57:11Z",
+      "hash": "0a9f8da02e7f26434812d4a0495d3ab174bce49d9b29c74432a6f07e4677c702",
+      "last_success_at": "2026-11-03T09:14:25Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
       "message": null,
-      "changed_at": "2026-11-03T07:57:11Z",
+      "changed_at": "2026-11-03T09:14:25Z",
       "checks": {
         "advanced-materials-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "0a9f8da02e7f26434812d4a0495d3ab174bce49d9b29c74432a6f07e4677c702",
+          "evidence": "主页会议日期 2027-03-22 至 23、Vienna 与记录一致；Peers Alley Conferences 主办声明相符。页内 9th/10th 届次文案不一致，不用届次推断日期。原库只关联机构组织者，未导入个人讲者或委员会，官网自述不升级为独立机构确认。未见摘要/最终注册截止、明确截止钟点或时区，继续 unknown。",
+          "review_method": "official_full_body_semantic_review",
+          "resolved_reason": "content_changed",
+          "remaining_fields": [],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -7779,7 +7869,21 @@
       },
       "last_checked_at": "2026-11-03T07:57:11Z",
       "status": "unverifiable",
-      "message": "HTTP Error 403: Forbidden"
+      "message": "HTTP Error 403: Forbidden",
+      "latest_review": {
+        "at": "2026-11-03T09:14:25Z",
+        "content_status": "previous_content_reconfirmed_via_pdf",
+        "transport_status": "unverifiable",
+        "attempts": [
+          "使用项目 User-Agent 定向读取两次，均失败",
+          "核对官方学会公告/官方 PDF 替代入口"
+        ],
+        "evidence_links": [
+          "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf"
+        ],
+        "unresolved_reason": "原址两次403；官方PDF再次确认2027-01-31优惠注册截止；PDF旧称10月开放与注册页11月开放不同，沿用较新注册页的月份，不推断实际已开放。",
+        "automatic_fetch_recovered": false
+      }
     },
     "https://ai4am.net/2027/index.php": {
       "last_checked_at": "2026-11-03T07:57:11Z",
@@ -7812,6 +7916,48 @@
           "review_required": false,
           "message": null,
           "reason": null
+        }
+      }
+    },
+    "https://fems.org/fems-euromat-2027/": {
+      "status": "checked",
+      "hash": "5bc0a042832b101a3cc9fcb64d59c3fdcb8cd8225c69add9225cde26ea27d739",
+      "fingerprint_version": 2,
+      "last_checked_at": "2026-11-03T09:14:25Z",
+      "last_success_at": "2026-11-03T09:14:25Z",
+      "content_type": "text/html",
+      "message": null,
+      "checks": {
+        "fems-euromat-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "5bc0a042832b101a3cc9fcb64d59c3fdcb8cd8225c69add9225cde26ea27d739",
+          "evidence": "FEMS 学会官方正文确认 2027-09-12 至 16、Graz、ASMET 代表 FEMS 组织。10月6日投稿公告另确认 2027-01-31 摘要截止、共同主席 Christof Sommitsch 与 Aldo R. Boccaccini；无截止钟点/时区，未提供二人的机构，原机构证据保留。",
+          "review_method": "official_society_fallback",
+          "remaining_fields": []
+        }
+      }
+    },
+    "https://fems.org/abtract-submission-is-now-open-for-fems-euromat-2027/": {
+      "status": "checked",
+      "hash": "9a6dfdcf561ea850826aaf0726b27d7d0f526597332481e073465810d279ec24",
+      "fingerprint_version": 2,
+      "last_checked_at": "2026-11-03T09:14:25Z",
+      "last_success_at": "2026-11-03T09:14:25Z",
+      "content_type": "text/html",
+      "message": null,
+      "checks": {
+        "fems-euromat-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-03T09:14:25Z",
+          "reviewed_hash": "9a6dfdcf561ea850826aaf0726b27d7d0f526597332481e073465810d279ec24",
+          "evidence": "FEMS 学会官方正文确认 2027-09-12 至 16、Graz、ASMET 代表 FEMS 组织。10月6日投稿公告另确认 2027-01-31 摘要截止、共同主席 Christof Sommitsch 与 Aldo R. Boccaccini；无截止钟点/时区，未提供二人的机构，原机构证据保留。",
+          "review_method": "official_society_fallback",
+          "remaining_fields": []
         }
       }
     }

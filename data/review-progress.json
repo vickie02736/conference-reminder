@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-03",
-  "remaining_count": 37,
-  "remaining_source_count": 37,
+  "remaining_count": 30,
+  "remaining_source_count": 30,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -16,21 +16,6 @@
         "acceptance decision 2026-12-17 (PSDI) vs 2026-12-19 (about)",
         "supervisor letter deadline (about says 6 December 2025)",
         "accommodation nights (PSDI 4 vs about 5)"
-      ]
-    },
-    {
-      "source": "https://artificialintelligence.conferenceseries.com/",
-      "event_id": "ai-machine-learning-2027-conference-series",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "cbc5fe05c25516d38f5590e9e0e6e90dc241039e4be71f48eeba94ab0f272e95",
-      "priority": 0,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -189,66 +174,6 @@
       ]
     },
     {
-      "source": "https://www.machinelearning.theiconicmeetings.com/",
-      "event_id": "wcamd-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "3f669e99f9fe6105dadeb50e92044d527c2123a2004339ab8aba527f3ca5eb74",
-      "priority": 1,
-      "next_deadline": "2026-11-03",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.materialsscienceconference.com/",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "258d4a25f7d27c5aec05df22bc521e2935cbcd0a5e509ee652ea5990708a477a",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.materialsscienceconference.com/registration",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "2aa48433463f5e20cab71f68a9a1f45c97b2a3e673fca823a50b089e9055f62f",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chemistryconferences.com/",
-      "event_id": "advanced-chemistry-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "c38df5c52c1c401f06e6222a78177b24e556ac1c34405f7cf91cf7898b821c98",
-      "priority": 1,
-      "next_deadline": "2026-11-18",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://register1.icts.res.in/mwas",
       "event_id": "modelling-water-across-scales",
       "reason": "content_changed",
@@ -256,36 +181,6 @@
       "content_hash": "16a880cae8afa2cc69f05e17ab7678f6bc4b0e18a7eb87aab776191c4d288844",
       "priority": 1,
       "next_deadline": "2026-11-25",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/",
-      "event_id": "cpm10",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
-      "priority": 1,
-      "next_deadline": "2026-12-01",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.spmateriais.pt/eventos/materiais-2027",
-      "event_id": "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e08a81d75d139d567e3834a3b9395ebd764d3f2061e57227a83464a89573adc2",
-      "priority": 1,
-      "next_deadline": "2026-12-01",
       "remaining_fields": [
         "dates",
         "times",
@@ -745,19 +640,11 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-03T01:54:04+00:00",
-    "summary": {
-      "previous_queue": 170,
-      "previous_sources": 158,
-      "reviewed_items": 198,
-      "resolved": 182,
-      "partial": 13,
-      "unreviewable": 3,
-      "remaining": 16,
-      "remaining_sources": 16,
-      "fact_changes": 314,
-      "retired_addresses": 9
-    },
-    "report": "data/backlog-review-2026-11-03.json"
+    "at": "2026-11-03T09:14:25Z",
+    "report": "data/heartbeat-review-2026-11-03.json",
+    "started": 37,
+    "resolved": 7,
+    "new": 0,
+    "remaining": 30
   }
 }
