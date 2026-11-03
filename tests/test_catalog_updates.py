@@ -5,7 +5,9 @@ import json
 from pathlib import Path
 import unittest
 
-from scripts.update_catalog import fingerprint, known_adapter, parse_html, update_catalog
+import tempfile
+
+from scripts.update_catalog import fingerprint, known_adapter, parse_html, update_catalog, write_text_snapshot
 from scripts.validate_catalog import validate_catalog
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -39,6 +41,19 @@ def jsonld_html(name="Example 2027", start="2027-06-05", end="2027-06-07", ident
 class SourceUpdateTests(unittest.TestCase):
     def merge(self, row, fetches, state=None, adapters=None):
         return update_catalog(catalog(row), state or {}, adapters or ADAPTERS, fetches, NOW)
+
+    def test_text_snapshot_reproduces_the_stored_fingerprint(self):
+        page = fetched("<main>Conference 2027, deadline 1 March 2027 at 17:00 GMT</main>")
+        page["monitored"] = page["text"]
+        fetches = {"https://example.org/2027": page,
+                   "https://example.org/blocked": {"ok": False, "message": "HTTP Error 403: Forbidden"}}
+        with tempfile.TemporaryDirectory() as directory:
+            write_text_snapshot(fetches, directory)
+            index = json.loads((Path(directory) / "index.json").read_text())
+            saved = (Path(directory) / index["https://example.org/2027"]["file"]).read_text()
+        self.assertEqual(fingerprint(saved), index["https://example.org/2027"]["hash"])
+        self.assertNotIn("file", index["https://example.org/blocked"])
+        self.assertEqual(index["https://example.org/blocked"]["message"], "HTTP Error 403: Forbidden")
 
     def test_navigation_and_whitespace_do_not_change_fingerprint(self):
         first = fetched("<nav>Old menu</nav><main><p>Conference 2027</p><p>June 1</p></main><footer>2026</footer>")

@@ -300,8 +300,8 @@ def fetch_sources(urls, workers=6, timeout=20, people_urls=None):
                         # landmark. Monitor that readable body too, while the
                         # trusted date adapters keep their original text scope.
                         monitored = "\n".join(parser.all_text) if url in people_urls else text
-                        return {"ok": True, "hash": fingerprint(monitored), "text": text, "jsonld": documents,
-                                "content_type": content_type, "http_status": response.status}
+                        return {"ok": True, "hash": fingerprint(monitored), "text": text, "monitored": monitored,
+                                "jsonld": documents, "content_type": content_type, "http_status": response.status}
                     return {"ok": True, "hash": hashlib.sha256(raw).hexdigest(), "text": "", "jsonld": [],
                             "content_type": content_type, "http_status": response.status}
             except (HTTPError, URLError, HTTPException, OSError, ValueError, LookupError) as exc:
@@ -538,6 +538,21 @@ def update_catalog(catalog, state, adapter_config, fetched, now):
     return result, next_state, updates
 
 
+def write_text_snapshot(fetched, directory):
+    """Save the exact text behind each stored hash so manual reviews can cite it."""
+    directory = Path(directory)
+    directory.mkdir(parents=True, exist_ok=True)
+    index = {}
+    for url, fetch in sorted(fetched.items()):
+        entry = {"ok": fetch["ok"], "hash": fetch.get("hash"), "content_type": fetch.get("content_type"),
+                 "message": fetch.get("message")}
+        if fetch["ok"] and "monitored" in fetch:
+            entry["file"] = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16] + ".txt"
+            (directory / entry["file"]).write_text(fetch["monitored"], encoding="utf-8")
+        index[url] = entry
+    write_json(directory / "index.json", index)
+
+
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
@@ -553,6 +568,8 @@ def main():
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--timeout", type=int, default=20)
     parser.add_argument("--dry-run", action="store_true", help="Check and report without writing any files.")
+    parser.add_argument("--dump-text", metavar="DIR",
+                        help="Also write the fingerprinted text of every source to DIR for manual review.")
     args = parser.parse_args()
     try:
         catalog = json.loads(Path(args.catalog).read_text(encoding="utf-8"))
@@ -575,6 +592,8 @@ def main():
         if not args.dry_run:
             write_json(Path(args.catalog), updated)
             write_json(state_path, next_state)
+        if args.dump_text:
+            write_text_snapshot(fetched, args.dump_text)
         failures = sum(not item["ok"] for item in fetched.values())
         reviews = sum(event["check"]["status"] == "review_required" for event in updated["events"] + updated["watchlist"])
         print(f"Checked {len(urls)} official sources; {failures} fetch failures; {len(updates)} supported fact changes; {reviews} entries need review.")

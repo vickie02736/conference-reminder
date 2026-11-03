@@ -67,8 +67,15 @@ jobs:
       - name: Check registered official sources
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
         run: |
-          python scripts/update_catalog.py
+          python scripts/update_catalog.py --dump-text _source-text
           python scripts/review_backlog.py
+      - name: Keep fingerprinted source text for manual review
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_sources)
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-text
+          path: _source-text
+          retention-days: 7
       - name: Discover possible new conferences
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.discover_conferences)
         env:
