@@ -4,8 +4,8 @@
     "schema_version": 1,
     "verified_on": "2026-10-27",
     "scope": "AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration and past activities specifically retained by the user are included.",
-    "count": 137,
-    "watchlist_count": 12,
+    "count": 138,
+    "watchlist_count": 11,
     "regions": {
       "UK": 34,
       "Europe": 61,
@@ -22,7 +22,7 @@
       "Molecular/atomistic simulation coverage expanded on 2 November 2026 from official society, organiser, institutional and software-community sources. Indexed-only date leads remain pending; no recurring edition dates are inferred."
     ],
     "last_checked_at": "2026-11-02T07:42:43Z",
-    "last_updated_at": "2026-11-02T17:49:53Z",
+    "last_updated_at": "2026-11-03T00:15:05Z",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -20446,6 +20446,130 @@
           "https://simbiochem.com/"
         ]
       }
+    },
+    {
+      "id": "molsim-2027",
+      "name": "MolSim 2027 — Molecular Simulation School",
+      "tags": [
+        "Simulation",
+        "Molecular Simulation",
+        "Molecular Dynamics",
+        "Monte Carlo"
+      ],
+      "start": "2027-01-04",
+      "end": "2027-01-15",
+      "date": "2027-01-04 — 2027-01-15",
+      "location": "Amsterdam, Netherlands — CECAM-NL / University of Amsterdam",
+      "region": "Europe",
+      "type": "School / Training",
+      "deadline": "Registration/application deadline: 30 October 2026 (passed).",
+      "status": "Registration closed; the application deadline was 30 October 2026. Admission is subject to selection.",
+      "note": "Two-week school on Monte Carlo, molecular dynamics, free energies, rare events and machine learning. The 2027 focus includes spectroscopic properties of condensed-phase molecular systems. The current-edition CECAM detail page confirms the school dates and application cutoff; the linked CompChem archive covers previous editions.",
+      "sources": [
+        "https://www.cecam.org/workshop-details/molsim-2027-1542"
+      ],
+      "url": "https://www.cecam.org/workshop-details/molsim-2027-1542",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "CECAM MolSim 2027 detail page, checked in a browser on 3 November 2026: 4–15 January 2027; registration/application deadline 30 October 2026. The published cutoff has passed.",
+      "check": {
+        "status": "checked",
+        "last_checked_at": "2026-11-03T00:15:05Z",
+        "last_verified_at": "2026-11-03T00:15:05Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "molsim-2027:conference-start",
+          "kind": "conference_start",
+          "label": "School starts",
+          "date": "2027-01-04",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://www.cecam.org/workshop-details/molsim-2027-1542",
+          "evidence": "The rendered current-edition CECAM heading gives 4–15 January 2027."
+        },
+        {
+          "id": "molsim-2027:conference-end",
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-01-15",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://www.cecam.org/workshop-details/molsim-2027-1542",
+          "evidence": "The rendered current-edition CECAM heading gives 4–15 January 2027."
+        },
+        {
+          "id": "molsim-2027:registration",
+          "kind": "registration",
+          "label": "Registration / application deadline",
+          "date": "2026-10-30",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://www.cecam.org/workshop-details/molsim-2027-1542",
+          "evidence": "The current-edition CECAM heading and application note both give 30 October 2026; the cutoff has passed."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "David Dubbeldam",
+            "role": "Organiser",
+            "affiliation": "Van 't Hoff Institute for Molecular Sciences",
+            "source": "https://www.cecam.org/workshop-details/molsim-2027-1542"
+          },
+          {
+            "name": "Daan Frenkel",
+            "role": "Organiser",
+            "affiliation": "U Cambridge",
+            "source": "https://www.cecam.org/workshop-details/molsim-2027-1542"
+          },
+          {
+            "name": "Evert Jan Meijer",
+            "role": "Organiser",
+            "affiliation": "University of Amsterdam",
+            "source": "https://www.cecam.org/workshop-details/molsim-2027-1542"
+          },
+          {
+            "name": "Christina Santaka",
+            "role": "Organiser",
+            "affiliation": "University of Amsterdam",
+            "source": "https://www.cecam.org/workshop-details/molsim-2027-1542"
+          },
+          {
+            "name": "Berend Smit",
+            "role": "Organiser",
+            "affiliation": "EPFL",
+            "source": "https://www.cecam.org/workshop-details/molsim-2027-1542"
+          }
+        ],
+        "committee": [],
+        "speakers": [
+          {
+            "name": "Rodolphe Vuilleumier",
+            "role": "Announced special-session expert",
+            "affiliation": "ENS, Paris",
+            "source": "https://www.cecam.org/workshop-details/molsim-2027-1542"
+          }
+        ],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organisers and one named special-session expert from the current-edition page; no complete lecturer or participant roster recorded.",
+        "sources": [
+          "https://www.cecam.org/workshop-details/molsim-2027-1542"
+        ]
+      },
+      "reminders_paused": false
     }
   ],
   "watchlist": [
@@ -21155,94 +21279,6 @@
       "reminders_pause_reason": "8 December 2026 is referenced by TYC, but the hackathon’s own announcement and participation details need confirmation."
     },
     {
-      "id": "molsim-2027",
-      "name": "MolSim 2027 — Molecular Simulation School (details pending)",
-      "tags": [
-        "Simulation",
-        "Molecular Simulation",
-        "Molecular Dynamics",
-        "Monte Carlo"
-      ],
-      "start": null,
-      "end": null,
-      "date": "Dates awaiting confirmation",
-      "location": "Netherlands — CECAM-NL; exact venue awaiting confirmation",
-      "region": "Europe",
-      "type": "School / Training",
-      "deadline": "Registration deadline: not confirmed.",
-      "status": "Indexed 2027 announcement; dates and registration require reconfirmation.",
-      "note": "An indexed official CECAM school listing gives 4–15 January 2027 and the MolSim organisers. The live programme currently returns no event records, while the host archive still ends at MolSim 2026. Keep as a lead until the current-edition announcement can be rechecked. The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable.",
-      "sources": [
-        "https://www.cecam.org/program?location=all&month=all&type=flagship_school",
-        "https://www.compchem.nl/molsim/"
-      ],
-      "url": "https://www.cecam.org/program?location=all&month=all&type=flagship_school",
-      "priority": 1,
-      "verified_on": "2026-11-02",
-      "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
-      "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-02T17:49:53Z",
-        "last_verified_at": null,
-        "message": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable."
-      },
-      "milestones": [
-        {
-          "id": "molsim-2027:conference-start",
-          "kind": "conference_start",
-          "label": "Conference start awaiting confirmation",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "precision": "unknown",
-          "status": "unknown",
-          "version": 1,
-          "source": "https://www.cecam.org/program?location=all&month=all&type=flagship_school",
-          "evidence": "No verified deadline is published on the reviewed official page."
-        },
-        {
-          "id": "molsim-2027:conference-end",
-          "kind": "conference_end",
-          "label": "Conference end awaiting confirmation",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "precision": "unknown",
-          "status": "unknown",
-          "version": 1,
-          "source": "https://www.cecam.org/program?location=all&month=all&type=flagship_school",
-          "evidence": "No verified deadline is published on the reviewed official page."
-        },
-        {
-          "id": "molsim-2027:registration",
-          "kind": "registration",
-          "label": "Registration deadline",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "precision": "unknown",
-          "status": "unknown",
-          "version": 1,
-          "source": "https://www.cecam.org/program?location=all&month=all&type=flagship_school",
-          "evidence": "No verified deadline is published on the reviewed official page."
-        }
-      ],
-      "people": {
-        "organizers": [],
-        "committee": [],
-        "speakers": [],
-        "participants": [],
-        "checked_on": "2026-11-02",
-        "status": "unavailable",
-        "note": "No individual roster was captured in this review; consult the official programme for subsequent announcements.",
-        "sources": [
-          "https://www.cecam.org/program?location=all&month=all&type=flagship_school"
-        ]
-      },
-      "reminders_paused": true,
-      "reminders_pause_reason": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable."
-    },
-    {
       "id": "cecam-fleur-school-2027",
       "name": "All-Electron DFT with FLEUR — Hands-on Tutorial (2027 details pending)",
       "tags": [
@@ -21543,6 +21579,14 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-03T00:15:05Z",
+      "event_id": "molsim-2027",
+      "event_name": "MolSim 2027 — Molecular Simulation School",
+      "field": "event",
+      "source": "https://www.cecam.org/workshop-details/molsim-2027-1542",
+      "message": "Corrected the pending record using the current-edition detail page: school 4–15 January 2027; registration/application closed after the 30 October 2026 deadline. Moved from watchlist to scheduled events."
+    },
     {
       "at": "2026-11-02T17:49:53Z",
       "event_id": "moansi-2026",

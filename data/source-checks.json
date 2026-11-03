@@ -5488,16 +5488,14 @@
       "message": null,
       "checks": {
         "molsim-2027": {
-          "review_required": true,
-          "reason": "content_conflict",
-          "message": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable.",
-          "reviewed_at": "2026-11-02T17:49:53Z",
+          "review_required": false,
+          "reason": null,
+          "message": "Superseded by the verified current-edition MolSim 2027 detail page.",
+          "reviewed_at": "2026-11-03T00:15:05Z",
           "reviewed_hash": "c2f2d5de7e07efad527b724afd410364698ae1d10c4c509d4a5436eef32932c5",
           "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
-          "remaining_fields": [
-            "dates",
-            "deadlines"
-          ]
+          "remaining_fields": [],
+          "superseded_by": "https://www.cecam.org/workshop-details/molsim-2027-1542"
         }
       }
     },
@@ -5511,16 +5509,14 @@
       "message": null,
       "checks": {
         "molsim-2027": {
-          "review_required": true,
-          "reason": "content_conflict",
-          "message": "The indexed 4–15 January 2027 schedule is not promoted to verified dates because current official programme details are unavailable.",
-          "reviewed_at": "2026-11-02T17:49:53Z",
+          "review_required": false,
+          "reason": null,
+          "message": "Superseded by the verified current-edition MolSim 2027 detail page.",
+          "reviewed_at": "2026-11-03T00:15:05Z",
           "reviewed_hash": "370df7710a3524b2639e73430b6d20c0c431fe09b148b25d9f460e46c1ecfc2c",
           "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
-          "remaining_fields": [
-            "dates",
-            "deadlines"
-          ]
+          "remaining_fields": [],
+          "superseded_by": "https://www.cecam.org/workshop-details/molsim-2027-1542"
         }
       }
     },
@@ -5581,6 +5577,26 @@
           "message": "Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional.",
           "reviewed_at": "2026-11-02T17:49:53Z",
           "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified."
+        }
+      }
+    },
+    "https://www.cecam.org/workshop-details/molsim-2027-1542": {
+      "last_checked_at": "2026-11-03T00:15:05Z",
+      "last_success_at": "2026-11-03T00:15:05Z",
+      "status": "checked",
+      "hash": "e66c6fdf9d9e28c7269f180b5263f81033ada591e06cbe746b9c72fbbafa7f1d",
+      "fingerprint_version": 2,
+      "content_type": "text/html",
+      "message": null,
+      "checks": {
+        "molsim-2027": {
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-03T00:15:05Z",
+          "reviewed_hash": "e66c6fdf9d9e28c7269f180b5263f81033ada591e06cbe746b9c72fbbafa7f1d",
+          "evidence": "CECAM MolSim 2027 detail page, checked in a browser on 3 November 2026: 4–15 January 2027; registration/application deadline 30 October 2026. The published cutoff has passed.",
+          "remaining_fields": []
         }
       }
     }
