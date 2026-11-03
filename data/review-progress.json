@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-03",
-  "remaining_count": 17,
-  "remaining_source_count": 17,
+  "remaining_count": 19,
+  "remaining_source_count": 19,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -159,6 +159,21 @@
       ]
     },
     {
+      "source": "https://www.materialsscienceconference.com/registration",
+      "event_id": "advanced-materials-world-congress-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
+      "priority": 1,
+      "next_deadline": "2026-11-13",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
       "source": "https://sites.google.com/view/ai4mat/schedule",
       "event_id": "ai4mat-neurips-2026",
       "reason": "observation",
@@ -187,6 +202,21 @@
         "people.speakers: Peter Ravikovitch",
         "people.organizers: University of Edinburgh Adsorption Group",
         "daily schedule times"
+      ]
+    },
+    {
+      "source": "https://www.euromat2027.com/committee.html",
+      "event_id": "fems-euromat-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "858681cc75994b0a48c83e74d148f425fe108e663003330aaf35092f2403505c",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
       ]
     },
     {
@@ -241,12 +271,12 @@
     {
       "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(7761 bytes read)"
+      "reason": "IncompleteRead(15940 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(7658 bytes read)"
+      "reason": "IncompleteRead(7761 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
@@ -269,16 +299,6 @@
       "reason": "HTTP Error 403: Forbidden"
     },
     {
-      "source": "https://cognitionconferences.com/artificialintelligence/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://cognitionconferences.com/artificialintelligence/registration/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
       "source": "https://event.fourwaves.com/interpore2027/submission",
       "status": "unverifiable",
       "reason": "Official source returned no readable page content."
@@ -287,16 +307,6 @@
       "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
       "status": "unverifiable",
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-    },
-    {
-      "source": "https://innovatexconference.com/artificialintelligence/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://innovatexconference.com/artificialintelligence/registration/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
@@ -332,16 +342,6 @@
       "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
       "status": "unverifiable",
       "reason": "<urlopen error timed out>"
-    },
-    {
-      "source": "https://www.euromat2027.com/",
-      "status": "failed",
-      "reason": "<urlopen error [Errno 101] Network is unreachable>"
-    },
-    {
-      "source": "https://www.euromat2027.com/committee.html",
-      "status": "failed",
-      "reason": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
