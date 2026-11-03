@@ -42,6 +42,15 @@ class SourceUpdateTests(unittest.TestCase):
     def merge(self, row, fetches, state=None, adapters=None):
         return update_catalog(catalog(row), state or {}, adapters or ADAPTERS, fetches, NOW)
 
+    def test_per_request_captchas_counters_and_asset_tokens_do_not_change_fingerprint(self):
+        page = "Registration closes 9 December 2026. Math question (3 + 0 =) What's 9 + 20 = 7,021 followers {}"
+        first = fingerprint(page.format("UjIQu7zgrG5C7xJw3F2PGd0tWzXml2PLxzB6xI3FFwY=.html"))
+        second = fingerprint("Registration closes 9 December 2026. Math question (7 + 2 =) What’s 1 + 4 = 7,032 followers "
+                             "ufDSscKsp6VOz-y3bKq60AKPo-nniCx5M5VJ1XIdQIg=.html")
+        self.assertEqual(first, second)
+        self.assertNotEqual(first, fingerprint(page.replace("9 December", "10 December").format(
+            "UjIQu7zgrG5C7xJw3F2PGd0tWzXml2PLxzB6xI3FFwY=.html")))
+
     def test_text_snapshot_reproduces_the_stored_fingerprint(self):
         page = fetched("<main>Conference 2027, deadline 1 March 2027 at 17:00 GMT</main>")
         page["monitored"] = page["text"]

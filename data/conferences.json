@@ -2290,10 +2290,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "unverifiable",
+        "status": "review_required",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course: <urlopen error timed out>"
+        "message": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course: The course website timed out for the daily fetcher, WebFetch (504) and curl, so the early-registration date, the limited-places status and the guest lecturer cannot be re-verified; existing facts are kept unchanged."
       },
       "milestones": [
         {
@@ -5171,10 +5171,10 @@
       "verified_on": "2026-11-03",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://interpore.org/event/7th-interpore-benelux-chapter-meeting: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -5345,10 +5345,10 @@
       "verified_on": "2026-11-03",
       "evidence": "ESI and University of Innsbruck pages confirm dates and venue; the GDR MePhy organiser announcement gives the 15 July abstract deadline and no conference fee.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -5947,10 +5947,10 @@
       "verified_on": "2026-11-03",
       "evidence": "ICTP gives 13–15 January 2027, deadline 11/10/2026 and no registration fee. The European date format is interpreted as 11 October.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://indico.ictp.it/event/11409: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -6094,10 +6094,22 @@
             "role": "Invited programme speaker",
             "source": "https://indico.ictp.it/event/11409",
             "affiliation": "Utrecht University"
+          },
+          {
+            "name": "Matteo Cococcioni",
+            "role": "Invited programme speaker",
+            "source": "https://indico.ictp.it/event/11409",
+            "affiliation": "University of Pavia"
+          },
+          {
+            "name": "Sandra Luber",
+            "role": "Invited programme speaker",
+            "source": "https://indico.ictp.it/event/11409",
+            "affiliation": "University of Zurich"
           }
         ],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-03",
         "status": "published",
         "note": "Workshop organisers and selected speakers from the January 2027 ICTP announcement.",
         "sources": [
@@ -6129,10 +6141,10 @@
       "verified_on": "2026-11-03",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://fems.org/industry-symposium-frankfurt-14-january-2027/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -6907,10 +6919,10 @@
       "verified_on": "2026-11-03",
       "evidence": "CECAM and the FLUXIONIC organising research network both confirm dates and venue.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.cecam.org/workshop-details/challenges-in-ionic-fluids-theory-simulation-and-experiment-1483: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -9418,7 +9430,7 @@
         "status": "failed",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.euromat2027.com/: <urlopen error [Errno 101] Network is unreachable> | https://www.euromat2027.com/committee.html: <urlopen error [Errno 101] Network is unreachable>"
+        "message": "https://www.euromat2027.com/committee.html: <urlopen error [Errno 101] Network is unreachable> | https://www.euromat2027.com/: <urlopen error [Errno 101] Network is unreachable>"
       },
       "milestones": [
         {
@@ -11834,10 +11846,10 @@
       "verified_on": "2026-11-03",
       "evidence": "The CECAM programme index gives dates and CECAM-BJ; no city or building is inferred.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.cecam.org/workshop-details/computational-electrochemistry-in-the-era-of-ai-1501: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -12338,10 +12350,10 @@
       "verified_on": "2026-11-03",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "unverifiable",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx: HTTP Error 403: Forbidden"
+        "message": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -12602,10 +12614,10 @@
       "verified_on": "2026-11-03",
       "evidence": "ICTS confirms the dates, themes and 25 November deadline; its application form gives 9 December for recommendation letters.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://register1.icts.res.in/mwas: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -13365,7 +13377,7 @@
         "status": "review_required",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://event.fourwaves.com/interpore2027: The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict. | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved. | https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
+        "message": "https://event.fourwaves.com/interpore2027: The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict. | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved. | https://event.fourwaves.com/interpore2027/submission: The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser."
       },
       "milestones": [
         {
@@ -14872,10 +14884,10 @@
       "verified_on": "2026-10-27",
       "evidence": "Application Information gives the 3 July attendance deadline and 25 April speaker-abstract deadline separately.",
       "check": {
-        "status": "unverifiable",
+        "status": "review_required",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/: Official source returned no readable page content."
+        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/: The chair names are images with no alt text; neither the full DOM, the alt-text list nor the GRS conference-history page (WebFetch) contains them as text, so the two recorded co-chairs still need a visual check. All dates, deadlines and venue match."
       },
       "milestones": [
         {
@@ -15001,10 +15013,10 @@
       "verified_on": "2026-10-27",
       "evidence": "Application Information lists 4 July; the description explicitly includes MOF/COF and experimental/computational work.",
       "check": {
-        "status": "unverifiable",
+        "status": "review_required",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/: Official source returned no readable page content."
+        "message": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/: Chair and vice-chair names are rendered as images with no alt text; neither the full DOM text, the alt-text list, nor the GRC conference-history page (WebFetch) contains them as text, so the four committee entries still need a visual/screenshot check."
       },
       "milestones": [
         {
@@ -17574,10 +17586,10 @@
       "verified_on": "2026-11-03",
       "evidence": "The organiser confirms 26–28 April 2027 in Athens. The abstract page gives a first-round deadline of 31 December 2026. The venue page says the exact location will be updated.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://aicmsn2027.synergiasummits.com/abstract: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -20360,10 +20372,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.biophysics.org/blog/message-from-the-organizers: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -20706,10 +20718,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.biophysics.org/upcoming-thematic-meetings/biomolecular-dynamics-integrating-experiments-and-computation: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -20790,10 +20802,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.grc.org/chemistry-and-physics-of-liquids-conference/2027/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -20880,7 +20892,7 @@
       "verified_on": "2026-11-03",
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
-        "status": "failed",
+        "status": "unverifiable",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/: HTTP Error 404: Not Found"
@@ -22896,10 +22908,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://vividglobalsummits.com/2027/artificial-intelligence: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -24490,10 +24502,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T09:14:25Z",
-        "message": "https://www.materialsscienceconference.com/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.materialsscienceconference.com/registration: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -24635,10 +24647,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T09:14:25Z",
-        "message": "https://www.chemistryconferences.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -25359,10 +25371,10 @@
       "verified_on": "2026-10-27",
       "evidence": "",
       "check": {
-        "status": "unverifiable",
+        "status": "review_required",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf: <urlopen error timed out>"
+        "message": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf: The unibook.upjs.sk host times out entirely (the main www.upjs.sk site responds), so the PMEA2026 proceedings PDF and its 2028 announcement cannot be re-read; the record's unknown dates are left unchanged."
       },
       "milestones": [
         {
@@ -25453,10 +25465,10 @@
       "verified_on": "2026-11-03",
       "evidence": "",
       "check": {
-        "status": "review_required",
+        "status": "checked",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": null
       },
       "milestones": [
         {
@@ -25822,7 +25834,7 @@
         "status": "review_required",
         "last_checked_at": "2026-11-03T11:10:12Z",
         "last_verified_at": null,
-        "message": "Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional. | https://cecamsimul.eu/events/events-2026: HTTP Error 403: Forbidden"
+        "message": "https://cecamsimul.eu/events/events-2026: The CECAM-IT-SIMUL page still returns 403 to every client (fetcher, Chrome, WebFetch, curl); the 23 August–3 September 2027 dates are only visible in a search-engine snapshot, which is weaker than the live organiser page, so the provisional status must remain. | Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional."
       },
       "milestones": [
         {

@@ -1493,3 +1493,11 @@
 - 结果：resolved（fetcher_text）
 - 证据：ISEL 新闻（www.isel.pt，2026-06-25）：XIII ENCMP/IV RGC 期间宣传 “FEZA 2029 - 11th Conference of the Federation of the European Zeolite Associations, que terá lugar em Lisboa”；无日期或截止。原 web.isel.pt 主机已无法解析。
 
+
+## 运行器正文复核（11:08 检查之后）
+
+07:55 的每日检查重新打开了约 20 条刚复核过的来源。原因不是官方页面变化，而是复核时用的是本地抓取的正文，而 GitHub 运行器拿到的正文不同（人员来源页按整页监测、导航文字不同），另有几页每次加载都会变化。
+
+- 每次来源检查现在把计算指纹所用的正文保存为 7 天的 `source-text` 运行附件；复核以该附件为准（见 README）。
+- 指纹新增忽略：每次加载随机生成的算术验证码、社交平台关注者人数、带随机令牌的资源文件名。6 个来源的已存指纹按附件正文直接换算为新规则下的值。
+- 用运行 41625024822 的附件逐条比对：19 条只有导航、侧栏或上述随机内容差异，已以运行器指纹结案；ICTP 新增两位讲者 Matteo Cococcioni、Sandra Luber。另有 5 条仍存在官方冲突（InterPore、TYC20、Faraday Discussion），原因改为 content_conflict 保留。

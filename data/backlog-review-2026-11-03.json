@@ -9457,5 +9457,230 @@
     }
   ],
   "user_decisions_required": [],
-  "method": "Every queued (event, source) pair was re-read on 3 November 2026: daily-checker extractor text (hash compared with the stored daily hash), rendered Chrome text, full DOM text for collapsed tabs/images, and an external fetch where the local network blocked the site. Facts were changed only with an exact official quote; notification-only dates were not added as reminder nodes."
+  "method": "Every queued (event, source) pair was re-read on 3 November 2026: daily-checker extractor text (hash compared with the stored daily hash), rendered Chrome text, full DOM text for collapsed tabs/images, and an external fetch where the local network blocked the site. Facts were changed only with an exact official quote; notification-only dates were not added as reminder nodes.",
+  "runner_text_followup": {
+    "at": "2026-11-03T11:13:00+00:00",
+    "run": "41625024822",
+    "fingerprint_migrated_sources": [
+      "https://aicmsn2027.synergiasummits.com/abstract",
+      "https://register1.icts.res.in/mwas",
+      "https://www.grc.org/chemistry-and-physics-of-liquids-conference/2027/",
+      "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+      "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+      "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
+    ],
+    "records": [
+      {
+        "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
+        "event_ids": [
+          "digital-chemistry2027"
+        ],
+        "status": "conflict_retained",
+        "evidence": "The hidden Abstract submission tab still says oral abstracts are due 'by 14 March 2027' while the Deadlines panels say '14 Dec 2026'; no dated extension notice resolves it, so the milestone must stay a conflict."
+      },
+      {
+        "source": "https://event.fourwaves.com/interpore2027",
+        "event_ids": [
+          "interpore2027"
+        ],
+        "status": "conflict_retained",
+        "evidence": "The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict."
+      },
+      {
+        "source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+        "event_ids": [
+          "interpore2027"
+        ],
+        "status": "conflict_retained",
+        "evidence": "Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved."
+      },
+      {
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+        "event_ids": [
+          "interpore2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "706a1a050edd9046668990b26b47bb64467c2ba2e35662e8121fb796cf2cbc31",
+        "evidence": "运行器正文与凌晨复核相比只多出导航文字（Skip to main content、Log in）及 Minisymposia 页的 Lead Organizer 行；无日期或截止变化。"
+      },
+      {
+        "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+        "event_ids": [
+          "interpore2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "7653a49aabff985de6e20d19d9567c6e63e0dea42d14dde17d744ecafd894c77",
+        "evidence": "运行器正文与凌晨复核相比只多出导航文字（Skip to main content、Log in）及 Minisymposia 页的 Lead Organizer 行；无日期或截止变化。"
+      },
+      {
+        "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+        "event_ids": [
+          "tyc20-celebration-of-the-thomas-young-centre-at-20"
+        ],
+        "status": "conflict_retained",
+        "evidence": "The KCL eStore gives 8 November 2026 as the last booking date while the TYC page gives 1 November 2026 as the registration deadline; no dated extension notice resolves this, so the registration milestone should be a conflict."
+      },
+      {
+        "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+        "event_ids": [
+          "tyc20-celebration-of-the-thomas-young-centre-at-20"
+        ],
+        "status": "conflict_retained",
+        "evidence": "The TYC page's 1 November 2026 registration deadline conflicts with the KCL eStore's 8 November 2026 last booking date; the clock times 9:00 am / 5:00 pm are published without a time zone and were not recorded."
+      },
+      {
+        "source": "https://www.materialsscienceconference.com/",
+        "event_ids": [
+          "advanced-materials-world-congress-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "d76d75538a7f5d4ca6907aca089773cd7a216a7df592e99282708708f69fafe9",
+        "evidence": "运行器正文含 2027-03-22 至 23 Vienna 及早鸟 11-13、普通 12-30、现场 03-22 三个费率日期，与记录一致。"
+      },
+      {
+        "source": "https://www.materialsscienceconference.com/registration",
+        "event_ids": [
+          "advanced-materials-world-congress-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "437629889054768bd713b6a8701a4aa8c0c5128edd7e3a0fc5008bec9951d436",
+        "evidence": "运行器正文含 2027-03-22 至 23 Vienna 及早鸟 11-13、普通 12-30、现场 03-22 三个费率日期，与记录一致。"
+      },
+      {
+        "source": "https://indico.ictp.it/event/11409",
+        "event_ids": [
+          "23rd-international-workshop-on-computational-physics-and-materials-science-total-energy-and-force-methods"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "301ca5d39897156fc27482d645b245d14250fda4d2730c8c1c264345f4b44f1e",
+        "evidence": "ICTP 页新增两位讲者 Matteo Cococcioni（University of Pavia）与 Sandra Luber（University of Zurich），已加入；截止 10-11 与 11-15 不变。"
+      },
+      {
+        "source": "https://www.chemistryconferences.com/",
+        "event_ids": [
+          "advanced-chemistry-world-congress-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "0a00bf2a76eea9bf74a57cf304020e2d36813c01003fe84c18927e7950ca228c",
+        "evidence": "运行器正文含 2027-03-18 至 19 会期，与记录一致。"
+      },
+      {
+        "source": "https://register1.icts.res.in/mwas",
+        "event_ids": [
+          "modelling-water-across-scales"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "9c972483054b2ff9be5d2a713300c708961716c3564e319d3b0d4933d1dcaa05",
+        "evidence": "差异仅为每次加载随机生成的算术验证码；指纹现已忽略该验证码。报名截止 2026-11-25、推荐信 12-09 不变。"
+      },
+      {
+        "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+        "event_ids": [
+          "agsaiml-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "aaae670f43ec1d014225a6fa69a4d308a48c0bc565d5d33056d7aa741d91a3a5",
+        "evidence": "运行器正文含 2027-03-08 至 10 Barcelona、摘要 11-30、早鸟 06-25，与记录一致。"
+      },
+      {
+        "source": "https://interpore.org/event/7th-interpore-benelux-chapter-meeting",
+        "event_ids": [
+          "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "092b677e031dc69540bb7cbed54824a46980185af5e35d6645161c8fb3f271f9",
+        "evidence": "运行器正文与复核时相比只多出 Skip to main content；摘要延期至 08-01 与 7 位 keynote 不变。"
+      },
+      {
+        "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+        "event_ids": [
+          "7th-fems-industry-symposium-materials-assisted-by-digital-science"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "3ba6363779a1267e65022d7e91bd0483eadc2d579cc14ce0baff4d9b3051cc1c",
+        "evidence": "运行器正文与复核时逐行一致（差异来自凌晨本地与运行器环境）；2027-01-14 Fraport Visitor Center、注册开放且免费不变。"
+      },
+      {
+        "source": "https://aicmsn2027.synergiasummits.com/abstract",
+        "event_ids": [
+          "aicmsn-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "8ea8d779b024ac20680aff348c4316532eb61c149ad1a31ae632539cbeb8c3cb",
+        "evidence": "差异仅为每次加载随机生成的算术验证码（What’s N + N =），指纹现已忽略；摘要页事实不变。"
+      },
+      {
+        "source": "https://www.biophysics.org/upcoming-thematic-meetings/biomolecular-dynamics-integrating-experiments-and-computation",
+        "event_ids": [
+          "biomolecular-dynamics-berlin-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "4c365570e7f8298cf12f75b7b7deb349c876b22d1c7abe910cf4690e3beafc2f",
+        "evidence": "运行器正文写 8/23/2027 - 8/27/2027，与记录一致；其余差异为 BPS 导航菜单。"
+      },
+      {
+        "source": "https://www.biophysics.org/blog/message-from-the-organizers",
+        "event_ids": [
+          "bps-protons-in-biology-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "472be573c2bb48e4774a65c71b467084e1e411045cce51cc34091383d17c7a4f",
+        "evidence": "运行器正文含 2027-08-01 至 04 会期与 04-26 早鸟截止，与记录一致；差异为整页导航与博客菜单（人员来源页按整页正文监测）。"
+      },
+      {
+        "source": "https://www.cecam.org/workshop-details/challenges-in-ionic-fluids-theory-simulation-and-experiment-1483",
+        "event_ids": [
+          "challenges-in-ionic-fluids-theory-simulation-and-experiment"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "7d61a3d79e2bc1f64c651c59b02513633ecfb51ac7c6739d9278d6940196a00c",
+        "evidence": "运行器正文为 CECAM 描述与组织者（Cox、Perkin、Rotenberg），与记录一致；页首日期由脚本动态填入、运行器不可见，日期与 12-09 报名截止以浏览器渲染页为准。"
+      },
+      {
+        "source": "https://www.cecam.org/workshop-details/computational-electrochemistry-in-the-era-of-ai-1501",
+        "event_ids": [
+          "computational-electrochemistry-in-the-era-of-ai"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "5e033872e8e0861b7f21f9cd3ff85b1bbb4622c5300c56cc1fd03cd1553631df",
+        "evidence": "运行器正文为 CECAM 描述与组织者（Bi、Cheng、Dobnikar、Salanne），与记录一致；页首日期由脚本动态填入、运行器不可见，日期与 12-10 报名截止以浏览器渲染页为准。"
+      },
+      {
+        "source": "https://www.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc",
+        "event_ids": [
+          "feza2029-11th-conference-of-the-federation-of-european-zeolite-associations"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "c361333dc7aedaea6ad861b64ba06fc066be7040f821acc8e64fef0259a26072",
+        "evidence": "运行器正文仍为 ISEL 新闻，提到 FEZA 2029 将在 Lisbon 举办；无日期。"
+      },
+      {
+        "source": "https://www.grc.org/chemistry-and-physics-of-liquids-conference/2027/",
+        "event_ids": [
+          "grc-liquids-2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "37833a2d97092eb919ec99290e9d8caa1381a5ec0f97614698bb206f7941e4ef",
+        "evidence": "GRC 页差异仅为带随机令牌的资源文件名，指纹现已忽略；日期与截止不变。"
+      },
+      {
+        "source": "https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/",
+        "event_ids": [
+          "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "91f6128dc8319b5ab75888613f30a09d4ef70553908865454cb3e6fc79c8420c",
+        "evidence": "运行器正文含 07-15 报告与海报摘要截止，与记录一致；差异为 WordPress 侧栏最新文章列表。"
+      },
+      {
+        "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+        "event_ids": [
+          "tms2027"
+        ],
+        "status": "resolved",
+        "reviewed_hash": "ae5724447eb3414c860bca1c668c74d2542e741c69cc82d981f1389804e10163",
+        "evidence": "LinkedIn 帖子差异仅为关注者人数（11,229 → 11,233），指纹现已忽略；帖子内容不变。"
+      }
+    ]
+  }
 }

@@ -108,6 +108,10 @@ VOLATILE_TEXT = (
     rf"\blast\s+(?:updated|modified|checked|reviewed|refreshed)\s*:?\s*(?:(?:on|at)\s+)?{STAMP_VALUE}",
     r"(?:©|copyright)\s*20\d{2}",
     r"\b(?:cookie|gdpr|consent)\b.{0,60}",
+    # Per-request arithmetic CAPTCHAs, social follower counters and hashed asset names.
+    r"(?:what(?:'|’)?s|math question)\s*\(?\s*\d{1,3}\s*[-+x×*]\s*\d{1,3}\s*=\s*\)?",
+    r"\b\d[\d,.]*k?\s+followers\b",
+    r"\b[a-z0-9_-]{40,}={0,2}\.html\b",
 )
 UNVERIFIABLE_HINTS = (
     "403", "forbidden", "access challenge", "no readable page content",
