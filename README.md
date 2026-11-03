@@ -2,9 +2,11 @@
 
 [Visit the website](https://vickie02736.github.io/conference-reminder/)
 
-An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The research snapshot includes **138 dated activities (including one finished conference retained on request) and 11 announcements awaiting confirmed dates**. Conference dates were initially researched on 27 October 2026; molecular and atomistic simulation coverage was expanded on 2 November 2026 with 33 dated activities and six pending announcements. Each entry records its own verification date. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
+An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The research snapshot includes **164 dated activities (including one finished conference retained on request) and 10 announcements awaiting confirmed dates**. Conference dates were initially researched on 27 October 2026; molecular and atomistic simulation coverage was expanded on 2 November 2026 with 33 dated activities and six pending announcements. Each entry records its own verification date. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
 
 The [simulation coverage review](research/simulation-expansion-2026-11-02.md) records the sources searched, inclusion rules and unresolved announcements. New activities include molecular dynamics, enhanced sampling, free energies, multiscale modelling, computational chemistry, biomolecular simulation and relevant soft-matter meetings. Vendor training and broader adjacent conferences are labelled in their research-fit notes. Conflicting deadlines and dates visible only in indexed announcements remain unavailable for reminders until verified.
+
+The [approved candidate-review decisions](research/candidate-review-decisions-2026-11-03.md) add 25 activities, resolve 10 duplicate leads, dismiss 54 excluded leads and retain nine uncertain candidates. Existing ICML 2027 now has confirmed dates and has moved out of the watchlist. Duplicate and exclusion reasons, original links and stable IDs remain in the [decision ledger](data/candidate-review-decisions-2026-11-03.json), so dismissed URLs remain suppressed during future discovery.
 
 ## Sharing with the research group
 

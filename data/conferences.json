@@ -4,12 +4,12 @@
     "schema_version": 1,
     "verified_on": "2026-10-27",
     "scope": "AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration and past activities specifically retained by the user are included.",
-    "count": 138,
-    "watchlist_count": 11,
+    "count": 164,
+    "watchlist_count": 10,
     "regions": {
       "UK": 34,
-      "Europe": 61,
-      "Other": 54
+      "Europe": 75,
+      "Other": 65
     },
     "notes": [
       "A non-exhaustive research snapshot based on conference, organiser, society and university sources.",
@@ -19,10 +19,11 @@
       "Main meetings and associated workshops, GRC/GRS and schools may be separate entries within one series.",
       "The watch list includes incomplete or weaker announcements, including an organiser LinkedIn announcement for MEDPore2027.",
       "Milestone verification status does not indicate that submissions or registration are currently open.",
-      "Molecular/atomistic simulation coverage expanded on 2 November 2026 from official society, organiser, institutional and software-community sources. Indexed-only date leads remain pending; no recurring edition dates are inferred."
+      "Molecular/atomistic simulation coverage expanded on 2 November 2026 from official society, organiser, institutional and software-community sources. Indexed-only date leads remain pending; no recurring edition dates are inferred.",
+      "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-02T07:42:43Z",
-    "last_updated_at": "2026-11-03T00:15:05Z",
+    "last_updated_at": "2026-11-03T00:39:14Z",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -20570,6 +20571,3311 @@
         ]
       },
       "reminders_paused": false
+    },
+    {
+      "id": "date-2027",
+      "name": "DATE 2027 — Design, Automation and Test in Europe",
+      "tags": [
+        "AI"
+      ],
+      "start": "2027-03-22",
+      "end": "2027-03-24",
+      "date": "2027-03-22 — 2027-03-24",
+      "location": "Dresden, Germany",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Research abstracts: 2026-09-13 23:59 Etc/GMT+12; Research papers: 2026-09-20 23:59 Etc/GMT+12; Late Breaking Results papers: 2026-11-29 23:59 Etc/GMT+12; PhD Forum submissions: 2026-11-30 23:59 Etc/GMT+12",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "AI hardware and AI-assisted electronic design; less directly related to materials or chemistry. K.I.T. Group handles conference logistics. The Late Breaking Results link was still marked not yet available; a cutoff does not confirm an open submission platform.",
+      "sources": [
+        "https://www.date-conference.com/call-for-papers"
+      ],
+      "url": "https://www.date-conference.com/call-for-papers",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "date-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-03-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.date-conference.com/call-for-papers",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "date-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-24",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.date-conference.com/call-for-papers",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "date-2027:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Research abstracts",
+          "date": "2026-09-13",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "source": "https://www.date-conference.com/call-for-papers",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+        },
+        {
+          "id": "date-2027:paper-3",
+          "version": 1,
+          "kind": "paper",
+          "label": "Research papers",
+          "date": "2026-09-20",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "source": "https://www.date-conference.com/call-for-papers",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+        },
+        {
+          "id": "date-2027:paper-4",
+          "version": 1,
+          "kind": "paper",
+          "label": "Late Breaking Results papers",
+          "date": "2026-11-29",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "source": "https://www.date-conference.com/call-for-papers",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+        },
+        {
+          "id": "date-2027:application-5",
+          "version": 1,
+          "kind": "application",
+          "label": "PhD Forum submissions",
+          "date": "2026-11-30",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "source": "https://www.date-conference.com/call-for-papers",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+        },
+        {
+          "id": "date-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://www.date-conference.com/call-for-papers",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "EDAA",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.date-conference.com/call-for-papers"
+          },
+          {
+            "name": "ESDA",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.date-conference.com/call-for-papers"
+          },
+          {
+            "name": "IEEE CEDA",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.date-conference.com/call-for-papers"
+          },
+          {
+            "name": "ACM SIGDA",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.date-conference.com/call-for-papers"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.date-conference.com/call-for-papers"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-02857a320f106a9bbd70"
+      ]
+    },
+    {
+      "id": "aim-2027-usg",
+      "name": "AIM 2027 — 4th International Conference on Artificial Intelligence and Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-04-26",
+      "end": "2027-04-28",
+      "date": "2027-04-26 — 2027-04-28",
+      "location": "Courtyard by Marriott across Universal Orlando, Orlando, Florida, USA / Hybrid",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "First-round abstracts: 2026-11-03; Early-bird registration: 2026-11-05",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Broad AI and machine learning programme. The organizer describes itself as nonprofit; legal status and announced speaker affiliations have not been independently verified.",
+      "sources": [
+        "https://artificialintelligence.unitedscientificgroup.org/",
+        "https://artificialintelligence.unitedscientificgroup.org/conference-info"
+      ],
+      "url": "https://artificialintelligence.unitedscientificgroup.org/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "aim-2027-usg:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-04-26",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.unitedscientificgroup.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aim-2027-usg:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-04-28",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.unitedscientificgroup.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aim-2027-usg:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "First-round abstracts",
+          "date": "2026-11-03",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.unitedscientificgroup.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aim-2027-usg:early-registration-3",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-05",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.unitedscientificgroup.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aim-2027-usg:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://artificialintelligence.unitedscientificgroup.org/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "United Scientific Group",
+            "role": "Organizer listed on the conference website",
+            "source": "https://artificialintelligence.unitedscientificgroup.org/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://artificialintelligence.unitedscientificgroup.org/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-50fac426b76b18d66764",
+        "web-5f6f42f4a33631443e4f"
+      ]
+    },
+    {
+      "id": "icfmce-2027",
+      "name": "ICFMCE 2027 — 9th International Conference on Functional Materials and Chemical Engineering",
+      "tags": [
+        "General Materials",
+        "Catalysis",
+        "Materials Chemistry"
+      ],
+      "start": "2027-09-24",
+      "end": "2027-09-26",
+      "date": "2027-09-24 — 2027-09-26",
+      "location": "Xining, Qinghai, China",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "First-round abstracts: 2027-03-18; First-round full papers: 2027-04-01; Early-bird fee deadline: 2027-06-23; On-site registration date: 2027-09-24",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Functional materials, catalysis, membrane separation and green chemical engineering. The conference website lists Qinghai Normal University as host, its School of Chemistry and Chemical Engineering as organizer, and Qinghai Institute of Salt Lakes (CAS) and Qinghai University as supporting institutions. These relationships have not been corroborated on university websites. The important-dates registration cutoff and fee-table windows differ; the intended registration categories need clarification.",
+      "sources": [
+        "https://www.icfmce.org/Chinese.html"
+      ],
+      "url": "https://www.icfmce.org/Chinese.html",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "icfmce-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-09-24",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.icfmce.org/Chinese.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icfmce-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-26",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.icfmce.org/Chinese.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icfmce-2027:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "First-round abstracts",
+          "date": "2027-03-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.icfmce.org/Chinese.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icfmce-2027:paper-3",
+          "version": 1,
+          "kind": "paper",
+          "label": "First-round full papers",
+          "date": "2027-04-01",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.icfmce.org/Chinese.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icfmce-2027:early-registration-4",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird fee deadline",
+          "date": "2027-06-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.icfmce.org/Chinese.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icfmce-2027:registration-5",
+          "version": 1,
+          "kind": "registration",
+          "label": "Registration deadline — conflicting published windows",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "candidates": [
+            "2027-07-11",
+            "2027-09-23"
+          ],
+          "evidence": "The important-dates table lists 11 July; the fee table extends regular registration through 23 September and lists on-site registration on 24 September. Categories are not established.",
+          "source": "https://www.icfmce.org/Chinese.html",
+          "precision": "unknown",
+          "status": "conflict"
+        },
+        {
+          "id": "icfmce-2027:other-6",
+          "version": 1,
+          "kind": "other",
+          "label": "On-site registration date",
+          "date": "2027-09-24",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.icfmce.org/Chinese.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Qinghai Normal University",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.icfmce.org/Chinese.html"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.icfmce.org/Chinese.html"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-88b807d9c6d7d09cf0ad"
+      ]
+    },
+    {
+      "id": "aiche-annual-meeting-2026",
+      "name": "AIChE Annual Meeting 2026",
+      "tags": [
+        "General Materials",
+        "Simulation"
+      ],
+      "start": "2026-11-08",
+      "end": "2026-11-12",
+      "date": "2026-11-08 — 2026-11-12",
+      "location": "Minneapolis Convention Center, Minneapolis, USA",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "No submission or registration cutoff verified.",
+      "status": "Registration open on the official registration page reviewed on 3 November 2026; final closing time not verified.",
+      "note": "Chemical engineering, materials and computational engineering; select relevant sessions from the programme. This is the Annual Meeting, distinct from the student conference on 6–9 November. Session-specific submission deadlines and the final registration cutoff were not verified.",
+      "sources": [
+        "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info"
+      ],
+      "url": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "aiche-annual-meeting-2026:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2026-11-08",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aiche-annual-meeting-2026:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-11-12",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aiche-annual-meeting-2026:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "aiche-annual-meeting-2026:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "American Institute of Chemical Engineers (AIChE)",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-0f41a21b007894439833"
+      ]
+    },
+    {
+      "id": "stoc-2027",
+      "name": "STOC 2027 — 59th ACM Symposium on Theory of Computing",
+      "tags": [
+        "AI"
+      ],
+      "start": "2027-06-06",
+      "end": "2027-06-10",
+      "date": "2027-06-06 — 2027-06-10",
+      "location": "Atlanta, Georgia, USA",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Paper submission: 2026-11-02 23:59 Etc/GMT+12; Submission video: 2026-11-16 23:59 Etc/GMT+12; Associated AI Day: 2027-06-11",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Theory of computation, learning and optimization; indirect materials relevance. The main symposium runs 6–10 June. The associated AI Day is on 11 June and is recorded separately as a milestone. The submission-video deadline is not a reopened paper call.",
+      "sources": [
+        "https://acm-stoc.org/stoc2027/stoc2027-cfp.html"
+      ],
+      "url": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "stoc-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-06-06",
+          "time": null,
+          "timezone": null,
+          "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "stoc-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-10",
+          "time": null,
+          "timezone": null,
+          "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "stoc-2027:paper-2",
+          "version": 1,
+          "kind": "paper",
+          "label": "Paper submission",
+          "date": "2026-11-02",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+        },
+        {
+          "id": "stoc-2027:other-3",
+          "version": 1,
+          "kind": "other",
+          "label": "Submission video",
+          "date": "2026-11-16",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+        },
+        {
+          "id": "stoc-2027:other-4",
+          "version": 1,
+          "kind": "other",
+          "label": "Associated AI Day",
+          "date": "2027-06-11",
+          "time": null,
+          "timezone": null,
+          "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "stoc-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "ACM SIGACT",
+            "role": "Organizer listed on the conference website",
+            "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://acm-stoc.org/stoc2027/stoc2027-cfp.html"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-ac1235c9c71d687556c2"
+      ]
+    },
+    {
+      "id": "innovatex-ai-2027",
+      "name": "Innovatex — Artificial Intelligence, Machine Learning & Data Science 2027",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Automation"
+      ],
+      "start": "2027-03-01",
+      "end": "2027-03-03",
+      "date": "2027-03-01 — 2027-03-03",
+      "location": "Berlin, Germany",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Published early-registration deadline: 2026-08-23",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial conference covering AI, machine learning, data science and automation. The registration page labels 23 August 2026 as early registration, while the homepage still promotes it; current rates and the specific venue need confirmation. Academic affiliations are organizer statements.",
+      "sources": [
+        "https://innovatexconference.com/artificialintelligence/",
+        "https://innovatexconference.com/artificialintelligence/registration/"
+      ],
+      "url": "https://innovatexconference.com/artificialintelligence/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "innovatex-ai-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-03-01",
+          "time": null,
+          "timezone": null,
+          "source": "https://innovatexconference.com/artificialintelligence/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "innovatex-ai-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-03",
+          "time": null,
+          "timezone": null,
+          "source": "https://innovatexconference.com/artificialintelligence/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "innovatex-ai-2027:early-registration-2",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Published early-registration deadline",
+          "date": "2026-08-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://innovatexconference.com/artificialintelligence/registration/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "innovatex-ai-2027:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://innovatexconference.com/artificialintelligence/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "innovatex-ai-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://innovatexconference.com/artificialintelligence/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Innovatex Conferences",
+            "role": "Organizer listed on the conference website",
+            "source": "https://innovatexconference.com/artificialintelligence/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://innovatexconference.com/artificialintelligence/",
+          "https://innovatexconference.com/artificialintelligence/registration/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-141d67a9e4ff5883e109"
+      ]
+    },
+    {
+      "id": "aiml-2027-urf",
+      "name": "AIML 2027 — 7th International Conference on Artificial Intelligence and Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-11-18",
+      "end": "2027-11-19",
+      "date": "2027-11-18 — 2027-11-19",
+      "location": "Florence, Italy",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "First-round abstracts: 2026-11-03; Early-bird registration: 2026-11-03",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial AI and machine learning conference. The homepage publishes the first-round cutoffs, while the Important Dates abstract/registration fields are blank. Later rounds, the exact venue and published academic affiliations remain unconfirmed.",
+      "sources": [
+        "https://artificialintelligence-forum.com/",
+        "https://artificialintelligence-forum.com/important-dates.php"
+      ],
+      "url": "https://artificialintelligence-forum.com/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "aiml-2027-urf:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-11-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence-forum.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aiml-2027-urf:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-11-19",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence-forum.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aiml-2027-urf:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "First-round abstracts",
+          "date": "2026-11-03",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence-forum.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aiml-2027-urf:early-registration-3",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-03",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence-forum.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aiml-2027-urf:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://artificialintelligence-forum.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "United Research Forum",
+            "role": "Organizer listed on the conference website",
+            "source": "https://artificialintelligence-forum.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://artificialintelligence-forum.com/",
+          "https://artificialintelligence-forum.com/important-dates.php"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-8104b928f2e827af0565"
+      ]
+    },
+    {
+      "id": "artificial-intelligence-2027-noveltics",
+      "name": "Artificial Intelligence 2027 — 3rd International Conference on Artificial Intelligence and Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-10-18",
+      "end": "2027-10-19",
+      "date": "2027-10-18 — 2027-10-19",
+      "location": "Barcelona, Spain",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Early-bird registration: 2026-11-23; Regular registration fee cutoff: 2027-01-25; On-site registration date: 2027-10-18",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial conference on AI, machine learning and data science. The final abstract deadline and specific venue were not verified; announced academic participants are organizer statements.",
+      "sources": [
+        "https://artificialintelligence.novelticsconferences.com/",
+        "https://artificialintelligence.novelticsconferences.com/register"
+      ],
+      "url": "https://artificialintelligence.novelticsconferences.com/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "artificial-intelligence-2027-noveltics:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-10-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.novelticsconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "artificial-intelligence-2027-noveltics:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-10-19",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.novelticsconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "artificial-intelligence-2027-noveltics:early-registration-2",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.novelticsconferences.com/register",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "artificial-intelligence-2027-noveltics:other-3",
+          "version": 1,
+          "kind": "other",
+          "label": "Regular registration fee cutoff",
+          "date": "2027-01-25",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.novelticsconferences.com/register",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "artificial-intelligence-2027-noveltics:other-4",
+          "version": 1,
+          "kind": "other",
+          "label": "On-site registration date",
+          "date": "2027-10-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.novelticsconferences.com/register",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "artificial-intelligence-2027-noveltics:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://artificialintelligence.novelticsconferences.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "artificial-intelligence-2027-noveltics:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://artificialintelligence.novelticsconferences.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Noveltics Group LLC",
+            "role": "Organizer listed on the conference website",
+            "source": "https://artificialintelligence.novelticsconferences.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://artificialintelligence.novelticsconferences.com/",
+          "https://artificialintelligence.novelticsconferences.com/register"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-186157f04294abd715c4"
+      ]
+    },
+    {
+      "id": "physical-theoretical-chemistry-2027",
+      "name": "14th World Congress on Physical and Theoretical Chemistry 2027",
+      "tags": [
+        "Computational Chemistry",
+        "Theoretical Chemistry",
+        "Molecular Dynamics"
+      ],
+      "start": "2027-01-27",
+      "end": "2027-01-28",
+      "date": "2027-01-27 — 2027-01-28",
+      "location": "Paris, France",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "No submission or registration cutoff verified.",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial Physical and Theoretical Chemistry congress, including molecular dynamics and digital chemistry. Topic pages are sessions within this congress, not separate conferences. The specific venue, full current-edition programme and closing dates were not verified.",
+      "sources": [
+        "https://physical-theoreticalchemistry.annualcongress.com/"
+      ],
+      "url": "https://physical-theoreticalchemistry.annualcongress.com/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "physical-theoretical-chemistry-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-01-27",
+          "time": null,
+          "timezone": null,
+          "source": "https://physical-theoreticalchemistry.annualcongress.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "physical-theoretical-chemistry-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-01-28",
+          "time": null,
+          "timezone": null,
+          "source": "https://physical-theoreticalchemistry.annualcongress.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "physical-theoretical-chemistry-2027:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://physical-theoreticalchemistry.annualcongress.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "physical-theoretical-chemistry-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://physical-theoreticalchemistry.annualcongress.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Conference Series",
+            "role": "Organizer listed on the conference website",
+            "source": "https://physical-theoreticalchemistry.annualcongress.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://physical-theoreticalchemistry.annualcongress.com/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-21c17745142e252f46fe",
+        "web-e1461f6e5bb4dbe225cb"
+      ]
+    },
+    {
+      "id": "mlsys-2027",
+      "name": "MLSys 2027 — 10th Conference on Machine Learning and Systems",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-06-21",
+      "end": "2027-06-25",
+      "date": "2027-06-21 — 2027-06-25",
+      "location": "Bellevue, Washington, USA",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Research paper submission: 2026-10-30 21:00 UTC",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Machine learning systems, training and inference, agents and scientific-computing infrastructure. Research and industrial tracks have distinct requirements. The research call is at CallForResearchPapers; CallForPapers is a placeholder. Registration opening and its closing date were not verified.",
+      "sources": [
+        "https://mlsys.org/",
+        "https://mlsys.org/Conferences/2027/CallForResearchPapers"
+      ],
+      "url": "https://mlsys.org/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "mlsys-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-06-21",
+          "time": null,
+          "timezone": null,
+          "source": "https://mlsys.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "mlsys-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-25",
+          "time": null,
+          "timezone": null,
+          "source": "https://mlsys.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "mlsys-2027:paper-2",
+          "version": 1,
+          "kind": "paper",
+          "label": "Research paper submission",
+          "date": "2026-10-30",
+          "time": "21:00",
+          "timezone": "UTC",
+          "source": "https://mlsys.org/Conferences/2027/CallForResearchPapers",
+          "precision": "datetime",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+        },
+        {
+          "id": "mlsys-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://mlsys.org/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "MLSys",
+            "role": "Organizer listed on the conference website",
+            "source": "https://mlsys.org/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://mlsys.org/",
+          "https://mlsys.org/Conferences/2027/CallForResearchPapers"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-a1198279abf03d2c2090"
+      ]
+    },
+    {
+      "id": "agsaiml-2027",
+      "name": "AGSAIML 2027 — Annual Global Summit on Artificial Intelligence and Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "AI for Materials",
+        "AI for Chemistry"
+      ],
+      "start": "2027-03-08",
+      "end": "2027-03-10",
+      "date": "2027-03-08 — 2027-03-10",
+      "location": "Barcelona, Spain",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Abstract submission: 2026-11-30; Published early-bird deadline: 2026-06-25",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial AI and machine learning summit with materials/manufacturing and drug-discovery applications. The unusually early published early-bird deadline has passed and is not evidence of a current discount. Specific venue and academic roster remain unconfirmed.",
+      "sources": [
+        "https://vividglobalsummits.com/2027/artificial-intelligence"
+      ],
+      "url": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "agsaiml-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-03-08",
+          "time": null,
+          "timezone": null,
+          "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "agsaiml-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-10",
+          "time": null,
+          "timezone": null,
+          "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "agsaiml-2027:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Abstract submission",
+          "date": "2026-11-30",
+          "time": null,
+          "timezone": null,
+          "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "agsaiml-2027:early-registration-3",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Published early-bird deadline",
+          "date": "2026-06-25",
+          "time": null,
+          "timezone": null,
+          "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "agsaiml-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Vivid Global Summits",
+            "role": "Organizer listed on the conference website",
+            "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://vividglobalsummits.com/2027/artificial-intelligence"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-d5d5adefc49ccd14b399"
+      ]
+    },
+    {
+      "id": "ai-ml-2027-cognition",
+      "name": "Cognition Conferences — 2nd International Conference on Artificial Intelligence & Machine Learning 2027",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-05-17",
+      "end": "2027-05-19",
+      "date": "2027-05-17 — 2027-05-19",
+      "location": "Tokyo, Japan",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Published early-bird registration deadline: 2026-11-24",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial AI and machine learning conference. The registration page marks future rounds Expired/Not Active, so platform availability remains unconfirmed. This does not establish cancellation of the meeting. The final abstract cutoff, venue and roster were not independently verified.",
+      "sources": [
+        "https://cognitionconferences.com/artificialintelligence/",
+        "https://cognitionconferences.com/artificialintelligence/registration/"
+      ],
+      "url": "https://cognitionconferences.com/artificialintelligence/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "ai-ml-2027-cognition:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-05-17",
+          "time": null,
+          "timezone": null,
+          "source": "https://cognitionconferences.com/artificialintelligence/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ai-ml-2027-cognition:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-05-19",
+          "time": null,
+          "timezone": null,
+          "source": "https://cognitionconferences.com/artificialintelligence/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ai-ml-2027-cognition:early-registration-2",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Published early-bird registration deadline",
+          "date": "2026-11-24",
+          "time": null,
+          "timezone": null,
+          "source": "https://cognitionconferences.com/artificialintelligence/registration/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ai-ml-2027-cognition:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://cognitionconferences.com/artificialintelligence/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "ai-ml-2027-cognition:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://cognitionconferences.com/artificialintelligence/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Cognition Conferences",
+            "role": "Organizer listed on the conference website",
+            "source": "https://cognitionconferences.com/artificialintelligence/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://cognitionconferences.com/artificialintelligence/",
+          "https://cognitionconferences.com/artificialintelligence/registration/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-c7591c01d3b6b7389500"
+      ]
+    },
+    {
+      "id": "materials-science-2027-src",
+      "name": "SRC Materials Science 2027 — Advanced Materials, Nanotechnology & Structural Composites",
+      "tags": [
+        "General Materials"
+      ],
+      "start": "2027-09-14",
+      "end": "2027-09-15",
+      "date": "2027-09-14 — 2027-09-15",
+      "location": "Tokyo, Japan / Hybrid",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Early-bird registration: 2027-01-10; Midterm registration fee cutoff: 2027-05-10; Final / on-site registration deadline: 2027-09-15",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Independently operated commercial conference on advanced materials, nanotechnology and structural composites. Only Tokyo is confirmed as the venue location. The abstract deadline, academic affiliations and CPD claims have not been independently verified.",
+      "sources": [
+        "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites"
+      ],
+      "url": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "materials-science-2027-src:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-09-14",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-2027-src:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-15",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-2027-src:early-registration-2",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2027-01-10",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-2027-src:other-3",
+          "version": 1,
+          "kind": "other",
+          "label": "Midterm registration fee cutoff",
+          "date": "2027-05-10",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-2027-src:registration-4",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final / on-site registration deadline",
+          "date": "2027-09-15",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-2027-src:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Scientific Research Conferences",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-80c8b942e8c35ccc2f1e"
+      ]
+    },
+    {
+      "id": "chemistry-world-conference-2027",
+      "name": "Chemistry World Conference 2027 — 7th Edition",
+      "tags": [
+        "Computational Chemistry"
+      ],
+      "start": "2027-06-21",
+      "end": "2027-06-23",
+      "date": "2027-06-21 — 2027-06-23",
+      "location": "NH Villa Carpegna, Rome, Italy / Hybrid",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "First-round abstracts: 2026-11-16; Second-round abstracts: 2026-12-23; Final abstracts: 2027-06-10; Early-bird registration: 2026-11-17; Midterm registration fee cutoff: 2026-12-25; On-site registration date: 2027-06-21",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial chemistry congress; theoretical and computational chemistry are sessions within the main meeting. Select sessions for research relevance. Published academic rosters are organizer statements.",
+      "sources": [
+        "https://chemistryworldconference.com/program/scientific-sessions/theoretical-computational-chemistry",
+        "https://chemistryworldconference.com/information/important-dates"
+      ],
+      "url": "https://chemistryworldconference.com/information/important-dates",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "chemistry-world-conference-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-06-21",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "First-round abstracts",
+          "date": "2026-11-16",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:abstract-3",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Second-round abstracts",
+          "date": "2026-12-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:abstract-4",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Final abstracts",
+          "date": "2027-06-10",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:early-registration-5",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-17",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:other-6",
+          "version": 1,
+          "kind": "other",
+          "label": "Midterm registration fee cutoff",
+          "date": "2026-12-25",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:other-7",
+          "version": 1,
+          "kind": "other",
+          "label": "On-site registration date",
+          "date": "2027-06-21",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-world-conference-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://chemistryworldconference.com/information/important-dates",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Magnus Group LLC",
+            "role": "Organizer listed on the conference website",
+            "source": "https://chemistryworldconference.com/information/important-dates"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://chemistryworldconference.com/program/scientific-sessions/theoretical-computational-chemistry",
+          "https://chemistryworldconference.com/information/important-dates"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-734562f82673ef618004"
+      ]
+    },
+    {
+      "id": "ai-machine-learning-2027-conference-series",
+      "name": "8th International Congress on AI and Machine Learning 2027",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-03-22",
+      "end": "2027-03-23",
+      "date": "2027-03-22 — 2027-03-23",
+      "location": "Rome, Italy / Hybrid",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "No submission or registration cutoff verified.",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial congress on human-centred AI and machine learning. The fee table lists 22 November 2026 and 22 January 2027, but the column-to-rate mapping was not verified. These are not schedulable cutoffs. The final abstract deadline and specific venue remain unconfirmed.",
+      "sources": [
+        "https://artificialintelligence.conferenceseries.com/",
+        "https://artificialintelligence.conferenceseries.com/registration.php"
+      ],
+      "url": "https://artificialintelligence.conferenceseries.com/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "ai-machine-learning-2027-conference-series:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-03-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.conferenceseries.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ai-machine-learning-2027-conference-series:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://artificialintelligence.conferenceseries.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ai-machine-learning-2027-conference-series:registration-2",
+          "version": 1,
+          "kind": "registration",
+          "label": "Registration fee dates — labels unconfirmed",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "candidates": [
+            "2026-11-22",
+            "2027-01-22"
+          ],
+          "evidence": "Dates are printed in the fee table, but their column labels have not been verified. Do not interpret either as a final registration cutoff.",
+          "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+          "precision": "unknown",
+          "status": "conflict"
+        },
+        {
+          "id": "ai-machine-learning-2027-conference-series:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://artificialintelligence.conferenceseries.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Conference Series",
+            "role": "Organizer listed on the conference website",
+            "source": "https://artificialintelligence.conferenceseries.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://artificialintelligence.conferenceseries.com/",
+          "https://artificialintelligence.conferenceseries.com/registration.php"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-0383dfcb8aba4f6e7520"
+      ]
+    },
+    {
+      "id": "wcamd-2027",
+      "name": "WCAMD 2027 — World Conference on Artificial Intelligence, Machine Learning and Data Science",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-08-23",
+      "end": "2027-08-25",
+      "date": "2027-08-23 — 2027-08-25",
+      "location": "Berlin, Germany",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "First-round abstracts: 2026-11-02; Pre-early-bird registration: 2026-11-03",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial AI, machine learning and data science conference. The specific venue, full programme and institutional partnerships listed by the organizer remain unconfirmed.",
+      "sources": [
+        "https://www.machinelearning.theiconicmeetings.com/"
+      ],
+      "url": "https://www.machinelearning.theiconicmeetings.com/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "wcamd-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-08-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.machinelearning.theiconicmeetings.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "wcamd-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-08-25",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.machinelearning.theiconicmeetings.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "wcamd-2027:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "First-round abstracts",
+          "date": "2026-11-02",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.machinelearning.theiconicmeetings.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "wcamd-2027:early-registration-3",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Pre-early-bird registration",
+          "date": "2026-11-03",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.machinelearning.theiconicmeetings.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "wcamd-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://www.machinelearning.theiconicmeetings.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "The Iconic Meetings",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.machinelearning.theiconicmeetings.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.machinelearning.theiconicmeetings.com/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-2fe128a08d4344bb7c17"
+      ]
+    },
+    {
+      "id": "materials-science-engineering-2027-coalesce",
+      "name": "16th International Conference on Materials Science & Engineering 2027",
+      "tags": [
+        "General Materials"
+      ],
+      "start": "2027-04-29",
+      "end": "2027-04-30",
+      "date": "2027-04-29 — 2027-04-30",
+      "location": "Paris, France",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Abstract submission: 2026-11-17; Early-bird registration: 2026-11-19",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial materials science and engineering conference. This is distinct from Magnus Materials 2027 and SRC Materials Science 2027. The specific venue and academic roster have not been independently confirmed.",
+      "sources": [
+        "https://materialscienceconferences.com/"
+      ],
+      "url": "https://materialscienceconferences.com/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "materials-science-engineering-2027-coalesce:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-04-29",
+          "time": null,
+          "timezone": null,
+          "source": "https://materialscienceconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-engineering-2027-coalesce:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-04-30",
+          "time": null,
+          "timezone": null,
+          "source": "https://materialscienceconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-engineering-2027-coalesce:abstract-2",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Abstract submission",
+          "date": "2026-11-17",
+          "time": null,
+          "timezone": null,
+          "source": "https://materialscienceconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-engineering-2027-coalesce:early-registration-3",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-19",
+          "time": null,
+          "timezone": null,
+          "source": "https://materialscienceconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "materials-science-engineering-2027-coalesce:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://materialscienceconferences.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Coalesce Research Group",
+            "role": "Organizer listed on the conference website",
+            "source": "https://materialscienceconferences.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://materialscienceconferences.com/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-691ae2e1a9ca08b650aa"
+      ]
+    },
+    {
+      "id": "ieee-ssci-2027",
+      "name": "IEEE SSCI 2027 — Symposium Series on Computational Intelligence",
+      "tags": [
+        "AI",
+        "Intelligent Computing"
+      ],
+      "start": "2027-02-14",
+      "end": "2027-02-17",
+      "date": "2027-02-14 — 2027-02-17",
+      "location": "Gold Coast, Queensland, Australia",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Extended main-track paper deadline: 2026-09-10; Late-breaking / poster-only / journal-to-conference submissions: 2026-11-01",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "IEEE computational-intelligence symposium series. The homepage offers limited remote presentations; this does not establish full online access. The camera-ready dates conflict between homepage and CFP. Registration closing dates were not verified.",
+      "sources": [
+        "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
+        "https://attend.ieee.org/ssci-2027/"
+      ],
+      "url": "https://attend.ieee.org/ssci-2027/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "ieee-ssci-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-02-14",
+          "time": null,
+          "timezone": null,
+          "source": "https://attend.ieee.org/ssci-2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-ssci-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-02-17",
+          "time": null,
+          "timezone": null,
+          "source": "https://attend.ieee.org/ssci-2027/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-ssci-2027:paper-2",
+          "version": 1,
+          "kind": "paper",
+          "label": "Extended main-track paper deadline",
+          "date": "2026-09-10",
+          "time": null,
+          "timezone": null,
+          "source": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-ssci-2027:paper-3",
+          "version": 1,
+          "kind": "paper",
+          "label": "Late-breaking / poster-only / journal-to-conference submissions",
+          "date": "2026-11-01",
+          "time": null,
+          "timezone": null,
+          "source": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-ssci-2027:other-4",
+          "version": 1,
+          "kind": "other",
+          "label": "Camera-ready deadline — conflicting official dates",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "candidates": [
+            "2026-11-10",
+            "2026-11-17"
+          ],
+          "evidence": "The CFP lists 10 November, while the homepage lists 17 November 2026. The earlier main-track paper date of 10 August was extended to 10 September.",
+          "source": "https://attend.ieee.org/ssci-2027/",
+          "precision": "unknown",
+          "status": "conflict"
+        },
+        {
+          "id": "ieee-ssci-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://attend.ieee.org/ssci-2027/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "IEEE Symposium Series on Computational Intelligence",
+            "role": "Organizer listed on the conference website",
+            "source": "https://attend.ieee.org/ssci-2027/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
+          "https://attend.ieee.org/ssci-2027/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-057f547d2647086edcab"
+      ]
+    },
+    {
+      "id": "aias-plus-2026",
+      "name": "AIAS⁺ 2026 — Chen Institute Symposium for AI Advancing Science and Society",
+      "tags": [
+        "AI for Science",
+        "AI for Chemistry",
+        "Simulation",
+        "Automation"
+      ],
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "date": "2026-11-05 — 2026-11-07",
+      "location": "San Francisco, California, USA",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "No submission or registration cutoff verified.",
+      "status": "Online advance registration is required, including during the meeting; no final registration cutoff was verified.",
+      "note": "AI for scientific discovery, simulation, laboratory automation, chemistry and physics. The workshop call confirms the main symposium dates. Dynamic CFP sections did not expose a verifiable submission deadline. The registration page requires online advance registration before attending.",
+      "sources": [
+        "https://www.aiasplus.org/call-for-papers",
+        "https://www.aiasplus.org/event-registration",
+        "https://www.aiasplus.org/call-for-workshops"
+      ],
+      "url": "https://www.aiasplus.org/call-for-workshops",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "aias-plus-2026:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2026-11-05",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.aiasplus.org/call-for-workshops",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aias-plus-2026:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-11-07",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.aiasplus.org/call-for-workshops",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "aias-plus-2026:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://www.aiasplus.org/call-for-workshops",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "aias-plus-2026:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://www.aiasplus.org/call-for-workshops",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Tianqiao and Chrissy Chen Institute",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.aiasplus.org/call-for-workshops"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.aiasplus.org/call-for-papers",
+          "https://www.aiasplus.org/event-registration",
+          "https://www.aiasplus.org/call-for-workshops"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-55546ff02251c9d5cde3"
+      ]
+    },
+    {
+      "id": "ai-drug-discovery-development-2027",
+      "name": "AI Drug Discovery & Development Summit 2027",
+      "tags": [
+        "AI for Chemistry",
+        "Cheminformatics",
+        "Automation"
+      ],
+      "start": "2027-12-06",
+      "end": "2027-12-08",
+      "date": "2027-12-06 — 2027-12-08",
+      "location": "Encore Boston Harbor, Boston, USA",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "No submission or registration cutoff verified.",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial AI drug-discovery and development summit. The organizer lists UK company number 09316521. This entry uses the announced 2027 edition; the retained 2026 speaker list and 27–29 October 2026 meeting are not transferred to 2027. Current-edition speakers and deadlines are not yet verified.",
+      "sources": [
+        "https://www.aidrivendrugdevelopment.com/"
+      ],
+      "url": "https://www.aidrivendrugdevelopment.com/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "ai-drug-discovery-development-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-12-06",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.aidrivendrugdevelopment.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ai-drug-discovery-development-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-12-08",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.aidrivendrugdevelopment.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ai-drug-discovery-development-2027:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://www.aidrivendrugdevelopment.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "ai-drug-discovery-development-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://www.aidrivendrugdevelopment.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Kisaco Research",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.aidrivendrugdevelopment.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.aidrivendrugdevelopment.com/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-fb70a77abc8311ae2955"
+      ]
+    },
+    {
+      "id": "ieee-icc-2027",
+      "name": "IEEE ICC 2027 — International Conference on Communications",
+      "tags": [
+        "AI",
+        "Machine Learning"
+      ],
+      "start": "2027-05-30",
+      "end": "2027-06-03",
+      "date": "2027-05-30 — 2027-06-03",
+      "location": "Washington, DC, USA",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Symposium paper submission: 2026-10-30; Final paper: 2027-02-19",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "AI and machine learning for communications and networks. Adjacent research relevance; less directly related to materials or molecular simulation. Registration deadlines and precise submission cutoff times were not verified.",
+      "sources": [
+        "https://icc2027.ieee-icc.org/authors/call-symposium-papers"
+      ],
+      "url": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "ieee-icc-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-05-30",
+          "time": null,
+          "timezone": null,
+          "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-icc-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-06-03",
+          "time": null,
+          "timezone": null,
+          "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-icc-2027:paper-2",
+          "version": 1,
+          "kind": "paper",
+          "label": "Symposium paper submission",
+          "date": "2026-10-30",
+          "time": null,
+          "timezone": null,
+          "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-icc-2027:other-3",
+          "version": 1,
+          "kind": "other",
+          "label": "Final paper",
+          "date": "2027-02-19",
+          "time": null,
+          "timezone": null,
+          "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "ieee-icc-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "IEEE Communications Society",
+            "role": "Organizer listed on the conference website",
+            "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://icc2027.ieee-icc.org/authors/call-symposium-papers"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-c93c99f4838824e96963"
+      ]
+    },
+    {
+      "id": "chemistry-meeting-2027-conference-series",
+      "name": "17th International Conference on Chemistry 2027",
+      "tags": [
+        "Computational Chemistry",
+        "AI for Chemistry"
+      ],
+      "start": "2027-02-25",
+      "end": "2027-02-26",
+      "date": "2027-02-25 — 2027-02-26",
+      "location": "Paris, France",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "No submission or registration cutoff verified.",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial chemistry conference including a computational chemistry and AI session. The session is not a separate event. The specific venue, abstract/registration cutoffs and academic roster remain unconfirmed.",
+      "sources": [
+        "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
+        "https://chemistrymeeting.chemistryconferences.org/"
+      ],
+      "url": "https://chemistrymeeting.chemistryconferences.org/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "chemistry-meeting-2027-conference-series:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-02-25",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistrymeeting.chemistryconferences.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-meeting-2027-conference-series:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-02-26",
+          "time": null,
+          "timezone": null,
+          "source": "https://chemistrymeeting.chemistryconferences.org/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "chemistry-meeting-2027-conference-series:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://chemistrymeeting.chemistryconferences.org/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "chemistry-meeting-2027-conference-series:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://chemistrymeeting.chemistryconferences.org/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Conference Series",
+            "role": "Organizer listed on the conference website",
+            "source": "https://chemistrymeeting.chemistryconferences.org/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
+          "https://chemistrymeeting.chemistryconferences.org/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-800503c17cd056b758b9"
+      ]
+    },
+    {
+      "id": "material-science-engineering-2027-conference-series",
+      "name": "9th Global Summit on Material Science and Engineering 2027",
+      "tags": [
+        "General Materials",
+        "AI for Materials",
+        "Simulation"
+      ],
+      "start": "2027-09-13",
+      "end": "2027-09-14",
+      "date": "2027-09-13 — 2027-09-14",
+      "location": "Rome, Italy",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "No submission or registration cutoff verified.",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial material science and engineering congress including computational materials and AI. The topic page is not a separate meeting. Specific venue, abstract/registration deadlines and claimed institutional relationships remain unconfirmed.",
+      "sources": [
+        "https://materialsscience.conferenceseries.com/events-list/computational-materials-science-and-ai",
+        "https://materialsscience.conferenceseries.com/"
+      ],
+      "url": "https://materialsscience.conferenceseries.com/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "material-science-engineering-2027-conference-series:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-09-13",
+          "time": null,
+          "timezone": null,
+          "source": "https://materialsscience.conferenceseries.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "material-science-engineering-2027-conference-series:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-14",
+          "time": null,
+          "timezone": null,
+          "source": "https://materialsscience.conferenceseries.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "material-science-engineering-2027-conference-series:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://materialsscience.conferenceseries.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "material-science-engineering-2027-conference-series:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://materialsscience.conferenceseries.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Conference Series",
+            "role": "Organizer listed on the conference website",
+            "source": "https://materialsscience.conferenceseries.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://materialsscience.conferenceseries.com/events-list/computational-materials-science-and-ai",
+          "https://materialsscience.conferenceseries.com/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-d153486281b0f944417b"
+      ]
+    },
+    {
+      "id": "advanced-materials-world-congress-2027",
+      "name": "9th Advanced Materials Science World Congress 2027",
+      "tags": [
+        "General Materials"
+      ],
+      "start": "2027-03-22",
+      "end": "2027-03-23",
+      "date": "2027-03-22 — 2027-03-23",
+      "location": "Vienna, Austria",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Early-bird registration: 2026-11-13; Regular registration fee cutoff: 2026-12-30; On-site registration date: 2027-03-22",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial materials science congress. Current body text gives Vienna, while the registration SEO title still mentions Finland; the specific venue is unconfirmed. Marketing rankings are not academic-quality evidence. Final abstract deadline and academic affiliations remain unverified.",
+      "sources": [
+        "https://www.materialsscienceconference.com/",
+        "https://www.materialsscienceconference.com/registration"
+      ],
+      "url": "https://www.materialsscienceconference.com/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "advanced-materials-world-congress-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-03-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.materialsscienceconference.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-materials-world-congress-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-23",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.materialsscienceconference.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-materials-world-congress-2027:early-registration-2",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-13",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.materialsscienceconference.com/registration",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-materials-world-congress-2027:other-3",
+          "version": 1,
+          "kind": "other",
+          "label": "Regular registration fee cutoff",
+          "date": "2026-12-30",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.materialsscienceconference.com/registration",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-materials-world-congress-2027:other-4",
+          "version": 1,
+          "kind": "other",
+          "label": "On-site registration date",
+          "date": "2027-03-22",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.materialsscienceconference.com/registration",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-materials-world-congress-2027:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://www.materialsscienceconference.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "advanced-materials-world-congress-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://www.materialsscienceconference.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Peers Alley Conferences",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.materialsscienceconference.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.materialsscienceconference.com/",
+          "https://www.materialsscienceconference.com/registration"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-c848fa0c0973e23a6c89"
+      ]
+    },
+    {
+      "id": "advanced-chemistry-world-congress-2027",
+      "name": "8th Advanced Chemistry World Congress 2027",
+      "tags": [
+        "Materials Chemistry"
+      ],
+      "start": "2027-03-18",
+      "end": "2027-03-19",
+      "date": "2027-03-18 — 2027-03-19",
+      "location": "Vienna, Austria",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "Early-bird registration: 2026-11-18; Regular registration fee cutoff: 2027-01-18; On-site registration date: 2027-03-18",
+      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "note": "Commercial chemistry congress with broad chemistry and materials relevance. Current body text gives Vienna, while the registration SEO title still mentions Finland; the specific venue is unconfirmed. This is distinct from the Advanced Materials Science congress. Abstract deadlines and academic affiliations remain unverified.",
+      "sources": [
+        "https://www.chemistryconferences.com/",
+        "https://www.chemistryconferences.com/registration"
+      ],
+      "url": "https://www.chemistryconferences.com/",
+      "priority": 1,
+      "verified_on": "2026-11-03",
+      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Official evidence reviewed on 3 November 2026; automated source-monitoring baseline not yet established for this new entry."
+      },
+      "milestones": [
+        {
+          "id": "advanced-chemistry-world-congress-2027:conference-start",
+          "version": 1,
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-03-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.chemistryconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-chemistry-world-congress-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-03-19",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.chemistryconferences.com/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-chemistry-world-congress-2027:early-registration-2",
+          "version": 1,
+          "kind": "early_registration",
+          "label": "Early-bird registration",
+          "date": "2026-11-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.chemistryconferences.com/registration",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-chemistry-world-congress-2027:other-3",
+          "version": 1,
+          "kind": "other",
+          "label": "Regular registration fee cutoff",
+          "date": "2027-01-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.chemistryconferences.com/registration",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-chemistry-world-congress-2027:other-4",
+          "version": 1,
+          "kind": "other",
+          "label": "On-site registration date",
+          "date": "2027-03-18",
+          "time": null,
+          "timezone": null,
+          "source": "https://www.chemistryconferences.com/registration",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "advanced-chemistry-world-congress-2027:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Submission deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No submission cutoff was verified in the reviewed current-edition sources.",
+          "source": "https://www.chemistryconferences.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "advanced-chemistry-world-congress-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Final registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
+          "source": "https://www.chemistryconferences.com/",
+          "precision": "unknown",
+          "status": "unknown"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Peers Alley Conferences",
+            "role": "Organizer listed on the conference website",
+            "source": "https://www.chemistryconferences.com/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://www.chemistryconferences.com/",
+          "https://www.chemistryconferences.com/registration"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-83aed8d8ad084f172578"
+      ]
+    },
+    {
+      "id": "icml-2027",
+      "name": "ICML 2027",
+      "tags": [
+        "AI"
+      ],
+      "start": "2027-07-31",
+      "end": "2027-08-06",
+      "date": "2027-07-31 — 2027-08-06",
+      "location": "Riocentro, Rio de Janeiro, Brazil",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "No current-edition submission or registration cutoff verified. Do not use third-party estimates.",
+      "status": "Conference dates and venue announced; call for papers and registration deadlines not yet announced in the reviewed homepage.",
+      "note": "Watch for general ML methods and AI-for-Science workshops. Use icml.cc to avoid unrelated conferences with the same acronym.",
+      "sources": [
+        "https://icml.cc/",
+        "https://icml.cc/Conferences/FutureMeetings"
+      ],
+      "url": "https://icml.cc/",
+      "priority": 2,
+      "verified_on": "2026-11-03",
+      "evidence": "Official homepage reviewed on 3 November 2026: Expo 31 July; tutorials 1 August; main conference 2–4 August; workshops 5–6 August.",
+      "check": {
+        "status": "review_required",
+        "last_checked_at": "2026-11-02T07:42:43Z",
+        "last_verified_at": "2026-11-03T00:39:14Z",
+        "message": "Current-edition dates and venue verified from the homepage on 3 November 2026. The prior FutureMeetings source fingerprint review remains outstanding; it was not cleared by this application."
+      },
+      "milestones": [
+        {
+          "id": "icml-2027:conference-start",
+          "version": 2,
+          "kind": "conference_start",
+          "label": "Conference week starts",
+          "date": "2027-07-31",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icml-2027:conference-end",
+          "version": 1,
+          "kind": "conference_end",
+          "label": "Conference week ends",
+          "date": "2027-08-06",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icml-2027:paper",
+          "version": 2,
+          "kind": "paper",
+          "label": "Paper submissions",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "The reviewed homepage says the call for papers is forthcoming.",
+          "source": "https://icml.cc/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "icml-2027:registration",
+          "version": 1,
+          "kind": "registration",
+          "label": "Registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "evidence": "No registration closing date was verified.",
+          "source": "https://icml.cc/",
+          "precision": "unknown",
+          "status": "unknown"
+        },
+        {
+          "id": "icml-2027:expo",
+          "version": 1,
+          "kind": "other",
+          "label": "Expo",
+          "date": "2027-07-31",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icml-2027:tutorials",
+          "version": 1,
+          "kind": "other",
+          "label": "Tutorials",
+          "date": "2027-08-01",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icml-2027:main-start",
+          "version": 1,
+          "kind": "other",
+          "label": "Main conference starts",
+          "date": "2027-08-02",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icml-2027:main-end",
+          "version": 1,
+          "kind": "other",
+          "label": "Main conference ends",
+          "date": "2027-08-04",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icml-2027:workshops-start",
+          "version": 1,
+          "kind": "other",
+          "label": "Workshops start",
+          "date": "2027-08-05",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        },
+        {
+          "id": "icml-2027:workshops-end",
+          "version": 1,
+          "kind": "other",
+          "label": "Workshops end",
+          "date": "2027-08-06",
+          "time": null,
+          "timezone": null,
+          "source": "https://icml.cc/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+        }
+      ],
+      "people": {
+        "organizers": [],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "unavailable",
+        "note": "No current-edition committee or speaker roster was verified in this candidate review. The homepage confirms dates and venue; older rosters were not transferred.",
+        "sources": [
+          "https://icml.cc/Conferences/FutureMeetings",
+          "https://icml.cc/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-fc4bd523b7c5fd4fde0f"
+      ]
     }
   ],
   "watchlist": [
@@ -20943,75 +24249,6 @@
             "outcome": "alternative",
             "final_source": "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/"
           }
-        ]
-      }
-    },
-    {
-      "id": "icml-2027",
-      "name": "ICML 2027 (details pending)",
-      "tags": [
-        "AI"
-      ],
-      "start": null,
-      "end": null,
-      "date": "Dates to be announced",
-      "location": "South America — the official future-meetings page gives no more specific location",
-      "region": "Other",
-      "type": "Conference",
-      "deadline": "Dates and deadlines not yet published; do not extrapolate from previous years.",
-      "status": "Future edition listed, with detailed dates and location pending.",
-      "note": "Watch for general ML methods and AI-for-Science workshops. Use icml.cc to avoid unrelated conferences with the same acronym.",
-      "sources": [
-        "https://icml.cc/Conferences/FutureMeetings"
-      ],
-      "url": "https://icml.cc/Conferences/FutureMeetings",
-      "priority": 2,
-      "verified_on": "2026-10-27",
-      "evidence": "",
-      "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-02T07:42:43Z",
-        "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://icml.cc/Conferences/FutureMeetings: Source fingerprint upgraded to include previously ignored clock times; review the current published dates and exact times before clearing this flag."
-      },
-      "milestones": [
-        {
-          "kind": "conference_start",
-          "label": "Activity starts",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "id": "icml-2027:conference-start",
-          "version": 1,
-          "source": "https://icml.cc/Conferences/FutureMeetings",
-          "precision": "unknown",
-          "status": "unknown",
-          "evidence": "No exact date was verified in the linked source."
-        },
-        {
-          "kind": "paper",
-          "label": "Paper submissions",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "id": "icml-2027:paper",
-          "version": 1,
-          "source": "https://icml.cc/Conferences/FutureMeetings",
-          "precision": "unknown",
-          "status": "unknown",
-          "evidence": "No exact date was verified in the linked source."
-        }
-      ],
-      "people": {
-        "organizers": [],
-        "committee": [],
-        "speakers": [],
-        "participants": [],
-        "checked_on": "2026-10-28",
-        "status": "unavailable",
-        "note": "The official future-meetings page lists only the 2027 region. Current-edition organisers, committee members and speakers were not found in the reviewed source.",
-        "sources": [
-          "https://icml.cc/Conferences/FutureMeetings"
         ]
       }
     },
@@ -21579,6 +24816,214 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "date-2027",
+      "event_name": "DATE 2027 — Design, Automation and Test in Europe",
+      "field": "candidate_review_added",
+      "source": "https://www.date-conference.com/call-for-papers",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "aim-2027-usg",
+      "event_name": "AIM 2027 — 4th International Conference on Artificial Intelligence and Machine Learning",
+      "field": "candidate_review_added",
+      "source": "https://artificialintelligence.unitedscientificgroup.org/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "icfmce-2027",
+      "event_name": "ICFMCE 2027 — 9th International Conference on Functional Materials and Chemical Engineering",
+      "field": "candidate_review_added",
+      "source": "https://www.icfmce.org/Chinese.html",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "aiche-annual-meeting-2026",
+      "event_name": "AIChE Annual Meeting 2026",
+      "field": "candidate_review_added",
+      "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "stoc-2027",
+      "event_name": "STOC 2027 — 59th ACM Symposium on Theory of Computing",
+      "field": "candidate_review_added",
+      "source": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "innovatex-ai-2027",
+      "event_name": "Innovatex — Artificial Intelligence, Machine Learning & Data Science 2027",
+      "field": "candidate_review_added",
+      "source": "https://innovatexconference.com/artificialintelligence/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "aiml-2027-urf",
+      "event_name": "AIML 2027 — 7th International Conference on Artificial Intelligence and Machine Learning",
+      "field": "candidate_review_added",
+      "source": "https://artificialintelligence-forum.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "artificial-intelligence-2027-noveltics",
+      "event_name": "Artificial Intelligence 2027 — 3rd International Conference on Artificial Intelligence and Machine Learning",
+      "field": "candidate_review_added",
+      "source": "https://artificialintelligence.novelticsconferences.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "physical-theoretical-chemistry-2027",
+      "event_name": "14th World Congress on Physical and Theoretical Chemistry 2027",
+      "field": "candidate_review_added",
+      "source": "https://physical-theoreticalchemistry.annualcongress.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "mlsys-2027",
+      "event_name": "MLSys 2027 — 10th Conference on Machine Learning and Systems",
+      "field": "candidate_review_added",
+      "source": "https://mlsys.org/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "agsaiml-2027",
+      "event_name": "AGSAIML 2027 — Annual Global Summit on Artificial Intelligence and Machine Learning",
+      "field": "candidate_review_added",
+      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "ai-ml-2027-cognition",
+      "event_name": "Cognition Conferences — 2nd International Conference on Artificial Intelligence & Machine Learning 2027",
+      "field": "candidate_review_added",
+      "source": "https://cognitionconferences.com/artificialintelligence/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "materials-science-2027-src",
+      "event_name": "SRC Materials Science 2027 — Advanced Materials, Nanotechnology & Structural Composites",
+      "field": "candidate_review_added",
+      "source": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "chemistry-world-conference-2027",
+      "event_name": "Chemistry World Conference 2027 — 7th Edition",
+      "field": "candidate_review_added",
+      "source": "https://chemistryworldconference.com/information/important-dates",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "ai-machine-learning-2027-conference-series",
+      "event_name": "8th International Congress on AI and Machine Learning 2027",
+      "field": "candidate_review_added",
+      "source": "https://artificialintelligence.conferenceseries.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "wcamd-2027",
+      "event_name": "WCAMD 2027 — World Conference on Artificial Intelligence, Machine Learning and Data Science",
+      "field": "candidate_review_added",
+      "source": "https://www.machinelearning.theiconicmeetings.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "event_name": "16th International Conference on Materials Science & Engineering 2027",
+      "field": "candidate_review_added",
+      "source": "https://materialscienceconferences.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "ieee-ssci-2027",
+      "event_name": "IEEE SSCI 2027 — Symposium Series on Computational Intelligence",
+      "field": "candidate_review_added",
+      "source": "https://attend.ieee.org/ssci-2027/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "aias-plus-2026",
+      "event_name": "AIAS⁺ 2026 — Chen Institute Symposium for AI Advancing Science and Society",
+      "field": "candidate_review_added",
+      "source": "https://www.aiasplus.org/call-for-workshops",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "ai-drug-discovery-development-2027",
+      "event_name": "AI Drug Discovery & Development Summit 2027",
+      "field": "candidate_review_added",
+      "source": "https://www.aidrivendrugdevelopment.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "ieee-icc-2027",
+      "event_name": "IEEE ICC 2027 — International Conference on Communications",
+      "field": "candidate_review_added",
+      "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "chemistry-meeting-2027-conference-series",
+      "event_name": "17th International Conference on Chemistry 2027",
+      "field": "candidate_review_added",
+      "source": "https://chemistrymeeting.chemistryconferences.org/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "material-science-engineering-2027-conference-series",
+      "event_name": "9th Global Summit on Material Science and Engineering 2027",
+      "field": "candidate_review_added",
+      "source": "https://materialsscience.conferenceseries.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "advanced-materials-world-congress-2027",
+      "event_name": "9th Advanced Materials Science World Congress 2027",
+      "field": "candidate_review_added",
+      "source": "https://www.materialsscienceconference.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "advanced-chemistry-world-congress-2027",
+      "event_name": "8th Advanced Chemistry World Congress 2027",
+      "field": "candidate_review_added",
+      "source": "https://www.chemistryconferences.com/",
+      "message": "Added following the user-approved official-source candidate review on 3 November 2026."
+    },
+    {
+      "at": "2026-11-03T00:39:14Z",
+      "event_id": "icml-2027",
+      "event_name": "ICML 2027",
+      "field": "candidate_review_dates",
+      "source": "https://icml.cc/",
+      "message": "Existing ICML 2027 promoted from dates pending: 31 July–6 August 2027, Riocentro, Rio de Janeiro. No duplicate event created."
+    },
     {
       "at": "2026-11-03T00:15:05Z",
       "event_id": "molsim-2027",
