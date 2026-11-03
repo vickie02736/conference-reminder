@@ -187,4 +187,13 @@
 
 ## 测试与发布
 
-本地验证已通过：109 项 Node 测试、45 项 Python 测试；目录校验 166 个正式活动、8 个观察项；证据哈希与队列计数校验通过；git diff --check 通过。发布验证待推送后补充。完整机器记录：data/heartbeat-review-2026-11-03.json。
+本地验证已通过：109 项 Node 测试、45 项 Python 测试；目录校验 166 个正式活动、8 个观察项；证据哈希与队列计数校验通过；git diff --check 通过。发布提交：489a71b8d5e1f2522f73dd1f58239cb108f4d240；[GitHub Pages 发布运行](https://github.com/vickie02736/conference-reminder/actions/runs/41609503018) 的 Publish website 步骤成功。线上数据逐字节核对均一致。完整机器记录：data/heartbeat-review-2026-11-03.json。
+
+验证时间：2026-11-03T09:16:20.266784+00:00。线上四个文件均 HTTP 200、与发布提交逐字节一致：
+
+- data/conferences.json — SHA-256 8193470c03e2315f3c82921bd65d2557550568f94e7c53bdfec1addbd52e5b2c
+- data/source-checks.json — SHA-256 8aea023e6b35f3faa4485cab1b7bc4ca2104542bd7a9fc453d9134ce065723ea
+- data/review-progress.json — SHA-256 5b590f860cb8e54518ff8322c6a267a1671bc41807f3bb88369acacbfd9f46ad
+- data/heartbeat-review-2026-11-03.json — SHA-256 bb0d0c5867b7a797ca787ecdb34c62dca02ea4c9d0f539233dbaaa3a4d423489
+
+本报告后的文档证据提交不涉及网站发布路径；网站仍对应上述数据提交。
