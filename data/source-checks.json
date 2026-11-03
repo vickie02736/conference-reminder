@@ -5042,9 +5042,15 @@
       },
       "checks": {
         "fems-euromat-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T11:16:45+00:00",
+          "reviewed_hash": "858681cc75994b0a48c83e74d148f425fe108e663003330aaf35092f2403505c",
+          "evidence": "此前抓取网络不可达，本次运行器读到委员会页：ASMET 主办，Christof Sommitsch（Graz University of Technology）与 Aldo R. Boccaccini（University of Erlangen-Nuremberg）共同主席，与记录一致。",
+          "review_method": "runner_text",
+          "review_run": "41625735289",
+          "resolved_reason": "content_changed"
         }
       },
       "latest_review": {
@@ -7491,12 +7497,12 @@
       "changed_at": "2026-11-03T11:15:51Z",
       "checks": {
         "advanced-materials-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T11:13:00+00:00",
-          "reviewed_hash": "437629889054768bd713b6a8701a4aa8c0c5128edd7e3a0fc5008bec9951d436",
-          "evidence": "运行器正文含 2027-03-22 至 23 Vienna 及早鸟 11-13、普通 12-30、现场 03-22 三个费率日期，与记录一致。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-03T11:16:45+00:00",
+          "reviewed_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
+          "evidence": "运行器正文前后对比：新增 E-POSTER 与 ACCOMPANYING PERSON 价目档；早鸟 2026-11-13、普通 12-30、现场 2027-03-22 三个日期不变。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "reviewed_fields": [
@@ -7504,14 +7510,7 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": "41625024822",
-          "review_invalidated_at": "2026-11-03T11:15:51Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_run": "41625735289"
         }
       }
     },

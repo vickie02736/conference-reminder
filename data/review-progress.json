@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-03",
-  "remaining_count": 19,
-  "remaining_source_count": 19,
+  "remaining_count": 17,
+  "remaining_source_count": 17,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -159,21 +159,6 @@
       ]
     },
     {
-      "source": "https://www.materialsscienceconference.com/registration",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://sites.google.com/view/ai4mat/schedule",
       "event_id": "ai4mat-neurips-2026",
       "reason": "observation",
@@ -202,21 +187,6 @@
         "people.speakers: Peter Ravikovitch",
         "people.organizers: University of Edinburgh Adsorption Group",
         "daily schedule times"
-      ]
-    },
-    {
-      "source": "https://www.euromat2027.com/committee.html",
-      "event_id": "fems-euromat-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "858681cc75994b0a48c83e74d148f425fe108e663003330aaf35092f2403505c",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
