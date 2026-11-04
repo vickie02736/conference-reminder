@@ -191,7 +191,7 @@ test('deadline sort choices show their matching deadline on the conference card'
   const preview = () => h.list().match(/<p class="deadline-preview">[\s\S]*?<\/p>/)?.[0];
   assert.match(preview(), /<b>Registration<\/b><br>25 Nov 2026/);
   h.set('sort', 'submission_deadline');
-  assert.match(preview(), /<b>Oral and poster abstracts<\/b><br>30 Oct 2026/);
+  assert.match(preview(), /<b>Oral abstracts<\/b><br>6 Nov 2026/);
   assert.equal((h.list().match(/<article /g) || []).length, 1);
 });
 

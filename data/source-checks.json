@@ -1022,22 +1022,17 @@
       "changed_at": "2026-11-04T07:32:08Z",
       "checks": {
         "interpore2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T11:13:00+00:00",
-          "reviewed_hash": "706a1a050edd9046668990b26b47bb64467c2ba2e35662e8121fb796cf2cbc31",
-          "evidence": "运行器正文与凌晨复核相比只多出导航文字（Skip to main content、Log in）及 Minisymposia 页的 Lead Organizer 行；无日期或截止变化。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-04T09:03:33+00:00",
+          "reviewed_hash": "8763af389c824493d83b63235a96ba428b697a48388cb90a43c44e122feae2a2",
+          "evidence": "MS27组织者区块新增 Ruben Juanes（MIT, USA）、Marianne Peter-Borie（Lookup Geoscience, France）、Pedro Aum（Federal University of Pará, Brazil），均紧随 Lead Organizer 标题及 Amir Haghi；没有分别标注三人的lead/co-organiser角色，按该区块列名保存，不推断个人负责人角色。其他正文逐行无变；摘要截止冲突仍由其他来源记录保留。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
-          "review_run": "41625024822",
+          "review_run": 41792669115,
           "review_invalidated_at": "2026-11-04T07:32:08Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "remaining_fields": []
         }
       },
       "fingerprint_version": 2
@@ -1339,21 +1334,17 @@
       "changed_at": "2026-11-04T07:32:08Z",
       "checks": {
         "pbast10": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "1573584a101ca33bca5e80939ad310310d92745d2d05c4ebbf9d36b03f9aa03f",
-          "evidence": "抓取与浏览器文本一致。会议 2027-05-31 至 06-03、Yonsei University, Seoul 核实；摘要截止 2026-11-30、早鸟注册 2027-03-31 均无钟点/时区，precision=date 保持；“Abstract submission Open now”，口头与海报摘要征集，与状态相符；最终注册截止未公布，unknown 保持。页面无任何截止钟点（“Updated October 31, 2026”为噪声）。组织方 BK21FOUR Educational Research Group 与 Division of Separation Technology 相符；主题含 Simulation & machine learning。另列录用通知 2027-01-15（记录未收录，非截止）。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-04T09:03:33+00:00",
+          "reviewed_hash": "6c6f377f4e2b23e259aa572afd8fa86eedd046c210ec6aaef8d9a413e395bfcb",
+          "evidence": "唯一差异为铂金赞助商标题改复数并新增 BSD Instrument、안톤파 코리아；属于赞助商，不误记主办方/讲者。会议日期、11月30日摘要截止、3月31日早鸟、组织者及人员无变；无新增截止钟点/时区。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-04T07:32:08Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "remaining_fields": [],
+          "review_run": 41792669115
         }
       },
       "fingerprint_version": 2
@@ -1593,20 +1584,17 @@
       "changed_at": "2026-11-04T07:32:08Z",
       "checks": {
         "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:32:06+00:00",
-          "reviewed_hash": "9b7d5f686076d4d74205961036c911b040ae4af8c4dd29d086754ceb6a67efaf",
-          "evidence": "会议 12-15 至 17；摘要 10-30；注册 11-25，截止没有钟点/时区。四位 keynote Spaldin/ETH Zürich、Morris/St Andrews、Regoutz/Oxford、Dutton/Cambridge；四位 ECR Geddes/Nature Communications、Anker/DTU、Meekel/Birmingham、Scatena/Diamond；七位已收录组织者角色及机构逐项核实。初步节目 13:00 结束与会场 noon→noon 文案不完全一致，不升格为精确会议结束时间。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-04T09:03:33+00:00",
+          "reviewed_hash": "17d810823dd261ce89dae47c5ee4894a8dbde8941c819279c3c60f465847eda5",
+          "evidence": "官方正文明确宣布摘要延期：口头摘要从10月30日改为11月6日；海报持续到注册关闭，同页注册为11月25日，因此拆分口头/海报节点。无截止钟点/时区。录用通知从11月15日变为16日，只记审计、不建提醒。会议日期、已存组织者/讲者角色及机构逐行无变。",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-04T07:32:08Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "remaining_fields": [],
+          "review_method": "runner_text",
+          "review_run": 41792669115
         }
       },
       "fingerprint_version": 2
@@ -4607,13 +4595,11 @@
       "checks": {
         "camml2027": {
           "review_required": true,
-          "reason": "content_changed",
-          "message": "The about page is unchanged and still says registration is closed, gives 19 December for acceptance (PSDI: 17 December), a stale 6 December 2025 letter-of-support date and five nights (PSDI: four); no dated official notice resolves these, so the application availability must stay unconfirmed.",
+          "reason": "content_conflict",
+          "message": "仍有官方冲突：住宿4晚/5晚；录用通知12月17日/19日。开放状态及推荐信年份已解决。",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "accommodation nights: PSDI 4 vs about 5",
+            "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
           ],
           "verified_fields": [
             "application deadline 2026-11-26 (date)",
@@ -4622,11 +4608,12 @@
             "people: organising committee (9)",
             "people: organisers PSDI, AIchemy (+ DAEMON COST Action new)"
           ],
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "6e4b0da8ef403c34b194b11448d309077c7155489c022c66babcae5d704964c2",
-          "evidence": "about 页内容未变（哈希与存档一致），冲突均未解决：Key dates 仍写 “Application deadline: 26th of November 2026, registration is closed.”，与首页/registration 页显示开放的说法冲突；录用决定写 2026-12-19（PSDI 写 12-17）；导师推荐信截止仍写 “6th December 2025”，早于本轮申请，不推测为 2026；仍写 5 晚住宿（PSDI 写 4 晚）。本页无任何带日期的“延期/更正”说明可裁决。已核实：申请截止 2026-11-26、开放 2026-10-15 与记录相符，均无钟点/时区；到达 2027-04-04、离开 04-09 与 04-05 至 09 的学校日期一致；£250 含食宿；组委 9 人姓名及机构相符；PSDI、AIchemy 组织方相符，另明确 DAEMON COST Action CA22154 为 co-organizer（建议新增）。本次仅缓存 about 页，未能重查首页、registration 与 PSDI 页。",
-          "review_method": "fetcher_text",
-          "review_invalidated_at": "2026-11-04T07:32:08Z"
+          "reviewed_at": "2026-11-04T09:03:33+00:00",
+          "reviewed_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
+          "evidence": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。",
+          "review_method": "runner_text",
+          "review_invalidated_at": "2026-11-04T07:32:08Z",
+          "review_run": 41792669115
         }
       }
     },
@@ -5813,19 +5800,16 @@
       "message": null,
       "checks": {
         "ccpbiosim-building-md-systems-2026": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:49:53Z",
-          "reviewed_hash": "0ffcd535e1fc8b3ee4049f7cd8c8170c5e6a00646c6b0b539395853ea0ad914a",
-          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
-          "review_invalidated_at": "2026-11-04T07:32:08Z"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-04T09:03:33+00:00",
+          "reviewed_hash": "e485e9351cc9d5427c5cd57390108e44054e068bc43c5107790a567bb7b62ad9",
+          "evidence": "差异只有新增 programme 链接文字及4家酒店建议，不改变活动日期、11月19日注册截止、钟点/时区或人员机构；既有相关事实继续有效。未打开新增下载文件，不声称核实其中完整日程。",
+          "remaining_fields": [],
+          "review_invalidated_at": "2026-11-04T07:32:08Z",
+          "review_method": "runner_text",
+          "review_run": 41792669115
         }
       },
       "changed_at": "2026-11-04T07:32:08Z"
@@ -7419,22 +7403,17 @@
       "changed_at": "2026-11-04T07:32:08Z",
       "checks": {
         "agsaiml-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T11:13:00+00:00",
-          "reviewed_hash": "aaae670f43ec1d014225a6fa69a4d308a48c0bc565d5d33056d7aa741d91a3a5",
-          "evidence": "运行器正文含 2027-03-08 至 10 Barcelona、摘要 11-30、早鸟 06-25，与记录一致。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-04T09:03:33+00:00",
+          "reviewed_hash": "46557d10c9a68e7c6e662697cd9c51e678655c0ee7dc3c1dc45ef56894c25132",
+          "evidence": "唯一差异为 Plenary Speakers 区块在 Invited Speakers 标题之前新增 Boris Goldengorin、University of Florida, USA 及简介。按主办方列名收录为plenary speaker及该机构，非独立机构确认或到场保证；日期、11月30日摘要截止、钟点/时区及原组织者无差异。",
           "review_method": "runner_text",
-          "review_run": "41625024822",
+          "review_run": 41792669115,
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-04T07:32:08Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "remaining_fields": []
         }
       }
     },
@@ -7553,7 +7532,12 @@
         "advanced-chemistry-world-congress-2027": {
           "review_required": true,
           "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "reason": "content_changed",
+          "triage": {
+            "at": "2026-11-04T09:06:17+00:00",
+            "run": 41792669115,
+            "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
+          }
         }
       }
     },
@@ -7588,7 +7572,12 @@
             "times",
             "timezones",
             "people_roles_affiliations"
-          ]
+          ],
+          "triage": {
+            "at": "2026-11-04T09:06:17+00:00",
+            "run": 41792669115,
+            "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
+          }
         }
       }
     },
@@ -7607,6 +7596,26 @@
           "message": null,
           "reason": null
         }
+      },
+      "latest_review": {
+        "at": "2026-11-04T09:06:17+00:00",
+        "review_run": 41792669115,
+        "attempts": [
+          "运行器：Connection reset by peer",
+          "第一次定向重试：urlopen timed out",
+          "第二次定向重试：TLS handshake timed out",
+          "web工具原址超时",
+          "官方date27子域入口超时",
+          "官方CFP PDF超时",
+          "搜索索引可见当前届文字，仅作弱证据，不据此改事实或登记恢复"
+        ],
+        "evidence_links": [
+          "https://www.date-conference.com/call-for-papers",
+          "https://date27.date-conference.com/call-for-papers",
+          "https://www.date-conference.com/sites/date26/files/2026-04/DATE2027-Call-for-Papers-short.pdf"
+        ],
+        "unresolved_reason": "日常运行器连接被重置；本机两次项目UA重试分别超时、TLS握手超时，web直读及date27官方镜像/官方PDF也超时。搜索引擎有今日索引但不能证明当前原址传输恢复；未更改已有事实和hash。",
+        "automatic_fetch_recovered": false
       }
     },
     "https://www.icfmce.org/Chinese.html": {
@@ -7714,7 +7723,12 @@
             "times",
             "timezones",
             "people_roles_affiliations"
-          ]
+          ],
+          "triage": {
+            "at": "2026-11-04T09:06:17+00:00",
+            "run": 41792669115,
+            "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
+          }
         }
       }
     },

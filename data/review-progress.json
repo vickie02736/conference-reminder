@@ -1,8 +1,21 @@
 {
   "as_of": "2026-11-04",
-  "remaining_count": 43,
-  "remaining_source_count": 42,
+  "remaining_count": 38,
+  "remaining_source_count": 37,
   "queue": [
+    {
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "event_id": "camml2027",
+      "reason": "content_conflict",
+      "message": "仍有官方冲突：住宿4晚/5晚；录用通知12月17日/19日。开放状态及推荐信年份已解决。",
+      "content_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
+      "priority": 0,
+      "next_deadline": "2026-11-26",
+      "remaining_fields": [
+        "accommodation nights: PSDI 4 vs about 5",
+        "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
+      ]
+    },
     {
       "source": "https://www.bmss.org.uk/biomacromolecular-structure-sig-meeting-2027/",
       "event_id": "bmss-bioms-sig-2027",
@@ -94,21 +107,6 @@
       ]
     },
     {
-      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
-      "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "8763af389c824493d83b63235a96ba428b697a48388cb90a43c44e122feae2a2",
-      "priority": 0,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://event.fourwaves.com/interpore2027/submission",
       "event_id": "interpore2027",
       "reason": "manual_review_partial",
@@ -182,81 +180,6 @@
       "content_hash": "6a6f7a175ca2f6a4b75572fecc1a463c7ee0f9b55a3116a9adcd12ae94ea78d6",
       "priority": 1,
       "next_deadline": "2026-11-18",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.ccpbiosim.ac.uk/events/upcoming-events/prep2026",
-      "event_id": "ccpbiosim-building-md-systems-2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e485e9351cc9d5427c5cd57390108e44054e068bc43c5107790a567bb7b62ad9",
-      "priority": 1,
-      "next_deadline": "2026-11-19",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://sscg.uk/2026-sscg-christmas-meeting",
-      "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "17d810823dd261ce89dae47c5ee4894a8dbde8941c819279c3c60f465847eda5",
-      "priority": 1,
-      "next_deadline": "2026-11-25",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://spring2027.camml.ac.uk/about/",
-      "event_id": "camml2027",
-      "reason": "content_changed",
-      "message": "The about page is unchanged and still says registration is closed, gives 19 December for acceptance (PSDI: 17 December), a stale 6 December 2025 letter-of-support date and five nights (PSDI: four); no dated official notice resolves these, so the application availability must stay unconfirmed.",
-      "content_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
-      "priority": 1,
-      "next_deadline": "2026-11-26",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
-      "event_id": "agsaiml-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "46557d10c9a68e7c6e662697cd9c51e678655c0ee7dc3c1dc45ef56894c25132",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://pbast10.org/",
-      "event_id": "pbast10",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "6c6f377f4e2b23e259aa572afd8fa86eedd046c210ec6aaef8d9a413e395bfcb",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
       "remaining_fields": [
         "dates",
         "times",
@@ -831,11 +754,12 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-03T09:14:25Z",
-    "report": "data/heartbeat-review-2026-11-03.json",
-    "started": 37,
-    "resolved": 7,
+    "at": "2026-11-04T09:03:33+00:00",
+    "report": "data/heartbeat-review-2026-11-04.json",
+    "started": 43,
     "new": 0,
-    "remaining": 30
+    "resolved": 5,
+    "partial": 1,
+    "remaining": 38
   }
 }

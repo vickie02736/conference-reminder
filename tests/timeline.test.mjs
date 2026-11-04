@@ -51,11 +51,11 @@ test('submission timelines keep independent routes and exclude closed or expired
  assert.deepEqual(snapshot([event],'submission').map(entry=>entry.milestoneId),['poster']);
  assert.deepEqual(snapshot([event],'poster').map(entry=>entry.milestoneId),['poster']);
  const combined=canonical('SSCG2026');
- for (const stage of ['submission','oral','poster','abstract']) {
-  const entries=snapshot([combined],stage);
-  assert.equal(entries.length,1);
-  assert.equal(entries[0].date,'2026-10-30');
+ for (const stage of ['submission','abstract']) {
+  assert.deepEqual(snapshot([combined],stage).map(entry=>entry.date),['2026-11-06','2026-11-25']);
  }
+ assert.deepEqual(snapshot([combined],'oral').map(entry=>entry.date),['2026-11-06']);
+ assert.deepEqual(snapshot([combined],'poster').map(entry=>entry.date),['2026-11-25']);
  const aistats=snapshot([canonical('AISTATS 2027')],'submission');
  assert.deepEqual(aistats.map(entry=>entry.label),['Workshop proposal submission deadline','Journal-to-Conference submissions']);
  for (const name of ['Euro-Asia Zeolite']) {

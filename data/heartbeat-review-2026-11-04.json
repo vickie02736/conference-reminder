@@ -1,0 +1,1515 @@
+{
+  "at": "2026-11-04T09:03:33+00:00",
+  "daily_update": {
+    "run": 41792669115,
+    "result": "success",
+    "repeated": false
+  },
+  "scope": {
+    "events": 166,
+    "watchlist": 8,
+    "source_count": 362,
+    "reviewed_items": 6,
+    "transport_retries": 1,
+    "noise_triaged_not_closed": 3
+  },
+  "summary": {
+    "queue_before": 43,
+    "new_this_batch": 0,
+    "new_or_reopened_since_previous_run": 26,
+    "resolved": 5,
+    "partial": 1,
+    "remaining": 38,
+    "stable_original_recoveries": 0,
+    "new_alternative_sources": 0,
+    "manual_semantic": 38,
+    "active_transport": 32,
+    "still_failed": 1,
+    "unverifiable": 31,
+    "historical_replaced": 12,
+    "new_transport_failures": 1
+  },
+  "records": [
+    {
+      "original_url": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "event_id": "interpore2027",
+      "original_problem": "content_changed",
+      "previous_check": {
+        "review_required": true,
+        "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+        "reason": "content_changed",
+        "reviewed_at": "2026-11-03T11:13:00+00:00",
+        "reviewed_hash": "706a1a050edd9046668990b26b47bb64467c2ba2e35662e8121fb796cf2cbc31",
+        "evidence": "运行器正文与凌晨复核相比只多出导航文字（Skip to main content、Log in）及 Minisymposia 页的 Lead Organizer 行；无日期或截止变化。",
+        "review_method": "runner_text",
+        "resolved_reason": "content_changed",
+        "review_run": "41625024822",
+        "review_invalidated_at": "2026-11-04T07:32:08Z",
+        "remaining_fields": [
+          "dates",
+          "times",
+          "timezones",
+          "people_roles_affiliations"
+        ]
+      },
+      "attempts": [
+        "下载41792669115运行器正文并核对hash与当前状态一致",
+        "与41625735289附件逐行diff，仅核实变化区块"
+      ],
+      "final_status": "content_verified",
+      "review_method": "runner_text",
+      "review_run": 41792669115,
+      "reviewed_hash": "8763af389c824493d83b63235a96ba428b697a48388cb90a43c44e122feae2a2",
+      "verified_at": "2026-11-04T09:03:33+00:00",
+      "evidence": "MS27组织者区块新增 Ruben Juanes（MIT, USA）、Marianne Peter-Borie（Lookup Geoscience, France）、Pedro Aum（Federal University of Pará, Brazil），均紧随 Lead Organizer 标题及 Amir Haghi；没有分别标注三人的lead/co-organiser角色，按该区块列名保存，不推断个人负责人角色。其他正文逐行无变；摘要截止冲突仍由其他来源记录保留。",
+      "official_quote": "Ruben Juanes / MIT; Marianne Peter-Borie / Lookup Geoscience; Pedro Aum / Federal University of Pará",
+      "evidence_links": [
+        "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+        "https://github.com/vickie02736/conference-reminder/actions/runs/41792669115"
+      ],
+      "unresolved_reason": null,
+      "remaining_fields": [],
+      "diff": "--- \n\n+++ \n\n@@ -299,4 +299,13 @@\n\n - Viridien,\n Canada\n+Ruben Juanes\n+- MIT,\n+USA\n+Marianne Peter-Borie\n+- Lookup Geoscience,\n+France\n+Pedro Aum\n+- Federal University of Pará,\n+Brazil\n As the global energy transition accelerates, unprecedented volumes of fluids are being injected into and extracted from the subsurface, spanning gigatonne-scale CO₂ storage, enhanced geothermal systems (EGS), compressed air and hydrogen storage, and large-scale wastewater disposal. These operations impose complex thermo-hydro-mechanical (THM) perturbations on geological formations, altering pore pressure fields, effective stress states, and thermal gradients across spatial scales ranging from pore throats to sedimentary basins. The coupled THM processes governing fault reactivation, fracture propagation, and induced seismicity remain insufficiently understood, particularly at the scales and durations demanded by climate-relevant deployment targets.\n This minisymposium brings together experimentalists, modelers, and field scientists to address the porous media physics underlying injection-induced and extraction-triggered seismicity in real-world subsurface energy and storage operations. We welcome contributions across scales, from coupling mechanisms at the pore-scale to geomechanical responses at the reservoir-to-basin-scale, with emphasis on predictive capabilities needed for safe, large-scale subsurface operations.",
+      "automatic_fetch_recovered": false
+    },
+    {
+      "original_url": "https://www.ccpbiosim.ac.uk/events/upcoming-events/prep2026",
+      "event_id": "ccpbiosim-building-md-systems-2026",
+      "original_problem": "content_changed",
+      "previous_check": {
+        "review_required": true,
+        "reason": "content_changed",
+        "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+        "reviewed_at": "2026-11-02T17:49:53Z",
+        "reviewed_hash": "0ffcd535e1fc8b3ee4049f7cd8c8170c5e6a00646c6b0b539395853ea0ad914a",
+        "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
+        "remaining_fields": [
+          "dates",
+          "times",
+          "timezones",
+          "people_roles_affiliations"
+        ],
+        "review_invalidated_at": "2026-11-04T07:32:08Z"
+      },
+      "attempts": [
+        "下载41792669115运行器正文并核对hash与当前状态一致",
+        "与41625735289附件逐行diff，仅核实变化区块"
+      ],
+      "final_status": "content_verified",
+      "review_method": "runner_text",
+      "review_run": 41792669115,
+      "reviewed_hash": "e485e9351cc9d5427c5cd57390108e44054e068bc43c5107790a567bb7b62ad9",
+      "verified_at": "2026-11-04T09:03:33+00:00",
+      "evidence": "差异只有新增 programme 链接文字及4家酒店建议，不改变活动日期、11月19日注册截止、钟点/时区或人员机构；既有相关事实继续有效。未打开新增下载文件，不声称核实其中完整日程。",
+      "official_quote": "The programme can be found here",
+      "evidence_links": [
+        "https://www.ccpbiosim.ac.uk/events/upcoming-events/prep2026",
+        "https://github.com/vickie02736/conference-reminder/actions/runs/41792669115"
+      ],
+      "unresolved_reason": null,
+      "remaining_fields": [],
+      "diff": "--- \n\n+++ \n\n@@ -31,4 +31,7 @@\n\n (afternoon session)\n Build, modify and analyse DNA strands, providing practical experience of preparing nucleic-acid systems for molecular simulation.\n+The programme can be found\n+here\n+.\n Who is it for?\n The workshop is open to\n@@ -46,3 +49,13 @@\n\n For any questions related to the workshop, please contact\n jas.kalayan@stfc.ac.uk\n+Hotels\n+Accommodation is not included, but we have a list of hotels that attendees could consider:\n+Travelodge, Manchester Upper Brook Street\n+(closest to venue)\n+ibis Manchester Centre Princess Street\n+(between Piccadilly station and venue)\n+Premier Inn, Princess Street\n+(between Piccadilly station and venue)\n+Pendulum Hotel\n+(between Piccadilly station and venue)\n Sponsors",
+      "automatic_fetch_recovered": false
+    },
+    {
+      "original_url": "https://sscg.uk/2026-sscg-christmas-meeting",
+      "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
+      "original_problem": "content_changed",
+      "previous_check": {
+        "review_required": true,
+        "reason": "content_changed",
+        "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+        "reviewed_at": "2026-11-02T17:32:06+00:00",
+        "reviewed_hash": "9b7d5f686076d4d74205961036c911b040ae4af8c4dd29d086754ceb6a67efaf",
+        "evidence": "会议 12-15 至 17；摘要 10-30；注册 11-25，截止没有钟点/时区。四位 keynote Spaldin/ETH Zürich、Morris/St Andrews、Regoutz/Oxford、Dutton/Cambridge；四位 ECR Geddes/Nature Communications、Anker/DTU、Meekel/Birmingham、Scatena/Diamond；七位已收录组织者角色及机构逐项核实。初步节目 13:00 结束与会场 noon→noon 文案不完全一致，不升格为精确会议结束时间。",
+        "resolved_reason": "fingerprint_upgrade",
+        "review_invalidated_at": "2026-11-04T07:32:08Z",
+        "remaining_fields": [
+          "dates",
+          "times",
+          "timezones",
+          "people_roles_affiliations"
+        ]
+      },
+      "attempts": [
+        "下载41792669115运行器正文并核对hash与当前状态一致",
+        "与41625735289附件逐行diff，仅核实变化区块"
+      ],
+      "final_status": "content_verified",
+      "review_method": "runner_text",
+      "review_run": 41792669115,
+      "reviewed_hash": "17d810823dd261ce89dae47c5ee4894a8dbde8941c819279c3c60f465847eda5",
+      "verified_at": "2026-11-04T09:03:33+00:00",
+      "evidence": "官方正文明确宣布摘要延期：口头摘要从10月30日改为11月6日；海报持续到注册关闭，同页注册为11月25日，因此拆分口头/海报节点。无截止钟点/时区。录用通知从11月15日变为16日，只记审计、不建提醒。会议日期、已存组织者/讲者角色及机构逐行无变。",
+      "official_quote": "Oral abstracts deadline: November 6th; Poster abstracts remain open until registration closes; Registration by November 25th",
+      "evidence_links": [
+        "https://sscg.uk/2026-sscg-christmas-meeting",
+        "https://github.com/vickie02736/conference-reminder/actions/runs/41792669115"
+      ],
+      "unresolved_reason": null,
+      "remaining_fields": [],
+      "diff": "--- \n\n+++ \n\n@@ -1,5 +1,6 @@\n\n 0\n-Abstract submission for oral and poster presentations is now open!\n-Deadline: October 30th\n+Abstract submission deadline extended!\n+Oral abstracts deadline: November 6th\n+Poster abstracts remain open until registration closes\n We welcome contributions from all aspects of solid-state science!\n Early-career researchers and students are particularly encouraged to present at the ECR Meeting.\n@@ -38,6 +39,6 @@\n\n Take part!\n Oral abstracts by\n-October 30th\n-decision notifications by November 15th\n+November 6th\n+decision notifications by November 16th\n Submit an abstract\n Registration by",
+      "automatic_fetch_recovered": false
+    },
+    {
+      "original_url": "https://spring2027.camml.ac.uk/about/",
+      "event_id": "camml2027",
+      "original_problem": "content_changed",
+      "previous_check": {
+        "review_required": true,
+        "reason": "content_changed",
+        "message": "The about page is unchanged and still says registration is closed, gives 19 December for acceptance (PSDI: 17 December), a stale 6 December 2025 letter-of-support date and five nights (PSDI: four); no dated official notice resolves these, so the application availability must stay unconfirmed.",
+        "remaining_fields": [
+          "dates",
+          "times",
+          "timezones",
+          "people_roles_affiliations"
+        ],
+        "verified_fields": [
+          "application deadline 2026-11-26 (date)",
+          "application opening 2026-10-15 (date)",
+          "arrival/departure 2027-04-04/09 consistent with start/end",
+          "people: organising committee (9)",
+          "people: organisers PSDI, AIchemy (+ DAEMON COST Action new)"
+        ],
+        "reviewed_at": "2026-11-03T01:54:04+00:00",
+        "reviewed_hash": "6e4b0da8ef403c34b194b11448d309077c7155489c022c66babcae5d704964c2",
+        "evidence": "about 页内容未变（哈希与存档一致），冲突均未解决：Key dates 仍写 “Application deadline: 26th of November 2026, registration is closed.”，与首页/registration 页显示开放的说法冲突；录用决定写 2026-12-19（PSDI 写 12-17）；导师推荐信截止仍写 “6th December 2025”，早于本轮申请，不推测为 2026；仍写 5 晚住宿（PSDI 写 4 晚）。本页无任何带日期的“延期/更正”说明可裁决。已核实：申请截止 2026-11-26、开放 2026-10-15 与记录相符，均无钟点/时区；到达 2027-04-04、离开 04-09 与 04-05 至 09 的学校日期一致；£250 含食宿；组委 9 人姓名及机构相符；PSDI、AIchemy 组织方相符，另明确 DAEMON COST Action CA22154 为 co-organizer（建议新增）。本次仅缓存 about 页，未能重查首页、registration 与 PSDI 页。",
+        "review_method": "fetcher_text",
+        "review_invalidated_at": "2026-11-04T07:32:08Z"
+      },
+      "attempts": [
+        "下载41792669115运行器正文并核对hash与当前状态一致",
+        "与41625735289附件逐行diff，仅核实变化区块"
+      ],
+      "final_status": "partial_conflict",
+      "review_method": "runner_text",
+      "review_run": 41792669115,
+      "reviewed_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
+      "verified_at": "2026-11-04T09:03:33+00:00",
+      "evidence": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。",
+      "official_quote": "All letters of support must be submitted by 6th December 2026.",
+      "evidence_links": [
+        "https://spring2027.camml.ac.uk/about/",
+        "https://github.com/vickie02736/conference-reminder/actions/runs/41792669115"
+      ],
+      "unresolved_reason": "仍有官方冲突：住宿4晚/5晚；录用通知12月17日/19日。开放状态及推荐信年份已解决。",
+      "remaining_fields": [
+        "accommodation nights: PSDI 4 vs about 5",
+        "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
+      ],
+      "diff": "--- \n\n+++ \n\n@@ -14,10 +14,10 @@\n\n Timelines & Fees\n ¶\n-The application deadline is 26 November 2026. Supervisors will be contacted for a letter of support following your application. All letters of support must be submitted by 6th December 2025.\n+The application deadline is 26 November 2026. Supervisors will be contacted for a letter of support following your application. All letters of support must be submitted by 6th December 2026.\n Food and 5 nights accommodation (Waterside Hotel Warrington) is included in the £250 fee paid for this event, travel to Daresbury (and public transport to /from the lab) is not included and will need to be covered by the attendee. If we are able to secure additional sponsorship for this event we will reduce the fee. Please note: places on this course are limited and in the event of oversubscription to the training course we will favour a diverse group of attendees.\n Key dates\n ¶\n Registration opening: 15th of October 2026\n-Application deadline: 26th of November 2026, registration is closed.\n+Application deadline: 26th of November 2026.\n Acceptance decision: 19th of December 2026\n Accept place: 15th of January 2027",
+      "automatic_fetch_recovered": false
+    },
+    {
+      "original_url": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "event_id": "agsaiml-2027",
+      "original_problem": "content_changed",
+      "previous_check": {
+        "review_required": true,
+        "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+        "reason": "content_changed",
+        "reviewed_at": "2026-11-03T11:13:00+00:00",
+        "reviewed_hash": "aaae670f43ec1d014225a6fa69a4d308a48c0bc565d5d33056d7aa741d91a3a5",
+        "evidence": "运行器正文含 2027-03-08 至 10 Barcelona、摘要 11-30、早鸟 06-25，与记录一致。",
+        "review_method": "runner_text",
+        "review_run": "41625024822",
+        "resolved_reason": "content_changed",
+        "review_invalidated_at": "2026-11-04T07:32:08Z",
+        "remaining_fields": [
+          "dates",
+          "times",
+          "timezones",
+          "people_roles_affiliations"
+        ]
+      },
+      "attempts": [
+        "下载41792669115运行器正文并核对hash与当前状态一致",
+        "与41625735289附件逐行diff，仅核实变化区块"
+      ],
+      "final_status": "content_verified",
+      "review_method": "runner_text",
+      "review_run": 41792669115,
+      "reviewed_hash": "46557d10c9a68e7c6e662697cd9c51e678655c0ee7dc3c1dc45ef56894c25132",
+      "verified_at": "2026-11-04T09:03:33+00:00",
+      "evidence": "唯一差异为 Plenary Speakers 区块在 Invited Speakers 标题之前新增 Boris Goldengorin、University of Florida, USA 及简介。按主办方列名收录为plenary speaker及该机构，非独立机构确认或到场保证；日期、11月30日摘要截止、钟点/时区及原组织者无差异。",
+      "official_quote": "Boris Goldengorin / University of Florida, USA",
+      "evidence_links": [
+        "https://vividglobalsummits.com/2027/artificial-intelligence",
+        "https://github.com/vickie02736/conference-reminder/actions/runs/41792669115"
+      ],
+      "unresolved_reason": null,
+      "remaining_fields": [],
+      "diff": "--- \n\n+++ \n\n@@ -92,4 +92,9 @@\n\n Biography\n Lala Bregvadze is Chief Compliance Officer at Pave Bank, a programmable bank building the next generation of financial infrastructure, and a financial services executive with multidisciplinary expertise spanning banking, fintech, digital assets, law, regulation and product strategy. A graduate of Cornell University, she focuses on governance, institutional design and compliance frameworks that enable financial institutions to adopt emerging technologies responsibly, innovate with confidence and remain resilient in a rapidly evolving financial landscape.\n+X\n+Boris Goldengorin\n+University of Florida, USA\n+Biography\n+Prof. ScD. Boris Goldengorin is an inventor and researcher specializing in data analysis, optimization, and algorithm development. His work focuses on data-correcting and tolerance-based algorithms and their applications in Operations Management, Quantitative Logistics, Industrial Engineering, Artificial Intelligence, and Computer Vision. He has contributed to the development of mathematical and computational approaches for solving complex optimization and data-processing problems. His research also explores dimensionality reduction, intelligent data analysis, and interpretable computational methods. Through his interdisciplinary work, Prof. Goldengorin has developed innovative techniques that support efficient decision-making and problem-solving across scientific and industrial domains. His contributions connect fundamental mathematical methods with practical applications in intelligent systems and visual computing.\n X\n Invited Speakers",
+      "automatic_fetch_recovered": false
+    },
+    {
+      "original_url": "https://pbast10.org/",
+      "event_id": "pbast10",
+      "original_problem": "content_changed",
+      "previous_check": {
+        "review_required": true,
+        "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+        "reason": "content_changed",
+        "reviewed_at": "2026-11-03T01:54:04+00:00",
+        "reviewed_hash": "1573584a101ca33bca5e80939ad310310d92745d2d05c4ebbf9d36b03f9aa03f",
+        "evidence": "抓取与浏览器文本一致。会议 2027-05-31 至 06-03、Yonsei University, Seoul 核实；摘要截止 2026-11-30、早鸟注册 2027-03-31 均无钟点/时区，precision=date 保持；“Abstract submission Open now”，口头与海报摘要征集，与状态相符；最终注册截止未公布，unknown 保持。页面无任何截止钟点（“Updated October 31, 2026”为噪声）。组织方 BK21FOUR Educational Research Group 与 Division of Separation Technology 相符；主题含 Simulation & machine learning。另列录用通知 2027-01-15（记录未收录，非截止）。",
+        "review_method": "fetcher_text",
+        "resolved_reason": "fingerprint_upgrade",
+        "review_invalidated_at": "2026-11-04T07:32:08Z",
+        "remaining_fields": [
+          "dates",
+          "times",
+          "timezones",
+          "people_roles_affiliations"
+        ]
+      },
+      "attempts": [
+        "下载41792669115运行器正文并核对hash与当前状态一致",
+        "与41625735289附件逐行diff，仅核实变化区块"
+      ],
+      "final_status": "content_verified",
+      "review_method": "runner_text",
+      "review_run": 41792669115,
+      "reviewed_hash": "6c6f377f4e2b23e259aa572afd8fa86eedd046c210ec6aaef8d9a413e395bfcb",
+      "verified_at": "2026-11-04T09:03:33+00:00",
+      "evidence": "唯一差异为铂金赞助商标题改复数并新增 BSD Instrument、안톤파 코리아；属于赞助商，不误记主办方/讲者。会议日期、11月30日摘要截止、3月31日早鸟、组织者及人员无变；无新增截止钟点/时区。",
+      "official_quote": "Platinum Sponsors / BSD Instrument / 안톤파 코리아",
+      "evidence_links": [
+        "https://pbast10.org/",
+        "https://github.com/vickie02736/conference-reminder/actions/runs/41792669115"
+      ],
+      "unresolved_reason": null,
+      "remaining_fields": [],
+      "diff": "--- \n\n+++ \n\n@@ -38,5 +38,7 @@\n\n Submit an Abstract →\n Sponsors\n-Platinum Sponsor\n+Platinum Sponsors\n+BSD Instrument\n+안톤파 코리아\n Gold Sponsors\n SCINCO",
+      "automatic_fetch_recovered": false
+    },
+    {
+      "original_url": "https://www.date-conference.com/call-for-papers",
+      "event_id": "date-2027",
+      "original_problem": "<urlopen error [Errno 104] Connection reset by peer>",
+      "attempts": [
+        "运行器：Connection reset by peer",
+        "第一次定向重试：urlopen timed out",
+        "第二次定向重试：TLS handshake timed out",
+        "web工具原址超时",
+        "官方date27子域入口超时",
+        "官方CFP PDF超时",
+        "搜索索引可见当前届文字，仅作弱证据，不据此改事实或登记恢复"
+      ],
+      "final_status": "transport_unresolved",
+      "evidence_links": [
+        "https://www.date-conference.com/call-for-papers",
+        "https://date27.date-conference.com/call-for-papers",
+        "https://www.date-conference.com/sites/date26/files/2026-04/DATE2027-Call-for-Papers-short.pdf"
+      ],
+      "verified_at": "2026-11-04T09:06:17+00:00",
+      "evidence": "日常运行器连接被重置；本机两次项目UA重试分别超时、TLS握手超时，web直读及date27官方镜像/官方PDF也超时。搜索引擎有今日索引但不能证明当前原址传输恢复；未更改已有事实和hash。",
+      "unresolved_reason": "日常运行器连接被重置；本机两次项目UA重试分别超时、TLS握手超时，web直读及date27官方镜像/官方PDF也超时。搜索引擎有今日索引但不能证明当前原址传输恢复；未更改已有事实和hash。",
+      "automatic_fetch_recovered": false
+    }
+  ],
+  "changes": [
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "interpore2027",
+      "event_name": "InterPore2027",
+      "field": "people",
+      "before": {
+        "organizers": [
+          {
+            "name": "InterPore – International Society for Porous Media",
+            "role": "Conference organiser",
+            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Márcio Murad",
+            "role": "Local organising committee chair",
+            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+          },
+          {
+            "name": "Eduardo Abreu",
+            "role": "Local organising committee co-chair",
+            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+          }
+        ],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-10-28",
+        "status": "published",
+        "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources.",
+        "sources": [
+          "https://event.fourwaves.com/interpore2027",
+          "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+          "https://event.fourwaves.com/interpore2027/submission",
+          "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+          "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+        ]
+      },
+      "after": {
+        "organizers": [
+          {
+            "name": "InterPore – International Society for Porous Media",
+            "role": "Conference organiser",
+            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Márcio Murad",
+            "role": "Local organising committee chair",
+            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+          },
+          {
+            "name": "Eduardo Abreu",
+            "role": "Local organising committee co-chair",
+            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+          },
+          {
+            "name": "Ruben Juanes",
+            "role": "MS27 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "MIT, USA",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Marianne Peter-Borie",
+            "role": "MS27 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "Lookup Geoscience, France",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Pedro Aum",
+            "role": "MS27 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "Federal University of Pará, Brazil",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          }
+        ],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-04",
+        "status": "published",
+        "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources. Three additions in the MS27 organiser block were recorded from runner text on 4 November 2026; no individual lead designation is inferred.",
+        "sources": [
+          "https://event.fourwaves.com/interpore2027",
+          "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+          "https://event.fourwaves.com/interpore2027/submission",
+          "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+          "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+        ]
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "message": "MS27组织者区块新增 Ruben Juanes（MIT, USA）、Marianne Peter-Borie（Lookup Geoscience, France）、Pedro Aum（Federal University of Pará, Brazil），均紧随 Lead Organizer 标题及 Amir Haghi；没有分别标注三人的lead/co-organiser角色，按该区块列名保存，不推断个人负责人角色。其他正文逐行无变；摘要截止冲突仍由其他来源记录保留。"
+    },
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "agsaiml-2027",
+      "event_name": "AGSAIML 2027 — Annual Global Summit on Artificial Intelligence and Machine Learning",
+      "field": "people",
+      "before": {
+        "organizers": [
+          {
+            "name": "Vivid Global Summits",
+            "role": "Organizer listed on the conference website",
+            "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-03",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
+        "sources": [
+          "https://vividglobalsummits.com/2027/artificial-intelligence"
+        ]
+      },
+      "after": {
+        "organizers": [
+          {
+            "name": "Vivid Global Summits",
+            "role": "Organizer listed on the conference website",
+            "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+          }
+        ],
+        "committee": [],
+        "speakers": [
+          {
+            "name": "Boris Goldengorin",
+            "role": "Plenary speaker listed by the organizer",
+            "affiliation": "University of Florida, USA",
+            "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+          }
+        ],
+        "participants": [],
+        "checked_on": "2026-11-04",
+        "status": "published",
+        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted. The runner-text change on 4 November 2026 adds Boris Goldengorin under Plenary Speakers; the listed affiliation is an organizer claim, not independent institutional confirmation.",
+        "sources": [
+          "https://vividglobalsummits.com/2027/artificial-intelligence"
+        ]
+      },
+      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "message": "唯一差异为 Plenary Speakers 区块在 Invited Speakers 标题之前新增 Boris Goldengorin、University of Florida, USA 及简介。按主办方列名收录为plenary speaker及该机构，非独立机构确认或到场保证；日期、11月30日摘要截止、钟点/时区及原组织者无差异。"
+    },
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
+      "event_name": "45th RSC Solid State Chemistry Group Christmas Meeting (SSCG2026)",
+      "field": "milestones",
+      "before": [
+        {
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2026-12-15",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:conference-start",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-12-17",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:conference-end",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
+        },
+        {
+          "kind": "abstract",
+          "label": "Oral and poster abstracts",
+          "date": "2026-10-30",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:abstract",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "registration",
+          "label": "Registration",
+          "date": "2026-11-25",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:registration",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        }
+      ],
+      "after": [
+        {
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2026-12-15",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:conference-start",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2026-12-17",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:conference-end",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
+        },
+        {
+          "kind": "abstract",
+          "label": "Oral abstracts",
+          "date": "2026-11-06",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:abstract",
+          "version": 2,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "官方原文：Oral abstracts deadline: November 6th。运行器41792669115；未给钟点/时区。"
+        },
+        {
+          "kind": "registration",
+          "label": "Registration",
+          "date": "2026-11-25",
+          "time": null,
+          "timezone": null,
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:registration",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026:poster-abstract",
+          "kind": "abstract",
+          "label": "Poster abstracts",
+          "date": "2026-11-25",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+          "evidence": "官方原文：Poster abstracts remain open until registration closes；同页 Registration by November 25th，2026届。未给钟点/时区。"
+        }
+      ],
+      "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+      "message": "官方正文明确宣布摘要延期：口头摘要从10月30日改为11月6日；海报持续到注册关闭，同页注册为11月25日，因此拆分口头/海报节点。无截止钟点/时区。录用通知从11月15日变为16日，只记审计、不建提醒。会议日期、已存组织者/讲者角色及机构逐行无变。"
+    },
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
+      "event_name": "45th RSC Solid State Chemistry Group Christmas Meeting (SSCG2026)",
+      "field": "deadline",
+      "before": "Abstracts: 30 October 2026; the page header refers to oral and poster abstracts, while the Take part section repeats oral abstracts. Registration: 25 November 2026.",
+      "after": "Oral abstracts: 6 November 2026 (extended); poster abstracts and registration: 25 November 2026.",
+      "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+      "message": "官方正文明确宣布摘要延期：口头摘要从10月30日改为11月6日；海报持续到注册关闭，同页注册为11月25日，因此拆分口头/海报节点。无截止钟点/时区。录用通知从11月15日变为16日，只记审计、不建提醒。会议日期、已存组织者/讲者角色及机构逐行无变。"
+    },
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "camml2027",
+      "event_name": "Chemistry and Materials Machine Learning School — CaMML 2027",
+      "field": "milestones",
+      "before": [
+        {
+          "kind": "conference_start",
+          "label": "School starts",
+          "date": "2027-04-05",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:conference-start",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-04-09",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:conference-end",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
+        },
+        {
+          "kind": "application",
+          "label": "School applications",
+          "date": "2026-11-26",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:application",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "other",
+          "label": "Application opening",
+          "date": "2026-10-15",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:application-opening",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        }
+      ],
+      "after": [
+        {
+          "kind": "conference_start",
+          "label": "School starts",
+          "date": "2027-04-05",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:conference-start",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-04-09",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:conference-end",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the source-verified official event date range; exact end time is not published."
+        },
+        {
+          "kind": "application",
+          "label": "School applications",
+          "date": "2026-11-26",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:application",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "kind": "other",
+          "label": "Application opening",
+          "date": "2026-10-15",
+          "time": null,
+          "timezone": null,
+          "id": "camml2027:application-opening",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "The linked official source lists this date."
+        },
+        {
+          "id": "camml2027:supervisor-letter",
+          "kind": "application",
+          "label": "Supervisor letter of support",
+          "date": "2026-12-06",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://spring2027.camml.ac.uk/about/",
+          "evidence": "官方原文：All letters of support must be submitted by 6th December 2026. 运行器41792669115；未给钟点/时区。"
+        }
+      ],
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+    },
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "camml2027",
+      "event_name": "Chemistry and Materials Machine Learning School — CaMML 2027",
+      "field": "status",
+      "before": "Application availability unconfirmed: official pages disagree. Published application deadline: 26 November 2026.",
+      "after": "Applications advertised as open; published deadline: 26 November 2026. Form acceptance has not been tested.",
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+    },
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "camml2027",
+      "event_name": "Chemistry and Materials Machine Learning School — CaMML 2027",
+      "field": "note",
+      "before": "Five-day chemistry and materials machine-learning school, mainly for PhD students, covering machine-learning interatomic potentials and graph neural networks. Use the 2027 main site rather than stale linked pages; this is training, not an ordinary conference call.",
+      "after": "Five-day chemistry and materials machine-learning school, mainly for PhD students, covering machine-learning interatomic potentials and graph neural networks. Use the 2027 main site rather than stale linked pages; this is training, not an ordinary conference call. Review on 4 November 2026: the about page corrected the support-letter year to 2026 and removed its closed-registration claim. Official accommodation-night and acceptance-notification discrepancies remain unresolved.",
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+    },
+    {
+      "at": "2026-11-04T09:03:33+00:00",
+      "event_id": "camml2027",
+      "event_name": "Chemistry and Materials Machine Learning School — CaMML 2027",
+      "field": "deadline",
+      "before": "Applications: 26 November 2026. The 2027 registration page says applications open on 15 October and close on 26 November; acceptance by the form remains subject to the organiser.",
+      "after": "Applications: 26 November 2026. The 2027 registration page says applications open on 15 October and close on 26 November; acceptance by the form remains subject to the organiser. Supervisor letter of support: 6 December 2026 (corrected official year).",
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+    }
+  ],
+  "remaining_queue": [
+    {
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "event_id": "camml2027",
+      "reason": "content_conflict",
+      "message": "仍有官方冲突：住宿4晚/5晚；录用通知12月17日/19日。开放状态及推荐信年份已解决。",
+      "content_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
+      "priority": 0,
+      "next_deadline": "2026-11-26",
+      "remaining_fields": [
+        "accommodation nights: PSDI 4 vs about 5",
+        "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
+      ]
+    },
+    {
+      "source": "https://www.bmss.org.uk/biomacromolecular-structure-sig-meeting-2027/",
+      "event_id": "bmss-bioms-sig-2027",
+      "reason": "content_conflict",
+      "message": "The overview still says registration is open until 12 January 2027 while the Day 1 booking page says it closes at midnight on Tuesday 15 January 2027; no official statement resolves this.",
+      "content_hash": "2073dcabd36dcc4d9ad875834911d043d51633d2f975aaffbc4c9f5a1bda893f",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline (conflict 2027-01-12 vs 2027-01-15)"
+      ]
+    },
+    {
+      "source": "https://www.bmss.org.uk/meeting-booking/biomacromolecular-structure-training-event-2027-day-1/",
+      "event_id": "bmss-bioms-sig-2027",
+      "reason": "content_conflict",
+      "message": "The booking page's 'midnight on Tuesday 15th of January 2027' is internally inconsistent (15 January 2027 is a Friday; 12 January is a Tuesday) and contradicts the overview's 12 January; BMSS must confirm.",
+      "content_hash": "b5fcd90a1082adbe4414c23c1222a1bbf25e28fe75c25fc189e3f5a41b9fccc5",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline (conflict 2027-01-12 vs 2027-01-15)"
+      ]
+    },
+    {
+      "source": "https://cecamsimul.eu/events/events-2026",
+      "event_id": "cecam-esi-simulation-scales-2027",
+      "reason": "content_conflict",
+      "message": "The CECAM-IT-SIMUL page still returns 403 to every client (fetcher, Chrome, WebFetch, curl); the 23 August–3 September 2027 dates are only visible in a search-engine snapshot, which is weaker than the live organiser page, so the provisional status must remain.",
+      "content_hash": null,
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "start/end",
+        "registration",
+        "location/venue",
+        "people: organisers"
+      ]
+    },
+    {
+      "source": "https://www.compchemday.org/",
+      "event_id": "computational-chemistry-day-2027",
+      "reason": "content_conflict",
+      "message": "The official site still only says the 7th Computational Chemistry Day is planned for spring 2027; exact dates, venue and registration details are not yet published.",
+      "content_hash": "08e8308b4852d23cdb837ddb2d9a14652ade86d3c24fbd3252665a65be191519",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "start/end",
+        "location",
+        "registration opening/deadline",
+        "people"
+      ]
+    },
+    {
+      "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
+      "event_id": "digital-chemistry2027",
+      "reason": "content_conflict",
+      "message": "The hidden Abstract submission tab still says oral abstracts are due 'by 14 March 2027' while the Deadlines panels say '14 Dec 2026'; no dated extension notice resolves it, so the milestone must stay a conflict.",
+      "content_hash": "1e65e053e4aef49f2e068d30adea63b1145c6742d589e87bccbe7c1181fe46fe",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "oral abstract conflict (2026-12-14 vs 2027-03-14) still unresolved on official page"
+      ]
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027",
+      "event_id": "interpore2027",
+      "reason": "content_conflict",
+      "message": "The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict.",
+      "content_hash": "804aa6793402271619fdd9ecccf0567778f1f695cbb5f13f7c80266f94c7a30a",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "abstract deadline conflict (11 Jan vs 12 Jan 04:00 -03)"
+      ]
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+      "event_id": "interpore2027",
+      "reason": "content_conflict",
+      "message": "Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved.",
+      "content_hash": "89c75b9de19ce21a102af314777685bc90e37252e50cb31e02c9b717319f6da1",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "abstract deadline conflict"
+      ]
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027/submission",
+      "event_id": "interpore2027",
+      "reason": "manual_review_partial",
+      "message": "The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser.",
+      "content_hash": null,
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "abstract deadline conflict"
+      ]
+    },
+    {
+      "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "reason": "content_conflict",
+      "message": "The KCL eStore gives 8 November 2026 as the last booking date while the TYC page gives 1 November 2026 as the registration deadline; no dated extension notice resolves this, so the registration milestone should be a conflict.",
+      "content_hash": "f77c4c2c91186703a5843378e6d350e8a94eeffc1b160a81e444fa901370d45c",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline conflict: 2026-11-01 (TYC) vs 2026-11-08 (KCL eStore last booking date)"
+      ]
+    },
+    {
+      "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "reason": "content_conflict",
+      "message": "The TYC page's 1 November 2026 registration deadline conflicts with the KCL eStore's 8 November 2026 last booking date; the clock times 9:00 am / 5:00 pm are published without a time zone and were not recorded.",
+      "content_hash": "b9cbd6bf5fe1a785e1158363086b067591fc1e085c0605dc313828868d59b328",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline conflict with KCL eStore (2026-11-08)"
+      ]
+    },
+    {
+      "source": "https://www.materialsscienceconference.com/",
+      "event_id": "advanced-materials-world-congress-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "2c60b5f25df84471aecc20d2c2be76453467563a36310e73d0019735452471a7",
+      "priority": 1,
+      "next_deadline": "2026-11-13",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.chemistryconferences.com/",
+      "event_id": "advanced-chemistry-world-congress-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "bb2145a7caa617c93eeee4ebfb4e8e852b93482321450e3f472e46a2ca2a02a6",
+      "priority": 1,
+      "next_deadline": "2026-11-18",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.chemistryconferences.com/registration",
+      "event_id": "advanced-chemistry-world-congress-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "6a6f7a175ca2f6a4b75572fecc1a463c7ee0f9b55a3116a9adcd12ae94ea78d6",
+      "priority": 1,
+      "next_deadline": "2026-11-18",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.iswpm26.org/",
+      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "c9640ed542591e42baf3bc382ad2a34a1874a8d21ab5be0f967b6083d5a1ddaa",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.iswpm26.org/172246/author?version=latest",
+      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "4cf922ad34969d819278ebe569684e83bac76f879f7f2408af77c01e5e9d6c95",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "e579066b34c63c596b9fd16f18817bfcbb546e17eb711216fe7bb62c2e9875a4",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://aaai.org/conference/aaai/aaai-27/",
+      "event_id": "aaai-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "8bbb219a51f23a1d4dedaccd6325b19ca1e3d3560a4cadbe773982be55c320a5",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://aaai.org/conference/aaai/aaai-27/conference-organizers-2/",
+      "event_id": "aaai-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "05885b21416446aca20a129ae88409589305dd18cd8337acb0c62a5db92fadea",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://sites.google.com/view/ai4mat/schedule",
+      "event_id": "ai4mat-neurips-2026",
+      "reason": "observation",
+      "message": "The authoritative AI4Mat schedule sentence is missing or ambiguous.",
+      "content_hash": "5f72005e81c4ecbd5aa3588e80e3daf0df068ce0cf5638944508a0165fea609a",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.aiasplus.org/event-registration",
+      "event_id": "aias-plus-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "ee872e8843dab924b0177214b0fd711094e5419f0f116be11e7836c70682cc1a",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://artificialintelligence-forum.com/",
+      "event_id": "aiml-2027-urf",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "4fa0b49ff2294c4e1a8ef8ebc4a595a147c551dcdd069b7e0541767a95768405",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/",
+      "event_id": "applications-of-artificial-intelligence-to-process-chemistry-scientific-update",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "9a641ef41009f95bb7ac7199959b961d751291f3f04237e0415e9e1ca915721c",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+      "event_id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques",
+      "reason": "manual_review_partial",
+      "message": "The course website timed out for the daily fetcher, WebFetch (504) and curl, so the early-registration date, the limited-places status and the guest lecturer cannot be re-verified; existing facts are kept unchanged.",
+      "content_hash": null,
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "early_registration 2027-01-08",
+        "status: limited places",
+        "people.speakers: Peter Ravikovitch",
+        "people.organizers: University of Edinburgh Adsorption Group",
+        "daily schedule times"
+      ]
+    },
+    {
+      "source": "https://www.biophysics.org/upcoming-thematic-meetings/biomolecular-dynamics-integrating-experiments-and-computation",
+      "event_id": "biomolecular-dynamics-berlin-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "ef48f34ae8ebcaa018d4d66f80c7ba9b5495967afed63cfca8ceee4bae84faca",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.biophysics.org/blog/message-from-the-organizers",
+      "event_id": "bps-protons-in-biology-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "81037aeb47dffde4ad0fc4249bd48b61d0d36e739f93fc876e6aba684aabd2d4",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://fems.org/fems-euromat-2027/",
+      "event_id": "fems-euromat-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "ab0c300e416084548eac39d90c1a4352bd36e8d3d209cd2707d3ad36f8972e79",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
+      "event_id": "ibs-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/",
+      "event_id": "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "0457f68d7454612a28f6244c34d04e048c350e0d588253300de56e578f7c9a10",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
+      "event_id": "nanoporous-grc2027",
+      "reason": "manual_review_partial",
+      "message": "Chair and vice-chair names are rendered as images with no alt text; neither the full DOM text, the alt-text list, nor the GRC conference-history page (WebFetch) contains them as text, so the four committee entries still need a visual/screenshot check.",
+      "content_hash": "8f5a93cca4d73ae528a4d02e11ced3cd930a94a42b352770fc3f90a63c88f068",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "people: committee (chairs/vice chairs, names rendered as images without alt text)"
+      ]
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
+      "event_id": "nanoporous-grs2027",
+      "reason": "manual_review_partial",
+      "message": "The chair names are images with no alt text; neither the full DOM, the alt-text list nor the GRS conference-history page (WebFetch) contains them as text, so the two recorded co-chairs still need a visual check. All dates, deadlines and venue match.",
+      "content_hash": "3b2f350bffb5b64c097e8e870f5276b8ddc6043bd855830bf083bec2ecd8f6fe",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "people.committee: Hafsa Abdul Ghuffar, Haley Wellman (chair names rendered as images without alt text)"
+      ]
+    },
+    {
+      "source": "https://neurips.cc/Conferences/2026/Dates",
+      "event_id": "neurips-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "9ca0aec9aee6b794f83a1ad573d43bc3b6ef041e01f8ea1a3d8d5589aa7ac2e4",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://nips.cc/Conferences/2026",
+      "event_id": "neurips-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "ebcd841c7414dd3e9c228e7e5d1ddae85910a2fb2a9ee5d592bc63a9c6ba998c",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
+      "event_id": "pmea2028-porous-materials-for-environmental-applications",
+      "reason": "manual_review_partial",
+      "message": "The unibook.upjs.sk host times out entirely (the main www.upjs.sk site responds), so the PMEA2026 proceedings PDF and its 2028 announcement cannot be re-read; the record's unknown dates are left unchanged.",
+      "content_hash": null,
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "status: 2028 return to Slovakia announcement",
+        "location: Slovakia"
+      ]
+    },
+    {
+      "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
+      "event_id": "sampling-with-agents-2026",
+      "reason": "content_changed",
+      "message": "The TYC page only mentions the hackathon in passing (Institute of Physics, 8 December); no hackathon-specific official page with dates, registration or organisers was available, so dates remain unconfirmed.",
+      "content_hash": "66d24aaf9fb12f295c9b2668839077fc732715663929bcfdcdb8fed5706944ea",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://event-partners.com/our-shows/",
+      "event_id": "the-advanced-materials-show-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "3c82460c8cd43c5f6c58ba000e277b69d06ca52c1e21b56f97f566bf4af5f6f0",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+      "event_id": "tms2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
+      "event_id": "tyc-frontiers-molecular-sampling-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "66d24aaf9fb12f295c9b2668839077fc732715663929bcfdcdb8fed5706944ea",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    }
+  ],
+  "active_transport_issues": [
+    {
+      "source": "https://ai4science-amsterdam.github.io/news/chemai/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(15945 bytes read)"
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(15940 bytes read)"
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(15940 bytes read)"
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(7764 bytes read)"
+    },
+    {
+      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(14691 bytes read)"
+    },
+    {
+      "source": "https://cecamsimul.eu/events/events-2026",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027/submission",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+      "status": "unverifiable",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
+      "status": "unverifiable",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "source": "https://uon-comp-chem.github.io/mm2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://watoc2028.org/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+      "status": "unverifiable",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "source": "https://www.date-conference.com/call-for-papers",
+      "status": "unverifiable",
+      "reason": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.grc.org/computer-aided-drug-design-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.grc.org/computer-aided-drug-design-grs-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.grc.org/soft-condensed-matter-physics-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.grc.org/soft-condensed-matter-physics-grs-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content."
+    },
+    {
+      "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "historical_addresses": [
+    {
+      "source": "https://ai4am.net/",
+      "replacement": "https://ai4am.net/2027/index.php"
+    },
+    {
+      "source": "https://euromof2027.com/abstracts.html",
+      "replacement": "https://euromof2027.com/abstracts/"
+    },
+    {
+      "source": "https://euromof2027.com/index.html",
+      "replacement": "https://euromof2027.com/"
+    },
+    {
+      "source": "https://euromof2027.com/registration.html",
+      "replacement": "https://euromof2027.com/registration/"
+    },
+    {
+      "source": "https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc",
+      "replacement": "https://www.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc"
+    },
+    {
+      "source": "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop",
+      "replacement": null
+    },
+    {
+      "source": "https://www.cecam.org/program?location=all&month=all&page=2&type=all",
+      "replacement": null
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/",
+      "replacement": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/"
+    },
+    {
+      "source": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+      "replacement": "https://www.fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027"
+    },
+    {
+      "source": "https://euromof2027.com/committees.html",
+      "replacement": "https://euromof2027.com/committees/"
+    },
+    {
+      "source": "https://euromof2027.com/speakers.html",
+      "replacement": "https://euromof2027.com/speakers/"
+    },
+    {
+      "source": "https://www.rsc.org/getContentAsset/711ed80e-95d2-4169-905d-afa1bb46dab5/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
+      "replacement": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en"
+    }
+  ],
+  "user_decisions_required": [],
+  "publication": "验证结果完成后记录在 heartbeat-review-2026-11-04.md；只修改语义复核记录，所有来源hash保持运行器值。",
+  "validation": {
+    "node_tests": 109,
+    "python_tests": 47,
+    "catalogue": "passed",
+    "source_hashes_unchanged": true,
+    "runner_evidence_hashes_match": true
+  }
+}

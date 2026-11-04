@@ -185,7 +185,9 @@ test('concurrent oral, poster and registration routes appear separately, includi
    assert.ok(route.filters.includes('submission')); assert.ok(route.filters.includes('abstract'));
   }
  }
- const mixed=snapshotStatuses(canonical('SSCG2026'));
+ const split=snapshotStatuses(canonical('SSCG2026'));
+ assert.notEqual(split.find(s=>s.filters.includes('oral')).milestoneId,split.find(s=>s.filters.includes('poster')).milestoneId);
+ const mixed=snapshotStatuses({start:'2027-06-01',status:'Submissions open.',milestones:[phaseNode('abstract','2027-01-01','Oral and poster abstracts')]});
  assert.equal(mixed[0].milestoneId,mixed[1].milestoneId);
  assert.equal(snapshotStatuses(canonical('MC18'))[0].availability,'open');
 });
