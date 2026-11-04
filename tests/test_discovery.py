@@ -119,6 +119,16 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(result["metadata"]["result_count"], 1)
         self.assertEqual(result["candidates"][0]["status"], "needs_review")
 
+    def test_reviewed_decisions_do_not_crowd_out_fresh_pending_leads(self):
+        reviewed = [{"url": f"https://example.org/old-{i}", "name": f"Old {i}", "status": "dismissed",
+                     "score": 9, "last_seen_at": "2026-01-01T00:00:00Z"} for i in range(3)]
+        found = [{"url": f"https://example.org/new-{i}", "name": f"New {i}", "status": "needs_review",
+                  "score": 5, "queries": ["q"], "last_seen_at": f"2026-10-2{i}T00:00:00Z"} for i in range(3)]
+        merged = merge_candidates(reviewed, found, NOW, max_candidates=2)
+        self.assertEqual(sum(item["status"] == "dismissed" for item in merged), 3)
+        pending = [item["name"] for item in merged if item["status"] == "needs_review"]
+        self.assertEqual(pending, ["New 2", "New 1"])
+
 
 if __name__ == "__main__":
     unittest.main()

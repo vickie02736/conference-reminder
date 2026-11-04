@@ -213,15 +213,23 @@ def merge_candidates(previous, found, now, max_candidates=250):
             item["seen_count"] = 1
             by_url[url] = item
     candidates = list(by_url.values())
-    candidates.sort(key=lambda item: (
-        item.get("status") not in {"accepted", "dismissed"},
-        -int(item.get("score", 0)),
-        item.get("last_seen_at", ""),
-        item.get("name", "").casefold(),
-    ))
+
+    def score_of(item):
+        try:
+            return int(item.get("score", 0))
+        except (TypeError, ValueError):
+            return 0
+
+    # Highest score first; among equal scores, the most recently seen lead wins,
+    # so a stale lead never displaces a fresh one at the cap.
+    candidates.sort(key=lambda item: str(item.get("name", "")).casefold())
+    candidates.sort(key=lambda item: str(item.get("last_seen_at", "")), reverse=True)
+    candidates.sort(key=lambda item: -score_of(item))
     reviewed = [item for item in candidates if item.get("status") in {"accepted", "dismissed"}]
     pending = [item for item in candidates if item.get("status") not in {"accepted", "dismissed"}]
-    return reviewed + pending[:max(0, max_candidates - len(reviewed))]
+    # Reviewed decisions are kept indefinitely to suppress repeats. They must not
+    # use up the pending allowance, or new leads would be dropped silently.
+    return reviewed + pending[:max(0, max_candidates)]
 
 
 def expanded_queries(config, now):

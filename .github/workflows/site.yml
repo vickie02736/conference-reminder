@@ -96,7 +96,9 @@ jobs:
           pushed=
           for attempt in 1 2 3 4; do
             git fetch origin main
-            if git rebase origin/main && git push origin HEAD:main; then
+            # Re-validate the rebased data: another commit may have changed the
+            # same files, and only a valid merged catalogue may be pushed.
+            if git rebase origin/main && python scripts/validate_catalog.py && git push origin HEAD:main; then
               pushed=1
               break
             fi
@@ -104,8 +106,14 @@ jobs:
             sleep $((attempt * 4))
           done
           if [ -z "$pushed" ]; then
-            echo "::warning::Could not push catalogue updates onto main; this run will still publish the website."
+            # Never publish the unpushed bot data: it could hide a newer edit on
+            # main. Publish exactly what main contains instead.
+            git rebase --abort || true
+            git reset --hard origin/main
+            echo "::warning::Could not push catalogue updates onto main; publishing the current main branch without this run's updates."
           fi
+      - name: Validate the data about to be published
+        run: python scripts/validate_catalog.py
       - name: Assemble public website only
         run: |
           mkdir -p _site

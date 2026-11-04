@@ -12,8 +12,17 @@ const CR_ = Object.freeze({
   maxLatenessMs: 60 * 60 * 1000,
   maxMessagesPerRun: 30,
   maxRunMs: 4 * 60 * 1000,
-  dayMs: 24 * 60 * 60 * 1000
+  dayMs: 24 * 60 * 60 * 1000,
+  // Finished delivery rows are kept this long after their milestone deadline.
+  deliveryRetentionMs: 30 * 24 * 60 * 60 * 1000,
+  pruneIntervalMs: 24 * 60 * 60 * 1000
 });
+
+/** Daily sign-up cap; the owner can change it with the AUTH_DAILY_CAP script property. */
+function authDailyCap_() {
+  const value = Number(PropertiesService.getScriptProperties().getProperty('AUTH_DAILY_CAP'));
+  return Number.isInteger(value) && value > 0 && value <= 90 ? value : CR_.authDailyCap;
+}
 
 /** Run in the Apps Script editor as the owner. Creates no emails. */
 function setup() {
@@ -125,7 +134,7 @@ function getEventDetails(input) {
   return {
     event: publicEvent_(event, input && input.timeZone),
     emailEnabled: emailEnabled_(),
-    dailySignUpLimit: CR_.authDailyCap
+    dailySignUpLimit: authDailyCap_()
   };
 }
 
@@ -258,20 +267,30 @@ function unsubscribe(input) {
     const token = readToken_(input && input.token, ['manage'], now);
     const id = input && input.subscriptionId;
     if (id !== 'all' && !validId_(id)) throw new Error('Choose a subscription to cancel.');
+    const cancelled = {};
     readRecords_('Subscriptions').forEach(function (sub) {
       if (sub.email !== token.email || (id !== 'all' && sub.id !== id)) return;
       sub.status = 'cancelled';
       sub.updatedAt = now;
       saveRecord_('Subscriptions', sub);
-      invalidateVerificationTokens_(sub.id, now);
+      cancelled[sub.id] = true;
+    });
+    // Read the token and delivery tables once, not once per subscription.
+    if (Object.keys(cancelled).length) {
+      readRecords_('Tokens').forEach(function (row) {
+        if (row.purpose === 'verify' && cancelled[row.subscriptionId] && !row.usedAt) {
+          row.usedAt = now;
+          saveRecord_('Tokens', row);
+        }
+      });
       readRecords_('Deliveries').forEach(function (delivery) {
-        if (delivery.subscriptionId === sub.id && delivery.status === 'pending') {
+        if (cancelled[delivery.subscriptionId] && delivery.status === 'pending') {
           delivery.status = 'cancelled';
           delivery.updatedAt = now;
           saveRecord_('Deliveries', delivery);
         }
       });
-    });
+    }
     SpreadsheetApp.flush();
     return { message: id === 'all' ? 'All conference email subscriptions have been cancelled.' : 'This conference email subscription has been cancelled.' };
   });
@@ -289,6 +308,7 @@ function dispatchReminders_() {
   }
   return withLock_(function () {
     const now = Date.now();
+    pruneIfDue_(now);
     const deliveries = reconcile_(catalog, now);
     // A previous execution can terminate after the provider accepted an email.
     // MailApp has no idempotency key or send ID. Never automatically retry it.
@@ -509,7 +529,8 @@ function syncMilestones_(catalog, now) {
   const byId = {};
   stored.forEach(function (values, index) {
     if (!values[0]) return;
-    const record = JSON.parse(values[1]);
+    const record = parseRecord_(values[1], 'Milestones', index + 2);
+    if (!record) return;
     record._row = index + 2;
     byId[record.id] = record;
   });
@@ -705,7 +726,7 @@ function reserveAuthEmail_(email, now) {
   let start = Number(props.getProperty('AUTH_WINDOW_START') || 0);
   let count = Number(props.getProperty('AUTH_WINDOW_COUNT') || 0);
   if (!start || now - start >= CR_.dayMs) { start = now; count = 0; }
-  if (count >= CR_.authDailyCap || MailApp.getRemainingDailyQuota() <= CR_.authReserve) {
+  if (count >= authDailyCap_() || MailApp.getRemainingDailyQuota() <= CR_.authReserve) {
     throw new Error('Today’s email sign-up limit has been reached. Please try again later.');
   }
   props.setProperties({ AUTH_WINDOW_START: String(start), AUTH_WINDOW_COUNT: String(count + 1) });
@@ -809,10 +830,57 @@ function readRecords_(name) {
   if (last < 2) return [];
   return sheet.getRange(2, 1, last - 1, 2).getValues().map(function (row, index) {
     if (!row[0]) return null;
-    const record = JSON.parse(row[1]);
+    const record = parseRecord_(row[1], name, index + 2);
+    if (!record) return null;
     record._row = index + 2;
     return record;
   }).filter(function (row) { return row !== null; });
+}
+/** One damaged cell must not stop the service for every visitor; it is skipped and logged. */
+function parseRecord_(value, name, row) {
+  try {
+    const record = JSON.parse(value);
+    if (record && typeof record === 'object' && !Array.isArray(record)) return record;
+  } catch (error) { /* reported below */ }
+  console.warn('Skipped an unreadable record in ' + name + ' row ' + row + '; check it in the private sheet.');
+  return null;
+}
+/** Remove expired tokens and long-finished deliveries at most once a day. */
+function pruneIfDue_(now) {
+  const props = PropertiesService.getScriptProperties();
+  const last = Number(props.getProperty('LAST_PRUNED_AT') || 0);
+  if (last && now - last < CR_.pruneIntervalMs) return { pruned: false };
+  const tokens = pruneTable_('Tokens', function (row) {
+    return row.expiresAt <= now || (row.purpose === 'verify' && Boolean(row.usedAt));
+  });
+  const deliveries = pruneTable_('Deliveries', function (row) {
+    // Pending, sending and uncertain rows stay for dispatch or owner review.
+    if (['sent', 'cancelled', 'expired'].indexOf(row.status) < 0) return false;
+    const end = Number.isFinite(row.deadlineAt) ? row.deadlineAt : row.dueAt;
+    return Number.isFinite(end) && end < now - CR_.deliveryRetentionMs;
+  });
+  props.setProperty('LAST_PRUNED_AT', String(now));
+  return { pruned: true, tokens: tokens, deliveries: deliveries };
+}
+/** Rewrite a table without the rows `remove` matches. Unreadable rows are kept for the owner. */
+function pruneTable_(name, remove) {
+  const sheet = database_().getSheetByName(name);
+  if (!sheet) throw new Error('The subscription database is not initialized.');
+  const last = sheet.getLastRow();
+  if (last < 2) return 0;
+  const values = sheet.getRange(2, 1, last - 1, 2).getValues();
+  const kept = values.filter(function (row) {
+    if (!row[0]) return false;
+    let record = null;
+    try { record = JSON.parse(row[1]); } catch (error) { return true; }
+    return !(record && typeof record === 'object' && remove(record));
+  });
+  const removed = values.filter(function (row) { return row[0]; }).length - kept.length;
+  if (!removed) return 0;
+  const blank = values.map(function () { return ['', '']; });
+  sheet.getRange(2, 1, values.length, 2).setValues(blank);
+  if (kept.length) sheet.getRange(2, 1, kept.length, 2).setValues(kept);
+  return removed;
 }
 function saveRecord_(name, record) {
   const sheet = database_().getSheetByName(name);

@@ -699,3 +699,65 @@ test('doGet honours the manage-reminders view used by the public website', () =>
   assert.equal(JSON.parse(h.state.bootstrap).view, '');
   assert.equal(JSON.parse(h.state.bootstrap).eventId, 'event-one');
 });
+
+test('daily pruning removes expired tokens and long-finished deliveries but keeps live records', () => {
+  const h = harness();
+  h.activate();
+  h.state.now = Date.parse('2026-11-02T09:05:00Z');
+  h.app.dispatchReminders_();
+  assert.equal(h.records('Deliveries')[0].status, 'sent');
+  assert.equal(h.records('Tokens').filter((row) => row.purpose === 'verify').length, 0, 'used verification tokens are pruned');
+  const manage = h.records('Tokens').filter((row) => row.purpose === 'manage').length;
+  assert.ok(manage >= 1);
+  // Within a day nothing more is pruned; 30+ days after the deadline the sent row goes.
+  h.state.now = Date.parse('2026-12-10T12:00:00Z');
+  h.app.dispatchReminders_();
+  assert.equal(h.records('Deliveries').length, 0);
+  assert.equal(h.records('Tokens').filter((row) => row.purpose === 'manage').length, manage, 'unexpired management links stay valid');
+  assert.equal(h.records('Subscriptions')[0].status, 'active');
+  assert.equal(h.state.properties.LAST_PRUNED_AT, String(h.state.now));
+});
+
+test('pruning keeps pending and uncertain deliveries', () => {
+  const h = harness();
+  h.activate();
+  const sheet = h.state.sheets.get('Deliveries');
+  const row = JSON.parse(sheet.rows[1][1]);
+  sheet.rows.push([row.id + '-u', JSON.stringify({ ...row, id: row.id + '-u', status: 'uncertain', deadlineAt: 0, dueAt: 0 })]);
+  h.state.now = Date.parse('2026-10-28T12:00:00Z');
+  h.app.pruneIfDue_(h.state.now);
+  assert.deepEqual(h.records('Deliveries').map((r) => r.status).sort(), ['pending', 'uncertain']);
+});
+
+test('one unreadable sheet row is skipped instead of breaking the service, and is never pruned', () => {
+  const h = harness();
+  h.activate();
+  h.state.sheets.get('Subscriptions').rows.push(['broken-row', '{not json']);
+  h.state.now += 10 * 60 * 1000;
+  assert.doesNotThrow(() => h.app.requestManagementLink({ email: 'reader@example.com', company: '' }));
+  h.state.now = Date.parse('2026-11-02T09:05:00Z');
+  h.app.dispatchReminders_();
+  assert.ok(h.state.sheets.get('Subscriptions').rows.some((row) => row[0] === 'broken-row'));
+});
+
+test('the owner can lower the daily sign-up cap with a script property', () => {
+  const h = harness();
+  h.state.properties.AUTH_DAILY_CAP = '1';
+  h.subscribe({ email: 'first@example.com' });
+  assert.throws(() => h.app.subscribe(h.preferences({ email: 'second@example.com' })), /sign-up limit/);
+  assert.equal(h.app.getEventDetails({ eventId: 'event-one' }).dailySignUpLimit, 1);
+  h.state.properties.AUTH_DAILY_CAP = 'not-a-number';
+  assert.equal(h.app.getEventDetails({ eventId: 'event-one' }).dailySignUpLimit, 20);
+});
+
+test('unsubscribe cancels every pending delivery and verification link for that email in one pass', () => {
+  const h = harness();
+  const token = h.activate();
+  h.state.now += 10 * 60 * 1000;
+  h.app.requestManagementLink({ email: 'reader@example.com', company: '' });
+  const manage = h.state.mails.at(-1).body.match(/token=([a-f0-9]{64})/)[1];
+  h.app.unsubscribe({ token: manage, subscriptionId: 'all' });
+  assert.ok(h.records('Subscriptions').every((row) => row.status === 'cancelled'));
+  assert.ok(h.records('Deliveries').every((row) => row.status === 'cancelled'));
+  assert.throws(() => h.app.verifySubscription({ token }), /invalid or expired|no longer active/);
+});
