@@ -2,7 +2,7 @@
 
 [Visit the website](https://vickie02736.github.io/conference-reminder/)
 
-An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The research snapshot includes **166 dated activities (including 2 finished meetings kept for reference) and 8 announcements awaiting confirmed dates**. Conference dates were initially researched on 27 October 2026; molecular and atomistic simulation coverage was expanded on 2 November 2026 with 33 dated activities and six pending announcements. Each entry records its own verification date. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
+An English conference catalogue for AI, AI for Materials, MOF/COF, porous materials, adsorption and simulation, with a focus on the UK and Europe. The research snapshot includes **170 dated activities (including 2 finished meetings kept for reference) and 9 announcements awaiting confirmed dates**. On 4 November 2026, five self-driving-laboratory and lab-automation activities were added: the TU Darmstadt Self-Driving Laboratories Workshop, SLAS Europe 2027, SLAS2027, the ACerS Spring Meeting 2027 AI/ML for Materials Discovery symposium, and the ICMAT 2027 self-driving labs symposium (dates pending). Conference dates were initially researched on 27 October 2026; molecular and atomistic simulation coverage was expanded on 2 November 2026 with 33 dated activities and six pending announcements. Each entry records its own verification date. It is a curated collection rather than an exhaustive search engine. Associated workshops, schools and GRC/GRS meetings can be separate entries.
 
 The [simulation coverage review](research/simulation-expansion-2026-11-02.md) records the sources searched, inclusion rules and unresolved announcements. New activities include molecular dynamics, enhanced sampling, free energies, multiscale modelling, computational chemistry, biomolecular simulation and relevant soft-matter meetings. Vendor training and broader adjacent conferences are labelled in their research-fit notes. Conflicting deadlines and dates visible only in indexed announcements remain unavailable for reminders until verified.
 
@@ -77,16 +77,18 @@ npm run serve
 
 Check official sources locally with `python3 scripts/update_catalog.py`; add `--dry-run` to report without saving. Only supported facts are automatically changed. Tests use saved fixtures and mocked Google services, without sending emails.
 
-### 来源语义复核：以运行器正文为准
+### Semantic source review: use the runner's text
 
-从独立工作树开始，先 `git pull`；提交前再次拉取，避免覆盖其他维护者的更新。不要对原工作目录执行 stash 或 reset。
+Work from a separate worktree and `git pull` first; pull again before committing so you do not overwrite another maintainer's updates. Do not stash or reset the original working directory.
 
-1. 用 `gh run list --workflow site.yml -L 5` 找最近实际执行来源检查的定时运行或 `refresh_sources=true` 手动运行。用 `gh run download <运行编号> -n source-text -D /tmp/source-text-<运行编号>` 下载附件（保留 7 天）。先确认 `index.json` 的 URL 哈希与当前 `data/source-checks.json` 一致；不一致应换用更新运行的附件。
-2. 按 `data/review-progress.json` 的 `(event_id, source)` 队列，将附件指定的完整正文与此前运行正文逐行比较，只核对差异涉及的日期、钟点、时区、截止、状态、人员及机构。事实修改须有官方原文引用；冲突保持 `conflict`，不推断钟点或时区；录用通知不建提醒节点。
-3. 完成核实的来源活动检查写入 `review_required=false`、`reason=null`、`message=null`，`reviewed_hash` 直接采用匹配附件中的值，`reviewed_at` 用实际 UTC 时间，`review_method="runner_text"`、`review_run` 用运行编号，`evidence` 保存中文证据摘要。部分核实仍保留未解字段。重算活动的 `check.status` 与 `check.message`，再运行 `python3 scripts/review_backlog.py`。
-4. 附件 `ok=false` 且没有正文文件时可用浏览器核实，记录 `review_method="browser"` 并在证据中说明；保留原有可信事实，不写入或修改来源哈希。新增或替换 URL 只写检查记录，下一次日常检查自行建立首个哈希基准。
-5. 验证码、计数器、随机令牌等持续噪声应在 `VOLATILE_TEXT` 中增加精确模式并补回归测试，使用附件正文迁移受影响的已存哈希；不能用本机正文登记已完成复核或每天手动结案。
+1. Use `gh run list --workflow site.yml -L 5` to find the latest scheduled run, or manual run with `refresh_sources=true`, that actually checked sources. Download its artifact with `gh run download <run-id> -n source-text -D /tmp/source-text-<run-id>` (kept for 7 days). First confirm that the URL hashes in `index.json` match the current `data/source-checks.json`; if they do not, use the artifact from a newer run.
+2. Work through the `(event_id, source)` queue in `data/review-progress.json`. Compare the full text named in the artifact line by line with the previous run's text, and check only the dates, times, time zones, deadlines, statuses, people and affiliations the differences touch. Every fact change needs an official quotation; conflicts stay `conflict`, times and time zones are never inferred, and acceptance notifications get no reminder milestone.
+3. For each verified source/activity check, write `review_required=false`, `reason=null`, `message=null`; set `reviewed_hash` to the value from the matching artifact, `reviewed_at` to the actual UTC time, `review_method="runner_text"`, `review_run` to the run ID, and an **English** evidence summary in `evidence`. A partial review keeps its unresolved fields. Recompute the activity's `check.status` and `check.message`, then run `python3 scripts/review_backlog.py`.
+4. When the artifact has `ok=false` and no text file, verify in a browser instead: record `review_method="browser"` and say so in the evidence; keep the existing trusted facts and do not write or change source hashes. For a new or replaced URL, write only the check record; the next daily check sets the first hash baseline itself.
+5. Persistent noise such as CAPTCHAs, counters or random tokens needs an exact pattern in `VOLATILE_TEXT` with a regression test, and the affected stored hashes must be migrated using the artifact text. Never record a completed review, or close items manually each day, using text fetched on your own machine.
 
-提交前必须通过 `npm test` 与 `python3 scripts/validate_catalog.py`；推送后确认发布及线上数据一致。历史复核记录保持原样，纠正记录应另存并保留前后来源。
+All website-facing text (notes, statuses, evidence, check messages and update messages) must be written in English.
+
+Before committing, `npm test` and `python3 scripts/validate_catalog.py` must pass; after pushing, confirm that the published site and live data match. Leave historical review records unchanged; store corrections separately, keeping the before and after sources.
 
 GitHub Pages uses **GitHub Actions**, not legacy branch publishing. The combined workflow validates and tests changes, optionally updates catalogue data with a normal commit, and explicitly deploys only `index.html`, `config.json`, `assets/` and `data/`. Email service code, tests, owner documentation and research intermediates are excluded from the public Pages artifact. A bot data commit alone would not trigger legacy Pages publishing.

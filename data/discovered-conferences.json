@@ -39,7 +39,7 @@
       "user_decision": "add",
       "catalogue_event_id": "date-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原始标题仍写 DATE 2026；当前官网已明确切换到 DATE 2027，可按新届收录。",
+      "review_note": "The original title still says DATE 2026; the official site has clearly moved to DATE 2027, so the new edition can be added.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-02857a320f106a9bbd70",
       "review_history": [
@@ -48,7 +48,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "原始标题仍写 DATE 2026；当前官网已明确切换到 DATE 2027，可按新届收录。",
+          "reason": "The original title still says DATE 2026; the official site has clearly moved to DATE 2027, so the new edition can be added.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -106,7 +106,7 @@
       "seen_count": 6,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "iConf 的 2027 AI 会议汇总文章，包含多场会议。",
+      "review_note": "iConf's 2027 AI conference round-up article covering several conferences.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-20d2a23719421211a7b6",
       "review_history": [
@@ -115,7 +115,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "iConf 的 2027 AI 会议汇总文章，包含多场会议。",
+          "reason": "iConf's 2027 AI conference round-up article covering several conferences.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -145,7 +145,7 @@
       "seen_count": 2,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Academic.net 的多会议推荐文章，不能作为单个活动入库。",
+      "review_note": "Academic.net's multi-conference recommendation article; it cannot be added as a single activity.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-2235961da368852f8468",
       "review_history": [
@@ -154,7 +154,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Academic.net 的多会议推荐文章，不能作为单个活动入库。",
+          "reason": "Academic.net's multi-conference recommendation article; it cannot be added as a single activity.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -190,7 +190,7 @@
       "duplicate_of_candidate_ids": [],
       "catalogue_event_id": "icml-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "候选标题还是 2026，官网已更新为 2027；目录已有 icml-2027 待定记录，应建议更新原条目。",
+      "review_note": "The candidate title still says 2026 and the official site has moved to 2027; the catalogue already has a pending icml-2027 entry, which should be updated instead.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-fc4bd523b7c5fd4fde0f",
       "review_history": [
@@ -199,7 +199,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "候选标题还是 2026，官网已更新为 2027；目录已有 icml-2027 待定记录，应建议更新原条目。",
+          "reason": "The candidate title still says 2026 and the official site has moved to 2027; the catalogue already has a pending icml-2027 entry, which should be updated instead.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -231,7 +231,7 @@
       "user_decision": "add",
       "catalogue_event_id": "aim-2027-usg",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官网给出本届日期、地点和主办方，可建议收录；与候选 18 为同一活动。",
+      "review_note": "The official site gives this edition's dates, venue and organiser, so it can be recommended for inclusion; same activity as candidate 18.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-50fac426b76b18d66764",
       "review_history": [
@@ -240,7 +240,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "官网给出本届日期、地点和主办方，可建议收录；与候选 18 为同一活动。",
+          "reason": "The official site gives this edition's dates, venue and organiser, so it can be recommended for inclusion; same activity as candidate 18.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -322,7 +322,7 @@
       "user_decision": "add",
       "catalogue_event_id": "icfmce-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "第三方候选页报错，但已找到并读取本届中英文官网对应中文公告。",
+      "review_note": "The third-party candidate page returned an error, but the matching Chinese-language announcement on this edition's bilingual official site was found and read.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-88b807d9c6d7d09cf0ad",
       "review_history": [
@@ -331,7 +331,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "第三方候选页报错，但已找到并读取本届中英文官网对应中文公告。",
+          "reason": "The third-party candidate page returned an error, but the matching Chinese-language announcement on this edition's bilingual official site was found and read.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -384,7 +384,7 @@
       "user_decision": "add",
       "catalogue_event_id": "aiche-annual-meeting-2026",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原候选日程站点已重定向到动态页面；AIChE 官方注册页确认本届安排且注册开放。",
+      "review_note": "The original programme site now redirects to a dynamic page; the official AIChE registration page confirms this edition's arrangements and that registration is open.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-0f41a21b007894439833",
       "review_history": [
@@ -393,7 +393,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "原候选日程站点已重定向到动态页面；AIChE 官方注册页确认本届安排且注册开放。",
+          "reason": "The original programme site now redirects to a dynamic page; the official AIChE registration page confirms this edition's arrangements and that registration is open.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -447,7 +447,7 @@
       "seen_count": 20,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "2026 Spring 旧届 CFP；官方搜索结果指向已结束的 4–5 月活动，原页及替代页面无法完整读取。",
+      "review_note": "Old Spring 2026 CFP; official search results point to the finished April–May event, and neither the original nor the replacement page could be read in full.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-5f82516f5e38f38fa156",
       "review_history": [
@@ -456,7 +456,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "2026 Spring 旧届 CFP；官方搜索结果指向已结束的 4–5 月活动，原页及替代页面无法完整读取。",
+          "reason": "Old Spring 2026 CFP; official search results point to the finished April–May event, and neither the original nor the replacement page could be read in full.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -514,7 +514,7 @@
       "seen_count": 21,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "RSC Publishing 的 collection 路径为期刊专题合集；与会议相关也不等于独立会议。原页 403，未把摘要当作日期证据。",
+      "review_note": "The RSC Publishing collection path is a themed journal collection; being conference-related does not make it a separate conference. The original page returns 403, and the snippet was not used as date evidence.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-ad2162c6f10472f84d92",
       "review_history": [
@@ -523,7 +523,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "RSC Publishing 的 collection 路径为期刊专题合集；与会议相关也不等于独立会议。原页 403，未把摘要当作日期证据。",
+          "reason": "The RSC Publishing collection path is a themed journal collection; being conference-related does not make it a separate conference. The original page returns 403, and the snippet was not used as date evidence.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -582,7 +582,7 @@
       "duplicate_of_candidate_ids": [],
       "catalogue_event_id": "ijcai-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "与正式目录 ijcai-2027 同届同 CFP，无需新建。",
+      "review_note": "Same edition and CFP as catalogue entry ijcai-2027; no new entry needed.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-e32917cba0c0c427e2be",
       "review_history": [
@@ -591,7 +591,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "与正式目录 ijcai-2027 同届同 CFP，无需新建。",
+          "reason": "Same edition and CFP as catalogue entry ijcai-2027; no new entry needed.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -645,7 +645,7 @@
       "user_decision": "add",
       "catalogue_event_id": "stoc-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "ACM 官方 CFP 明确届次和日期；可按学习理论相关会议收录。",
+      "review_note": "The official ACM CFP states the edition and dates; can be added as a learning-theory conference.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-ac1235c9c71d687556c2",
       "review_history": [
@@ -654,7 +654,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "ACM 官方 CFP 明确届次和日期；可按学习理论相关会议收录。",
+          "reason": "The official ACM CFP states the edition and dates; can be added as a learning-theory conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -683,7 +683,7 @@
       "seen_count": 1,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "iConf 的 AI／材料会议推荐文章，非单个活动。",
+      "review_note": "iConf's AI/materials conference recommendation article, not a single activity.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-729a11d0c7d8106427f9",
       "review_history": [
@@ -692,7 +692,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "iConf 的 AI／材料会议推荐文章，非单个活动。",
+          "reason": "iConf's AI/materials conference recommendation article, not a single activity.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -722,7 +722,7 @@
       "user_decision": "add",
       "catalogue_event_id": "innovatex-ai-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "主办方站点已公布本届日期、城市和委员会名单；可作为商业会议建议收录。",
+      "review_note": "The organiser's site has published this edition's dates, city and committee; can be recommended as a commercial conference.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-141d67a9e4ff5883e109",
       "review_history": [
@@ -731,7 +731,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "主办方站点已公布本届日期、城市和委员会名单；可作为商业会议建议收录。",
+          "reason": "The organiser's site has published this edition's dates, city and committee; can be recommended as a commercial conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -761,7 +761,7 @@
       "user_decision": "add",
       "catalogue_event_id": "aiml-2027-urf",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "候选标题 2026 已过时，当前首页和 Important Dates 均为 2027。",
+      "review_note": "The 2026 candidate title is outdated; the current homepage and Important Dates both show 2027.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-8104b928f2e827af0565",
       "review_history": [
@@ -770,7 +770,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "候选标题 2026 已过时，当前首页和 Important Dates 均为 2027。",
+          "reason": "The 2026 candidate title is outdated; the current homepage and Important Dates both show 2027.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -800,7 +800,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "RSC Digital Discovery 的博客首页，混合文章合集与活动报道。",
+      "review_note": "RSC Digital Discovery's blog homepage, mixing article collections and event reports.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-939af8b5f30feb5be929",
       "review_history": [
@@ -809,7 +809,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "RSC Digital Discovery 的博客首页，混合文章合集与活动报道。",
+          "reason": "RSC Digital Discovery's blog homepage, mixing article collections and event reports.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -916,7 +916,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Machine Intelligence Research 的新闻列表条目；标题为 2026 AI 会议列表，当前正文仅部分加载。",
+      "review_note": "A news-list entry from Machine Intelligence Research; the title is a list of 2026 AI conferences and the body only partly loads.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-806cf64f818a0e00ceed",
       "review_history": [
@@ -925,7 +925,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Machine Intelligence Research 的新闻列表条目；标题为 2026 AI 会议列表，当前正文仅部分加载。",
+          "reason": "A news-list entry from Machine Intelligence Research; the title is a list of 2026 AI conferences and the body only partly loads.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -962,7 +962,7 @@
       ],
       "catalogue_event_id": "aim-2027-usg",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "与候选 4 的官网首页是同一 AIM 2027；仅增加说明页证据，不计第二场。",
+      "review_note": "Same AIM 2027 as the official homepage in candidate 4; it only adds an information-page source and is not a second event.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-5f6f42f4a33631443e4f",
       "review_history": [
@@ -971,7 +971,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "与候选 4 的官网首页是同一 AIM 2027；仅增加说明页证据，不计第二场。",
+          "reason": "Same AIM 2027 as the official homepage in candidate 4; it only adds an information-page source and is not a second event.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1001,7 +1001,7 @@
       "user_decision": "add",
       "catalogue_event_id": "artificial-intelligence-2027-noveltics",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "主办方明确公布本届会期与城市；与候选 20 为不同届，不能直接合并。",
+      "review_note": "The organiser clearly publishes this edition's dates and city; it is a different edition from candidate 20 and cannot be merged directly.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-186157f04294abd715c4",
       "review_history": [
@@ -1010,7 +1010,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "主办方明确公布本届会期与城市；与候选 20 为不同届，不能直接合并。",
+          "reason": "The organiser clearly publishes this edition's dates and city; it is a different edition from candidate 20 and cannot be merged directly.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1089,7 +1089,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "第三方活动正文明确为 2026 年 7 月旧届；主办方网站现为 2027 Barcelona 新届。",
+      "review_note": "The third-party event text is clearly the earlier July 2026 edition; the organiser's site now shows the new 2027 Barcelona edition.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-312a9278bcc0e32a7a00",
       "review_history": [
@@ -1098,7 +1098,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "第三方活动正文明确为 2026 年 7 月旧届；主办方网站现为 2027 Barcelona 新届。",
+          "reason": "The third-party event text is clearly the earlier July 2026 edition; the organiser's site now shows the new 2027 Barcelona edition.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1127,7 +1127,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Linux Foundation 站点上的多会议日历，不是一个会议；其列出的外部活动不等于基金会主办。",
+      "review_note": "A multi-conference calendar on the Linux Foundation site, not one conference; listed external events are not necessarily Foundation-organised.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-795ebf6e4df047c2e40c",
       "review_history": [
@@ -1136,7 +1136,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Linux Foundation 站点上的多会议日历，不是一个会议；其列出的外部活动不等于基金会主办。",
+          "reason": "A multi-conference calendar on the Linux Foundation site, not one conference; listed external events are not necessarily Foundation-organised.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1191,7 +1191,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原始标题和路径指向 Open Data Science 的多会议文章；请求返回 520，内容未核实，不按一场会议收录。",
+      "review_note": "The original title and path point to an Open Data Science multi-conference article; the request returned 520 and the content is unverified, so it is not added as one conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-a397ddc54966f8fc64cf",
       "review_history": [
@@ -1200,7 +1200,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "原始标题和路径指向 Open Data Science 的多会议文章；请求返回 520，内容未核实，不按一场会议收录。",
+          "reason": "The original title and path point to an Open Data Science multi-conference article; the request returned 520 and the content is unverified, so it is not added as one conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1233,7 +1233,7 @@
         "web-c84e179e4f128e519f78"
       ],
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "第三方转录对应候选 78 的官方 TMS 活动；本届已结束，合并后不建议新增。",
+      "review_note": "A third-party transcription of the official TMS event in candidate 78; this edition has finished, so after merging no new entry is recommended.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-49e59e5b5d0ff1bbf3c6",
       "review_history": [
@@ -1242,7 +1242,7 @@
           "action": "dismissed_duplicate_of_excluded",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "第三方转录对应候选 78 的官方 TMS 活动；本届已结束，合并后不建议新增。",
+          "reason": "A third-party transcription of the official TMS event in candidate 78; this edition has finished, so after merging no new entry is recommended.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1298,7 +1298,7 @@
       "seen_count": 1,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官方本届页面确认会议已于 2026 年 2 月结束。",
+      "review_note": "The official edition page confirms the meeting finished in February 2026.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-373fd4d6a90b3fc2b839",
       "review_history": [
@@ -1307,7 +1307,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "官方本届页面确认会议已于 2026 年 2 月结束。",
+          "reason": "The official edition page confirms the meeting finished in February 2026.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1364,7 +1364,7 @@
       "seen_count": 7,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Eventify 的多会议指南，页面范围已更新到 2027 年底。",
+      "review_note": "Eventify's multi-conference guide; its scope now runs to the end of 2027.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-33509885afd4f7b1c7ba",
       "review_history": [
@@ -1373,7 +1373,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Eventify 的多会议指南，页面范围已更新到 2027 年底。",
+          "reason": "Eventify's multi-conference guide; its scope now runs to the end of 2027.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1402,7 +1402,7 @@
       "seen_count": 5,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的 porous-materials 分类目录；403，不按一场会议收录。",
+      "review_note": "Conference Index's porous-materials category directory; 403, not added as a single conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-feb351a2e9a58792d4ca",
       "review_history": [
@@ -1411,7 +1411,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的 porous-materials 分类目录；403，不按一场会议收录。",
+          "reason": "Conference Index's porous-materials category directory; 403, not added as a single conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1443,7 +1443,7 @@
       "user_decision": "add",
       "catalogue_event_id": "mlsys-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官网本届首页与正确的研究 CFP 均已读取；投稿截止已过仍可收录为参会线索。",
+      "review_note": "Both the edition's official homepage and the correct research CFP were read; the submission deadline has passed, but it can still be included as an attendance lead.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-a1198279abf03d2c2090",
       "review_history": [
@@ -1452,7 +1452,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "官网本届首页与正确的研究 CFP 均已读取；投稿截止已过仍可收录为参会线索。",
+          "reason": "Both the edition's official homepage and the correct research CFP were read; the submission deadline has passed, but it can still be included as an attendance lead.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1486,7 +1486,7 @@
       "duplicate_of_candidate_ids": [],
       "catalogue_event_id": "nanoporous-grc2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "与正式目录 nanoporous-grc2027 同届；不要与前置 GRS 合并。",
+      "review_note": "Same edition as catalogue entry nanoporous-grc2027; do not merge it with the preceding GRS.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-48a963a930677b91fb01",
       "review_history": [
@@ -1495,7 +1495,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "与正式目录 nanoporous-grc2027 同届；不要与前置 GRS 合并。",
+          "reason": "Same edition as catalogue entry nanoporous-grc2027; do not merge it with the preceding GRS.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1574,7 +1574,7 @@
       "seen_count": 5,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Splunk 的 AI 会议推荐文章，非具体会议官网。",
+      "review_note": "Splunk's AI conference recommendation article, not a specific conference website.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-f2bc4ffc6339faab400c",
       "review_history": [
@@ -1583,7 +1583,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Splunk 的 AI 会议推荐文章，非具体会议官网。",
+          "reason": "Splunk's AI conference recommendation article, not a specific conference website.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1613,7 +1613,7 @@
       "seen_count": 6,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "NIST 官方旧届页面，不是 2026／2027 新会议。",
+      "review_note": "An official NIST page for an earlier edition, not a new 2026/2027 meeting.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-8f164f40d6a6fd901f55",
       "review_history": [
@@ -1622,7 +1622,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "NIST 官方旧届页面，不是 2026／2027 新会议。",
+          "reason": "An official NIST page for an earlier edition, not a new 2026/2027 meeting.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1651,7 +1651,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官方页面确认本届已结束；不把相关会议区的 2027 日期当作本届延期。",
+      "review_note": "The official page confirms this edition has finished; 2027 dates in the related-meetings area are not treated as a postponement of this edition.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-14c01b53a8ef17528eee",
       "review_history": [
@@ -1660,7 +1660,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "官方页面确认本届已结束；不把相关会议区的 2027 日期当作本届延期。",
+          "reason": "The official page confirms this edition has finished; 2027 dates in the related-meetings area are not treated as a postponement of this edition.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1740,7 +1740,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "同届会议的 WikiCFP 版本此前被你明确排除；此次官网重现不自动推翻决定。",
+      "review_note": "The WikiCFP version of the same edition was previously excluded at your explicit request; its reappearance via the official site does not automatically reverse that decision.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-660a180635f1b9a8d1ba",
       "review_history": [
@@ -1749,7 +1749,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "同届会议的 WikiCFP 版本此前被你明确排除；此次官网重现不自动推翻决定。",
+          "reason": "The WikiCFP version of the same edition was previously excluded at your explicit request; its reappearance via the official site does not automatically reverse that decision.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1779,7 +1779,7 @@
       "user_decision": "add",
       "catalogue_event_id": "agsaiml-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官网明确本届会期与城市；按商业会议单独标注。",
+      "review_note": "The official site states this edition's dates and city; labelled separately as a commercial conference.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-d5d5adefc49ccd14b399",
       "review_history": [
@@ -1788,7 +1788,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "官网明确本届会期与城市；按商业会议单独标注。",
+          "reason": "The official site states this edition's dates and city; labelled separately as a commercial conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1818,7 +1818,7 @@
       "seen_count": 14,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Underleaf 的多会议截止日期表；表内未知或旧周期日期不能直接导入正式目录。",
+      "review_note": "Underleaf's multi-conference deadline table; unknown or old-cycle dates in it cannot be imported into the catalogue directly.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-bc77b3f908f6db1310b7",
       "review_history": [
@@ -1827,7 +1827,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Underleaf 的多会议截止日期表；表内未知或旧周期日期不能直接导入正式目录。",
+          "reason": "Underleaf's multi-conference deadline table; unknown or old-cycle dates in it cannot be imported into the catalogue directly.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1856,7 +1856,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "OpenCurious 的多会议倒计时工具；与 ICML 官网的本届信息存在差异，不能代替官方来源。",
+      "review_note": "OpenCurious's multi-conference countdown tool; it differs from the ICML official site's current details and cannot replace an official source.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-56fe59fe1de4f7ffad50",
       "review_history": [
@@ -1865,7 +1865,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "OpenCurious 的多会议倒计时工具；与 ICML 官网的本届信息存在差异，不能代替官方来源。",
+          "reason": "OpenCurious's multi-conference countdown tool; it differs from the ICML official site's current details and cannot replace an official source.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1894,7 +1894,7 @@
       "seen_count": 7,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "AgentConfs 的年度会议索引，列出数百条活动；非具体会议。",
+      "review_note": "AgentConfs' yearly conference index listing hundreds of events; not a specific conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-d648e819482ea2f24337",
       "review_history": [
@@ -1903,7 +1903,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "AgentConfs 的年度会议索引，列出数百条活动；非具体会议。",
+          "reason": "AgentConfs' yearly conference index listing hundreds of events; not a specific conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1936,7 +1936,7 @@
       "seen_count": 32,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "AI Deadlines 的多会议截止日期工具，含跨年度记录和未确认日期。",
+      "review_note": "AI Deadlines' multi-conference deadline tool, including cross-year records and unconfirmed dates.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-b3bd86ffad02ac7dbd7a",
       "review_history": [
@@ -1945,7 +1945,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "AI Deadlines 的多会议截止日期工具，含跨年度记录和未确认日期。",
+          "reason": "AI Deadlines' multi-conference deadline tool, including cross-year records and unconfirmed dates.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -1974,7 +1974,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的 AI 分类目录；正文 403，按目录类型排除。",
+      "review_note": "Conference Index's AI category directory; the body returns 403, excluded as a directory.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-3c42f4dbc2e9d9dec6fc",
       "review_history": [
@@ -1983,7 +1983,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的 AI 分类目录；正文 403，按目录类型排除。",
+          "reason": "Conference Index's AI category directory; the body returns 403, excluded as a directory.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2012,7 +2012,7 @@
       "seen_count": 6,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的美国 AI 分类目录；正文 403，按目录类型排除。",
+      "review_note": "Conference Index's US AI category directory; the body returns 403, excluded as a directory.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-111dac5e9fe5a239c7c5",
       "review_history": [
@@ -2021,7 +2021,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的美国 AI 分类目录；正文 403，按目录类型排除。",
+          "reason": "Conference Index's US AI category directory; the body returns 403, excluded as a directory.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2050,7 +2050,7 @@
       "seen_count": 6,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "第三方链接 404；NIST 官方对应活动确认已结束，且官方版本此前已排除。",
+      "review_note": "The third-party link returns 404; the matching official NIST event is confirmed finished, and the official version was previously excluded.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-942d92094d5641142921",
       "review_history": [
@@ -2059,7 +2059,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "第三方链接 404；NIST 官方对应活动确认已结束，且官方版本此前已排除。",
+          "reason": "The third-party link returns 404; the matching official NIST event is confirmed finished, and the official version was previously excluded.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2121,7 +2121,7 @@
       "duplicate_of_candidate_ids": [],
       "catalogue_event_id": "chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "与现有正式目录同一官方 URL 的 www／非 www 变体；已收录，无需新增。",
+      "review_note": "A www/non-www variant of the same official URL as an existing catalogue entry; already included, no new entry needed.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-5c5fe3fd8ee703c7e44d",
       "review_history": [
@@ -2130,7 +2130,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "与现有正式目录同一官方 URL 的 www／非 www 变体；已收录，无需新增。",
+          "reason": "A www/non-www variant of the same official URL as an existing catalogue entry; already included, no new entry needed.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2162,7 +2162,7 @@
       "seen_count": 34,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "补查 www 版 FDA 页面确认是已结束的 2026 届，与目录 2027 届不同。",
+      "review_note": "Checking the www version of the FDA page confirms it is the finished 2026 edition, different from the 2027 edition in the catalogue.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-6cb4326b571e1fb0963c",
       "review_history": [
@@ -2171,7 +2171,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "补查 www 版 FDA 页面确认是已结束的 2026 届，与目录 2027 届不同。",
+          "reason": "Checking the www version of the FDA page confirms it is the finished 2026 edition, different from the 2027 edition in the catalogue.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2229,7 +2229,7 @@
       "seen_count": 30,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的 computational-chemistry 分类目录；正文 403，按目录类型排除。",
+      "review_note": "Conference Index's computational-chemistry category directory; the body returns 403, excluded as a directory.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-1c0b2cf933a6abfd29d8",
       "review_history": [
@@ -2238,7 +2238,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的 computational-chemistry 分类目录；正文 403，按目录类型排除。",
+          "reason": "Conference Index's computational-chemistry category directory; the body returns 403, excluded as a directory.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2294,7 +2294,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "National Academies 的项目活动归档页列出多次 2026 年早期会议；不是新的一场已确定活动。",
+      "review_note": "A National Academies project-events archive listing several early-2026 meetings; not a new confirmed activity.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-f1f3f699989e1f23aef9",
       "review_history": [
@@ -2303,7 +2303,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "National Academies 的项目活动归档页列出多次 2026 年早期会议；不是新的一场已确定活动。",
+          "reason": "A National Academies project-events archive listing several early-2026 meetings; not a new confirmed activity.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2333,7 +2333,7 @@
       "user_decision": "add",
       "catalogue_event_id": "ai-ml-2027-cognition",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "本届日期、城市、运营方和注册页面均可核实。",
+      "review_note": "This edition's dates, city, operator and registration page are all verifiable.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-c7591c01d3b6b7389500",
       "review_history": [
@@ -2342,7 +2342,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "本届日期、城市、运营方和注册页面均可核实。",
+          "reason": "This edition's dates, city, operator and registration page are all verifiable.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2378,7 +2378,7 @@
       "duplicate_of_candidate_ids": [],
       "catalogue_event_id": "mof2028",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "来源是系列列表，其中下一届 MOF2028 已在目录；列表本身不另建活动。",
+      "review_note": "The source is a series list whose next edition, MOF2028, is already in the catalogue; the list itself is not a separate activity.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-61eec2686833e0066102",
       "review_history": [
@@ -2387,7 +2387,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "来源是系列列表，其中下一届 MOF2028 已在目录；列表本身不另建活动。",
+          "reason": "The source is a series list whose next edition, MOF2028, is already in the catalogue; the list itself is not a separate activity.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2417,7 +2417,7 @@
       "seen_count": 14,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的 machine-learning 分类目录；正文 403，按目录类型排除。",
+      "review_note": "Conference Index's machine-learning category directory; the body returns 403, excluded as a directory.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-9074c5d8ffcadd36a959",
       "review_history": [
@@ -2426,7 +2426,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的 machine-learning 分类目录；正文 403，按目录类型排除。",
+          "reason": "Conference Index's machine-learning category directory; the body returns 403, excluded as a directory.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2456,7 +2456,7 @@
       "user_decision": "add",
       "catalogue_event_id": "materials-science-2027-src",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官网已给出本届日期、城市、主办说明与初步议程。",
+      "review_note": "The official site gives this edition's dates, city, organiser statement and preliminary programme.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-80c8b942e8c35ccc2f1e",
       "review_history": [
@@ -2465,7 +2465,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "官网已给出本届日期、城市、主办说明与初步议程。",
+          "reason": "The official site gives this edition's dates, city, organiser statement and preliminary programme.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2494,7 +2494,7 @@
       "seen_count": 2,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "失效 eventscloud 链接对应的会议官网仍可读；旧届已结束且此前被排除。",
+      "review_note": "The conference site behind the dead eventscloud link is still readable; the earlier edition has finished and was previously excluded.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-d29b3ef43aa2a1f6c5b1",
       "review_history": [
@@ -2503,7 +2503,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "失效 eventscloud 链接对应的会议官网仍可读；旧届已结束且此前被排除。",
+          "reason": "The conference site behind the dead eventscloud link is still readable; the earlier edition has finished and was previously excluded.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2560,7 +2560,7 @@
       "seen_count": 22,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的 molecular-dynamics 分类目录；403，非单场会议。",
+      "review_note": "Conference Index's molecular-dynamics category directory; 403, not a single conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-447e983fa809a2c5cfdd",
       "review_history": [
@@ -2569,7 +2569,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的 molecular-dynamics 分类目录；403，非单场会议。",
+          "reason": "Conference Index's molecular-dynamics category directory; 403, not a single conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2602,7 +2602,7 @@
       "seen_count": 24,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的美国 molecular-dynamics 分类目录；403，非单场会议。",
+      "review_note": "Conference Index's US molecular-dynamics category directory; 403, not a single conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-9fa125c4df62f65f865d",
       "review_history": [
@@ -2611,7 +2611,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的美国 molecular-dynamics 分类目录；403，非单场会议。",
+          "reason": "Conference Index's US molecular-dynamics category directory; 403, not a single conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2642,7 +2642,7 @@
       "seen_count": 18,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "NextMove Software 的出席／活动列表包含多场会议，不能整体作为一个活动。",
+      "review_note": "NextMove Software's attendance/events list covers several conferences and cannot be treated as one activity.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-110a137fea42b1098151",
       "review_history": [
@@ -2651,7 +2651,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "NextMove Software 的出席／活动列表包含多场会议，不能整体作为一个活动。",
+          "reason": "NextMove Software's attendance/events list covers several conferences and cannot be treated as one activity.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2682,7 +2682,7 @@
       "user_decision": "add",
       "catalogue_event_id": "physical-theoretical-chemistry-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原链接为 molecular-dynamics 专题；主会首页可读，建议只收录主会一次，与候选 54 合并。",
+      "review_note": "The original link is a molecular-dynamics session; the main conference homepage is readable, so add only the main conference once and merge with candidate 54.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-21c17745142e252f46fe",
       "review_history": [
@@ -2691,7 +2691,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "原链接为 molecular-dynamics 专题；主会首页可读，建议只收录主会一次，与候选 54 合并。",
+          "reason": "The original link is a molecular-dynamics session; the main conference homepage is readable, so add only the main conference once and merge with candidate 54.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2727,7 +2727,7 @@
       ],
       "catalogue_event_id": "physical-theoretical-chemistry-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "与候选 22 属同一 Physical Chemistry 2027 主会；AI/data-driven-chemistry 是另一专题，不应重复收录。",
+      "review_note": "Same Physical Chemistry 2027 main conference as candidate 22; AI/data-driven chemistry is another session and should not be added twice.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-e1461f6e5bb4dbe225cb",
       "review_history": [
@@ -2736,7 +2736,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "与候选 22 属同一 Physical Chemistry 2027 主会；AI/data-driven-chemistry 是另一专题，不应重复收录。",
+          "reason": "Same Physical Chemistry 2027 main conference as candidate 22; AI/data-driven chemistry is another session and should not be added twice.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2766,7 +2766,7 @@
       "user_decision": "add",
       "catalogue_event_id": "chemistry-world-conference-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原链接是理论／计算化学专题，主会和 Important Dates 确认可收录的主会身份。",
+      "review_note": "The original link is a theoretical/computational chemistry session; the main conference and Important Dates confirm the main conference can be added.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-734562f82673ef618004",
       "review_history": [
@@ -2775,7 +2775,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "原链接是理论／计算化学专题，主会和 Important Dates 确认可收录的主会身份。",
+          "reason": "The original link is a theoretical/computational chemistry session; the main conference and Important Dates confirm the main conference can be added.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2806,7 +2806,7 @@
       "seen_count": 24,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的 theoretical-chemistry 分类目录；正文 403，按目录类型排除。",
+      "review_note": "Conference Index's theoretical-chemistry category directory; the body returns 403, excluded as a directory.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-eff8269d5a7028d5771d",
       "review_history": [
@@ -2815,7 +2815,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的 theoretical-chemistry 分类目录；正文 403，按目录类型排除。",
+          "reason": "Conference Index's theoretical-chemistry category directory; the body returns 403, excluded as a directory.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2847,7 +2847,7 @@
       "user_decision": "add",
       "catalogue_event_id": "ai-machine-learning-2027-conference-series",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官网当前会期、地点和主办方明确，可标为商业会议。",
+      "review_note": "The official site clearly gives the current dates, venue and organiser; can be labelled a commercial conference.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-0383dfcb8aba4f6e7520",
       "review_history": [
@@ -2856,7 +2856,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "官网当前会期、地点和主办方明确，可标为商业会议。",
+          "reason": "The official site clearly gives the current dates, venue and organiser; can be labelled a commercial conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2885,7 +2885,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "DSC Next 的 2026 多会议博客；页眉虽更新为 2027 活动，正文仍为旧年度推荐清单。",
+      "review_note": "DSC Next's 2026 multi-conference blog; the header now mentions 2027 events, but the body is still the old yearly recommendation list.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-60e13466d07eb50bada7",
       "review_history": [
@@ -2894,7 +2894,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "DSC Next 的 2026 多会议博客；页眉虽更新为 2027 活动，正文仍为旧年度推荐清单。",
+          "reason": "DSC Next's 2026 multi-conference blog; the header now mentions 2027 events, but the body is still the old yearly recommendation list.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2923,7 +2923,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "专题页属于已结束且此前被排除的 FEZA 2026。",
+      "review_note": "The session page belongs to FEZA 2026, which has finished and was previously excluded.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-60a6e97cb3fd90a0bf20",
       "review_history": [
@@ -2932,7 +2932,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "专题页属于已结束且此前被排除的 FEZA 2026。",
+          "reason": "The session page belongs to FEZA 2026, which has finished and was previously excluded.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -2962,7 +2962,7 @@
       "user_decision": "add",
       "catalogue_event_id": "wcamd-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "主办方首页明确本届会期与城市。",
+      "review_note": "The organiser's homepage clearly states this edition's dates and city.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-2fe128a08d4344bb7c17",
       "review_history": [
@@ -2971,7 +2971,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "主办方首页明确本届会期与城市。",
+          "reason": "The organiser's homepage clearly states this edition's dates and city.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3000,7 +3000,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "All Conference Alert 的 artificial-intelligence 分类目录；403，非单场会议。",
+      "review_note": "All Conference Alert's artificial-intelligence category directory; 403, not a single conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-98e5562c98f3a682f432",
       "review_history": [
@@ -3009,7 +3009,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "All Conference Alert 的 artificial-intelligence 分类目录；403，非单场会议。",
+          "reason": "All Conference Alert's artificial-intelligence category directory; 403, not a single conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3061,7 +3061,7 @@
       "user_decision": "add",
       "catalogue_event_id": "ieee-ssci-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "IEEE 官方站已确认本届会期；多个应用计算智能分会与范围相关。",
+      "review_note": "The official IEEE site confirms this edition's dates; several applied computational-intelligence symposia are in scope.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-057f547d2647086edcab",
       "review_history": [
@@ -3070,7 +3070,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "IEEE 官方站已确认本届会期；多个应用计算智能分会与范围相关。",
+          "reason": "The official IEEE site confirms this edition's dates; several applied computational-intelligence symposia are in scope.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3099,7 +3099,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "OSTI 的材料信息学教育论文记录，不是会议报名或本届公告。",
+      "review_note": "An OSTI record of a materials-informatics education paper, not a conference registration or edition announcement.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-a1012dc2fc5f4a11b7e3",
       "review_history": [
@@ -3108,7 +3108,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "OSTI 的材料信息学教育论文记录，不是会议报名或本届公告。",
+          "reason": "An OSTI record of a materials-informatics education paper, not a conference registration or edition announcement.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3134,7 +3134,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原列表页只返回极少文本；对应会议网站确认旧届已经结束。",
+      "review_note": "The original list page returns very little text; the matching conference site confirms the earlier edition has finished.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-0ac2983c9fbd04fa3ed3",
       "review_history": [
@@ -3143,7 +3143,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "原列表页只返回极少文本；对应会议网站确认旧届已经结束。",
+          "reason": "The original list page returns very little text; the matching conference site confirms the earlier edition has finished.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3172,7 +3172,7 @@
       "seen_count": 4,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Amazon 的沸石／MOF 会议论文集商品页面，不是即将举行的会议。",
+      "review_note": "An Amazon product page for zeolite/MOF conference proceedings, not an upcoming conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-a20c8fc1b588af6d1e25",
       "review_history": [
@@ -3181,7 +3181,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Amazon 的沸石／MOF 会议论文集商品页面，不是即将举行的会议。",
+          "reason": "An Amazon product page for zeolite/MOF conference proceedings, not an upcoming conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3207,7 +3207,7 @@
       "seen_count": 1,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "ConferenceLists 的材料科学分类目录；返回 429，不能按一场会议入库。",
+      "review_note": "ConferenceLists' materials-science category directory; returns 429 and cannot be added as one conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-051cf133ef38c35c9db7",
       "review_history": [
@@ -3216,7 +3216,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "ConferenceLists 的材料科学分类目录；返回 429，不能按一场会议入库。",
+          "reason": "ConferenceLists' materials-science category directory; returns 429 and cannot be added as one conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3243,7 +3243,7 @@
       "user_decision": "add",
       "catalogue_event_id": "aias-plus-2026",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官方 workshop 征集正文明确主会时间、城市；AI for Science 与研究范围直接相关。",
+      "review_note": "The official workshop call clearly states the main conference dates and city; AI for Science is directly within scope.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-55546ff02251c9d5cde3",
       "review_history": [
@@ -3252,7 +3252,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "官方 workshop 征集正文明确主会时间、城市；AI for Science 与研究范围直接相关。",
+          "reason": "The official workshop call clearly states the main conference dates and city; AI for Science is directly within scope.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3278,7 +3278,7 @@
       "seen_count": 1,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "ML-conferences 仓库汇集多个会议，部分 2027 日期明确为 estimated；不是独立会议。",
+      "review_note": "The ML-conferences repository aggregates many conferences, with some 2027 dates explicitly marked estimated; not a single conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-74765ece22f89e8f1713",
       "review_history": [
@@ -3287,7 +3287,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "ML-conferences 仓库汇集多个会议，部分 2027 日期明确为 estimated；不是独立会议。",
+          "reason": "The ML-conferences repository aggregates many conferences, with some 2027 dates explicitly marked estimated; not a single conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3314,7 +3314,7 @@
       "user_decision": "add",
       "catalogue_event_id": "ai-drug-discovery-development-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "候选标题为 2026，官网在保留 2026 内容的同时明确宣布 2027 下一届；建议只录新届。",
+      "review_note": "The candidate title says 2026; the official site keeps 2026 content but clearly announces the next 2027 edition, so add only the new edition.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-fb70a77abc8311ae2955",
       "review_history": [
@@ -3323,7 +3323,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "候选标题为 2026，官网在保留 2026 内容的同时明确宣布 2027 下一届；建议只录新届。",
+          "reason": "The candidate title says 2026; the official site keeps 2026 content but clearly announces the next 2027 edition, so add only the new edition.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3349,7 +3349,7 @@
       "seen_count": 3,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "WASET molecular-dynamics 分类目录；403，本条没有指定唯一届次和城市。",
+      "review_note": "WASET molecular-dynamics category directory; 403, and this entry names no single edition or city.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-853bdcc369cc912f6f74",
       "review_history": [
@@ -3358,7 +3358,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "WASET molecular-dynamics 分类目录；403，本条没有指定唯一届次和城市。",
+          "reason": "WASET molecular-dynamics category directory; 403, and this entry names no single edition or city.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3384,7 +3384,7 @@
       "seen_count": 7,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "WASET molecular-modeling 分类目录；403，本条没有指定唯一届次和城市。",
+      "review_note": "WASET molecular-modelling category directory; 403, and this entry names no single edition or city.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-e7c8336d6e33c27f3418",
       "review_history": [
@@ -3393,7 +3393,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "WASET molecular-modeling 分类目录；403，本条没有指定唯一届次和城市。",
+          "reason": "WASET molecular-modelling category directory; 403, and this entry names no single edition or city.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3421,7 +3421,7 @@
       "user_decision": "add",
       "catalogue_event_id": "materials-science-engineering-2027-coalesce",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官网明确会期、城市、主题和主办方链接。",
+      "review_note": "The official site clearly states the dates, city, topics and organiser link.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-691ae2e1a9ca08b650aa",
       "review_history": [
@@ -3430,7 +3430,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "官网明确会期、城市、主题和主办方链接。",
+          "reason": "The official site clearly states the dates, city, topics and organiser link.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3459,7 +3459,7 @@
       "user_decision": "add",
       "catalogue_event_id": "advanced-chemistry-world-congress-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "标题看似泛化目录，但正文为一个明确的 2027 化学主会，不能仅凭标题排除。",
+      "review_note": "The title looks like a generic directory, but the body describes one specific 2027 chemistry conference, so it should not be excluded on the title alone.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-83aed8d8ad084f172578",
       "review_history": [
@@ -3468,7 +3468,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "标题看似泛化目录，但正文为一个明确的 2027 化学主会，不能仅凭标题排除。",
+          "reason": "The title looks like a generic directory, but the body describes one specific 2027 chemistry conference, so it should not be excluded on the title alone.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3496,7 +3496,7 @@
       "seen_count": 18,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "AAAI 官方页面确认该系列活动已结束。",
+      "review_note": "The official AAAI page confirms this series of events has finished.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-a9716b790e2a45e2f129",
       "review_history": [
@@ -3505,7 +3505,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "AAAI 官方页面确认该系列活动已结束。",
+          "reason": "The official AAAI page confirms this series of events has finished.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3535,7 +3535,7 @@
       "seen_count": 30,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Bibby 的多学科倒计时工具含 EST. 估计日期，不能直接作为会议证据。",
+      "review_note": "Bibby's multi-discipline countdown tool contains EST. estimated dates and cannot be used directly as conference evidence.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-760a3924cf8a24fc9142",
       "review_history": [
@@ -3544,7 +3544,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Bibby 的多学科倒计时工具含 EST. 估计日期，不能直接作为会议证据。",
+          "reason": "Bibby's multi-discipline countdown tool contains EST. estimated dates and cannot be used directly as conference evidence.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3575,7 +3575,7 @@
       "duplicate_of_candidate_ids": [],
       "catalogue_event_id": "ai4mat-neurips-2026",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "已在目录 ai4mat-neurips-2026；与 NeurIPS 主会保持单独条目。",
+      "review_note": "Already in the catalogue as ai4mat-neurips-2026; kept as a separate entry from the NeurIPS main conference.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-bcea4d35a4c19afb4279",
       "review_history": [
@@ -3584,7 +3584,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "已在目录 ai4mat-neurips-2026；与 NeurIPS 主会保持单独条目。",
+          "reason": "Already in the catalogue as ai4mat-neurips-2026; kept as a separate entry from the NeurIPS main conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3636,7 +3636,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "TMS 官网明确旧届日期与注册已关闭；活动已结束。",
+      "review_note": "The official TMS site clearly gives the earlier edition's dates and that registration has closed; the event has finished.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-c84e179e4f128e519f78",
       "review_history": [
@@ -3645,7 +3645,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "TMS 官网明确旧届日期与注册已关闭；活动已结束。",
+          "reason": "The official TMS site clearly gives the earlier edition's dates and that registration has closed; the event has finished.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3672,7 +3672,7 @@
       "seen_count": 20,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "对应官网确认旧届已结束；原候选泛化标题不应掩盖具体旧届身份。",
+      "review_note": "The matching official site confirms the earlier edition has finished; the generic candidate title should not hide the specific past edition.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-db49c96574e3d2666844",
       "review_history": [
@@ -3681,7 +3681,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "对应官网确认旧届已结束；原候选泛化标题不应掩盖具体旧届身份。",
+          "reason": "The matching official site confirms the earlier edition has finished; the generic candidate title should not hide the specific past edition.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3708,7 +3708,7 @@
       "seen_count": 20,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Call4Paper 的学科筛选结果包含多场会议和期刊征稿。",
+      "review_note": "Call4Paper's subject-filter results include several conferences and journal calls.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-7ea2c50c27beee67c564",
       "review_history": [
@@ -3717,7 +3717,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Call4Paper 的学科筛选结果包含多场会议和期刊征稿。",
+          "reason": "Call4Paper's subject-filter results include several conferences and journal calls.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3743,7 +3743,7 @@
       "seen_count": 6,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原链接位于 /archive/2025-mrs-fall-meeting/，属于 2025 旧届，不是已收录的 2026 Fall。",
+      "review_note": "The original link is under /archive/2025-mrs-fall-meeting/, the 2025 edition, not the catalogued 2026 Fall Meeting.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-540b082015dbe765d629",
       "review_history": [
@@ -3752,7 +3752,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "原链接位于 /archive/2025-mrs-fall-meeting/，属于 2025 旧届，不是已收录的 2026 Fall。",
+          "reason": "The original link is under /archive/2025-mrs-fall-meeting/, the 2025 edition, not the catalogued 2026 Fall Meeting.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3779,7 +3779,7 @@
       "user_decision": "add",
       "catalogue_event_id": "ieee-icc-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "IEEE 官方 CFP 明确本届会期和 AI／通信主题；可收录为交叉方向，相关性低于材料会议。",
+      "review_note": "The official IEEE CFP states this edition's dates and AI/communications themes; can be added as a cross-disciplinary meeting, less relevant than the materials conferences.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-c93c99f4838824e96963",
       "review_history": [
@@ -3788,7 +3788,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "IEEE 官方 CFP 明确本届会期和 AI／通信主题；可收录为交叉方向，相关性低于材料会议。",
+          "reason": "The official IEEE CFP states this edition's dates and AI/communications themes; can be added as a cross-disciplinary meeting, less relevant than the materials conferences.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3815,7 +3815,7 @@
       "seen_count": 9,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "标题为 CAMSE，正文却复制 CHENG，存在名称混用；两场对应官网都确认 2026-07-28 至 07-29 已结束。",
+      "review_note": "The title says CAMSE but the body copies CHENG, mixing names; both official sites confirm the 28–29 July 2026 events have finished.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-df929a5fe446e56d8657",
       "review_history": [
@@ -3824,7 +3824,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "标题为 CAMSE，正文却复制 CHENG，存在名称混用；两场对应官网都确认 2026-07-28 至 07-29 已结束。",
+          "reason": "The title says CAMSE but the body copies CHENG, mixing names; both official sites confirm the 28–29 July 2026 events have finished.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3854,7 +3854,7 @@
       "seen_count": 13,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "专题页页头明确属于 Eurocatalysis-2026；会期已经过去，不把旁栏其他会议日期当成本会。",
+      "review_note": "The session page header clearly belongs to Eurocatalysis-2026; its dates have passed, and other conference dates in the sidebar are not treated as this meeting's.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-779b04bb18b2d0ef6065",
       "review_history": [
@@ -3863,7 +3863,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "专题页页头明确属于 Eurocatalysis-2026；会期已经过去，不把旁栏其他会议日期当成本会。",
+          "reason": "The session page header clearly belongs to Eurocatalysis-2026; its dates have passed, and other conference dates in the sidebar are not treated as this meeting's.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3891,7 +3891,7 @@
       "user_decision": "add",
       "catalogue_event_id": "chemistry-meeting-2027-conference-series",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原链接是计算化学／AI专题，主会官网给出独立可识别的活动。",
+      "review_note": "The original link is a computational chemistry/AI session; the main conference site gives a separately identifiable activity.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-800503c17cd056b758b9",
       "review_history": [
@@ -3900,7 +3900,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "原链接是计算化学／AI专题，主会官网给出独立可识别的活动。",
+          "reason": "The original link is a computational chemistry/AI session; the main conference site gives a separately identifiable activity.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3926,7 +3926,7 @@
       "seen_count": 10,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Journal of Cheminformatics 的 CAiSMD 2026 报道，正文确认活动在 2026-03-24 至 03-26 举行。",
+      "review_note": "Journal of Cheminformatics' report on CAiSMD 2026; the text confirms the event was held on 24–26 March 2026.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-d0171d6e83820a0be525",
       "review_history": [
@@ -3935,7 +3935,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Journal of Cheminformatics 的 CAiSMD 2026 报道，正文确认活动在 2026-03-24 至 03-26 举行。",
+          "reason": "Journal of Cheminformatics' report on CAiSMD 2026; the text confirms the event was held on 24–26 March 2026.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -3961,7 +3961,7 @@
       "seen_count": 6,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官方页面明确是 2025 旧届，已结束。",
+      "review_note": "The official page clearly shows the earlier 2025 edition, which has finished.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-726825a3bf3a5f48662c",
       "review_history": [
@@ -3970,7 +3970,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "官方页面明确是 2025 旧届，已结束。",
+          "reason": "The official page clearly shows the earlier 2025 edition, which has finished.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4001,7 +4001,7 @@
       "duplicate_of_candidate_ids": [],
       "catalogue_event_id": "materials-2027-magnus",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "已在正式目录 materials-2027-magnus，且是你此前明确要求添加的主会。",
+      "review_note": "Already in the catalogue as materials-2027-magnus, the main conference you previously asked to add.",
       "review_decision": "duplicate",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-019d322696b853305dd5",
       "review_history": [
@@ -4010,7 +4010,7 @@
           "action": "linked_duplicate",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "已在正式目录 materials-2027-magnus，且是你此前明确要求添加的主会。",
+          "reason": "Already in the catalogue as materials-2027-magnus, the main conference you previously asked to add.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4039,7 +4039,7 @@
       "user_decision": "add",
       "catalogue_event_id": "material-science-engineering-2027-conference-series",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "原链接为 computational-materials-and-ai 专题，建议并入明确的主会。",
+      "review_note": "The original link is a computational-materials-and-AI session; recommend merging it into the clearly identified main conference.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-d153486281b0f944417b",
       "review_history": [
@@ -4048,7 +4048,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "原链接为 computational-materials-and-ai 专题，建议并入明确的主会。",
+          "reason": "The original link is a computational-materials-and-AI session; recommend merging it into the clearly identified main conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4076,7 +4076,7 @@
       "seen_count": 30,
       "user_decision": "exclude",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Conference Index 的 molecular-modeling 分类目录；403，非单场会议。",
+      "review_note": "Conference Index's molecular-modeling category directory; 403, not a single conference.",
       "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-7bb62277d1fd050e6bb5",
       "review_history": [
@@ -4085,7 +4085,7 @@
           "action": "dismissed",
           "previous_status": "needs_review",
           "status": "dismissed",
-          "reason": "Conference Index 的 molecular-modeling 分类目录；403，非单场会议。",
+          "reason": "Conference Index's molecular-modeling category directory; 403, not a single conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4114,7 +4114,7 @@
       "user_decision": "add",
       "catalogue_event_id": "advanced-materials-world-congress-2027",
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "虽原始标题为 2026 推广标题，当前正文明确 2027 届；并非纯汇总站。",
+      "review_note": "Although the original title is a 2026 promotional title, the current body clearly describes the 2027 edition; it is not just an aggregator.",
       "review_decision": "add",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-c848fa0c0973e23a6c89",
       "review_history": [
@@ -4123,7 +4123,7 @@
           "action": "added",
           "previous_status": "needs_review",
           "status": "accepted",
-          "reason": "虽原始标题为 2026 推广标题，当前正文明确 2027 届；并非纯汇总站。",
+          "reason": "Although the original title is a 2026 promotional title, the current body clearly describes the 2027 edition; it is not just an aggregator.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4198,7 +4198,7 @@
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 10,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "第三方记录为 11 月 20–22 日，当前官网为 11 月 27–29 日；需明确改期及组织身份。",
+      "review_note": "The third-party record says 20–22 November but the current official site says 27–29 November; the rescheduling and organiser identity need confirming.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-adf266bc953ad3d8f563",
       "review_history": [
@@ -4207,7 +4207,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "第三方记录为 11 月 20–22 日，当前官网为 11 月 27–29 日；需明确改期及组织身份。",
+          "reason": "The third-party record says 20–22 November but the current official site says 27–29 November; the rescheduling and organiser identity need confirming.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4259,7 +4259,7 @@
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 2,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "官网将在线主会和多个异地 symposium 放在同表，尚不能视为一场英国／欧洲实体会议。",
+      "review_note": "The official site lists the online main meeting and several symposia in other places in one table, so it cannot yet be treated as a single in-person UK/European conference.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-9801a5323c537feb5c3f",
       "review_history": [
@@ -4268,7 +4268,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "官网将在线主会和多个异地 symposium 放在同表，尚不能视为一场英国／欧洲实体会议。",
+          "reason": "The official site lists the online main meeting and several symposia in other places in one table, so it cannot yet be treated as a single in-person UK/European conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4319,7 +4319,7 @@
       "first_seen_at": "2026-11-01T07:35:21Z",
       "seen_count": 4,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "www 官网可读并给出日期，但城市、场地和本届组织身份仍不足。",
+      "review_note": "The www official site is readable and gives dates, but the city, venue and this edition's organiser identity are still insufficient.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-bff8868cbdcbc8b5923d",
       "review_history": [
@@ -4328,7 +4328,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "www 官网可读并给出日期，但城市、场地和本届组织身份仍不足。",
+          "reason": "The www official site is readable and gives dates, but the city, venue and this edition's organiser identity are still insufficient.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4591,7 +4591,7 @@
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 10,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "大学页超时，mofes26 主页 404／conference 页不可读；历史记录显示同届已排除，但本次证据不足以重新确认。",
+      "review_note": "The university page timed out and the mofes26 homepage returns 404 with an unreadable conference page; history shows the same edition was excluded, but this check cannot reconfirm it.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-5e59b0f4402c8b1854a4",
       "review_history": [
@@ -4600,7 +4600,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "大学页超时，mofes26 主页 404／conference 页不可读；历史记录显示同届已排除，但本次证据不足以重新确认。",
+          "reason": "The university page timed out and the mofes26 homepage returns 404 with an unreadable conference page; history shows the same edition was excluded, but this check cannot reconfirm it.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4674,7 +4674,7 @@
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 10,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "专题页 404，主站仅显示 update soon，不能核实会期、地点或本届身份。",
+      "review_note": "The session page returns 404 and the main site only says update soon, so dates, venue and edition cannot be verified.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-dabe00b2b83fb5227771",
       "review_history": [
@@ -4683,7 +4683,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "专题页 404，主站仅显示 update soon，不能核实会期、地点或本届身份。",
+          "reason": "The session page returns 404 and the main site only says update soon, so dates, venue and edition cannot be verified.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4756,7 +4756,7 @@
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 2,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "链接 403，网页读取工具也无法访问；候选标题只有平台名。",
+      "review_note": "The link returns 403 and the page-reading tool also cannot access it; the candidate title is only a platform name.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-153e65bcf0fc88bf2c04",
       "review_history": [
@@ -4765,7 +4765,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "链接 403，网页读取工具也无法访问；候选标题只有平台名。",
+          "reason": "The link returns 403 and the page-reading tool also cannot access it; the candidate title is only a platform name.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4795,7 +4795,7 @@
       "seen_count": 7,
       "reviewed_at": "2026-11-03T00:39:14Z",
       "user_decision": "keep",
-      "review_note": "你此前明确要求保留；本次官方系列页已能读到两个届次，但仍需决定具体届次并核实学术组织／议程。",
+      "review_note": "You previously asked to keep this; the official series page now shows two editions, but the specific edition still needs choosing and its academic organisers/programme verifying.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-ee952f78c6c39a1c9167",
       "review_history": [
@@ -4804,7 +4804,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "你此前明确要求保留；本次官方系列页已能读到两个届次，但仍需决定具体届次并核实学术组织／议程。",
+          "reason": "You previously asked to keep this; the official series page now shows two editions, but the specific edition still needs choosing and its academic organisers/programme verifying.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -4996,7 +4996,7 @@
       "first_seen_at": "2026-10-31T07:01:19Z",
       "seen_count": 6,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "专题和主会直连反复超时；网页读取工具只返回导航，无法重证具体本届事实。",
+      "review_note": "Direct connections to the session and main conference repeatedly time out; the page-reading tool only returns navigation, so this edition's facts cannot be re-verified.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-c7872ee3f5561b878abf",
       "review_history": [
@@ -5005,7 +5005,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "专题和主会直连反复超时；网页读取工具只返回导航，无法重证具体本届事实。",
+          "reason": "Direct connections to the session and main conference repeatedly time out; the page-reading tool only returns navigation, so this edition's facts cannot be re-verified.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]
@@ -5074,7 +5074,7 @@
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 9,
       "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "主页及抽象提交页写 4 月12–14 日，注册页正文另写 March 2027；主办合作和日期冲突需要澄清。",
+      "review_note": "The homepage and abstract submission page say 12–14 April, while the registration page says March 2027; the organising partnership and date conflict need clarifying.",
       "review_decision": "pending",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-8d4004f733312453aeb0",
       "review_history": [
@@ -5083,7 +5083,7 @@
           "action": "retained_pending",
           "previous_status": "needs_review",
           "status": "needs_review",
-          "reason": "主页及抽象提交页写 4 月12–14 日，注册页正文另写 March 2027；主办合作和日期冲突需要澄清。",
+          "reason": "The homepage and abstract submission page say 12–14 April, while the registration page says March 2027; the organising partnership and date conflict need clarifying.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
         }
       ]

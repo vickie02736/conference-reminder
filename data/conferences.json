@@ -419,8 +419,8 @@
           "final_sources": [
             "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
           ],
-          "verified": "2026-11-23 至 2026-11-27，Liverpool；申请已关闭，申请截止 2026-08-24；7 位讲者和具名组织委员会可读。",
-          "remaining": "现有 urllib 监测仍连接重置；全天事件元数据不作精确时刻使用。",
+          "verified": "23–27 November 2026, Liverpool; applications closed (deadline 24 August 2026); 7 speakers and the named organising committee are readable.",
+          "remaining": "The existing urllib monitor still gets a connection reset; all-day event metadata is not used as an exact time.",
           "automatic_fetch": "curl_verified_monitor_reset",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -1484,7 +1484,7 @@
           "source": "https://sscg.uk/2026-sscg-christmas-meeting",
           "precision": "date",
           "status": "verified",
-          "evidence": "官方原文：Oral abstracts deadline: November 6th。运行器41792669115；未给钟点/时区。"
+          "evidence": "Official text: \"Oral abstracts deadline: November 6th\". Runner 41792669115; no time or time zone given."
         },
         {
           "kind": "registration",
@@ -1510,7 +1510,7 @@
           "status": "verified",
           "version": 1,
           "source": "https://sscg.uk/2026-sscg-christmas-meeting",
-          "evidence": "官方原文：Poster abstracts remain open until registration closes；同页 Registration by November 25th，2026届。未给钟点/时区。"
+          "evidence": "Official text: \"Poster abstracts remain open until registration closes\"; the same page says \"Registration by November 25th\" (2026 edition). No time or time zone given."
         }
       ],
       "people": {
@@ -2269,8 +2269,8 @@
           "final_sources": [
             "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
           ],
-          "verified": "2027-01-22，Imperial College London；正文与 API 元数据写 10:00–16:00，详细议程却写 16:30 Close。",
-          "remaining": "结束时间冲突仍保留，里程碑维持日期精度；现有 urllib 监测再次连接重置，不能称日常抓取已稳定。",
+          "verified": "22 January 2027, Imperial College London; the body text and API metadata say 10:00–16:00, but the detailed programme says 16:30 Close.",
+          "remaining": "The end-time conflict remains, so milestones keep date precision; the existing urllib monitor got another connection reset, so daily fetching cannot yet be called stable.",
           "automatic_fetch": "curl_verified_monitor_reset",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -2418,8 +2418,8 @@
           "final_sources": [
             "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027"
           ],
-          "verified": "报名页确认 2027-02-16 至 2027-02-18，与课程正文一致；主办者 Stefano Brandani、Enzo Mangano 匹配；最后报名日 2027-02-12。",
-          "remaining": "旧表的 Tuesday 17th/Wednesday 18th/Thursday 19th 与 2026 年星期相符，结合报名页判为旧表未同步（推断）；不把旧日程钟点迁到 2027 年。",
+          "verified": "The booking page confirms 16–18 February 2027, consistent with the course text; organisers Stefano Brandani and Enzo Mangano match; last booking date is 12 February 2027.",
+          "remaining": "The old table's Tuesday 17th/Wednesday 18th/Thursday 19th match 2026 weekdays, so together with the booking page it is judged an unsynchronised old table (inference); old programme times are not carried over to 2027.",
           "automatic_fetch": "monitor_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -2624,7 +2624,7 @@
         "status": "review_required",
         "last_checked_at": "2026-11-04T09:03:33+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://spring2027.camml.ac.uk/about/: 仍有官方冲突：住宿4晚/5晚；录用通知12月17日/19日。开放状态及推荐信年份已解决。"
+        "message": "https://spring2027.camml.ac.uk/about/: Official conflicts remain: accommodation 4 vs 5 nights; acceptance notification 17 vs 19 December. Registration status and support-letter year are resolved."
       },
       "milestones": [
         {
@@ -2690,7 +2690,7 @@
           "status": "verified",
           "version": 1,
           "source": "https://spring2027.camml.ac.uk/about/",
-          "evidence": "官方原文：All letters of support must be submitted by 6th December 2026. 运行器41792669115；未给钟点/时区。"
+          "evidence": "Official text: \"All letters of support must be submitted by 6th December 2026.\" Runner 41792669115; no time or time zone given."
         }
       ],
       "people": {
@@ -3101,8 +3101,8 @@
           "final_sources": [
             "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
           ],
-          "verified": "2027-04-14 至 2027-04-15，Imperial College London；注册和海报征集尚未公布截止日期。",
-          "remaining": "全天事件的 00:00/23:59:59 是系统占位时间，未写入精确提醒。",
+          "verified": "14–15 April 2027, Imperial College London; registration and poster-call deadlines are not yet published.",
+          "remaining": "The 00:00/23:59:59 of all-day events are system placeholder times and are not used for exact reminders.",
           "automatic_fetch": "monitor_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -12578,8 +12578,8 @@
           "final_sources": [
             "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx"
           ],
-          "verified": "FAQ 的 2026-07-01 为原始常规摘要截止；TMS 官方 LinkedIn 明确宣布延期至 2026-07-15，故 FAQ 的原日期未同步。当前技术节目的两个后续专题截止不代表常规投稿重开。",
-          "remaining": "完整 FAQ 仍无可直接抓取替代，原站和 archive 域均 403。7 月 15 日延期已补上官方公告链接并核实为历史日期；未公布的精确钟点仍不填写。",
+          "verified": "The FAQ's 1 July 2026 was the original regular abstract deadline; TMS's official LinkedIn explicitly announced an extension to 15 July 2026, so the FAQ's date was not updated. The two later symposium deadlines in the current technical programme do not mean regular submission has reopened.",
+          "remaining": "The full FAQ still has no directly fetchable alternative; the original site and archive domain both return 403. The 15 July extension now links the official announcement and is verified as a past date; unpublished exact times remain blank.",
           "automatic_fetch": "blocked_403_content_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         },
@@ -12592,8 +12592,8 @@
             "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
             "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5"
           ],
-          "verified": "专题目录与会议日期 2027-03-14 至 2027-03-18；Bladesmithing 截止 2026-10-31，Student Poster Contest 截止 2027-01-22。",
-          "remaining": "ProgramMaster 是专题清单，不能当作尚未发布的逐场最终会议日程。原网站入口 403 仍保留审计。",
+          "verified": "Symposium list and conference dates 14–18 March 2027; Bladesmithing deadline 31 October 2026, Student Poster Contest deadline 22 January 2027.",
+          "remaining": "ProgramMaster is a symposium list and cannot be treated as the not-yet-published final session schedule. The original website entry point's 403 remains on the audit record.",
           "automatic_fetch": "monitor_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         },
@@ -12607,8 +12607,8 @@
             "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
             "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png"
           ],
-          "verified": "PPTX 模板 328079 字节（ZIP/PK 内容），三张 PNG 分别 619847、620892、1097336 字节；现有监测器复抓均成功。",
-          "remaining": "下载文件恢复不代表 Organizer Tools HTML 已解除 403；这些素材不能用于证明日期或讲者。",
+          "verified": "PPTX template 328,079 bytes (ZIP/PK content); three PNGs of 619,847, 620,892 and 1,097,336 bytes; the existing monitor re-fetched all successfully.",
+          "remaining": "Recovered downloads do not mean the Organizer Tools HTML is no longer 403; these assets cannot be used to prove dates or speakers.",
           "automatic_fetch": "monitor_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -13195,8 +13195,8 @@
             "https://www.siam.org/conferences-events/siam-conferences/ms27/",
             "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/"
           ],
-          "verified": "会议 2027-05-02 至 2027-05-05，Bellevue；顶部明确的延期公告将 minisymposium proposal 截止延至 2026-11-02，优先于下方旧 10 月 5 日文案。",
-          "remaining": "未恢复自动抓取；延期公告没有独立确认新的精确钟点，不将旧截止的 23:59 沿用到新日期。",
+          "verified": "Conference 2–5 May 2027, Bellevue; the explicit extension notice at the top moves the minisymposium proposal deadline to 2 November 2026, superseding the older 5 October text below.",
+          "remaining": "Automatic fetching has not recovered; the extension notice does not separately confirm a new exact time, so the old deadline's 23:59 is not carried to the new date.",
           "automatic_fetch": "blocked_403_content_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -13572,8 +13572,8 @@
             "https://event.fourwaves.com/interpore2027/submission",
             "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a"
           ],
-          "verified": "动态页显示 2027-01-12；API submissionEndDate=2027-01-12T07:00:00Z，event.timeZone=America/Buenos_Aires，换算后仍为 1 月 12 日；Important Dates 页写 1 月 11 日。",
-          "remaining": "没有官方更正说明可确定哪个日期优先；不能把时差推测当作解决。保留两候选日期，不启用单一截止提醒。",
+          "verified": "The dynamic page shows 12 January 2027; API submissionEndDate=2027-01-12T07:00:00Z with event.timeZone=America/Buenos_Aires, which is still 12 January after conversion; the Important Dates page says 11 January.",
+          "remaining": "No official correction states which date takes precedence; a time-zone guess cannot resolve it. Both candidate dates are kept and no single-deadline reminder is enabled.",
           "automatic_fetch": "monitor_verified_conflict_pending",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -14047,8 +14047,8 @@
             "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
             "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx"
           ],
-          "verified": "2027-06-13 至 2027-06-17，Chicago；摘要 2026-12-01，优惠注册 2027-04-30；主席 Aaron Stebner、编程主席 Sean Donegan。",
-          "remaining": "未发现覆盖该会议日期及组织委员会的可直接抓取官方镜像、PDF 或 RSS；自动抓取仍 403。",
+          "verified": "13–17 June 2027, Chicago; abstracts 1 December 2026, discounted registration 30 April 2027; chair Aaron Stebner, programme chair Sean Donegan.",
+          "remaining": "No directly fetchable official mirror, PDF or RSS covering the conference dates and organising committee was found; automatic fetching still returns 403.",
           "automatic_fetch": "blocked_403_content_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -15458,8 +15458,8 @@
             "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
             "https://github.com/UON-comp-chem/mm2027/blob/main/src/App.jsx"
           ],
-          "verified": "2027-09-26 至 2027-09-29，Newcastle, Australia；Alister Page 主席等6位委员会成员。",
-          "remaining": "摘要、注册、节目仍为 Details Coming Soon，不填造日期；源文件由哈希监测，尚不支持自动抽取事实。",
+          "verified": "26–29 September 2027, Newcastle, Australia; six committee members including chair Alister Page.",
+          "remaining": "Abstracts, registration and programme still say Details Coming Soon, so no dates are invented; the source is hash-monitored and does not yet support automatic fact extraction.",
           "automatic_fetch": "monitor_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -16466,8 +16466,8 @@
           "final_sources": [
             "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization"
           ],
-          "verified": "IZA 与 AIChE 合作组织；2028-07-23 至 2028-07-28，Philadelphia。",
-          "remaining": "未找到能直接下载且覆盖原页组织信息的官方镜像、PDF 或 RSS；现有自动抓取仍 403。",
+          "verified": "Organised by IZA with AIChE; 23–28 July 2028, Philadelphia.",
+          "remaining": "No directly downloadable official mirror, PDF or RSS covering the original page's organisation details was found; existing automatic fetching still returns 403.",
           "automatic_fetch": "blocked_403_content_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         },
@@ -16478,8 +16478,8 @@
           "final_sources": [
             "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee"
           ],
-          "verified": "执行规划委员会含 Jeffrey Rimer、Dongxia Liu、Tina Nenoff、Rajamani Gounder、Michele Sarazen；与已有组织信息核对。",
-          "remaining": "未找到覆盖完整委员会名单的可下载官方镜像/PDF/RSS；现有自动抓取仍 403。",
+          "verified": "The executive planning committee includes Jeffrey Rimer, Dongxia Liu, Tina Nenoff, Rajamani Gounder and Michele Sarazen; checked against the existing organiser details.",
+          "remaining": "No downloadable official mirror/PDF/RSS covering the full committee list was found; existing automatic fetching still returns 403.",
           "automatic_fetch": "blocked_403_content_verified",
           "checked_at": "2026-10-29T12:26:53Z"
         }
@@ -23539,7 +23539,7 @@
           "date": "2026-11-22",
           "time": null,
           "timezone": null,
-          "evidence": "2026-11-03 浏览器可见卡片：Early Bird Registration 对应 on or before 2026-11-22；无钟点/时区。",
+          "evidence": "Browser-visible card on 3 November 2026: Early Bird Registration is on or before 22 November 2026; no time or time zone.",
           "source": "https://artificialintelligence.conferenceseries.com/registration.php",
           "precision": "date",
           "status": "verified"
@@ -23568,7 +23568,7 @@
           "source": "https://artificialintelligence.conferenceseries.com/registration.php",
           "precision": "date",
           "status": "verified",
-          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Normal registration fee cutoff 标签；无钟点/时区。"
+          "evidence": "Browser-visible registration cards checked column by column on 3 November 2026 for the On or Before date and the Normal registration fee cutoff label; no time or time zone."
         },
         {
           "id": "ai-machine-learning-2027-conference-series:final-registration",
@@ -23581,7 +23581,7 @@
           "source": "https://artificialintelligence.conferenceseries.com/registration.php",
           "precision": "date",
           "status": "verified",
-          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Final registration deadline 标签；无钟点/时区。"
+          "evidence": "Browser-visible registration cards checked column by column on 3 November 2026 for the On or Before date and the Final registration deadline label; no time or time zone."
         }
       ],
       "people": {
@@ -23674,7 +23674,7 @@
           "source": "https://www.machinelearning.theiconicmeetings.com/",
           "precision": "date",
           "status": "verified",
-          "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
+          "evidence": "Current first-round abstract and pre-early-bird dates from the official Important News on 3 November 2026; no time or time zone."
         },
         {
           "id": "wcamd-2027:early-registration-3",
@@ -23687,7 +23687,7 @@
           "source": "https://www.machinelearning.theiconicmeetings.com/",
           "precision": "date",
           "status": "verified",
-          "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
+          "evidence": "Current first-round abstract and pre-early-bird dates from the official Important News on 3 November 2026; no time or time zone."
         },
         {
           "id": "wcamd-2027:registration",
@@ -25204,6 +25204,376 @@
           "https://www.cecam.org/workshop-details/fracture-of-amorphous-materials-across-the-scales-1564"
         ]
       }
+    },
+    {
+      "priority": 1,
+      "verified_on": "2026-11-04",
+      "evidence": "",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": null,
+        "message": null
+      },
+      "id": "tu-darmstadt-sdl-workshop-2026",
+      "name": "Self-Driving Laboratories Workshop — TU Darmstadt 2026",
+      "tags": [
+        "Automation",
+        "Automated Experimentation",
+        "AI"
+      ],
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "location": "Darmstadt, Germany — TU Darmstadt, Campus Botanischer Garten (building B1/01, room 52)",
+      "region": "Europe",
+      "type": "Workshop",
+      "deadline": "No registration or abstract deadline is published; registration is through the linked form.",
+      "status": "Registration form linked from the official page; no deadline stated.",
+      "note": "One-day workshop on self-driving laboratories hosted by TU Darmstadt's Centre for Synthetic Biology. The page is in German; its focus is laboratory automation and autonomous experimentation, mainly for synthetic biology rather than materials.",
+      "sources": [
+        "https://www.tu-darmstadt.de/synbio/workshop/sdl_workshop/sdlworkshop.de.jsp"
+      ],
+      "url": "https://www.tu-darmstadt.de/synbio/workshop/sdl_workshop/sdlworkshop.de.jsp",
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Workshop starts",
+          "date": "2026-11-25",
+          "time": null,
+          "timezone": null,
+          "id": "tu-darmstadt-sdl-workshop-2026:conference-start",
+          "version": 1,
+          "source": "https://www.tu-darmstadt.de/synbio/workshop/sdl_workshop/sdlworkshop.de.jsp",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page: workshop on 25 November 2026 (\"am 25. November 2026\")."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2026-11-25",
+          "time": null,
+          "timezone": null,
+          "id": "tu-darmstadt-sdl-workshop-2026:conference-end",
+          "version": 1,
+          "source": "https://www.tu-darmstadt.de/synbio/workshop/sdl_workshop/sdlworkshop.de.jsp",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Single-day workshop; no end time is published."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Centre for Synthetic Biology, TU Darmstadt",
+            "role": "Host",
+            "source": "https://www.tu-darmstadt.de/synbio/workshop/sdl_workshop/sdlworkshop.de.jsp"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "sources": [
+          "https://www.tu-darmstadt.de/synbio/workshop/sdl_workshop/sdlworkshop.de.jsp"
+        ],
+        "checked_on": "2026-11-04",
+        "status": "published",
+        "note": "The page names the centre's spokesperson and managing director only as contacts, so they are not listed as organisers."
+      },
+      "date": "2026-11-25"
+    },
+    {
+      "priority": 2,
+      "verified_on": "2026-11-04",
+      "evidence": "",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": null,
+        "message": null
+      },
+      "id": "slas-europe-2027",
+      "name": "SLAS Europe 2027 Conference and Exhibition",
+      "tags": [
+        "Automation",
+        "Automated Experimentation",
+        "AI"
+      ],
+      "start": "2027-05-25",
+      "end": "2027-05-27",
+      "location": "Hamburg, Germany",
+      "region": "Europe",
+      "type": "Conference / Exhibition",
+      "deadline": "Abstract submission is open; no closing date is published on the official page.",
+      "status": "Abstract submission open; registration dates not yet published.",
+      "note": "Society for Laboratory Automation and Screening European meeting. The Advances in Laboratory Automation track is relevant to self-driving labs; the meeting is life-science and drug-discovery oriented, so it is adjacent rather than materials-focused.",
+      "sources": [
+        "https://www.slas.org/events-calendar/slas-europe-2027-conference-and-exhibition/",
+        "https://slas.org/events"
+      ],
+      "url": "https://www.slas.org/events-calendar/slas-europe-2027-conference-and-exhibition/",
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-05-25",
+          "time": null,
+          "timezone": null,
+          "id": "slas-europe-2027:conference-start",
+          "version": 1,
+          "source": "https://www.slas.org/events-calendar/slas-europe-2027-conference-and-exhibition/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page: 25–27 May 2027, Hamburg, Germany."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-05-27",
+          "time": null,
+          "timezone": null,
+          "id": "slas-europe-2027:conference-end",
+          "version": 1,
+          "source": "https://www.slas.org/events-calendar/slas-europe-2027-conference-and-exhibition/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the official 25–27 May 2027 range; end time not published."
+        },
+        {
+          "kind": "abstract",
+          "label": "Abstract submission",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "id": "slas-europe-2027:abstract",
+          "version": 1,
+          "source": "https://www.slas.org/events-calendar/slas-europe-2027-conference-and-exhibition/",
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "The official page says abstract submission is open but gives no closing date."
+        }
+      ],
+      "people": {
+        "organizers": [],
+        "committee": [],
+        "speakers": [
+          {
+            "name": "Alex Zhavoronkov",
+            "role": "Keynote speaker",
+            "source": "https://www.slas.org/events-calendar/slas-europe-2027-conference-and-exhibition/",
+            "affiliation": "Insilico Medicine"
+          }
+        ],
+        "participants": [],
+        "sources": [
+          "https://www.slas.org/events-calendar/slas-europe-2027-conference-and-exhibition/"
+        ],
+        "checked_on": "2026-11-04",
+        "status": "published",
+        "note": ""
+      },
+      "date": "2027-05-25 — 2027-05-27"
+    },
+    {
+      "priority": 2,
+      "verified_on": "2026-11-04",
+      "evidence": "",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": null,
+        "message": null
+      },
+      "id": "slas2027",
+      "name": "SLAS2027 International Conference and Exhibition",
+      "tags": [
+        "Automation",
+        "Automated Experimentation",
+        "AI"
+      ],
+      "start": "2027-01-30",
+      "end": "2027-02-03",
+      "location": "San Diego, CA, USA",
+      "region": "Other",
+      "type": "Conference / Exhibition",
+      "deadline": "Abstract and registration deadlines are not published on the official event page.",
+      "status": "Registration page linked; deadlines not published on the event page.",
+      "note": "The main annual SLAS meeting on laboratory automation and screening, with a short-course programme. Relevant to lab automation behind self-driving labs; life-science oriented.",
+      "sources": [
+        "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/",
+        "https://slas.org/events"
+      ],
+      "url": "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/",
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-01-30",
+          "time": null,
+          "timezone": null,
+          "id": "slas2027:conference-start",
+          "version": 1,
+          "source": "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official page: January 30 – February 3, 2027, San Diego."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-02-03",
+          "time": null,
+          "timezone": null,
+          "id": "slas2027:conference-end",
+          "version": 1,
+          "source": "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the official range; end time not published."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Joe de Rutte",
+            "role": "Programme co-chair",
+            "source": "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/",
+            "affiliation": "Partillion Bioscience"
+          },
+          {
+            "name": "Julea Vlassakis",
+            "role": "Programme co-chair",
+            "source": "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/",
+            "affiliation": "Rice University"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "sources": [
+          "https://www.slas.org/events-calendar/slas2027-international-conference-exhibition/"
+        ],
+        "checked_on": "2026-11-04",
+        "status": "published",
+        "note": ""
+      },
+      "date": "2027-01-30 — 2027-02-03"
+    },
+    {
+      "priority": 2,
+      "verified_on": "2026-11-04",
+      "evidence": "",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": null,
+        "message": null
+      },
+      "id": "acers-spring-2027",
+      "name": "ACerS Spring Meeting 2027 — Symposium 23: AI/ML for Materials Discovery and Intelligent Manufacturing",
+      "tags": [
+        "AI for Materials",
+        "Automated Experimentation",
+        "Materials Informatics"
+      ],
+      "start": "2027-05-23",
+      "end": "2027-05-28",
+      "location": "San Francisco, CA, USA — Hilton San Francisco Union Square",
+      "region": "Other",
+      "type": "Conference symposium",
+      "deadline": "Abstracts: 1 January 2027.",
+      "status": "Call for abstracts published.",
+      "note": "Symposium sessions include autonomous experimentation and self-driving laboratories, and human–AI collaborative frameworks for self-driving labs. Part of the American Ceramic Society Spring Meeting.",
+      "sources": [
+        "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+        "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf"
+      ],
+      "url": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Meeting starts",
+          "date": "2027-05-23",
+          "time": null,
+          "timezone": null,
+          "id": "acers-spring-2027:conference-start",
+          "version": 1,
+          "source": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official call for papers: May 23–28, 2027, Hilton Union Square, San Francisco."
+        },
+        {
+          "kind": "conference_end",
+          "label": "Meeting ends",
+          "date": "2027-05-28",
+          "time": null,
+          "timezone": null,
+          "id": "acers-spring-2027:conference-end",
+          "version": 1,
+          "source": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "End date from the official May 23–28, 2027 range; end time not published."
+        },
+        {
+          "kind": "abstract",
+          "label": "Abstracts",
+          "date": "2027-01-01",
+          "time": null,
+          "timezone": null,
+          "id": "acers-spring-2027:abstract",
+          "version": 1,
+          "source": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
+          "precision": "date",
+          "status": "verified",
+          "evidence": "Official call for papers: abstracts due January 1, 2027; no time or time zone given."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Yongtao Liu",
+            "role": "Symposium organiser (point of contact)",
+            "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+            "affiliation": "Oak Ridge National Laboratory"
+          },
+          {
+            "name": "Wei Chen",
+            "role": "Symposium organiser",
+            "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+            "affiliation": "Texas A&M University"
+          },
+          {
+            "name": "Fei Peng",
+            "role": "Symposium organiser",
+            "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+            "affiliation": "Clemson University"
+          },
+          {
+            "name": "Aiping Chen",
+            "role": "Symposium organiser",
+            "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+            "affiliation": "Los Alamos National Laboratory"
+          },
+          {
+            "name": "Bai Cui",
+            "role": "Symposium organiser",
+            "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+            "affiliation": "University of Nebraska-Lincoln"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "sources": [
+          "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/"
+        ],
+        "checked_on": "2026-11-04",
+        "status": "published",
+        "note": ""
+      },
+      "date": "2027-05-23 — 2027-05-28"
     }
   ],
   "watchlist": [
@@ -25942,6 +26312,97 @@
       },
       "reminders_paused": true,
       "reminders_pause_reason": "Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional."
+    },
+    {
+      "priority": 2,
+      "verified_on": "2026-11-04",
+      "evidence": "",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": null,
+        "message": null
+      },
+      "id": "icmat2027-sdl",
+      "name": "ICMAT 2027 — Symposium I3: Self-Driving Labs for Materials and Chemical Sciences",
+      "tags": [
+        "Automated Experimentation",
+        "AI for Materials",
+        "Automation"
+      ],
+      "start": null,
+      "end": null,
+      "location": "Singapore — Suntec Convention Centre (public lectures); full conference venue not yet stated",
+      "region": "Other",
+      "type": "Conference symposium",
+      "deadline": "No verified abstract or registration deadline.",
+      "status": "A 5-day conference is announced; the Nobel Laureate public lectures are on 6 July 2027, but the full conference dates are not stated on the pages reviewed.",
+      "note": "Materials Research Society of Singapore conference with a dedicated self-driving-labs symposium covering autonomous platforms for catalysts, inorganics and polymers.",
+      "sources": [
+        "https://icmat2027.mrs.org.sg/?p=2234",
+        "https://icmat2027.mrs.org.sg/?p=103"
+      ],
+      "url": "https://icmat2027.mrs.org.sg/?p=2234",
+      "milestones": [
+        {
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "id": "icmat2027-sdl:conference-start",
+          "version": 1,
+          "source": "https://icmat2027.mrs.org.sg/?p=103",
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "The official page describes a 5-day conference but does not give its dates."
+        },
+        {
+          "kind": "abstract",
+          "label": "Abstracts",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "id": "icmat2027-sdl:abstract",
+          "version": 1,
+          "source": "https://icmat2027.mrs.org.sg/?p=103",
+          "precision": "unknown",
+          "status": "unknown",
+          "evidence": "No abstract deadline was verified on the pages reviewed."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Leonard Ng Wei Tat",
+            "role": "Symposium chair",
+            "source": "https://icmat2027.mrs.org.sg/?p=2234",
+            "affiliation": "Nanyang Technological University"
+          },
+          {
+            "name": "Beatrice Soh",
+            "role": "Symposium chair",
+            "source": "https://icmat2027.mrs.org.sg/?p=2234",
+            "affiliation": "National University of Singapore"
+          },
+          {
+            "name": "Yang Bai",
+            "role": "Symposium co-chair",
+            "source": "https://icmat2027.mrs.org.sg/?p=2234",
+            "affiliation": "University of Toronto"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "sources": [
+          "https://icmat2027.mrs.org.sg/?p=2234"
+        ],
+        "checked_on": "2026-11-04",
+        "status": "published",
+        "note": ""
+      },
+      "date": "Dates to be announced"
     }
   ],
   "updates": [
@@ -26035,7 +26496,7 @@
         ]
       },
       "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
-      "message": "MS27组织者区块新增 Ruben Juanes（MIT, USA）、Marianne Peter-Borie（Lookup Geoscience, France）、Pedro Aum（Federal University of Pará, Brazil），均紧随 Lead Organizer 标题及 Amir Haghi；没有分别标注三人的lead/co-organiser角色，按该区块列名保存，不推断个人负责人角色。其他正文逐行无变；摘要截止冲突仍由其他来源记录保留。"
+      "message": "The MS27 organiser block adds Ruben Juanes (MIT, USA), Marianne Peter-Borie (Lookup Geoscience, France) and Pedro Aum (Federal University of Pará, Brazil), all directly after the Lead Organizer heading and Amir Haghi. Their individual lead/co-organiser roles are not labelled, so they are stored as listed in that block without inferring individual lead roles. The rest of the text is unchanged line by line; the abstract-deadline conflict remains recorded from other sources."
     },
     {
       "at": "2026-11-04T09:03:33+00:00",
@@ -26086,7 +26547,7 @@
         ]
       },
       "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
-      "message": "唯一差异为 Plenary Speakers 区块在 Invited Speakers 标题之前新增 Boris Goldengorin、University of Florida, USA 及简介。按主办方列名收录为plenary speaker及该机构，非独立机构确认或到场保证；日期、11月30日摘要截止、钟点/时区及原组织者无差异。"
+      "message": "The only difference is a new entry before the Invited Speakers heading in the Plenary Speakers block: Boris Goldengorin, University of Florida, USA, with a biography. Recorded as a plenary speaker with that affiliation as listed by the organiser; this is not independent confirmation of affiliation or attendance. Dates, the 30 November abstract deadline, times/time zones and existing organisers are unchanged."
     },
     {
       "at": "2026-11-04T09:03:33+00:00",
@@ -26185,7 +26646,7 @@
           "source": "https://sscg.uk/2026-sscg-christmas-meeting",
           "precision": "date",
           "status": "verified",
-          "evidence": "官方原文：Oral abstracts deadline: November 6th。运行器41792669115；未给钟点/时区。"
+          "evidence": "Official text: \"Oral abstracts deadline: November 6th\". Runner 41792669115; no time or time zone given."
         },
         {
           "kind": "registration",
@@ -26211,11 +26672,11 @@
           "status": "verified",
           "version": 1,
           "source": "https://sscg.uk/2026-sscg-christmas-meeting",
-          "evidence": "官方原文：Poster abstracts remain open until registration closes；同页 Registration by November 25th，2026届。未给钟点/时区。"
+          "evidence": "Official text: \"Poster abstracts remain open until registration closes\"; the same page says \"Registration by November 25th\" (2026 edition). No time or time zone given."
         }
       ],
       "source": "https://sscg.uk/2026-sscg-christmas-meeting",
-      "message": "官方正文明确宣布摘要延期：口头摘要从10月30日改为11月6日；海报持续到注册关闭，同页注册为11月25日，因此拆分口头/海报节点。无截止钟点/时区。录用通知从11月15日变为16日，只记审计、不建提醒。会议日期、已存组织者/讲者角色及机构逐行无变。"
+      "message": "The official text explicitly announces an abstract extension: oral abstracts move from 30 October to 6 November; posters stay open until registration closes, which the same page gives as 25 November, so oral and poster milestones are split. No deadline time or time zone. Acceptance notification moves from 15 to 16 November; recorded for audit only, with no reminder. Conference dates and stored organiser/speaker roles and affiliations are unchanged line by line."
     },
     {
       "at": "2026-11-04T09:03:33+00:00",
@@ -26225,7 +26686,7 @@
       "before": "Abstracts: 30 October 2026; the page header refers to oral and poster abstracts, while the Take part section repeats oral abstracts. Registration: 25 November 2026.",
       "after": "Oral abstracts: 6 November 2026 (extended); poster abstracts and registration: 25 November 2026.",
       "source": "https://sscg.uk/2026-sscg-christmas-meeting",
-      "message": "官方正文明确宣布摘要延期：口头摘要从10月30日改为11月6日；海报持续到注册关闭，同页注册为11月25日，因此拆分口头/海报节点。无截止钟点/时区。录用通知从11月15日变为16日，只记审计、不建提醒。会议日期、已存组织者/讲者角色及机构逐行无变。"
+      "message": "The official text explicitly announces an abstract extension: oral abstracts move from 30 October to 6 November; posters stay open until registration closes, which the same page gives as 25 November, so oral and poster milestones are split. No deadline time or time zone. Acceptance notification moves from 15 to 16 November; recorded for audit only, with no reminder. Conference dates and stored organiser/speaker roles and affiliations are unchanged line by line."
     },
     {
       "at": "2026-11-04T09:03:33+00:00",
@@ -26350,11 +26811,11 @@
           "status": "verified",
           "version": 1,
           "source": "https://spring2027.camml.ac.uk/about/",
-          "evidence": "官方原文：All letters of support must be submitted by 6th December 2026. 运行器41792669115；未给钟点/时区。"
+          "evidence": "Official text: \"All letters of support must be submitted by 6th December 2026.\" Runner 41792669115; no time or time zone given."
         }
       ],
       "source": "https://spring2027.camml.ac.uk/about/",
-      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+      "message": "The about page changes the support-letter year from 2025 to 2026 and removes \"registration is closed\"; in the same run the homepage still says registration is open and the registration page still gives 15 October–26 November, so the open/closed conflict is resolved (no form was submitted to confirm acceptance). The support-letter deadline is now 6 December, with no time or time zone. PSDI still says 4 nights and a 17 December acceptance notification while the about page still says 5 nights and 19 December; both conflicts remain, and acceptance notification gets no reminder. Committee names, affiliations and other deadlines are unchanged."
     },
     {
       "at": "2026-11-04T09:03:33+00:00",
@@ -26364,7 +26825,7 @@
       "before": "Application availability unconfirmed: official pages disagree. Published application deadline: 26 November 2026.",
       "after": "Applications advertised as open; published deadline: 26 November 2026. Form acceptance has not been tested.",
       "source": "https://spring2027.camml.ac.uk/about/",
-      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+      "message": "The about page changes the support-letter year from 2025 to 2026 and removes \"registration is closed\"; in the same run the homepage still says registration is open and the registration page still gives 15 October–26 November, so the open/closed conflict is resolved (no form was submitted to confirm acceptance). The support-letter deadline is now 6 December, with no time or time zone. PSDI still says 4 nights and a 17 December acceptance notification while the about page still says 5 nights and 19 December; both conflicts remain, and acceptance notification gets no reminder. Committee names, affiliations and other deadlines are unchanged."
     },
     {
       "at": "2026-11-04T09:03:33+00:00",
@@ -26374,7 +26835,7 @@
       "before": "Five-day chemistry and materials machine-learning school, mainly for PhD students, covering machine-learning interatomic potentials and graph neural networks. Use the 2027 main site rather than stale linked pages; this is training, not an ordinary conference call.",
       "after": "Five-day chemistry and materials machine-learning school, mainly for PhD students, covering machine-learning interatomic potentials and graph neural networks. Use the 2027 main site rather than stale linked pages; this is training, not an ordinary conference call. Review on 4 November 2026: the about page corrected the support-letter year to 2026 and removed its closed-registration claim. Official accommodation-night and acceptance-notification discrepancies remain unresolved.",
       "source": "https://spring2027.camml.ac.uk/about/",
-      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+      "message": "The about page changes the support-letter year from 2025 to 2026 and removes \"registration is closed\"; in the same run the homepage still says registration is open and the registration page still gives 15 October–26 November, so the open/closed conflict is resolved (no form was submitted to confirm acceptance). The support-letter deadline is now 6 December, with no time or time zone. PSDI still says 4 nights and a 17 December acceptance notification while the about page still says 5 nights and 19 December; both conflicts remain, and acceptance notification gets no reminder. Committee names, affiliations and other deadlines are unchanged."
     },
     {
       "at": "2026-11-04T09:03:33+00:00",
@@ -26384,7 +26845,7 @@
       "before": "Applications: 26 November 2026. The 2027 registration page says applications open on 15 October and close on 26 November; acceptance by the form remains subject to the organiser.",
       "after": "Applications: 26 November 2026. The 2027 registration page says applications open on 15 October and close on 26 November; acceptance by the form remains subject to the organiser. Supervisor letter of support: 6 December 2026 (corrected official year).",
       "source": "https://spring2027.camml.ac.uk/about/",
-      "message": "about 正文将推荐信年份从2025改成2026，并移除了registration is closed；同轮官网首页仍称注册开放、registration页仍为10月15日至11月26日，开放/关闭冲突已解决（未提交表单验证受理）。推荐信截止现为12月6日，无钟点/时区。PSDI仍为4晚及12月17日录用通知，about仍5晚及12月19日，这两项冲突保留；录用通知不建提醒。委员会姓名机构及其他截止无差异。"
+      "message": "The about page changes the support-letter year from 2025 to 2026 and removes \"registration is closed\"; in the same run the homepage still says registration is open and the registration page still gives 15 October–26 November, so the open/closed conflict is resolved (no form was submitted to confirm acceptance). The support-letter deadline is now 6 December, with no time or time zone. PSDI still says 4 nights and a 17 December acceptance notification while the about page still says 5 nights and 19 December; both conflicts remain, and acceptance notification gets no reminder. Committee names, affiliations and other deadlines are unchanged."
     },
     {
       "at": "2026-11-03T09:14:25Z",
@@ -26415,10 +26876,10 @@
         "source": "https://www.machinelearning.theiconicmeetings.com/",
         "precision": "date",
         "status": "verified",
-        "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
+        "evidence": "Current first-round abstract and pre-early-bird dates from the official Important News on 3 November 2026; no time or time zone."
       },
       "source": "https://www.machinelearning.theiconicmeetings.com/",
-      "message": "官网当前截止日期比原记录延后一周；未发现带日期的延期公告，按当前明确日期更新，不推断钟点或时区。"
+      "message": "The official site's current deadlines are one week later than the original record; no dated extension notice was found, so the record follows the current explicit dates without inferring times or time zones."
     },
     {
       "at": "2026-11-03T09:14:25Z",
@@ -26449,10 +26910,10 @@
         "source": "https://www.machinelearning.theiconicmeetings.com/",
         "precision": "date",
         "status": "verified",
-        "evidence": "2026-11-03 官网 Important News 给出的当前首轮摘要及预早鸟日期；无钟点/时区。"
+        "evidence": "Current first-round abstract and pre-early-bird dates from the official Important News on 3 November 2026; no time or time zone."
       },
       "source": "https://www.machinelearning.theiconicmeetings.com/",
-      "message": "官网当前截止日期比原记录延后一周；未发现带日期的延期公告，按当前明确日期更新，不推断钟点或时区。"
+      "message": "The official site's current deadlines are one week later than the original record; no dated extension notice was found, so the record follows the current explicit dates without inferring times or time zones."
     },
     {
       "at": "2026-11-03T09:14:25Z",
@@ -26485,7 +26946,7 @@
           "date": "2026-11-22",
           "time": null,
           "timezone": null,
-          "evidence": "2026-11-03 浏览器可见卡片：Early Bird Registration 对应 on or before 2026-11-22；无钟点/时区。",
+          "evidence": "Browser-visible card on 3 November 2026: Early Bird Registration is on or before 22 November 2026; no time or time zone.",
           "source": "https://artificialintelligence.conferenceseries.com/registration.php",
           "precision": "date",
           "status": "verified"
@@ -26501,7 +26962,7 @@
           "source": "https://artificialintelligence.conferenceseries.com/registration.php",
           "precision": "date",
           "status": "verified",
-          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Normal registration fee cutoff 标签；无钟点/时区。"
+          "evidence": "Browser-visible registration cards checked column by column on 3 November 2026 for the On or Before date and the Normal registration fee cutoff label; no time or time zone."
         },
         {
           "id": "ai-machine-learning-2027-conference-series:final-registration",
@@ -26514,11 +26975,11 @@
           "source": "https://artificialintelligence.conferenceseries.com/registration.php",
           "precision": "date",
           "status": "verified",
-          "evidence": "2026-11-03 浏览器可见注册卡片逐列核实 On or Before 日期与 Final registration deadline 标签；无钟点/时区。"
+          "evidence": "Browser-visible registration cards checked column by column on 3 November 2026 for the On or Before date and the Final registration deadline label; no time or time zone."
         }
       ],
       "source": "https://artificialintelligence.conferenceseries.com/registration.php",
-      "message": "浏览器可见注册卡片解除日期标签冲突；核实三档日期，不据此确认交易可完成。"
+      "message": "The browser-visible registration cards resolve the date-label conflict; the three fee-tier dates are verified, which does not confirm that a booking can be completed."
     },
     {
       "at": "2026-11-03T00:39:14Z",
@@ -27054,7 +27515,7 @@
       "field": "status",
       "previous": "Submission closed; workshop scheduled for 1 December 2026.",
       "value": "Rolling submissions open; no fixed deadline. Workshop scheduled for 1 December 2026.",
-      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
     },
     {
       "at": "2026-11-02T17:32:06+00:00",
@@ -27062,7 +27523,7 @@
       "field": "deadline",
       "previous": "Challenge paper submission: 15 October 2026 AoE (closed); notification: 26 October 2026; camera-ready: 9 November 2026.",
       "value": "Challenge papers: rolling submissions, no fixed deadline; notifications individually after review. Final-version instructions will be sent individually to accepted authors.",
-      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
     },
     {
       "at": "2026-11-02T17:32:06+00:00",
@@ -27095,7 +27556,7 @@
         "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
       },
       "source": "https://wmt2026workshop.github.io/",
-      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
     },
     {
       "at": "2026-11-02T17:32:06+00:00",
@@ -27128,7 +27589,7 @@
         "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
       },
       "source": "https://wmt2026workshop.github.io/",
-      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
     },
     {
       "at": "2026-11-02T17:32:06+00:00",
@@ -27161,7 +27622,7 @@
         "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
       },
       "source": "https://wmt2026workshop.github.io/",
-      "evidence": "10-28 公告及投稿正文均明确滚动投稿、无固定截止，逐篇通知，camera-ready 指南单独通知；旧 10-15/10-26/11-09 节点已被新公告取代。12-01 Glasgow 半日 workshop 不变。Messina、Glorioso 组织者，Sorce、Vindigni、Mantegna 为 PC，Scalici 为 invited speaker，六人机构均为 Enna Kore。09:00–13:00 初步节目可能调整且未给时区，保留会议日期精度。"
+      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
     },
     {
       "at": "2026-11-02T17:32:06+00:00",
@@ -27236,10 +27697,10 @@
       "previous": "The application page is open; 40 places are advertised. Some related pages retain inconsistent old dates or closed notices.",
       "value": "Application availability unconfirmed: official pages disagree. Published application deadline: 26 November 2026.",
       "evidence": {
-        "registration_availability": "首页/registration 显示开放，但 about 的 Key dates 写 registration is closed。",
-        "notification_date": "PSDI: 2026-12-17；about: 2026-12-19。",
-        "supervisor_letter_year": "about 写 2025-12-06，早于本轮申请；不猜测应为 2026。",
-        "accommodation": "PSDI 四晚；about 五晚。"
+        "registration_availability": "The homepage and registration page show registration open, but the about page's Key dates say \"registration is closed\".",
+        "notification_date": "PSDI: 17 December 2026; about page: 19 December 2026.",
+        "supervisor_letter_year": "The about page says 6 December 2025, which is earlier than this application round; it is not assumed to mean 2026.",
+        "accommodation": "PSDI: four nights; about page: five nights."
       }
     },
     {
