@@ -11,10 +11,11 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vickie02736.github.io/conference-reminder/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20261103-masonry">
-  <script type="module" src="assets/app.js?v=20261103-masonry"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=20261104-calendar">
+  <script type="module" src="assets/app.js?v=20261104-calendar"></script>
 </head>
 <body>
+  <a class="skip-link" href="#catalogue">Skip to conferences</a>
   <header class="site-header">
     <a class="brand" href="#">◷ Conference Reminder<span>.</span></a>
     <nav aria-label="Main navigation"><a href="#catalogue">Explore</a></nav>
@@ -35,7 +36,7 @@
         <div><label for="stage">Status</label><select id="stage" aria-describedby="stage-hint"><option value="all">All statuses</option><option value="ongoing">Ongoing</option><option value="registration">Registration</option><option value="submission">All submissions</option><option value="abstract">Abstract submission</option><option value="oral">Oral submission</option><option value="poster">Poster submission</option><option value="paper">Paper submission</option><option value="application">Applications</option><option value="opening_soon">Opening soon</option><option value="closed">Submission / registration closed</option><option value="upcoming">Upcoming</option><option value="awaiting_dates">Awaiting dates</option><option value="needs_review">Dates / availability unconfirmed</option><option value="fully_booked">Full / waiting list</option><option value="invitation_only">Invitation only</option><option value="restricted">Restricted attendance</option><option value="paused">Dates changed / paused</option><option value="cancelled">Cancelled</option><option value="finished">Finished</option></select></div>
         <div><label for="sort">Sort by</label><select id="sort"><option value="date">Conference date</option><option value="deadline">Next deadline</option><option value="registration_deadline">Registration deadline</option><option value="submission_deadline">Submission deadline</option><option value="priority">Research relevance</option><option value="name">Name</option></select></div>
         </div>
-        <p id="search-hint" class="fine search-hint">Search organisers, committee members, speakers and their institutions. Use Worldwide to include all regions.</p>
+        <p id="search-hint" class="fine search-hint">Search organisers, committee members, speakers and their institutions. Use Worldwide to include all regions. Press <kbd>/</kbd> to jump here; filters are kept in the page address so you can share a view.</p>
         <details id="advanced-filters" class="advanced-filters"><summary>More filters <span id="advanced-count"></span></summary><div class="advanced-grid">
         <div><label for="topic">Topic</label><select id="topic"><option value="all">All topics</option></select></div>
         <div><label for="type">Activity</label><select id="type"><option value="all">All activities</option></select></div>

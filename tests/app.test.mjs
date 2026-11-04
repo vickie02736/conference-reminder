@@ -24,17 +24,23 @@ class Element {
   addEventListener(name, callback) { (this.listeners[name] ??= []).push(callback); }
   dispatch(name) { this['on' + name]?.({ target: this }); for (const callback of this.listeners[name] || []) callback({ target: this }); }
   click() { this.dispatch('click'); }
+  get options() { return this.staticOptions ? [...this.staticOptions.map((value) => ({ value })), ...this.children] : undefined; }
 }
 
-async function harness({ delayed = false, failed = false, data = catalogue } = {}) {
+async function harness({ delayed = false, failed = false, data = catalogue, search } = {}) {
+  const pushed = [];
   const elements = new Map([...html.matchAll(/\bid="([^"]+)"/g)].map((match) => [match[1], new Element()]));
-  for (const match of html.matchAll(/<select id="([^"]+)"[^>]*>\s*<option value="([^"]+)"/g)) elements.get(match[1]).value = match[2];
+  for (const match of html.matchAll(/<select id="([^"]+)"[^>]*>([\s\S]*?)<\/select>/g)) {
+    const values = [...match[2].matchAll(/<option value="([^"]*)"/g)].map((option) => option[1]);
+    elements.get(match[1]).value = values[0]; elements.get(match[1]).staticOptions = values;
+  }
   elements.get('catalogue-list').innerHTML = 'Loading the conference collection…';
   let release;
   const response = { ok: !failed, json: async () => structuredClone(data) };
   const catalogueResponse = delayed ? new Promise((resolve) => { release = () => resolve(response); }) : Promise.resolve(response);
   const context = vm.createContext({
-    ...core, URL, Date, console,
+    ...core, URL, URLSearchParams, Date, console, encodeURIComponent, decodeURIComponent,
+    ...(search === undefined ? {} : { location: { pathname: '/conference-reminder/', search, hash: '' }, history: { replaceState: (_state, _title, url) => { pushed.push(url); } } }),
     todayISO: () => today,
     upcomingNodes: (event) => core.upcomingNodes(event, today, now),
     nextDeadline: (event, sort) => core.nextDeadline(event, sort, today, now),
@@ -49,7 +55,7 @@ async function harness({ delayed = false, failed = false, data = catalogue } = {
   const settle = () => new Promise(setImmediate);
   await settle();
   const set = (id, value) => { elements.get(id).value = value; elements.get(id).dispatch(id === 'search' ? 'input' : 'change'); };
-  return { elements, set, settle, release, list: () => elements.get('catalogue-list').innerHTML };
+  return { elements, set, settle, release, pushed, list: () => elements.get('catalogue-list').innerHTML };
 }
 
 test('global totals and provisional cards use the same scheduled/watchlist classification', async () => {
@@ -228,4 +234,42 @@ test('grouped topic changes keep the timeline aligned with combined card filters
   h.elements.get('reset-filters').click();
   assert.equal(h.elements.get('topic').value, 'all');
   assert.deepEqual(timelineIds(), cardIds());
+});
+
+test('filters restore from the page address and mirror back into it without touching defaults', async () => {
+  const h = await harness({ search: '?region=UK&status=registration&topic=MOFs%2C+COFs+%26+Porous+Materials&past=1&year=not-a-real-year' });
+  assert.equal(h.elements.get('region').value, 'UK');
+  assert.equal(h.elements.get('stage').value, 'registration');
+  assert.equal(h.elements.get('topic').value, 'MOFs, COFs & Porous Materials');
+  assert.equal(h.elements.get('year').value, 'all');
+  assert.equal(h.elements.get('show-past').checked, true);
+  assert.equal(h.elements.get('advanced-filters').open, true);
+  assert.equal((h.list().match(/<article /g) || []).length, 4);
+  h.elements.get('reset-filters').click();
+  assert.equal(h.pushed.at(-1), '/conference-reminder/');
+  h.set('search', 'MOF'); h.set('sort', 'deadline');
+  assert.equal(h.pushed.at(-1), '/conference-reminder/?q=MOF&sort=deadline');
+});
+
+test('scheduled cards offer a calendar file with the conference dates and verified deadlines, pending ones do not', async () => {
+  const h = await harness();
+  h.set('region', 'all'); h.set('search', 'SSCG2026');
+  const card = h.list();
+  const href = card.match(/href="(data:text\/calendar[^"]+)" download="([^"]+)\.ics"/);
+  assert.ok(href, 'calendar link present');
+  const folded = decodeURIComponent(href[1].replace('data:text/calendar;charset=utf-8,', ''));
+  for (const line of folded.split('\r\n')) assert.ok(line.length <= 75, line);
+  const ics = folded.replace(/\r\n /g, '');
+  assert.match(ics, /^BEGIN:VCALENDAR\r\n/);
+  assert.match(ics, /DTSTART;VALUE=DATE:20261215\r\nDTEND;VALUE=DATE:20261218\r\nSUMMARY:45th RSC Solid State Chemistry Group Christmas Meeting \(SSCG2026\)/);
+  assert.match(ics, /SUMMARY:Registration · 45th RSC/);
+  assert.match(ics, /DTSTART;VALUE=DATE:20261125/);
+  assert.match(ics, /SUMMARY:Oral abstracts · /);
+  assert.match(ics, /DESCRIPTION:All-day entry\\; check the official cutoff time\.\\nhttps:/);
+  assert.doesNotMatch(ics, /[^\r]\n/);
+  h.elements.get('reset-filters').click(); h.set('region', 'all');
+  for (const event of catalogue.watchlist) {
+    const pending = h.list().match(new RegExp('<article[^>]*id="event-' + event.id + '"[\\s\\S]*?<\\/article>'));
+    if (pending) assert.doesNotMatch(pending[0], /text\/calendar/);
+  }
 });

@@ -75,6 +75,10 @@
   .advanced-grid{grid-template-columns:1fr}
 }
 .search-hint{margin:10px 0 0}
+.skip-link{position:absolute;left:16px;top:-60px;z-index:10;background:var(--green);color:#fff;padding:10px 14px;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none}
+.skip-link:focus{top:12px}
+kbd{font:inherit;font-size:11px;border:1px solid #c9d3c3;border-bottom-width:2px;border-radius:4px;padding:0 5px;background:#fff;color:#314f40}
+@media print{.site-header nav,.filters,.timeline,#email-status,.card-actions,.updates,.discovery,.timeline-return,.skip-link{display:none!important}.catalogue-grid,.catalogue-grid.masonry{display:block;height:auto!important}.catalogue-grid.masonry>.conference{position:static;width:auto;break-inside:avoid;margin-bottom:12px}.card-details{display:block}body{background:#fff}}
 .people-preview{font-size:12px;line-height:1.7;margin:8px 0;color:#5f6e60;overflow-wrap:anywhere}
 .people-details{border-top:1px solid #edf0e9;border-bottom:1px solid #edf0e9;padding:10px 0}
 .people-group h4{font-size:12px;color:#314f40;margin:14px 0 5px}

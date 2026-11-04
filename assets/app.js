@@ -1,4 +1,4 @@
-import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,nextDeadline,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary,timelineEntries,eventTopics,peopleGroups,peopleSearchText,matchesSearch} from './core.mjs?v=20261102-simulation';
+import {esc,safeUrl,dateLabel,todayISO,upcomingNodes,nextDeadline,eventStatuses,hasEuropeanSite,filterEvents,deadlineSummary,timelineEntries,eventTopics,peopleGroups,peopleSearchText,matchesSearch} from './core.mjs?v=20261104-calendar';
 
 const $=id=>document.getElementById(id);
 let catalogue={events:[],watchlist:[],metadata:{},updates:[]};
@@ -45,6 +45,52 @@ function refreshCatalogueLayout(){
   catalogueResizeObserver.observe($('catalogue-list'));
   for(const card of $('catalogue-list').querySelectorAll('.conference'))catalogueResizeObserver.observe(card);
 }
+// Calendar export: all-day entries for the conference and its verified future deadlines.
+function icsText(value){return String(value).replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/[,;]/g,'\\$&');}
+function icsLine(line){const parts=[];let rest=line;while(rest.length>60){parts.push(rest.slice(0,60));rest=' '+rest.slice(60);}parts.push(rest);return parts.join('\r\n');}
+function icsDate(iso,addDays=0){const d=new Date(`${iso}T12:00:00Z`);d.setUTCDate(d.getUTCDate()+addDays);return d.toISOString().slice(0,10).replace(/-/g,'');}
+function calendarUrl(e,upcoming){
+  if(!e.start||!/^\d{4}-\d{2}-\d{2}$/.test(e.start))return '';
+  const url=safeUrl(e.url);
+  const stamp=new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+  const end=e.end&&/^\d{4}-\d{2}-\d{2}$/.test(e.end)&&e.end>=e.start?e.end:e.start;
+  const entries=[{uid:`${e.id}@conference-reminder`,start:e.start,end,summary:e.name,description:[e.status,url].filter(Boolean).join('\n')}];
+  for(const m of upcoming){
+    if(!m.date||['conference_start','conference_end'].includes(m.kind))continue;
+    const when=m.time?`${m.time}${m.timezone?' ('+m.timezone+')':''}`:'All-day entry; check the official cutoff time.';
+    entries.push({uid:`${m.id||`${e.id}:${m.kind}:${m.date}`}@conference-reminder`,start:m.date,end:m.date,summary:`${m.label} · ${e.name}`,description:[when,url].filter(Boolean).join('\n')});
+  }
+  const body=entries.flatMap(v=>['BEGIN:VEVENT',`UID:${icsText(v.uid)}`,`DTSTAMP:${stamp}`,`DTSTART;VALUE=DATE:${icsDate(v.start)}`,`DTEND;VALUE=DATE:${icsDate(v.end,1)}`,`SUMMARY:${icsText(v.summary)}`,e.location?`LOCATION:${icsText(e.location)}`:'',v.description?`DESCRIPTION:${icsText(v.description)}`:'',url?`URL:${url}`:'','END:VEVENT'].filter(Boolean));
+  const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Conference Reminder//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH',...body,'END:VCALENDAR'];
+  return 'data:text/calendar;charset=utf-8,'+encodeURIComponent(lines.map(icsLine).join('\r\n')+'\r\n');
+}
+// Filters are mirrored into the query string so a filtered view can be shared or reloaded.
+const filterParams={search:'q',region:'region',stage:'status',sort:'sort',topic:'topic',type:'type',year:'year','source-check':'source'};
+const filterDefaults={search:'',region:'Europe-group',stage:'all',sort:'date',topic:'all',type:'all',year:'all','source-check':'all'};
+function hasOption(select,value){return !select.options||[...select.options].some(option=>option.value===value);}
+function applyUrlFilters(){
+  if(typeof location==='undefined'||typeof URLSearchParams==='undefined')return;
+  let params;try{params=new URLSearchParams(location.search);}catch{return;}
+  let advanced=false;
+  for(const [id,key] of Object.entries(filterParams)){
+    const value=params.get(key);
+    if(value===null||value===filterDefaults[id])continue;
+    if(id!=='search'&&!hasOption($(id),value))continue;
+    $(id).value=value;
+    if(['topic','type','year','source-check'].includes(id))advanced=true;
+  }
+  if(params.get('past')==='1')$('show-past').checked=true;
+  if(advanced)$('advanced-filters').open=true;
+}
+function syncUrlFilters(){
+  if(typeof history==='undefined'||typeof location==='undefined'||typeof URLSearchParams==='undefined'||typeof history.replaceState!=='function')return;
+  const params=new URLSearchParams();
+  for(const [id,key] of Object.entries(filterParams)){const value=$(id).value;if(value!==filterDefaults[id])params.set(key,value);}
+  if($('show-past').checked)params.set('past','1');
+  const query=params.toString();
+  const next=`${location.pathname}${query?'?'+query:''}${location.hash}`;
+  if(next!==`${location.pathname}${location.search}${location.hash}`){try{history.replaceState(null,'',next);}catch{}}
+}
 function anchor(url,label,cls=''){const href=safeUrl(url);return href?`<a class="${esc(cls)}" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`:'';}
 function shortTime(value){if(!value)return 'Not yet checked';const d=new Date(value);return Number.isFinite(d.getTime())?d.toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}):String(value);}
 function emailUrl(id){if(!config.emailRemindersEnabled)return '';try{const u=new URL(config.emailReminderUrl);if(u.protocol!=='https:'||u.hostname!=='script.google.com'||!u.pathname.endsWith('/exec'))return '';if(id)u.searchParams.set('eventId',id);else u.searchParams.set('view','request-manage');return u.href;}catch{return '';}}
@@ -86,7 +132,9 @@ function card(e){
   const dates=e.start?(watch?'Provisional: ':'')+dateLabel(e.start)+(e.end&&e.end!==e.start?' – '+dateLabel(e.end):''):'Dates to be announced';
   const sources=[...new Set([e.url,...(e.sources||[])])].filter(safeUrl);
   const deadlines=deadlineSummary(e);
-  return `<article class="conference${watch?' watchlist':''}" id="event-${esc(e.id)}" tabindex="-1"><a class="timeline-return" href="#conference-timeline">↑ Back to timeline</a><div class="card-top"><span class="badge${watch||hasConflict?' warn':''}">${esc(watch?'Dates pending · '+region:region)}</span><span class="activity">${esc(e.type)}</span></div><div class="phase-line" role="list" aria-label="Conference statuses">${statusBadges(phases)}</div><h3>${esc(e.name)}</h3><p class="event-date">${esc(dates)}</p><p class="location">${esc(e.location||'Location to be announced')}</p><div class="tags">${eventTopics(e).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><p class="event-status">${esc(e.status)}${e.reminders_paused?' Reminder scheduling is paused while an official change is reviewed.':''}</p>${next?`<p class="deadline-preview"><b>${esc(next.label)}</b><br>${esc(nodeText(next))}</p>`:hasConflict?'<p class="deadline-preview">Some dates conflict. See the evidence before planning.</p>':''}${peopleDetails(e)}<details class="card-details"><summary>Dates, research fit &amp; sources</summary><p>${esc(e.note)}</p>${e.tags?.length?`<p><b>Research topics</b><br>${esc(e.tags.join(' · '))}</p>`:''}${deadlines?`<p><b>Published deadlines &amp; availability</b><br>${esc(deadlines)}</p>`:''}${e.deadline_notes?`<p><b>Initial research notes (may include superseded dates)</b><br>${esc(e.deadline_notes)}</p>`:''}${e.date&&e.date!==`${e.start} — ${e.end}`?`<p>${esc(e.date)}</p>`:''}<ul class="milestones">${(e.milestones||[]).map(m=>`<li><b>${esc(m.label)}</b><br>${esc(nodeText(m))}${m.evidence?`<br>${esc(m.evidence)}`:''}${m.candidates?.length?`<br>Candidates: ${m.candidates.map(c=>esc(typeof c==='string'?c:(c.date||c.raw||JSON.stringify(c)))).join(' / ')}`:''}${m.source?`<br>${anchor(m.source,'Date source ↗')}`:''}</li>`).join('')}</ul>${e.evidence?`<p>${esc(e.evidence)}</p>`:''}<b>Official sources</b><ul class="source-links">${sources.map((url,i)=>`<li>${anchor(url,`${i+1}. ${new URL(url).hostname} ↗`)}</li>`).join('')}</ul><p>Initial research / latest supported-fact verification: ${esc(shortTime(check.last_verified_at||e.verified_on))}</p>${check.message?`<p>${esc(check.message)}</p>`:''}</details><p class="check">${esc(checkState)} · ${esc(shortTime(check.last_checked_at))}</p><div class="card-actions">${reminderAction}${anchor(e.url,'Official website ↗','button secondary')}</div></article>`;
+  const calendar=watch||paused||!upcoming.length?'':calendarUrl(e,upcoming);
+  const calendarAction=calendar?`<a class="button secondary" href="${esc(calendar)}" download="${esc(e.id)}.ics" title="Download an .ics file with the conference dates and verified upcoming deadlines">Add to calendar</a>`:'';
+  return `<article class="conference${watch?' watchlist':''}" id="event-${esc(e.id)}" tabindex="-1"><a class="timeline-return" href="#conference-timeline">↑ Back to timeline</a><div class="card-top"><span class="badge${watch||hasConflict?' warn':''}">${esc(watch?'Dates pending · '+region:region)}</span><span class="activity">${esc(e.type)}</span></div><div class="phase-line" role="list" aria-label="Conference statuses">${statusBadges(phases)}</div><h3>${esc(e.name)}</h3><p class="event-date">${esc(dates)}</p><p class="location">${esc(e.location||'Location to be announced')}</p><div class="tags">${eventTopics(e).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><p class="event-status">${esc(e.status)}${e.reminders_paused?' Reminder scheduling is paused while an official change is reviewed.':''}</p>${next?`<p class="deadline-preview"><b>${esc(next.label)}</b><br>${esc(nodeText(next))}</p>`:hasConflict?'<p class="deadline-preview">Some dates conflict. See the evidence before planning.</p>':''}${peopleDetails(e)}<details class="card-details"><summary>Dates, research fit &amp; sources</summary><p>${esc(e.note)}</p>${e.tags?.length?`<p><b>Research topics</b><br>${esc(e.tags.join(' · '))}</p>`:''}${deadlines?`<p><b>Published deadlines &amp; availability</b><br>${esc(deadlines)}</p>`:''}${e.deadline_notes?`<p><b>Initial research notes (may include superseded dates)</b><br>${esc(e.deadline_notes)}</p>`:''}${e.date&&e.date!==`${e.start} — ${e.end}`?`<p>${esc(e.date)}</p>`:''}<ul class="milestones">${(e.milestones||[]).map(m=>`<li><b>${esc(m.label)}</b><br>${esc(nodeText(m))}${m.evidence?`<br>${esc(m.evidence)}`:''}${m.candidates?.length?`<br>Candidates: ${m.candidates.map(c=>esc(typeof c==='string'?c:(c.date||c.raw||JSON.stringify(c)))).join(' / ')}`:''}${m.source?`<br>${anchor(m.source,'Date source ↗')}`:''}</li>`).join('')}</ul>${e.evidence?`<p>${esc(e.evidence)}</p>`:''}<b>Official sources</b><ul class="source-links">${sources.map((url,i)=>`<li>${anchor(url,`${i+1}. ${new URL(url).hostname} ↗`)}</li>`).join('')}</ul><p>Initial research / latest supported-fact verification: ${esc(shortTime(check.last_verified_at||e.verified_on))}</p>${check.message?`<p>${esc(check.message)}</p>`:''}</details><p class="check">${esc(checkState)} · ${esc(shortTime(check.last_checked_at))}</p><div class="card-actions">${reminderAction}${calendarAction}${anchor(e.url,'Official website ↗','button secondary')}</div></article>`;
 }
 function statusBadges(phases){return phases.map(phase=>`<span role="listitem" class="phase-badge" data-phase="${esc(phase.key)}"${phase.availability?` data-availability="${esc(phase.availability)}"`:""} title="${esc(phase.help)}" aria-label="Status: ${esc(phase.label)}">${esc(phase.label)}</span>`).join('');}
 function statusSignature(){return JSON.stringify([...catalogue.events,...catalogue.watchlist].map(e=>[e.id,eventStatuses(e)]));}
@@ -122,6 +170,7 @@ function renderCatalogue(){
   $('advanced-count').textContent=advancedCount?`(${advancedCount} selected)`:'';
   for(const [status,button] of sourceButtons)button.setAttribute('aria-pressed',String(sourceCheck===status));
   catalogueStatusSignature=statusSignature();
+  syncUrlFilters();
   $('catalogue-list').innerHTML=events.length?events.map(card).join(''):'<div class="empty">No conferences match these filters.<br>Try adjusting the filters or use Reset filters.</div>';
   refreshCatalogueLayout();
   renderTimeline(events,f.stage);
@@ -162,8 +211,10 @@ for(const id of ['search','region','topic','type','year','sort','show-past','sou
 $('stage').onchange=()=>{if($('stage').value==='finished')$('show-past').checked=true;renderCatalogue();};
 function resetFilters(){$('search').value='';$('region').value='Europe-group';for(const id of ['topic','type','year','stage','source-check'])$(id).value='all';$('sort').value='date';$('show-past').checked=false;$('advanced-filters').open=false;}
 $('reset-filters').onclick=()=>{resetFilters();renderCatalogue();};
+// Press "/" anywhere outside a form control to jump to the search box.
+document.addEventListener?.('keydown',event=>{if(event.key!=='/'||event.metaKey||event.ctrlKey||event.altKey||event.defaultPrevented)return;const tag=event.target?.tagName;if(['INPUT','SELECT','TEXTAREA'].includes(tag)||event.target?.isContentEditable)return;event.preventDefault();$('search').focus();$('search').select?.();});
 function tick(){const day=todayISO();if(day!==catalogueDay){catalogueDay=day;renderCatalogue();}else refreshPhases();}
-async function loadCatalogue(){try{const response=await fetch('./data/conferences.json',{cache:'no-store'});if(!response.ok)throw new Error('Catalogue unavailable');const data=await response.json();if(!Array.isArray(data.events)||!Array.isArray(data.watchlist))throw new Error('Invalid catalogue');catalogue=data;watchlistIds=new Set(data.watchlist.map(e=>e.id));catalogueLoaded=true;const all=[...data.events,...data.watchlist];for(const [id,values] of [['topic',all.flatMap(eventTopics)],['type',all.map(e=>e.type)],['year',all.map(e=>e.start?.slice(0,4)||e.name.match(/20\d{2}/)?.[0]).filter(Boolean)]]){for(const value of [...new Set(values)].sort()){const option=document.createElement('option');option.value=value;option.textContent=value;$(id).append(option);}}renderHealth();renderCatalogue();}catch{catalogueError=true;$('source-health').textContent='The catalogue could not be loaded. Please try reloading.';$('catalogue-list').innerHTML='<p class="empty">The conference collection is temporarily unavailable. Please try reloading.</p>';$('result-count').textContent='Catalogue unavailable';}}
+async function loadCatalogue(){try{const response=await fetch('./data/conferences.json',{cache:'no-store'});if(!response.ok)throw new Error('Catalogue unavailable');const data=await response.json();if(!Array.isArray(data.events)||!Array.isArray(data.watchlist))throw new Error('Invalid catalogue');catalogue=data;watchlistIds=new Set(data.watchlist.map(e=>e.id));catalogueLoaded=true;const all=[...data.events,...data.watchlist];for(const [id,values] of [['topic',all.flatMap(eventTopics)],['type',all.map(e=>e.type)],['year',all.map(e=>e.start?.slice(0,4)||e.name.match(/20\d{2}/)?.[0]).filter(Boolean)]]){for(const value of [...new Set(values)].sort()){const option=document.createElement('option');option.value=value;option.textContent=value;$(id).append(option);}}applyUrlFilters();renderHealth();renderCatalogue();}catch{catalogueError=true;$('source-health').textContent='The catalogue could not be loaded. Please try reloading.';$('catalogue-list').innerHTML='<p class="empty">The conference collection is temporarily unavailable. Please try reloading.</p>';$('result-count').textContent='Catalogue unavailable';}}
 async function loadConfig(){try{const r=await fetch('./config.json',{cache:'no-store'});if(r.ok)config=await r.json();if(emailUrl()){$('email-status').innerHTML='<b>Email reminders:</b> choose dates on a conference, then verify your email. '+ '<span class="email-help">No sign-in; reminders work with this page closed. </span>'+anchor(emailUrl(),'Manage my email reminders ↗');renderCatalogue();}else{$('email-status').textContent='Email reminders are temporarily unavailable. Please check back later.';}}catch{$('email-status').textContent='Email reminder availability could not be checked. Please try reloading.';}}
 async function loadDiscovery(){try{const response=await fetch('./data/discovered-conferences.json',{cache:'no-store'});if(response.ok){const data=await response.json();if(Array.isArray(data.candidates)){discovery=data;}}}catch{}renderDiscovery();}
 tick();setInterval(tick,15000);loadCatalogue();loadConfig();loadDiscovery();
