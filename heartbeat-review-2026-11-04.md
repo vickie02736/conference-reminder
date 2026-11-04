@@ -167,4 +167,13 @@
 
 ## 测试与发布
 
-109项前端测试、47项Python测试通过；目录校验166个正式活动/8个观察项通过；git diff --check通过；所有来源hash与运行器基准保持不变，已完成语义复核的附件hash逐项匹配。发布待推送后确认。完整机器记录：data/heartbeat-review-2026-11-04.json。
+109项前端测试、47项Python测试通过；目录校验166个正式活动/8个观察项通过；git diff --check通过；所有来源hash与运行器基准保持不变，已完成语义复核的附件hash逐项匹配。发布已确认：提交 e29860a0e34c7b40c7a3a68668b3da33e60c148d；[运行41804766160](https://github.com/vickie02736/conference-reminder/actions/runs/41804766160)完成且成功。完整机器记录：data/heartbeat-review-2026-11-04.json。
+
+线上验证时间：2026-11-04T09:08:00.697723+00:00。四个发布文件均HTTP 200，与提交内容逐字节一致：
+
+- data/conferences.json — SHA-256 2ae00ee2a1fa8da6088b9185eab954af72478e11fe9ffbd5819a4ef22e105b0b
+- data/source-checks.json — SHA-256 c103b8dee511f31496b475c8fa86e8ff68583877a5d4912ef74c68d3499d3586
+- data/review-progress.json — SHA-256 fdae7504de37a4128209f4ef355b144cf9226a1a8516c26201a0d065ec845222
+- data/heartbeat-review-2026-11-04.json — SHA-256 824048dc1e3e95222055df28828aff60220cc535846bf75f06d2be933b4a0831
+
+本报告的后续文档证据提交不触发重复发布，线上数据仍对应上述数据提交。
