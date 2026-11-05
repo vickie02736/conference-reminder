@@ -170,7 +170,11 @@
           "review_method": "browser_text",
           "resolved_reason": "transport_review"
         }
-      }
+      },
+      "lifecycle": "covered_by_alternative",
+      "alternative": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
+      "covered_at": "2026-11-05T12:30:00+00:00",
+      "coverage_evidence": "The event page resets the runner's connection; the WordPress Events Calendar REST record for the same event (same CMS, same post) is read by the runner and carries the dates, venue and description shown on the page."
     },
     "https://aistats.org/aistats2027/dates.html": {
       "last_checked_at": "2026-10-29T07:08:30Z",
@@ -243,7 +247,11 @@
           "review_method": "browser_text",
           "resolved_reason": "transport_review"
         }
-      }
+      },
+      "lifecycle": "covered_by_alternative",
+      "alternative": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
+      "covered_at": "2026-11-05T12:30:00+00:00",
+      "coverage_evidence": "The event page resets the runner's connection; the WordPress Events Calendar REST record for the same event is read by the runner and carries the page's dates, venue and description."
     },
     "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/": {
       "last_checked_at": "2026-11-05T07:56:44Z",
@@ -997,7 +1005,11 @@
             "online presentations via recordings/digital materials"
           ]
         }
-      }
+      },
+      "lifecycle": "covered_by_alternative",
+      "alternative": "https://api.fourwaves.com/api/events/interpore2027",
+      "covered_at": "2026-11-05T12:30:00+00:00",
+      "coverage_evidence": "The submission page is a JavaScript app with no server-rendered text; the Fourwaves event API that the app itself loads is read by the runner. The abstract-date conflict remains protected in source-adapters.json."
     },
     "https://fomms.cache.org/2027/important-dates": {
       "last_checked_at": "2026-11-05T07:56:44Z",
@@ -1691,7 +1703,11 @@
           "review_method": "browser_text",
           "resolved_reason": "transport_review"
         }
-      }
+      },
+      "lifecycle": "covered_by_alternative",
+      "alternative": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
+      "covered_at": "2026-11-05T12:30:00+00:00",
+      "coverage_evidence": "The GitHub Pages site is a client-rendered React app; the runner reads the App.jsx source from the same repository, which holds every date, venue and speaker string the site renders."
     },
     "https://rscfirst.org.cn/": {
       "last_checked_at": "2026-11-05T07:56:44Z",
@@ -4863,7 +4879,11 @@
             "people_roles_affiliations"
           ]
         }
-      }
+      },
+      "lifecycle": "duplicate_mirror",
+      "canonical": "https://www.elsevier.com/en-gb/events/conferences/all/materials-today-conference/committee-and-speakers",
+      "mirrored_at": "2026-11-05T12:30:00+00:00",
+      "mirror_evidence": "Regional Elsevier URL; runner fingerprint identical to the en-gb page (run 41990590073). Skipped only while hashes match."
     },
     "https://www.esat2027.com/committees/": {
       "last_checked_at": "2026-11-05T07:56:44Z",

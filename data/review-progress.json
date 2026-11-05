@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-05",
-  "remaining_count": 47,
-  "remaining_source_count": 46,
+  "remaining_count": 43,
+  "remaining_source_count": 42,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -293,21 +293,6 @@
       ]
     },
     {
-      "source": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/",
-      "event_id": "applications-of-artificial-intelligence-to-process-chemistry-scientific-update",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "9a641ef41009f95bb7ac7199959b961d751291f3f04237e0415e9e1ca915721c",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
       "event_id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques",
       "reason": "manual_review_partial",
@@ -359,21 +344,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "593407c9ab67cda2baf5adb5abfe36e34b7b44794dfa7b9996ff2de447e38662",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.brunel.ac.uk/news-and-events/events/2026/Advances-in-Computational-Approaches-to-Antimicrobial-Resistance",
-      "event_id": "computational-antimicrobial-resistance-2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "21369ba053d4cba7aaab8d2766332d89d14187d4b5799d81b5056db7a4194cce",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -489,37 +459,7 @@
       ]
     },
     {
-      "source": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/",
-      "event_id": "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "0457f68d7454612a28f6244c34d04e048c350e0d588253300de56e578f7c9a10",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://www.elsevier.com/en-gb/events/conferences/all/materials-today-conference/committee-and-speakers",
-      "event_id": "materials-today-conference-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "8a7e3cd589b03ab17046ccba14b1be10cbc8fcc1a3b34159241355344b1a0e85",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.elsevier.com/en-in/events/conferences/all/materials-today-conference/committee-and-speakers",
       "event_id": "materials-today-conference-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
@@ -683,19 +623,9 @@
       "reason": "Official source returned no readable page content."
     },
     {
-      "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
-      "status": "unverifiable",
-      "reason": "IncompleteRead(7658 bytes read)"
-    },
-    {
       "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "status": "unverifiable",
       "reason": "IncompleteRead(36451 bytes read)"
-    },
-    {
-      "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
-      "status": "unverifiable",
-      "reason": "IncompleteRead(15940 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
@@ -738,11 +668,6 @@
       "reason": "The read operation timed out"
     },
     {
-      "source": "https://event.fourwaves.com/interpore2027/submission",
-      "status": "unverifiable",
-      "reason": "Official source returned no readable page content."
-    },
-    {
       "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
       "status": "unverifiable",
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
@@ -751,11 +676,6 @@
       "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
       "status": "unverifiable",
       "reason": "<urlopen error timed out>"
-    },
-    {
-      "source": "https://uon-comp-chem.github.io/mm2027/",
-      "status": "unverifiable",
-      "reason": "Official source returned no readable page content."
     },
     {
       "source": "https://watoc2028.org/",
@@ -856,6 +776,82 @@
       "source": "https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "covered_transport_issues": [
+    {
+      "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(7658 bytes read)",
+      "alternative": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(15940 bytes read)",
+      "alternative": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027/submission",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "alternative": "https://api.fourwaves.com/api/events/interpore2027"
+    },
+    {
+      "source": "https://uon-comp-chem.github.io/mm2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "alternative": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx"
+    }
+  ],
+  "mirror_addresses": [
+    {
+      "source": "https://www.elsevier.com/en-in/events/conferences/all/materials-today-conference/committee-and-speakers",
+      "canonical": "https://www.elsevier.com/en-gb/events/conferences/all/materials-today-conference/committee-and-speakers"
+    }
+  ],
+  "finished_skipped": [
+    {
+      "source": "https://www.brunel.ac.uk/news-and-events/events/2026/Advances-in-Computational-Approaches-to-Antimicrobial-Resistance",
+      "event_ids": [
+        "computational-antimicrobial-resistance-2026"
+      ]
+    },
+    {
+      "source": "https://www.ccpbiosim.ac.uk/events/upcoming-events/antimicrobial2026",
+      "event_ids": [
+        "computational-antimicrobial-resistance-2026"
+      ]
+    },
+    {
+      "source": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/",
+      "event_ids": [
+        "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems"
+      ]
+    },
+    {
+      "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+      "event_ids": [
+        "iccsiw-2026"
+      ]
+    },
+    {
+      "source": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
+      "event_ids": [
+        "chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning"
+      ]
+    },
+    {
+      "source": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
+      "event_ids": [
+        "chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning"
+      ]
+    },
+    {
+      "source": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/",
+      "event_ids": [
+        "applications-of-artificial-intelligence-to-process-chemistry-scientific-update"
+      ]
     }
   ],
   "historical_addresses": [
