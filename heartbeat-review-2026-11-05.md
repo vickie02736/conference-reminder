@@ -14,6 +14,8 @@
 - InterPore MS03 组织者区块新增6人及机构；按区块列名保存，不推断每人的负责人身份；摘要日期冲突继续保留。
 - 两个 Peers Alley 首页随机标签/历史照片噪声已用精确 VOLATILE_TEXT 规则修复并补测试；两个运行的完整附件在新规则下 hash 一致，仅基于运行器正文迁移2个现存 hash。
 
+- Chemistry World 日期表将首轮摘要与早鸟注册明确标为 “Open now”，已同步开放状态；后续阶段为 Upcoming。
+
 ## 本轮语义复核（逐条证据）
 
 1. `45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026` — [来源](https://sscg.uk/2026-sscg-christmas-meeting)；原问题 `content_changed` → `resolved`。runner正文逐行差异仅新增 Dr Joe Willis；正文列为 “Advanced Materials Policy Lead, DBIST, HM Government”，未改变会议日期、口头摘要 2026-11-06、注册/海报摘要 2026-11-25 或已存时间信息。 核实时间：2026-11-05T09:17:36+00:00。

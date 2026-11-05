@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-05T07:56:44Z",
-    "last_updated_at": "2026-11-05T09:43:43.860397+00:00",
+    "last_updated_at": "2026-11-05T09:48:17.629359+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -22145,7 +22145,7 @@
       "location": "Minneapolis Convention Center, Minneapolis, USA",
       "region": "Other",
       "type": "Conference",
-      "deadline": "Online registration closed on 4 November 2026; onsite registration opens 7 November 2026 at 12:00 CST. No final onsite registration cutoff published.",
+      "deadline": "Online registration is closed; the last-minute fee stage ended 4 November 2026. Onsite registration opens 7 November 2026 at 12:00 CST. No final onsite registration cutoff published.",
       "status": "Online registration is closed. Onsite registration opens 7 November 2026 at 12:00 CST in Minneapolis. Submission availability is unconfirmed; the final onsite registration cutoff is not published.",
       "note": "Chemical engineering, materials and computational engineering; select relevant sessions from the programme. This is the Annual Meeting, distinct from the student conference on 6–9 November. Session-specific submission deadlines and the final registration cutoff were not verified.",
       "sources": [
@@ -23371,7 +23371,7 @@
       "region": "Europe",
       "type": "Conference",
       "deadline": "First-round abstracts: 2026-11-16; Second-round abstracts: 2026-12-23; Final abstracts: 2027-06-10; Early-bird registration: 2026-11-17; Midterm registration fee cutoff: 2026-12-25; On-site registration date: 2027-06-21",
-      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "status": "First-round abstract submission and early-bird registration are open, as published on the official Important Dates page. Later submission and registration stages are upcoming.",
       "note": "Commercial chemistry congress; theoretical and computational chemistry are sessions within the main meeting. Select sessions for research relevance. Published academic rosters are organizer statements.",
       "sources": [
         "https://chemistryworldconference.com/program/scientific-sessions/theoretical-computational-chemistry",
@@ -23380,11 +23380,11 @@
       "url": "https://chemistryworldconference.com/information/important-dates",
       "priority": 1,
       "verified_on": "2026-11-05",
-      "evidence": "2026-11-05 reviewed both changed official runner pages from GitHub run 41990590073; current dates and deadline cards match stored milestones, with no time zones or new speakers published.",
+      "evidence": "2026-11-05 reviewed both changed official runner pages from GitHub run 41990590073; current dates and deadline cards match stored milestones, with no time zones or new speakers published. The First Round Submission and Early Bird Registration rows explicitly say “Open now”; later stages say “Upcoming”.",
       "check": {
         "status": "checked",
         "last_checked_at": "2026-11-05T09:17:36+00:00",
-        "last_verified_at": "2026-11-05T09:17:36+00:00",
+        "last_verified_at": "2026-11-05T09:48:17.629359+00:00",
         "message": null
       },
       "milestones": [
@@ -26461,6 +26461,15 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-05T09:48:17.629359+00:00",
+      "event_id": "chemistry-world-conference-2027",
+      "field": "status",
+      "previous": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "value": "First-round abstract submission and early-bird registration are open, as published on the official Important Dates page. Later submission and registration stages are upcoming.",
+      "source": "https://chemistryworldconference.com/information/important-dates",
+      "evidence": "Runner 41990590073 official deadline table labels the first submission round and early-bird registration “Open now”."
+    },
     {
       "at": "2026-11-05T09:43:43.860397+00:00",
       "event_id": "aiche-annual-meeting-2026",

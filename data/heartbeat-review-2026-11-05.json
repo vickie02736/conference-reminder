@@ -41,7 +41,8 @@
     "SSCG 官方程序新增 Joe Willis（HM Government，Advanced Materials Policy Lead, DBIST）。",
     "RSC Digital Chemistry 的 Sterling Baird 机构从 University of Toronto 改为 Brigham Young University；口头摘要截止冲突继续保留。",
     "InterPore MS03 组织者区块新增6人及机构；按区块列名保存，不推断每人的负责人身份；摘要日期冲突继续保留。",
-    "两个 Peers Alley 首页随机标签/历史照片噪声已用精确 VOLATILE_TEXT 规则修复并补测试；两个运行的完整附件在新规则下 hash 一致，仅基于运行器正文迁移2个现存 hash。"
+    "两个 Peers Alley 首页随机标签/历史照片噪声已用精确 VOLATILE_TEXT 规则修复并补测试；两个运行的完整附件在新规则下 hash 一致，仅基于运行器正文迁移2个现存 hash。",
+    "Chemistry World 改版日期表明确将首轮摘要与早鸟注册标为 Open now，已同步开放状态；后续阶段为 Upcoming。"
   ],
   "review_records": [
     {
@@ -165,14 +166,14 @@
           "index_hash": "35e29e0af58c808aee0ce28c7475ebc25ad9a7139b31a1f7329127000dd27c60",
           "source_state_hash_before_review": "35e29e0af58c808aee0ce28c7475ebc25ad9a7139b31a1f7329127000dd27c60",
           "hash_matched_before_review": true,
-          "evidence": "runner正文改版后仍明确会议 2027-06-21 至 23、Rome/Hybrid；摘要截止 2026-11-16、12-23、2027-06-10，早鸟/中期注册 2026-11-17、12-25，现场注册 2027-06-21。未公布截止钟点或时区，未新增人员。"
+          "evidence": "runner正文改版后仍明确会议 2027-06-21 至 23、Rome/Hybrid；摘要截止 2026-11-16、12-23、2027-06-10，早鸟/中期注册 2026-11-17、12-25，现场注册 2027-06-21。未公布截止钟点或时区，未新增人员。新版日期表将 First Round Submission 与 Early Bird Registration 明确标为 “Open now”，已同步开放状态；后续阶段为 Upcoming。"
         }
       ],
       "final_status": "resolved",
       "evidence_links": [
         "https://chemistryworldconference.com/information/important-dates"
       ],
-      "verified_at": "2026-11-05T09:17:36+00:00",
+      "verified_at": "2026-11-05T09:48:17.629359+00:00",
       "review_method": "runner_text",
       "review_run": "41990590073",
       "reviewed_hash": "35e29e0af58c808aee0ce28c7475ebc25ad9a7139b31a1f7329127000dd27c60",
