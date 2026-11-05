@@ -340,21 +340,16 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "ccb7ddf9ba55e00bce2c59c51f303e256c7ca0bb5a0b0ebc7108327a1e6dce3c",
-          "evidence": "会议 2027-03-22 至 24 Porto（ISEP）相符；摘要截止已延至 2026-12-01（Important Dates 同步），减费注册 2027-01-01 相符，均无钟点/时区。录用通知 12-01 与 12-15 两处不一致，但通知日期不作为提醒节点，不影响记录。",
-          "review_method": "browser_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "reviewed_hash": "2a4bb7c89273d11eb60aa1dade79dd08ac9fc03e7fd12cf7768421c6230c33cc",
+          "evidence": "runner正文逐行差异仅将 MATERIALS 统一为 MATERIAIS；正文仍列摘要延期至 2026-12-01、减免费注册 2027-01-01、会议 2027-03-22 至 24 及既有机构/委员会，未公布钟点或时区。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-05T07:56:44Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_run": "41990590073"
         }
       },
       "fingerprint_version": 2
@@ -1036,22 +1031,16 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "interpore2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-04T09:03:33+00:00",
-          "reviewed_hash": "8763af389c824493d83b63235a96ba428b697a48388cb90a43c44e122feae2a2",
-          "evidence": "MS27组织者区块新增 Ruben Juanes（MIT, USA）、Marianne Peter-Borie（Lookup Geoscience, France）、Pedro Aum（Federal University of Pará, Brazil），均紧随 Lead Organizer 标题及 Amir Haghi；没有分别标注三人的lead/co-organiser角色，按该区块列名保存，不推断个人负责人角色。其他正文逐行无变；摘要截止冲突仍由其他来源记录保留。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-05T09:40:38.716197+00:00",
+          "reviewed_hash": "d9666f02fe889fe43542bc6bbd518e639f22c676a29529af3a1d784ee9e11be4",
+          "evidence": "与运行 41792669115 逐行比对，仅 MS03 组织者区块新增 Tomás Aquino、Aronne Dell’Oca、Ismail El Mellas、Jeffrey Hyman、Agnese Marcato、Josué dos Santos Barroso 及机构，已按区块列名写入；不推断每人的 lead/co-organiser 身份。其余正文（日期、钟点、时区及既有人员）无差异；摘要截止冲突由其他来源继续保留。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
-          "review_run": 41792669115,
-          "review_invalidated_at": "2026-11-05T07:56:44Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_run": 41990590073,
+          "review_invalidated_at": "2026-11-05T07:56:44Z"
         }
       },
       "fingerprint_version": 2
@@ -1243,21 +1232,16 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "a0cfa6e9e18ad601c7de0157735afc40a71861b2e471b191a524934a3148132c",
-          "evidence": "剑桥在线报名页：“Dates of Event 6th January 2027 – 8th January 2027”，“Last Booking Date for this Event 16th December 2026”，与 start/end 及 registration 2026-12-16 相符，均无钟点/时区。场地 Yusuf Hamied Department of Chemistry, Lensfield Road, Cambridge CB2 1EW；标准注册 £195；“Book Event”可用，报名开放。联系人 Dr Seán Kavanagh（仅为联系人，未标为组织者，不新增）。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "reviewed_hash": "b54a2eca9d8c27d490a029d0cdbe9e04acac6b20f409ab320b752c23e8dc1897",
+          "evidence": "runner正文逐行差异仅在导航新增 CJBS Christmas Party；当前活动 2027-01-06 至 08、口头摘要 2026-11-23、海报/注册 2026-12-16 及既有地点/人员没有变化。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-05T07:56:44Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_run": "41990590073"
         }
       },
       "fingerprint_version": 2
@@ -1610,22 +1594,16 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-04T09:03:33+00:00",
-          "reviewed_hash": "17d810823dd261ce89dae47c5ee4894a8dbde8941c819279c3c60f465847eda5",
-          "evidence": "官方正文明确宣布摘要延期：口头摘要从10月30日改为11月6日；海报持续到注册关闭，同页注册为11月25日，因此拆分口头/海报节点。无截止钟点/时区。录用通知从11月15日变为16日，只记审计、不建提醒。会议日期、已存组织者/讲者角色及机构逐行无变。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "reviewed_hash": "59289e04393eb55d82b2617d84763c052d07bb4a459564f98926a73ab7f0f74b",
+          "evidence": "runner正文逐行差异仅新增 Dr Joe Willis；正文列为 “Advanced Materials Policy Lead, DBIST, HM Government”，未改变会议日期、口头摘要 2026-11-06、注册/海报摘要 2026-11-25 或已存时间信息。",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-05T07:56:44Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
           "review_method": "runner_text",
-          "review_run": 41792669115
+          "review_run": "41990590073"
         }
       },
       "fingerprint_version": 2
@@ -1878,11 +1856,13 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "reviewed_at": "2026-11-05T09:43:43.860397+00:00",
           "reviewed_hash": null,
-          "evidence": "浏览器渲染 HTTP 200，页面可读（抓取器 403，URL 未失效）。日期 July 23-28, 2028、Philadelphia 相符。委员会页列出执行规划委员会 5 人（Rimer/Houston、Dongxia Liu/Delaware、Nenoff/Sandia、Gounder/Purdue、Sarazen/NECZA, Princeton），另有规划委员会 11 人、顾问委员会 15 人；记录 committee 为空，建议仅补入执行规划委员会 5 人，其余大委员会保持选择性不录。",
-          "review_method": "browser_text",
-          "resolved_reason": "transport_review"
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方缓存中的 Executive Planning Committee 五人及机构与现存记录相符；其他 Planning/Advisory 名录尚未全量导入，不据此推断新增日期。保留传输失败状态；未修改任何 hash。",
+          "review_method": "browser",
+          "resolved_reason": "transport_review",
+          "browser_evidence_url": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -2112,21 +2092,16 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "b9b8927adacc9865a65b04dbcf4a56b0ecd316f79a9096a46e97fed61ab901a4",
-          "evidence": "活动页（重定向至 ...-1272 slug）：2027-01-11 至 01-14 核实；\"Registration deadline: November 15, 2026\" 仅日期，无钟点/时区，与注册里程碑相符；地点 CECAM-ETHZ, auditorium E51, HIT Building, Zurich 相符；摘要须在注册平台提交，未给独立摘要截止（与记录相符），录取通知 December 1st（签证段落，非截止）；参会上限 50 人。4 位组织者 (Organiser & speaker) 及机构相符；记录中 10 位受邀讲者姓名与机构全部相符，页面另有 Ruff、Safran、Schuler、Strodel、Toth-Petroczy、Weber 6 位确认受邀讲者，建议补入（Joseph、Michaels 已作为组织者记录）。",
-          "review_method": "browser_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "reviewed_hash": "f30de26a4f2b5d5c2112b40b0d087ae845974379bf6d95a79896316715488097",
+          "evidence": "runner正文逐行差异仅将参会说明改为必须在 CECAM Workshop 注册平台 Abstracts 标签提交摘要；日期 2027-01-11 至 14、注册截止 2026-11-15、地点、4 位组织者及 16 位确认讲者（含新增正文列出的 Ruff、Safran、Schuler、Strodel、Toth-Petroczy、Weber）均已核对，无钟点或时区。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-05T07:56:44Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_run": "41990590073"
         }
       },
       "fingerprint_version": 2
@@ -3363,17 +3338,14 @@
       "checks": {
         "digital-chemistry2027": {
           "review_required": true,
-          "message": "The hidden Abstract submission tab still says oral abstracts are due 'by 14 March 2027' while the Deadlines panels say '14 Dec 2026'; no dated extension notice resolves it, so the milestone must stay a conflict.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "1e65e053e4aef49f2e068d30adea63b1145c6742d589e87bccbe7c1181fe46fe",
-          "evidence": "抓取器 403，第二轮按浏览器 DOM 全文（含折叠标签页）核对。会议 2027-09-08 至 10、Edinburgh, UK 核实；JSON-LD 含 11:00/13:00 钟点但无时区，保持 precision=date。Deadlines 面板：口头摘要 14 Dec 2026、海报 28 Jun 2027、Early bird 26 Jul 2027、Standard 30 Aug 2027，均无钟点/时区，与记录相符。隐藏的 Abstract submission 标签页正文仍写“by 14 March 2027”提交口头摘要，同时同标签页下方 Deadlines 仍为 14 Dec 2026，未见带日期的延期说明，冲突依旧存在，记录中的 conflict（两候选）正确。全文论文“by 19 April 2027”、海报“by 28 June 2027”核实。Scientific committee 6 人（Butler、Jelfs 为 co-chairs，Artrith、Hein、Jablonka、Mercado Oropeza）及机构相符；Invited 8 人（Deringer 开场、White 闭幕、Baird、van den Berg、Bourne、Thurow、Junkers、Krishnapriyan）及机构相符。",
-          "review_method": "browser_dom",
+          "message": "仅剩口头摘要截止冲突：Deadlines 面板 2026-12-14 vs 历史已核实的 Abstract submission 正文 2027-03-14；未见官方解释，保留 conflict。",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-05T09:40:38.716197+00:00",
+          "reviewed_hash": "42f319170206cf3f660168874ef398639f1043dd8fa49ef68af437d7c2419ad4",
+          "evidence": "运行器逐行差异：Sterling Baird 机构从 University of Toronto / Canada 改为 Brigham Young University / United States，已按官方名录更新；其余变更为重复呈现的相同讲者/委员会条目，无新增人员。既有口头摘要冲突（面板 2026-12-14 vs 隐藏正文 2027-03-14）无新的延期解释，继续保留，不用运行器删减的正文假定冲突解除。",
+          "review_method": "runner_text",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "oral abstract deadline: 2026-12-14 vs 2027-03-14"
           ],
           "verified_fields": [
             "start/end",
@@ -3386,7 +3358,8 @@
             "people: scientific committee (6)",
             "people: speakers (8)"
           ],
-          "review_invalidated_at": "2026-11-05T07:56:44Z"
+          "review_invalidated_at": "2026-11-05T07:56:44Z",
+          "review_run": 41990590073
         }
       },
       "fingerprint_version": 2
@@ -3527,11 +3500,13 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "reviewed_at": "2026-11-05T09:43:43.860397+00:00",
           "reviewed_hash": null,
-          "evidence": "链接未失效：浏览器 HTTP 200，每日抓取器 403 为反爬拦截。会议 May 2–5, 2027，Bellevue, Washington，Hyatt Regency Bellevue，线下，核实。公告：Minisymposium Proposal 截止延期至 November 2, 2026（无钟点）；Contributed/Minisymposium Presentation 摘要 November 2, 2026；Travel Support February 1, 2027；Early Registration March 31, 2027；另有 Hotel Reservation March 31, 2027。均与记录相符，延期公告优先于旧的 10 月 5 日文案。组委会联合主席 Garcia-Cervera（UCSB）、Schlömerkemper（Würzburg）及 8 位委员姓名、机构全部相符。",
-          "review_method": "browser_text",
-          "resolved_reason": "transport_review"
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方缓存确认会议 2027-05-02 至 05、Bellevue；两 co-chairs 及8位委员会成员/机构与已存名录一致；公告仍列已延期 proposals 与摘要截止 2026-11-02、travel 2027-02-01、early registration 2027-03-31。保留传输失败状态；未修改任何 hash。",
+          "review_method": "browser",
+          "resolved_reason": "transport_review",
+          "browser_evidence_url": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -3664,11 +3639,13 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "reviewed_at": "2026-11-05T09:43:43.860397+00:00",
           "reviewed_hash": null,
-          "evidence": "浏览器文本（HTTP 200）核实：会议 2027-06-13 至 06-17，Hyatt Regency McCormick Place, Chicago；摘要截止 2026-12-01、优惠注册截止 2027-04-30，均无钟点/时区，保持 precision=date。主席 Aaron Stebner（Georgia Tech）、Programming Chair Sean Donegan（AFRL）及 5 名组委与记录一致；Nathan Johnson 的机构页面为 \"ZEISS\"，记录误作 \"ZIESS\"，建议更正。TMS Meeting Services 联系信息相符。URL 有效，仅自动抓取被 403 拦截。",
-          "review_method": "browser_text",
-          "resolved_reason": "transport_review"
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方缓存确认会议 2027-06-13 至 17、Chicago，摘要截止 2026-12-01，优惠注册截止 2027-04-30；7位 chair/programming chair/committee 及机构与已存记录一致。保留传输失败状态；未修改任何 hash。",
+          "review_method": "browser",
+          "resolved_reason": "transport_review",
+          "browser_evidence_url": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -5844,11 +5821,13 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "reviewed_at": "2026-11-05T09:43:43.860397+00:00",
           "reviewed_hash": null,
-          "evidence": "链接未失效（浏览器 HTTP 200，抓取器 403）。“Deadline for submission of contributed abstracts: November 2, 2026 (11:59 p.m. Eastern Time)” 与 23:59 America/New_York datetime 相符；minisymposium speaker abstracts 同为 November 2, 2026 11:59 p.m. ET。正文仍保留旧的 “minisymposium proposals: October 5, 2026 (11:59 p.m. Eastern Time)”，但顶部公告明确写 Extended 至 November 2, 2026（无钟点），记录未把 23:59 沿用到延期日期，处理正确。录用通知 December 2026（仅月份）。全线下，不接受远程报告。",
-          "review_method": "browser_text",
-          "resolved_reason": "transport_review"
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方缓存确认 contributed/minisymposium speaker abstracts 为 2026-11-02 23:59 Eastern Time；proposal 正文旧日期 10-05 与顶部明确 Deadline Extended 至11-02并存，保留已有延期节点；不添加录用通知提醒。保留传输失败状态；未修改任何 hash。",
+          "review_method": "browser",
+          "resolved_reason": "transport_review",
+          "browser_evidence_url": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -5861,11 +5840,13 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "reviewed_at": "2026-11-05T09:43:43.860397+00:00",
           "reviewed_hash": null,
-          "evidence": "浏览器文本（HTTP 200）核实：同样列出 2027-06-13 至 17、Hyatt Regency McCormick Place, Chicago 及摘要截止 2026-12-01（无钟点/时区）；8 个技术主题（AI Agents/Digital Twins、自主表征、自主实验材料发现等）与记录 note 描述一致。URL 有效，自动抓取 403。",
-          "review_method": "browser_text",
-          "resolved_reason": "transport_review"
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方缓存确认会议 2027-06-13 至 17、Chicago，摘要截止 2026-12-01，与已存事实一致；未列 cutoff 钟点/时区。保留传输失败状态；未修改任何 hash。",
+          "review_method": "browser",
+          "resolved_reason": "transport_review",
+          "browser_evidence_url": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -7137,12 +7118,19 @@
           "review_required": false,
           "message": null,
           "reason": null,
-          "reviewed_at": "2026-11-03T12:42:46+00:00",
+          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
           "reviewed_hash": "928ee3782127b6d0910e5a3f11519e69ba19969b2e299d160697757363534d7c",
-          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：Chrome 可见正文逐卡核实早鸟 2026-11-22、普通 2027-01-22、最终 2027-03-22，均标 On or Before；无钟点/时区。静态原始文本含 under new development，但浏览器显示三张带明确标签的卡片及表单，故日期映射已解决；注册可完成性未测试。",
-          "review_method": "runner_text",
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方注册页缓存确认 early bird 2026-11-22、normal 2027-01-22、final 2027-03-22，未给截止钟点/时区；页面同时说注册页开发中，不据注册链接断言已开放。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
+          "review_method": "browser",
           "remaining_fields": [],
-          "review_run": 41625735289
+          "review_run": 41625735289,
+          "content_verified_fields": [
+            "event dates",
+            "published deadlines where present",
+            "existing organiser roles and affiliations"
+          ],
+          "browser_evidence_url": "https://artificialintelligence.conferenceseries.com/registration.php",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -7177,10 +7165,10 @@
           "review_required": false,
           "message": null,
           "reason": null,
-          "reviewed_at": "2026-11-03T12:42:46+00:00",
+          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
           "reviewed_hash": "cbc5fe05c25516d38f5590e9e0e6e90dc241039e4be71f48eeba94ab0f272e95",
-          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：本届主页为第 8 届 AI and Machine Learning，2027-03-22 至 23、Rome，Conference Series 组织声明与记录一致，无会议起止钟点/时区。主页无明确投稿截止，保持 unknown。原库无关联个人名单，不推断讲者出席或机构背书。注册页日期标签另经浏览器逐列核实，见该来源记录。",
-          "review_method": "runner_text",
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方网页缓存与正文确认 8th International Congress on AI and Machine Learning 为 2027-03-22 至 23，Rome；未给摘要 cutoff。现有 Conference Series 主办方不变，未导入未确认届次的个人名录。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
+          "review_method": "browser",
           "resolved_reason": "content_changed",
           "remaining_fields": [],
           "reviewed_fields": [
@@ -7188,7 +7176,14 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": 41625735289
+          "review_run": 41625735289,
+          "content_verified_fields": [
+            "event dates",
+            "published deadlines where present",
+            "existing organiser roles and affiliations"
+          ],
+          "browser_evidence_url": "https://artificialintelligence.conferenceseries.com/",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -7273,7 +7268,17 @@
         "chemistry-meeting-2027-conference-series": {
           "review_required": false,
           "message": null,
-          "reason": null
+          "reason": null,
+          "review_method": "browser",
+          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方网页缓存确认 17th Chemistry Meeting 为 2027-02-25 至 26、Paris；现有 Conference Series 主办方不变。Renowned Speakers 未明确属于当前届次，未导入，未猜测截止。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
+          "content_verified_fields": [
+            "event dates",
+            "published deadlines where present",
+            "existing organiser roles and affiliations"
+          ],
+          "browser_evidence_url": "https://chemistrymeeting.chemistryconferences.org/",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -7288,9 +7293,14 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "chemistry-world-conference-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_hash": "35e29e0af58c808aee0ce28c7475ebc25ad9a7139b31a1f7329127000dd27c60",
+          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "review_method": "runner_text",
+          "review_run": "41990590073",
+          "evidence": "runner正文改版后仍明确会议 2027-06-21 至 23、Rome/Hybrid；摘要截止 2026-11-16、12-23、2027-06-10，早鸟/中期注册 2026-11-17、12-25，现场注册 2027-06-21。未公布截止钟点或时区，未新增人员。"
         }
       }
     },
@@ -7305,9 +7315,14 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "chemistry-world-conference-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_hash": "d49abd5f3c179175a68c7d203d52faf8428352a221a127cb92158357bccdf161",
+          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "review_method": "runner_text",
+          "review_run": "41990590073",
+          "evidence": "runner正文改版后仍明确 Theoretical & Computational Chemistry，Rome，2027-06-21–23，Hybrid；正文写明讲者阵容尚待公布，未新增人员、截止日期、钟点或时区。"
         }
       }
     },
@@ -7566,11 +7581,13 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "reviewed_at": "2026-11-05T09:43:43.860397+00:00",
           "reviewed_hash": null,
-          "evidence": "抓取器 403（反爬），浏览器渲染 HTTP 200 页面正常，URL 未失效。会议 2026-11-08 至 11-12、Minneapolis Convention Center 核实；页面写明 \"Online Registration is open.\" 与状态相符。价格档位：Early Bird 截至 9-28、Standard 截至 10-26、Late/Last Minute 截至 11-4、Live/Onsite 自 11-7 起——仅为价格档，现场注册继续，故最终注册截止仍为 unknown，与记录一致。页面无投稿截止、无钟点/时区。主办方 AIChE 相符。",
-          "review_method": "browser_text",
-          "resolved_reason": "transport_review"
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方正文明确 Online Registration is Closed，现场注册于 2026-11-07 12:00 PM (CST) 在 Minneapolis 开放；会议仍为 2026-11-08 至 12。保留传输失败状态；未修改任何 hash。",
+          "review_method": "browser",
+          "resolved_reason": "transport_review",
+          "browser_evidence_url": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+          "automatic_fetch_restored": false
         }
       }
     },
@@ -7636,21 +7653,26 @@
       "changed_at": "2026-11-04T07:32:08Z",
       "checks": {
         "advanced-chemistry-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
+          "review_required": false,
+          "message": null,
+          "reason": null,
           "triage": {
             "at": "2026-11-04T09:06:17+00:00",
             "run": 41792669115,
             "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
-          }
+          },
+          "reviewed_hash": "6a6f7a175ca2f6a4b75572fecc1a463c7ee0f9b55a3116a9adcd12ae94ea78d6",
+          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "review_method": "runner_text",
+          "review_run": "41990590073",
+          "evidence": "本次与上一运行的 runner 正文逐行无差异；注册页仍列早鸟 2026-11-18、常规 2027-01-18、现场 2027-03-18，未改变日期、钟点、时区、人员或机构。"
         }
       }
     },
     "https://www.chemistryconferences.com/": {
       "last_checked_at": "2026-11-05T07:56:44Z",
       "status": "checked",
-      "hash": "51c0f4b99ba77058eb3bc57a6673f98ba5293961e3f8fa3fe2f2e7b7d8ca905c",
+      "hash": "e1748209373477f3db51479dd0ab26310a18dd5ac0e49712960bfdfa495cf6e1",
       "last_success_at": "2026-11-05T07:56:44Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
@@ -7658,12 +7680,12 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "advanced-chemistry-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T11:13:00+00:00",
-          "reviewed_hash": "0a00bf2a76eea9bf74a57cf304020e2d36813c01003fe84c18927e7950ca228c",
-          "evidence": "运行器正文含 2027-03-18 至 19 会期，与记录一致。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-05T09:40:38.716197+00:00",
+          "reviewed_hash": "e1748209373477f3db51479dd0ab26310a18dd5ac0e49712960bfdfa495cf6e1",
+          "evidence": "逐行比对运行 41792669115 与 41990590073：变化仅为随机营销标签；当前会议日期、截止、人员及机构无变化。已加入精确 VOLATILE_TEXT 规则及回归测试；仅用运行器完整正文迁移 hash。迁移前指纹及正文校验值见 data/fingerprint-migration-2026-11-05.json。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "reviewed_fields": [
@@ -7671,20 +7693,23 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": "41625024822",
+          "review_run": 41990590073,
           "review_invalidated_at": "2026-11-05T07:56:44Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
           "triage": {
             "at": "2026-11-04T09:06:17+00:00",
             "run": 41792669115,
             "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
-          }
+          },
+          "reviewed_artifact_hash": "51c0f4b99ba77058eb3bc57a6673f98ba5293961e3f8fa3fe2f2e7b7d8ca905c"
         }
+      },
+      "fingerprint_migration": {
+        "at": "2026-11-05T09:40:38.716197+00:00",
+        "rule": "peers_alley_marketing_widgets",
+        "review_run": 41990590073,
+        "runner_hash": "51c0f4b99ba77058eb3bc57a6673f98ba5293961e3f8fa3fe2f2e7b7d8ca905c",
+        "normalized_hash": "e1748209373477f3db51479dd0ab26310a18dd5ac0e49712960bfdfa495cf6e1",
+        "report": "data/fingerprint-migration-2026-11-05.json"
       }
     },
     "https://www.date-conference.com/call-for-papers": {
@@ -7801,7 +7826,7 @@
     "https://www.materialsscienceconference.com/": {
       "last_checked_at": "2026-11-05T07:56:44Z",
       "status": "checked",
-      "hash": "efb5b91b65ba7d961201267d359757707403730fde9b29164bec01fd54494c36",
+      "hash": "cc5d8aeb9a597a0f17a50a35c0e030373193df270dc17edf697d5d65d3703fba",
       "last_success_at": "2026-11-05T07:56:44Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
@@ -7809,12 +7834,12 @@
       "changed_at": "2026-11-05T07:56:44Z",
       "checks": {
         "advanced-materials-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T11:13:00+00:00",
-          "reviewed_hash": "d76d75538a7f5d4ca6907aca089773cd7a216a7df592e99282708708f69fafe9",
-          "evidence": "运行器正文含 2027-03-22 至 23 Vienna 及早鸟 11-13、普通 12-30、现场 03-22 三个费率日期，与记录一致。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-05T09:40:38.716197+00:00",
+          "reviewed_hash": "cc5d8aeb9a597a0f17a50a35c0e030373193df270dc17edf697d5d65d3703fba",
+          "evidence": "逐行比对运行 41792669115 与 41990590073：变化仅为随机营销标签和历史会议照片；当前会议日期、截止、人员及机构无变化。已加入精确 VOLATILE_TEXT 规则及回归测试；仅用运行器完整正文迁移 hash。迁移前指纹及正文校验值见 data/fingerprint-migration-2026-11-05.json。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "reviewed_fields": [
@@ -7822,20 +7847,23 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": "41625024822",
+          "review_run": 41990590073,
           "review_invalidated_at": "2026-11-05T07:56:44Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
           "triage": {
             "at": "2026-11-04T09:06:17+00:00",
             "run": 41792669115,
             "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
-          }
+          },
+          "reviewed_artifact_hash": "efb5b91b65ba7d961201267d359757707403730fde9b29164bec01fd54494c36"
         }
+      },
+      "fingerprint_migration": {
+        "at": "2026-11-05T09:40:38.716197+00:00",
+        "rule": "peers_alley_marketing_widgets",
+        "review_run": 41990590073,
+        "runner_hash": "efb5b91b65ba7d961201267d359757707403730fde9b29164bec01fd54494c36",
+        "normalized_hash": "cc5d8aeb9a597a0f17a50a35c0e030373193df270dc17edf697d5d65d3703fba",
+        "report": "data/fingerprint-migration-2026-11-05.json"
       }
     },
     "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites": {
@@ -8176,12 +8204,40 @@
     "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/": {
       "last_checked_at": "2026-11-05T07:56:44Z",
       "status": "unverifiable",
-      "message": "HTTP Error 403: Forbidden"
+      "message": "HTTP Error 403: Forbidden",
+      "checks": {
+        "acers-spring-2027": {
+          "review_method": "browser",
+          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方页面缓存列 2027-05-23 至 28；Symposium Organizer(s) 的 Yongtao Liu、Wei Chen、Fei Peng、Aiping Chen、Bai Cui 与现存机构一致。官方 PDF 第1页列摘要截止 2027-01-01、San Francisco/Hilton Union Square；未公布 cutoff 钟点/时区。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
+          "content_verified_fields": [
+            "event dates",
+            "published deadlines where present",
+            "existing organiser roles and affiliations"
+          ],
+          "browser_evidence_url": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+          "automatic_fetch_restored": false
+        }
+      }
     },
     "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf": {
       "last_checked_at": "2026-11-05T07:56:44Z",
       "status": "unverifiable",
-      "message": "HTTP Error 403: Forbidden"
+      "message": "HTTP Error 403: Forbidden",
+      "checks": {
+        "acers-spring-2027": {
+          "review_method": "browser",
+          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
+          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方 PDF 第1页确认 2027-05-23 至 28、San Francisco/Hilton Union Square、摘要截止 2027-01-01；第28页（印刷页24）确认 Symposium 23 的五位组织者及机构。未公布 cutoff 钟点/时区。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
+          "content_verified_fields": [
+            "event dates",
+            "published deadlines where present",
+            "existing organiser roles and affiliations"
+          ],
+          "browser_evidence_url": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
+          "automatic_fetch_restored": false
+        }
+      }
     },
     "https://icmat2027.mrs.org.sg/?p=103": {
       "last_checked_at": "2026-11-05T07:56:44Z",

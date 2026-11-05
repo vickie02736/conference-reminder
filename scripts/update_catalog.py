@@ -112,6 +112,18 @@ VOLATILE_TEXT = (
     r"(?:what(?:'|’)?s|math question)\s*\(?\s*\d{1,3}\s*[-+x×*]\s*\d{1,3}\s*=\s*\)?",
     r"\b\d[\d,.]*k?\s+followers\b",
     r"\b[a-z0-9_-]{40,}={0,2}\.html\b",
+    # These compiled patterns need line boundaries, before whitespace folding.
+    # Peers Alley track cards randomly sample SEO tags, not event facts. Stop
+    # at the first non-tag line so deadlines, people and capacities stay visible.
+    re.compile(r"^Tags\n(?:(?:[A-Za-z][A-Za-z &-]{0,65}? conferences?"
+               r"(?: 20\d{2})?(?: (?:Asia|Europe|USA|UK|Middle East))?"
+               r"|Peers Alley(?: Media| Conferences)?(?: Canada)?)\n){2,25}", re.I | re.M),
+    # Only the explicitly labelled historical photo carousel and its publisher
+    # attribution are noise; do not suppress other conference or people lists.
+    re.compile(r"^Conference Photos to Treasure\n"
+               r"(?:(?:[A-Za-z][A-Za-z0-9 .&-]{0,90}\nPeers Alley Media ?[,]Canada"
+               r"|Peers Alley Media\n(?:Canada,Canada|,Canada))\n){2,30}"
+               r"(?=View More(?:\n|$))", re.I | re.M),
 )
 UNVERIFIABLE_HINTS = (
     "403", "forbidden", "access challenge", "no readable page content",
@@ -122,9 +134,16 @@ UNVERIFIABLE_HINTS = (
 
 
 def fingerprint(text):
+    # Restrict these multiline widget rules to the publisher whose runner
+    # snapshots demonstrate random sampling. Other sites' Tags remain monitored.
+    if "peers alley media" in text.casefold():
+        for pattern in VOLATILE_TEXT:
+            if isinstance(pattern, re.Pattern):
+                text = pattern.sub(" ", text)
     cleaned = re.sub(r"\s+", " ", text).strip().casefold()
     for pattern in VOLATILE_TEXT:
-        cleaned = re.sub(pattern, " ", cleaned, flags=re.I)
+        if isinstance(pattern, str):
+            cleaned = re.sub(pattern, " ", cleaned, flags=re.I)
     return hashlib.sha256(re.sub(r"\s+", " ", cleaned).strip().encode("utf-8")).hexdigest()
 
 

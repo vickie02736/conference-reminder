@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-05",
-  "remaining_count": 57,
-  "remaining_source_count": 56,
+  "remaining_count": 47,
+  "remaining_source_count": 46,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -73,16 +73,13 @@
     {
       "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
       "event_id": "digital-chemistry2027",
-      "reason": "content_changed",
-      "message": "The hidden Abstract submission tab still says oral abstracts are due 'by 14 March 2027' while the Deadlines panels say '14 Dec 2026'; no dated extension notice resolves it, so the milestone must stay a conflict.",
+      "reason": "content_conflict",
+      "message": "仅剩口头摘要截止冲突：Deadlines 面板 2026-12-14 vs 历史已核实的 Abstract submission 正文 2027-03-14；未见官方解释，保留 conflict。",
       "content_hash": "42f319170206cf3f660168874ef398639f1043dd8fa49ef68af437d7c2419ad4",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "oral abstract deadline: 2026-12-14 vs 2027-03-14"
       ]
     },
     {
@@ -107,21 +104,6 @@
       "next_deadline": null,
       "remaining_fields": [
         "abstract deadline conflict"
-      ]
-    },
-    {
-      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
-      "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "d9666f02fe889fe43542bc6bbd518e639f22c676a29529af3a1d784ee9e11be4",
-      "priority": 0,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -158,141 +140,6 @@
       "next_deadline": null,
       "remaining_fields": [
         "registration deadline conflict with KCL eStore (2026-11-08)"
-      ]
-    },
-    {
-      "source": "https://sscg.uk/2026-sscg-christmas-meeting",
-      "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "59289e04393eb55d82b2617d84763c052d07bb4a459564f98926a73ab7f0f74b",
-      "priority": 1,
-      "next_deadline": "2026-11-06",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.materialsscienceconference.com/",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "efb5b91b65ba7d961201267d359757707403730fde9b29164bec01fd54494c36",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.cecam.org/workshop-details/1272",
-      "event_id": "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "f30de26a4f2b5d5c2112b40b0d087ae845974379bf6d95a79896316715488097",
-      "priority": 1,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://chemistryworldconference.com/information/important-dates",
-      "event_id": "chemistry-world-conference-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "35e29e0af58c808aee0ce28c7475ebc25ad9a7139b31a1f7329127000dd27c60",
-      "priority": 1,
-      "next_deadline": "2026-11-16",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://chemistryworldconference.com/program/scientific-sessions/theoretical-computational-chemistry",
-      "event_id": "chemistry-world-conference-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "d49abd5f3c179175a68c7d203d52faf8428352a221a127cb92158357bccdf161",
-      "priority": 1,
-      "next_deadline": "2026-11-16",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chemistryconferences.com/",
-      "event_id": "advanced-chemistry-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "51c0f4b99ba77058eb3bc57a6673f98ba5293961e3f8fa3fe2f2e7b7d8ca905c",
-      "priority": 1,
-      "next_deadline": "2026-11-18",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chemistryconferences.com/registration",
-      "event_id": "advanced-chemistry-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "6a6f7a175ca2f6a4b75572fecc1a463c7ee0f9b55a3116a9adcd12ae94ea78d6",
-      "priority": 1,
-      "next_deadline": "2026-11-18",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "b54a2eca9d8c27d490a029d0cdbe9e04acac6b20f409ab320b752c23e8dc1897",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://congressomateriais.pt/editions/2027",
-      "event_id": "materiais-2027-xxiii-portuguese-materials-congress-xiv-international-symposium-on-materials",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "2a4bb7c89273d11eb60aa1dade79dd08ac9fc03e7fd12cf7768421c6230c33cc",
-      "priority": 1,
-      "next_deadline": "2026-12-01",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -1062,12 +909,13 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-04T09:03:33+00:00",
-    "report": "data/heartbeat-review-2026-11-04.json",
-    "started": 43,
+    "at": "2026-11-05T09:45:24.134581+00:00",
+    "report": "data/heartbeat-review-2026-11-05.json",
+    "started": 57,
     "new": 0,
-    "resolved": 5,
+    "daily_new": 19,
+    "resolved": 10,
     "partial": 1,
-    "remaining": 38
+    "remaining": 47
   }
 }

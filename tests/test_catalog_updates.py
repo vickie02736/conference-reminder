@@ -64,6 +64,45 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertNotIn("file", index["https://example.org/blocked"])
         self.assertEqual(index["https://example.org/blocked"]["message"], "HTTP Error 403: Forbidden")
 
+    def test_runner_random_tags_and_past_photos_do_not_reopen_review(self):
+        snapshots = json.loads((FIXTURES / "peers-alley-runner-noise.json").read_text())["runs"]
+        for url in snapshots["41990590073"]:
+            with self.subTest(url=url):
+                before = snapshots["41792669115"][url]["text"]
+                after = snapshots["41990590073"][url]["text"]
+                self.assertNotEqual(before, after)
+                self.assertEqual(fingerprint(before), fingerprint(after))
+                row = event(url=url)
+                first = {"ok": True, "hash": fingerprint(before), "text": before, "jsonld": []}
+                second = {**first, "hash": fingerprint(after), "text": after}
+                initial, state, _ = self.merge(row, {url: first})
+                updated, _, _ = self.merge(row, {url: second}, state=state)
+                self.assertEqual(updated["events"][0]["check"]["status"], "checked")
+
+    def test_marketing_noise_rules_keep_real_facts_and_unrelated_site_tags(self):
+        widget = ("Peers Alley Media\nTags\nChemistry Conferences 2027\n"
+                  "Peers Alley Conferences\nMax Seats\n15 seats\n"
+                  "Speaker Time\n20 mins\nWorkshop Proposal\nClick Here\n")
+        facts = ("Registration closes 18 November 2026 at 17:00 GMT\n"
+                 "Confirmed speakers\nJane Smith\nUniversity of Oxford\n")
+        original = fingerprint(widget + facts)
+        for before, after in (("18 November", "19 November"), ("17:00", "18:00"),
+                              ("GMT", "CET"), ("Jane Smith", "John Smith"),
+                              ("University of Oxford", "University of Cambridge"),
+                              ("15 seats", "10 seats"), ("20 mins", "30 mins")):
+            with self.subTest(field=before):
+                self.assertNotEqual(original, fingerprint((widget + facts).replace(before, after)))
+        # A factual line within a Tags block stops the removal immediately.
+        inserted = widget.replace("Peers Alley Conferences", "Registration closes 19 November 2026")
+        self.assertNotEqual(fingerprint(widget + facts), fingerprint(inserted + facts))
+        other_site = "TAGS\nArtificial Intelligence Conferences\nAI Conference 2027\n"
+        self.assertNotEqual(fingerprint(other_site), fingerprint(other_site.replace("2027", "2028")))
+        # The historical carousel rule requires its closing boundary and publisher attribution.
+        gallery = ("Peers Alley Media\nConference Photos to Treasure\nAdv. Chemistry 2025\n"
+                   "Peers Alley Media,Canada\nNanoX 2026\nPeers Alley Media,Canada\nView More\n")
+        self.assertEqual(fingerprint(gallery + facts), fingerprint(gallery.replace("NanoX 2026", "Neuro Conclave 2024") + facts))
+        self.assertNotEqual(fingerprint(gallery + facts), fingerprint(gallery.replace("View More", "Conference starts 21 June 2027") + facts))
+
     def test_navigation_and_whitespace_do_not_change_fingerprint(self):
         first = fetched("<nav>Old menu</nav><main><p>Conference 2027</p><p>June 1</p></main><footer>2026</footer>")
         second = fetched("<nav>New menu</nav><main>Conference 2027   June 1</main><footer>2027</footer>")

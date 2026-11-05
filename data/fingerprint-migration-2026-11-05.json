@@ -1,0 +1,34 @@
+{
+  "at": "2026-11-05T09:40:38.716197+00:00",
+  "rule": "peers_alley_marketing_widgets",
+  "method": "runner_snapshot_rule_migration",
+  "current_run": 41990590073,
+  "comparison_run": 41792669115,
+  "entries": [
+    {
+      "source": "https://www.materialsscienceconference.com/",
+      "run": 41990590073,
+      "artifact_file": "74c3cc4ab30a3a89.txt",
+      "artifact_hash": "efb5b91b65ba7d961201267d359757707403730fde9b29164bec01fd54494c36",
+      "artifact_text_sha256": "32222ccd247b44c0df8b8aff9ed3d9e68ba44180c86c9de05b8012580109d142",
+      "old_stored_hash": "efb5b91b65ba7d961201267d359757707403730fde9b29164bec01fd54494c36",
+      "new_hash": "cc5d8aeb9a597a0f17a50a35c0e030373193df270dc17edf697d5d65d3703fba",
+      "previous_run": 41792669115,
+      "previous_artifact_hash": "2c60b5f25df84471aecc20d2c2be76453467563a36310e73d0019735452471a7",
+      "previous_text_new_hash": "cc5d8aeb9a597a0f17a50a35c0e030373193df270dc17edf697d5d65d3703fba"
+    },
+    {
+      "source": "https://www.chemistryconferences.com/",
+      "run": 41990590073,
+      "artifact_file": "5fe30ce281a07e24.txt",
+      "artifact_hash": "51c0f4b99ba77058eb3bc57a6673f98ba5293961e3f8fa3fe2f2e7b7d8ca905c",
+      "artifact_text_sha256": "49f4cb8bc346b858288afc8ce42fe93f598ffd7a48ea0226ac7023a0e53ad234",
+      "old_stored_hash": "51c0f4b99ba77058eb3bc57a6673f98ba5293961e3f8fa3fe2f2e7b7d8ca905c",
+      "new_hash": "e1748209373477f3db51479dd0ab26310a18dd5ac0e49712960bfdfa495cf6e1",
+      "previous_run": 41792669115,
+      "previous_artifact_hash": "bb2145a7caa617c93eeee4ebfb4e8e852b93482321450e3f472e46a2ca2a02a6",
+      "previous_text_new_hash": "e1748209373477f3db51479dd0ab26310a18dd5ac0e49712960bfdfa495cf6e1"
+    }
+  ],
+  "validation": "两个运行完整正文按新规则得到相同 hash；其余可读 HTML 附件的 hash 未改变。新规则仅屏蔽带 Peers Alley Media 标识页面中逐行匹配的营销标签，以及有发布者归属和结束边界的历史照片轮播。"
+}

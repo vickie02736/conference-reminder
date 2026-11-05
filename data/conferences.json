@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-05T07:56:44Z",
-    "last_updated_at": "2026-11-04T09:03:33+00:00",
+    "last_updated_at": "2026-11-05T09:43:43.860397+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1438,13 +1438,13 @@
       ],
       "url": "https://sscg.uk/2026-sscg-christmas-meeting",
       "priority": 1,
-      "verified_on": "2026-11-04",
-      "evidence": "2026-11-04 reviewed against source-text from GitHub run 41792669115; official extension and separate oral/poster cutoffs confirmed.",
+      "verified_on": "2026-11-05",
+      "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; Joe Willis added from the official programme; dates and cutoffs unchanged.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
-        "last_verified_at": "2026-11-04T09:03:33+00:00",
-        "message": "https://sscg.uk/2026-sscg-christmas-meeting: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-05T09:17:36+00:00",
+        "last_verified_at": "2026-11-05T09:17:36+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -1618,10 +1618,16 @@
             "role": "ECR invited speaker",
             "source": "https://sscg.uk/2026-sscg-christmas-meeting",
             "affiliation": "Diamond Light Source"
+          },
+          {
+            "name": "Joe Willis",
+            "role": "Invited speaker",
+            "affiliation": "HM Government",
+            "source": "https://sscg.uk/2026-sscg-christmas-meeting"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-04",
+        "checked_on": "2026-11-05",
         "status": "published",
         "note": "Main-meeting keynotes, ECR invited speakers and the organising team for SSCG2026.",
         "sources": [
@@ -1805,13 +1811,13 @@
       ],
       "url": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "priority": 2,
-      "verified_on": "2026-11-03",
-      "evidence": "",
+      "verified_on": "2026-11-05",
+      "evidence": "2026-11-05 reviewed Cambridge eStore runner text from GitHub run 41990590073; only navigation changed. Event facts remain verified; AIchemy transport issue remains separate.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-05T09:40:38.716197+00:00",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(36451 bytes read)"
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(36451 bytes read)"
       },
       "milestones": [
         {
@@ -3724,9 +3730,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
+        "last_checked_at": "2026-11-05T09:40:38.716197+00:00",
         "last_verified_at": "2026-10-27T14:55:25Z",
-        "message": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion: The hidden Abstract submission tab still says oral abstracts are due 'by 14 March 2027' while the Deadlines panels say '14 Dec 2026'; no dated extension notice resolves it, so the milestone must stay a conflict."
+        "message": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion: 仅剩口头摘要截止冲突：Deadlines 面板 2026-12-14 vs 历史已核实的 Abstract submission 正文 2027-03-14；未见官方解释，保留 conflict。"
       },
       "milestones": [
         {
@@ -3900,7 +3906,7 @@
             "name": "Sterling Baird",
             "role": "Invited speaker",
             "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
-            "affiliation": "University of Toronto"
+            "affiliation": "Brigham Young University"
           },
           {
             "name": "Rianne van den Berg",
@@ -3934,9 +3940,9 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-05",
         "status": "published",
-        "note": "Published scientific committee and invited lectures for the 2027 Faraday Discussion.",
+        "note": "Published scientific committee and invited lectures for the 2027 Faraday Discussion. Sterling Baird affiliation updated to Brigham Young University from runner text on 5 November 2026; deadline conflict remains.",
         "sources": [
           "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion"
         ]
@@ -5596,13 +5602,13 @@
       ],
       "url": "https://www.cecam.org/workshop-details/1272",
       "priority": 3,
-      "verified_on": "2026-11-03",
-      "evidence": "The CECAM official search index lists dates, venue and 15 November registration; the page describes theoretical, simulation and ML approaches.",
+      "verified_on": "2026-11-05",
+      "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; changed prose requires an Abstracts submission but dates, venue, organizers and speaker roster are unchanged.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.cecam.org/workshop-details/1272: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-05T09:17:36+00:00",
+        "last_verified_at": "2026-11-05T09:17:36+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -7060,13 +7066,13 @@
       ],
       "url": "https://congressomateriais.pt/editions/2027",
       "priority": 2,
-      "verified_on": "2026-11-03",
-      "evidence": "",
+      "verified_on": "2026-11-05",
+      "evidence": "2026-11-05 reviewed official runner text from GitHub run 41990590073; terminology changed from MATERIALS to MATERIAIS only, while dates and deadline cards remain verified.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
-        "last_verified_at": "2026-11-03T09:14:25Z",
-        "message": "https://congressomateriais.pt/editions/2027: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-05T09:17:36+00:00",
+        "last_verified_at": "2026-11-05T09:17:36+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -13401,9 +13407,9 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
+        "last_checked_at": "2026-11-05T09:40:38.716197+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://event.fourwaves.com/interpore2027: The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict. | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved. | https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
+        "message": "https://event.fourwaves.com/interpore2027: The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict. | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved. | https://event.fourwaves.com/interpore2027/submission: The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -13537,13 +13543,49 @@
             "role": "MS27 organiser-list member; individual lead/co-organiser designation not stated",
             "affiliation": "Federal University of Pará, Brazil",
             "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Tomás Aquino",
+            "role": "MS03 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "IDAEA-CSIC, Barcelona, Spain",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Aronne Dell’Oca",
+            "role": "MS03 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "Politecnico di Milano, Italy",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Ismail El Mellas",
+            "role": "MS03 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "IDAEA-CSIC, Barcelona, Spain",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Jeffrey Hyman",
+            "role": "MS03 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "Los Alamos National Laboratory, USA",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Agnese Marcato",
+            "role": "MS03 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "Politecnico di Torino, Italy",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Josué dos Santos Barroso",
+            "role": "MS03 organiser-list member; individual lead/co-organiser designation not stated",
+            "affiliation": "National Laboratory for Scientific Computing (LNCC), Brazil",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
           }
         ],
         "speakers": [],
         "participants": [],
-        "checked_on": "2026-11-04",
+        "checked_on": "2026-11-05",
         "status": "published",
-        "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources. Three additions in the MS27 organiser block were recorded from runner text on 4 November 2026; no individual lead designation is inferred.",
+        "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources. Three additions in the MS27 organiser block were recorded from runner text on 4 November 2026; no individual lead designation is inferred. Six MS03 organiser-list additions recorded from runner text on 5 November 2026; no individual lead designation is inferred.",
         "sources": [
           "https://event.fourwaves.com/interpore2027",
           "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
@@ -22103,16 +22145,16 @@
       "location": "Minneapolis Convention Center, Minneapolis, USA",
       "region": "Other",
       "type": "Conference",
-      "deadline": "No submission or registration cutoff verified.",
-      "status": "Registration open on the official registration page reviewed on 3 November 2026; final closing time not verified.",
+      "deadline": "Online registration closed on 4 November 2026; onsite registration opens 7 November 2026 at 12:00 CST. No final onsite registration cutoff published.",
+      "status": "Online registration is closed. Onsite registration opens 7 November 2026 at 12:00 CST in Minneapolis. Submission availability is unconfirmed; the final onsite registration cutoff is not published.",
       "note": "Chemical engineering, materials and computational engineering; select relevant sessions from the programme. This is the Annual Meeting, distinct from the student conference on 6–9 November. Session-specific submission deadlines and the final registration cutoff were not verified.",
       "sources": [
         "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info"
       ],
       "url": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
       "priority": 1,
-      "verified_on": "2026-11-03",
-      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "verified_on": "2026-11-05",
+      "evidence": "Official registration page checked on 5 November 2026 via browser: “Online Registration is Closed”; onsite registration opens 7 November at 12:00 PM (CST), Minneapolis. The rate table says late/last-minute registration ends 4 November. Runner transport remains 403.",
       "check": {
         "status": "unverifiable",
         "last_checked_at": "2026-11-05T07:56:44Z",
@@ -22171,6 +22213,19 @@
           "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
           "precision": "unknown",
           "status": "unknown"
+        },
+        {
+          "id": "aiche-annual-meeting-2026:onsite-registration-opening",
+          "version": 1,
+          "kind": "other",
+          "label": "Onsite registration opens",
+          "date": "2026-11-07",
+          "time": "12:00",
+          "timezone": "America/Chicago",
+          "precision": "datetime",
+          "status": "verified",
+          "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+          "evidence": "Official registration page: onsite registration opens Saturday, November 7, at 12:00 PM (CST) in Minneapolis (2026 edition). CST here is Minneapolis Central Standard Time, America/Chicago."
         }
       ],
       "people": {
@@ -23324,13 +23379,13 @@
       ],
       "url": "https://chemistryworldconference.com/information/important-dates",
       "priority": 1,
-      "verified_on": "2026-11-03",
-      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "verified_on": "2026-11-05",
+      "evidence": "2026-11-05 reviewed both changed official runner pages from GitHub run 41990590073; current dates and deadline cards match stored milestones, with no time zones or new speakers published.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
-        "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://chemistryworldconference.com/program/scientific-sessions/theoretical-computational-chemistry: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://chemistryworldconference.com/information/important-dates: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-05T09:17:36+00:00",
+        "last_verified_at": "2026-11-05T09:17:36+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -24550,13 +24605,13 @@
       ],
       "url": "https://www.materialsscienceconference.com/",
       "priority": 1,
-      "verified_on": "2026-11-03",
-      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "verified_on": "2026-11-05",
+      "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
-        "last_verified_at": "2026-11-03T09:14:25Z",
-        "message": "https://www.materialsscienceconference.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-05T09:40:38.716197+00:00",
+        "last_verified_at": "2026-11-05T09:40:38.716197+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -24695,13 +24750,13 @@
       ],
       "url": "https://www.chemistryconferences.com/",
       "priority": 1,
-      "verified_on": "2026-11-03",
-      "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
+      "verified_on": "2026-11-05",
+      "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-05T07:56:44Z",
-        "last_verified_at": "2026-11-03T09:14:25Z",
-        "message": "https://www.chemistryconferences.com/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.chemistryconferences.com/registration: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-05T09:40:38.716197+00:00",
+        "last_verified_at": "2026-11-05T09:40:38.716197+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -26406,6 +26461,42 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-05T09:43:43.860397+00:00",
+      "event_id": "aiche-annual-meeting-2026",
+      "field": "status",
+      "previous": "Registration open on the official registration page reviewed on 3 November 2026; final closing time not verified.",
+      "value": "Online registration is closed. Onsite registration opens 7 November 2026 at 12:00 CST in Minneapolis. Submission availability is unconfirmed; the final onsite registration cutoff is not published.",
+      "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+      "evidence": "Official page explicitly says online registration is closed; onsite registration opens 7 November at 12:00 CST in Minneapolis."
+    },
+    {
+      "at": "2026-11-05T09:40:38.716197+00:00",
+      "event_id": "digital-chemistry2027",
+      "field": "people.speakers.Sterling Baird.affiliation",
+      "previous": "University of Toronto",
+      "value": "Brigham Young University",
+      "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
+      "evidence": "Official runner text changed the affiliation to Brigham Young University, United States."
+    },
+    {
+      "at": "2026-11-05T09:40:38.716197+00:00",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "previous": null,
+      "value": "Six MS03 organiser-list additions",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Six names and institutions added within MS03; individual lead roles not stated."
+    },
+    {
+      "at": "2026-11-05T09:40:38.716197+00:00",
+      "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
+      "field": "people.speakers",
+      "previous": null,
+      "value": "Joe Willis — HM Government",
+      "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+      "evidence": "Official runner text added Joe Willis as Advanced Materials Policy Lead, DBIST, HM Government."
+    },
     {
       "at": "2026-11-04T09:03:33+00:00",
       "event_id": "interpore2027",
