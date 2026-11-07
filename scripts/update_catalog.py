@@ -121,7 +121,7 @@ VOLATILE_TEXT = (
     # Only the explicitly labelled historical photo carousel and its publisher
     # attribution are noise; do not suppress other conference or people lists.
     re.compile(r"^Conference Photos to Treasure\n"
-               r"(?:(?:[A-Za-z][A-Za-z0-9 .&-]{0,90}\nPeers Alley Media ?[,]Canada"
+               r"(?:(?:[A-Za-z][A-Za-z0-9 .&-]{0,90}\nPeers Alley Media(?: ?, ?Canada(?:,Canada)?)?"
                r"|Peers Alley Media\n(?:Canada,Canada|,Canada))\n){2,30}"
                r"(?=View More(?:\n|$))", re.I | re.M),
 )

@@ -66,18 +66,19 @@ class SourceUpdateTests(unittest.TestCase):
 
     def test_runner_random_tags_and_past_photos_do_not_reopen_review(self):
         snapshots = json.loads((FIXTURES / "peers-alley-runner-noise.json").read_text())["runs"]
-        for url in snapshots["41990590073"]:
-            with self.subTest(url=url):
-                before = snapshots["41792669115"][url]["text"]
-                after = snapshots["41990590073"][url]["text"]
-                self.assertNotEqual(before, after)
-                self.assertEqual(fingerprint(before), fingerprint(after))
-                row = event(url=url)
-                first = {"ok": True, "hash": fingerprint(before), "text": before, "jsonld": []}
-                second = {**first, "hash": fingerprint(after), "text": after}
-                initial, state, _ = self.merge(row, {url: first})
-                updated, _, _ = self.merge(row, {url: second}, state=state)
-                self.assertEqual(updated["events"][0]["check"]["status"], "checked")
+        for run in ("41990590073", "42350237668"):
+            for url in snapshots[run]:
+                with self.subTest(run=run, url=url):
+                    before = snapshots["41792669115"][url]["text"]
+                    after = snapshots[run][url]["text"]
+                    self.assertNotEqual(before, after)
+                    self.assertEqual(fingerprint(before), fingerprint(after))
+                    row = event(url=url)
+                    first = {"ok": True, "hash": fingerprint(before), "text": before, "jsonld": []}
+                    second = {**first, "hash": fingerprint(after), "text": after}
+                    initial, state, _ = self.merge(row, {url: first})
+                    updated, _, _ = self.merge(row, {url: second}, state=state)
+                    self.assertEqual(updated["events"][0]["check"]["status"], "checked")
 
     def test_marketing_noise_rules_keep_real_facts_and_unrelated_site_tags(self):
         widget = ("Peers Alley Media\nTags\nChemistry Conferences 2027\n"

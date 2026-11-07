@@ -213,7 +213,7 @@ test('announced openings coexist with other channels and never match the active 
  assert.equal(filterEvents([e],{stage:'submission'},'2026-10-27').length,0);
  assert.equal(filterEvents([e],{stage:'opening_soon'},'2026-10-27').length,1);
  assert.equal(filterEvents([e],{stage:'registration'},'2026-10-27').length,1);
- assert.deepEqual(snapshotStatuses(canonical('EuroMOF 2027')).map(s=>s.label),['Abstract submission open','Registration opening soon']);
+ assert.deepEqual(snapshotStatuses(canonical('EuroMOF 2027')).map(s=>s.label),['Abstract submission · opening unconfirmed','Registration · opening unconfirmed']);
  assert.deepEqual(snapshotStatuses(canonical('FOMMS 2027')).map(s=>s.label),['Abstract submission open','Registration opening soon']);
 });
 test('conflicting and invalid exact dates warn while independent verified routes stay available',()=>{

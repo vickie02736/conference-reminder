@@ -1,8 +1,20 @@
 {
   "as_of": "2026-11-07",
-  "remaining_count": 81,
-  "remaining_source_count": 77,
+  "remaining_count": 73,
+  "remaining_source_count": 69,
   "queue": [
+    {
+      "source": "https://www.esat2027.com/speakers/",
+      "event_id": "esat-2027-35th-european-symposium-on-applied-thermodynamics",
+      "reason": "content_conflict",
+      "message": "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven",
+      "content_hash": "1a6af935737e836efe6fcdf02522d4e161eeb81851b6e6ac54df7042432b40c6",
+      "priority": 0,
+      "next_deadline": "2026-11-15",
+      "remaining_fields": [
+        "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
+      ]
+    },
     {
       "source": "https://spring2027.camml.ac.uk/about/",
       "event_id": "camml2027",
@@ -58,16 +70,37 @@
     {
       "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
       "event_id": "digital-chemistry2027",
-      "reason": "content_changed",
-      "message": "仅剩口头摘要截止冲突：Deadlines 面板 2026-12-14 vs 历史已核实的 Abstract submission 正文 2027-03-14；未见官方解释，保留 conflict。",
+      "reason": "content_conflict",
+      "message": "oral abstract deadline: 2026-12-14 vs 2027-03-14",
       "content_hash": "2400ad7f212244968cf05014f62dadcfd696acb1f21c34c0f930fe06964845d8",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "oral abstract deadline: 2026-12-14 vs 2027-03-14"
+      ]
+    },
+    {
+      "source": "https://euromof2027.com/abstracts/",
+      "event_id": "euromof2027",
+      "reason": "content_conflict",
+      "message": "submission availability: SOON available heading vs submission portal link",
+      "content_hash": "cd9d062480b9acd3ffe4cf4ed4dbbb4e5aa2a8dd0a3ceb0e268a10c2d8e1c1d9",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "submission availability: SOON available heading vs submission portal link"
+      ]
+    },
+    {
+      "source": "https://euromof2027.com/registration/",
+      "event_id": "euromof2027",
+      "reason": "content_conflict",
+      "message": "registration availability: homepage open vs registration page SOON available",
+      "content_hash": "41ba85926f12011c53cfef32a5f76b464adb315dbb04573e20be3df82f7f7bf5",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration availability: homepage open vs registration page SOON available"
       ]
     },
     {
@@ -165,126 +198,6 @@
       "content_hash": "05b1b2b46ab3b159579353269f074416481597de635ab4adf1001cf26120afaf",
       "priority": 0,
       "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.materialsscienceconference.com/",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "ecca8f344a4dbf1320c83effe94d43b6bf36592e2c650e91ea27d40bf8d17648",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.materialsscienceconference.com/registration",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "437629889054768bd713b6a8701a4aa8c0c5128edd7e3a0fc5008bec9951d436",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://digichem27.au/",
-      "event_id": "digichem27-raci-chemistry-automation-conference",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "6bc5990cba5a4473bc504c33c5e6de9e0054c72f35c6945e1ec20cf63af1e44c",
-      "priority": 1,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.esat2027.com/speakers/",
-      "event_id": "esat-2027-35th-european-symposium-on-applied-thermodynamics",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "1a6af935737e836efe6fcdf02522d4e161eeb81851b6e6ac54df7042432b40c6",
-      "priority": 1,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.cecam.org/workshop-details/1272",
-      "event_id": "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "af51b2e74982db637996a4f7bd8edaefe391189f76b9344c255f8e7ae2eba178",
-      "priority": 1,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "d94e661cccdec98c23227ed4646b2734164e78fa8789ee8ca95f78627a06e3eb",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.psdi.ac.uk/event/camml-2027/",
-      "event_id": "camml2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "73ee567ce31b5c347f3497b8419581efae50ad7a98f9910fa3c5e1c97f149f08",
-      "priority": 1,
-      "next_deadline": "2026-11-26",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://metfoam2027.com/",
-      "event_id": "metfoam2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "55cab0620fcd1aaa004111514cff522e698afe43ac98f16e304194af41504c00",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
       "remaining_fields": [
         "dates",
         "times",
@@ -759,36 +672,6 @@
       ]
     },
     {
-      "source": "https://euromof2027.com/abstracts/",
-      "event_id": "euromof2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.; Submission platform status is no longer recognised; verify it before changing the status.",
-      "content_hash": "cd9d062480b9acd3ffe4cf4ed4dbbb4e5aa2a8dd0a3ceb0e268a10c2d8e1c1d9",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://euromof2027.com/registration/",
-      "event_id": "euromof2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "41ba85926f12011c53cfef32a5f76b464adb315dbb04573e20be3df82f7f7bf5",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://fems.org/fems-euromat-2027/",
       "event_id": "fems-euromat-2027",
       "reason": "content_changed",
@@ -809,21 +692,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "b2890579f2bc48f37fb5d9c1f1166363e39b208904d3529028f33a7078922bbd",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
-      "event_id": "grs-liquids-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "08512ca7c6a664fe3ed671af086d516c2ba38bef781bd72a16a1c5642d0104ee",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1522,13 +1390,13 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-05T09:45:24.134581+00:00",
-    "report": "data/heartbeat-review-2026-11-05.json",
-    "started": 57,
+    "at": "2026-11-07T09:05:50.590106+00:00",
+    "report": "data/heartbeat-review-2026-11-07.json",
+    "started": 81,
     "new": 0,
-    "daily_new": 19,
-    "resolved": 10,
-    "partial": 1,
-    "remaining": 47
+    "daily_new": 17,
+    "resolved": 8,
+    "partial": 4,
+    "remaining": 73
   }
 }

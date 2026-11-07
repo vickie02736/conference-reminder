@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-07T07:12:59Z",
-    "last_updated_at": "2026-11-05T09:48:17.629359+00:00",
+    "last_updated_at": "2026-11-07T08:59:04.820359+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1814,10 +1814,10 @@
       "verified_on": "2026-11-05",
       "evidence": "2026-11-05 reviewed Cambridge eStore runner text from GitHub run 41990590073; only navigation changed. Event facts remain verified; AIchemy transport issue remains separate.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
       },
       "milestones": [
         {
@@ -2628,9 +2628,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://www.psdi.ac.uk/event/camml-2027/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://spring2027.camml.ac.uk/about/: Official conflicts remain: accommodation 4 vs 5 nights; acceptance notification 17 vs 19 December. Registration status and support-letter year are resolved."
+        "message": "https://spring2027.camml.ac.uk/about/: Official conflicts remain: accommodation 4 vs 5 nights; acceptance notification 17 vs 19 December. Registration status and support-letter year are resolved."
       },
       "milestones": [
         {
@@ -3730,9 +3730,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
         "last_verified_at": "2026-10-27T14:55:25Z",
-        "message": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion: 仅剩口头摘要截止冲突：Deadlines 面板 2026-12-14 vs 历史已核实的 Abstract submission 正文 2027-03-14；未见官方解释，保留 conflict。"
+        "message": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion: oral abstract deadline: 2026-12-14 vs 2027-03-14"
       },
       "milestones": [
         {
@@ -5602,13 +5602,13 @@
       ],
       "url": "https://www.cecam.org/workshop-details/1272",
       "priority": 3,
-      "verified_on": "2026-11-05",
+      "verified_on": "2026-11-07",
       "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; changed prose requires an Abstracts submission but dates, venue, organizers and speaker roster are unchanged.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
-        "last_verified_at": "2026-11-05T09:17:36+00:00",
-        "message": "https://www.cecam.org/workshop-details/1272: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
+        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -7569,9 +7569,9 @@
       "evidence": "Official Welcome and Key dates pages give 9–12 May, 15 November oral abstracts and 31 March late posters.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.esat2027.com/speakers/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://www.esat2027.com/speakers/: Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
       },
       "milestones": [
         {
@@ -8354,21 +8354,21 @@
       "location": "Budapest, Hungary — Budapest University of Technology and Economics",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "Abstracts: 30 November 2026; submitting before 31 October 2026 offers a €50 registration reduction. Early registration: 31 January 2027; regular registration: 31 May 2027.",
-      "status": "Abstract submission open until 30 November 2026; registration fees and deadlines are published, but an open registration platform is not confirmed on the official page.",
+      "deadline": "Abstracts: 30 November 2026; early registration: 31 January 2027; regular registration: 31 May 2027. The past 31 October discount remains in the historical milestones.",
+      "status": "Abstract submission open until 30 November 2026. Registration enquiry is an expression of interest only; it does not confirm registration, reserve a place or collect payment. No separate Industry Day tickets are available.",
       "note": "Porous and foam metals: modelling, simulation, design, heat and mass transfer. Lower direct relevance to MOF/atomistic simulation; an adjacent topic.",
       "sources": [
         "https://metfoam2027.com/"
       ],
       "url": "https://metfoam2027.com/",
       "priority": 3,
-      "verified_on": "2026-11-03",
-      "evidence": "",
+      "verified_on": "2026-11-07",
+      "evidence": "Runner 42350237668: “This form is an expression of interest only.” Registration enquiry and abstract submission are separate; former discount wording has been removed from the current page, without deleting the historical milestone.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://metfoam2027.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
+        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -8667,7 +8667,7 @@
       "region": "Europe",
       "type": "Conference",
       "deadline": "Abstracts: 1 February 2027; early registration: 5 April 2027; regular-fee deadline: 3 July 2027.",
-      "status": "Abstract submission is open. Registration platform not yet open.",
+      "status": "Abstract submission availability is not confirmed. Registration availability is not confirmed. Official pages retain conflicting platform statements; see evidence.",
       "note": "The official topics explicitly include Computation, AI and machine learning, plus adsorption, molecular separation, MOF design, structure and dynamics.",
       "sources": [
         "https://euromof2027.com/",
@@ -8679,12 +8679,12 @@
       "url": "https://euromof2027.com/",
       "priority": 1,
       "verified_on": "2026-11-05",
-      "evidence": "The relaunched official site (euromof2027.com/abstracts/, /registration/) states that abstract submission is open and gives the abstract deadline 1 February 2027, early bird until 5 April 2027 and regular fee until 3 July 2027. The home and registration pages say registration is open, but the registration button still reads “Soon available”, so the platform is treated as not yet open. No exact deadline times or time zones are published. Reviewed 3 November 2026.",
+      "evidence": "Official abstract page: “Abstract submission SOON available”; registration page: “Registration SOON available”, while homepage still says open. Deadlines remain 1 February, 5 April and 3 July 2027; no cutoff time or timezone verified. Browser review 7 November 2026; latest runner cannot read these sources.",
       "check": {
-        "status": "unverifiable",
-        "last_checked_at": "2026-11-07T07:12:59Z",
+        "status": "review_required",
+        "last_checked_at": "2026-11-07T09:03:06.441606+00:00",
         "last_verified_at": "2026-11-05T07:56:44Z",
-        "message": "https://euromof2027.com/: Official source returned no readable page content. | https://euromof2027.com/abstracts/: Official source returned no readable page content. | https://euromof2027.com/registration/: Official source returned no readable page content. | https://euromof2027.com/committees/: Official source returned no readable page content. | https://euromof2027.com/speakers/: Official source returned no readable page content."
+        "message": "https://euromof2027.com/abstracts/: submission availability: SOON available heading vs submission portal link | https://euromof2027.com/registration/: registration availability: homepage open vs registration page SOON available | https://euromof2027.com/: Official source returned no readable page content. | https://euromof2027.com/abstracts/: Official source returned no readable page content. | https://euromof2027.com/registration/: Official source returned no readable page content. | https://euromof2027.com/committees/: Official source returned no readable page content. | https://euromof2027.com/speakers/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -16549,13 +16549,13 @@
       ],
       "url": "https://digichem27.au/",
       "priority": 2,
-      "verified_on": "2026-10-27",
+      "verified_on": "2026-11-07",
       "evidence": "The official RACI conference page confirms 22–23 February 2027 in Melbourne, the Monash venue and the abstract, notification and early-bird dates.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
-        "last_verified_at": "2026-10-27T21:25:00Z",
-        "message": "https://digichem27.au/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
+        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -16596,19 +16596,6 @@
           "precision": "date",
           "status": "verified",
           "evidence": "Official conference page lists the abstract deadline."
-        },
-        {
-          "kind": "other",
-          "label": "Author notifications",
-          "date": "2026-11-15",
-          "time": null,
-          "timezone": null,
-          "id": "digichem27-raci-chemistry-automation-conference:other",
-          "version": 1,
-          "source": "https://digichem27.au/",
-          "precision": "date",
-          "status": "verified",
-          "evidence": "Official conference page lists the notification date."
         },
         {
           "kind": "early_registration",
@@ -20979,7 +20966,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-11-07T07:12:59Z",
+        "last_checked_at": "2026-11-07T09:03:06.441606+00:00",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/: HTTP Error 404: Not Found"
       },
@@ -24605,13 +24592,13 @@
       ],
       "url": "https://www.materialsscienceconference.com/",
       "priority": 1,
-      "verified_on": "2026-11-05",
+      "verified_on": "2026-11-07",
       "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-07T07:12:59Z",
-        "last_verified_at": "2026-11-05T09:40:38.716197+00:00",
-        "message": "https://www.materialsscienceconference.com/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.materialsscienceconference.com/registration: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-07T08:59:04.820359+00:00",
+        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -26461,6 +26448,25 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-07T09:03:06.441606+00:00",
+      "event_id": "euromof2027",
+      "event_name": "EuroMOF 2027",
+      "field": "status",
+      "previous": "Abstract submission is open. Registration platform not yet open.",
+      "value": "Abstract submission availability is not confirmed. Registration availability is not confirmed. Official pages retain conflicting platform statements; see evidence.",
+      "source": "https://euromof2027.com/abstracts/",
+      "evidence": "Official abstract page: “Abstract submission SOON available”; registration page: “Registration SOON available”, while homepage still says open. Deadlines remain 1 February, 5 April and 3 July 2027; no cutoff time or timezone verified. Browser review 7 November 2026; latest runner cannot read these sources."
+    },
+    {
+      "at": "2026-11-07T08:59:04.820359+00:00",
+      "event_id": "metfoam2027",
+      "field": "status",
+      "previous": "Abstract submission open until 30 November 2026; registration fees and deadlines are published, but an open registration platform is not confirmed on the official page.",
+      "value": "Abstract submission open until 30 November 2026. Registration enquiry is an expression of interest only; it does not confirm registration, reserve a place or collect payment. No separate Industry Day tickets are available.",
+      "source": "https://metfoam2027.com/",
+      "evidence": "Official runner text explicitly limits the new enquiry form to an expression of interest."
+    },
     {
       "at": "2026-11-05T09:48:17.629359+00:00",
       "event_id": "chemistry-world-conference-2027",

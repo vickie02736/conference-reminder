@@ -81,9 +81,9 @@ test('unknown and conflicting dates remain explicit undated entries after known 
 });
 
 test('opening-soon timelines use opening dates and never substitute the closing cutoff',()=>{
- const euro=snapshot([canonical('EuroMOF 2027')],'opening_soon');
- assert.ok(euro.length>0);
- assert.ok(euro.every(entry=>entry.date===null));
+ const planned=snapshot([{...canonical('EuroMOF 2027'),status:'Registration platform not yet open.'}],'opening_soon');
+ assert.ok(planned.length>0);
+ assert.ok(planned.every(entry=>entry.date===null));
  const quantum=snapshot([canonical('Mathematics for Quantum Dynamics')],'opening_soon');
  assert.equal(quantum[0].date,'2027-04-01');
  assert.match(quantum[0].label,/opens/i);
