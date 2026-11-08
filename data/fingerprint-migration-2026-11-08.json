@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-08T09:13:11.363415+00:00",
+  "rule": "linkedin_engagement_counter_and_relative_post_age",
+  "sources": [
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "rule": "linkedin_engagement_counter_and_relative_post_age",
+      "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+      "review_run": 42458558175,
+      "comparison_run": 41792669115,
+      "artifact_file": "c29e8d9926b9088b.txt",
+      "runner_hash": "e222c366cbe76ffb459aaf7f4313762a94a236aa528d3947533ab3254b9d29c8",
+      "normalized_hash": "255eb8ca3ab085c62f5d6b5de652d9fb35ff479cebc335757a9335114b888f1c",
+      "text_sha256": "354421cf58766657db44606e626cc6239ac9c640c0befaeccb8ff53be97e1a3a",
+      "comparison_text_sha256": "c5f4f446c71f3f96a4342866beb72d7a20c58c88352c3d6a1a90d978327507b7",
+      "evidence": "仅采用运行器完整正文换算；关注人数、赞计数与年龄噪声被忽略，姓名、角色、机构、日期、钟点、时区和容量变化测试仍改变指纹。"
+    },
+    {
+      "at": "2026-11-08T09:13:11.363415+00:00",
+      "rule": "linkedin_engagement_counter_and_relative_post_age",
+      "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+      "review_run": 42458558175,
+      "artifact_file": "94366b43a8d0801e.txt",
+      "runner_hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+      "normalized_hash": "cc9941abda3dc923aadd43215fcb8e24320be444297fb63198e1a0b454db838e",
+      "text_sha256": "661a9196c1d1b7b90709ba47137b5e6eb7f3cef3ac7d8ed11ad8cc4e54a4b64f",
+      "evidence": "相同噪声规则影响的来源，仅用匹配的运行器全文换算监测基准；本轮没有完成这些来源的语义差异复核，原checks及待核实字段全部保留。"
+    },
+    {
+      "at": "2026-11-08T09:13:11.363415+00:00",
+      "rule": "linkedin_engagement_counter_and_relative_post_age",
+      "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
+      "review_run": 42458558175,
+      "artifact_file": "71f436dbace4ecc2.txt",
+      "runner_hash": "a94922c88d9c653c5066ff2727f2a9842936d522df9981fa8f3cdef6271cafcf",
+      "normalized_hash": "ff6506f5719658063339fbd96a596aea232c9a09c2b6b387d36205896f18cb1f",
+      "text_sha256": "e2843a0f797f7a507b575d8e1fc117b6d39a02a2075846f038585a0456d599d0",
+      "evidence": "相同噪声规则影响的来源，仅用匹配的运行器全文换算监测基准；本轮没有完成这些来源的语义差异复核，原checks及待核实字段全部保留。"
+    }
+  ]
+}

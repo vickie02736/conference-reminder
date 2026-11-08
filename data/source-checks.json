@@ -164,10 +164,10 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "reviewed_at": "2026-11-08T09:12:36.881113+00:00",
           "reviewed_hash": null,
-          "evidence": "浏览器渲染正常 (HTTP 200)：会议 2027-04-14 至 04-15（\"14 – 15 APRIL 2027\"）核实，无钟点/时区；地点 City & Guilds Building, Imperial College London, Exhibition Road 相符；页面显示 \"REGISTRATION OPENING SOON\"、费用 TBC，与“尚未开放”状态一致；提到海报展示但未公布海报/注册截止日期，两项 unknown 里程碑保持不变；未列出具名讲者或委员会。URL 未失效，仅为 fetcher 传输问题 (IncompleteRead/connection reset)。",
-          "review_method": "browser_text",
+          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。",
+          "review_method": "browser",
           "resolved_reason": "transport_review"
         }
       },
@@ -597,17 +597,15 @@
       "checks": {
         "tyc20-celebration-of-the-thomas-young-centre-at-20": {
           "review_required": true,
-          "message": "The KCL eStore gives 8 November 2026 as the last booking date while the TYC page gives 1 November 2026 as the registration deadline; no dated extension notice resolves this, so the registration milestone should be a conflict.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "f77c4c2c91186703a5843378e6d350e8a94eeffc1b160a81e444fa901370d45c",
-          "evidence": "KCL eStore：Dates of Event 14th–15th December 2026 核实；场地 Great Hall - Strand Campus, WC2R 2LS 核实；学生票 £75 核实。\"Last Booking Date for this Event 8th November 2026\"，与 TYC 页面的 \"Registration deadline: Sunday 1 November 2026\" 不一致，且无延期公告，构成冲突。渲染页显示学生票 \"Fully Booked\"。联系人 Karen Stoneham、Carla Molteni 与组织者一致。More Information 列出 17 位 invited speakers（记录 speakers 为空）。",
-          "review_method": "fetcher_text",
+          "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "921881abbebd4581fe7136363a57aca70c5ed9d0f1be40e3ce2508b04b5d3901",
+          "evidence": "运行器与11月7日正文逐行一致；对照更早已复核内容，17位受邀讲者及机构仍列于More Information，补全已存漏项7人。Dates 14–15 December、Last Booking Date 8 November、£75学生票；Book Event按钮仍在，不能据此保证余票。官网缓存却仍显示1 November，网络版本不一，不当作新的延期证明。未公布截止钟点时区。",
+          "review_method": "runner_text",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation",
+            "student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified"
           ],
           "verified_fields": [
             "start/end",
@@ -616,7 +614,13 @@
             "status: student ticket Fully Booked",
             "people: invited speakers (17 listed)"
           ],
-          "review_invalidated_at": "2026-11-07T07:12:59Z"
+          "review_invalidated_at": "2026-11-07T07:12:59Z",
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "fingerprint_version": 2
@@ -849,17 +853,14 @@
       "checks": {
         "interpore2027": {
           "review_required": true,
-          "message": "Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "89c75b9de19ce21a102af314777685bc90e37252e50cb31e02c9b717319f6da1",
-          "evidence": "抓取与浏览器文本一致，所有日期均无钟点/时区。摘要截止 2027-01-11（冲突一方）、录用通知 2027-02-12、早鸟 2027-03-12、线下口头报告人注册 2027-03-26、海报/线上报告人注册 2027-04-16、会议 2027-05-10 至 05-13 与记录相符，precision=date 正确。另列会前/会后课程 2027-05-09 与 05-14（记录未收录，非截止）。摘要截止冲突仍在。",
-          "review_method": "fetcher_text",
+          "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "e871262c126e35f44325734745081e9b0515f811780553d8bec6ee60475dd8ff",
+          "evidence": "与11月5日逐行差异仅Gold Sponsor、模板赞助说明；日期表仍11 January摘要、12 March早鸟、26 March线下口头报告注册、16 April海报/线上注册、10–13 May会议，均无钟点/时区。平台12 January 04:00 -03冲突保留；通知日期不建提醒。",
+          "review_method": "runner_text",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
           ],
           "verified_fields": [
             "abstract candidate 2027-01-11 (date only)",
@@ -869,7 +870,13 @@
             "start/end 2027-05-10–2027-05-13",
             "abstract opening 2026-10-12"
           ],
-          "review_invalidated_at": "2026-11-07T07:12:59Z"
+          "review_invalidated_at": "2026-11-07T07:12:59Z",
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "fingerprint_version": 2
@@ -885,24 +892,27 @@
       "checks": {
         "interpore2027": {
           "review_required": true,
-          "message": "The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "804aa6793402271619fdd9ecccf0567778f1f695cbb5f13f7c80266f94c7a30a",
-          "evidence": "抓取与浏览器文本一致。会议 May 10-13, 2027、Windsor Barra Hotel, Rio de Janeiro 核实。新纳入指纹的钟点为投稿期：“February 4, 2026 - 7:02 AM -03 - January 12, 2027 - 4:00 AM -03”，即平台截止 2027-01-12 04:00（UTC−03，明确给出时区偏移），与 API 07:00Z 一致；可把 12 日候选升级为带钟点/时区。但 Important Dates 页仍写 11 January 2027（无钟点），两份官方表述冲突未解决，不选定单一截止。投稿期起点 2026-02-04 07:02 属平台配置，与“Call for submitting abstracts 12 October 2026”不同，不作为开放日期。",
-          "review_method": "fetcher_text",
+          "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "99fc165e8940d9fd1d19780b5768fc3c4b2f1de80afc172ef04b6c3c6e8d8445",
+          "evidence": "与11月5日运行器逐行差异仅Gold/Silver/Supported by赞助标题；会议、场地、人员未变。正文仍明确平台期末January 12, 2027 - 4:00 AM -03；Important Dates仍11 January，未见延期/时区解释。",
+          "review_method": "runner_text",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
           ],
           "verified_fields": [
             "start/end 2027-05-10–2027-05-13",
             "location Windsor Barra Hotel, Rio de Janeiro",
             "abstract candidate 2027-01-12 04:00 -03 (platform)"
           ],
-          "review_invalidated_at": "2026-11-07T07:12:59Z"
+          "review_invalidated_at": "2026-11-07T07:12:59Z",
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "fingerprint_version": 2
@@ -1060,21 +1070,20 @@
       "changed_at": "2026-11-07T07:12:59Z",
       "checks": {
         "interpore2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-05T09:40:38.716197+00:00",
-          "reviewed_hash": "d9666f02fe889fe43542bc6bbd518e639f22c676a29529af3a1d784ee9e11be4",
-          "evidence": "与运行 41792669115 逐行比对，仅 MS03 组织者区块新增 Tomás Aquino、Aronne Dell’Oca、Ismail El Mellas、Jeffrey Hyman、Agnese Marcato、Josué dos Santos Barroso 及机构，已按区块列名写入；不推断每人的 lead/co-organiser 身份。其余正文（日期、钟点、时区及既有人员）无差异；摘要截止冲突由其他来源继续保留。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "fb601c987d8de173eeea2ad85c083cfc139c75b4f6d075f0894b4f1438c2e589",
+          "evidence": "与上次复核运行41990590073逐行比对：MS19增Valentina Ciriello（University of Bologna）；Solicited Speakers列Luka Tas（Ghent University）、Su Jiang（Carnegie Mellon University）；MS20增Alberto Guadagnini、Philippe Renard、Benoit Noetinger、Tissa Illangasekare及机构，按组织者区块成员记录，不推断各自lead身份。Majid Sedighi机构仅断行变化，赞助标题变更无人员名；无日期/钟点/时区改动。其他来源的摘要冲突继续保留。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
-          "review_run": 41990590073,
+          "review_run": 42458558175,
           "review_invalidated_at": "2026-11-07T07:12:59Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -1670,24 +1679,29 @@
       "checks": {
         "tyc20-celebration-of-the-thomas-young-centre-at-20": {
           "review_required": true,
-          "message": "The TYC page's 1 November 2026 registration deadline conflicts with the KCL eStore's 8 November 2026 last booking date; the clock times 9:00 am / 5:00 pm are published without a time zone and were not recorded.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "b9cbd6bf5fe1a785e1158363086b067591fc1e085c0605dc313828868d59b328",
-          "evidence": "TYC 页面：December 14, 2026 @ 9:00 am – December 15, 2026 @ 5:00 pm——有钟点但未标时区，按规则不能升为 datetime，保持 date 精度、time/timezone 为 null。\"Registration deadline: Sunday 1 November 2026\"（纯日期）核实，但与 KCL eStore 8 November 冲突。13 位组织者全部相符。新增 \"20261102 TYC20 Summary Programme\" 下载（11-02 发布的节目单）。",
-          "review_method": "fetcher_text",
+          "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "05b1b2b46ab3b159579353269f074416481597de635ab4adf1001cf26120afaf",
+          "evidence": "运行器与11月7日一致；对照已核实旧版本，下载链接已由20261102改为20261106节目单。活动页仍写14 December 09:00–15 December 17:00、Registration deadline Sunday 1 November，未给时区；13位组织者不变。已实际下载并目视核对两页PDF：新增/补充报告人和7位主持角色；12月15日Closing remarks 16:30–16:40与页面17:00存在结束钟点差异，保留日级提醒不猜时区。",
+          "review_method": "runner_text",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation",
+            "student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified",
+            "end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished"
           ],
           "verified_fields": [
             "start/end (date only; 09:00/17:00 without zone not recorded)",
             "registration candidate 2026-11-01",
             "people: organisers (13)"
           ],
-          "review_invalidated_at": "2026-11-07T07:12:59Z"
+          "review_invalidated_at": "2026-11-07T07:12:59Z",
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "fingerprint_version": 2
@@ -2974,20 +2988,20 @@
       "changed_at": "2026-11-08T07:24:23Z",
       "checks": {
         "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
           "reviewed_hash": "76bf6dbf15b1877d1f07818862ae446aa074f18b2df685cc5ed2c2744341db94",
-          "evidence": "摘要提交作者注册表单仍可用（填写姓名/邮箱以创建作者账户），与“submission link remains”相符；页面无截止日期或钟点（结构化数据仅重复 2026-11-30/12-02 及占位时间戳）。",
-          "review_method": "fetcher_text",
+          "evidence": "与11月4日运行器逐行差异仅结构化URL移除多余编码串；作者注册页面仍要求姓名/邮箱创建作者账户，未公布截止及钟点/时区。活动日期和既有人事实未改；账户创建入口不证明接受迟交，不发送邮件或填写表单。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-08T07:24:23Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -3045,7 +3059,7 @@
     "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE": {
       "last_checked_at": "2026-11-08T07:24:23Z",
       "status": "checked",
-      "hash": "a94922c88d9c653c5066ff2727f2a9842936d522df9981fa8f3cdef6271cafcf",
+      "hash": "ff6506f5719658063339fbd96a596aea232c9a09c2b6b387d36205896f18cb1f",
       "last_success_at": "2026-11-08T07:24:23Z",
       "content_type": "text/html",
       "message": null,
@@ -3062,7 +3076,18 @@
           "resolved_reason": "fingerprint_upgrade"
         }
       },
-      "fingerprint_version": 2
+      "fingerprint_version": 2,
+      "fingerprint_migration": {
+        "at": "2026-11-08T09:13:11.363415+00:00",
+        "rule": "linkedin_engagement_counter_and_relative_post_age",
+        "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
+        "review_run": 42458558175,
+        "artifact_file": "71f436dbace4ecc2.txt",
+        "runner_hash": "a94922c88d9c653c5066ff2727f2a9842936d522df9981fa8f3cdef6271cafcf",
+        "normalized_hash": "ff6506f5719658063339fbd96a596aea232c9a09c2b6b387d36205896f18cb1f",
+        "text_sha256": "e2843a0f797f7a507b575d8e1fc117b6d39a02a2075846f038585a0456d599d0",
+        "evidence": "相同噪声规则影响的来源，仅用匹配的运行器全文换算监测基准；本轮没有完成这些来源的语义差异复核，原checks及待核实字段全部保留。"
+      }
     },
     "https://www.iswpm26.org/": {
       "last_checked_at": "2026-11-08T07:24:23Z",
@@ -3074,20 +3099,20 @@
       "changed_at": "2026-11-06T07:57:43Z",
       "checks": {
         "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "1c972071cacc57857bd215252214f9da8312874ca437409c732214e3656afd44",
-          "evidence": "主页：30 November - 2 December 2026, Amsterdam 核实；未发布任何钟点/时区（JSON-LD 中 2019-01-01T00:00:00Z 为占位噪声）。仍显示 “Abstract submission OPEN”，与记录的谨慎表述一致（不断言已关闭，也未确认接受迟交）。LOC：Lesueur（TU Delft, LOC Chair）、Rücker（TU Eindhoven, InterPore BeNeLux Committee Chair）、Hajibeygi（TU Delft, Co-Chair）、Berg（Shell, Co-Chair）、Batterham（TU Delft, Project manager）全部相符。主页未给出注册截止日期，registration 保持 unknown。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "89738af5ec2242d7a555e9b5ebb360ca25cb5ad0986c85d244892aeabdbf2cc6",
+          "evidence": "与11月4日运行器逐行差异：移除Abstract submission OPEN字样，结构化URL中的编码垃圾变为规范地址；未宣布关闭或延期。日期30 Nov–2 Dec 2026、Amsterdam、5位LOC角色/机构不变；无注册截止或截止钟点时区。2019占位结构化日期不采纳，作者账户链接可见不等于接受迟交。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-06T07:57:43Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -5111,7 +5136,7 @@
     "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj": {
       "last_checked_at": "2026-11-08T07:24:23Z",
       "status": "checked",
-      "hash": "e222c366cbe76ffb459aaf7f4313762a94a236aa528d3947533ab3254b9d29c8",
+      "hash": "255eb8ca3ab085c62f5d6b5de652d9fb35ff479cebc335757a9335114b888f1c",
       "last_success_at": "2026-11-08T07:24:23Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
@@ -5119,23 +5144,36 @@
       "changed_at": "2026-11-06T07:57:43Z",
       "checks": {
         "interpore2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T11:13:00+00:00",
-          "reviewed_hash": "7653a49aabff985de6e20d19d9567c6e63e0dea42d14dde17d744ecafd894c77",
-          "evidence": "运行器正文与凌晨复核相比只多出导航文字（Skip to main content、Log in）及 Minisymposia 页的 Lead Organizer 行；无日期或截止变化。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "255eb8ca3ab085c62f5d6b5de652d9fb35ff479cebc335757a9335114b888f1c",
+          "evidence": "与上次已核实的运行器正文比较，仅关注人数和Like计数32变33；LOC Chair Márcio Murad、Co-Chair Eduardo Abreu及May 2027不变。精确社交控件计数和帖子相对年龄规则及回归测试已补；旧/新附件按新规则hash一致，不会每天人工结案。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
-          "review_run": "41625024822",
+          "review_run": 42458558175,
           "review_invalidated_at": "2026-11-06T07:57:43Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ],
+          "reviewed_artifact_hash": "e222c366cbe76ffb459aaf7f4313762a94a236aa528d3947533ab3254b9d29c8"
         }
+      },
+      "fingerprint_migration": {
+        "at": "2026-11-08T09:10:03.998791+00:00",
+        "rule": "linkedin_engagement_counter_and_relative_post_age",
+        "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+        "review_run": 42458558175,
+        "comparison_run": 41792669115,
+        "artifact_file": "c29e8d9926b9088b.txt",
+        "runner_hash": "e222c366cbe76ffb459aaf7f4313762a94a236aa528d3947533ab3254b9d29c8",
+        "normalized_hash": "255eb8ca3ab085c62f5d6b5de652d9fb35ff479cebc335757a9335114b888f1c",
+        "text_sha256": "354421cf58766657db44606e626cc6239ac9c640c0befaeccb8ff53be97e1a3a",
+        "comparison_text_sha256": "c5f4f446c71f3f96a4342866beb72d7a20c58c88352c3d6a1a90d978327507b7",
+        "evidence": "仅采用运行器完整正文换算；关注人数、赞计数与年龄噪声被忽略，姓名、角色、机构、日期、钟点、时区和容量变化测试仍改变指纹。"
       }
     },
     "https://www.mmm12.org/organizing-committee-of-mmm12/": {
@@ -5690,9 +5728,12 @@
       "message": "Remote end closed connection without response",
       "checks": {
         "aichemy-annual-conference-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-08T09:12:36.881113+00:00",
+          "review_method": "browser",
+          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。"
         }
       },
       "changed_at": "2026-11-06T07:57:43Z"
@@ -5936,7 +5977,7 @@
     "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm": {
       "last_checked_at": "2026-11-08T07:24:23Z",
       "status": "checked",
-      "hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+      "hash": "cc9941abda3dc923aadd43215fcb8e24320be444297fb63198e1a0b454db838e",
       "last_success_at": "2026-11-08T07:24:23Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
@@ -5961,6 +6002,17 @@
             "people_roles_affiliations"
           ]
         }
+      },
+      "fingerprint_migration": {
+        "at": "2026-11-08T09:13:11.363415+00:00",
+        "rule": "linkedin_engagement_counter_and_relative_post_age",
+        "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+        "review_run": 42458558175,
+        "artifact_file": "94366b43a8d0801e.txt",
+        "runner_hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+        "normalized_hash": "cc9941abda3dc923aadd43215fcb8e24320be444297fb63198e1a0b454db838e",
+        "text_sha256": "661a9196c1d1b7b90709ba47137b5e6eb7f3cef3ac7d8ed11ad8cc4e54a4b64f",
+        "evidence": "相同噪声规则影响的来源，仅用匹配的运行器全文换算监测基准；本轮没有完成这些来源的语义差异复核，原checks及待核实字段全部保留。"
       }
     },
     "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/": {
@@ -7708,21 +7760,20 @@
       "changed_at": "2026-11-08T07:24:23Z",
       "checks": {
         "agsaiml-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-04T09:03:33+00:00",
-          "reviewed_hash": "46557d10c9a68e7c6e662697cd9c51e678655c0ee7dc3c1dc45ef56894c25132",
-          "evidence": "唯一差异为 Plenary Speakers 区块在 Invited Speakers 标题之前新增 Boris Goldengorin、University of Florida, USA 及简介。按主办方列名收录为plenary speaker及该机构，非独立机构确认或到场保证；日期、11月30日摘要截止、钟点/时区及原组织者无差异。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "a3c3548d8e70bc576f398803b167d050b70e357585adce24b5e741e03338c8a0",
+          "evidence": "与上次已核实的11月4日运行器正文逐行比较，仅Keynote Speakers下新增Ramesh Sharma，机构Dr. B. R. Ambedkar University, India；主办方列名，未独立证实机构任职。会议8–10 March 2027、摘要30 November 2026、早鸟25 June 2026均未改，无截止钟点/时区。其余既有人名和角色未变。",
           "review_method": "runner_text",
-          "review_run": 41792669115,
+          "review_run": 42458558175,
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-08T07:24:23Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       }
@@ -7842,25 +7893,24 @@
       "changed_at": "2026-11-08T07:24:23Z",
       "checks": {
         "advanced-chemistry-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
+          "review_required": false,
+          "message": null,
+          "reason": null,
           "triage": {
             "at": "2026-11-04T09:06:17+00:00",
             "run": 41792669115,
             "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
           },
-          "reviewed_hash": "6a6f7a175ca2f6a4b75572fecc1a463c7ee0f9b55a3116a9adcd12ae94ea78d6",
-          "reviewed_at": "2026-11-05T09:17:36+00:00",
+          "reviewed_hash": "e20132a494c7fc3cd4c214267df172205f88746ff9e0fe487c999eba4a333683",
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
           "review_method": "runner_text",
-          "review_run": "41990590073",
-          "evidence": "本次与上一运行的 runner 正文逐行无差异；注册页仍列早鸟 2026-11-18、常规 2027-01-18、现场 2027-03-18，未改变日期、钟点、时区、人员或机构。",
+          "review_run": 42458558175,
+          "evidence": "与11月7日运行器逐行比较，仅ONE DAY REGISTRATION卡移到POSTER之前；收费及日期18 Nov 2026、18 Jan 2027、18 Mar 2027原样，其他日期、钟点、时区及人员机构无变化。",
           "review_invalidated_at": "2026-11-08T07:24:23Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       }
@@ -8032,11 +8082,11 @@
       "checks": {
         "advanced-materials-world-congress-2027": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-07T08:59:04.820359+00:00",
-          "reviewed_hash": "cc5d8aeb9a597a0f17a50a35c0e030373193df270dc17edf697d5d65d3703fba",
-          "evidence": "逐行差异仅为随机历史照片和营销标签。历史照片发布者出现缺失国家与重复 Canada 的变体；已扩充精确 VOLATILE_TEXT 规则并以本次附件补回归。新规则下本次与11月5日完整正文 hash 相同，当前活动日期、截止及既有主办方无变化。",
+          "message": "Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence.",
+          "reason": "manual_review_partial",
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
+          "evidence": "11月7日至8日运行器差异：欢迎信Read more预览截断长度变化，另有已被规则抑制的Tags/旧照片随机内容；所有可见会议日期及当前注册截止、既存组织者与讲者姓名/角色/机构未变。欢迎信含会议信息，不能整段当噪声删除；本轮仅保留动态预览监测规则待验证，不每天人工结案。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "reviewed_fields": [
@@ -8044,7 +8094,7 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": 42350237668,
+          "review_run": 42458558175,
           "review_invalidated_at": "2026-11-08T07:24:23Z",
           "triage": {
             "at": "2026-11-04T09:06:17+00:00",
@@ -8053,10 +8103,7 @@
           },
           "reviewed_artifact_hash": "ecca8f344a4dbf1320c83effe94d43b6bf36592e2c650e91ea27d40bf8d17648",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "dynamic welcome-message excerpt normalization: must preserve dates, times, roles and institutions"
           ]
         }
       },
@@ -8101,34 +8148,39 @@
       "checks": {
         "euromof2027": {
           "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "2941031850726f397470c0be5bc69f27cdd5b73caf526b29d15d3449e411ed6c",
-          "evidence": "新站首页：EuroMOF 2027 于 2027-07-04 至 07 在 Cernobbio Villa Erba；MOFschool2027 06-29 至 07-02 Villa del Grumello, Como；YIS 07-03；摘要 2027-02-01、通知 3 月底、早鸟 04-05、常规 07-03、现场 07-04 起；写 Registration is now open。无截止钟点/时区。Kitagawa、Yaghi 将参会。",
+          "reason": "content_conflict",
+          "message": "registration availability: homepage open vs registration page SOON available",
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
+          "evidence": "与上次可读运行42184117359逐行差异仅新增Important Dates锚点；既有会议、截止及人员机构无变，首页仍说Registration is now open，而注册专页SOON available，状态冲突保留。",
           "resolved_reason": "source_relocated",
           "review_invalidated_at": "2026-11-08T07:24:23Z",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "registration availability: homepage open vs registration page SOON available"
+          ],
+          "review_method": "runner_text",
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         },
         "mofschool2027": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "2941031850726f397470c0be5bc69f27cdd5b73caf526b29d15d3449e411ed6c",
-          "evidence": "新站首页：EuroMOF 2027 于 2027-07-04 至 07 在 Cernobbio Villa Erba；MOFschool2027 06-29 至 07-02 Villa del Grumello, Como；YIS 07-03；摘要 2027-02-01、通知 3 月底、早鸟 04-05、常规 07-03、现场 07-04 起；写 Registration is now open。无截止钟点/时区。Kitagawa、Yaghi 将参会。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "reviewed_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
+          "evidence": "与上次可读运行42184117359逐行差异仅新增Important Dates导航锚点；MOFschool日期29 June–2 July 2027及Villa del Grumello/Como不变，当前页未公布申请截止/钟点/时区或人员，保持缺失，不借2025届学校名册填充。",
           "resolved_reason": "source_relocated",
           "review_invalidated_at": "2026-11-08T07:24:23Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_method": "runner_text",
+          "review_run": 42458558175,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       }
@@ -8580,6 +8632,21 @@
           "review_required": true,
           "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
           "reason": "content_changed"
+        }
+      }
+    },
+    "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf": {
+      "checks": {
+        "tyc20-celebration-of-the-thomas-young-centre-at-20": {
+          "review_required": true,
+          "reason": "content_conflict",
+          "message": "Programme/event page end clock differs; timezone not published.",
+          "remaining_fields": [
+            "end clock: programme 16:40 vs event page 17:00; timezone unpublished"
+          ],
+          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "review_method": "browser",
+          "evidence": "review_method=browser：官方活动页链接的6 November节目单，两页已下载与渲染核对；14–15 December日程，16:30–16:40 Closing remarks；无时区、无注册延期说明。PDF列Giovanna Tinetti、Mike Finnis、Rachel Crespo-Otero、Gabor Csanyi及7位主持，按明确角色机构记录。新URL不写hash。"
         }
       }
     }

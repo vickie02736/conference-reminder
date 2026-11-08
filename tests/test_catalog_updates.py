@@ -80,6 +80,24 @@ class SourceUpdateTests(unittest.TestCase):
                     updated, _, _ = self.merge(row, {url: second}, state=state)
                     self.assertEqual(updated["events"][0]["check"]["status"], "checked")
 
+    def test_linkedin_runner_counts_do_not_hide_facts(self):
+        runs = json.loads((FIXTURES / "linkedin-runner-counters.json").read_text())["runs"]
+        before = runs["41792669115"]["text"]
+        after = runs["42458558175"]["text"]
+        self.assertNotEqual(before, after)
+        self.assertEqual(fingerprint(before), fingerprint(after))
+        self.assertEqual(fingerprint(after), fingerprint(after.replace("4mo", "5mo")))
+        for old, new in (("Márcio Murad", "New Chair"), ("LOC Chair", "Invited speaker"),
+                         ("May 2027", "June 2027")):
+            with self.subTest(field=old):
+                self.assertNotEqual(fingerprint(after), fingerprint(after.replace(old, new)))
+        facts = "Deadline 14 December 2026 at 17:00 GMT; University of Oxford; 33 seats."
+        for old, new in (("14 December", "15 December"), ("17:00", "18:00"),
+                         ("GMT", "CET"), ("Oxford", "Cambridge"), ("33 seats", "34 seats")):
+            with self.subTest(field=old):
+                self.assertNotEqual(fingerprint(facts + after), fingerprint(facts.replace(old, new) + after))
+        self.assertNotEqual(fingerprint("33 Like-minded researchers"), fingerprint("34 Like-minded researchers"))
+
     def test_marketing_noise_rules_keep_real_facts_and_unrelated_site_tags(self):
         widget = ("Peers Alley Media\nTags\nChemistry Conferences 2027\n"
                   "Peers Alley Conferences\nMax Seats\n15 seats\n"

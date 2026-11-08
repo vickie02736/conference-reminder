@@ -111,6 +111,10 @@ VOLATILE_TEXT = (
     # Per-request arithmetic CAPTCHAs, social follower counters and hashed asset names.
     r"(?:what(?:'|’)?s|math question)\s*\(?\s*\d{1,3}\s*[-+x×*]\s*\d{1,3}\s*=\s*\)?",
     r"\b\d[\d,.]*k?\s+followers\b",
+    # LinkedIn engagement counts and post age are delimited by its own controls.
+    # Preserve numbers in the post itself, including deadlines and attendee caps.
+    r"\b\d[\d,.]*[km]?\s+(?=like comment share copy linkedin facebook x\b)",
+    r"\b\d+(?:mo|yr|w|d|h)\s+(?=report this post\b)",
     r"\b[a-z0-9_-]{40,}={0,2}\.html\b",
     # These compiled patterns need line boundaries, before whitespace folding.
     # Peers Alley track cards randomly sample SEO tags, not event facts. Stop

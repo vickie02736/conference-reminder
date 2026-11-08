@@ -248,7 +248,7 @@ test('oral and poster presenter registration is never inferred as a submission r
  assert.ok(proposal.some(s=>s.label==='Symposium proposals open'));
  assert.ok(!proposal.some(s=>s.filters.includes('paper')));
  assert.ok(snapshotStatuses(canonical('AISTATS 2027')).some(s=>s.label==='Journal-to-Conference submission open'));
- assert.deepEqual(snapshotStatuses(canonical('ISWPM26')).map(s=>s.label),['Availability needs confirmation']);
+ assert.deepEqual(snapshotStatuses(canonical('ISWPM26')).map(s=>s.label),['Availability needs confirmation','Registration · opening unconfirmed']);
 });
 test('stage filters combine with existing filters, hide finished events by default, and preserve input',()=>{
  const open={name:'UK oral',region:'UK',type:'Workshop',tags:['AI'],start:'2027-06-01',end:'2027-06-03',status:'Submissions and registration open.',milestones:[phaseNode('abstract','2027-01-01','Oral abstracts'),phaseNode('registration','2027-05-01')]};

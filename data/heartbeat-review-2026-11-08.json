@@ -1,0 +1,3841 @@
+{
+  "at": "2026-11-08T09:15:14.007165+00:00",
+  "date": "2026-11-08",
+  "checkout": "/private/tmp/conference-maintenance-nov5",
+  "base_commit": "1a74e114a6b1e8a46e93bfae2accc7b95ad6f766",
+  "source_check_run": 42458558175,
+  "daily_check_and_publication": "success; no repeated refresh",
+  "artifact_directory": "/tmp/source-text-42458558175",
+  "history_read": [
+    {
+      "file": "backlog-review-2026-11-02.md",
+      "sha256": "6ee76a412f674bd75b65e04995a465a99a756f6583785623831606c7be409466"
+    },
+    {
+      "file": "backlog-review-2026-11-03.md",
+      "sha256": "15df131981bf8f362d89430152ce0b6e0e6ed6d71ad8331f7baf7053280c6f01"
+    },
+    {
+      "file": "data/backlog-review-2026-11-02.json",
+      "sha256": "dd32308646570a26cf4391492c8d9d93d4796ae6a1d13daa73bbde190fa26849"
+    },
+    {
+      "file": "data/backlog-review-2026-11-03.json",
+      "sha256": "c0f4bffc315ef66c199b38a18339b87e5fffaa26ed648900c5240088abf86d29"
+    },
+    {
+      "file": "data/candidate-review-decisions-2026-11-03.json",
+      "sha256": "4bafef61dec70f717c0c5f25501ca70ca663a43b0e14b9c718b2cb49963139f4"
+    },
+    {
+      "file": "data/heartbeat-review-2026-11-03.json",
+      "sha256": "bb0d0c5867b7a797ca787ecdb34c62dca02ea4c9d0f539233dbaaa3a4d423489"
+    },
+    {
+      "file": "data/heartbeat-review-2026-11-04.json",
+      "sha256": "824048dc1e3e95222055df28828aff60220cc535846bf75f06d2be933b4a0831"
+    },
+    {
+      "file": "data/heartbeat-review-2026-11-05.json",
+      "sha256": "208948ee1e5ae8872a8883381b42ed10fa4438c221ea47862e1ee70285f65221"
+    },
+    {
+      "file": "data/heartbeat-review-2026-11-07.json",
+      "sha256": "168d23e6fbaf18c9468c701b5e8363e71e8557cad753c7ce2a8a3d5f2f83348a"
+    },
+    {
+      "file": "data/maintenance-review-2026-11-01.json",
+      "sha256": "fc38eda48d282846fda71726d06368d7f59b5a417b45738a48d678a7b1e05dfe"
+    },
+    {
+      "file": "data/maintenance-review-2026-11-02.json",
+      "sha256": "405f774a69aa7eb788ec9ce23083d7a18eb76b3b25af1176de207527ca673d59"
+    },
+    {
+      "file": "data/manual-source-review-2026-10-29.json",
+      "sha256": "2f36b9cdeeec81730b0af00b7d2d2db8220791b78a628e9b9c0ad9d847b998d8"
+    },
+    {
+      "file": "data/review-progress.json",
+      "sha256": "8181eb1ddeaf00e1da321e15786937a540b9a12b1cb12faf26be8714a9a8619a"
+    },
+    {
+      "file": "data/runner-provenance-review-2026-11-03.json",
+      "sha256": "770741d001bc242ad884041023d5b53326ffd067022c8d7290e4f3f9ae287e7c"
+    },
+    {
+      "file": "heartbeat-review-2026-11-03.md",
+      "sha256": "261ec240b94ba9479794426d4fb22d47a05ac224e597e28d29efa3f6bc1bd3b9"
+    },
+    {
+      "file": "heartbeat-review-2026-11-04.md",
+      "sha256": "7223bcf2f567ac70f17264d832f602de999823f4965db83f6528d928f133b626"
+    },
+    {
+      "file": "heartbeat-review-2026-11-05.md",
+      "sha256": "0fb094632129379bf7bb2f7c09d8a7b8e2467d1779bfadc4eaa8e90a0bb5ad1e"
+    },
+    {
+      "file": "heartbeat-review-2026-11-07.md",
+      "sha256": "60cecba9200c0075d095bc82f6c86b0fae970aaaa2f6c5331f92af1490c93a3d"
+    },
+    {
+      "file": "maintenance-review-2026-11-01.md",
+      "sha256": "8ec28f1de5c966c5a0c8a77c474b78a0f1489b334304bb1fd1e55dad91bb8452"
+    },
+    {
+      "file": "maintenance-review-2026-11-02.md",
+      "sha256": "bb0f93423c3e1895d90242480f887caf67d47e4b059e54d4bb548004343c3b9d"
+    },
+    {
+      "file": "manual-source-review-2026-10-29.md",
+      "sha256": "b0ed99d11fe41217e4e6ff9c5ef31d3561be4813f741a409b6d9a13d85b9efbd"
+    },
+    {
+      "file": "publication-review-2026-11-05.json",
+      "sha256": "73687ac87a72658567ae2eeb88d42afb860d7fa520c1b1769944afe9afbb03e7"
+    },
+    {
+      "file": "publication-review-2026-11-07.json",
+      "sha256": "95b4bdfa96ee3fc1c88c45456678868a2206f57f8ede18e70b2ad6e431fa4f38"
+    },
+    {
+      "file": "research/candidate-review-decisions-2026-11-03.md",
+      "sha256": "f0bc75b6fc329c091af7c7a56f20670925a8de4c7864b41c184bdccaf0f04b7f"
+    }
+  ],
+  "summary": {
+    "previous_remaining": 73,
+    "daily_new": 6,
+    "daily_removed_finished": 1,
+    "started": 78,
+    "batch_new": 1,
+    "resolved": 8,
+    "partial": 6,
+    "content_verified_outside_queue": 1,
+    "remaining": 71,
+    "remaining_sources": 67,
+    "active_transport": 32,
+    "covered_transport": 2,
+    "new_failure": 1,
+    "reopened_transport_due_to_failed_alternative": 1,
+    "stable_original_restored": 0,
+    "consecutive_daily_success_observation": 4,
+    "runner_single_success": 6,
+    "local_single_success": 3,
+    "with_runner_alternative": 8,
+    "historical_replaced": 12
+  },
+  "important_changes": [
+    {
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "summary": "InterPore MS19/MS20新增5位组织者区块成员及2位Solicited Speakers，逐名保存机构，不推断各自lead职务。摘要日期冲突继续保留。"
+    },
+    {
+      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "summary": "AGSAIML新增主办方公布的keynote speaker Ramesh Sharma及机构；不将主办方列名当成独立任职确认。"
+    },
+    {
+      "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+      "summary": "TYC20补全eStore受邀名单漏项7人，新节目单增加4位明确报告角色及7位主持角色。1日/8日注册截止冲突及学生票状态未获解释；节目单结束16:40与页面17:00另存待核实，不猜时区、不改日级提醒。"
+    },
+    {
+      "source": "https://www.iswpm26.org/",
+      "summary": "ISWPM26移除Abstract submission OPEN字样；状态改为投稿接受情况未确认，不能据横幅消失断言关闭或延期。"
+    },
+    {
+      "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+      "summary": "修复精确LinkedIn赞计数/帖子相对年龄噪声；已用当前运行器附件迁移受影响3个URL的监测hash，仅清除实际完成复核的InterPore标记。"
+    }
+  ],
+  "records": [
+    {
+      "event_id": "advanced-chemistry-world-congress-2027",
+      "original_url": "https://www.chemistryconferences.com/registration",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://www.chemistryconferences.com/registration",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 42350237668,
+          "hash_matched": true,
+          "runner_hash": "e20132a494c7fc3cd4c214267df172205f88746ff9e0fe487c999eba4a333683",
+          "file": "ee8c248d6788b15c.txt",
+          "evidence": "与11月7日运行器逐行比较，仅ONE DAY REGISTRATION卡移到POSTER之前；收费及日期18 Nov 2026、18 Jan 2027、18 Mar 2027原样，其他日期、钟点、时区及人员机构无变化。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "agsaiml-2027",
+      "original_url": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 41792669115,
+          "hash_matched": true,
+          "runner_hash": "a3c3548d8e70bc576f398803b167d050b70e357585adce24b5e741e03338c8a0",
+          "file": "7cdb708790752be3.txt",
+          "evidence": "与上次已核实的11月4日运行器正文逐行比较，仅Keynote Speakers下新增Ramesh Sharma，机构Dr. B. R. Ambedkar University, India；主办方列名，未独立证实机构任职。会议8–10 March 2027、摘要30 November 2026、早鸟25 June 2026均未改，无截止钟点/时区。其余既有人名和角色未变。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "interpore2027",
+      "original_url": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 41990590073,
+          "hash_matched": true,
+          "runner_hash": "fb601c987d8de173eeea2ad85c083cfc139c75b4f6d075f0894b4f1438c2e589",
+          "file": "87e5ca34010af08e.txt",
+          "evidence": "与上次复核运行41990590073逐行比对：MS19增Valentina Ciriello（University of Bologna）；Solicited Speakers列Luka Tas（Ghent University）、Su Jiang（Carnegie Mellon University）；MS20增Alberto Guadagnini、Philippe Renard、Benoit Noetinger、Tissa Illangasekare及机构，按组织者区块成员记录，不推断各自lead身份。Majid Sedighi机构仅断行变化，赞助标题变更无人员名；无日期/钟点/时区改动。其他来源的摘要冲突继续保留。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "interpore2027",
+      "original_url": "https://event.fourwaves.com/interpore2027",
+      "original_reason": "content_changed",
+      "original_message": "The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://event.fourwaves.com/interpore2027",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 41990590073,
+          "hash_matched": true,
+          "runner_hash": "99fc165e8940d9fd1d19780b5768fc3c4b2f1de80afc172ef04b6c3c6e8d8445",
+          "file": "754b0d72714745dc.txt",
+          "evidence": "与11月5日运行器逐行差异仅Gold/Silver/Supported by赞助标题；会议、场地、人员未变。正文仍明确平台期末January 12, 2027 - 4:00 AM -03；Important Dates仍11 January，未见延期/时区解释。"
+        }
+      ],
+      "final_status": "partial_conflict",
+      "unresolved_reason": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+    },
+    {
+      "event_id": "interpore2027",
+      "original_url": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+      "original_reason": "content_changed",
+      "original_message": "Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 41990590073,
+          "hash_matched": true,
+          "runner_hash": "e871262c126e35f44325734745081e9b0515f811780553d8bec6ee60475dd8ff",
+          "file": "58c0c2f991ab0847.txt",
+          "evidence": "与11月5日逐行差异仅Gold Sponsor、模板赞助说明；日期表仍11 January摘要、12 March早鸟、26 March线下口头报告注册、16 April海报/线上注册、10–13 May会议，均无钟点/时区。平台12 January 04:00 -03冲突保留；通知日期不建提醒。"
+        }
+      ],
+      "final_status": "partial_conflict",
+      "unresolved_reason": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+    },
+    {
+      "event_id": "interpore2027",
+      "original_url": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 41792669115,
+          "hash_matched": true,
+          "runner_hash": "e222c366cbe76ffb459aaf7f4313762a94a236aa528d3947533ab3254b9d29c8",
+          "file": "c29e8d9926b9088b.txt",
+          "evidence": "与上次已核实的运行器正文比较，仅关注人数和Like计数32变33；LOC Chair Márcio Murad、Co-Chair Eduardo Abreu及May 2027不变。精确社交控件计数和帖子相对年龄规则及回归测试已补；旧/新附件按新规则hash一致，不会每天人工结案。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "mofschool2027",
+      "original_url": "https://euromof2027.com/",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://euromof2027.com/",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 42184117359,
+          "hash_matched": true,
+          "runner_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
+          "file": "b1fcf3aa4d5d1625.txt",
+          "evidence": "与上次可读运行42184117359逐行差异仅新增Important Dates导航锚点；MOFschool日期29 June–2 July 2027及Villa del Grumello/Como不变，当前页未公布申请截止/钟点/时区或人员，保持缺失，不借2025届学校名册填充。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "euromof2027",
+      "original_url": "https://euromof2027.com/",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://euromof2027.com/",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 42184117359,
+          "hash_matched": true,
+          "runner_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
+          "file": "b1fcf3aa4d5d1625.txt",
+          "evidence": "与上次可读运行42184117359逐行差异仅新增Important Dates锚点；既有会议、截止及人员机构无变，首页仍说Registration is now open，而注册专页SOON available，状态冲突保留。"
+        }
+      ],
+      "final_status": "partial_conflict",
+      "unresolved_reason": "registration availability: homepage open vs registration page SOON available"
+    },
+    {
+      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
+      "original_url": "https://www.iswpm26.org/",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://www.iswpm26.org/",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 41792669115,
+          "hash_matched": true,
+          "runner_hash": "89738af5ec2242d7a555e9b5ebb360ca25cb5ad0986c85d244892aeabdbf2cc6",
+          "file": "2591a29a9572a902.txt",
+          "evidence": "与11月4日运行器逐行差异：移除Abstract submission OPEN字样，结构化URL中的编码垃圾变为规范地址；未宣布关闭或延期。日期30 Nov–2 Dec 2026、Amsterdam、5位LOC角色/机构不变；无注册截止或截止钟点时区。2019占位结构化日期不采纳，作者账户链接可见不等于接受迟交。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
+      "original_url": "https://www.iswpm26.org/172246/author?version=latest",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://www.iswpm26.org/172246/author?version=latest",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 41792669115,
+          "hash_matched": true,
+          "runner_hash": "76bf6dbf15b1877d1f07818862ae446aa074f18b2df685cc5ed2c2744341db94",
+          "file": "38a66e14e1cbc8d0.txt",
+          "evidence": "与11月4日运行器逐行差异仅结构化URL移除多余编码串；作者注册页面仍要求姓名/邮箱创建作者账户，未公布截止及钟点/时区。活动日期和既有人事实未改；账户创建入口不证明接受迟交，不发送邮件或填写表单。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "original_url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "original_reason": "content_changed",
+      "original_message": "The KCL eStore gives 8 November 2026 as the last booking date while the TYC page gives 1 November 2026 as the registration deadline; no dated extension notice resolves this, so the registration milestone should be a conflict.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 42350237668,
+          "hash_matched": true,
+          "runner_hash": "921881abbebd4581fe7136363a57aca70c5ed9d0f1be40e3ce2508b04b5d3901",
+          "file": "751018992b923a39.txt",
+          "evidence": "运行器与11月7日正文逐行一致；对照更早已复核内容，17位受邀讲者及机构仍列于More Information，补全已存漏项7人。Dates 14–15 December、Last Booking Date 8 November、£75学生票；Book Event按钮仍在，不能据此保证余票。官网缓存却仍显示1 November，网络版本不一，不当作新的延期证明。未公布截止钟点时区。"
+        }
+      ],
+      "final_status": "partial_conflict",
+      "unresolved_reason": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified"
+    },
+    {
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "original_url": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+      "original_reason": "content_changed",
+      "original_message": "The TYC page's 1 November 2026 registration deadline conflicts with the KCL eStore's 8 November 2026 last booking date; the clock times 9:00 am / 5:00 pm are published without a time zone and were not recorded.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 42350237668,
+          "hash_matched": true,
+          "runner_hash": "05b1b2b46ab3b159579353269f074416481597de635ab4adf1001cf26120afaf",
+          "file": "080e328ac3d6a37a.txt",
+          "evidence": "运行器与11月7日一致；对照已核实旧版本，下载链接已由20261102改为20261106节目单。活动页仍写14 December 09:00–15 December 17:00、Registration deadline Sunday 1 November，未给时区；13位组织者不变。已实际下载并目视核对两页PDF：新增/补充报告人和7位主持角色；12月15日Closing remarks 16:30–16:40与页面17:00存在结束钟点差异，保留日级提醒不猜时区。"
+        }
+      ],
+      "final_status": "partial_conflict",
+      "unresolved_reason": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished"
+    },
+    {
+      "event_id": "advanced-materials-world-congress-2027",
+      "original_url": "https://www.materialsscienceconference.com/",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "verified_at": "2026-11-08T09:10:03.998791+00:00",
+      "evidence_url": "https://www.materialsscienceconference.com/",
+      "attempts": [
+        {
+          "method": "runner_text",
+          "review_run": 42458558175,
+          "comparison_run": 42350237668,
+          "hash_matched": true,
+          "runner_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
+          "file": "74c3cc4ab30a3a89.txt",
+          "evidence": "11月7日至8日运行器差异：欢迎信Read more预览截断长度变化，另有已被规则抑制的Tags/旧照片随机内容；所有可见会议日期及当前注册截止、既存组织者与讲者姓名/角色/机构未变。欢迎信含会议信息，不能整段当噪声删除；本轮仅保留动态预览监测规则待验证，不每天人工结案。"
+        }
+      ],
+      "final_status": "partial",
+      "unresolved_reason": "Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence."
+    },
+    {
+      "event_id": "aichemy-annual-conference-2027",
+      "original_url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "original_reason": null,
+      "original_message": null,
+      "original_failure_reason": "IncompleteRead(15945 bytes read)",
+      "verified_at": "2026-11-08T09:12:36.881113+00:00",
+      "evidence_url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "attempts": [
+        {
+          "method": "browser",
+          "url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。"
+        }
+      ],
+      "final_status": "content_verified",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "aichemy-annual-conference-2027",
+      "original_url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
+      "original_reason": "content_changed",
+      "original_message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "original_failure_reason": "Remote end closed connection without response",
+      "verified_at": "2026-11-08T09:12:36.881113+00:00",
+      "evidence_url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "attempts": [
+        {
+          "method": "browser",
+          "url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。"
+        }
+      ],
+      "final_status": "resolved",
+      "unresolved_reason": null
+    }
+  ],
+  "data_changes": [
+    {
+      "event_id": "agsaiml-2027",
+      "field": "people.speakers",
+      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "added": [
+        {
+          "name": "Ramesh Sharma",
+          "affiliation": "Dr. B. R. Ambedkar University, India",
+          "role": "Keynote speaker listed by the organizer",
+          "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+        }
+      ]
+    },
+    {
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": [
+        {
+          "name": "Valentina Ciriello",
+          "affiliation": "University of Bologna, Italy",
+          "role": "MS19 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Alberto Guadagnini",
+          "affiliation": "Politecnico di Milano, Italy",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Philippe Renard",
+          "affiliation": "Université de Neuchâtel, Switzerland",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Benoit Noetinger",
+          "affiliation": "IFP Energies nouvelles, France",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Tissa Illangasekare",
+          "affiliation": "Colorado School of Mines, USA",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        }
+      ]
+    },
+    {
+      "event_id": "interpore2027",
+      "field": "people.speakers",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": [
+        {
+          "name": "Luka Tas",
+          "affiliation": "Ghent University, Belgium",
+          "role": "MS19 solicited speaker",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Su Jiang",
+          "affiliation": "Carnegie Mellon University, USA",
+          "role": "MS19 solicited speaker",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        }
+      ]
+    },
+    {
+      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
+      "field": "status",
+      "previous": "Not yet held; an abstract submission link remains, so submission closure is not asserted as certain.",
+      "value": "Conference dates announced. Submission status remains uncertain; closure is not asserted. Registration availability is not confirmed.",
+      "source": "https://www.iswpm26.org/",
+      "evidence": "The previously monitored “Abstract submission OPEN” banner is absent; no official closure statement was added."
+    },
+    {
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "field": "people.speakers",
+      "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "added": [
+        {
+          "name": "Modesto Orozco",
+          "affiliation": "Institute for Research in Biomedicine Barcelona",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Dominique Hoogland",
+          "affiliation": "King’s College London",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Alessandro Troisi",
+          "affiliation": "University of Liverpool",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Laura Gagliardi",
+          "affiliation": "University of Chicago",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Michele Parrinello",
+          "affiliation": "Italian Institute of Technology",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Andrea Cavalli",
+          "affiliation": "CECAM",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Clotilde Cucinotta",
+          "affiliation": "University of Florida",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        }
+      ]
+    },
+    {
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "field": "people.speakers",
+      "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf",
+      "added": [
+        {
+          "name": "Giovanna Tinetti",
+          "affiliation": "King’s College London",
+          "role": "Welcome address; Vice Dean for Research, Faculty of Natural, Mathematical and Engineering Sciences",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        },
+        {
+          "name": "Mike Finnis",
+          "affiliation": "Imperial College London",
+          "role": "Historical Perspective speaker; Chair in Materials Theory and Simulation",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        },
+        {
+          "name": "Rachel Crespo-Otero",
+          "affiliation": "University College London",
+          "role": "Scheduled speaker",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        },
+        {
+          "name": "Gabor Csanyi",
+          "affiliation": "University of Cambridge",
+          "role": "Scheduled speaker",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        }
+      ]
+    },
+    {
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "field": "status",
+      "previous": "The TYC registration deadline (1 November 2026) has passed; the KCL eStore still lists 8 November 2026 as its last booking date, and student tickets there are no longer available.",
+      "value": "Registration deadline conflicts: TYC lists 1 November 2026; the KCL eStore lists 8 November 2026. The current runner sees a Book Event button for the £75 student ticket, but booking acceptance and remaining capacity are not confirmed.",
+      "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "evidence": "Current runner says “Book Event”; absence of “Fully Booked” does not prove available places."
+    }
+  ],
+  "new_sources": [
+    {
+      "url": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf",
+      "sha256": "123476e300b3c67ac8e7b10b0508f9778ea69c6fe378199dc932b4531f9ff1fa",
+      "review_method": "browser",
+      "hash_written": false,
+      "evidence": "官网活动页当前链接，已下载/提取并目视核对两页。只写checks，下一次运行器自行建立基准。"
+    }
+  ],
+  "remaining_semantic_reviews": [
+    {
+      "source": "https://www.esat2027.com/speakers/",
+      "event_id": "esat-2027-35th-european-symposium-on-applied-thermodynamics",
+      "reason": "content_conflict",
+      "message": "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven",
+      "content_hash": "1a6af935737e836efe6fcdf02522d4e161eeb81851b6e6ac54df7042432b40c6",
+      "priority": 0,
+      "next_deadline": "2026-11-15",
+      "remaining_fields": [
+        "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
+    },
+    {
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "event_id": "camml2027",
+      "reason": "content_conflict",
+      "message": "Official conflicts remain: accommodation 4 vs 5 nights; acceptance notification 17 vs 19 December. Registration status and support-letter year are resolved.",
+      "content_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
+      "priority": 0,
+      "next_deadline": "2026-11-26",
+      "remaining_fields": [
+        "accommodation nights: PSDI 4 vs about 5",
+        "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "Official conflicts remain: accommodation 4 vs 5 nights; acceptance notification 17 vs 19 December. Registration status and support-letter year are resolved."
+    },
+    {
+      "source": "https://www.bmss.org.uk/biomacromolecular-structure-sig-meeting-2027/",
+      "event_id": "bmss-bioms-sig-2027",
+      "reason": "content_conflict",
+      "message": "The overview still says registration is open until 12 January 2027 while the Day 1 booking page says it closes at midnight on Tuesday 15 January 2027; no official statement resolves this.",
+      "content_hash": "2073dcabd36dcc4d9ad875834911d043d51633d2f975aaffbc4c9f5a1bda893f",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline (conflict 2027-01-12 vs 2027-01-15)"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The overview still says registration is open until 12 January 2027 while the Day 1 booking page says it closes at midnight on Tuesday 15 January 2027; no official statement resolves this."
+    },
+    {
+      "source": "https://www.bmss.org.uk/meeting-booking/biomacromolecular-structure-training-event-2027-day-1/",
+      "event_id": "bmss-bioms-sig-2027",
+      "reason": "content_conflict",
+      "message": "The booking page's 'midnight on Tuesday 15th of January 2027' is internally inconsistent (15 January 2027 is a Friday; 12 January is a Tuesday) and contradicts the overview's 12 January; BMSS must confirm.",
+      "content_hash": "b5fcd90a1082adbe4414c23c1222a1bbf25e28fe75c25fc189e3f5a41b9fccc5",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline (conflict 2027-01-12 vs 2027-01-15)"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The booking page's 'midnight on Tuesday 15th of January 2027' is internally inconsistent (15 January 2027 is a Friday; 12 January is a Tuesday) and contradicts the overview's 12 January; BMSS must confirm."
+    },
+    {
+      "source": "https://www.compchemday.org/",
+      "event_id": "computational-chemistry-day-2027",
+      "reason": "content_conflict",
+      "message": "The official site still only says the 7th Computational Chemistry Day is planned for spring 2027; exact dates, venue and registration details are not yet published.",
+      "content_hash": "08e8308b4852d23cdb837ddb2d9a14652ade86d3c24fbd3252665a65be191519",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "start/end",
+        "location",
+        "registration opening/deadline",
+        "people"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The official site still only says the 7th Computational Chemistry Day is planned for spring 2027; exact dates, venue and registration details are not yet published."
+    },
+    {
+      "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
+      "event_id": "digital-chemistry2027",
+      "reason": "content_conflict",
+      "message": "oral abstract deadline: 2026-12-14 vs 2027-03-14",
+      "content_hash": "2400ad7f212244968cf05014f62dadcfd696acb1f21c34c0f930fe06964845d8",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "oral abstract deadline: 2026-12-14 vs 2027-03-14"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "oral abstract deadline: 2026-12-14 vs 2027-03-14"
+    },
+    {
+      "source": "https://euromof2027.com/",
+      "event_id": "euromof2027",
+      "reason": "content_conflict",
+      "message": "registration availability: homepage open vs registration page SOON available",
+      "content_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration availability: homepage open vs registration page SOON available"
+      ],
+      "disposition": "本轮已部分核实，保留明确未解字段。",
+      "unresolved_reason": "registration availability: homepage open vs registration page SOON available"
+    },
+    {
+      "source": "https://euromof2027.com/abstracts/",
+      "event_id": "euromof2027",
+      "reason": "content_conflict",
+      "message": "submission availability: SOON available heading vs submission portal link; Submission platform status is no longer recognised; verify it before changing the status.",
+      "content_hash": "cd9d062480b9acd3ffe4cf4ed4dbbb4e5aa2a8dd0a3ceb0e268a10c2d8e1c1d9",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "submission availability: SOON available heading vs submission portal link"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "submission availability: SOON available heading vs submission portal link; Submission platform status is no longer recognised; verify it before changing the status."
+    },
+    {
+      "source": "https://euromof2027.com/registration/",
+      "event_id": "euromof2027",
+      "reason": "content_conflict",
+      "message": "registration availability: homepage open vs registration page SOON available",
+      "content_hash": "41ba85926f12011c53cfef32a5f76b464adb315dbb04573e20be3df82f7f7bf5",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration availability: homepage open vs registration page SOON available"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "registration availability: homepage open vs registration page SOON available"
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027",
+      "event_id": "interpore2027",
+      "reason": "content_conflict",
+      "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
+      "content_hash": "99fc165e8940d9fd1d19780b5768fc3c4b2f1de80afc172ef04b6c3c6e8d8445",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+      ],
+      "disposition": "本轮已部分核实，保留明确未解字段。",
+      "unresolved_reason": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+      "event_id": "interpore2027",
+      "reason": "content_conflict",
+      "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
+      "content_hash": "e871262c126e35f44325734745081e9b0515f811780553d8bec6ee60475dd8ff",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+      ],
+      "disposition": "本轮已部分核实，保留明确未解字段。",
+      "unresolved_reason": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+    },
+    {
+      "source": "https://event.fourwaves.com/interpore2027/submission",
+      "event_id": "interpore2027",
+      "reason": "manual_review_partial",
+      "message": "The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser.",
+      "content_hash": null,
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "abstract deadline conflict"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser."
+    },
+    {
+      "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "reason": "content_conflict",
+      "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified",
+      "content_hash": "921881abbebd4581fe7136363a57aca70c5ed9d0f1be40e3ce2508b04b5d3901",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation",
+        "student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified"
+      ],
+      "disposition": "本轮已部分核实，保留明确未解字段。",
+      "unresolved_reason": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified"
+    },
+    {
+      "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "reason": "content_conflict",
+      "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished",
+      "content_hash": "05b1b2b46ab3b159579353269f074416481597de635ab4adf1001cf26120afaf",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation",
+        "student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified",
+        "end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished"
+      ],
+      "disposition": "本轮已部分核实，保留明确未解字段。",
+      "unresolved_reason": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished"
+    },
+    {
+      "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "reason": "content_conflict",
+      "message": "Programme/event page end clock differs; timezone not published.",
+      "content_hash": null,
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "end clock: programme 16:40 vs event page 17:00; timezone unpublished"
+      ],
+      "disposition": "本轮新节目单来源；日期/人员已核对，仅结束钟点与未公布时区保留。",
+      "unresolved_reason": "Programme/event page end clock differs; timezone not published."
+    },
+    {
+      "source": "https://www.materialsscienceconference.com/",
+      "event_id": "advanced-materials-world-congress-2027",
+      "reason": "manual_review_partial",
+      "message": "Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence.",
+      "content_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
+      "priority": 1,
+      "next_deadline": "2026-11-13",
+      "remaining_fields": [
+        "dynamic welcome-message excerpt normalization: must preserve dates, times, roles and institutions"
+      ],
+      "disposition": "本轮已部分核实，保留明确未解字段。",
+      "unresolved_reason": "Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence."
+    },
+    {
+      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "e579066b34c63c596b9fd16f18817bfcbb546e17eb711216fe7bb62c2e9875a4",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://aaai.org/conference/aaai/aaai-27/",
+      "event_id": "aaai-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "8bbb219a51f23a1d4dedaccd6325b19ca1e3d3560a4cadbe773982be55c320a5",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://aaai.org/conference/aaai/aaai-27/conference-organizers-2/",
+      "event_id": "aaai-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "05885b21416446aca20a129ae88409589305dd18cd8337acb0c62a5db92fadea",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://ai4am.net/2027/index.php",
+      "event_id": "ai4am-2027-ai-for-advanced-materials",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "397ba69a7309c20344a6542bc16f53fc42bec790afc70debdbb2698ac757e55c",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.ai4am.net/2027/speakers.php",
+      "event_id": "ai4am-2027-ai-for-advanced-materials",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "bd14bfc3d8f76bc29bb8903985220fbddae423365f68f407b1ae322a0fc129d2",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://sites.google.com/view/ai4mat/schedule",
+      "event_id": "ai4mat-neurips-2026",
+      "reason": "observation",
+      "message": "The authoritative AI4Mat schedule sentence is missing or ambiguous.",
+      "content_hash": "5f72005e81c4ecbd5aa3588e80e3daf0df068ce0cf5638944508a0165fea609a",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The authoritative AI4Mat schedule sentence is missing or ambiguous."
+    },
+    {
+      "source": "https://ai4x.cc/2027/about/committees/",
+      "event_id": "ai4x-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "bca891a1a1eb3feab3e2b5eb17836a2d1db8ab4630bcf2b71b682cb8c8ba104f",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://ai4x.cc/2027/speakers/",
+      "event_id": "ai4x-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "9d78be146c615ac8717c34fb3929575d20f8d247147d84270e94e62d2d9f7745",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://artificialintelligence-forum.com/",
+      "event_id": "aiml-2027-urf",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "887642ca7d89225d21a241f89c081ac999b3bce7823eea60fb0623e697984214",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://dgm.de/aimse/2027/about/contact",
+      "event_id": "aimse2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "fafe6218ce82fe51b5702be06e0594a8525793a782c30d5053355ed8b86108f1",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://aixmat.candela.org.pl/",
+      "event_id": "aixmat-2026-ai-in-materials-research-summit",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "a10fc275861fba728133691517481ee09318b11d66a3bbcb1dc50de1f4e00c46",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+      "event_id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques",
+      "reason": "manual_review_partial",
+      "message": "The course website timed out for the daily fetcher, WebFetch (504) and curl, so the early-registration date, the limited-places status and the guest lecturer cannot be re-verified; existing facts are kept unchanged.",
+      "content_hash": null,
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "early_registration 2027-01-08",
+        "status: limited places",
+        "people.speakers: Peter Ravikovitch",
+        "people.organizers: University of Edinburgh Adsorption Group",
+        "daily schedule times"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The course website timed out for the daily fetcher, WebFetch (504) and curl, so the early-registration date, the limited-places status and the guest lecturer cannot be re-verified; existing facts are kept unchanged."
+    },
+    {
+      "source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027",
+      "event_id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "2de99125506079a6abe35bcd252cc29bc8aa4f4cf8b549968d450255c4983608",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026",
+      "event_id": "automated-intelligent-chemistry-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "f75cac7c1fc4dd6a5982edf9299de8da4335b6de2046585057c1b0408f2c636c",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.biophysics.org/events-calendar",
+      "event_id": "biomolecular-dynamics-berlin-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "0f894a8753831c728f8bd132baa8d14688c0411c3c72ca20a01f8796b7beb783",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.biophysics.org/upcoming-thematic-meetings/biomolecular-dynamics-integrating-experiments-and-computation",
+      "event_id": "biomolecular-dynamics-berlin-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "a11d8dca5b139c03913cd8cfda4bd6c9ea708872b0ce452733756556da78d9b4",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.biophysics.org/events-calendar",
+      "event_id": "bps-annual-meeting-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "0f894a8753831c728f8bd132baa8d14688c0411c3c72ca20a01f8796b7beb783",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.biophysics.org/blog/message-from-the-organizers",
+      "event_id": "bps-protons-in-biology-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "9afeab561d367cc80bbe34c2e02432f2cd50f6e9de49dbe8b6601e6b21303046",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.chemcomp.com/en/UGM-2027-Europe.htm",
+      "event_id": "ccg-ugm-europe-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "25ad104f7baac38c572c034252f690bef534176ee57221670e4f305cb25087b2",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://cecamsimul.eu/events/events-2026",
+      "event_id": "cecam-esi-simulation-scales-2027",
+      "reason": "content_changed",
+      "message": "The CECAM-IT-SIMUL page still returns 403 to every client (fetcher, Chrome, WebFetch, curl); the 23 August–3 September 2027 dates are only visible in a search-engine snapshot, which is weaker than the live organiser page, so the provisional status must remain.",
+      "content_hash": "e4c4bf55176fd3c171ef6024af467820d31be1dc891209c332553566ab673358",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "start/end",
+        "registration",
+        "location/venue",
+        "people: organisers"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "The CECAM-IT-SIMUL page still returns 403 to every client (fetcher, Chrome, WebFetch, curl); the 23 August–3 September 2027 dates are only visible in a search-engine snapshot, which is weaker than the live organiser page, so the provisional status must remain."
+    },
+    {
+      "source": "https://dgm.de/aimse/2027/about/contact",
+      "event_id": "dgm-aimse-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "fafe6218ce82fe51b5702be06e0594a8525793a782c30d5053355ed8b86108f1",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials",
+      "event_id": "dpg-school2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "e4c4f65f8e0ed2c10db1b94d5b4b82f086d020e78488fd3f5689f93e6f255681",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en",
+      "event_id": "dpg-school2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "1ac8dd67768bdce3528fe9f8478bb5db8a42c78c508dcec080033fc45b03f6b5",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.european-mrs.com/computations-materials-%E2%80%93-discovery-design-and-role-ai-emrs",
+      "event_id": "e-mrs-spring-meeting-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "7399cc6b2c835b57efb532df6885da8dd74b85b5b11399fc86d5a73bdb3e64fa",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond",
+      "event_id": "e-mrs-spring-meeting-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "4f7aeb9098252712159fc703ff9cb0c6dc549775c21ccb7294e4e6925a09e022",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit",
+      "event_id": "e-mrs-spring-meeting-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "62352da186dbb2d9b29f3f69caa126d9635c869d9368017b2aa88fcecab813c6",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://events.polyu.edu.hk/ecomat2026/home",
+      "event_id": "ecomat-conference-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "e1b6fbc9ecc9db4cb5fe6e03ddeef5b8dcb695c8601ccd40cbc0b15b9ab42919",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://fems.org/fems-euromat-2027/",
+      "event_id": "fems-euromat-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "ab0c300e416084548eac39d90c1a4352bd36e8d3d209cd2707d3ad36f8972e79",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc",
+      "event_id": "feza2029-11th-conference-of-the-federation-of-european-zeolite-associations",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "b2890579f2bc48f37fb5d9c1f1166363e39b208904d3529028f33a7078922bbd",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
+      "event_id": "ibs-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.iclr.cc/",
+      "event_id": "iclr-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "d6eb041a32ebc43793927180a0800a546081c5cae3b70498447cc9d98876468a",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
+      "event_id": "introduction-to-machine-learning-for-chemists-workshop",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "1f2eef333d816fa771b56f45f24b961fb38091d50142cf0379c003dd1dbb8385",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium",
+      "event_id": "materials-chemistry-poster-symposium-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "bda50e2e903462d99d7c354d0a3605dbd1d2fee834475680908c9c742f0b9dde",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.elsevier.com/en-gb/events/conferences/all/materials-today-conference/committee-and-speakers",
+      "event_id": "materials-today-conference-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "8a7e3cd589b03ab17046ccba14b1be10cbc8fcc1a3b34159241355344b1a0e85",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.mmm12.org/",
+      "event_id": "mmm12-12th-international-conference-on-multiscale-materials-modeling",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "360120adb497e4bdef3f9e8e7f029dc71154c555b0ed99c72100b27638911254",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://moansi2026.pages.math.cnrs.fr/",
+      "event_id": "moansi-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "9703d111551c5c593a71bed78685a84629f697a8f15efa208c75d7f508cb38bd",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.mrs.org/meetings-events/annual-meetings",
+      "event_id": "mrs-fall2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "a9125f460cc8c5990816f8bcae094c9500b63251b6bcb08adbe0e0353c599514",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
+      "event_id": "nanoporous-grc2027",
+      "reason": "manual_review_partial",
+      "message": "Chair and vice-chair names are rendered as images with no alt text; neither the full DOM text, the alt-text list, nor the GRC conference-history page (WebFetch) contains them as text, so the four committee entries still need a visual/screenshot check.",
+      "content_hash": "8f5a93cca4d73ae528a4d02e11ced3cd930a94a42b352770fc3f90a63c88f068",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "people: committee (chairs/vice chairs, names rendered as images without alt text)"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "Chair and vice-chair names are rendered as images with no alt text; neither the full DOM text, the alt-text list, nor the GRC conference-history page (WebFetch) contains them as text, so the four committee entries still need a visual/screenshot check."
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
+      "event_id": "nanoporous-grs2027",
+      "reason": "manual_review_partial",
+      "message": "The chair names are images with no alt text; neither the full DOM, the alt-text list nor the GRS conference-history page (WebFetch) contains them as text, so the two recorded co-chairs still need a visual check. All dates, deadlines and venue match.",
+      "content_hash": "3b2f350bffb5b64c097e8e870f5276b8ddc6043bd855830bf083bec2ecd8f6fe",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "people.committee: Hafsa Abdul Ghuffar, Haley Wellman (chair names rendered as images without alt text)"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The chair names are images with no alt text; neither the full DOM, the alt-text list nor the GRS conference-history page (WebFetch) contains them as text, so the two recorded co-chairs still need a visual check. All dates, deadlines and venue match."
+    },
+    {
+      "source": "https://neurips.cc/Conferences/2026/Dates",
+      "event_id": "neurips-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "733df557cbe600f8577af92f2c63b51501b5f81258d1381a8d700bfd5bb159ca",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://nips.cc/Conferences/2026",
+      "event_id": "neurips-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "0c29d99ead2073a656775aaf842455c78d16c562fc62cf18a32fb0fa3843afb4",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://mephysociety.wordpress.com/2026/05/06/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-vienna-nov30-dec4-2026/",
+      "event_id": "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "8f49b1be6e77dcabcd33927eec55daff82279165dc391386bb41b314fc59f604",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.esi.ac.at/events/e610/",
+      "event_id": "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "ae0f0254bc95801019e1eeb6fa45ad76412548ce33a6e33a41d24de06e079b65",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
+      "event_id": "pmea2028-porous-materials-for-environmental-applications",
+      "reason": "manual_review_partial",
+      "message": "The unibook.upjs.sk host times out entirely (the main www.upjs.sk site responds), so the PMEA2026 proceedings PDF and its 2028 announcement cannot be re-read; the record's unknown dates are left unchanged.",
+      "content_hash": null,
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "status: 2028 return to Slovakia announcement",
+        "location: Slovakia"
+      ],
+      "disposition": "此前已核实部分字段且正文hash未变；无新解释证据，保留未解问题，跳过重复语义复核。",
+      "unresolved_reason": "The unibook.upjs.sk host times out entirely (the main www.upjs.sk site responds), so the PMEA2026 proceedings PDF and its 2028 announcement cannot be re-read; the record's unknown dates are left unchanged."
+    },
+    {
+      "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
+      "event_id": "sampling-with-agents-2026",
+      "reason": "content_changed",
+      "message": "The TYC page only mentions the hackathon in passing (Institute of Physics, 8 December); no hackathon-specific official page with dates, registration or organisers was available, so dates remain unconfirmed.",
+      "content_hash": "3be7ed94125dd8f0d83d080496d3bf92aa8c29e1ac472fb54930f0d8a81c9a57",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "The TYC page only mentions the hackathon in passing (Institute of Physics, 8 December); no hackathon-specific official page with dates, registration or organisers was available, so dates remain unconfirmed."
+    },
+    {
+      "source": "https://sapem2026.matelys.com/",
+      "event_id": "sapem-2026-8th-symposium-on-the-acoustics-of-poro-elastic-materials",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "52f10022315f0f1812471e61a81788ea2c73de603d02ca078222547e0f978d36",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://slas.org/events",
+      "event_id": "slas-europe-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "11e327b8b624ac15a380e443c5965e0751fee2463bfc3142ec5b32ad4ed62bf1",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://slas.org/events",
+      "event_id": "slas2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "11e327b8b624ac15a380e443c5965e0751fee2463bfc3142ec5b32ad4ed62bf1",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://event-partners.com/our-shows/",
+      "event_id": "the-advanced-materials-show-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "3c82460c8cd43c5f6c58ba000e277b69d06ca52c1e21b56f97f566bf4af5f6f0",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/",
+      "event_id": "the-future-of-materials-discovery",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "7d7f2944612b8c828d50a6dc404b330f06955bf0294ec9eb2b9ce1b727432433",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+      "event_id": "tms2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "cc9941abda3dc923aadd43215fcb8e24320be444297fb63198e1a0b454db838e",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+      "event_id": "tms2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "216301bc65d4cf4b986cbea9900006d23721b88ff59bfafb572a67f1d49f341e",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+      "event_id": "tms2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "c960e6c7faf6e0b7ca1ff6059c4530799d8fbe3b29781fd8faad3e452e1c3466",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.tu-darmstadt.de/synbio/workshop/sdl_workshop/sdlworkshop.de.jsp",
+      "event_id": "tu-darmstadt-sdl-workshop-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "fd11555776173909472508be3b77d114e788cb4303bc1760ea4d25357616d68f",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    },
+    {
+      "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
+      "event_id": "tyc-frontiers-molecular-sampling-2026",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "3be7ed94125dd8f0d83d080496d3bf92aa8c29e1ac472fb54930f0d8a81c9a57",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ],
+      "disposition": "本轮未完成的语义积压；从该项继续逐行比对，不以可下载或缺少适配器作为结案依据。",
+      "unresolved_reason": "官方正文发生变化，尚需逐项核对剩余字段。"
+    }
+  ],
+  "active_transport_reviews": [
+    {
+      "source": "https://ai4science-amsterdam.github.io/news/chemai/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://ai4science-amsterdam.github.io/news/chemai/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html; charset=utf-8",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://ai4science-amsterdam.github.io/news/chemai/"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://www.acnetwork.nl/chemai",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "baf3b23988c47fd93f2570e50a7ec959b01e71bd0e3cdeecb77ac75c814719a6",
+          "file": "de9c3fe86e7d642e.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:07.638910+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(15945 bytes read)",
+      "original_url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "original_failure_reason": "IncompleteRead(15945 bytes read)",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        },
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 2,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        },
+        {
+          "method": "browser",
+          "url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "readable": true,
+          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:10.629952+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(7658 bytes read)",
+      "original_url": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
+      "original_failure_reason": "IncompleteRead(7658 bytes read)",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        },
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 2,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "d94e661cccdec98c23227ed4646b2734164e78fa8789ee8ca95f78627a06e3eb",
+          "file": "68013741f8025abf.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://psi-k.net/workshops/",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "bd777d976ae91bd082dfe6173a1c5f87ae1dd02668bdec690d891659a003ca11",
+          "file": "3596a1be35134f9b.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "9e7e2b22e036e5482e95e6893e3577cd978e4046eb58da573eee571ac067df13",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.683328+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(15945 bytes read)",
+      "original_url": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+      "original_failure_reason": "IncompleteRead(15945 bytes read)",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        },
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 2,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:10.637979+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(15948 bytes read)",
+      "original_url": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
+      "original_failure_reason": "IncompleteRead(15948 bytes read)",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        },
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 2,
+          "readable": false,
+          "message": "[Errno 54] Connection reset by peer"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.580941+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
+      "status": "failed",
+      "reason": "Remote end closed connection without response",
+      "original_url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
+      "original_failure_reason": "Remote end closed connection without response",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "application/json; charset=UTF-8",
+          "evidence": "无可核实正文。",
+          "url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
+        },
+        {
+          "method": "browser",
+          "url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+          "readable": true,
+          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。"
+        },
+        {
+          "method": "public_api_json",
+          "url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
+          "http_status": 200,
+          "readable": true,
+          "evidence": "JSON正文17468字节；本机单次成功，不替代最新运行器失败；前次通用HTML探测未解析JSON，本次记录更正。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "review-progress.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "failed",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:08.845205+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；本机原址本轮单次可读，不能证明日常自动抓取稳定恢复。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": true
+    },
+    {
+      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(7641 bytes read)",
+      "original_url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
+      "original_failure_reason": "IncompleteRead(7641 bytes read)",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "application/json; charset=UTF-8",
+          "evidence": "无可核实正文。",
+          "url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "review-progress.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:08.828148+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(8192 bytes read)",
+      "original_url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
+      "original_failure_reason": "IncompleteRead(8192 bytes read)",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "application/json; charset=UTF-8",
+          "evidence": "无可核实正文。",
+          "url": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:08.818646+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
+          "readable": true,
+          "evidence": "官方缓存可读，五位symposium organiser及机构与已存核实一致；当前会议日期未改，原址日常403仍在。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-07.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:07.730419+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
+          "readable": true,
+          "evidence": "官方PDF缓存首部明确May 23–28 2027、January 1 2027摘要，与既有事实一致；不新建钟点/时区。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-07.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:07.797722+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+      "status": "unverifiable",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+      "original_url": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+      "original_failure_reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        },
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 2,
+          "readable": false,
+          "message": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+          "readable": false,
+          "evidence": "浏览器缓存入口本轮亦不可访问；未取得新的官方镜像/PDF，保留事实。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "candidate-review-decisions-2026-11-03.json",
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:08.846408+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
+      "status": "unverifiable",
+      "reason": "<urlopen error timed out>",
+      "original_url": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
+      "original_failure_reason": "<urlopen error timed out>",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "<urlopen error timed out>"
+        },
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 2,
+          "readable": false,
+          "message": "<urlopen error timed out>"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:32.902049+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://watoc2028.org/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://watoc2028.org/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://watoc2028.org/"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://www.watoc.net/watoc.congress.html",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "2449b5d2b90035c8dca7a795f1e02a3e7967070fea39db5134f92a373c1b1989",
+          "file": "a353e54db2bc8264.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.137606+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "candidate-review-decisions-2026-11-03.json",
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:08.957343+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:08.948071+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee",
+          "readable": false,
+          "evidence": "官网缓存初次可读，后续读取403；不能据本次摘要完整复核人员，保留既有可信名单及未解问题。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.016508+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+      "status": "unverifiable",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>",
+      "original_url": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
+      "original_failure_reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1082)>"
+        },
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 2,
+          "readable": false,
+          "message": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1082)>"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://www.epay.ed.ac.uk/conferences-and-events/college-of-science-and-engineering/school-of-engineering/aric-advanced-adsorption-course-2027",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "2de99125506079a6abe35bcd252cc29bc8aa4f4cf8b549968d450255c4983608",
+          "file": "a10dfa78ef20ca22.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.128773+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found",
+      "original_url": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
+      "original_failure_reason": "HTTP Error 404: Not Found",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": true,
+          "content_type": "text/html; charset=utf-8",
+          "evidence": "Phishing Alert\n- GRC SPEAKERS AND DISCUSSION LEADERS ARE BEING TARGETED BY PHISHING ATTEMPTS DESIGNED TO COLLECT PAYMENT FOR REGISTRATION OR LODGING.\nCLICK HERE FOR MORE DETAILS\nChemistry and Physics ",
+          "url": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "failed",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.734137+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；本机原址本轮单次可读，不能证明日常自动抓取稳定恢复。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": true
+    },
+    {
+      "source": "https://www.grc.org/computer-aided-drug-design-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://www.grc.org/computer-aided-drug-design-conference/2027/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 404: Not Found"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://www.grc.org/computer-aided-drug-design-conference/2027/",
+          "readable": true,
+          "evidence": "官方缓存仍有对应会议July 18–23 2027、申请June20、University of Southern Maine；Apply Now，无钟点时区、姓名栏空，详细程序待公布；未因运行器伪404删事实。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.434653+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.grc.org/computer-aided-drug-design-grs-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://www.grc.org/computer-aided-drug-design-grs-conference/2027/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 404: Not Found"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.425662+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "candidate-review-decisions-2026-11-03.json",
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.702986+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "backlog-review-2026-11-02.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "backlog-review-2026-11-02.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.713539+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.grc.org/soft-condensed-matter-physics-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://www.grc.org/soft-condensed-matter-physics-conference/2027/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://www.grc.org/soft-condensed-matter-physics-conference/2027/"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.867528+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.grc.org/soft-condensed-matter-physics-grs-conference/2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "original_url": "https://www.grc.org/soft-condensed-matter-physics-grs-conference/2027/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://www.grc.org/soft-condensed-matter-physics-grs-conference/2027/"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.980241+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.810104+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
+          "readable": true,
+          "evidence": "官方缓存仍显示proposal Deadline Extended至November2；contributed及minisymposium abstracts为November2 11:59pm Eastern。页面旧October5残留，既有明确延期证据不改；无新延期。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.800581+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx",
+          "readable": true,
+          "evidence": "官方缓存核对June13–17 2027 Chicago与摘要December1 2026，无截止钟点或时区。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.820860+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "browser_cache",
+          "url": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx",
+          "readable": true,
+          "evidence": "官方缓存核对June13–17 2027、摘要December1 2026、优惠注册April30 2027及7位组织者机构，均与已存相符，无截止钟点/时区。"
+        }
+      ],
+      "official_alternatives": [],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": true,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.859216+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。现有监测列表没有本轮运行器可读的等价替代入口；缓存/历史证据不能证明抓取恢复。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "ec66ab3587f79dec61070b56862658df322a4f68c2609b7a79bfe1eaf2246263",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/TMS2027",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "6c3eeb47fc3386722cec8931697f7f5dbe551c02c6bf4b5aa281bafbe8f215d4",
+          "file": "5656a39727a88f31.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "216301bc65d4cf4b986cbea9900006d23721b88ff59bfafb572a67f1d49f341e",
+          "file": "f92478723ee5eca2.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "c960e6c7faf6e0b7ca1ff6059c4530799d8fbe3b29781fd8faad3e452e1c3466",
+          "file": "1b5923c4e1d75064.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "2b9c0295754d6741ca15bd32f0a963c90b18113ba556aa42a300d70429435e5d",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "4b739d208d3d4a6ad7582272c177de3e486491b9e23e8b83be7f1507b227caee",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "330d7279f64fca03f0fed7494353ea609b0d812b9dbbf38858468992285aa695",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "79bf090ea5b7ef1294378b111b7ac52142b66f24182eec3065942609427ac492",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+          "file": "94366b43a8d0801e.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.884770+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "ec66ab3587f79dec61070b56862658df322a4f68c2609b7a79bfe1eaf2246263",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/TMS2027",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "6c3eeb47fc3386722cec8931697f7f5dbe551c02c6bf4b5aa281bafbe8f215d4",
+          "file": "5656a39727a88f31.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "216301bc65d4cf4b986cbea9900006d23721b88ff59bfafb572a67f1d49f341e",
+          "file": "f92478723ee5eca2.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "c960e6c7faf6e0b7ca1ff6059c4530799d8fbe3b29781fd8faad3e452e1c3466",
+          "file": "1b5923c4e1d75064.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "2b9c0295754d6741ca15bd32f0a963c90b18113ba556aa42a300d70429435e5d",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "4b739d208d3d4a6ad7582272c177de3e486491b9e23e8b83be7f1507b227caee",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "330d7279f64fca03f0fed7494353ea609b0d812b9dbbf38858468992285aa695",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "79bf090ea5b7ef1294378b111b7ac52142b66f24182eec3065942609427ac492",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+          "file": "94366b43a8d0801e.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.883864+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": true,
+          "content_type": "text/html; charset=utf-8",
+          "evidence": "TMS2027 Technical Program\nTMS2027 will present more than 100 symposia planned by all five TMS technical divisions and covering a broad range of topics related to minerals, metals, and materials scienc",
+          "url": "https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "ec66ab3587f79dec61070b56862658df322a4f68c2609b7a79bfe1eaf2246263",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/TMS2027",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "6c3eeb47fc3386722cec8931697f7f5dbe551c02c6bf4b5aa281bafbe8f215d4",
+          "file": "5656a39727a88f31.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "216301bc65d4cf4b986cbea9900006d23721b88ff59bfafb572a67f1d49f341e",
+          "file": "f92478723ee5eca2.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "c960e6c7faf6e0b7ca1ff6059c4530799d8fbe3b29781fd8faad3e452e1c3466",
+          "file": "1b5923c4e1d75064.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "2b9c0295754d6741ca15bd32f0a963c90b18113ba556aa42a300d70429435e5d",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "4b739d208d3d4a6ad7582272c177de3e486491b9e23e8b83be7f1507b227caee",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "330d7279f64fca03f0fed7494353ea609b0d812b9dbbf38858468992285aa695",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "79bf090ea5b7ef1294378b111b7ac52142b66f24182eec3065942609427ac492",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+          "file": "94366b43a8d0801e.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:10.442802+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；本机原址本轮单次可读，不能证明日常自动抓取稳定恢复。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": true
+    },
+    {
+      "source": "https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden",
+      "original_url": "https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx",
+      "original_failure_reason": "HTTP Error 403: Forbidden",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "readable": false,
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "ec66ab3587f79dec61070b56862658df322a4f68c2609b7a79bfe1eaf2246263",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/TMS2027",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "6c3eeb47fc3386722cec8931697f7f5dbe551c02c6bf4b5aa281bafbe8f215d4",
+          "file": "5656a39727a88f31.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/5EC2E80056B700DB85258DC4005722AE?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "216301bc65d4cf4b986cbea9900006d23721b88ff59bfafb572a67f1d49f341e",
+          "file": "f92478723ee5eca2.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/DE2F65183C807C6885258D90005F3D28?OpenDocument=&ParentUNID=A79798B673220E9885258B13005BB1F5",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "c960e6c7faf6e0b7ca1ff6059c4530799d8fbe3b29781fd8faad3e452e1c3466",
+          "file": "1b5923c4e1d75064.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-PPT-Template.pptx",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "2b9c0295754d6741ca15bd32f0a963c90b18113ba556aa42a300d70429435e5d",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-JoinMe-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "4b739d208d3d4a6ad7582272c177de3e486491b9e23e8b83be7f1507b227caee",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-SeeMyTalk-Background.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "330d7279f64fca03f0fed7494353ea609b0d812b9dbbf38858468992285aa695",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://archive.tms.org/TMS2027/downloads/TMS2027-Social-Attending.png",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "79bf090ea5b7ef1294378b111b7ac52142b66f24182eec3065942609427ac492",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.linkedin.com/posts/the-minerals-metals-materials-society_tms2027-tmsannualmeeting-activity-7479881986120208384-xxzm",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+          "file": "94366b43a8d0801e.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "heartbeat-review-2026-11-05.json",
+        "heartbeat-review-2026-11-04.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:09.938505+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    }
+  ],
+  "covered_transport_reviews": [
+    {
+      "source": "https://event.fourwaves.com/interpore2027/submission",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "alternative": "https://api.fourwaves.com/api/events/interpore2027",
+      "original_url": "https://event.fourwaves.com/interpore2027/submission",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html;charset=utf-8",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://event.fourwaves.com/interpore2027/submission"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://event.fourwaves.com/interpore2027",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "99fc165e8940d9fd1d19780b5768fc3c4b2f1de80afc172ef04b6c3c6e8d8445",
+          "file": "754b0d72714745dc.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "e871262c126e35f44325734745081e9b0515f811780553d8bec6ee60475dd8ff",
+          "file": "58c0c2f991ab0847.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "fb601c987d8de173eeea2ad85c083cfc139c75b4f6d075f0894b4f1438c2e589",
+          "file": "87e5ca34010af08e.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "e222c366cbe76ffb459aaf7f4313762a94a236aa528d3947533ab3254b9d29c8",
+          "file": "c29e8d9926b9088b.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://api.fourwaves.com/api/events/interpore2027",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "82b1635703bb44354f38617418756ce894216ffb19627933babad80e48305783",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "backlog-review-2026-11-02.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "backlog-review-2026-11-02.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:10.264840+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    },
+    {
+      "source": "https://uon-comp-chem.github.io/mm2027/",
+      "status": "unverifiable",
+      "reason": "Official source returned no readable page content.",
+      "alternative": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
+      "original_url": "https://uon-comp-chem.github.io/mm2027/",
+      "original_failure_reason": "Official source returned no readable page content.",
+      "attempts": [
+        {
+          "method": "bounded_direct_retry",
+          "attempt": 1,
+          "http_status": 200,
+          "readable": false,
+          "content_type": "text/html; charset=utf-8",
+          "evidence": "正文为空、过短或访问挑战，不能核实活动事实。",
+          "url": "https://uon-comp-chem.github.io/mm2027/"
+        }
+      ],
+      "official_alternatives": [
+        {
+          "source": "https://raw.githubusercontent.com/UON-comp-chem/mm2027/main/src/App.jsx",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "50da0ad6a2a84d12085e0e9759f40d2bcb0243a7fc13573b1f42849d2639c5ea",
+          "file": null,
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        },
+        {
+          "source": "https://github.com/UON-comp-chem/mm2027/blob/main/src/App.jsx",
+          "method": "latest_runner_artifact",
+          "run": 42458558175,
+          "ok": true,
+          "hash": "c811a40d5b2e40f263c50a4dd917f8c067acfdf8e22dcd7b684dd6929fa8fe49",
+          "file": "84ce1ee0dba2f217.txt",
+          "note": "运行器当前可用替代入口；未声称覆盖原址所有字段。"
+        }
+      ],
+      "history_records": [
+        "heartbeat-review-2026-11-07.json",
+        "maintenance-review-2026-11-02.json",
+        "backlog-review-2026-11-03.json",
+        "heartbeat-review-2026-11-03.json",
+        "review-progress.json",
+        "heartbeat-review-2026-11-04.json",
+        "maintenance-review-2026-11-01.json",
+        "manual-source-review-2026-10-29.json",
+        "heartbeat-review-2026-11-05.json",
+        "manual-source-review-2026-10-29.md",
+        "heartbeat-review-2026-11-04.md",
+        "maintenance-review-2026-11-01.md",
+        "heartbeat-review-2026-11-07.md",
+        "backlog-review-2026-11-03.md",
+        "heartbeat-review-2026-11-03.md",
+        "maintenance-review-2026-11-02.md"
+      ],
+      "final_status": "unverifiable",
+      "content_verified": false,
+      "automatic_fetch_restored": false,
+      "verified_at": "2026-11-08T09:05:10.056874+00:00",
+      "unresolved_reason": "最新GitHub运行器仍失败；原址有限重试未取得可核实正文。已有记录中的可读官方替代入口；其覆盖范围以证据为准。",
+      "direct_readable_this_attempt": false
+    }
+  ],
+  "new_failure_sources": [
+    "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
+  ],
+  "reopened_transport_sources": [
+    "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+  ],
+  "single_daily_success_sources": [
+    "https://euromof2027.com/",
+    "https://euromof2027.com/abstracts/",
+    "https://euromof2027.com/committees/",
+    "https://euromof2027.com/programme/",
+    "https://euromof2027.com/registration/",
+    "https://euromof2027.com/speakers/"
+  ],
+  "two_consecutive_daily_success_sources": [
+    "https://www.chemistryconferences.com/",
+    "https://www.chemistryconferences.com/registration",
+    "https://www.materialsscienceconference.com/",
+    "https://www.materialsscienceconference.com/registration"
+  ],
+  "recovery_policy": "4页连续11月7/8两次日常抓取成功，6页本次单次成功，列恢复观察；单次本机/API/缓存成功均不覆盖运行器失败。尚不作长期稳定恢复保证。",
+  "historical_addresses": [
+    {
+      "source": "https://ai4am.net/",
+      "replacement": "https://ai4am.net/2027/index.php"
+    },
+    {
+      "source": "https://euromof2027.com/abstracts.html",
+      "replacement": "https://euromof2027.com/abstracts/"
+    },
+    {
+      "source": "https://euromof2027.com/index.html",
+      "replacement": "https://euromof2027.com/"
+    },
+    {
+      "source": "https://euromof2027.com/registration.html",
+      "replacement": "https://euromof2027.com/registration/"
+    },
+    {
+      "source": "https://web.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc",
+      "replacement": "https://www.isel.pt/noticias/isel-acolhe-xiii-encmp-e-iv-rgc"
+    },
+    {
+      "source": "https://www.cecam.org/program?location=all&month=all&page=0&type=flagship_workshop",
+      "replacement": null
+    },
+    {
+      "source": "https://www.cecam.org/program?location=all&month=all&page=2&type=all",
+      "replacement": null
+    },
+    {
+      "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/",
+      "replacement": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/"
+    },
+    {
+      "source": "https://fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027",
+      "replacement": "https://www.fda.gov/drugs/news-events-human-drugs/cheminformatics-resources-us-governmental-organizations-2027-workshop-04122027"
+    },
+    {
+      "source": "https://euromof2027.com/committees.html",
+      "replacement": "https://euromof2027.com/committees/"
+    },
+    {
+      "source": "https://euromof2027.com/speakers.html",
+      "replacement": "https://euromof2027.com/speakers/"
+    },
+    {
+      "source": "https://www.rsc.org/getContentAsset/711ed80e-95d2-4169-905d-afa1bb46dab5/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
+      "replacement": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en"
+    }
+  ],
+  "mirror_addresses": [
+    {
+      "source": "https://www.elsevier.com/en-in/events/conferences/all/materials-today-conference/committee-and-speakers",
+      "canonical": "https://www.elsevier.com/en-gb/events/conferences/all/materials-today-conference/committee-and-speakers"
+    }
+  ],
+  "finished_skipped": [
+    {
+      "source": "https://wp.icmm.csic.es/ms-mm/people/felipe-gandara/",
+      "event_ids": [
+        "school-on-advanced-structural-analysis-in-mofs-and-cofs"
+      ]
+    },
+    {
+      "source": "https://www.aiasplus.org/call-for-papers",
+      "event_ids": [
+        "aias-plus-2026"
+      ]
+    },
+    {
+      "source": "https://www.aiasplus.org/call-for-workshops",
+      "event_ids": [
+        "aias-plus-2026"
+      ]
+    },
+    {
+      "source": "https://www.aiasplus.org/event-registration",
+      "event_ids": [
+        "aias-plus-2026"
+      ]
+    },
+    {
+      "source": "https://www.brunel.ac.uk/news-and-events/events/2026/Advances-in-Computational-Approaches-to-Antimicrobial-Resistance",
+      "event_ids": [
+        "computational-antimicrobial-resistance-2026"
+      ]
+    },
+    {
+      "source": "https://www.ccpbiosim.ac.uk/events/upcoming-events/antimicrobial2026",
+      "event_ids": [
+        "computational-antimicrobial-resistance-2026"
+      ]
+    },
+    {
+      "source": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/",
+      "event_ids": [
+        "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems"
+      ]
+    },
+    {
+      "source": "https://www.icmm.csic.es/en/noticias/celia-castillo-logra-una-erc-starting-grant-para-crear-una-nueva-generacion-de-vidrios-con",
+      "event_ids": [
+        "school-on-advanced-structural-analysis-in-mofs-and-cofs"
+      ]
+    },
+    {
+      "source": "https://www.icmm.csic.es/es/node/37130",
+      "event_ids": [
+        "school-on-advanced-structural-analysis-in-mofs-and-cofs"
+      ]
+    },
+    {
+      "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
+      "event_ids": [
+        "iccsiw-2026"
+      ]
+    },
+    {
+      "source": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
+      "event_ids": [
+        "chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning"
+      ]
+    },
+    {
+      "source": "https://www.rsc.org/getContentAsset/c2e08575-581a-45fd-9375-1307e0333e1d/f4c91d86-ac3e-4675-bdf3-f8325ded9710/Chem-Sci-speakers-v4.pdf?language=en",
+      "event_ids": [
+        "chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning"
+      ]
+    },
+    {
+      "source": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/",
+      "event_ids": [
+        "applications-of-artificial-intelligence-to-process-chemistry-scientific-update"
+      ]
+    }
+  ],
+  "user_decisions": [],
+  "validation": {
+    "npm_test": "passed: 116 Node + 54 Python tests",
+    "validate_catalog": "passed: 170 scheduled + 9 watchlist",
+    "hash_migration": "data/fingerprint-migration-2026-11-08.json",
+    "diff_check": "passed"
+  },
+  "publication_receipt": "publication-review-2026-11-08.json",
+  "continuation": "先处理未来30日截止与未解释冲突；Material welcome预览规则仍需保留事实的安全方案。其余从本文件及review-progress未完成项续接。"
+}

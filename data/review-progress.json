@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-08",
-  "remaining_count": 78,
-  "remaining_source_count": 73,
+  "remaining_count": 71,
+  "remaining_source_count": 67,
   "queue": [
     {
       "source": "https://www.esat2027.com/speakers/",
@@ -80,6 +80,18 @@
       ]
     },
     {
+      "source": "https://euromof2027.com/",
+      "event_id": "euromof2027",
+      "reason": "content_conflict",
+      "message": "registration availability: homepage open vs registration page SOON available",
+      "content_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "registration availability: homepage open vs registration page SOON available"
+      ]
+    },
+    {
       "source": "https://euromof2027.com/abstracts/",
       "event_id": "euromof2027",
       "reason": "content_conflict",
@@ -106,46 +118,25 @@
     {
       "source": "https://event.fourwaves.com/interpore2027",
       "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict.",
+      "reason": "content_conflict",
+      "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
       "content_hash": "99fc165e8940d9fd1d19780b5768fc3c4b2f1de80afc172ef04b6c3c6e8d8445",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
       ]
     },
     {
       "source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
       "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved.",
+      "reason": "content_conflict",
+      "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
       "content_hash": "e871262c126e35f44325734745081e9b0515f811780553d8bec6ee60475dd8ff",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
-      "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "fb601c987d8de173eeea2ad85c083cfc139c75b4f6d075f0894b4f1438c2e589",
-      "priority": 0,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
       ]
     },
     {
@@ -161,123 +152,54 @@
       ]
     },
     {
-      "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
-      "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e222c366cbe76ffb459aaf7f4313762a94a236aa528d3947533ab3254b9d29c8",
-      "priority": 0,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
       "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
-      "reason": "content_changed",
-      "message": "The KCL eStore gives 8 November 2026 as the last booking date while the TYC page gives 1 November 2026 as the registration deadline; no dated extension notice resolves this, so the registration milestone should be a conflict.",
+      "reason": "content_conflict",
+      "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified",
       "content_hash": "921881abbebd4581fe7136363a57aca70c5ed9d0f1be40e3ce2508b04b5d3901",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation",
+        "student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified"
       ]
     },
     {
       "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
       "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
-      "reason": "content_changed",
-      "message": "The TYC page's 1 November 2026 registration deadline conflicts with the KCL eStore's 8 November 2026 last booking date; the clock times 9:00 am / 5:00 pm are published without a time zone and were not recorded.",
+      "reason": "content_conflict",
+      "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished",
       "content_hash": "05b1b2b46ab3b159579353269f074416481597de635ab4adf1001cf26120afaf",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation",
+        "student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified",
+        "end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished"
+      ]
+    },
+    {
+      "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "reason": "content_conflict",
+      "message": "Programme/event page end clock differs; timezone not published.",
+      "content_hash": null,
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "end clock: programme 16:40 vs event page 17:00; timezone unpublished"
       ]
     },
     {
       "source": "https://www.materialsscienceconference.com/",
       "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "reason": "manual_review_partial",
+      "message": "Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence.",
       "content_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
       "priority": 1,
       "next_deadline": "2026-11-13",
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chemistryconferences.com/registration",
-      "event_id": "advanced-chemistry-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e20132a494c7fc3cd4c214267df172205f88746ff9e0fe487c999eba4a333683",
-      "priority": 1,
-      "next_deadline": "2026-11-18",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
-      "event_id": "agsaiml-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "a3c3548d8e70bc576f398803b167d050b70e357585adce24b5e741e03338c8a0",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.iswpm26.org/",
-      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "89738af5ec2242d7a555e9b5ebb360ca25cb5ad0986c85d244892aeabdbf2cc6",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.iswpm26.org/172246/author?version=latest",
-      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "76bf6dbf15b1877d1f07818862ae446aa074f18b2df685cc5ed2c2744341db94",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "dynamic welcome-message excerpt normalization: must preserve dates, times, roles and institutions"
       ]
     },
     {
@@ -391,21 +313,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "9d78be146c615ac8717c34fb3929575d20f8d247147d84270e94e62d2d9f7745",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
-      "event_id": "aichemy-annual-conference-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "13369f78a7409958544496c805b02e27a0ae578523a335f22d936e023fd1eadb",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -702,21 +609,6 @@
       ]
     },
     {
-      "source": "https://euromof2027.com/",
-      "event_id": "euromof2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://fems.org/fems-euromat-2027/",
       "event_id": "fems-euromat-2027",
       "reason": "content_changed",
@@ -842,21 +734,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "9703d111551c5c593a71bed78685a84629f697a8f15efa208c75d7f508cb38bd",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://euromof2027.com/",
-      "event_id": "mofschool2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1073,7 +950,7 @@
       "event_id": "tms2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e34b86c0e8e9cf500ab97db5c8c9157b7953af49e3bf0fa05f1316d347c77009",
+      "content_hash": "cc9941abda3dc923aadd43215fcb8e24320be444297fb63198e1a0b454db838e",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1457,13 +1334,13 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-07T09:05:50.590106+00:00",
-    "report": "data/heartbeat-review-2026-11-07.json",
-    "started": 81,
-    "new": 0,
-    "daily_new": 17,
+    "at": "2026-11-08T09:15:14.007165+00:00",
+    "report": "data/heartbeat-review-2026-11-08.json",
+    "started": 78,
+    "new": 1,
+    "daily_new": 6,
     "resolved": 8,
-    "partial": 4,
-    "remaining": 73
+    "partial": 6,
+    "remaining": 71
   }
 }

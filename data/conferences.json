@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-08T07:24:23Z",
-    "last_updated_at": "2026-11-07T08:59:04.820359+00:00",
+    "last_updated_at": "2026-11-08T09:10:03.998791+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1035,11 +1035,12 @@
       "region": "UK",
       "type": "Workshop / Discussion",
       "deadline": "Registration: conflicting official dates — 1 November 2026 (TYC page) vs 8 November 2026 last booking date (KCL eStore). No separate abstract call was identified.",
-      "status": "The TYC registration deadline (1 November 2026) has passed; the KCL eStore still lists 8 November 2026 as its last booking date, and student tickets there are no longer available.",
+      "status": "Registration deadline conflicts: TYC lists 1 November 2026; the KCL eStore lists 8 November 2026. The current runner sees a Book Event button for the £75 student ticket, but booking acceptance and remaining capacity are not confirmed.",
       "note": "Strong nearby option for electronic structure, machine learning, functional materials, biomaterials and future materials modelling. The community includes UCL, Imperial, KCL and QMUL. The official student fee is £75.",
       "sources": [
         "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
-        "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+        "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
       ],
       "url": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
       "priority": 1,
@@ -1047,9 +1048,9 @@
       "evidence": "The TYC website gives 14–15 December and the 1 November registration deadline; the KCL official store confirms the Great Hall, £75 student ticket and last booking date.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: The TYC page's 1 November 2026 registration deadline conflicts with the KCL eStore's 8 November 2026 last booking date; the clock times 9:00 am / 5:00 pm are published without a time zone and were not recorded. | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: The KCL eStore gives 8 November 2026 as the last booking date while the TYC page gives 1 November 2026 as the registration deadline; no dated extension notice resolves this, so the registration milestone should be a conflict."
+        "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified | https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf: Programme/event page end clock differs; timezone not published."
       },
       "milestones": [
         {
@@ -1120,12 +1121,18 @@
           {
             "name": "Jochen Blumberger",
             "role": "Organiser",
-            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/"
+            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+            "programme_role": "Roadmapping session chair",
+            "affiliation": "University College London",
+            "programme_source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           },
           {
             "name": "Hugh Burton",
             "role": "Organiser",
-            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/"
+            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+            "programme_role": "Electronic Structure session chair",
+            "affiliation": "University College London",
+            "programme_source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           },
           {
             "name": "Devis Di Tommaso",
@@ -1135,12 +1142,18 @@
           {
             "name": "Jarvist Frost",
             "role": "Organiser",
-            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/"
+            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+            "programme_role": "Functional Materials session co-chair",
+            "affiliation": "Imperial College London",
+            "programme_source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           },
           {
             "name": "Alex Ganose",
             "role": "Organiser",
-            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/"
+            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+            "programme_role": "Machine Learning session chair",
+            "affiliation": "Imperial College London",
+            "programme_source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           },
           {
             "name": "Ricardo Grau-Crespo",
@@ -1160,12 +1173,18 @@
           {
             "name": "Carla Molteni",
             "role": "Organiser",
-            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/"
+            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+            "programme_role": "Perspectives on Materials Modelling session chair",
+            "affiliation": "King’s College London",
+            "programme_source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           },
           {
             "name": "Edina Rosta",
             "role": "Organiser",
-            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/"
+            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+            "programme_role": "Biomaterials session chair",
+            "affiliation": "University College London",
+            "programme_source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           },
           {
             "name": "Alex Shluger",
@@ -1180,7 +1199,10 @@
           {
             "name": "Martijn Zwijnenburg",
             "role": "Organiser",
-            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/"
+            "source": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
+            "programme_role": "Functional Materials session co-chair",
+            "affiliation": "University College London",
+            "programme_source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           }
         ],
         "speakers": [
@@ -1243,15 +1265,82 @@
             "role": "Invited speaker",
             "affiliation": "University of Cambridge",
             "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Modesto Orozco",
+            "affiliation": "Institute for Research in Biomedicine Barcelona",
+            "role": "Invited speaker",
+            "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Dominique Hoogland",
+            "affiliation": "King’s College London",
+            "role": "Invited speaker",
+            "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Alessandro Troisi",
+            "affiliation": "University of Liverpool",
+            "role": "Invited speaker",
+            "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Laura Gagliardi",
+            "affiliation": "University of Chicago",
+            "role": "Invited speaker",
+            "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Michele Parrinello",
+            "affiliation": "Italian Institute of Technology",
+            "role": "Invited speaker",
+            "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Andrea Cavalli",
+            "affiliation": "CECAM",
+            "role": "Invited speaker",
+            "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Clotilde Cucinotta",
+            "affiliation": "University of Florida",
+            "role": "Invited speaker",
+            "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          },
+          {
+            "name": "Giovanna Tinetti",
+            "affiliation": "King’s College London",
+            "role": "Welcome address; Vice Dean for Research, Faculty of Natural, Mathematical and Engineering Sciences",
+            "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+          },
+          {
+            "name": "Mike Finnis",
+            "affiliation": "Imperial College London",
+            "role": "Historical Perspective speaker; Chair in Materials Theory and Simulation",
+            "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+          },
+          {
+            "name": "Rachel Crespo-Otero",
+            "affiliation": "University College London",
+            "role": "Scheduled speaker",
+            "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+          },
+          {
+            "name": "Gabor Csanyi",
+            "affiliation": "University of Cambridge",
+            "role": "Scheduled speaker",
+            "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-03",
+        "checked_on": "2026-11-08",
         "status": "published",
-        "note": "Organisers listed on the TYC20 event page; the talk programme is linked separately.",
+        "note": "Organisers listed on the TYC20 event page; the talk programme is linked separately. Official 6 November programme adds scheduled speakers and named session chairs. The eStore invited list and programme differ; no previously announced invited speaker has been removed on absence alone.",
         "sources": [
           "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/",
-          "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+          "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+          "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
         ]
       }
     },
@@ -3009,12 +3098,12 @@
       "url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
       "priority": 1,
       "verified_on": "2026-11-03",
-      "evidence": "",
+      "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-11-08T07:24:23Z",
+        "last_checked_at": "2026-11-08T09:12:36.881113+00:00",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522: Remote end closed connection without response | https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: IncompleteRead(15945 bytes read)"
+        "message": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: IncompleteRead(15945 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522: Remote end closed connection without response"
       },
       "milestones": [
         {
@@ -5191,8 +5280,8 @@
       "region": "Europe",
       "type": "Workshop / Discussion",
       "deadline": "An InterPore notice extended abstracts to 1 August 2026, now passed, but the conference site still says Abstract submission OPEN. Acceptance of late abstracts needs confirmation. Final registration deadline not verified.",
-      "status": "Not yet held; an abstract submission link remains, so submission closure is not asserted as certain.",
-      "note": "Organised by TU Delft; flow, deformation and multiscale wettability physics, relevant to porous-media simulation.",
+      "status": "Conference dates announced. Submission status remains uncertain; closure is not asserted. Registration availability is not confirmed.",
+      "note": "Organised by TU Delft; flow, deformation and multiscale wettability physics, relevant to porous-media simulation. The previous abstract-open banner has been removed from the current official homepage; the account-creation link remains, without evidence that late contributions are accepted.",
       "sources": [
         "https://www.iswpm26.org/",
         "https://www.iswpm26.org/172246/author?version=latest",
@@ -5200,13 +5289,13 @@
       ],
       "url": "https://www.iswpm26.org/",
       "priority": 2,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-08",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://www.iswpm26.org/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.iswpm26.org/172246/author?version=latest: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
+        "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -5241,7 +5330,7 @@
           "date": "2026-08-01",
           "time": null,
           "timezone": null,
-          "evidence": "An InterPore announcement gives this deadline; the conference site still offers Abstract submission OPEN. Late acceptance is unverified.",
+          "evidence": "An official InterPore announcement gives this past deadline. The former open banner was removed from the homepage by the 8 November runner snapshot; late acceptance remains unverified.",
           "id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26:abstract",
           "version": 1,
           "source": "https://interpore.org/event/7th-interpore-benelux-chapter-meeting",
@@ -8578,13 +8667,13 @@
       ],
       "url": "https://euromof2027.com/",
       "priority": 2,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-08",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://euromof2027.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
+        "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -8682,9 +8771,9 @@
       "evidence": "Official abstract page: “Abstract submission SOON available”; registration page: “Registration SOON available”, while homepage still says open. Deadlines remain 1 February, 5 April and 3 July 2027; no cutoff time or timezone verified. Browser review 7 November 2026; latest runner cannot read these sources.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
         "last_verified_at": "2026-11-05T07:56:44Z",
-        "message": "https://euromof2027.com/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://euromof2027.com/abstracts/: submission availability: SOON available heading vs submission portal link; Submission platform status is no longer recognised; verify it before changing the status. | https://euromof2027.com/registration/: registration availability: homepage open vs registration page SOON available"
+        "message": "https://euromof2027.com/: registration availability: homepage open vs registration page SOON available | https://euromof2027.com/abstracts/: submission availability: SOON available heading vs submission portal link; Submission platform status is no longer recognised; verify it before changing the status. | https://euromof2027.com/registration/: registration availability: homepage open vs registration page SOON available"
       },
       "milestones": [
         {
@@ -13407,9 +13496,9 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://event.fourwaves.com/interpore2027: The platform homepage gives the submission period end as January 12, 2027 4:00 AM -03 while the Important Dates page says Monday 11 January 2027; no official notice reconciles the two, so the abstract milestone stays in conflict. | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: Important Dates still says 11 January 2027 while the submission platform says 12 January 2027 (04:00 -03); the conflict is unresolved. | https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
+        "message": "https://event.fourwaves.com/interpore2027: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/submission: The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -13579,11 +13668,54 @@
             "role": "MS03 organiser-list member; individual lead/co-organiser designation not stated",
             "affiliation": "National Laboratory for Scientific Computing (LNCC), Brazil",
             "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Valentina Ciriello",
+            "affiliation": "University of Bologna, Italy",
+            "role": "MS19 organiser-list member; individual lead/co-organiser designation not stated",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Alberto Guadagnini",
+            "affiliation": "Politecnico di Milano, Italy",
+            "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Philippe Renard",
+            "affiliation": "Université de Neuchâtel, Switzerland",
+            "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Benoit Noetinger",
+            "affiliation": "IFP Energies nouvelles, France",
+            "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Tissa Illangasekare",
+            "affiliation": "Colorado School of Mines, USA",
+            "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
           }
         ],
-        "speakers": [],
+        "speakers": [
+          {
+            "name": "Luka Tas",
+            "affiliation": "Ghent University, Belgium",
+            "role": "MS19 solicited speaker",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Su Jiang",
+            "affiliation": "Carnegie Mellon University, USA",
+            "role": "MS19 solicited speaker",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          }
+        ],
         "participants": [],
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-08",
         "status": "published",
         "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources. Three additions in the MS27 organiser block were recorded from runner text on 4 November 2026; no individual lead designation is inferred. Six MS03 organiser-list additions recorded from runner text on 5 November 2026; no individual lead designation is inferred.",
         "sources": [
@@ -22991,13 +23123,13 @@
       ],
       "url": "https://vividglobalsummits.com/2027/artificial-intelligence",
       "priority": 2,
-      "verified_on": "2026-11-04",
+      "verified_on": "2026-11-08",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
-        "last_verified_at": "2026-11-04T09:03:33+00:00",
-        "message": "https://vividglobalsummits.com/2027/artificial-intelligence: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
+        "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -23081,10 +23213,16 @@
             "role": "Plenary speaker listed by the organizer",
             "affiliation": "University of Florida, USA",
             "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+          },
+          {
+            "name": "Ramesh Sharma",
+            "affiliation": "Dr. B. R. Ambedkar University, India",
+            "role": "Keynote speaker listed by the organizer",
+            "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-04",
+        "checked_on": "2026-11-08",
         "status": "published",
         "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted. The runner-text change on 4 November 2026 adds Boris Goldengorin under Plenary Speakers; the listed affiliation is an organizer claim, not independent institutional confirmation.",
         "sources": [
@@ -24596,9 +24734,9 @@
       "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
         "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
-        "message": "https://www.materialsscienceconference.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://www.materialsscienceconference.com/: Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence."
       },
       "milestones": [
         {
@@ -24737,13 +24875,13 @@
       ],
       "url": "https://www.chemistryconferences.com/",
       "priority": 1,
-      "verified_on": "2026-11-05",
+      "verified_on": "2026-11-08",
       "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-08T07:24:23Z",
-        "last_verified_at": "2026-11-05T09:40:38.716197+00:00",
-        "message": "https://www.chemistryconferences.com/registration: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-08T09:10:03.998791+00:00",
+        "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -26448,6 +26586,185 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "event_name": "TYC20 — Celebration of the Thomas Young Centre at 20",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "field": "status",
+      "previous": "The TYC registration deadline (1 November 2026) has passed; the KCL eStore still lists 8 November 2026 as its last booking date, and student tickets there are no longer available.",
+      "value": "Registration deadline conflicts: TYC lists 1 November 2026; the KCL eStore lists 8 November 2026. The current runner sees a Book Event button for the £75 student ticket, but booking acceptance and remaining capacity are not confirmed.",
+      "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "evidence": "Current runner says “Book Event”; absence of “Fully Booked” does not prove available places."
+    },
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "event_name": "TYC20 — Celebration of the Thomas Young Centre at 20",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "field": "people.speakers",
+      "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf",
+      "added": [
+        {
+          "name": "Giovanna Tinetti",
+          "affiliation": "King’s College London",
+          "role": "Welcome address; Vice Dean for Research, Faculty of Natural, Mathematical and Engineering Sciences",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        },
+        {
+          "name": "Mike Finnis",
+          "affiliation": "Imperial College London",
+          "role": "Historical Perspective speaker; Chair in Materials Theory and Simulation",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        },
+        {
+          "name": "Rachel Crespo-Otero",
+          "affiliation": "University College London",
+          "role": "Scheduled speaker",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        },
+        {
+          "name": "Gabor Csanyi",
+          "affiliation": "University of Cambridge",
+          "role": "Scheduled speaker",
+          "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "event_name": "TYC20 — Celebration of the Thomas Young Centre at 20",
+      "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
+      "field": "people.speakers",
+      "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "added": [
+        {
+          "name": "Modesto Orozco",
+          "affiliation": "Institute for Research in Biomedicine Barcelona",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Dominique Hoogland",
+          "affiliation": "King’s College London",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Alessandro Troisi",
+          "affiliation": "University of Liverpool",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Laura Gagliardi",
+          "affiliation": "University of Chicago",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Michele Parrinello",
+          "affiliation": "Italian Institute of Technology",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Andrea Cavalli",
+          "affiliation": "CECAM",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        },
+        {
+          "name": "Clotilde Cucinotta",
+          "affiliation": "University of Florida",
+          "role": "Invited speaker",
+          "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "event_name": "17th International Symposium on Wettability and Porous Media / 7th InterPore BeNeLux Meeting (ISWPM26)",
+      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
+      "field": "status",
+      "previous": "Not yet held; an abstract submission link remains, so submission closure is not asserted as certain.",
+      "value": "Conference dates announced. Submission status remains uncertain; closure is not asserted. Registration availability is not confirmed.",
+      "source": "https://www.iswpm26.org/",
+      "evidence": "The previously monitored “Abstract submission OPEN” banner is absent; no official closure statement was added."
+    },
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.speakers",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": [
+        {
+          "name": "Luka Tas",
+          "affiliation": "Ghent University, Belgium",
+          "role": "MS19 solicited speaker",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Su Jiang",
+          "affiliation": "Carnegie Mellon University, USA",
+          "role": "MS19 solicited speaker",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": [
+        {
+          "name": "Valentina Ciriello",
+          "affiliation": "University of Bologna, Italy",
+          "role": "MS19 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Alberto Guadagnini",
+          "affiliation": "Politecnico di Milano, Italy",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Philippe Renard",
+          "affiliation": "Université de Neuchâtel, Switzerland",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Benoit Noetinger",
+          "affiliation": "IFP Energies nouvelles, France",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        },
+        {
+          "name": "Tissa Illangasekare",
+          "affiliation": "Colorado School of Mines, USA",
+          "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-08T09:10:03.998791+00:00",
+      "event_name": "AGSAIML 2027 — Annual Global Summit on Artificial Intelligence and Machine Learning",
+      "event_id": "agsaiml-2027",
+      "field": "people.speakers",
+      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "added": [
+        {
+          "name": "Ramesh Sharma",
+          "affiliation": "Dr. B. R. Ambedkar University, India",
+          "role": "Keynote speaker listed by the organizer",
+          "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+        }
+      ]
+    },
     {
       "at": "2026-11-07T09:03:06.441606+00:00",
       "event_id": "euromof2027",
