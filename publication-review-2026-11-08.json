@@ -1,0 +1,61 @@
+{
+  "verified_at": "2026-11-08T09:17:13.718479+00:00",
+  "published_commit": "938367090bd65171ebd71d2289b3dc1cf7d72f82",
+  "workflow_run": 42466463496,
+  "workflow_url": "https://github.com/vickie02736/conference-reminder/actions/runs/42466463496",
+  "workflow_conclusion": "success",
+  "site_url": "https://vickie02736.github.io/conference-reminder/",
+  "home_status": 200,
+  "files": [
+    {
+      "path": "data/conferences.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/conferences.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "b8286d66719500d691ed7d3bda7a7f8f8367c7eb468c1256daeba63e578c4dfe",
+      "bytes": 1214022
+    },
+    {
+      "path": "data/source-checks.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/source-checks.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "8e1593d0d28a05076d9f63d92c1dfca6587b63427c1fb17cdcd0ad79de2d90d1",
+      "bytes": 454858
+    },
+    {
+      "path": "data/review-progress.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/review-progress.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "8181eb1ddeaf00e1da321e15786937a540b9a12b1cb12faf26be8714a9a8619a",
+      "bytes": 54712
+    },
+    {
+      "path": "data/heartbeat-review-2026-11-08.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/heartbeat-review-2026-11-08.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "1ae63677aa9e4627c13c644ec1c2a41c5f25e0447c5751832cddf06839444b82",
+      "bytes": 188912
+    },
+    {
+      "path": "data/fingerprint-migration-2026-11-08.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/fingerprint-migration-2026-11-08.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "af64244277ce2358d64dfea20bbefa0921c9a3a5381f36b62395381f28cbf221",
+      "bytes": 2711
+    }
+  ],
+  "tests": {
+    "npm_test": "116 Node + 54 Python tests passed",
+    "validate_catalog": "170 scheduled + 9 watchlist entries valid",
+    "git_diff_check": "passed"
+  },
+  "notes": [
+    "push只测试发布，来源抓取和发现步骤均跳过，未重复每日来源检查。",
+    "线上5个JSON均HTTP200且与已发布提交逐字节一致。",
+    "根目录发布回执提交不触发再次网站构建。"
+  ]
+}
