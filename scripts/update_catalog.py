@@ -116,6 +116,9 @@ VOLATILE_TEXT = (
     r"\b\d[\d,.]*[km]?\s+(?=like comment share copy linkedin facebook x\b)",
     r"\b\d+(?:mo|yr|w|d|h)\s+(?=report this post\b)",
     r"\b[a-z0-9_-]{40,}={0,2}\.html\b",
+    # ISWPM's structured-data URL accumulates encoded JSON closing tokens.
+    # Ignore only this observed suffix, never arbitrary query parameters.
+    r"(?<=https://www\.iswpm26\.org/172246)\?version=latest(?:(?:%22|%7d|%5d|%2c))*(?=\s|$)",
     # These compiled patterns need line boundaries, before whitespace folding.
     # Peers Alley track cards randomly sample SEO tags, not event facts. Stop
     # at the first non-tag line so deadlines, people and capacities stay visible.
@@ -138,6 +141,16 @@ UNVERIFIABLE_HINTS = (
 
 
 def fingerprint(text):
+    # The three independent Peers Alley ticket cards rotate in the runner.
+    # Canonicalise their order while retaining every label, price and deadline.
+    if "BOOK YOUR SEAT\n" in text and "FEE FOR OTHERS\n" in text:
+        card = r"(?:E-POSTER|POSTER|ONE DAY REGISTRATION)\n(?:(?!\nPAY NOW\n).)*?\nPAY NOW\n"
+        group = re.compile(r"(?m)^(?:" + card + r"){3}", re.S)
+        def ordered_cards(match):
+            cards = re.findall(card, match.group(), flags=re.S)
+            labels = {block.splitlines()[0] for block in cards}
+            return "".join(sorted(cards)) if labels == {"E-POSTER", "POSTER", "ONE DAY REGISTRATION"} else match.group()
+        text = group.sub(ordered_cards, text)
     # Restrict these multiline widget rules to the publisher whose runner
     # snapshots demonstrate random sampling. Other sites' Tags remain monitored.
     if "peers alley media" in text.casefold():

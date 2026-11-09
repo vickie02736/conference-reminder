@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-09T09:05:11.846361+00:00",
+  "rules": [
+    "iswpm_encoded_structured_url_suffix",
+    "independent_ticket_card_order_without_removing_facts"
+  ],
+  "sources": [
+    {
+      "source": "https://www.chemistryconferences.com/registration",
+      "review_run": 42582737047,
+      "comparison_run": 42458558175,
+      "artifact_file": "ee8c248d6788b15c.txt",
+      "runner_hash": "8f90be7d6525de3b21c832f0029b98df80d82ca70f5d95fe1e7e12a30076dcbe",
+      "normalized_hash": "1fa9b2a39d8f5978989f47bc263d581d45c2ee532338f405148f701455385f38",
+      "text_sha256": "8545a2105c6cbbb1c9a3414ab573e1fb2f5e4093972b72551fdc51964b1193e4",
+      "comparison_text_sha256": "061e63042b5c80ef23369268ca42d589ac681a0e5dd8dd945f8ff4ce4808c6c4"
+    },
+    {
+      "source": "https://www.iswpm26.org/",
+      "review_run": 42582737047,
+      "comparison_run": 42458558175,
+      "artifact_file": "2591a29a9572a902.txt",
+      "runner_hash": "c0de06a361652def18a2f53c0380fc9e2ee711f553de83192e993b785ca50bb4",
+      "normalized_hash": "89738af5ec2242d7a555e9b5ebb360ca25cb5ad0986c85d244892aeabdbf2cc6",
+      "text_sha256": "0019b8c263cde17ea75dcefb54cb41e49ee36c0f8b65acb0802aa64d3d4b3daa",
+      "comparison_text_sha256": "31e90d3a1547d6cfd6efbfc5e72cf87f8122c1165e880b87cdccf0e9954ad712"
+    },
+    {
+      "source": "https://www.iswpm26.org/172246/author?version=latest",
+      "review_run": 42582737047,
+      "comparison_run": 42458558175,
+      "artifact_file": "38a66e14e1cbc8d0.txt",
+      "runner_hash": "4fbccfe207af5d03392abe5d4795dd90e59ca9e9f519b3597a5c1f366ce3caf3",
+      "normalized_hash": "4ecc319b994d538bb2616b34c77ec2a4130da8a96cfef310dd58f665d6cf477d",
+      "text_sha256": "3b59f3c725d6a7ddec33ec510c000bda0881edcc6ad1fb65d99543f1aa3eca16",
+      "comparison_text_sha256": "2c58d4282b6fb34a9e8c862a161a98a9006046602b36ea5ad5050ced75bcb38d"
+    }
+  ]
+}

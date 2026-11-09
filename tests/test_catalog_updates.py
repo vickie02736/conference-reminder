@@ -80,6 +80,31 @@ class SourceUpdateTests(unittest.TestCase):
                     updated, _, _ = self.merge(row, {url: second}, state=state)
                     self.assertEqual(updated["events"][0]["check"]["status"], "checked")
 
+    def test_runner_ticket_order_and_encoded_url_suffix_keep_facts(self):
+        runs = json.loads((FIXTURES / "runner-ticket-order-and-json-suffix.json").read_text())["runs"]
+        for url, before in runs["42458558175"].items():
+            after = runs["42582737047"][url]
+            with self.subTest(url=url):
+                self.assertNotEqual(before, after)
+                self.assertEqual(fingerprint(before), fingerprint(after))
+        fee = runs["42582737047"]["https://www.chemistryconferences.com/registration"]
+        for old, new in (("18 Nov, 2026", "19 Nov, 2026"), ("$150", "$151"),
+                         ("E-POSTER", "E-POSTER CANCELLED")):
+            with self.subTest(field=old):
+                self.assertNotEqual(fingerprint(fee), fingerprint(fee.replace(old, new)))
+        facts = "Deadline 30 November 2026 17:00 GMT; Chair Jane Smith, TU Delft; 15 seats.\n"
+        page = runs["42582737047"]["https://www.iswpm26.org/"]
+        for old, new in (("30 November", "29 November"), ("17:00", "18:00"),
+                         ("GMT", "CET"), ("Jane Smith", "John Smith"),
+                         ("Chair", "Speaker"), ("TU Delft", "TU Wien"), ("15 seats", "14 seats")):
+            with self.subTest(field=old):
+                self.assertNotEqual(fingerprint(facts + page), fingerprint(facts.replace(old, new) + page))
+        base = "https://www.iswpm26.org/172246"
+        self.assertNotEqual(fingerprint(base), fingerprint(base + "?version=latest&deadline=2027"))
+        self.assertNotEqual(fingerprint(base), fingerprint(base + "?version=old"))
+        self.assertNotEqual(fingerprint("https://example.org/172246"),
+                            fingerprint("https://example.org/172246?version=latest"))
+
     def test_linkedin_runner_counts_do_not_hide_facts(self):
         runs = json.loads((FIXTURES / "linkedin-runner-counters.json").read_text())["runs"]
         before = runs["41792669115"]["text"]

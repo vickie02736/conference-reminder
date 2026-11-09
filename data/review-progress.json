@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
-  "remaining_count": 78,
-  "remaining_source_count": 74,
+  "remaining_count": 69,
+  "remaining_source_count": 65,
   "queue": [
     {
       "source": "https://www.esat2027.com/speakers/",
@@ -26,6 +26,18 @@
       "remaining_fields": [
         "accommodation nights: PSDI 4 vs about 5",
         "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
+      ]
+    },
+    {
+      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
+      "reason": "content_conflict",
+      "message": "speaker confirmation: Wide Hogenhout in confirmed list vs preliminary Dr Wide slot to be confirmed",
+      "content_hash": "e579066b34c63c596b9fd16f18817bfcbb546e17eb711216fe7bb62c2e9875a4",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "speaker confirmation: Wide Hogenhout in confirmed list vs preliminary Dr Wide slot to be confirmed"
       ]
     },
     {
@@ -118,31 +130,25 @@
     {
       "source": "https://www.icfmce.org/Chinese.html",
       "event_id": "icfmce-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "reason": "content_conflict",
+      "message": "registration deadline: important-dates 2027-07-11 vs regular-fee window through 2027-09-23",
       "content_hash": "f72310cbda167757cb808492ac791734ba4244df76dec45255c810e23fb8a566",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "registration deadline: important-dates 2027-07-11 vs regular-fee window through 2027-09-23"
       ]
     },
     {
       "source": "https://event.fourwaves.com/interpore2027",
       "event_id": "interpore2027",
-      "reason": "content_changed",
+      "reason": "content_conflict",
       "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
       "content_hash": "4b1b075f6e8a0a8960c35c6e4be78d1029da6bb0680d83615b4ae058e413767b",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
       ]
     },
     {
@@ -199,8 +205,8 @@
     {
       "source": "https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf",
       "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
-      "reason": "content_changed",
-      "message": "Programme/event page end clock differs; timezone not published.",
+      "reason": "content_conflict",
+      "message": "end clock: programme 16:40 vs event page 17:00; timezone unpublished",
       "content_hash": "123476e300b3c67ac8e7b10b0508f9778ea69c6fe378199dc932b4531f9ff1fa",
       "priority": 0,
       "next_deadline": null,
@@ -218,141 +224,6 @@
       "next_deadline": "2026-11-13",
       "remaining_fields": [
         "dynamic welcome-message excerpt normalization: must preserve dates, times, roles and institutions"
-      ]
-    },
-    {
-      "source": "https://rscfirst.org.cn/",
-      "event_id": "rsc-first-2026-ai-in-chemistry",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "57a16b05a340bc9c24da98e6e5a727007bf8509168d7e348ce1048d586de8dba",
-      "priority": 1,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chemistryconferences.com/registration",
-      "event_id": "advanced-chemistry-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "8f90be7d6525de3b21c832f0029b98df80d82ca70f5d95fe1e7e12a30076dcbe",
-      "priority": 1,
-      "next_deadline": "2026-11-18",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.iswpm26.org/",
-      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "c0de06a361652def18a2f53c0380fc9e2ee711f553de83192e993b785ca50bb4",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.iswpm26.org/172246/author?version=latest",
-      "event_id": "17th-international-symposium-on-wettability-and-porous-media-7th-interpore-benelux-meeting-iswpm26",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "4fbccfe207af5d03392abe5d4795dd90e59ca9e9f519b3597a5c1f366ce3caf3",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
-      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e579066b34c63c596b9fd16f18817bfcbb546e17eb711216fe7bb62c2e9875a4",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://aaai.org/conference/aaai/aaai-27/",
-      "event_id": "aaai-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "8bbb219a51f23a1d4dedaccd6325b19ca1e3d3560a4cadbe773982be55c320a5",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://aaai.org/conference/aaai/aaai-27/conference-organizers-2/",
-      "event_id": "aaai-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "05885b21416446aca20a129ae88409589305dd18cd8337acb0c62a5db92fadea",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://ai4am.net/2027/index.php",
-      "event_id": "ai4am-2027-ai-for-advanced-materials",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "397ba69a7309c20344a6542bc16f53fc42bec790afc70debdbb2698ac757e55c",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.ai4am.net/2027/speakers.php",
-      "event_id": "ai4am-2027-ai-for-advanced-materials",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "bd14bfc3d8f76bc29bb8903985220fbddae423365f68f407b1ae322a0fc129d2",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -579,21 +450,6 @@
         "times",
         "timezones",
         "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://cecamsimul.eu/events/events-2026",
-      "event_id": "cecam-esi-simulation-scales-2027",
-      "reason": "content_changed",
-      "message": "The CECAM-IT-SIMUL page still returns 403 to every client (fetcher, Chrome, WebFetch, curl); the 23 August–3 September 2027 dates are only visible in a search-engine snapshot, which is weaker than the live organiser page, so the provisional status must remain.",
-      "content_hash": "e4c4bf55176fd3c171ef6024af467820d31be1dc891209c332553566ab673358",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "start/end",
-        "registration",
-        "location/venue",
-        "people: organisers"
       ]
     },
     {
@@ -1468,13 +1324,13 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-08T09:15:14.007165+00:00",
-    "report": "data/heartbeat-review-2026-11-08.json",
+    "at": "2026-11-09T09:07:55.369700+00:00",
+    "report": "data/heartbeat-review-2026-11-09.json",
     "started": 78,
-    "new": 1,
-    "daily_new": 6,
-    "resolved": 8,
-    "partial": 6,
-    "remaining": 71
+    "new": 0,
+    "daily_new": 7,
+    "resolved": 9,
+    "partial": 4,
+    "remaining": 69
   }
 }

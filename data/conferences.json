@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-09T08:00:47Z",
-    "last_updated_at": "2026-11-08T09:10:03.998791+00:00",
+    "last_updated_at": "2026-11-09T09:05:11.846361+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1048,9 +1048,9 @@
       "evidence": "The TYC website gives 14–15 December and the 1 November registration deadline; the KCL official store confirms the Great Hall, £75 student ticket and last booking date.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished | https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf: Programme/event page end clock differs; timezone not published. | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: HTTP Error 404: Not Found"
+        "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified | https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf: end clock: programme 16:40 vs event page 17:00; timezone unpublished | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: HTTP Error 404: Not Found"
       },
       "milestones": [
         {
@@ -5289,13 +5289,13 @@
       ],
       "url": "https://www.iswpm26.org/",
       "priority": 2,
-      "verified_on": "2026-11-08",
+      "verified_on": "2026-11-09",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
-        "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
-        "message": "https://www.iswpm26.org/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.iswpm26.org/172246/author?version=latest: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
+        "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -6263,9 +6263,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://fems.org/industry-symposium-frankfurt-14-january-2027/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://fems.org/industry-symposium-frankfurt-14-january-2027/: speaker confirmation: Wide Hogenhout in confirmed list vs preliminary Dr Wide slot to be confirmed"
       },
       "milestones": [
         {
@@ -6415,6 +6415,12 @@
             "role": "Announced speaker",
             "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
             "affiliation": "University of Aveiro"
+          },
+          {
+            "name": "Wide Hogenhout",
+            "affiliation": "European Commission, DG Research and Innovation",
+            "role": "Listed speaker; preliminary introductory slot is marked to be confirmed",
+            "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/"
           }
         ],
         "participants": [
@@ -6425,9 +6431,9 @@
             "affiliation": "France"
           }
         ],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-09",
         "status": "published",
-        "note": "The programme is preliminary. Wide Hogenhout is omitted because the speaker list and programme disagree on confirmation.",
+        "note": "The programme is preliminary. Wide Hogenhout is recorded as listed, with confirmation unresolved: the speaker list says confirmed while the preliminary introductory slot says Dr Wide (to be confirmed).",
         "sources": [
           "https://fems.org/industry-symposium-frankfurt-14-january-2027/"
         ]
@@ -9930,13 +9936,13 @@
       ],
       "url": "https://ai4am.net/2027/index.php",
       "priority": 1,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-09",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://ai4am.net/2027/index.php: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.ai4am.net/2027/speakers.php: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
+        "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -10144,13 +10150,25 @@
           },
           {
             "name": "Eunah Kim",
-            "role": "Announced speaker",
-            "source": "https://ai4am.net/2027/index.php",
+            "role": "Invited parallel-workshop speaker — W4",
+            "source": "https://www.ai4am.net/2027/speakers.php",
             "affiliation": "Cornell University"
+          },
+          {
+            "name": "Juan Carrasquilla Alvarez",
+            "affiliation": "ETH Zürich",
+            "role": "Invited parallel-workshop speaker — W4",
+            "source": "https://www.ai4am.net/2027/speakers.php"
+          },
+          {
+            "name": "Aditi S Krishnapriyan",
+            "affiliation": "University of California Berkeley",
+            "role": "Invited parallel-workshop speaker — W1",
+            "source": "https://www.ai4am.net/2027/speakers.php"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-03",
+        "checked_on": "2026-11-09",
         "status": "published",
         "note": "Selected committee members and speakers published on the 2027 pages. AI4AM runs alongside QUANTUMatter as QuAI2027 and shares some summit activities; the complete parallel-workshop and industrial-forum rosters are at the source.",
         "sources": [
@@ -11000,13 +11018,13 @@
       ],
       "url": "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry",
       "priority": 2,
-      "verified_on": "2026-11-08",
+      "verified_on": "2026-11-09",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
-        "last_verified_at": "2026-11-08T07:24:23Z",
-        "message": "https://rscfirst.org.cn/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
+        "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -12317,13 +12335,13 @@
       ],
       "url": "https://aaai.org/conference/aaai/aaai-27/",
       "priority": 2,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-09",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://aaai.org/conference/aaai/aaai-27/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aaai.org/conference/aaai/aaai-27/conference-organizers-2/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
+        "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -13496,9 +13514,9 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://event.fourwaves.com/interpore2027: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
+        "message": "https://event.fourwaves.com/interpore2027: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/submission: The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -22128,9 +22146,9 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
         "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://www.icfmce.org/Chinese.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://www.icfmce.org/Chinese.html: registration deadline: important-dates 2027-07-11 vs regular-fee window through 2027-09-23"
       },
       "milestones": [
         {
@@ -24875,13 +24893,13 @@
       ],
       "url": "https://www.chemistryconferences.com/",
       "priority": 1,
-      "verified_on": "2026-11-08",
+      "verified_on": "2026-11-09",
       "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
-        "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
-        "message": "https://www.chemistryconferences.com/registration: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
+        "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -25754,6 +25772,111 @@
         "note": ""
       },
       "date": "2027-05-23 — 2027-05-28"
+    },
+    {
+      "id": "cecam-esi-simulation-scales-2027",
+      "name": "CECAM–ESI School — Computer Simulation Across the Scales 2027",
+      "tags": [
+        "Simulation",
+        "Molecular Dynamics",
+        "Multiscale Modelling",
+        "Machine Learning"
+      ],
+      "start": "2027-08-23",
+      "end": "2027-09-03",
+      "date": "2027-08-23 — 2027-09-03",
+      "location": "Vienna, Austria — venue details awaiting confirmation",
+      "region": "Europe",
+      "type": "School / Training",
+      "deadline": "Registration deadline: not confirmed.",
+      "status": "2027 school dates confirmed by the official organiser page; registration not yet open.",
+      "note": "The live CECAM-IT-SIMUL page explicitly identifies the school as a 2027 event despite its 2026 URL. It lists 23 August–3 September 2027 in Wien, Austria; detailed venue and registration dates are not published. The daily runner remains blocked; live content verification does not establish stable automatic recovery.",
+      "sources": [
+        "https://cecamsimul.eu/events/events-2026"
+      ],
+      "url": "https://cecamsimul.eu/events/events-2026",
+      "priority": 1,
+      "verified_on": "2026-11-09",
+      "evidence": "Official live page: “PLEASE NOTE THIS EVENT IS SCHEDULED FOR 2027 not 2026”; “23.08.2027 - 03.09.2027”; “Wien, Austria”.",
+      "check": {
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-09T09:05:11.846361+00:00",
+        "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
+        "message": "https://cecamsimul.eu/events/events-2026: HTTP Error 403: Forbidden"
+      },
+      "milestones": [
+        {
+          "id": "cecam-esi-simulation-scales-2027:conference-start",
+          "kind": "conference_start",
+          "label": "School starts",
+          "date": "2027-08-23",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://cecamsimul.eu/events/events-2026",
+          "evidence": "Official live page: “PLEASE NOTE THIS EVENT IS SCHEDULED FOR 2027 not 2026”; “23.08.2027 - 03.09.2027”; “Wien, Austria”."
+        },
+        {
+          "id": "cecam-esi-simulation-scales-2027:conference-end",
+          "kind": "conference_end",
+          "label": "School ends",
+          "date": "2027-09-03",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://cecamsimul.eu/events/events-2026",
+          "evidence": "Official live page: “PLEASE NOTE THIS EVENT IS SCHEDULED FOR 2027 not 2026”; “23.08.2027 - 03.09.2027”; “Wien, Austria”."
+        },
+        {
+          "id": "cecam-esi-simulation-scales-2027:registration",
+          "kind": "registration",
+          "label": "Registration deadline",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "precision": "unknown",
+          "status": "unknown",
+          "version": 1,
+          "source": "https://cecamsimul.eu/events/events-2026",
+          "evidence": "No verified deadline is published on the reviewed official page."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Carlo M. Casciola",
+            "affiliation": "Sapienza University of Rome",
+            "role": "School organiser",
+            "source": "https://cecamsimul.eu/events/events-2026"
+          },
+          {
+            "name": "Giovanni Ciccotti",
+            "affiliation": "Sapienza University of Rome",
+            "role": "School organiser",
+            "source": "https://cecamsimul.eu/events/events-2026"
+          },
+          {
+            "name": "Christoph Dellago",
+            "affiliation": "Vienna University",
+            "role": "School organiser",
+            "source": "https://cecamsimul.eu/events/events-2026"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-09",
+        "status": "published",
+        "note": "Named organisers on the official live CECAM-IT-SIMUL page. Speakers and detailed venue are not yet listed.",
+        "sources": [
+          "https://cecamsimul.eu/events/events-2026"
+        ]
+      },
+      "reminders_paused": false
     }
   ],
   "watchlist": [
@@ -26407,93 +26530,6 @@
       "reminders_pause_reason": "8 December 2026 is referenced by TYC, but the hackathon’s own announcement and participation details need confirmation."
     },
     {
-      "id": "cecam-esi-simulation-scales-2027",
-      "name": "CECAM–ESI School — Computer Simulation Across the Scales 2027",
-      "tags": [
-        "Simulation",
-        "Molecular Dynamics",
-        "Multiscale Modelling",
-        "Machine Learning"
-      ],
-      "start": null,
-      "end": null,
-      "date": "Dates awaiting confirmation",
-      "location": "Vienna, Austria — venue details awaiting confirmation",
-      "region": "Europe",
-      "type": "School / Training",
-      "deadline": "Registration deadline: not confirmed.",
-      "status": "2027 school announced; registration not yet open; dates require live confirmation.",
-      "note": "CECAM-IT-SIMUL explicitly lists this as a 2027 school, despite placing it on its 2026 events page. Indexed dates are 23 August–3 September 2027, with registration to open later. Direct retrieval is blocked, so keep it pending. Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional.",
-      "sources": [
-        "https://cecamsimul.eu/events/events-2026"
-      ],
-      "url": "https://cecamsimul.eu/events/events-2026",
-      "priority": 1,
-      "verified_on": "2026-11-02",
-      "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
-      "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-09T08:00:47Z",
-        "last_verified_at": null,
-        "message": "Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional. | https://cecamsimul.eu/events/events-2026: HTTP Error 403: Forbidden"
-      },
-      "milestones": [
-        {
-          "id": "cecam-esi-simulation-scales-2027:conference-start",
-          "kind": "conference_start",
-          "label": "Conference start awaiting confirmation",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "precision": "unknown",
-          "status": "unknown",
-          "version": 1,
-          "source": "https://cecamsimul.eu/events/events-2026",
-          "evidence": "No verified deadline is published on the reviewed official page."
-        },
-        {
-          "id": "cecam-esi-simulation-scales-2027:conference-end",
-          "kind": "conference_end",
-          "label": "Conference end awaiting confirmation",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "precision": "unknown",
-          "status": "unknown",
-          "version": 1,
-          "source": "https://cecamsimul.eu/events/events-2026",
-          "evidence": "No verified deadline is published on the reviewed official page."
-        },
-        {
-          "id": "cecam-esi-simulation-scales-2027:registration",
-          "kind": "registration",
-          "label": "Registration deadline",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "precision": "unknown",
-          "status": "unknown",
-          "version": 1,
-          "source": "https://cecamsimul.eu/events/events-2026",
-          "evidence": "No verified deadline is published on the reviewed official page."
-        }
-      ],
-      "people": {
-        "organizers": [],
-        "committee": [],
-        "speakers": [],
-        "participants": [],
-        "checked_on": "2026-11-02",
-        "status": "unavailable",
-        "note": "No individual roster was captured in this review; consult the official programme for subsequent announcements.",
-        "sources": [
-          "https://cecamsimul.eu/events/events-2026"
-        ]
-      },
-      "reminders_paused": true,
-      "reminders_pause_reason": "Live CECAM-IT-SIMUL access returned 403; the indexed 23 August–3 September 2027 dates are provisional."
-    },
-    {
       "priority": 2,
       "verified_on": "2026-11-04",
       "evidence": "",
@@ -26586,6 +26622,106 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-09T09:05:11.846361+00:00",
+      "event_name": "CECAM–ESI School — Computer Simulation Across the Scales 2027",
+      "event_id": "cecam-esi-simulation-scales-2027",
+      "field": "confirmed_dates_and_status",
+      "previous": {
+        "start": null,
+        "end": null,
+        "status": "2027 school announced; registration not yet open; dates require live confirmation."
+      },
+      "value": {
+        "start": "2027-08-23",
+        "end": "2027-09-03",
+        "status": "2027 school dates confirmed by the official organiser page; registration not yet open."
+      },
+      "source": "https://cecamsimul.eu/events/events-2026",
+      "evidence": "Official live page: “PLEASE NOTE THIS EVENT IS SCHEDULED FOR 2027 not 2026”; “23.08.2027 - 03.09.2027”; “Wien, Austria”."
+    },
+    {
+      "at": "2026-11-09T09:05:11.846361+00:00",
+      "event_name": "CECAM–ESI School — Computer Simulation Across the Scales 2027",
+      "event_id": "cecam-esi-simulation-scales-2027",
+      "field": "people.organizers",
+      "source": "https://cecamsimul.eu/events/events-2026",
+      "added": [
+        {
+          "name": "Carlo M. Casciola",
+          "affiliation": "Sapienza University of Rome",
+          "role": "School organiser",
+          "source": "https://cecamsimul.eu/events/events-2026"
+        },
+        {
+          "name": "Giovanni Ciccotti",
+          "affiliation": "Sapienza University of Rome",
+          "role": "School organiser",
+          "source": "https://cecamsimul.eu/events/events-2026"
+        },
+        {
+          "name": "Christoph Dellago",
+          "affiliation": "Vienna University",
+          "role": "School organiser",
+          "source": "https://cecamsimul.eu/events/events-2026"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-09T09:05:11.846361+00:00",
+      "event_name": "AI4AM 2027 — AI for Advanced Materials",
+      "event_id": "ai4am-2027-ai-for-advanced-materials",
+      "field": "people.speakers.role",
+      "previous": {
+        "name": "Eunah Kim",
+        "role": "Announced speaker",
+        "source": "https://ai4am.net/2027/index.php",
+        "affiliation": "Cornell University"
+      },
+      "value": {
+        "name": "Eunah Kim",
+        "role": "Invited parallel-workshop speaker — W4",
+        "source": "https://www.ai4am.net/2027/speakers.php",
+        "affiliation": "Cornell University"
+      },
+      "source": "https://www.ai4am.net/2027/speakers.php"
+    },
+    {
+      "at": "2026-11-09T09:05:11.846361+00:00",
+      "event_name": "AI4AM 2027 — AI for Advanced Materials",
+      "event_id": "ai4am-2027-ai-for-advanced-materials",
+      "field": "people.speakers",
+      "source": "https://www.ai4am.net/2027/speakers.php",
+      "added": [
+        {
+          "name": "Juan Carrasquilla Alvarez",
+          "affiliation": "ETH Zürich",
+          "role": "Invited parallel-workshop speaker — W4",
+          "source": "https://www.ai4am.net/2027/speakers.php"
+        },
+        {
+          "name": "Aditi S Krishnapriyan",
+          "affiliation": "University of California Berkeley",
+          "role": "Invited parallel-workshop speaker — W1",
+          "source": "https://www.ai4am.net/2027/speakers.php"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-09T09:05:11.846361+00:00",
+      "event_name": "7th FEMS Industry Symposium — Materials assisted by digital science",
+      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
+      "field": "people.speakers",
+      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+      "added": [
+        {
+          "name": "Wide Hogenhout",
+          "affiliation": "European Commission, DG Research and Innovation",
+          "role": "Listed speaker; preliminary introductory slot is marked to be confirmed",
+          "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/"
+        }
+      ]
+    },
     {
       "at": "2026-11-08T09:10:03.998791+00:00",
       "event_name": "TYC20 — Celebration of the Thomas Young Centre at 20",
