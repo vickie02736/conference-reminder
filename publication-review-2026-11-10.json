@@ -1,8 +1,8 @@
 {
-  "verified_at": "2026-11-10T09:18:13.665227+00:00",
-  "published_commit": "b05a29f49fe1e28ce4328495a5facb13d72f7284",
-  "workflow_run": 42789336791,
-  "workflow_url": "https://github.com/vickie02736/conference-reminder/actions/runs/42789336791",
+  "verified_at": "2026-11-10T09:20:00Z",
+  "published_commit": "77149318852d3a4207e9694f8ba72e05f98a7432",
+  "workflow_run": 42789695213,
+  "workflow_url": "https://github.com/vickie02736/conference-reminder/actions/runs/42789695213",
   "workflow_conclusion": "success",
   "site_url": "https://vickie02736.github.io/conference-reminder/",
   "home_status": 200,
@@ -55,6 +55,7 @@
   },
   "notes": [
     "本次push仅发布已验证数据，未重复来源抓取。",
-    "线上5个JSON均HTTP200并与提交逐字节一致。"
+    "线上5个JSON均HTTP200并与提交逐字节一致。",
+    "最终记录提交为7714931；该提交触发的Pages运行42789695213成功。"
   ]
 }
