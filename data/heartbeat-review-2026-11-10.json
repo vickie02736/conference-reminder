@@ -4,7 +4,7 @@
   "checkout": "/private/tmp/conference-maintenance-nov10",
   "base_commit": "3fb5d4ed5fd7a40c22965bf8211d4f22e3e7ad74",
   "source_check_run": 42782536651,
-  "daily_check_and_publication": "daily source check succeeded; publication pending this commit",
+  "daily_check_and_publication": "daily source check and GitHub Pages publication succeeded",
   "artifact_directory": "/tmp/source-text-42782536651",
   "history_read": [
     {
@@ -3204,7 +3204,9 @@
     "npm_test": "passed equivalently via bundled pnpm script: 116 Node + 56 Python tests (npm binary unavailable in this runtime)",
     "validate_catalog": "passed: 171 scheduled + 8 watchlist",
     "hash_migration": "data/fingerprint-migration-2026-11-10.json",
-    "diff_check": "pending pre-commit"
+    "diff_check": "pending pre-commit",
+    "publication": "GitHub Pages run 42789336791 succeeded; home and 5 JSON assets HTTP200 byte-identical to published commit."
   },
-  "continuation": "下轮从review-progress剩余78条续接，优先未来30日截止与日期冲突；IEEE SSCI主页CSS导出及其camera-ready冲突仍待官方可读正文。"
+  "continuation": "下轮从review-progress剩余78条续接，优先未来30日截止与日期冲突；IEEE SSCI主页CSS导出及其camera-ready冲突仍待官方可读正文。",
+  "publication_receipt": "publication-review-2026-11-10.json"
 }
