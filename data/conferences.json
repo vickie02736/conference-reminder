@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-10T08:27:31Z",
-    "last_updated_at": "2026-11-09T09:05:11.846361+00:00",
+    "last_updated_at": "2026-11-10T09:10:55.914052+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -624,13 +624,13 @@
       ],
       "url": "https://www.ukairs.ac.uk/i/Registration",
       "priority": 2,
-      "verified_on": "2026-10-27",
+      "verified_on": "2026-11-10",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-10T08:27:31Z",
-        "last_verified_at": "2026-11-02T17:32:06+00:00",
-        "message": "https://www.ukairs.ac.uk/i/Registration: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.ukairs.ac.uk/i/SubmissionThemes: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.ukairs.ac.uk/Home/Welcome: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.ukairs.ac.uk/i/ConferenceCommittees: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-10T09:10:55.914052+00:00",
+        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -1900,13 +1900,13 @@
       ],
       "url": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "priority": 2,
-      "verified_on": "2026-11-05",
+      "verified_on": "2026-11-10",
       "evidence": "2026-11-05 reviewed Cambridge eStore runner text from GitHub run 41990590073; only navigation changed. Event facts remain verified; AIchemy transport issue remains separate.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-10T08:27:31Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-10T09:10:55.914052+00:00",
+        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
       },
       "milestones": [
         {
@@ -5691,13 +5691,13 @@
       ],
       "url": "https://www.cecam.org/workshop-details/1272",
       "priority": 3,
-      "verified_on": "2026-11-07",
+      "verified_on": "2026-11-10",
       "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; changed prose requires an Abstracts submission but dates, venue, organizers and speaker roster are unchanged.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-10T08:27:31Z",
-        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
-        "message": "https://www.cecam.org/workshop-details/1272: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-10T09:10:55.914052+00:00",
+        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -5864,10 +5864,16 @@
             "role": "Confirmed invited speaker",
             "affiliation": "University of Augsburg",
             "source": "https://www.cecam.org/workshop-details/1272"
+          },
+          {
+            "name": "Tatiana Morozova",
+            "affiliation": "CNRS/ENS Lyon (FR)",
+            "role": "Confirmed invited speaker",
+            "source": "https://www.cecam.org/workshop-details/1272"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-03",
+        "checked_on": "2026-11-10",
         "status": "published",
         "note": "Organisers and selected confirmed invited speakers from the CECAM workshop page; this is not the full participant list.",
         "sources": [
@@ -8038,13 +8044,13 @@
       ],
       "url": "https://cpm-workshop.org/",
       "priority": 1,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-10",
       "evidence": "The workshop website gives the 1 December abstract deadline; DECHEMA confirms 23–26 May and Garmisch-Partenkirchen.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-10T08:27:31Z",
-        "last_verified_at": "2026-11-03T09:14:25Z",
-        "message": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-10T09:10:55.914052+00:00",
+        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -12109,13 +12115,13 @@
       ],
       "url": "https://www.eazc2027.com/",
       "priority": 1,
-      "verified_on": "2026-10-27",
+      "verified_on": "2026-11-10",
       "evidence": "The site gives 17–20 January overall, distinguishing 17 January arrivals from the 18–20 January conference. Important Dates lists Recent Reports on 30 November.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-10T08:27:31Z",
-        "last_verified_at": "2026-11-02T17:32:06+00:00",
-        "message": "https://www.eazc2027.com/index/page.html?id=1843: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-10T09:10:55.914052+00:00",
+        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -24066,9 +24072,9 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-10T08:27:31Z",
+        "last_checked_at": "2026-11-10T09:10:55.914052+00:00",
         "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://attend.ieee.org/ssci-2027/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://attend.ieee.org/ssci-2027/: 运行器正文变为CSS/WordPress导出片段，无法从该正文核实日期、截止或人员；主页与CFP的camera-ready日期冲突仍保留。"
       },
       "milestones": [
         {
@@ -24748,13 +24754,13 @@
       ],
       "url": "https://www.materialsscienceconference.com/",
       "priority": 1,
-      "verified_on": "2026-11-07",
+      "verified_on": "2026-11-10",
       "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-10T08:27:31Z",
-        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
-        "message": "https://www.materialsscienceconference.com/: Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence. | https://www.materialsscienceconference.com/registration: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-10T09:10:55.914052+00:00",
+        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -26622,6 +26628,19 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-10T09:10:55.914052+00:00",
+      "event_name": "Theory and simulation of biomolecular phase separation and aggregation",
+      "event_id": "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation",
+      "field": "people.speakers",
+      "source": "https://www.cecam.org/workshop-details/1272",
+      "added": {
+        "name": "Tatiana Morozova",
+        "affiliation": "CNRS/ENS Lyon (FR)",
+        "role": "Confirmed invited speaker",
+        "source": "https://www.cecam.org/workshop-details/1272"
+      }
+    },
     {
       "at": "2026-11-09T09:05:11.846361+00:00",
       "event_name": "CECAM–ESI School — Computer Simulation Across the Scales 2027",

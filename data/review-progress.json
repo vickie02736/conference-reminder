@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-10",
-  "remaining_count": 88,
-  "remaining_source_count": 84,
+  "remaining_count": 78,
+  "remaining_source_count": 74,
   "queue": [
     {
       "source": "https://www.esat2027.com/speakers/",
@@ -131,15 +131,14 @@
       "source": "https://attend.ieee.org/ssci-2027/",
       "event_id": "ieee-ssci-2027",
       "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "message": "运行器正文变为CSS/WordPress导出片段，无法从该正文核实日期、截止或人员；主页与CFP的camera-ready日期冲突仍保留。",
       "content_hash": "bbc4c3d2369ab7f87646eeb8eb20d4c5e60e5499926be6fc851344090cf21590",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "homepage runner body is CSS export; camera-ready deadline conflict 2026-11-10 vs 2026-11-17",
+        "final registration deadline unknown",
+        "current homepage people/roles cannot be verified"
       ]
     },
     {
@@ -248,153 +247,6 @@
       "next_deadline": null,
       "remaining_fields": [
         "end clock: programme 16:40 vs event page 17:00; timezone unpublished"
-      ]
-    },
-    {
-      "source": "https://www.ukairs.ac.uk/Home/Welcome",
-      "event_id": "uk-ai-research-symposium-ukairs-2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "1c8e50e4f181a389f43aa9461f6bac41f5af9791280ead25afd3330cb3816e59",
-      "priority": 1,
-      "next_deadline": "2026-11-10",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.ukairs.ac.uk/i/ConferenceCommittees",
-      "event_id": "uk-ai-research-symposium-ukairs-2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "d3e2089e00796545af8ec6594c4d6eda856dd5a1ed5682325ad9226a3b939179",
-      "priority": 1,
-      "next_deadline": "2026-11-10",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.ukairs.ac.uk/i/Registration",
-      "event_id": "uk-ai-research-symposium-ukairs-2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "382be5b4dbba36554fad76bc4ab23d55c0ddf9416998b7dab1466e409d95325a",
-      "priority": 1,
-      "next_deadline": "2026-11-10",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.ukairs.ac.uk/i/SubmissionThemes",
-      "event_id": "uk-ai-research-symposium-ukairs-2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "b68e37f2ce52d3d3723fc0930aa6b94d8a49fb3154564aef975b725d25afc597",
-      "priority": 1,
-      "next_deadline": "2026-11-10",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.materialsscienceconference.com/",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence.",
-      "content_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dynamic welcome-message excerpt normalization: must preserve dates, times, roles and institutions"
-      ]
-    },
-    {
-      "source": "https://www.materialsscienceconference.com/registration",
-      "event_id": "advanced-materials-world-congress-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
-      "priority": 1,
-      "next_deadline": "2026-11-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.cecam.org/workshop-details/1272",
-      "event_id": "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "49406ea84ce3ab7071a608a96a6e6fad4e8c1c6b5a6971cd277c01030e0f0db2",
-      "priority": 1,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "58e20c9549db6d7055348ec175eb84409cfd6113a6774299f624fa3d27706f77",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.eazc2027.com/index/page.html?id=1843",
-      "event_id": "eazc2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "af265828e6ffd791f16b0758978d5e560d9aa41842e2718f5fcff28493793670",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/",
-      "event_id": "cpm10",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "9e3a800e26d7f970a1f80c99632c47545e5362fae18d958cf24f37d555400535",
-      "priority": 1,
-      "next_deadline": "2026-12-01",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -1605,13 +1457,13 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-09T09:07:55.369700+00:00",
-    "report": "data/heartbeat-review-2026-11-09.json",
-    "started": 78,
+    "at": "2026-11-10T09:12:29.503151+00:00",
+    "report": "data/heartbeat-review-2026-11-10.json",
+    "started": 88,
     "new": 0,
-    "daily_new": 7,
-    "resolved": 9,
-    "partial": 4,
-    "remaining": 69
+    "daily_new": 19,
+    "resolved": 10,
+    "partial": 1,
+    "remaining": 78
   }
 }

@@ -1294,21 +1294,20 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-07T08:59:04.820359+00:00",
-          "reviewed_hash": "d94e661cccdec98c23227ed4646b2734164e78fa8789ee8ca95f78627a06e3eb",
-          "evidence": "逐行差异仅删去导航中的Cambridge Institute for Sustainability Leadership条目并加入Immunity In Space and Time；活动正文、日期、钟点、时区及人员机构无变化。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "reviewed_hash": "58e20c9549db6d7055348ec175eb84409cfd6113a6774299f624fa3d27706f77",
+          "evidence": "与11月9日正文逐行差异仅Cambridge网站导航项替换；活动6–8 January 2027、摘要23 November、海报/注册16 December、人员角色机构均未变；无新钟点/时区。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "review_run": 42350237668,
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 42782536651,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -2194,21 +2193,20 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-07T08:59:04.820359+00:00",
-          "reviewed_hash": "af51b2e74982db637996a4f7bd8edaefe391189f76b9344c255f8e7ae2eba178",
-          "evidence": "逐行差异仅 Rohit Pappu 报告题目改为 Accurate computations of phase diagrams and material properties of condensates formed by disordered proteins；姓名、角色、机构及所有日期、钟点、时区无变化。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "reviewed_hash": "49406ea84ce3ab7071a608a96a6e6fad4e8c1c6b5a6971cd277c01030e0f0db2",
+          "evidence": "与11月9日运行器正文逐行比较：新增Tatiana MOROZOVA（CNRS/ENS Lyon, France），列为Confirmed invited speaker，报告题目为“From single chains to biomolecular condensates: explicit-solvent coarse-grained modeling with martini 3”；其余日期11–14 January 2027、注册截止15 November 2026、既有人员/机构未变。没有新的钟点/时区或投稿截止；签证通知12月1日属录用通知，不建提醒节点。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "review_run": 42350237668,
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 42782536651,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -3966,19 +3964,20 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:32:06+00:00",
-          "reviewed_hash": "a0677491eeacecd0f222d65cdd09cfbee416fb3a18e98f003613a4a54e786ec0",
-          "evidence": "11-24 至 25 日期核实；APRIL AI Hub 与 Generative AI Lab 均为 University of Edinburgh 的 host；Themis Prodromakis 与 Ram Ramamoorthy 为 co-chairs。注册开放、投稿已关闭；未推测钟点。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "reviewed_hash": "1c8e50e4f181a389f43aa9461f6bac41f5af9791280ead25afd3330cb3816e59",
+          "evidence": "与11月9日运行器正文逐行比较，仅导航新增Sponsors链接；会议日期24–25 November 2026、投稿26 June已关闭、注册截止10 November 2026、既有组织者/委员会及机构均未变。页面未给注册截止钟点或时区，保留日级日期。",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_method": "runner_text",
+          "review_run": 42782536651,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -4074,19 +4073,20 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:32:06+00:00",
-          "reviewed_hash": "e3d90e62dade2f32116ef82402fb9cc8a94fad5626a07e2483f2d2afe2896bb3",
-          "evidence": "正文各主题及侧栏 11-24 至 25、投稿 06-26 核实；无新的截止钟点、时区或选录人员。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "reviewed_hash": "b68e37f2ce52d3d3723fc0930aa6b94d8a49fb3154564aef975b725d25afc597",
+          "evidence": "与11月9日运行器正文逐行比较，仅导航新增Sponsors链接；会议日期24–25 November 2026、投稿26 June已关闭、注册截止10 November 2026、既有组织者/委员会及机构均未变。页面未给注册截止钟点或时区，保留日级日期。",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_method": "runner_text",
+          "review_run": 42782536651,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -4102,19 +4102,20 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:32:06+00:00",
-          "reviewed_hash": "d566e102d98456d5ff70ea1af9b49f6e0bb7254773d5c98714d8a7bd0658a79c",
-          "evidence": "11-24 至 11-25 会议；投稿 06-26 已关闭；注册至 11-10。三者均无精确钟点/时区。所列会场为 Edinburgh，注册开放；本页没有额外选录人物。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "reviewed_hash": "382be5b4dbba36554fad76bc4ab23d55c0ddf9416998b7dab1466e409d95325a",
+          "evidence": "与11月9日运行器正文逐行比较，仅导航新增Sponsors链接；会议日期24–25 November 2026、投稿26 June已关闭、注册截止10 November 2026、既有组织者/委员会及机构均未变。页面未给注册截止钟点或时区，保留日级日期。",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_method": "runner_text",
+          "review_run": 42782536651,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -4130,21 +4131,15 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "cpm10": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T12:42:46+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
           "reviewed_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
-          "evidence": "按新规则复核：41625024822 与 41625735289 的附件正文逐行一致；最新附件 hash 与当前来源 hash 一致，本轮无事实差异，不修改事实。此前已核实内容：FAU 正文核实 CPM-10 为 2027-05-23 至 26、Garmisch-Partenkirchen；组织者 Matthias Thommes（FAU Erlangen-Nürnberg）、Alexander Neimark（Rutgers University, NJ, USA）与 DECHEMA 合作，姓名、角色、机构均与库一致。15:54 是 2026-06-22 页面更新时间，非活动钟点。本页没有摘要/注册截止或时区，其他来源已证实的 12-01 摘要截止不被覆盖。",
-          "review_method": "runner_text",
+          "evidence": "review_method=browser：最新运行器file是Anubis JavaScript proof-of-work挑战，不能作为正文；FAU官方页面浏览器正文核实CPM-10为23–26 May 2027、Garmisch-Partenkirchen，Matthias Thommes（FAU Erlangen-Nürnberg）和Alexander Neimark（Rutgers University）组织并与DECHEMA合作。页面更新时间15:54是发布元数据，不是活动钟点；未公布摘要/注册截止钟点或时区。未写入或修改hash。",
+          "review_method": "browser",
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
@@ -5082,9 +5077,19 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "eazc2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "review_method": "runner_text",
+          "evidence": "与11月9日正文逐行差异仅Suk Bong Hong条目新增Presentation Title: Recent Advances in Intergrowth Zeolite Synthesis；其POSTECH机构、讲者身份及所有会议/投稿/注册日期未变。题目不建立提醒节点，未新增钟点/时区。",
+          "reviewed_hash": "af265828e6ffd791f16b0758978d5e560d9aa41842e2718f5fcff28493793670",
+          "review_run": 42782536651,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -5451,9 +5456,19 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "uk-ai-research-symposium-ukairs-2026": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "review_method": "runner_text",
+          "evidence": "与11月9日运行器正文逐行比较，仅导航新增Sponsors链接；会议日期24–25 November 2026、投稿26 June已关闭、注册截止10 November 2026、既有组织者/委员会及机构均未变。页面未给注册截止钟点或时区，保留日级日期。",
+          "reviewed_hash": "d3e2089e00796545af8ec6594c4d6eda856dd5a1ed5682325ad9226a3b939179",
+          "review_run": 42782536651,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -7592,8 +7607,16 @@
       "checks": {
         "ieee-ssci-2027": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "message": "运行器正文变为CSS/WordPress导出片段，无法从该正文核实日期、截止或人员；主页与CFP的camera-ready日期冲突仍保留。",
+          "reason": "content_changed",
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "review_method": "browser",
+          "evidence": "运行器匹配hash正文仅含CSS/导出代码，浏览器入口本轮不可读；同活动官方CFP来源仍可读并保留此前日期事实。未写入新reviewed_hash，未替换现有hash。",
+          "remaining_fields": [
+            "homepage runner body is CSS export; camera-ready deadline conflict 2026-11-10 vs 2026-11-17",
+            "final registration deadline unknown",
+            "current homepage people/roles cannot be verified"
+          ]
         }
       }
     },
@@ -8025,7 +8048,7 @@
     "https://www.chemistryconferences.com/registration": {
       "last_checked_at": "2026-11-10T08:27:31Z",
       "status": "checked",
-      "hash": "1fa9b2a39d8f5978989f47bc263d581d45c2ee532338f405148f701455385f38",
+      "hash": "3672f6bd6f827087752be4c11aee9f304243f28ef6d63b83e6bd339f0a1581bb",
       "last_success_at": "2026-11-10T08:27:31Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
@@ -8041,7 +8064,7 @@
             "run": 41792669115,
             "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
           },
-          "reviewed_hash": "1fa9b2a39d8f5978989f47bc263d581d45c2ee532338f405148f701455385f38",
+          "reviewed_hash": "3672f6bd6f827087752be4c11aee9f304243f28ef6d63b83e6bd339f0a1581bb",
           "reviewed_at": "2026-11-09T09:05:11.846361+00:00",
           "review_method": "runner_text",
           "review_run": 42582737047,
@@ -8052,19 +8075,18 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "reviewed_artifact_hash": "8f90be7d6525de3b21c832f0029b98df80d82ca70f5d95fe1e7e12a30076dcbe"
+          "reviewed_artifact_hash": "1fa9b2a39d8f5978989f47bc263d581d45c2ee532338f405148f701455385f38"
         }
       },
       "fingerprint_migration": {
-        "at": "2026-11-09T09:05:11.846361+00:00",
+        "at": "2026-11-10T09:10:55.914052+00:00",
         "source": "https://www.chemistryconferences.com/registration",
-        "review_run": 42582737047,
-        "comparison_run": 42458558175,
+        "review_run": 42782536651,
         "artifact_file": "ee8c248d6788b15c.txt",
-        "runner_hash": "8f90be7d6525de3b21c832f0029b98df80d82ca70f5d95fe1e7e12a30076dcbe",
-        "normalized_hash": "1fa9b2a39d8f5978989f47bc263d581d45c2ee532338f405148f701455385f38",
-        "text_sha256": "8545a2105c6cbbb1c9a3414ab573e1fb2f5e4093972b72551fdc51964b1193e4",
-        "comparison_text_sha256": "061e63042b5c80ef23369268ca42d589ac681a0e5dd8dd945f8ff4ce4808c6c4"
+        "runner_hash": "1fa9b2a39d8f5978989f47bc263d581d45c2ee532338f405148f701455385f38",
+        "normalized_hash": "3672f6bd6f827087752be4c11aee9f304243f28ef6d63b83e6bd339f0a1581bb",
+        "text_sha256": "a957a0ee8002c2c82e157e0c18890d60be153d59883aab8987a52f59d352326a",
+        "rule": "ticket_card_order_normalization"
       }
     },
     "https://www.chemistryconferences.com/": {
@@ -8180,7 +8202,7 @@
     "https://www.materialsscienceconference.com/registration": {
       "last_checked_at": "2026-11-10T08:27:31Z",
       "status": "checked",
-      "hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
+      "hash": "24f70c6b70fc199323b2ca0cfe907257167e609daa81a417809d2de39195c857",
       "last_success_at": "2026-11-10T08:27:31Z",
       "fingerprint_version": 2,
       "content_type": "text/html",
@@ -8188,12 +8210,12 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "advanced-materials-world-congress-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-07T08:59:04.820359+00:00",
-          "reviewed_hash": "437629889054768bd713b6a8701a4aa8c0c5128edd7e3a0fc5008bec9951d436",
-          "evidence": "逐行差异仅为 ONE DAY REGISTRATION 卡片移到 E-POSTER 前；整张卡片的早鸟13 Nov 2026、常规30 Dec 2026、现场22 Mar 2027及收费完全未变；未新增钟点、时区、人员或机构。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "reviewed_hash": "24f70c6b70fc199323b2ca0cfe907257167e609daa81a417809d2de39195c857",
+          "evidence": "与11月9日运行器正文逐行比对，仅E-POSTER、ACCOMPANYING PERSON、ONE DAY REGISTRATION三张完整收费卡片排序变化；13 Nov 2026、30 Dec 2026、22 Mar 2027、金额和票种均未变。新增精确卡片排序归一化，保留全部票种/金额/日期并用回归测试确认事实变化仍触发hash。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "reviewed_fields": [
@@ -8201,15 +8223,20 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": 42350237668,
+          "review_run": 42782536651,
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "reviewed_artifact_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc"
         }
+      },
+      "fingerprint_migration": {
+        "at": "2026-11-10T09:10:55.914052+00:00",
+        "source": "https://www.materialsscienceconference.com/registration",
+        "review_run": 42782536651,
+        "artifact_file": "305e8c39f9b9fd7d.txt",
+        "runner_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
+        "normalized_hash": "24f70c6b70fc199323b2ca0cfe907257167e609daa81a417809d2de39195c857",
+        "text_sha256": "ec0a80c939418af8a6114872aad87b8042976a48c629a65612f0dee016ae76ac",
+        "rule": "ticket_card_order_normalization"
       }
     },
     "https://www.machinelearning.theiconicmeetings.com/": {
@@ -8252,12 +8279,12 @@
       "changed_at": "2026-11-08T07:24:23Z",
       "checks": {
         "advanced-materials-world-congress-2027": {
-          "review_required": true,
-          "message": "Dynamic welcome-message excerpts vary; factual fields verified, safe normalization still needs evidence.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
           "reviewed_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
-          "evidence": "11月7日至8日运行器差异：欢迎信Read more预览截断长度变化，另有已被规则抑制的Tags/旧照片随机内容；所有可见会议日期及当前注册截止、既存组织者与讲者姓名/角色/机构未变。欢迎信含会议信息，不能整段当噪声删除；本轮仅保留动态预览监测规则待验证，不每天人工结案。",
+          "evidence": "与11月9日运行器正文逐行比对，差异限于往届照片/SEO Tags随机内容；22–23 March 2027、注册13 November/30 December/22 March日期及既有人名角色机构未变。精确图库/标签规则保留事实并使正文归一化hash稳定，回归测试覆盖日期、金额、人员、机构变化仍触发hash。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "reviewed_fields": [
@@ -8265,17 +8292,14 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": 42458558175,
+          "review_run": 42782536651,
           "review_invalidated_at": "2026-11-08T07:24:23Z",
           "triage": {
             "at": "2026-11-04T09:06:17+00:00",
             "run": 41792669115,
             "reason": "附件diff显示随机SEO标签/往届图库或费率卡片顺序变化；待补安全指纹归一化与回归测试、用附件迁移基准。本批不每天人工结案，不宣称日期或人员已变化。"
           },
-          "reviewed_artifact_hash": "ecca8f344a4dbf1320c83effe94d43b6bf36592e2c650e91ea27d40bf8d17648",
-          "remaining_fields": [
-            "dynamic welcome-message excerpt normalization: must preserve dates, times, roles and institutions"
-          ]
+          "reviewed_artifact_hash": "ecca8f344a4dbf1320c83effe94d43b6bf36592e2c650e91ea27d40bf8d17648"
         }
       },
       "fingerprint_migration": {

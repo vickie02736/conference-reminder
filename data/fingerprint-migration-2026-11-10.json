@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-10T09:10:55.914052+00:00",
+  "sources": [
+    {
+      "source": "https://www.chemistryconferences.com/registration",
+      "review_run": 42782536651,
+      "artifact_file": "ee8c248d6788b15c.txt",
+      "runner_hash": "1fa9b2a39d8f5978989f47bc263d581d45c2ee532338f405148f701455385f38",
+      "normalized_hash": "3672f6bd6f827087752be4c11aee9f304243f28ef6d63b83e6bd339f0a1581bb",
+      "text_sha256": "a957a0ee8002c2c82e157e0c18890d60be153d59883aab8987a52f59d352326a",
+      "rule": "ticket_card_order_normalization"
+    },
+    {
+      "source": "https://www.materialsscienceconference.com/registration",
+      "review_run": 42782536651,
+      "artifact_file": "305e8c39f9b9fd7d.txt",
+      "runner_hash": "9fbcd5080e5f9dd59753db5be6252e0bf544c32a2020a1dcd1765a785cffd0dc",
+      "normalized_hash": "24f70c6b70fc199323b2ca0cfe907257167e609daa81a417809d2de39195c857",
+      "text_sha256": "ec0a80c939418af8a6114872aad87b8042976a48c629a65612f0dee016ae76ac",
+      "rule": "ticket_card_order_normalization"
+    }
+  ]
+}

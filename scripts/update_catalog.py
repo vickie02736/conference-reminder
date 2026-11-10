@@ -151,6 +151,22 @@ def fingerprint(text):
             labels = {block.splitlines()[0] for block in cards}
             return "".join(sorted(cards)) if labels == {"E-POSTER", "POSTER", "ONE DAY REGISTRATION"} else match.group()
         text = group.sub(ordered_cards, text)
+    # The Advanced Materials registration page rotates these three complete
+    # ticket cards. Sort only the first occurrence of each named card before
+    # the benefits text; all dates, prices and labels remain in the snapshot.
+    if "ONE DAY REGISTRATION\n" in text and "FEE FOR OTHERS\n" in text:
+        before_fee, fee_marker, fee_tail = text.partition("FEE FOR OTHERS")
+        head, marker, tail = fee_tail.partition("BENEFITS INCLUDED")
+        card = re.compile(r"(?m)^(E-POSTER|ACCOMPANYING PERSON|ONE DAY REGISTRATION)\n.*?^PAY NOW\n", re.S)
+        matches = list(card.finditer(head))
+        labels = [m.group(1) for m in matches]
+        if len(matches) == 3 and set(labels) == {"E-POSTER", "ACCOMPANYING PERSON", "ONE DAY REGISTRATION"}:
+            start = matches[0].start()
+            blocks = {m.group(1): m.group(0) for m in matches}
+            for match in reversed(matches):
+                head = head[:match.start()] + head[match.end():]
+            head = head[:start] + "".join(blocks[label] for label in sorted(blocks)) + head[start:]
+            text = before_fee + fee_marker + head + marker + tail
     # Restrict these multiline widget rules to the publisher whose runner
     # snapshots demonstrate random sampling. Other sites' Tags remain monitored.
     if "peers alley media" in text.casefold():

@@ -105,6 +105,14 @@ class SourceUpdateTests(unittest.TestCase):
         self.assertNotEqual(fingerprint("https://example.org/172246"),
                             fingerprint("https://example.org/172246?version=latest"))
 
+    def test_advanced_materials_registration_card_order_keeps_facts(self):
+        runs = json.loads((FIXTURES / "runner-ticket-order-and-json-suffix.json").read_text())["runs"]
+        before = runs["42582737047"]["https://www.materialsscienceconference.com/registration"]
+        after = runs["42782536651"]["https://www.materialsscienceconference.com/registration"]
+        self.assertNotEqual(before, after)
+        self.assertEqual(fingerprint(before), fingerprint(after))
+        self.assertNotEqual(fingerprint(after), fingerprint(after.replace("13 Nov, 2026", "14 Nov, 2026", 1)))
+
     def test_linkedin_runner_counts_do_not_hide_facts(self):
         runs = json.loads((FIXTURES / "linkedin-runner-counters.json").read_text())["runs"]
         before = runs["41792669115"]["text"]
