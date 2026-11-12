@@ -1,0 +1,55 @@
+{
+  "verified_at": "2026-11-12T22:42:06.547669+00:00",
+  "published_commit": "59fb01d9ea7d178d09518361eb39065ea18b4a4a",
+  "workflow_run": 43318304654,
+  "workflow_url": "https://github.com/vickie02736/conference-reminder/actions/runs/43318304654",
+  "workflow_conclusion": "success",
+  "site_url": "https://vickie02736.github.io/conference-reminder/",
+  "home_status": 200,
+  "files": [
+    {
+      "path": "data/conferences.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/conferences.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "a90bcbf6c290ed6f4885731d1e302671544891ed235d65d3502393828254320b",
+      "bytes": 1235828
+    },
+    {
+      "path": "data/source-checks.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/source-checks.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "5e5dad79f7cad6a128fdc8f7d0fbbc738eeec44257b1a5803e4dd8954259a6d9",
+      "bytes": 474055
+    },
+    {
+      "path": "data/review-progress.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/review-progress.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "fdcc135d136e1f8a757e0da0dbaecd51eb048ac533461d96f248fe803d45f5d1",
+      "bytes": 64912
+    },
+    {
+      "path": "data/heartbeat-review-2026-11-12.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/heartbeat-review-2026-11-12.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "993512a43dbe5aca4d129f12d489efae61409acf431415b2ac9894f5de8d7bc0",
+      "bytes": 173283
+    }
+  ],
+  "tests": {
+    "npm_test": "116 Node + 56 Python passed via npm 12.2.2",
+    "validate_catalog": "171 scheduled + 8 watchlist valid",
+    "git_diff_check": "passed",
+    "review_registration_check": "12 reviews validated; 10 runner hashes match; no source hash mutations"
+  },
+  "notes": [
+    "本次push来源抓取步骤跳过，没有重复全库更新。",
+    "线上4个JSON与发布提交逐字节一致；首页HTTP200。",
+    "语义本轮新增0、解决8、部分核实3、剩余87；另复核1个非队列来源。",
+    "全部36处传输问题已尝试，34处活跃、2处替代覆盖、原址稳定恢复0；12处历史旧址仅审计。"
+  ]
+}
