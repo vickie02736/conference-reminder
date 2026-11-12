@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-12T08:22:37Z",
-    "last_updated_at": "2026-11-10T09:10:55.914052+00:00",
+    "last_updated_at": "2026-11-12T20:16:34.377415+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1900,13 +1900,13 @@
       ],
       "url": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "priority": 2,
-      "verified_on": "2026-11-10",
-      "evidence": "2026-11-05 reviewed Cambridge eStore runner text from GitHub run 41990590073; only navigation changed. Event facts remain verified; AIchemy transport issue remains separate.",
+      "verified_on": "2026-11-12",
+      "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-12T08:22:37Z",
-        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(43884 bytes read)"
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-12T20:01:55.301143+00:00",
+        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(43884 bytes read)"
       },
       "milestones": [
         {
@@ -3097,12 +3097,12 @@
       ],
       "url": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
       "priority": 1,
-      "verified_on": "2026-11-10",
-      "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。",
+      "verified_on": "2026-11-12",
+      "evidence": "review_method=browser：官方浏览器正文新增Speakers区块，逐名核对Heather J. Kulik、Nong Artrith、Rocio Mercado、Nick Warren、Maarten Romain Dobbelaere、Linden Schrecker；页面未附机构或keynote身份，均仅记Announced speaker不猜机构。14–15 April 2027、City & Guilds Building/Imperial College London未改；注册、海报call仍opening soon，截止/钟点/时区未公布。公开API仍连接中断，正文核实不等于日常恢复，不改hash。",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-12T08:22:37Z",
-        "last_verified_at": "2026-11-10T08:27:31Z",
+        "last_checked_at": "2026-11-12T20:16:34.377415+00:00",
+        "last_verified_at": "2026-11-12T20:16:34.377415+00:00",
         "message": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: IncompleteRead(44957 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522: IncompleteRead(8192 bytes read)"
       },
       "milestones": [
@@ -3168,11 +3168,42 @@
           }
         ],
         "committee": [],
-        "speakers": [],
+        "speakers": [
+          {
+            "name": "Heather J. Kulik",
+            "role": "Announced speaker",
+            "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+          },
+          {
+            "name": "Nong Artrith",
+            "role": "Announced speaker",
+            "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+          },
+          {
+            "name": "Rocio Mercado",
+            "role": "Announced speaker",
+            "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+          },
+          {
+            "name": "Nick Warren",
+            "role": "Announced speaker",
+            "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+          },
+          {
+            "name": "Maarten Romain Dobbelaere",
+            "role": "Announced speaker",
+            "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+          },
+          {
+            "name": "Linden Schrecker",
+            "role": "Announced speaker",
+            "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+          }
+        ],
         "participants": [],
-        "checked_on": "2026-10-29",
+        "checked_on": "2026-11-12",
         "status": "published",
-        "note": "The official 2027 announcement says agenda and speakers TBA; no named committee or attendee list was verified.",
+        "note": "The official 2027 announcement now names six speakers. Affiliations and individual keynote/invited roles are not supplied on this page and remain unspecified; agenda and deadlines remain TBA.",
         "sources": [
           "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
           "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522"
@@ -6265,13 +6296,13 @@
       ],
       "url": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
       "priority": 2,
-      "verified_on": "2026-11-03",
-      "evidence": "",
+      "verified_on": "2026-11-12",
+      "evidence": "与11月10日运行器逐行比对：Dr Wide (to be confirmed)现为Dr. Wide Hogenhout，10:10–10:35 Introductory lecture I，与已确认名单一致，解除确认状态冲突。Andrés Diaz Lantada节目机构增加Mechanical Engineering Department与IMDEA Materials Institute。初步节目改为09:00签到、10:00开场、16:10–16:30总结；保留programme_clock_note，无明示时区，不造精确提醒。14 January 2027、地点、免费注册开放不变，无注册截止。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-12T08:22:37Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://fems.org/industry-symposium-frankfurt-14-january-2027/: speaker confirmation: Wide Hogenhout in confirmed list vs preliminary Dr Wide slot to be confirmed"
+        "status": "checked",
+        "last_checked_at": "2026-11-12T20:01:55.301143+00:00",
+        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -6402,7 +6433,7 @@
             "name": "Andrés Diaz Lantada",
             "role": "Announced speaker",
             "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
-            "affiliation": "Universidad Politecnica de Madrid"
+            "affiliation": "Mechanical Engineering Department, Universidad Politécnica de Madrid & IMDEA Materials Institute, Spain"
           },
           {
             "name": "Gabriel Fricout",
@@ -6425,7 +6456,7 @@
           {
             "name": "Wide Hogenhout",
             "affiliation": "European Commission, DG Research and Innovation",
-            "role": "Listed speaker; preliminary introductory slot is marked to be confirmed",
+            "role": "Confirmed speaker; Introductory lecture I",
             "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/"
           }
         ],
@@ -6437,13 +6468,14 @@
             "affiliation": "France"
           }
         ],
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-12",
         "status": "published",
-        "note": "The programme is preliminary. Wide Hogenhout is recorded as listed, with confirmation unresolved: the speaker list says confirmed while the preliminary introductory slot says Dr Wide (to be confirmed).",
+        "note": "The programme remains preliminary. Wide Hogenhout is now explicitly named in the introductory lecture slot as well as the confirmed-speaker list; the previous confirmation conflict is resolved. Programme clock times carry no published timezone.",
         "sources": [
           "https://fems.org/industry-symposium-frankfurt-14-january-2027/"
         ]
-      }
+      },
+      "programme_clock_note": "Preliminary programme: registration/coffee 09:00–10:00; opening 10:00–10:10; final conclusions 16:10–16:30 on 14 January 2027. Timezone is not stated; reminder dates remain day precision."
     },
     {
       "id": "automating-atomistic-machine-learning",
@@ -12115,13 +12147,13 @@
       ],
       "url": "https://www.eazc2027.com/",
       "priority": 1,
-      "verified_on": "2026-11-10",
+      "verified_on": "2026-11-12",
       "evidence": "The site gives 17–20 January overall, distinguishing 17 January arrivals from the 18–20 January conference. Important Dates lists Recent Reports on 30 November.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-12T08:22:37Z",
-        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
-        "message": "https://www.eazc2027.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-12T20:01:55.301143+00:00",
+        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -13520,9 +13552,9 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-12T08:22:37Z",
+        "last_checked_at": "2026-11-12T20:01:55.301143+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://event.fourwaves.com/interpore2027: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://api.fourwaves.com/api/events/interpore2027: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
+        "message": "https://event.fourwaves.com/interpore2027: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/submission: The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser. | https://api.fourwaves.com/api/events/interpore2027: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -13722,6 +13754,42 @@
             "affiliation": "Colorado School of Mines, USA",
             "role": "MS20 organiser-list member; individual lead/co-organiser designation not stated",
             "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Zhibing Yang",
+            "affiliation": "Wuhan University, China",
+            "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Bo Guo",
+            "affiliation": "University of Arizona, USA",
+            "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Yves Méheust",
+            "affiliation": "University of Rennes, France",
+            "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Moran Wang",
+            "affiliation": "Tsinghua University, China",
+            "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Anne Juel",
+            "affiliation": "University of Manchester, UK",
+            "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Grigori Chapiro",
+            "affiliation": "Federal University of Juiz de Fora, Brazil",
+            "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
           }
         ],
         "speakers": [
@@ -13739,7 +13807,7 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-12",
         "status": "published",
         "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources. Three additions in the MS27 organiser block were recorded from runner text on 4 November 2026; no individual lead designation is inferred. Six MS03 organiser-list additions recorded from runner text on 5 November 2026; no individual lead designation is inferred.",
         "sources": [
@@ -17604,13 +17672,13 @@
       ],
       "url": "https://magnusconferences.com/materials-science/",
       "priority": 2,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-12",
       "evidence": "The organiser’s conference, track and Important Dates pages confirm 18–20 March 2027 at Village Hotel Changi plus online participation, three abstract rounds and Singapore-time cutoffs.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-12T08:22:37Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://magnusconferences.com/materials-science/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://magnusconferences.com/materials-science/scientific-committee/2027: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-12T20:01:55.301143+00:00",
+        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -17755,6 +17823,12 @@
             "role": "Scientific committee member",
             "affiliation": "Guru Nanak Institutions",
             "source": "https://magnusconferences.com/materials-science/"
+          },
+          {
+            "name": "Kamalkishor G Maniyar",
+            "affiliation": "Dr D Y Patil Institute of Technology, India",
+            "role": "Scientific committee member listed by the organizer",
+            "source": "https://magnusconferences.com/materials-science/scientific-committee/2027"
           }
         ],
         "speakers": [
@@ -17778,7 +17852,7 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-03",
+        "checked_on": "2026-11-12",
         "status": "published",
         "note": "Selected current-edition scientific committee and keynote entries; earlier-edition research examples on the track page are excluded.",
         "sources": [
@@ -21868,13 +21942,13 @@
       ],
       "url": "https://www.date-conference.com/call-for-papers",
       "priority": 1,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-12",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-12T08:22:37Z",
-        "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://www.date-conference.com/call-for-papers: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-12T20:01:55.301143+00:00",
+        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -22004,7 +22078,8 @@
       },
       "discovery_candidate_ids": [
         "web-02857a320f106a9bbd70"
-      ]
+      ],
+      "late_breaking_submission_url": "https://softconf.com/date27/LBR/"
     },
     {
       "id": "aim-2027-usg",
@@ -24059,7 +24134,7 @@
       "location": "Gold Coast, Queensland, Australia",
       "region": "Other",
       "type": "Conference",
-      "deadline": "Extended main-track paper deadline: 2026-09-10; Late-breaking / poster-only / journal-to-conference submissions: 2026-11-01",
+      "deadline": "Main-track paper deadline conflicts: 10 August vs 10 September 2026 (both past). Late-breaking / poster-only / J2C: 1 November 2026. Camera-ready conflicts: 10 vs 17 November 2026.",
       "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
       "note": "IEEE computational-intelligence symposium series. The homepage offers limited remote presentations; this does not establish full online access. The camera-ready dates conflict between homepage and CFP. Registration closing dates were not verified.",
       "sources": [
@@ -24072,9 +24147,9 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-12T08:22:37Z",
+        "last_checked_at": "2026-11-12T20:01:55.301143+00:00",
         "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://attend.ieee.org/ssci-2027/: 运行器正文变为CSS/WordPress导出片段，无法从该正文核实日期、截止或人员；主页与CFP的camera-ready日期冲突仍保留。"
+        "message": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/: main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10; camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10 | https://attend.ieee.org/ssci-2027/: main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10; camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10"
       },
       "milestones": [
         {
@@ -24105,16 +24180,20 @@
         },
         {
           "id": "ieee-ssci-2027:paper-2",
-          "version": 1,
+          "version": 2,
           "kind": "paper",
           "label": "Extended main-track paper deadline",
-          "date": "2026-09-10",
+          "date": null,
           "time": null,
           "timezone": null,
           "source": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
-          "precision": "date",
-          "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "precision": "unknown",
+          "status": "conflict",
+          "evidence": "Current CFP lists 10 August 2026; homepage still shows 10 August and 10 September. No explanation resolves the difference.",
+          "candidates": [
+            "2026-08-10",
+            "2026-09-10"
+          ]
         },
         {
           "id": "ieee-ssci-2027:paper-3",
@@ -26628,6 +26707,186 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-12T20:16:34.377415+00:00",
+      "event_name": "AIchemy Annual Conference 2027",
+      "event_id": "aichemy-annual-conference-2027",
+      "field": "people.speakers",
+      "added": [
+        {
+          "name": "Heather J. Kulik",
+          "role": "Announced speaker",
+          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+        },
+        {
+          "name": "Nong Artrith",
+          "role": "Announced speaker",
+          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+        },
+        {
+          "name": "Rocio Mercado",
+          "role": "Announced speaker",
+          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+        },
+        {
+          "name": "Nick Warren",
+          "role": "Announced speaker",
+          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+        },
+        {
+          "name": "Maarten Romain Dobbelaere",
+          "role": "Announced speaker",
+          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+        },
+        {
+          "name": "Linden Schrecker",
+          "role": "Announced speaker",
+          "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/"
+        }
+      ],
+      "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
+      "evidence": "Official Speakers heading lists six names; no affiliations published."
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": {
+        "name": "Grigori Chapiro",
+        "affiliation": "Federal University of Juiz de Fora, Brazil",
+        "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      }
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": {
+        "name": "Anne Juel",
+        "affiliation": "University of Manchester, UK",
+        "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      }
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": {
+        "name": "Moran Wang",
+        "affiliation": "Tsinghua University, China",
+        "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      }
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": {
+        "name": "Yves Méheust",
+        "affiliation": "University of Rennes, France",
+        "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      }
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": {
+        "name": "Bo Guo",
+        "affiliation": "University of Arizona, USA",
+        "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      }
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "added": {
+        "name": "Zhibing Yang",
+        "affiliation": "Wuhan University, China",
+        "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      }
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "7th FEMS Industry Symposium — Materials assisted by digital science",
+      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
+      "field": "people.speakers",
+      "previous": {
+        "name": "Wide Hogenhout",
+        "affiliation": "European Commission, DG Research and Innovation",
+        "role": "Listed speaker; preliminary introductory slot is marked to be confirmed",
+        "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/"
+      },
+      "value": {
+        "name": "Wide Hogenhout",
+        "affiliation": "European Commission, DG Research and Innovation",
+        "role": "Confirmed speaker; Introductory lecture I",
+        "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/"
+      },
+      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+      "evidence": "10:10–10:35 Introductory lecture I; Dr. Wide Hogenhout, DG Research and Innovation, European Commission"
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "7th FEMS Industry Symposium — Materials assisted by digital science",
+      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
+      "field": "people.speakers.affiliation",
+      "previous": {
+        "name": "Andrés Diaz Lantada",
+        "role": "Announced speaker",
+        "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+        "affiliation": "Universidad Politecnica de Madrid"
+      },
+      "value": {
+        "name": "Andrés Diaz Lantada",
+        "role": "Announced speaker",
+        "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+        "affiliation": "Mechanical Engineering Department, Universidad Politécnica de Madrid & IMDEA Materials Institute, Spain"
+      },
+      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
+      "evidence": "Prof. Andrés Diaz Lantada, Mechanical Engineering Department, Universidad Politécnica de Madrid & IMDEA Materials Institute, Spain"
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "DATE 2027 — Design, Automation and Test in Europe",
+      "event_id": "date-2027",
+      "field": "late_breaking_submission_link",
+      "source": "https://www.date-conference.com/call-for-papers",
+      "value": "https://softconf.com/date27/LBR/",
+      "evidence": "Late Breaking Results → https://softconf.com/date27/LBR/"
+    },
+    {
+      "at": "2026-11-12T20:01:55.301143+00:00",
+      "event_name": "Materials 2027 — 10th International Conference on Materials Science and Engineering",
+      "event_id": "materials-2027-magnus",
+      "field": "people.committee",
+      "source": "https://magnusconferences.com/materials-science/scientific-committee/2027",
+      "added": {
+        "name": "Kamalkishor G Maniyar",
+        "affiliation": "Dr D Y Patil Institute of Technology, India",
+        "role": "Scientific committee member listed by the organizer",
+        "source": "https://magnusconferences.com/materials-science/scientific-committee/2027"
+      }
+    },
     {
       "at": "2026-11-10T09:10:55.914052+00:00",
       "event_name": "Theory and simulation of biomolecular phase separation and aggregation",

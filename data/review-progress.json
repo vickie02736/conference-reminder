@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-12",
-  "remaining_count": 95,
-  "remaining_source_count": 91,
+  "remaining_count": 87,
+  "remaining_source_count": 83,
   "queue": [
     {
       "source": "https://www.esat2027.com/speakers/",
@@ -118,30 +118,27 @@
     {
       "source": "https://attend.ieee.org/ssci-2027/",
       "event_id": "ieee-ssci-2027",
-      "reason": "content_changed",
-      "message": "运行器正文变为CSS/WordPress导出片段，无法从该正文核实日期、截止或人员；主页与CFP的camera-ready日期冲突仍保留。",
+      "reason": "content_conflict",
+      "message": "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10; camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10",
       "content_hash": "b87083ca4cf071e12ef19fd752206731dd43ce8300cbe54e4154898c59aa2cac",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "homepage runner body is CSS export; camera-ready deadline conflict 2026-11-10 vs 2026-11-17",
-        "final registration deadline unknown",
-        "current homepage people/roles cannot be verified"
+        "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10",
+        "camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10"
       ]
     },
     {
       "source": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
       "event_id": "ieee-ssci-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "reason": "content_conflict",
+      "message": "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10; camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10",
       "content_hash": "420a7f0404754c26cdc410d336f85c8b039a6b2b9aaf7dbf7932667a7fa53d1a",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10",
+        "camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10"
       ]
     },
     {
@@ -174,31 +171,13 @@
     {
       "source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
       "event_id": "interpore2027",
-      "reason": "content_changed",
+      "reason": "content_conflict",
       "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
       "content_hash": "0618c28e7c2b402d49db13b5e78bb8040cc8e365fea3ffb48af0c54b510c0811",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
-      "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "78b8f0b512ee6cd7918f59fc385d85e806f7cbc5aa2229e7ec652f8f25991e47",
-      "priority": 0,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
       ]
     },
     {
@@ -253,36 +232,6 @@
       ]
     },
     {
-      "source": "https://magnusconferences.com/materials-science/",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "b04955925236df3781edfd2582017c7144c4eb089ed628083bc3449de4e80278",
-      "priority": 1,
-      "next_deadline": "2026-11-16",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/scientific-committee/2027",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "740205dc2f5f8a11c40870b5141898dd1f384d0c194cd7666ba4c2b673a0c84d",
-      "priority": 1,
-      "next_deadline": "2026-11-16",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://materialscienceconferences.com/",
       "event_id": "materials-science-engineering-2027-coalesce",
       "reason": "content_changed",
@@ -290,66 +239,6 @@
       "content_hash": "fada7c66ccc6a86227d3a38c286bc9f63575d1aa06645192574ce3d500c5c544",
       "priority": 1,
       "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "4dc7311e13cca231b7d2dba85d97f8025578396b4601a7d77ac91edfedb934d9",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.date-conference.com/call-for-papers",
-      "event_id": "date-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "3f1f0b8aed3c02e0acaf0648e39bb07b1f629e9d88c8ddad34d6142125393f14",
-      "priority": 1,
-      "next_deadline": "2026-11-29",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.eazc2027.com/",
-      "event_id": "eazc2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "62fd7827c528a1a55727485e4d1c331168610734ac57c2e03d681b48c88ef0d8",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://fems.org/industry-symposium-frankfurt-14-january-2027/",
-      "event_id": "7th-fems-industry-symposium-materials-assisted-by-digital-science",
-      "reason": "content_changed",
-      "message": "speaker confirmation: Wide Hogenhout in confirmed list vs preliminary Dr Wide slot to be confirmed",
-      "content_hash": "7ae83f0a9ef83f7b2bb77f37ccca0297df672eed817b6919812709a1fc80dd79",
-      "priority": 2,
-      "next_deadline": null,
       "remaining_fields": [
         "dates",
         "times",
@@ -393,21 +282,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "9d78be146c615ac8717c34fb3929575d20f8d247147d84270e94e62d2d9f7745",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
-      "event_id": "aichemy-annual-conference-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "2a08770d530a9f1ae5d697d749471b9ef2be469a6d384b9c4c9e3ba034b02c83",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1709,13 +1583,29 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-10T09:12:29.503151+00:00",
-    "report": "data/heartbeat-review-2026-11-10.json",
-    "started": 88,
-    "new": 0,
-    "daily_new": 19,
-    "resolved": 10,
-    "partial": 1,
-    "remaining": 78
+    "at": "2026-11-12T22:15:44.587211+00:00",
+    "report": "data/heartbeat-review-2026-11-12.json",
+    "previous_review_date": "2026-11-10",
+    "previous_remaining": 78,
+    "daily_new": 17,
+    "daily_removed": 0,
+    "started": 95,
+    "batch_new": 0,
+    "resolved": 8,
+    "additional_nonqueue_review": 1,
+    "partial": 3,
+    "remaining": 87,
+    "remaining_sources": 83,
+    "active_transport": 34,
+    "active_transport_statuses": {
+      "unverifiable": 32,
+      "failed": 2
+    },
+    "covered_transport": 2,
+    "all_transport_attempted": 36,
+    "new_or_recurrent_failure_since_previous_review": 5,
+    "stable_original_restored": 0,
+    "active_with_runner_alternative": 12,
+    "historical_replaced": 12
   }
 }

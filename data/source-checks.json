@@ -164,9 +164,9 @@
           "review_required": false,
           "reason": null,
           "message": null,
-          "reviewed_at": "2026-11-08T09:12:36.881113+00:00",
+          "reviewed_at": "2026-11-12T20:16:34.377415+00:00",
           "reviewed_hash": null,
-          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。",
+          "evidence": "review_method=browser：官方浏览器正文新增Speakers区块，逐名核对Heather J. Kulik、Nong Artrith、Rocio Mercado、Nick Warren、Maarten Romain Dobbelaere、Linden Schrecker；页面未附机构或keynote身份，均仅记Announced speaker不猜机构。14–15 April 2027、City & Guilds Building/Imperial College London未改；注册、海报call仍opening soon，截止/钟点/时区未公布。公开API仍连接中断，正文核实不等于日常恢复，不改hash。",
           "review_method": "browser",
           "resolved_reason": "transport_review"
         }
@@ -892,16 +892,13 @@
         "interpore2027": {
           "review_required": true,
           "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
-          "reviewed_hash": "e871262c126e35f44325734745081e9b0515f811780553d8bec6ee60475dd8ff",
-          "evidence": "与11月5日逐行差异仅Gold Sponsor、模板赞助说明；日期表仍11 January摘要、12 March早鸟、26 March线下口头报告注册、16 April海报/线上注册、10–13 May会议，均无钟点/时区。平台12 January 04:00 -03冲突保留；通知日期不建提醒。",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "reviewed_hash": "0618c28e7c2b402d49db13b5e78bb8040cc8e365fea3ffb48af0c54b510c0811",
+          "evidence": "与11月9日正文逐行差异仅Bronze Sponsor标题，日期表仍11 January摘要、12 March早鸟、26 March线下口头注册、16 April海报/线上注册、10–13 May会议；无截止钟点时区。与平台12 January 04:00 -03仍冲突，没有延期说明，保留。",
           "review_method": "runner_text",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
           ],
           "verified_fields": [
             "abstract candidate 2027-01-11 (date only)",
@@ -912,7 +909,7 @@
             "abstract opening 2026-10-12"
           ],
           "review_invalidated_at": "2026-11-10T08:27:31Z",
-          "review_run": 42458558175,
+          "review_run": 43182225030,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
@@ -1012,22 +1009,16 @@
       "changed_at": "2026-11-11T07:46:43Z",
       "checks": {
         "7th-fems-industry-symposium-materials-assisted-by-digital-science": {
-          "review_required": true,
-          "message": "speaker confirmation: Wide Hogenhout in confirmed list vs preliminary Dr Wide slot to be confirmed",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-09T09:05:11.846361+00:00",
-          "reviewed_hash": "e579066b34c63c596b9fd16f18817bfcbb546e17eb711216fe7bb62c2e9875a4",
-          "evidence": "11月3日复核对应附件已空/过期；最早可用11月5日与本轮正文逐行一致，另对照存储字段完整核对。14 January 2027、Fraport-Visitor Center、免费且注册开放，无截止日/截止钟点/时区；节目08:30签到至17:00结束属初步节目钟点，未当截止。两位主席、5位委员会和既存讲者机构相符。名单增加此前漏收Wide Hogenhout（European Commission, DG Research and Innovation）；名单说confirmed，初步节目Dr Wide写to be confirmed，确认状态保留。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "reviewed_hash": "7ae83f0a9ef83f7b2bb77f37ccca0297df672eed817b6919812709a1fc80dd79",
+          "evidence": "与11月10日运行器逐行比对：Dr Wide (to be confirmed)现为Dr. Wide Hogenhout，10:10–10:35 Introductory lecture I，与已确认名单一致，解除确认状态冲突。Andrés Diaz Lantada节目机构增加Mechanical Engineering Department与IMDEA Materials Institute。初步节目改为09:00签到、10:00开场、16:10–16:30总结；保留programme_clock_note，无明示时区，不造精确提醒。14 January 2027、地点、免费注册开放不变，无注册截止。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
-          "review_run": 42582737047,
+          "review_run": 43182225030,
           "review_invalidated_at": "2026-11-11T07:46:43Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
@@ -1116,26 +1107,20 @@
       "changed_at": "2026-11-10T08:27:31Z",
       "checks": {
         "interpore2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
-          "reviewed_hash": "fb601c987d8de173eeea2ad85c083cfc139c75b4f6d075f0894b4f1438c2e589",
-          "evidence": "与上次复核运行41990590073逐行比对：MS19增Valentina Ciriello（University of Bologna）；Solicited Speakers列Luka Tas（Ghent University）、Su Jiang（Carnegie Mellon University）；MS20增Alberto Guadagnini、Philippe Renard、Benoit Noetinger、Tissa Illangasekare及机构，按组织者区块成员记录，不推断各自lead身份。Majid Sedighi机构仅断行变化，赞助标题变更无人员名；无日期/钟点/时区改动。其他来源的摘要冲突继续保留。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "reviewed_hash": "78b8f0b512ee6cd7918f59fc385d85e806f7cbc5aa2229e7ec652f8f25991e47",
+          "evidence": "对照11月9日运行器逐行差异：MS23组织者区块新增Zhibing Yang/Wuhan、Bo Guo/Arizona、Yves Méheust/Rennes、Moran Wang/Tsinghua、Anne Juel/Manchester、Grigori Chapiro/Federal University of Juiz de Fora，逐名登记角色区块和机构，不推断各自lead。其后仅Bronze Sponsor标题，无日期/钟点/时区变更；摘要日期冲突仍属其他来源。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
-          "review_run": 42458558175,
+          "review_run": 43182225030,
           "review_invalidated_at": "2026-11-10T08:27:31Z",
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -1330,26 +1315,20 @@
       "changed_at": "2026-11-12T08:22:37Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
-          "reviewed_hash": "58e20c9549db6d7055348ec175eb84409cfd6113a6774299f624fa3d27706f77",
-          "evidence": "与11月9日正文逐行差异仅Cambridge网站导航项替换；活动6–8 January 2027、摘要23 November、海报/注册16 December、人员角色机构均未变；无新钟点/时区。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "reviewed_hash": "4dc7311e13cca231b7d2dba85d97f8025578396b4601a7d77ac91edfedb934d9",
+          "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-12T08:22:37Z",
-          "review_run": 42782536651,
+          "review_run": 43182225030,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -2549,20 +2528,21 @@
       "changed_at": "2026-11-11T07:46:43Z",
       "checks": {
         "eazc2027": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:32:06+00:00",
-          "reviewed_hash": "123a5e559adcbaf915a293ccd2eaf56d53a1cc49a5209ae73ebc6fcad77f59c3",
-          "evidence": "浏览器本次确认：会议主日程 2027-01-18 至 20，报到 01-17；常规摘要延期 2026-08-31、Recent Reports 11-30、注册 12-31；五个现有主办机构均仍列出。与已有事实相符。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "reviewed_hash": "62fd7827c528a1a55727485e4d1c331168610734ac57c2e03d681b48c88ef0d8",
+          "evidence": "与11月10日逐行差异仅增加Invitation letter for VISA APPLICATION链接；18–20 January 2027、Recent Reports 30 November、注册31 December及既有人员机构未变，无新的截止钟点或时区。",
           "evidence_record": "data/maintenance-review-2026-11-02.json",
           "remaining_transport_issue": "checked",
           "review_invalidated_at": "2026-11-11T07:46:43Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_method": "runner_text",
+          "review_run": 43182225030,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -5692,20 +5672,20 @@
       "fingerprint_version": 2,
       "checks": {
         "materials-2027-magnus": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "c3c531b31ceda8d8db4b672d85dcf1a4744b89b5cf02d5241e87c436f493f591",
-          "evidence": "fetcher 与浏览器文本一致：会议 2027-03-18 至 20，Village Hotel Changi, Singapore + online（hybrid），无起止钟点。首页现写 \"Early-bird registration closes 17 Nov 2026. Abstract submissions (1st round) close 16 Nov 2026.\"，与记录中的 10-29 / 10-31 不同（按 Important Dates 页更新）。科学委员会 7 人可见（De Morais、Channegowda 已在记录中，另有 Nasimuddin、Zaidi、Lutsyk、Grigoryev、Ranganayakulu）；Keynote：Harry Ruda、Channegowda、M G H Zaidi。oral 讲者不作为新增。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "reviewed_hash": "b04955925236df3781edfd2582017c7144c4eb089ed628083bc3449de4e80278",
+          "evidence": "与11月10日运行器逐行比对仅新增Scientific Committee下Kamalkishor G Maniyar，Dr D Y Patil Institute of Technology, India；已登记主办方列名。会议18–20 March 2027、首轮摘要16 Nov、早鸟17 Nov、既存名单未改；本页未新增钟点时区，不覆盖其他已核实来源的23:59 Singapore截止。",
+          "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-12T08:22:37Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 43182225030,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -5797,9 +5777,19 @@
       "fingerprint_version": 2,
       "checks": {
         "materials-2027-magnus": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "review_method": "runner_text",
+          "evidence": "与11月10日运行器逐行比对仅新增Scientific Committee下Kamalkishor G Maniyar，Dr D Y Patil Institute of Technology, India；已登记主办方列名。会议18–20 March 2027、首轮摘要16 Nov、早鸟17 Nov、既存名单未改；本页未新增钟点时区，不覆盖其他已核实来源的23:59 Singapore截止。",
+          "reviewed_hash": "740205dc2f5f8a11c40870b5141898dd1f384d0c194cd7666ba4c2b673a0c84d",
+          "review_run": 43182225030,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "changed_at": "2026-11-12T08:22:37Z"
@@ -5933,12 +5923,12 @@
       "message": "IncompleteRead(8192 bytes read)",
       "checks": {
         "aichemy-annual-conference-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-08T09:12:36.881113+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-12T20:16:34.377415+00:00",
           "review_method": "browser",
-          "evidence": "review_method=browser：官网缓存核对14–15 April 2027，City & Guilds Building, Imperial College London；Registration opening soon、poster call will open soon，截止尚未公布，agenda/speakers TBA。与已存事实一致，无明确钟点/时区；公开API本机单次亦返回17468字节JSON但最新运行器连接关闭，不写hash、不计自动恢复。"
+          "evidence": "review_method=browser：官方浏览器正文新增Speakers区块，逐名核对Heather J. Kulik、Nong Artrith、Rocio Mercado、Nick Warren、Maarten Romain Dobbelaere、Linden Schrecker；页面未附机构或keynote身份，均仅记Announced speaker不猜机构。14–15 April 2027、City & Guilds Building/Imperial College London未改；注册、海报call仍opening soon，截止/钟点/时区未公布。公开API仍连接中断，正文核实不等于日常恢复，不改hash。"
         }
       },
       "changed_at": "2026-11-11T07:46:43Z"
@@ -7685,15 +7675,21 @@
       "checks": {
         "ieee-ssci-2027": {
           "review_required": true,
-          "message": "运行器正文变为CSS/WordPress导出片段，无法从该正文核实日期、截止或人员；主页与CFP的camera-ready日期冲突仍保留。",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
-          "review_method": "browser",
-          "evidence": "运行器匹配hash正文仅含CSS/导出代码，浏览器入口本轮不可读；同活动官方CFP来源仍可读并保留此前日期事实。未写入新reviewed_hash，未替换现有hash。",
+          "message": "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10; camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "review_method": "runner_text",
+          "evidence": "运行器最新正文已恢复为会议正文，与11月9日逐行一致；14–17 February 2027、Gold Coast不变，未新增人员机构或时区。首页主论文仍10 August / 10 September，camera-ready 10 / 17 November；CFP现仅10 August及camera-ready10 November，官方来源不一致，保留冲突。清除此前CSS正文无法复核的技术疑问，不声称截止冲突已解。",
           "remaining_fields": [
-            "homepage runner body is CSS export; camera-ready deadline conflict 2026-11-10 vs 2026-11-17",
-            "final registration deadline unknown",
-            "current homepage people/roles cannot be verified"
+            "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10",
+            "camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10"
+          ],
+          "reviewed_hash": "b87083ca4cf071e12ef19fd752206731dd43ce8300cbe54e4154898c59aa2cac",
+          "review_run": 43182225030,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       }
@@ -7710,8 +7706,22 @@
       "checks": {
         "ieee-ssci-2027": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "message": "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10; camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "review_method": "runner_text",
+          "evidence": "与11月10日逐行差异：主论文10 September被移除，仅剩10 August；增加tutorial proposal 1 October及通知30 October，通知不建提醒。camera-ready仍10 November，与首页17 November冲突；无延期解释、截止钟点或时区，保留所有已存事实的冲突而不推断倒退截止。",
+          "reviewed_hash": "420a7f0404754c26cdc410d336f85c8b039a6b2b9aaf7dbf7932667a7fa53d1a",
+          "review_run": 43182225030,
+          "remaining_fields": [
+            "main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10",
+            "camera-ready deadline: homepage 2026-11-17 vs CFP 2026-11-10"
+          ],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -8221,9 +8231,19 @@
       "changed_at": "2026-11-12T08:22:37Z",
       "checks": {
         "date-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "review_method": "runner_text",
+          "evidence": "与11月10日逐行比较仅Late Breaking Results的Not yet available变为https://softconf.com/date27/LBR/；该通道投稿入口现已公布。其Final Paper仍Sunday, 29 November 2026 AoE (23:59:00 GMT -12)，日期钟点时区均与目录一致；其余日期及人员角色机构未变；录用通知不建提醒节点。",
+          "reviewed_hash": "3f1f0b8aed3c02e0acaf0648e39bb07b1f629e9d88c8ddad34d6142125393f14",
+          "review_run": 43182225030,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "latest_review": {
