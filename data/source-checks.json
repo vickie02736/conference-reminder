@@ -530,20 +530,20 @@
       "changed_at": "2026-11-13T08:01:27Z",
       "checks": {
         "dzt38": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "12e22fb647ff782d162c7f5aa5bb66a49f8c7318da402c238ccd274010f1ae98",
-          "evidence": "fetcher 与浏览器文本一致：会议 2027-03-03 至 05（\"3 - 5 March 2027\"），Universität Leipzig, Campus Jahnallee；口头/海报摘要截止 2026-11-27（\"possible until November 27, 2026\"），无钟点/时区，保持 precision=date；摘要 1–2 页、会议语言英语相符。页面无注册日期（仅说明作者不免注册费），registration 维持 unknown。组委 Al-Naji、Gläser（Leipzig University），4 位 plenary（Dusselier KU Leuven、Fechler Evonik、Vilé PoliMi、Ettlinger TU München）均与记录一致。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "reviewed_hash": "743fa685f8e6bb887600e1cf0d51d297c055710c2c4fd6503a62ae30bebec9b3",
+          "evidence": "与11月12日逐行差异仅Bronze Sponsor / Chemiewerk Bad Köstritz GmbH及企业介绍。补对完整关联事实：3–5 March 2027、Leipzig Campus Jahnallee，原文“submission ... possible until November 27, 2026”；无钟点时区，注册截止未公布。Majd Al-Naji、Roger Gläser均Leipzig University，四位plenary Dusselier/KU Leuven、Fechler/Evonik、Vilé/PoliMi、Ettlinger/TU München与现存数据相符。赞助身份不当成主办方。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-13T08:01:27Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 43571935314,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -1295,21 +1295,20 @@
       "changed_at": "2026-11-14T07:39:59Z",
       "checks": {
         "metfoam2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-07T08:59:04.820359+00:00",
-          "reviewed_hash": "55cab0620fcd1aaa004111514cff522e698afe43ac98f16e304194af41504c00",
-          "evidence": "官方新增登记意向说明明确：This form is an expression of interest only；不确认注册、不预留名额、不收款，Industry Day 无单独票。摘要仍30 November 2026，早鸟31 January 2027，常规31 May 2027；旧€50优惠说明已从当前正文移除，历史10月31日节点保留审计。新增旅游介绍无新截止。既有人员角色及机构逐行未变，未猜测钟点时区。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "reviewed_hash": "929626c22c4c8ef0cb8ca3026676529650c1a12c5e2a7ac1695c2279073e99ca",
+          "evidence": "与11月12日逐行比对Ambassadors新增“Samer M. Darwich / Novaris-Metals, Jordan”和“Vinodkumar Gs / SRM University, India”；Christian Heineman现作Christian Hannemann / Fraunhofer IWU。完整核实该区块8人仅为大使，非受邀讲者/到场确认。摘要30 November 2026、早鸟31 January 2027、常规31 May、会议14–17 June均未改，register interest仍不代表注册，无截止钟点时区；其他已存委员会机构相符。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-14T07:39:59Z",
-          "review_run": 42350237668,
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 43571935314,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -1347,26 +1346,20 @@
       "changed_at": "2026-11-14T07:39:59Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
-          "reviewed_hash": "4dc7311e13cca231b7d2dba85d97f8025578396b4601a7d77ac91edfedb934d9",
-          "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "reviewed_hash": "ea58e5eb49775b7c91d6ed6eff9adcaef07caeaa09d17851947c0ee73bc3b5b2",
+          "evidence": "与11月12日逐行差异仅Cambridge Zero、Events、Language Endangerment等全站导航，活动6–8 January 2027、口头摘要23 November、海报/注册16 December、人员角色机构无变化；未公布截止钟点时区。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-14T07:39:59Z",
-          "review_run": 43182225030,
+          "review_run": 43571935314,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -2252,26 +2245,20 @@
       "changed_at": "2026-11-14T07:39:59Z",
       "checks": {
         "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
-          "reviewed_hash": "49406ea84ce3ab7071a608a96a6e6fad4e8c1c6b5a6971cd277c01030e0f0db2",
-          "evidence": "与11月9日运行器正文逐行比较：新增Tatiana MOROZOVA（CNRS/ENS Lyon, France），列为Confirmed invited speaker，报告题目为“From single chains to biomolecular condensates: explicit-solvent coarse-grained modeling with martini 3”；其余日期11–14 January 2027、注册截止15 November 2026、既有人员/机构未变。没有新的钟点/时区或投稿截止；签证通知12月1日属录用通知，不建提醒节点。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "reviewed_hash": "806bc9d36215f6bfc200072d6ba5238a837c90223bdd5e60c18bbc81aa907221",
+          "evidence": "与11月12日运行器逐行差异仅Confirmed invited speakers新增“Alessandro BARDUCCI / INSERM (FR) / TBA”，登记确认受邀讲者，讲题未定。会议11–14 January 2027、注册15 November 2026及其余人员角色机构未改；没有新增钟点时区，通知不建提醒。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-14T07:39:59Z",
-          "review_run": 42782536651,
+          "review_run": 43571935314,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -5730,26 +5717,20 @@
       "fingerprint_version": 2,
       "checks": {
         "materials-2027-magnus": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
-          "reviewed_hash": "b04955925236df3781edfd2582017c7144c4eb089ed628083bc3449de4e80278",
-          "evidence": "与11月10日运行器逐行比对仅新增Scientific Committee下Kamalkishor G Maniyar，Dr D Y Patil Institute of Technology, India；已登记主办方列名。会议18–20 March 2027、首轮摘要16 Nov、早鸟17 Nov、既存名单未改；本页未新增钟点时区，不覆盖其他已核实来源的23:59 Singapore截止。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "reviewed_hash": "4a41074d3ef545afb63e8c3faa2db75a073c22d9da30e87c0420c70b2e6ddfae",
+          "evidence": "与11月12日运行器逐行差异仅Wei Wang/Chang’an University报告区块及Vasily Lutsyk/Institute of Physical Materials Science (SB RAS)委员会区块排序移动，完整姓名/角色/机构和报告题目未改。18–20 March 2027、摘要16 November及早鸟17 November不变；无新截止钟点或时区，不覆盖其他已核实来源。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-13T08:01:27Z",
-          "review_run": 43182225030,
+          "review_run": 43571935314,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -5841,26 +5822,20 @@
       "fingerprint_version": 2,
       "checks": {
         "materials-2027-magnus": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
           "review_method": "runner_text",
-          "evidence": "与11月10日运行器逐行比对仅新增Scientific Committee下Kamalkishor G Maniyar，Dr D Y Patil Institute of Technology, India；已登记主办方列名。会议18–20 March 2027、首轮摘要16 Nov、早鸟17 Nov、既存名单未改；本页未新增钟点时区，不覆盖其他已核实来源的23:59 Singapore截止。",
-          "reviewed_hash": "740205dc2f5f8a11c40870b5141898dd1f384d0c194cd7666ba4c2b673a0c84d",
-          "review_run": 43182225030,
+          "evidence": "与11月12日运行器逐行差异仅Wei Wang/Chang’an University报告区块及Vasily Lutsyk/Institute of Physical Materials Science (SB RAS)委员会区块排序移动，完整姓名/角色/机构和报告题目未改。18–20 March 2027、摘要16 November及早鸟17 November不变；无新截止钟点或时区，不覆盖其他已核实来源。",
+          "reviewed_hash": "bd2d414d47d99b3067c28f2fa7cdee89cfa9f9d19ae41056c3b1958665ddb34b",
+          "review_run": 43571935314,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_invalidated_at": "2026-11-13T08:01:27Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_invalidated_at": "2026-11-13T08:01:27Z"
         }
       },
       "changed_at": "2026-11-13T08:01:27Z"
@@ -8005,8 +7980,21 @@
       "checks": {
         "materials-science-engineering-2027-coalesce": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "message": "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026",
+          "reason": "content_conflict",
+          "reviewed_hash": "b4f9178834194196cb9d5f5eb2ea12d1ed6c66bcf5bcc95d7c58f946f7d78e64",
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "review_method": "runner_text",
+          "review_run": 43571935314,
+          "evidence": "与11月12日逐行差异仅推广推文及发布时间；首次完整核对：原文“Event on: April | 29-30 | 2027”、welcome也2027，但往届回顾称下届“April 29-30, 2026”，无官方更正，保留年份冲突。摘要17 November 2026、早鸟19 November无钟点时区，Coalesce Research Group为主办方，酒店为官网公布未独立确认；Organizing Committee四名及机构已逐项登记，往届讲者不导入2027。",
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ],
+          "remaining_fields": [
+            "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
+          ]
         }
       }
     },
@@ -8316,13 +8304,13 @@
       "checks": {
         "date-2027": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
+          "message": "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
           "review_method": "runner_text",
-          "evidence": "与11月10日逐行比较仅Late Breaking Results的Not yet available变为https://softconf.com/date27/LBR/；该通道投稿入口现已公布。其Final Paper仍Sunday, 29 November 2026 AoE (23:59:00 GMT -12)，日期钟点时区均与目录一致；其余日期及人员角色机构未变；录用通知不建提醒节点。",
-          "reviewed_hash": "3f1f0b8aed3c02e0acaf0648e39bb07b1f629e9d88c8ddad34d6142125393f14",
-          "review_run": 43182225030,
+          "evidence": "与11月12日逐行差异：各日期行由“AoE (23:59:00 GMT -12)”改为“AoE (23:59:59 GMT -12)”，页尾仍“all deadline days ... AoE (23:59:00 GMT -12)”；日期及GMT-12一致但精确秒冲突，不替官方选择。保留日期/时区及两种秒候选，相关节点标conflict；LBR入口已公布纠正旧note，通知日期不建提醒，机构无差异。",
+          "reviewed_hash": "d3d2c68dc299049912d3c0d64c193c54b2e1574b70e8984fd2312854185d8874",
+          "review_run": 43571935314,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
@@ -8330,10 +8318,7 @@
           ],
           "review_invalidated_at": "2026-11-13T08:01:27Z",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12"
           ]
         }
       },

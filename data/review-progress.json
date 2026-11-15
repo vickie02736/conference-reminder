@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-11-14",
-  "remaining_count": 103,
-  "remaining_source_count": 99,
+  "as_of": "2026-11-15",
+  "remaining_count": 97,
+  "remaining_source_count": 93,
   "queue": [
     {
       "source": "https://www.esat2027.com/speakers/",
@@ -16,6 +16,18 @@
       ]
     },
     {
+      "source": "https://materialscienceconferences.com/",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "reason": "content_conflict",
+      "message": "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026",
+      "content_hash": "b4f9178834194196cb9d5f5eb2ea12d1ed6c66bcf5bcc95d7c58f946f7d78e64",
+      "priority": 0,
+      "next_deadline": "2026-11-17",
+      "remaining_fields": [
+        "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
+      ]
+    },
+    {
       "source": "https://spring2027.camml.ac.uk/about/",
       "event_id": "camml2027",
       "reason": "content_conflict",
@@ -26,6 +38,18 @@
       "remaining_fields": [
         "accommodation nights: PSDI 4 vs about 5",
         "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
+      ]
+    },
+    {
+      "source": "https://www.date-conference.com/call-for-papers",
+      "event_id": "date-2027",
+      "reason": "content_conflict",
+      "message": "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12",
+      "content_hash": "d3d2c68dc299049912d3c0d64c193c54b2e1574b70e8984fd2312854185d8874",
+      "priority": 0,
+      "next_deadline": "2026-11-29",
+      "remaining_fields": [
+        "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12"
       ]
     },
     {
@@ -247,111 +271,6 @@
       ]
     },
     {
-      "source": "https://www.cecam.org/workshop-details/1272",
-      "event_id": "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "806bc9d36215f6bfc200072d6ba5238a837c90223bdd5e60c18bbc81aa907221",
-      "priority": 1,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "4a41074d3ef545afb63e8c3faa2db75a073c22d9da30e87c0420c70b2e6ddfae",
-      "priority": 1,
-      "next_deadline": "2026-11-16",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/scientific-committee/2027",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "bd2d414d47d99b3067c28f2fa7cdee89cfa9f9d19ae41056c3b1958665ddb34b",
-      "priority": 1,
-      "next_deadline": "2026-11-16",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://materialscienceconferences.com/",
-      "event_id": "materials-science-engineering-2027-coalesce",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "b4f9178834194196cb9d5f5eb2ea12d1ed6c66bcf5bcc95d7c58f946f7d78e64",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "ea58e5eb49775b7c91d6ed6eff9adcaef07caeaa09d17851947c0ee73bc3b5b2",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://dechema.de/en/dzt38.html",
-      "event_id": "dzt38",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "743fa685f8e6bb887600e1cf0d51d297c055710c2c4fd6503a62ae30bebec9b3",
-      "priority": 1,
-      "next_deadline": "2026-11-27",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.date-conference.com/call-for-papers",
-      "event_id": "date-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "d3d2c68dc299049912d3c0d64c193c54b2e1574b70e8984fd2312854185d8874",
-      "priority": 1,
-      "next_deadline": "2026-11-29",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
       "event_id": "agsaiml-2027",
       "reason": "content_changed",
@@ -367,13 +286,28 @@
       ]
     },
     {
-      "source": "https://metfoam2027.com/",
-      "event_id": "metfoam2027",
+      "source": "https://www.chem.iitb.ac.in/ibs2027/",
+      "event_id": "ibs-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "929626c22c4c8ef0cb8ca3026676529650c1a12c5e2a7ac1695c2279073e99ca",
+      "content_hash": "a5f358b7a1347e2aeae42cbce732ceeba0103dd5299277516758e1b5fa518829",
       "priority": 1,
-      "next_deadline": "2026-11-30",
+      "next_deadline": "2026-12-15",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
+      "event_id": "ibs-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
+      "priority": 1,
+      "next_deadline": "2026-12-15",
       "remaining_fields": [
         "dates",
         "times",
@@ -928,36 +862,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "97206e421591ff723ea1cc3e31198005fc86769d459f69687bb2f2b3a7b2647b",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chem.iitb.ac.in/ibs2027/",
-      "event_id": "ibs-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "a5f358b7a1347e2aeae42cbce732ceeba0103dd5299277516758e1b5fa518829",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
-      "event_id": "ibs-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1895,29 +1799,25 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-12T22:15:44.587211+00:00",
-    "report": "data/heartbeat-review-2026-11-12.json",
-    "previous_review_date": "2026-11-10",
-    "previous_remaining": 78,
+    "at": "2026-11-15T00:03:53.254924+00:00",
+    "report": "data/heartbeat-review-2026-11-15.json",
+    "previous_remaining": 87,
     "daily_new": 17,
-    "daily_removed": 0,
-    "started": 95,
+    "daily_removed": 1,
+    "started": 103,
     "batch_new": 0,
-    "resolved": 8,
-    "additional_nonqueue_review": 1,
-    "partial": 3,
-    "remaining": 87,
-    "remaining_sources": 83,
-    "active_transport": 34,
-    "active_transport_statuses": {
-      "unverifiable": 32,
-      "failed": 2
-    },
-    "covered_transport": 2,
-    "all_transport_attempted": 36,
-    "new_or_recurrent_failure_since_previous_review": 5,
+    "resolved": 6,
+    "partial": 2,
+    "remaining": 97,
+    "remaining_sources": 93,
+    "active_transport": 40,
+    "covered_transport": 3,
+    "all_transport_attempted": 43,
+    "new_or_recurrent_failures_since_nov12": 14,
+    "active_new_failures": 11,
     "stable_original_restored": 0,
-    "active_with_runner_alternative": 12,
+    "successful_observations_not_stable": 3,
+    "active_with_runner_alternative": 11,
     "historical_replaced": 12
   }
 }

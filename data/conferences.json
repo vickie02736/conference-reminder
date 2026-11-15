@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-14T07:39:59Z",
-    "last_updated_at": "2026-11-12T20:16:34.377415+00:00",
+    "last_updated_at": "2026-11-15T00:01:48.589020+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1900,13 +1900,13 @@
       ],
       "url": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "priority": 2,
-      "verified_on": "2026-11-12",
+      "verified_on": "2026-11-15",
       "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-14T07:39:59Z",
-        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7625 bytes read)"
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-15T00:01:48.589020+00:00",
+        "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7625 bytes read)"
       },
       "milestones": [
         {
@@ -5722,13 +5722,13 @@
       ],
       "url": "https://www.cecam.org/workshop-details/1272",
       "priority": 3,
-      "verified_on": "2026-11-10",
+      "verified_on": "2026-11-15",
       "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; changed prose requires an Abstracts submission but dates, venue, organizers and speaker roster are unchanged.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-14T07:39:59Z",
-        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
-        "message": "https://www.cecam.org/workshop-details/1272: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-15T00:01:48.589020+00:00",
+        "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -5901,10 +5901,16 @@
             "affiliation": "CNRS/ENS Lyon (FR)",
             "role": "Confirmed invited speaker",
             "source": "https://www.cecam.org/workshop-details/1272"
+          },
+          {
+            "name": "Alessandro Barducci",
+            "affiliation": "INSERM, France",
+            "role": "Confirmed invited speaker",
+            "source": "https://www.cecam.org/workshop-details/1272"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-10",
+        "checked_on": "2026-11-15",
         "status": "published",
         "note": "Organisers and selected confirmed invited speakers from the CECAM workshop page; this is not the full participant list.",
         "sources": [
@@ -6712,13 +6718,13 @@
       ],
       "url": "https://dechema.de/en/dzt38.html",
       "priority": 1,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-15",
       "evidence": "The DECHEMA organiser page gives 3–5 March, the 27 November deadline and porous-materials theory/adsorption topics.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-14T07:39:59Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://dechema.de/en/dzt38.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-15T00:01:48.589020+00:00",
+        "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -8495,13 +8501,13 @@
       ],
       "url": "https://metfoam2027.com/",
       "priority": 3,
-      "verified_on": "2026-11-07",
+      "verified_on": "2026-11-15",
       "evidence": "Runner 42350237668: “This form is an expression of interest only.” Registration enquiry and abstract submission are separate; former discount wording has been removed from the current page, without deleting the historical milestone.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-14T07:39:59Z",
-        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
-        "message": "https://metfoam2027.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-15T00:01:48.589020+00:00",
+        "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -8675,11 +8681,59 @@
             "role": "International advisory board",
             "source": "https://metfoam2027.com/",
             "affiliation": "Hohai University"
+          },
+          {
+            "name": "Maxim Cherny",
+            "affiliation": "Alupor, Russia",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
+          },
+          {
+            "name": "Christian Hannemann",
+            "affiliation": "Fraunhofer IWU, Germany",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
+          },
+          {
+            "name": "Juliane Hüttl",
+            "affiliation": "Fraunhofer IFAM, Dresden, Germany",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
+          },
+          {
+            "name": "Chen Ming",
+            "affiliation": "Tsinghua University, China",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
+          },
+          {
+            "name": "Takamatsu Satomi",
+            "affiliation": "Chiba Institute of Technology, Japan",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
+          },
+          {
+            "name": "Ningzhen Wang",
+            "affiliation": "Beijing Forestry University, Beijing, China",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
+          },
+          {
+            "name": "Samer M. Darwich",
+            "affiliation": "Novaris-Metals, Jordan",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
+          },
+          {
+            "name": "Vinodkumar Gs",
+            "affiliation": "SRM University, India",
+            "role": "Ambassador listed by the organizer; attendance not confirmed",
+            "source": "https://metfoam2027.com/"
           }
         ],
         "speakers": [],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-15",
         "status": "published",
         "note": "Published 2027 general chair, local organising member and international advisory board. Advisory roles do not by themselves confirm attendance; invited speakers were not found in the reviewed page.",
         "sources": [
@@ -17672,13 +17726,13 @@
       ],
       "url": "https://magnusconferences.com/materials-science/",
       "priority": 2,
-      "verified_on": "2026-11-12",
+      "verified_on": "2026-11-15",
       "evidence": "The organiser’s conference, track and Important Dates pages confirm 18–20 March 2027 at Village Hotel Changi plus online participation, three abstract rounds and Singapore-time cutoffs.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-14T07:39:59Z",
-        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
-        "message": "https://magnusconferences.com/materials-science/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://magnusconferences.com/materials-science/scientific-committee/2027: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-15T00:01:48.589020+00:00",
+        "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -21934,9 +21988,9 @@
       "location": "Dresden, Germany",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "Research abstracts: 2026-09-13 23:59 Etc/GMT+12; Research papers: 2026-09-20 23:59 Etc/GMT+12; Late Breaking Results papers: 2026-11-29 23:59 Etc/GMT+12; PhD Forum submissions: 2026-11-30 23:59 Etc/GMT+12",
+      "deadline": "Research abstracts: 2026-09-13; Research papers: 2026-09-20; Late Breaking Results: 2026-11-29; PhD Forum: 2026-11-30. AoE GMT-12; exact cutoff seconds conflict (23:59:00 / 23:59:59).",
       "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
-      "note": "AI hardware and AI-assisted electronic design; less directly related to materials or chemistry. K.I.T. Group handles conference logistics. The Late Breaking Results link was still marked not yet available; a cutoff does not confirm an open submission platform.",
+      "note": "Late Breaking Results submission link is published: https://softconf.com/date27/LBR/. Official cutoff seconds conflict: dated rows now 23:59:59 GMT -12, footer still 23:59:00 GMT -12; day and AoE zone agree. Registration cutoff remains unpublished.",
       "sources": [
         "https://www.date-conference.com/call-for-papers"
       ],
@@ -21946,9 +22000,9 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-14T07:39:59Z",
+        "last_checked_at": "2026-11-15T00:01:48.589020+00:00",
         "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
-        "message": "https://www.date-conference.com/call-for-papers: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://www.date-conference.com/call-for-papers: deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12"
       },
       "milestones": [
         {
@@ -21979,55 +22033,71 @@
         },
         {
           "id": "date-2027:abstract-2",
-          "version": 1,
+          "version": 2,
           "kind": "abstract",
           "label": "Research abstracts",
           "date": "2026-09-13",
-          "time": "23:59",
+          "time": null,
           "timezone": "Etc/GMT+12",
           "source": "https://www.date-conference.com/call-for-papers",
-          "precision": "datetime",
-          "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+          "precision": "date",
+          "status": "conflict",
+          "evidence": "Dated deadline rows: AoE (23:59:59 GMT -12); footer: AoE (23:59:00 GMT -12). Date and zone agree; exact seconds unresolved.",
+          "cutoff_time_candidates": [
+            "23:59:00",
+            "23:59:59"
+          ]
         },
         {
           "id": "date-2027:paper-3",
-          "version": 1,
+          "version": 2,
           "kind": "paper",
           "label": "Research papers",
           "date": "2026-09-20",
-          "time": "23:59",
+          "time": null,
           "timezone": "Etc/GMT+12",
           "source": "https://www.date-conference.com/call-for-papers",
-          "precision": "datetime",
-          "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+          "precision": "date",
+          "status": "conflict",
+          "evidence": "Dated deadline rows: AoE (23:59:59 GMT -12); footer: AoE (23:59:00 GMT -12). Date and zone agree; exact seconds unresolved.",
+          "cutoff_time_candidates": [
+            "23:59:00",
+            "23:59:59"
+          ]
         },
         {
           "id": "date-2027:paper-4",
-          "version": 1,
+          "version": 2,
           "kind": "paper",
           "label": "Late Breaking Results papers",
           "date": "2026-11-29",
-          "time": "23:59",
+          "time": null,
           "timezone": "Etc/GMT+12",
           "source": "https://www.date-conference.com/call-for-papers",
-          "precision": "datetime",
-          "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+          "precision": "date",
+          "status": "conflict",
+          "evidence": "Dated deadline rows: AoE (23:59:59 GMT -12); footer: AoE (23:59:00 GMT -12). Date and zone agree; exact seconds unresolved.",
+          "cutoff_time_candidates": [
+            "23:59:00",
+            "23:59:59"
+          ]
         },
         {
           "id": "date-2027:application-5",
-          "version": 1,
+          "version": 2,
           "kind": "application",
           "label": "PhD Forum submissions",
           "date": "2026-11-30",
-          "time": "23:59",
+          "time": null,
           "timezone": "Etc/GMT+12",
           "source": "https://www.date-conference.com/call-for-papers",
-          "precision": "datetime",
-          "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date and cutoff time."
+          "precision": "date",
+          "status": "conflict",
+          "evidence": "Dated deadline rows: AoE (23:59:59 GMT -12); footer: AoE (23:59:00 GMT -12). Date and zone agree; exact seconds unresolved.",
+          "cutoff_time_candidates": [
+            "23:59:00",
+            "23:59:59"
+          ]
         },
         {
           "id": "date-2027:registration",
@@ -24013,12 +24083,12 @@
       "start": "2027-04-29",
       "end": "2027-04-30",
       "date": "2027-04-29 — 2027-04-30",
-      "location": "Paris, France",
+      "location": "Millennium Hotel Paris Charles De Gaulle, Paris, France (organizer-listed venue)",
       "region": "Europe",
       "type": "Conference",
       "deadline": "Abstract submission: 2026-11-17; Early-bird registration: 2026-11-19",
       "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
-      "note": "Commercial materials science and engineering conference. This is distinct from Magnus Materials 2027 and SRC Materials Science 2027. The specific venue and academic roster have not been independently confirmed.",
+      "note": "Commercial materials science and engineering conference. This is distinct from Magnus Materials 2027 and SRC Materials Science 2027. The specific venue and academic roster have not been independently confirmed. Current header and welcome message say April 29–30, 2027; past-edition recap announces April 29–30, 2026. Official year conflict remains unresolved; venue is an organizer claim.",
       "sources": [
         "https://materialscienceconferences.com/"
       ],
@@ -24028,14 +24098,14 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-14T07:39:59Z",
+        "last_checked_at": "2026-11-15T00:01:48.589020+00:00",
         "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://materialscienceconferences.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://materialscienceconferences.com/: conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
       },
       "milestones": [
         {
           "id": "materials-science-engineering-2027-coalesce:conference-start",
-          "version": 1,
+          "version": 2,
           "kind": "conference_start",
           "label": "Conference starts",
           "date": "2027-04-29",
@@ -24043,12 +24113,16 @@
           "timezone": null,
           "source": "https://materialscienceconferences.com/",
           "precision": "date",
-          "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "status": "conflict",
+          "evidence": "Header/welcome: April 29–30, 2027; past-edition recap announces next event April 29–30, 2026. No official correction.",
+          "candidates": [
+            "2027-04-29",
+            "2026-04-29"
+          ]
         },
         {
           "id": "materials-science-engineering-2027-coalesce:conference-end",
-          "version": 1,
+          "version": 2,
           "kind": "conference_end",
           "label": "Conference ends",
           "date": "2027-04-30",
@@ -24056,8 +24130,12 @@
           "timezone": null,
           "source": "https://materialscienceconferences.com/",
           "precision": "date",
-          "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "status": "conflict",
+          "evidence": "Header/welcome: April 29–30, 2027; past-edition recap announces next event April 29–30, 2026. No official correction.",
+          "candidates": [
+            "2027-04-30",
+            "2026-04-30"
+          ]
         },
         {
           "id": "materials-science-engineering-2027-coalesce:abstract-2",
@@ -24107,10 +24185,35 @@
             "source": "https://materialscienceconferences.com/"
           }
         ],
-        "committee": [],
+        "committee": [
+          {
+            "name": "Yesim Gucbilmez",
+            "affiliation": "Eskisehir Technical University, Turkey",
+            "role": "Organizing committee member listed by the organizer",
+            "source": "https://materialscienceconferences.com/"
+          },
+          {
+            "name": "Iwona Płowaś-Korus",
+            "affiliation": "Institute of Molecular Physics Polish Academy of Sciences, Poland",
+            "role": "Organizing committee member listed by the organizer",
+            "source": "https://materialscienceconferences.com/"
+          },
+          {
+            "name": "Win long Chia",
+            "affiliation": "Fu Jen Catholic University, Taiwan",
+            "role": "Organizing committee member listed by the organizer",
+            "source": "https://materialscienceconferences.com/"
+          },
+          {
+            "name": "Nida Naveed",
+            "affiliation": "University of Sunderland, United Kingdom",
+            "role": "Organizing committee member listed by the organizer",
+            "source": "https://materialscienceconferences.com/"
+          }
+        ],
         "speakers": [],
         "participants": [],
-        "checked_on": "2026-11-03",
+        "checked_on": "2026-11-15",
         "status": "published",
         "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted.",
         "sources": [
@@ -26707,6 +26810,188 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "16th International Conference on Materials Science & Engineering 2027",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "field": "people.committee",
+      "added": {
+        "name": "Nida Naveed",
+        "affiliation": "University of Sunderland, United Kingdom",
+        "role": "Organizing committee member listed by the organizer",
+        "source": "https://materialscienceconferences.com/"
+      },
+      "source": "https://materialscienceconferences.com/",
+      "evidence": "Nida Naveed / University of Sunderland, United Kingdom / Organizing committee member listed by the organizer"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "16th International Conference on Materials Science & Engineering 2027",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "field": "people.committee",
+      "added": {
+        "name": "Win long Chia",
+        "affiliation": "Fu Jen Catholic University, Taiwan",
+        "role": "Organizing committee member listed by the organizer",
+        "source": "https://materialscienceconferences.com/"
+      },
+      "source": "https://materialscienceconferences.com/",
+      "evidence": "Win long Chia / Fu Jen Catholic University, Taiwan / Organizing committee member listed by the organizer"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "16th International Conference on Materials Science & Engineering 2027",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "field": "people.committee",
+      "added": {
+        "name": "Iwona Płowaś-Korus",
+        "affiliation": "Institute of Molecular Physics Polish Academy of Sciences, Poland",
+        "role": "Organizing committee member listed by the organizer",
+        "source": "https://materialscienceconferences.com/"
+      },
+      "source": "https://materialscienceconferences.com/",
+      "evidence": "Iwona Płowaś-Korus / Institute of Molecular Physics Polish Academy of Sciences, Poland / Organizing committee member listed by the organizer"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "16th International Conference on Materials Science & Engineering 2027",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "field": "people.committee",
+      "added": {
+        "name": "Yesim Gucbilmez",
+        "affiliation": "Eskisehir Technical University, Turkey",
+        "role": "Organizing committee member listed by the organizer",
+        "source": "https://materialscienceconferences.com/"
+      },
+      "source": "https://materialscienceconferences.com/",
+      "evidence": "Yesim Gucbilmez / Eskisehir Technical University, Turkey / Organizing committee member listed by the organizer"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Vinodkumar Gs",
+        "affiliation": "SRM University, India",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Vinodkumar Gs / SRM University, India / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Samer M. Darwich",
+        "affiliation": "Novaris-Metals, Jordan",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Samer M. Darwich / Novaris-Metals, Jordan / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Ningzhen Wang",
+        "affiliation": "Beijing Forestry University, Beijing, China",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Ningzhen Wang / Beijing Forestry University, Beijing, China / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Takamatsu Satomi",
+        "affiliation": "Chiba Institute of Technology, Japan",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Takamatsu Satomi / Chiba Institute of Technology, Japan / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Chen Ming",
+        "affiliation": "Tsinghua University, China",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Chen Ming / Tsinghua University, China / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Juliane Hüttl",
+        "affiliation": "Fraunhofer IFAM, Dresden, Germany",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Juliane Hüttl / Fraunhofer IFAM, Dresden, Germany / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Christian Hannemann",
+        "affiliation": "Fraunhofer IWU, Germany",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Christian Hannemann / Fraunhofer IWU, Germany / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "MetFoam2027",
+      "event_id": "metfoam2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Maxim Cherny",
+        "affiliation": "Alupor, Russia",
+        "role": "Ambassador listed by the organizer; attendance not confirmed",
+        "source": "https://metfoam2027.com/"
+      },
+      "source": "https://metfoam2027.com/",
+      "evidence": "Maxim Cherny / Alupor, Russia / Ambassador listed by the organizer; attendance not confirmed"
+    },
+    {
+      "at": "2026-11-15T00:01:48.589020+00:00",
+      "event_name": "Theory and simulation of biomolecular phase separation and aggregation",
+      "event_id": "theory-and-simulation-of-biomolecular-phase-separation-and-aggregation",
+      "field": "people.speakers",
+      "added": {
+        "name": "Alessandro Barducci",
+        "affiliation": "INSERM, France",
+        "role": "Confirmed invited speaker",
+        "source": "https://www.cecam.org/workshop-details/1272"
+      },
+      "source": "https://www.cecam.org/workshop-details/1272",
+      "evidence": "Alessandro Barducci / INSERM, France / Confirmed invited speaker"
+    },
     {
       "at": "2026-11-12T20:16:34.377415+00:00",
       "event_name": "AIchemy Annual Conference 2027",

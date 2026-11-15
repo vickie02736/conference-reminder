@@ -12,7 +12,8 @@ const today = '2026-10-27', now = Date.parse('2026-10-27T18:00:00Z');
 
 function expectedResultCount(data, europeOnly = false) {
   const visible = event => (!event.end || event.end >= today) && (!europeOnly || core.hasEuropeanSite(event));
-  const scheduled = data.events.filter(visible).length, pending = data.watchlist.filter(visible).length;
+  const scheduled = data.events.filter(event => visible(event) && !event.milestones.some(node => node.kind === 'conference_start' && node.status === 'conflict')).length;
+  const pending = [...data.events, ...data.watchlist].filter(visible).length - scheduled;
   return `${scheduled} scheduled · ${pending} ${pending === 1 ? 'date' : 'dates'} pending / unconfirmed`;
 }
 
@@ -60,7 +61,8 @@ async function harness({ delayed = false, failed = false, data = catalogue, sear
 
 test('global totals and provisional cards use the same scheduled/watchlist classification', async () => {
   const h = await harness(); h.set('region', 'all');
-  assert.deepEqual([...h.elements.get('catalogue-stats').innerHTML.matchAll(/<b>(\d+)<\/b>/g)].map((m) => Number(m[1])), [catalogue.events.length, catalogue.events.filter(e => e.region === 'UK').length, catalogue.events.filter(e => e.region === 'Europe').length, catalogue.watchlist.length]);
+  const scheduled = catalogue.events.filter(event => !event.milestones.some(node => node.kind === 'conference_start' && node.status === 'conflict'));
+  assert.deepEqual([...h.elements.get('catalogue-stats').innerHTML.matchAll(/<b>(\d+)<\/b>/g)].map((m) => Number(m[1])), [scheduled.length, scheduled.filter(e => e.region === 'UK').length, scheduled.filter(e => e.region === 'Europe').length, catalogue.events.length + catalogue.watchlist.length - scheduled.length]);
   assert.equal(h.elements.get('result-count').textContent, expectedResultCount(catalogue));
   for (const event of catalogue.watchlist) {
     const card = h.list().match(new RegExp('<article[^>]*id="event-' + event.id + '"[\\s\\S]*?<\\/article>'))?.[0];
