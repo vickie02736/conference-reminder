@@ -365,7 +365,7 @@
       "event_id": "advanced-materials-world-congress-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "ba6bbd16ca1eb9bf0f526ecfb82cb3230cebf3948b4a1a84f88417b9c78cc102",
+      "content_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -531,7 +531,7 @@
       "event_id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "0e9eef6106883109edac9c3a0550f0c16fa5f4176fcd660c9fd034ee9b0e64f5",
+      "content_hash": "421358b5b595cf9f1513662607a4e1d9db1a75ba7e296e2e549010ddd52fd4ac",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -576,7 +576,7 @@
       "event_id": "biomolecular-dynamics-berlin-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "4ce53625feba8c729c41f38e3360b12b34c9abdac008725913c4f2aeae4edf31",
+      "content_hash": "0a71e894637d1daf8f487a66bd8fa7b04eb15d3f1d7abfffe1eba88bee5db67f",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -606,7 +606,7 @@
       "event_id": "bps-protons-in-biology-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "718d1610fd6012f88ded6087f8503e77ebf5b87811e2db0a4b981b0ecfe90975",
+      "content_hash": "643fbd8fcb65c6a06c2e1b0df228fbbd2a88218095f0591717795c9ce474aa84",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1095,7 +1095,7 @@
       "event_id": "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "4feca1b8a994009be1eb3be7795d1f0bded93c3e98266295c7818e22c69392b4",
+      "content_hash": "bd86c4432932d5957922818abf51bbb9525138723ac4d84e80136cf438056dd8",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1406,6 +1406,11 @@
   ],
   "active_transport_issues": [
     {
+      "source": "https://advancedmaterialsshow.com/full-conference/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
       "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
       "status": "unverifiable",
       "reason": "IncompleteRead(15940 bytes read)"
@@ -1423,12 +1428,37 @@
     {
       "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
       "status": "unverifiable",
-      "reason": "IncompleteRead(8192 bytes read)"
+      "reason": "IncompleteRead(22672 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
       "status": "unverifiable",
-      "reason": "IncompleteRead(8192 bytes read)"
+      "reason": "IncompleteRead(14691 bytes read)"
+    },
+    {
+      "source": "https://aicmsn2027.synergiasummits.com/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://aicmsn2027.synergiasummits.com/abstract",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://aicmsn2027.synergiasummits.com/committee",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://aicmsn2027.synergiasummits.com/register",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://aicmsn2027.synergiasummits.com/venue",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://attend.ieee.org/ssci-2027/",
@@ -1437,6 +1467,11 @@
     },
     {
       "source": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://blog.iclr.cc/2026/09/02/submission-policies-for-iclr-2027/",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
     },
@@ -1451,19 +1486,24 @@
       "reason": "HTTP Error 403: Forbidden"
     },
     {
-      "source": "https://cqe.tecnico.ulisboa.pt/cqe-researchers-organize-the-xiii-encmp-and-iv-rgc/",
-      "status": "failed",
-      "reason": "HTTP Error 503: Service Unavailable"
-    },
-    {
       "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
     },
     {
+      "source": "https://event-partners.com/our-shows/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
       "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
       "status": "unverifiable",
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+    },
+    {
+      "source": "https://mofs.lakecomoschool.org/",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
@@ -1489,6 +1529,21 @@
       "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
       "status": "unverifiable",
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>"
+    },
+    {
+      "source": "https://www.dpg-physik.de/aktivitaeten-und-programme/programme/bad-honnef-physics-schools",
+      "status": "failed",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials",
+      "status": "failed",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en",
+      "status": "failed",
+      "reason": "HTTP Error 503: Service Unavailable"
     },
     {
       "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
@@ -1528,42 +1583,42 @@
     {
       "source": "https://www.rsc.org/events/find-an-event/18th-international-conference-on-materials-chemistry-%28mc18%29",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.rsc.org/events/find-an-event/automated-intelligent-chemistry",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.rsc.org/events/find-an-event/materials-chemistry-poster-symposium",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.rsc.org/events/find-an-event/understanding-molecular-catalysis-through-computation-and-experiment-faraday-discussion",
       "status": "unverifiable",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/",
@@ -1604,13 +1659,18 @@
       "source": "https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.watoc.net/watoc.congress.html",
+      "status": "unverifiable",
+      "reason": "HTTP Error 403: Forbidden"
     }
   ],
   "covered_transport_issues": [
     {
       "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(7761 bytes read)",
+      "reason": "IncompleteRead(15945 bytes read)",
       "alternative": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
     },
     {
