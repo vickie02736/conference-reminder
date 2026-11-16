@@ -1,20 +1,8 @@
 {
-  "as_of": "2026-11-15",
-  "remaining_count": 97,
-  "remaining_source_count": 93,
+  "as_of": "2026-11-16",
+  "remaining_count": 102,
+  "remaining_source_count": 98,
   "queue": [
-    {
-      "source": "https://www.esat2027.com/speakers/",
-      "event_id": "esat-2027-35th-european-symposium-on-applied-thermodynamics",
-      "reason": "content_conflict",
-      "message": "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven",
-      "content_hash": "1a6af935737e836efe6fcdf02522d4e161eeb81851b6e6ac54df7042432b40c6",
-      "priority": 0,
-      "next_deadline": "2026-11-15",
-      "remaining_fields": [
-        "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
-      ]
-    },
     {
       "source": "https://materialscienceconferences.com/",
       "event_id": "materials-science-engineering-2027-coalesce",
@@ -101,6 +89,18 @@
       "next_deadline": null,
       "remaining_fields": [
         "oral abstract deadline: 2026-12-14 vs 2027-03-14"
+      ]
+    },
+    {
+      "source": "https://www.esat2027.com/speakers/",
+      "event_id": "esat-2027-35th-european-symposium-on-applied-thermodynamics",
+      "reason": "content_conflict",
+      "message": "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven",
+      "content_hash": "1a6af935737e836efe6fcdf02522d4e161eeb81851b6e6ac54df7042432b40c6",
+      "priority": 0,
+      "next_deadline": null,
+      "remaining_fields": [
+        "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
       ]
     },
     {
@@ -209,7 +209,7 @@
       "event_id": "interpore2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "0488abeeb4c9a93743acc26586a13db080807de49b0a91d18fd1a7ae7585141c",
+      "content_hash": "222c2b9b5e25464dd0cfc11e7ef014c62e474b114b212ac50237d2de6b7a14c0",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
@@ -286,6 +286,21 @@
       ]
     },
     {
+      "source": "https://metfoam2027.com/",
+      "event_id": "metfoam2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "ab30427e6828a149898c4a3481330c5bcd980ecb300827a5177dbe3290ce3473",
+      "priority": 1,
+      "next_deadline": "2026-11-30",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
       "source": "https://www.chem.iitb.ac.in/ibs2027/",
       "event_id": "ibs-2027",
       "reason": "content_changed",
@@ -306,6 +321,36 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
+      "priority": 1,
+      "next_deadline": "2026-12-15",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://zmpc.org/",
+      "event_id": "zmpc2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "89439f70d4f8628a66f5300c9b0060020e0f9065703483fe9c71057b4beed1d7",
+      "priority": 1,
+      "next_deadline": "2026-12-15",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://zmpc.org/call-for-abstracts/",
+      "event_id": "zmpc2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "6f059f4d56c411b0a488a6a55b19cc256399036732e01c4ba87e66f00d2ab6b7",
       "priority": 1,
       "next_deadline": "2026-12-15",
       "remaining_fields": [
@@ -366,6 +411,21 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "22d1fe3908fe5416b111e30937d58b93e76f70d5bdc142bddfcd64187e6dd9c7",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://www.materialsscienceconference.com/registration",
+      "event_id": "advanced-materials-world-congress-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "99a264a61d86990fc7f1675c2118f670fcf982abafe718630038faf5856b7d05",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -576,7 +636,7 @@
       "event_id": "biomolecular-dynamics-berlin-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "0a71e894637d1daf8f487a66bd8fa7b04eb15d3f1d7abfffe1eba88bee5db67f",
+      "content_hash": "aa01bfa2027e1ed7875b5f4c87c3c5bace0823d08331854887d79caf86623a63",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -606,7 +666,7 @@
       "event_id": "bps-protons-in-biology-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "643fbd8fcb65c6a06c2e1b0df228fbbd2a88218095f0591717795c9ce474aa84",
+      "content_hash": "0bfd02bcec392694381fa799069f0c2f7ab3db5bb51b6cced5b17a179790f769",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -652,6 +712,21 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "cc10d686bd96b3739cafb3b932a3d4c8abc7814f96a9fe05ca7e1c9515ed7821",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
+      "event_id": "chemistry-meeting-2027-conference-series",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "4299b695fb0fa6db1420f837152004f45eef5554cec7eb6e5ce472adf96429cc",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -846,7 +921,7 @@
       "event_id": "fems-euromat-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "ab0c300e416084548eac39d90c1a4352bd36e8d3d209cd2707d3ad36f8972e79",
+      "content_hash": "5bc0a042832b101a3cc9fcb64d59c3fdcb8cd8225c69add9225cde26ea27d739",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1406,24 +1481,24 @@
   ],
   "active_transport_issues": [
     {
-      "source": "https://advancedmaterialsshow.com/full-conference/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
       "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(15940 bytes read)"
+      "reason": "IncompleteRead(7761 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(7625 bytes read)"
+      "reason": "IncompleteRead(15940 bytes read)"
+    },
+    {
+      "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(7761 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(15943 bytes read)"
+      "reason": "IncompleteRead(7764 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
@@ -1431,34 +1506,14 @@
       "reason": "IncompleteRead(22672 bytes read)"
     },
     {
+      "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
+      "status": "unverifiable",
+      "reason": "IncompleteRead(7641 bytes read)"
+    },
+    {
       "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
       "status": "unverifiable",
-      "reason": "IncompleteRead(14691 bytes read)"
-    },
-    {
-      "source": "https://aicmsn2027.synergiasummits.com/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://aicmsn2027.synergiasummits.com/abstract",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://aicmsn2027.synergiasummits.com/committee",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://aicmsn2027.synergiasummits.com/register",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://aicmsn2027.synergiasummits.com/venue",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "IncompleteRead(7637 bytes read)"
     },
     {
       "source": "https://attend.ieee.org/ssci-2027/",
@@ -1467,11 +1522,6 @@
     },
     {
       "source": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://blog.iclr.cc/2026/09/02/submission-policies-for-iclr-2027/",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
     },
@@ -1491,19 +1541,9 @@
       "reason": "HTTP Error 404: Not Found"
     },
     {
-      "source": "https://event-partners.com/our-shows/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
-    },
-    {
       "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
       "status": "unverifiable",
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
-    },
-    {
-      "source": "https://mofs.lakecomoschool.org/",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
@@ -1531,24 +1571,9 @@
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1011)>"
     },
     {
-      "source": "https://www.dpg-physik.de/aktivitaeten-und-programme/programme/bad-honnef-physics-schools",
-      "status": "failed",
-      "reason": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials",
-      "status": "failed",
-      "reason": "HTTP Error 503: Service Unavailable"
-    },
-    {
       "source": "https://www.dpg-physik.de/veranstaltungen/2027/machine_learning_for_atomistic_simulations_of_materials?set_language=en",
-      "status": "failed",
-      "reason": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
-      "status": "failed",
-      "reason": "HTTP Error 404: Not Found"
+      "status": "unverifiable",
+      "reason": "The read operation timed out"
     },
     {
       "source": "https://www.grc.org/computer-aided-drug-design-conference/2027/",
@@ -1557,8 +1582,8 @@
     },
     {
       "source": "https://www.grc.org/computer-aided-drug-design-grs-conference/2027/",
-      "status": "unverifiable",
-      "reason": "Official source returned no readable page content."
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     },
     {
       "source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
@@ -1659,20 +1684,9 @@
       "source": "https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://www.watoc.net/watoc.congress.html",
-      "status": "unverifiable",
-      "reason": "HTTP Error 403: Forbidden"
     }
   ],
   "covered_transport_issues": [
-    {
-      "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
-      "status": "unverifiable",
-      "reason": "IncompleteRead(15945 bytes read)",
-      "alternative": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552"
-    },
     {
       "source": "https://event.fourwaves.com/interpore2027/submission",
       "status": "unverifiable",
