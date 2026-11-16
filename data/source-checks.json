@@ -1295,26 +1295,20 @@
       "changed_at": "2026-11-16T08:01:18Z",
       "checks": {
         "metfoam2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
-          "reviewed_hash": "929626c22c4c8ef0cb8ca3026676529650c1a12c5e2a7ac1695c2279073e99ca",
-          "evidence": "与11月12日逐行比对Ambassadors新增“Samer M. Darwich / Novaris-Metals, Jordan”和“Vinodkumar Gs / SRM University, India”；Christian Heineman现作Christian Hannemann / Fraunhofer IWU。完整核实该区块8人仅为大使，非受邀讲者/到场确认。摘要30 November 2026、早鸟31 January 2027、常规31 May、会议14–17 June均未改，register interest仍不代表注册，无截止钟点时区；其他已存委员会机构相符。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
+          "reviewed_hash": "ab30427e6828a149898c4a3481330c5bcd980ecb300827a5177dbe3290ce3473",
+          "evidence": "与已复核11月14日附件逐行比对，仅新增Industry区块Cymat Technologies（Featured company，非主办方）及Speakers：Thomas Hipke/Fraunhofer IWU/Germany、Olaf Andersen/Fraunhofer IFAM/Germany、Hui Wang/University of Science and Technology Beijing/China，Presentation details to follow。登记三位featured speaker，不将顾问/大使身份等同到场。会议14–17 June 2027、摘要30 November 2026、早鸟31 January/标准31 May 2027及其他人员机构未改，无截止钟点时区。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-16T08:01:18Z",
-          "review_run": 43571935314,
+          "review_run": 43827720798,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -4270,20 +4264,20 @@
       "changed_at": "2026-11-16T08:01:18Z",
       "checks": {
         "zmpc2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "49a899d2262ff016d6f84a24495176aae970baf6190af97d97e20a3adf71a34b",
-          "evidence": "首页：“July 25-29, 2027 at Okinawa Convention Center, Ginowan, Okinawa, Japan” 核实 start/end 与地点；新闻 “2026.10.01 Abstract Submission, opened” 支持投稿已于 10-01 开放的状态。新闻日期为更新时间戳（噪声），页面无其他钟点。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
+          "reviewed_hash": "89439f70d4f8628a66f5300c9b0060020e0f9065703483fe9c71057b4beed1d7",
+          "evidence": "与11月14日正文逐行差异：首页新增2026.11.16 Temporary Suspension of Submission System；CFP新增官方通知“unavailable daily from 20:00 to 07:00 (JST) / 11:00 to 22:00 (GMT)”，effective November 14, 2026 until further notice。明确记为每日系统不可用时段，不改变December 15, 2026 (23:59, JST)摘要截止、不推断延期；25–29 July 2027、Ginowan/Okinawa Convention Center及既有人员角色机构无变。录用通知不建提醒。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-16T08:01:18Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 43827720798,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -4299,20 +4293,20 @@
       "changed_at": "2026-11-16T08:01:18Z",
       "checks": {
         "zmpc2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "e9fbc9772c79359aa7a4ba1dcdb63c503a4a3d27a16ac0809b34fc394b4669bf",
-          "evidence": "“Deadline for Abstract Submission : December 15 (Tue.), 2026 (23:59, JST)” 与记录 2026-12-15 23:59 Asia/Tokyo datetime verified 相符（2026-12-15 确为周二；23:59 JST = 14:59 GMT 同日，记录 deadline 文本正确）；投稿窗口 “between October 1st and December 15th, 2026” 与开放里程碑 2026-10-01 相符；2 页英文扩展摘要要求相符；录用通知 “by February 15, 2027”（记录未收录）；主题含 Machine Learning (AI)、Computational Simulation、PCP/MOF、Adsorption and Diffusion。本页未提及 Recent Research Reports，但记录中 zmpc2027:recent-reports 的 source 指向本页。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
+          "reviewed_hash": "6f059f4d56c411b0a488a6a55b19cc256399036732e01c4ba87e66f00d2ab6b7",
+          "evidence": "与11月14日正文逐行差异：首页新增2026.11.16 Temporary Suspension of Submission System；CFP新增官方通知“unavailable daily from 20:00 to 07:00 (JST) / 11:00 to 22:00 (GMT)”，effective November 14, 2026 until further notice。明确记为每日系统不可用时段，不改变December 15, 2026 (23:59, JST)摘要截止、不推断延期；25–29 July 2027、Ginowan/Okinawa Convention Center及既有人员角色机构无变。录用通知不建提醒。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-16T08:01:18Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 43827720798,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -6947,19 +6941,20 @@
       "message": null,
       "checks": {
         "ibs-2027": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:49:53Z",
-          "reviewed_hash": "2b474d4dff55e8d02d73c1e65ae36ac6018d4ef290c0f518c190f667f7da06d9",
-          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
-          "review_invalidated_at": "2026-11-11T07:46:43Z"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
+          "reviewed_hash": "a5f358b7a1347e2aeae42cbce732ceeba0103dd5299277516758e1b5fa518829",
+          "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；44人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。",
+          "review_invalidated_at": "2026-11-11T07:46:43Z",
+          "review_method": "runner_text",
+          "review_run": 43827720798,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "changed_at": "2026-11-11T07:46:43Z"
@@ -6974,19 +6969,20 @@
       "message": null,
       "checks": {
         "ibs-2027": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:49:53Z",
-          "reviewed_hash": "b58e22895b7b9dfbcb9c0e74c4abacc655e3fc84f37fbd99c7fe05609ae7298e",
-          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
-          "review_invalidated_at": "2026-11-04T07:32:08Z"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
+          "reviewed_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
+          "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；44人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。",
+          "review_invalidated_at": "2026-11-04T07:32:08Z",
+          "review_method": "runner_text",
+          "review_run": 43827720798,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "changed_at": "2026-11-04T07:32:08Z"
@@ -8098,13 +8094,13 @@
       "checks": {
         "agsaiml-2027": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
-          "reviewed_hash": "a3c3548d8e70bc576f398803b167d050b70e357585adce24b5e741e03338c8a0",
-          "evidence": "与上次已核实的11月4日运行器正文逐行比较，仅Keynote Speakers下新增Ramesh Sharma，机构Dr. B. R. Ambedkar University, India；主办方列名，未独立证实机构任职。会议8–10 March 2027、摘要30 November 2026、早鸟25 June 2026均未改，无截止钟点/时区。其余既有人名和角色未变。",
+          "message": "standard registration deadline moved backwards: previous 2026-11-25 vs current 2026-10-25; no official explanation or final registration cutoff",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
+          "reviewed_hash": "1fffcd5a21afc1c32f189d45719d8f3e7ab5c011fe7b759600332b9e8a8783fa",
+          "evidence": "与11月12日运行器逐行比对，当前收费卡由Mid Term Registration变Final Registration，speaker/poster €899、delegate €999、student €699、online €499；Standard Registration Deadline由November25改October25，均为2026，无解释，不猜为延期/取消最终注册。保留两次官方日期审计、final cutoff维持unknown。会议8–10 March2027、摘要30November、早鸟25June未改，无钟点时区。Boris当前位于Keynote Speakers（University of Florida, USA），修正旧Plenary身份；其余角色机构本轮与11月14日正文一致，未独立确认主办方机构任职。",
           "review_method": "runner_text",
-          "review_run": 42458558175,
+          "review_run": 43827720798,
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-14T07:39:59Z",
           "reviewed_fields": [
@@ -8113,10 +8109,7 @@
             "stored_people_roles_affiliations"
           ],
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "standard registration deadline moved backwards: previous 2026-11-25 vs current 2026-10-25; no official explanation or final registration cutoff"
           ]
         }
       }

@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-16",
-  "remaining_count": 102,
-  "remaining_source_count": 98,
+  "remaining_count": 97,
+  "remaining_source_count": 93,
   "queue": [
     {
       "source": "https://materialscienceconferences.com/",
@@ -38,6 +38,18 @@
       "next_deadline": "2026-11-29",
       "remaining_fields": [
         "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12"
+      ]
+    },
+    {
+      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "event_id": "agsaiml-2027",
+      "reason": "content_conflict",
+      "message": "standard registration deadline moved backwards: previous 2026-11-25 vs current 2026-10-25; no official explanation or final registration cutoff",
+      "content_hash": "1fffcd5a21afc1c32f189d45719d8f3e7ab5c011fe7b759600332b9e8a8783fa",
+      "priority": 0,
+      "next_deadline": "2026-11-30",
+      "remaining_fields": [
+        "standard registration deadline moved backwards: previous 2026-11-25 vs current 2026-10-25; no official explanation or final registration cutoff"
       ]
     },
     {
@@ -268,96 +280,6 @@
       "next_deadline": null,
       "remaining_fields": [
         "end clock: programme 16:40 vs event page 17:00; timezone unpublished"
-      ]
-    },
-    {
-      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
-      "event_id": "agsaiml-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "1fffcd5a21afc1c32f189d45719d8f3e7ab5c011fe7b759600332b9e8a8783fa",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://metfoam2027.com/",
-      "event_id": "metfoam2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "ab30427e6828a149898c4a3481330c5bcd980ecb300827a5177dbe3290ce3473",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chem.iitb.ac.in/ibs2027/",
-      "event_id": "ibs-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "a5f358b7a1347e2aeae42cbce732ceeba0103dd5299277516758e1b5fa518829",
-      "priority": 1,
-      "next_deadline": "2026-12-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
-      "event_id": "ibs-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
-      "priority": 1,
-      "next_deadline": "2026-12-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://zmpc.org/",
-      "event_id": "zmpc2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "89439f70d4f8628a66f5300c9b0060020e0f9065703483fe9c71057b4beed1d7",
-      "priority": 1,
-      "next_deadline": "2026-12-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://zmpc.org/call-for-abstracts/",
-      "event_id": "zmpc2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "6f059f4d56c411b0a488a6a55b19cc256399036732e01c4ba87e66f00d2ab6b7",
-      "priority": 1,
-      "next_deadline": "2026-12-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -1873,24 +1795,24 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-15T00:03:53.254924+00:00",
-    "report": "data/heartbeat-review-2026-11-15.json",
-    "previous_remaining": 87,
-    "daily_new": 17,
-    "daily_removed": 1,
-    "started": 103,
+    "at": "2026-11-16T20:32:36.884355+00:00",
+    "report": "data/heartbeat-review-2026-11-16.json",
+    "previous_remaining": 97,
+    "daily_new": 5,
+    "daily_removed": 0,
+    "started": 102,
     "batch_new": 0,
-    "resolved": 6,
-    "partial": 2,
+    "resolved": 5,
+    "partial": 1,
     "remaining": 97,
     "remaining_sources": 93,
-    "active_transport": 40,
-    "covered_transport": 3,
+    "active_transport": 41,
+    "covered_transport": 2,
     "all_transport_attempted": 43,
-    "new_or_recurrent_failures_since_nov12": 14,
-    "active_new_failures": 11,
+    "new_or_recurrent_failures_since_nov15": 2,
+    "active_new_failures": 2,
     "stable_original_restored": 0,
-    "successful_observations_not_stable": 3,
+    "successful_observations_not_stable": 2,
     "active_with_runner_alternative": 11,
     "historical_replaced": 12
   }
