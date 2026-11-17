@@ -1,0 +1,53 @@
+{
+  "verified_at": "2026-11-17T08:07:11.139761+00:00",
+  "published_commit": "167828bbdba54d868689e3acbd07a4a448ebce5d",
+  "workflow_run": 44043890155,
+  "workflow_conclusion": "success",
+  "workflow_url": "https://github.com/vickie02736/conference-reminder/actions/runs/44043890155",
+  "site_url": "https://vickie02736.github.io/conference-reminder/",
+  "home_status": 200,
+  "files": [
+    {
+      "path": "data/conferences.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/conferences.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "eebbd33af584b233263ab6b4b7f3b57650e450a9fd1fe344e4462a446ea147ad",
+      "bytes": 1286772
+    },
+    {
+      "path": "data/source-checks.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/source-checks.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "9f14cdc4578e0b4485a5b53690a099404d39cf94ea5bb10128f3e8566c8a2d8b",
+      "bytes": 482324
+    },
+    {
+      "path": "data/review-progress.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/review-progress.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "a009ec25a17d8709aac098259967d9ad0d0342c5a5ca653f51d176b39a30c491",
+      "bytes": 72214
+    },
+    {
+      "path": "data/heartbeat-review-2026-11-17.json",
+      "url": "https://vickie02736.github.io/conference-reminder/data/heartbeat-review-2026-11-17.json",
+      "http_status": 200,
+      "matches_local_commit": true,
+      "sha256": "cd3d00abf3760b161d4afac2861e4932d292737597c29f7cdff5d9dbe412901e",
+      "bytes": 179846
+    }
+  ],
+  "tests": {
+    "npm_test": "116 Node + 56 Python passed",
+    "validate_catalog": "171 records + 8 watchlist valid",
+    "git_diff_check": "passed"
+  },
+  "notes": [
+    "4个线上JSON逐字节一致；发布不重复刷新来源。",
+    "1条语义任务解决、1条部分核实、96条剩余。",
+    "43处传输问题逐条尝试，41活跃、2替代覆盖；稳定恢复0。"
+  ]
+}
