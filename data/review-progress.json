@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-11-16",
-  "remaining_count": 97,
-  "remaining_source_count": 93,
+  "as_of": "2026-11-17",
+  "remaining_count": 96,
+  "remaining_source_count": 92,
   "queue": [
     {
       "source": "https://materialscienceconferences.com/",
@@ -180,16 +180,13 @@
     {
       "source": "https://api.fourwaves.com/api/events/interpore2027",
       "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "reason": "manual_review_partial",
+      "message": "Runner index contains the JSON fingerprint but no body file; raw runner JSON unavailable for semantic review.",
       "content_hash": "d90347336b3b470adbe2f8e744e38b0a3d7305463aeaf2ddc27c72feccf6137e",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "raw runner JSON body needed to compare monitored fields; do not substitute locally fetched JSON"
       ]
     },
     {
@@ -214,21 +211,6 @@
       "next_deadline": null,
       "remaining_fields": [
         "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
-      ]
-    },
-    {
-      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
-      "event_id": "interpore2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "222c2b9b5e25464dd0cfc11e7ef014c62e474b114b212ac50237d2de6b7a14c0",
-      "priority": 0,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -1795,24 +1777,24 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-16T20:32:36.884355+00:00",
-    "report": "data/heartbeat-review-2026-11-16.json",
+    "at": "2026-11-17T08:06:01.285075+00:00",
+    "report": "data/heartbeat-review-2026-11-17.json",
     "previous_remaining": 97,
-    "daily_new": 5,
+    "daily_new": 0,
     "daily_removed": 0,
-    "started": 102,
+    "started": 97,
     "batch_new": 0,
-    "resolved": 5,
+    "resolved": 1,
     "partial": 1,
-    "remaining": 97,
-    "remaining_sources": 93,
+    "remaining": 96,
+    "remaining_sources": 92,
     "active_transport": 41,
     "covered_transport": 2,
     "all_transport_attempted": 43,
-    "new_or_recurrent_failures_since_nov15": 2,
-    "active_new_failures": 2,
+    "new_or_recurrent_failures_since_nov16": 0,
+    "active_new_failures": 0,
     "stable_original_restored": 0,
-    "successful_observations_not_stable": 2,
+    "successful_observations_not_stable": 0,
     "active_with_runner_alternative": 11,
     "historical_replaced": 12
   }

@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-16T08:01:18Z",
-    "last_updated_at": "2026-11-16T20:32:07.676536+00:00",
+    "last_updated_at": "2026-11-17T08:05:29.826654+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -13625,9 +13625,9 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-16T08:01:18Z",
+        "last_checked_at": "2026-11-17T08:05:29.826654+00:00",
         "last_verified_at": "2026-10-27T00:00:00Z",
-        "message": "https://event.fourwaves.com/interpore2027: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://api.fourwaves.com/api/events/interpore2027: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
+        "message": "https://event.fourwaves.com/interpore2027: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03 | https://event.fourwaves.com/interpore2027/submission: The submission page says January 12, 2027 while Important Dates says 11 January 2027; unresolved. The page is a JS app the daily fetcher cannot read, but it is live in a browser. | https://api.fourwaves.com/api/events/interpore2027: Runner index contains the JSON fingerprint but no body file; raw runner JSON unavailable for semantic review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -13741,8 +13741,15 @@
           },
           {
             "name": "Eduardo Abreu",
-            "role": "Local organising committee co-chair",
-            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+            "role": "Local organising committee co-chair; MS07 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+            "affiliation": "University of Campinas (Unicamp), Brazil",
+            "additional_role_evidence": {
+              "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+              "role": "MS07 organiser-list member; individual lead/co-organiser designation not established",
+              "affiliation": "University of Campinas (Unicamp), Brazil",
+              "quote": "Eduardo Abreu / University of Campinas (Unicamp), Brazil"
+            }
           },
           {
             "name": "Ruben Juanes",
@@ -13801,8 +13808,14 @@
           {
             "name": "Valentina Ciriello",
             "affiliation": "University of Bologna, Italy",
-            "role": "MS19 organiser-list member; individual lead/co-organiser designation not stated",
-            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+            "role": "MS19 organiser-list member; individual lead/co-organiser designation not stated; MS15 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+            "additional_role_evidence": {
+              "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+              "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+              "affiliation": "Università di Bologna, Italy",
+              "quote": "Valentina Ciriello / Università di Bologna, Italy"
+            }
           },
           {
             "name": "Alberto Guadagnini",
@@ -13863,6 +13876,90 @@
             "affiliation": "Federal University of Juiz de Fora, Brazil",
             "role": "MS23 organiser-list member; individual lead/co-organiser designation not established",
             "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Eike Thaysen",
+            "affiliation": "CSIC, Spain",
+            "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Chaojie Cheng",
+            "affiliation": "Karlsruhe Institute of Technology, Germany",
+            "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Rodrigo C. V. Coelho",
+            "affiliation": "Brazilian Center for Research in Physics (CBPF), Brazil",
+            "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Maira Lima",
+            "affiliation": "Federal University of Rio de Janeiro (UFRJ), Brazil",
+            "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Nitu Lakhmara",
+            "affiliation": "University of Stuttgart, Germany",
+            "role": "MS07 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Ahmed Elsheikh",
+            "affiliation": "Heriot-Watt University, UK",
+            "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Serveh Kamrava",
+            "affiliation": "Colorado School of Mines, USA",
+            "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Diego Volpatto",
+            "affiliation": "National Laboratory for Scientific Computing, Brazil",
+            "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Fernanda Casciatori",
+            "affiliation": "Federal University of Sao Carlos, Brazil",
+            "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Philippe Coussot",
+            "affiliation": "University Gustave Eiffel, France",
+            "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Joao Claudio Thomeo",
+            "affiliation": "Paulista State University, Brazil",
+            "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Rui Wu",
+            "affiliation": "Shanghai Jiao Tong University, China",
+            "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Tongke Zhou",
+            "affiliation": "University of Manchester, UK",
+            "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Colm O'Dwyer",
+            "affiliation": "University College Cork, Ireland",
+            "role": "MS17 lead organizer",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
           }
         ],
         "speakers": [
@@ -13876,13 +13973,44 @@
             "name": "Su Jiang",
             "affiliation": "Carnegie Mellon University, USA",
             "role": "MS19 solicited speaker",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+            "presentation_title": "Generative Models for Data Assimilation in Subsurface Flow"
+          },
+          {
+            "name": "Qinghua Lei",
+            "affiliation": "Uppsala University, Sweden",
+            "role": "MS03 solicited speaker",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Jannes Kordilla",
+            "affiliation": "IDAEA-CSIC, Barcelona, Spain",
+            "role": "MS03 solicited speaker",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Sarah Perez",
+            "affiliation": "Heriot-Watt University, UK",
+            "role": "MS03 solicited speaker",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Daniel Tartakovsky",
+            "affiliation": "Stanford University, USA",
+            "role": "MS15 solicited speaker",
+            "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+          },
+          {
+            "name": "Hongkyu Yoon",
+            "affiliation": "Sandia National Laboratories, USA",
+            "role": "MS15 solicited speaker",
             "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-12",
+        "checked_on": "2026-11-17",
         "status": "published",
-        "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources. Three additions in the MS27 organiser block were recorded from runner text on 4 November 2026; no individual lead designation is inferred. Six MS03 organiser-list additions recorded from runner text on 5 November 2026; no individual lead designation is inferred.",
+        "note": "Local leadership is announced by InterPore itself; the full committee and speaker lists were not captured in the reviewed sources. Three additions in the MS27 organiser block were recorded from runner text on 4 November 2026; no individual lead designation is inferred. Six MS03 organiser-list additions recorded from runner text on 5 November 2026; no individual lead designation is inferred. Nov17 runner-text review imports all changed MS03/MS04/MS07/MS15/MS17/MS21 people since the Nov12 review, preserving multiple session memberships; solicited-speaker listing does not independently confirm attendance.",
         "sources": [
           "https://event.fourwaves.com/interpore2027",
           "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
@@ -26878,6 +27006,344 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.speakers.presentation_title",
+      "previous": {
+        "name": "Su Jiang",
+        "affiliation": "Carnegie Mellon University, USA",
+        "role": "MS19 solicited speaker",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "value": {
+        "name": "Su Jiang",
+        "affiliation": "Carnegie Mellon University, USA",
+        "role": "MS19 solicited speaker",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+        "presentation_title": "Generative Models for Data Assimilation in Subsurface Flow"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Generative Models for Data Assimilation in Subsurface Flow"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Hongkyu Yoon",
+        "affiliation": "Sandia National Laboratories, USA",
+        "role": "MS15 solicited speaker",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Hongkyu Yoon / Sandia National Laboratories, USA / MS15 solicited speaker"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Daniel Tartakovsky",
+        "affiliation": "Stanford University, USA",
+        "role": "MS15 solicited speaker",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Daniel Tartakovsky / Stanford University, USA / MS15 solicited speaker"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Sarah Perez",
+        "affiliation": "Heriot-Watt University, UK",
+        "role": "MS03 solicited speaker",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Sarah Perez / Heriot-Watt University, UK / MS03 solicited speaker"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Jannes Kordilla",
+        "affiliation": "IDAEA-CSIC, Barcelona, Spain",
+        "role": "MS03 solicited speaker",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Jannes Kordilla / IDAEA-CSIC, Barcelona, Spain / MS03 solicited speaker"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Qinghua Lei",
+        "affiliation": "Uppsala University, Sweden",
+        "role": "MS03 solicited speaker",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Qinghua Lei / Uppsala University, Sweden / MS03 solicited speaker"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Colm O'Dwyer",
+        "affiliation": "University College Cork, Ireland",
+        "role": "MS17 lead organizer",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Colm O'Dwyer / University College Cork, Ireland / MS17 lead organizer"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Tongke Zhou",
+        "affiliation": "University of Manchester, UK",
+        "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Tongke Zhou / University of Manchester, UK / MS21 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Rui Wu",
+        "affiliation": "Shanghai Jiao Tong University, China",
+        "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Rui Wu / Shanghai Jiao Tong University, China / MS21 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Joao Claudio Thomeo",
+        "affiliation": "Paulista State University, Brazil",
+        "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Joao Claudio Thomeo / Paulista State University, Brazil / MS21 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Philippe Coussot",
+        "affiliation": "University Gustave Eiffel, France",
+        "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Philippe Coussot / University Gustave Eiffel, France / MS21 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Fernanda Casciatori",
+        "affiliation": "Federal University of Sao Carlos, Brazil",
+        "role": "MS21 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Fernanda Casciatori / Federal University of Sao Carlos, Brazil / MS21 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Diego Volpatto",
+        "affiliation": "National Laboratory for Scientific Computing, Brazil",
+        "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Diego Volpatto / National Laboratory for Scientific Computing, Brazil / MS15 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Serveh Kamrava",
+        "affiliation": "Colorado School of Mines, USA",
+        "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Serveh Kamrava / Colorado School of Mines, USA / MS15 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Ahmed Elsheikh",
+        "affiliation": "Heriot-Watt University, UK",
+        "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Ahmed Elsheikh / Heriot-Watt University, UK / MS15 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee.additional_role",
+      "previous": {
+        "name": "Valentina Ciriello",
+        "affiliation": "University of Bologna, Italy",
+        "role": "MS19 organiser-list member; individual lead/co-organiser designation not stated",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "value": {
+        "name": "Valentina Ciriello",
+        "affiliation": "University of Bologna, Italy",
+        "role": "MS19 organiser-list member; individual lead/co-organiser designation not stated; MS15 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+        "additional_role_evidence": {
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+          "role": "MS15 organiser-list member; individual lead/co-organiser designation not established",
+          "affiliation": "Università di Bologna, Italy",
+          "quote": "Valentina Ciriello / Università di Bologna, Italy"
+        }
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Valentina Ciriello / Università di Bologna, Italy / MS15"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Nitu Lakhmara",
+        "affiliation": "University of Stuttgart, Germany",
+        "role": "MS07 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Nitu Lakhmara / University of Stuttgart, Germany / MS07 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee.additional_role",
+      "previous": {
+        "name": "Eduardo Abreu",
+        "role": "Local organising committee co-chair",
+        "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj"
+      },
+      "value": {
+        "name": "Eduardo Abreu",
+        "role": "Local organising committee co-chair; MS07 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://www.linkedin.com/posts/interpore_interpore2027-activity-7474766886942142464-6qdj",
+        "affiliation": "University of Campinas (Unicamp), Brazil",
+        "additional_role_evidence": {
+          "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+          "role": "MS07 organiser-list member; individual lead/co-organiser designation not established",
+          "affiliation": "University of Campinas (Unicamp), Brazil",
+          "quote": "Eduardo Abreu / University of Campinas (Unicamp), Brazil"
+        }
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Eduardo Abreu / University of Campinas (Unicamp), Brazil / MS07"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Maira Lima",
+        "affiliation": "Federal University of Rio de Janeiro (UFRJ), Brazil",
+        "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Maira Lima / Federal University of Rio de Janeiro (UFRJ), Brazil / MS04 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Rodrigo C. V. Coelho",
+        "affiliation": "Brazilian Center for Research in Physics (CBPF), Brazil",
+        "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Rodrigo C. V. Coelho / Brazilian Center for Research in Physics (CBPF), Brazil / MS04 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Chaojie Cheng",
+        "affiliation": "Karlsruhe Institute of Technology, Germany",
+        "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Chaojie Cheng / Karlsruhe Institute of Technology, Germany / MS04 organiser-list member; individual lead/co-organiser designation not established"
+    },
+    {
+      "at": "2026-11-17T08:05:29.826654+00:00",
+      "event_name": "InterPore2027",
+      "event_id": "interpore2027",
+      "field": "people.committee",
+      "added": {
+        "name": "Eike Thaysen",
+        "affiliation": "CSIC, Spain",
+        "role": "MS04 organiser-list member; individual lead/co-organiser designation not established",
+        "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4"
+      },
+      "source": "https://event.fourwaves.com/interpore2027/pages/d4b1cb36-7fc0-481a-8595-2cfd0c1293e4",
+      "evidence": "Eike Thaysen / CSIC, Spain / MS04 organiser-list member; individual lead/co-organiser designation not established"
+    },
     {
       "at": "2026-11-16T20:32:07.676536+00:00",
       "event_name": "AGSAIML 2027 — Annual Global Summit on Artificial Intelligence and Machine Learning",

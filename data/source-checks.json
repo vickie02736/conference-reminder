@@ -1127,26 +1127,20 @@
       "changed_at": "2026-11-16T08:01:18Z",
       "checks": {
         "interpore2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-12T20:01:55.301143+00:00",
-          "reviewed_hash": "78b8f0b512ee6cd7918f59fc385d85e806f7cbc5aa2229e7ec652f8f25991e47",
-          "evidence": "对照11月9日运行器逐行差异：MS23组织者区块新增Zhibing Yang/Wuhan、Bo Guo/Arizona、Yves Méheust/Rennes、Moran Wang/Tsinghua、Anne Juel/Manchester、Grigori Chapiro/Federal University of Juiz de Fora，逐名登记角色区块和机构，不推断各自lead。其后仅Bronze Sponsor标题，无日期/钟点/时区变更；摘要日期冲突仍属其他来源。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-17T08:05:29.826654+00:00",
+          "reviewed_hash": "222c2b9b5e25464dd0cfc11e7ef014c62e474b114b212ac50237d2de6b7a14c0",
+          "evidence": "对照上次完成复核43182225030（11月12日）与当前43827720798完整正文逐行差异：MS03 Solicited Speakers新增Qinghua Lei/Uppsala、Jannes Kordilla/IDAEA-CSIC、Sarah Perez/Heriot-Watt；MS04新增Eike Thaysen/CSIC、Chaojie Cheng/KIT、Rodrigo C. V. Coelho/CBPF、Maira Lima/UFRJ；MS07新增Eduardo Abreu/Unicamp、Nitu Lakhmara/Stuttgart；MS15新增Valentina Ciriello/Bologna、Ahmed Elsheikh/Heriot-Watt、Serveh Kamrava/Colorado School of Mines、Diego Volpatto/LNCC及Solicited Speakers Daniel Tartakovsky/Stanford、Hongkyu Yoon/Sandia；MS17明确Lead Organizer Colm O'Dwyer/University College Cork；MS21新增Fernanda Casciatori/Sao Carlos、Philippe Coussot/Gustave Eiffel、Joao Claudio Thomeo/Paulista State、Rui Wu/Shanghai Jiao Tong、Tongke Zhou/Manchester。每名机构原文及角色见数据changes，其他成员不推断lead。Eduardo及Valentina保留原角色并追加分会成员身份，非重复人员。MS19 Su Jiang新增讲题“Generative Models for Data Assimilation in Subsurface Flow”。其余差异无日期/钟点/时区变化；本来源已解决，平台与Important Dates摘要1月11/12日冲突独立保留。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
-          "review_run": 43182225030,
+          "review_run": 43827720798,
           "review_invalidated_at": "2026-11-16T08:01:18Z",
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -6048,8 +6042,12 @@
       "checks": {
         "interpore2027": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "message": "Runner index contains the JSON fingerprint but no body file; raw runner JSON unavailable for semantic review.",
+          "reason": "manual_review_partial",
+          "remaining_fields": [
+            "raw runner JSON body needed to compare monitored fields; do not substitute locally fetched JSON"
+          ],
+          "evidence": "本轮运行器index显示ok=true、content_type=application/json且hash与状态匹配，但没有file，未保存该JSON正文。无法将本机响应视作运行器指纹依据，不修改hash或reviewed_hash；保留现有事实。其他HTML来源已独立核实人员，摘要日期冲突继续保留。"
         }
       },
       "changed_at": "2026-11-10T08:27:31Z"
