@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-18T08:35:05Z",
-    "last_updated_at": "2026-11-18T08:02:42.557494+00:00",
+    "last_updated_at": "2026-11-18T09:04:02.624150+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1519,8 +1519,8 @@
       "location": "Oxford, UK — ECR meeting: Magdalen Auditorium; main meeting: Life and Mind Building",
       "region": "UK",
       "type": "Conference",
-      "deadline": "Oral abstracts: 6 November 2026 (extended); poster abstracts and registration: 25 November 2026.",
-      "status": "Submissions and registration open. ECR meeting: noon 15 December to noon 16 December; main meeting: noon 16 December to the afternoon of 17 December. Student RSC member/non-member fees: £100/£120, including dinner.",
+      "deadline": "Oral abstracts: 6 November 2026 (extended, now passed); registration: 25 November 2026. Posters were previously accepted until registration closes; the current page has removed that notice, so current poster availability is unresolved.",
+      "status": "Published oral abstract cutoff: 6 November 2026. Selection results and preliminary programme are delayed; no new notification date is published. Registration by 25 November 2026. Current poster submission availability is not explicitly reconfirmed.",
       "note": "Broad solid-state chemistry meeting with announced talks on Autonomous Materials Synthesis on Demand and Disorder in Porous Framework Materials. Useful for UK early-career networking.",
       "sources": [
         "https://sscg.uk/2026-sscg-christmas-meeting"
@@ -1531,9 +1531,9 @@
       "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; Joe Willis added from the official programme; dates and cutoffs unchanged.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-18T08:35:05Z",
+        "last_checked_at": "2026-11-18T09:04:02.624150+00:00",
         "last_verified_at": "2026-11-05T09:17:36+00:00",
-        "message": "https://sscg.uk/2026-sscg-christmas-meeting: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://sscg.uk/2026-sscg-christmas-meeting: current poster submission availability: previous open-until-registration notice removed; no explicit current open/closed statement"
       },
       "milestones": [
         {
@@ -1903,10 +1903,10 @@
       "verified_on": "2026-11-18",
       "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-18T08:35:05Z",
-        "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(15945 bytes read)"
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-18T09:04:02.624150+00:00",
+        "last_verified_at": "2026-11-18T09:04:02.624150+00:00",
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(15945 bytes read)"
       },
       "milestones": [
         {
@@ -6721,10 +6721,10 @@
       "verified_on": "2026-11-18",
       "evidence": "The DECHEMA organiser page gives 3–5 March, the 27 November deadline and porous-materials theory/adsorption topics.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-18T08:35:05Z",
-        "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
-        "message": "https://dechema.de/en/dzt38.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-18T09:04:02.624150+00:00",
+        "last_verified_at": "2026-11-18T09:04:02.624150+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -8082,13 +8082,13 @@
       ],
       "url": "https://cpm-workshop.org/",
       "priority": 1,
-      "verified_on": "2026-11-10",
+      "verified_on": "2026-11-18",
       "evidence": "The workshop website gives the 1 December abstract deadline; DECHEMA confirms 23–26 May and Garmisch-Partenkirchen.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-18T08:35:05Z",
-        "last_verified_at": "2026-11-10T09:10:55.914052+00:00",
-        "message": "https://dechema.de/en/cpm10.html: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-18T09:04:02.624150+00:00",
+        "last_verified_at": "2026-11-18T09:04:02.624150+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -8885,12 +8885,12 @@
       "url": "https://euromof2027.com/",
       "priority": 1,
       "verified_on": "2026-11-05",
-      "evidence": "Official abstract page: “Abstract submission SOON available”; registration page: “Registration SOON available”, while homepage still says open. Deadlines remain 1 February, 5 April and 3 July 2027; no cutoff time or timezone verified. Browser review 7 November 2026; latest runner cannot read these sources.",
+      "evidence": "Browser review 18 November 2026: homepage still says registration open while dedicated registration and abstracts pages say SOON available. Dates remain 1 February, 5 April and 3 July 2027; no cutoff time or timezone verified. Runner returned no readable content; content review does not establish automatic-fetch recovery.",
       "check": {
-        "status": "unverifiable",
-        "last_checked_at": "2026-11-18T08:35:05Z",
+        "status": "review_required",
+        "last_checked_at": "2026-11-18T09:04:02.624150+00:00",
         "last_verified_at": "2026-11-05T07:56:44Z",
-        "message": "https://euromof2027.com/: Official source returned no readable page content. | https://euromof2027.com/abstracts/: Official source returned no readable page content. | https://euromof2027.com/registration/: Official source returned no readable page content. | https://euromof2027.com/committees/: Official source returned no readable page content. | https://euromof2027.com/speakers/: Official source returned no readable page content."
+        "message": "https://euromof2027.com/: registration/submission availability: homepage open vs dedicated pages SOON available | https://euromof2027.com/abstracts/: submission availability: SOON available heading vs submission portal link; Submission platform status is no longer recognised; verify it before changing the status. | https://euromof2027.com/registration/: registration/submission availability: homepage open vs dedicated pages SOON available | https://euromof2027.com/: Official source returned no readable page content. | https://euromof2027.com/abstracts/: Official source returned no readable page content. | https://euromof2027.com/registration/: Official source returned no readable page content. | https://euromof2027.com/committees/: Official source returned no readable page content. | https://euromof2027.com/speakers/: Official source returned no readable page content."
       },
       "milestones": [
         {
@@ -24313,8 +24313,8 @@
       "location": "Millennium Hotel Paris Charles De Gaulle, Paris, France (organizer-listed venue)",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "Abstract submission: 2026-11-17; Early-bird registration: 2026-11-19",
-      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
+      "deadline": "Previously advertised abstract deadline: 17 November 2026; current abstract submissions: Open, no new final cutoff published. Early-bird registration: 19 November 2026.",
+      "status": "The official page now lists abstract submissions as Open without a new final cutoff. Early-bird registration deadline: 19 November 2026. Conference-year conflict remains unresolved.",
       "note": "Commercial materials science and engineering conference. This is distinct from Magnus Materials 2027 and SRC Materials Science 2027. The specific venue and academic roster have not been independently confirmed. Current header and welcome message say April 29–30, 2027; past-edition recap announces April 29–30, 2026. Official year conflict remains unresolved; venue is an organizer claim.",
       "sources": [
         "https://materialscienceconferences.com/"
@@ -24325,7 +24325,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-18T08:35:05Z",
+        "last_checked_at": "2026-11-18T09:04:02.624150+00:00",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://materialscienceconferences.com/: conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
       },
@@ -24366,16 +24366,16 @@
         },
         {
           "id": "materials-science-engineering-2027-coalesce:abstract-2",
-          "version": 1,
+          "version": 2,
           "kind": "abstract",
-          "label": "Abstract submission",
+          "label": "Previously advertised abstract deadline",
           "date": "2026-11-17",
           "time": null,
           "timezone": null,
           "source": "https://materialscienceconferences.com/",
           "precision": "date",
           "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified. On 18 November the official page replaces this date with Open; preserved as the historical advertised cutoff, not a current final cutoff."
         },
         {
           "id": "materials-science-engineering-2027-coalesce:early-registration-3",
@@ -27037,6 +27037,24 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-18T09:04:02.624150+00:00",
+      "event_name": "45th RSC Solid State Chemistry Group Christmas Meeting (SSCG2026)",
+      "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
+      "field": "selection_and_poster_status",
+      "source": "https://sscg.uk/2026-sscg-christmas-meeting",
+      "new": "Published oral abstract cutoff: 6 November 2026. Selection results and preliminary programme are delayed; no new notification date is published. Registration by 25 November 2026. Current poster submission availability is not explicitly reconfirmed.",
+      "evidence": "decision notifications very soon; poster open-until-registration notice removed"
+    },
+    {
+      "at": "2026-11-18T09:04:02.624150+00:00",
+      "event_name": "16th International Conference on Materials Science & Engineering 2027",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "field": "submission_status",
+      "source": "https://materialscienceconferences.com/",
+      "new": "The official page now lists abstract submissions as Open without a new final cutoff. Early-bird registration deadline: 19 November 2026. Conference-year conflict remains unresolved.",
+      "evidence": "Abstract Submissions / Open"
+    },
     {
       "at": "2026-11-18T08:02:42.557494+00:00",
       "event_name": "ZMPC2027",

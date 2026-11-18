@@ -1,21 +1,18 @@
 {
   "as_of": "2026-11-18",
-  "remaining_count": 133,
-  "remaining_source_count": 127,
+  "remaining_count": 129,
+  "remaining_source_count": 123,
   "queue": [
     {
       "source": "https://materialscienceconferences.com/",
       "event_id": "materials-science-engineering-2027-coalesce",
-      "reason": "content_changed",
+      "reason": "content_conflict",
       "message": "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026",
       "content_hash": "bedbbcad9c789f08c15b170f7e6c61b7f64a7c64a6d05e45e6aaf99a1a787c5f",
       "priority": 0,
       "next_deadline": "2026-11-19",
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
       ]
     },
     {
@@ -122,24 +119,24 @@
       "source": "https://euromof2027.com/",
       "event_id": "euromof2027",
       "reason": "content_conflict",
-      "message": "registration availability: homepage open vs registration page SOON available",
+      "message": "registration/submission availability: homepage open vs dedicated pages SOON available",
       "content_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "registration availability: homepage open vs registration page SOON available"
+        "registration/submission platform availability"
       ]
     },
     {
       "source": "https://euromof2027.com/registration/",
       "event_id": "euromof2027",
       "reason": "content_conflict",
-      "message": "registration availability: homepage open vs registration page SOON available",
+      "message": "registration/submission availability: homepage open vs dedicated pages SOON available",
       "content_hash": "41ba85926f12011c53cfef32a5f76b464adb315dbb04573e20be3df82f7f7bf5",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "registration availability: homepage open vs registration page SOON available"
+        "registration/submission platform availability"
       ]
     },
     {
@@ -288,78 +285,15 @@
       ]
     },
     {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "3db24d04cb9dc0e8e580f95c9c2bbafb3a63510a83fd74171d72a0854a399488",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://sscg.uk/2026-sscg-christmas-meeting",
       "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "reason": "manual_review_partial",
+      "message": "current poster submission availability: previous open-until-registration notice removed; no explicit current open/closed statement",
       "content_hash": "41b84fe2d6b4f901126fee394bdd2b76c9699a5b69fee16b9bedea24d046d4db",
       "priority": 1,
       "next_deadline": "2026-11-25",
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://dechema.de/en/dzt38.html",
-      "event_id": "dzt38",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "3ad0d8c2c91673f9668f648ae1b21916770133b39c635781c7c87845cc96a225",
-      "priority": 1,
-      "next_deadline": "2026-11-27",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://dechema.de/en/cpm10.html",
-      "event_id": "cpm10",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "7e1a648d09fcbc52f8592eb7bdb400dcbbf512bc0042c638d54c51712e203ecb",
-      "priority": 1,
-      "next_deadline": "2026-12-01",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/",
-      "event_id": "cpm10",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
-      "priority": 1,
-      "next_deadline": "2026-12-01",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "current poster submission availability: previous open-until-registration notice removed; no explicit current open/closed statement"
       ]
     },
     {
@@ -2315,24 +2249,24 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-18T08:04:12.717757+00:00",
-    "report": "data/heartbeat-review-2026-11-18.json",
-    "previous_remaining": 96,
-    "daily_new": 34,
+    "at": "2026-11-18T09:06:02.465442+00:00",
+    "report": "data/heartbeat-review-2026-11-18-0901.json",
+    "previous_remaining": 124,
+    "daily_new": 9,
     "daily_removed": 0,
-    "started": 130,
+    "started": 133,
     "batch_new": 0,
-    "resolved": 6,
-    "partial": 1,
-    "remaining": 124,
-    "remaining_sources": 118,
-    "active_transport": 45,
+    "resolved": 4,
+    "partial": 4,
+    "remaining": 129,
+    "remaining_sources": 123,
+    "active_transport": 36,
     "covered_transport": 2,
-    "all_transport_attempted": 47,
-    "new_or_recurrent_failures_since_nov17": 4,
-    "active_new_failures": 4,
+    "all_transport_attempted": 38,
+    "new_or_recurrent_failures_since_earlier_nov18": 6,
+    "active_new_failures": 6,
     "stable_original_restored": 0,
-    "successful_runner_observations_not_stable": 0,
+    "successful_runner_observations_not_stable": 17,
     "active_with_official_alternative": 14,
     "historical_replaced": 12
   }

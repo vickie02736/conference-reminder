@@ -174,7 +174,9 @@ test('an omitted round channel is resolved from its published label without open
 });
 test('concurrent oral, poster and registration routes appear separately, including mixed abstract calls',()=>{
  for (const name of ['Computational Methods for Defects','Theoretical Chemistry Group Graduate','SSCG2026']) {
-  const statuses=snapshotStatuses(canonical(name));
+  const event=canonical(name);
+  // This route test uses the October snapshot, before SSCG's selection notice.
+  const statuses=snapshotStatuses(name==='SSCG2026'?{...event,status:'Submissions and registration open.'}:event);
   const labels=statuses.map(s=>s.label);
   assert.ok(labels.includes('Oral submission open'),name);
   assert.ok(labels.includes('Poster submission open'),name);

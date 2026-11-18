@@ -508,20 +508,20 @@
       "changed_at": "2026-11-18T08:35:05Z",
       "checks": {
         "cpm10": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-03T01:54:04+00:00",
-          "reviewed_hash": "a0c236c8bd38782d5774af10484b52b9adc38649fc3b63498073a36204f12bf9",
-          "evidence": "DECHEMA 页：\"23 - 26 May 2027 Garmisch-Partenkirchen Save the date\"，与记录起止 2027-05-23 至 05-26 及地点相符；无钟点/时区；联系人 Matthias Neumann 相符。侧栏其他 DECHEMA 活动日期无关。",
-          "review_method": "fetcher_text",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
+          "reviewed_hash": "7e1a648d09fcbc52f8592eb7bdb400dcbbf512bc0042c638d54c51712e203ecb",
+          "evidence": "与11月17日正文逐行差异仅侧栏无关活动轮换；完整核对CPM-10为23–26 May 2027/Garmisch-Partenkirchen、官方转到cpm-workshop.org、Matthias Neumann仅联系人，机构DECHEMA。此页未列摘要截止/钟点/时区或科学讲者，保留其他来源既有事实；不将其他活动日期导入。",
+          "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-18T08:35:05Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "review_run": 44268026214,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -537,26 +537,20 @@
       "changed_at": "2026-11-18T08:35:05Z",
       "checks": {
         "dzt38": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
-          "reviewed_hash": "15a72c0ccd30c5919212daa1ccf9649a146bcd63470c43665db3d4d490d6b20b",
-          "evidence": "与11月15日完成复核正文逐行差异仅Aussteller新增Avantium R&D Solutions企业介绍，不当作主办/讲者。再次核对原文“submission ... until November 27, 2026”、3–5 March 2027/Leipzig Campus Jahnallee，截止无钟点时区且注册截止仍未公布。DECHEMA主办、Leipzig化工所承办、Majd Al-Naji/Roger Gläser均Leipzig，4位plenary及机构均相符。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
+          "reviewed_hash": "3ad0d8c2c91673f9668f648ae1b21916770133b39c635781c7c87845cc96a225",
+          "evidence": "与今天08:02已完成复核正文逐行比较，仅侧栏移除PEMT并加入NFDI4Cat/NFDI4ING无关活动；DZT38的3–5 March 2027、Leipzig及27 November摘要截止、DECHEMA/Leipzig组织者、两位委员会和四位plenary角色机构均无差异。未新增截止钟点/时区，注册截止仍未公布。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-18T08:35:05Z",
-          "review_run": 44053697842,
+          "review_run": 44268026214,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -1386,26 +1380,20 @@
       "changed_at": "2026-11-18T08:35:05Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
-          "reviewed_hash": "9863c283d5efe3f4ec00362a08074ab0af71e0b350077e3a1d77b810575c79e6",
-          "evidence": "与11月15日完成复核运行器全文逐行比较仅CRASSH Events及School of Clinical Medicine/CATO等导航变动。正文“6th January 2027 – 8th January 2027”、Last Booking Date “16th December 2026”、£195、Cambridge化学系及联系人Dr. Seán Kavanagh均一致。此商店页没有口头摘要截止和其余讲者名单，不据此覆盖AIchemy此前事实；无截止钟点时区。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
+          "reviewed_hash": "3db24d04cb9dc0e8e580f95c9c2bbafb3a63510a83fd74171d72a0854a399488",
+          "evidence": "与今天08:02已完成复核匹配的运行器正文逐行比较，仅Department of Oncology/Upper GI Symposium及Institute of Criminology/Doing Justice Workshop导航新增；6–8 January 2027、Last Booking Date 16 December 2026、£195及Dr. Seán Kavanagh联系人/机构未改。此页未列其他讲者和口头摘要截止，保留AIchemy原事实，不从商店页推断钟点时区。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-18T08:35:05Z",
-          "review_run": 44053697842,
+          "review_run": 44268026214,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -1781,20 +1769,22 @@
       "checks": {
         "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026": {
           "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-05T09:17:36+00:00",
-          "reviewed_hash": "59289e04393eb55d82b2617d84763c052d07bb4a459564f98926a73ab7f0f74b",
-          "evidence": "runner正文逐行差异仅新增 Dr Joe Willis；正文列为 “Advanced Materials Policy Lead, DBIST, HM Government”，未改变会议日期、口头摘要 2026-11-06、注册/海报摘要 2026-11-25 或已存时间信息。",
+          "reason": "manual_review_partial",
+          "message": "current poster submission availability: previous open-until-registration notice removed; no explicit current open/closed statement",
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
+          "reviewed_hash": "41b84fe2d6b4f901126fee394bdd2b76c9699a5b69fee16b9bedea24d046d4db",
+          "evidence": "与11月17日正文逐行差异：原延长摘要/海报开放横幅改为遴选结果延迟通知；decision notifications by November 16th改very soon，无新通知日期且不建提醒。口头6 November、注册25 November、15–17 December/Oxford以及9位讲者/7位组织团队角色机构逐项与全文相符。删去海报开放说明不能证明关闭，保留原25 November历史证据，明确未核实当前海报是否仍开放。会议noon等无时区，仍日期精度；11月5日复核附件过期，使用11月17日基线并完整核对存量。",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-18T08:35:05Z",
           "review_method": "runner_text",
-          "review_run": "41990590073",
+          "review_run": 44268026214,
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "current poster submission availability: previous open-until-registration notice removed; no explicit current open/closed statement"
+          ],
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       },
@@ -4282,13 +4272,13 @@
       "changed_at": "2026-11-18T08:35:05Z",
       "checks": {
         "cpm10": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
           "reviewed_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
-          "evidence": "review_method=browser：最新运行器file是Anubis JavaScript proof-of-work挑战，不能作为正文；FAU官方页面浏览器正文核实CPM-10为23–26 May 2027、Garmisch-Partenkirchen，Matthias Thommes（FAU Erlangen-Nürnberg）和Alexander Neimark（Rutgers University）组织并与DECHEMA合作。页面更新时间15:54是发布元数据，不是活动钟点；未公布摘要/注册截止钟点或时区。未写入或修改hash。",
-          "review_method": "browser",
+          "evidence": "上次运行器仅Anubis挑战，本次file首次重新包含可读FAU正文：23. bis 26. Mai 2027/Garmisch-Partenkirchen；Organisiert von Matthias Thommes（FAU Erlangen-Nürnberg）und Alexander Neimark（Rutgers University）in Kooperation mit DECHEMA，与此前浏览器核实及存量一致。22. Juni 2026 - 15:54为网页更新元数据，不是截止钟点；本文未公布摘要/注册截止或时区，不覆盖cpm CFP的1 December。此次成功是内容可核实及单次抓取观察，不声明稳定恢复。",
+          "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-18T08:35:05Z",
           "reviewed_fields": [
@@ -4296,13 +4286,7 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_run": 41625735289,
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_run": 44268026214
         }
       },
       "fingerprint_version": 2
@@ -8197,22 +8181,19 @@
         "materials-science-engineering-2027-coalesce": {
           "review_required": true,
           "message": "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026",
-          "reason": "content_changed",
-          "reviewed_hash": "b4f9178834194196cb9d5f5eb2ea12d1ed6c66bcf5bcc95d7c58f946f7d78e64",
-          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "reason": "content_conflict",
+          "reviewed_hash": "bedbbcad9c789f08c15b170f7e6c61b7f64a7c64a6d05e45e6aaf99a1a787c5f",
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
           "review_method": "runner_text",
-          "review_run": 43571935314,
-          "evidence": "与11月12日逐行差异仅推广推文及发布时间；首次完整核对：原文“Event on: April | 29-30 | 2027”、welcome也2027，但往届回顾称下届“April 29-30, 2026”，无官方更正，保留年份冲突。摘要17 November 2026、早鸟19 November无钟点时区，Coalesce Research Group为主办方，酒店为官网公布未独立确认；Organizing Committee四名及机构已逐项登记，往届讲者不导入2027。",
+          "review_run": 44268026214,
+          "evidence": "与11月15日上次复核正文逐行比较，摘要17 November 2026删除改“Abstract Submissions / Open”，不推断新最终截止；旧日期作历史保存。早鸟19 November无钟点时区。2027页首/welcome与往届回顾下届2026年份矛盾仍在，4位委员会角色机构未变，继续保留年份冲突。",
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
           ],
           "review_invalidated_at": "2026-11-18T08:35:05Z"
         }
@@ -8751,16 +8732,16 @@
         "euromof2027": {
           "review_required": true,
           "reason": "content_conflict",
-          "message": "registration availability: homepage open vs registration page SOON available",
-          "reviewed_at": "2026-11-08T09:10:03.998791+00:00",
+          "message": "registration/submission availability: homepage open vs dedicated pages SOON available",
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
           "reviewed_hash": "cc1ec594a25a997a503ce464c85d1af88a08a7f25886fc78f5196dd29dcc8f5b",
-          "evidence": "与上次可读运行42184117359逐行差异仅新增Important Dates锚点；既有会议、截止及人员机构无变，首页仍说Registration is now open，而注册专页SOON available，状态冲突保留。",
+          "evidence": "review_method=browser：本次运行器无file/ok=false，不写任何hash。浏览器首页仍称注册已开放，注册页仍Registration SOON available/SOON AVAILABLE，冲突未解；2月1投稿、4月5早鸟、7月3常规费及7月4–7会议日期未变，无截止钟点时区。委员会和讲者页可读且存量角色机构一致，Kitagawa/Yaghi仍只称参与者，具体讲者名单待公布。",
           "resolved_reason": "source_relocated",
           "review_invalidated_at": "2026-11-08T07:24:23Z",
           "remaining_fields": [
-            "registration availability: homepage open vs registration page SOON available"
+            "registration/submission platform availability"
           ],
-          "review_method": "runner_text",
+          "review_method": "browser",
           "review_run": 42458558175,
           "reviewed_fields": [
             "associated_dates",
@@ -8871,14 +8852,14 @@
         "euromof2027": {
           "review_required": true,
           "reason": "content_conflict",
-          "message": "registration availability: homepage open vs registration page SOON available",
-          "reviewed_at": "2026-11-07T09:03:06.441606+00:00",
+          "message": "registration/submission availability: homepage open vs dedicated pages SOON available",
+          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
           "reviewed_hash": "0d4a0e35d78d12e3d6d8c7a1be118251a9a6d01786b165d46a676019254cb26c",
-          "evidence": "11月6日运行器正文与当前保留hash匹配：标题改为Registration SOON available，新增住宿选择，截止与人员机构不变。浏览器复核早鸟2027-04-05、常规07-03、现场07-04起；首页仍说已开放，注册页写即将开放，冲突保留。最新运行器无file；review_method=browser，不改任何hash。",
+          "evidence": "review_method=browser：本次运行器无file/ok=false，不写任何hash。浏览器首页仍称注册已开放，注册页仍Registration SOON available/SOON AVAILABLE，冲突未解；2月1投稿、4月5早鸟、7月3常规费及7月4–7会议日期未变，无截止钟点时区。委员会和讲者页可读且存量角色机构一致，Kitagawa/Yaghi仍只称参与者，具体讲者名单待公布。",
           "resolved_reason": "source_relocated",
           "review_invalidated_at": "2026-11-06T07:57:43Z",
           "remaining_fields": [
-            "registration availability: homepage open vs registration page SOON available"
+            "registration/submission platform availability"
           ],
           "review_method": "browser"
         }
