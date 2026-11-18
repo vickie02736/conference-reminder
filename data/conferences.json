@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-17T09:15:54Z",
-    "last_updated_at": "2026-11-17T08:05:29.826654+00:00",
+    "last_updated_at": "2026-11-18T08:02:42.557494+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1900,13 +1900,13 @@
       ],
       "url": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "priority": 2,
-      "verified_on": "2026-11-15",
+      "verified_on": "2026-11-18",
       "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-17T09:15:54Z",
-        "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-18T08:02:42.557494+00:00",
+        "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
       },
       "milestones": [
         {
@@ -6718,13 +6718,13 @@
       ],
       "url": "https://dechema.de/en/dzt38.html",
       "priority": 1,
-      "verified_on": "2026-11-15",
+      "verified_on": "2026-11-18",
       "evidence": "The DECHEMA organiser page gives 3–5 March, the 27 November deadline and porous-materials theory/adsorption topics.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-17T09:15:54Z",
-        "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
-        "message": "https://dechema.de/en/dzt38.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-18T08:02:42.557494+00:00",
+        "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -12220,13 +12220,13 @@
       ],
       "url": "https://www.eazc2027.com/",
       "priority": 1,
-      "verified_on": "2026-11-12",
+      "verified_on": "2026-11-18",
       "evidence": "The site gives 17–20 January overall, distinguishing 17 January arrivals from the 18–20 January conference. Important Dates lists Recent Reports on 30 November.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-17T09:15:54Z",
-        "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
-        "message": "https://www.eazc2027.com/index/page.html?id=1843: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-18T08:02:42.557494+00:00",
+        "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -12411,10 +12411,17 @@
             "role": "Special lecture by IZA Ambassador",
             "source": "https://www.eazc2027.com/index/page.html?id=1843",
             "affiliation": "POSTECH"
+          },
+          {
+            "name": "Peng Wu",
+            "affiliation": "East China Normal University, China",
+            "role": "Keynote speaker",
+            "source": "https://www.eazc2027.com/index/page.html?id=1843",
+            "presentation_title": "Synthesis of Large-Pore or New Zeolites From Layered Precursors"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-02",
+        "checked_on": "2026-11-18",
         "status": "published",
         "note": "Selected conference leadership and announced plenary/special lecturers; the official website lists additional committee members and speakers.",
         "sources": [
@@ -15126,7 +15133,7 @@
       "region": "Other",
       "type": "Conference",
       "deadline": "Abstracts: 15 December 2026 at 23:59 JST, equivalent to 14:59 GMT that day. Early registration: 7 May 2027; registration: 7 June 2027.",
-      "status": "Abstract submissions opened on 1 October 2026. Submission system temporarily unavailable daily 20:00–07:00 JST (11:00–22:00 GMT), effective 14 November 2026 until further notice. Abstract deadline remains 15 December 2026 at 23:59 JST.",
+      "status": "Abstract submissions opened on 1 October 2026. Submission system temporarily unavailable daily 22:00–07:00 JST (13:00–22:00 GMT), effective 14 November 2026 until further notice. Abstract deadline remains 15 December 2026 at 23:59 JST.",
       "note": "Official topics explicitly combine Machine Learning (AI), Computational Simulation, PCP/MOF and Adsorption and Diffusion, making this a strong AI–MOF–simulation fit. Official temporary daily submission downtime is separate from the submission deadline; submit outside the unavailable hours. No deadline extension is announced.",
       "sources": [
         "https://zmpc.org/",
@@ -15137,13 +15144,13 @@
       ],
       "url": "https://zmpc.org/",
       "priority": 1,
-      "verified_on": "2026-11-16",
-      "evidence": "与11月14日正文逐行差异：首页新增2026.11.16 Temporary Suspension of Submission System；CFP新增官方通知“unavailable daily from 20:00 to 07:00 (JST) / 11:00 to 22:00 (GMT)”，effective November 14, 2026 until further notice。明确记为每日系统不可用时段，不改变December 15, 2026 (23:59, JST)摘要截止、不推断延期；25–29 July 2027、Ginowan/Okinawa Convention Center及既有人员角色机构无变。录用通知不建提醒。",
+      "verified_on": "2026-11-18",
+      "evidence": "与11月16日完成复核正文逐行差异：首页公告日期11.16改11.17；CFP原文每日不可用改为“22:00 to 07:00 (JST) / 13:00 to 22:00 (GMT)”，effective November 14 until further notice。原20:00起改22:00起，仍次日07:00结束；系统暂停与投稿截止分别保存。December 15, 2026 (23:59, JST)、25–29 July 2027及地点不变，无延期公告，既有人员角色机构无差异，通知不建提醒。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-17T09:15:54Z",
-        "last_verified_at": "2026-11-16T20:32:07.676536+00:00",
-        "message": "https://zmpc.org/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://zmpc.org/call-for-abstracts/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-18T08:02:42.557494+00:00",
+        "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -15371,13 +15378,13 @@
         ]
       },
       "submission_availability": {
-        "unavailable_start": "20:00",
+        "unavailable_start": "22:00",
         "unavailable_end": "07:00",
         "timezone": "Asia/Tokyo",
         "effective_from": "2026-11-14",
         "until": "further notice",
         "source": "https://zmpc.org/call-for-abstracts/",
-        "evidence": "unavailable daily from 20:00 to 07:00 (JST) / 11:00 to 22:00 (GMT), effective November 14, 2026, until further notice."
+        "evidence": "unavailable daily from 22:00 to 07:00 (JST) / 13:00 to 22:00 (GMT), effective November 14, 2026, until further notice."
       }
     },
     {
@@ -16975,21 +16982,21 @@
       "location": "Melbourne, Australia — Monash University, 750 Collins St",
       "region": "Other",
       "type": "Conference",
-      "deadline": "Abstracts: 31 October 2026; notifications: 15 November 2026; early-bird registration: 30 November 2026.",
-      "status": "Abstract submissions and registration open; key deadlines published.",
+      "deadline": "Original abstract deadline: 31 October 2026, now passed; posters accepted on a rolling basis with no final cutoff published; acceptance notifications: 23 November 2026; early-bird registration: 30 November 2026.",
+      "status": "Original abstract deadline has passed; poster submissions remain open on a rolling basis. Registration open.",
       "note": "RACI Chemistry Automation Conference covering automated experimentation, AI/ML and digital chemistry. Relevant to automated materials and chemical discovery, though outside the UK/Europe region.",
       "sources": [
         "https://digichem27.au/"
       ],
       "url": "https://digichem27.au/",
       "priority": 2,
-      "verified_on": "2026-11-07",
-      "evidence": "The official RACI conference page confirms 22–23 February 2027 in Melbourne, the Monash venue and the abstract, notification and early-bird dates.",
+      "verified_on": "2026-11-18",
+      "evidence": "Official page: “The abstract submission deadline has passed”; “Submissions remain open for poster presenters” on a “rolling basis”. Notification of acceptance: 23 November 2026; early bird: 30 November 2026.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-17T09:15:54Z",
-        "last_verified_at": "2026-11-07T08:59:04.820359+00:00",
-        "message": "https://digichem27.au/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-18T08:02:42.557494+00:00",
+        "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -17059,6 +17066,30 @@
             "role": "Conference chair",
             "source": "https://digichem27.au/",
             "affiliation": "Monash University"
+          },
+          {
+            "name": "Robert Chapman",
+            "affiliation": "University of Newcastle",
+            "role": "Organising committee member",
+            "source": "https://digichem27.au/"
+          },
+          {
+            "name": "Chris Hyland",
+            "affiliation": "University of Wollongong",
+            "role": "Organising committee member",
+            "source": "https://digichem27.au/"
+          },
+          {
+            "name": "Vinh Nguyen",
+            "affiliation": "University of New South Wales",
+            "role": "Organising committee member",
+            "source": "https://digichem27.au/"
+          },
+          {
+            "name": "Anastasios Polyzos",
+            "affiliation": "University of Melbourne",
+            "role": "Organising committee member",
+            "source": "https://digichem27.au/"
           }
         ],
         "speakers": [
@@ -17136,7 +17167,7 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-11-18",
         "status": "published",
         "note": "Conference chair and announced plenary/keynote speakers from the official DigiChem27 website; additional confirmations may follow.",
         "sources": [
@@ -22171,7 +22202,7 @@
       "type": "Conference",
       "deadline": "Research abstracts: 2026-09-13; Research papers: 2026-09-20; Late Breaking Results: 2026-11-29; PhD Forum: 2026-11-30. AoE GMT-12; exact cutoff seconds conflict (23:59:00 / 23:59:59).",
       "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
-      "note": "Late Breaking Results submission link is published: https://softconf.com/date27/LBR/. Official cutoff seconds conflict: dated rows now 23:59:59 GMT -12, footer still 23:59:00 GMT -12; day and AoE zone agree. Registration cutoff remains unpublished.",
+      "note": "Late Breaking Results submission link is published: https://softconf.com/date27/LBR/. Official cutoff seconds conflict: dated rows now 23:59:59 GMT -12, footer still 23:59:00 GMT -12; day and AoE zone agree. Registration cutoff remains unpublished. PhD Forum submission link: https://softconf.com/date27/phdforum/; University Fair submission link: https://softconf.com/date27/university-fair/.",
       "sources": [
         "https://www.date-conference.com/call-for-papers"
       ],
@@ -22181,7 +22212,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-17T09:15:54Z",
+        "last_checked_at": "2026-11-18T08:02:42.557494+00:00",
         "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
         "message": "https://www.date-conference.com/call-for-papers: deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12"
       },
@@ -27006,6 +27037,104 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "ZMPC2027",
+      "event_id": "zmpc2027",
+      "field": "submission_availability",
+      "old_start": "20:00",
+      "new_start": "22:00",
+      "source": "https://zmpc.org/call-for-abstracts/",
+      "evidence": "unavailable daily from 22:00 to 07:00 (JST) / 13:00 to 22:00 (GMT), effective November 14, 2026, until further notice."
+    },
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "7th Euro-Asia Zeolite Conference (EAZC2027)",
+      "event_id": "eazc2027",
+      "field": "people.speakers.presentation_title",
+      "source": "https://www.eazc2027.com/index/page.html?id=1843",
+      "evidence": "Peng Wu / East China Normal University, China / Keynote Speakers / Presentation Title: Synthesis of Large-Pore or New Zeolites From Layered Precursors"
+    },
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "7th Euro-Asia Zeolite Conference (EAZC2027)",
+      "event_id": "eazc2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Peng Wu",
+        "affiliation": "East China Normal University, China",
+        "role": "Keynote speaker",
+        "source": "https://www.eazc2027.com/index/page.html?id=1843",
+        "presentation_title": "Synthesis of Large-Pore or New Zeolites From Layered Precursors"
+      },
+      "source": "https://www.eazc2027.com/index/page.html?id=1843",
+      "evidence": "Peng Wu / East China Normal University, China / Keynote speaker"
+    },
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "DigiChem'27 — RACI Chemistry Automation Conference",
+      "event_id": "digichem27-raci-chemistry-automation-conference",
+      "field": "submission_status",
+      "source": "https://digichem27.au/",
+      "evidence": "Official page: “The abstract submission deadline has passed”; “Submissions remain open for poster presenters” on a “rolling basis”. Notification of acceptance: 23 November 2026; early bird: 30 November 2026.",
+      "new": "Original abstract deadline has passed; poster submissions remain open on a rolling basis. Registration open."
+    },
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "DigiChem'27 — RACI Chemistry Automation Conference",
+      "event_id": "digichem27-raci-chemistry-automation-conference",
+      "field": "people.committee",
+      "added": {
+        "name": "Anastasios Polyzos",
+        "affiliation": "University of Melbourne",
+        "role": "Organising committee member",
+        "source": "https://digichem27.au/"
+      },
+      "source": "https://digichem27.au/",
+      "evidence": "Anastasios Polyzos / University of Melbourne / Organising committee member"
+    },
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "DigiChem'27 — RACI Chemistry Automation Conference",
+      "event_id": "digichem27-raci-chemistry-automation-conference",
+      "field": "people.committee",
+      "added": {
+        "name": "Vinh Nguyen",
+        "affiliation": "University of New South Wales",
+        "role": "Organising committee member",
+        "source": "https://digichem27.au/"
+      },
+      "source": "https://digichem27.au/",
+      "evidence": "Vinh Nguyen / University of New South Wales / Organising committee member"
+    },
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "DigiChem'27 — RACI Chemistry Automation Conference",
+      "event_id": "digichem27-raci-chemistry-automation-conference",
+      "field": "people.committee",
+      "added": {
+        "name": "Chris Hyland",
+        "affiliation": "University of Wollongong",
+        "role": "Organising committee member",
+        "source": "https://digichem27.au/"
+      },
+      "source": "https://digichem27.au/",
+      "evidence": "Chris Hyland / University of Wollongong / Organising committee member"
+    },
+    {
+      "at": "2026-11-18T08:02:42.557494+00:00",
+      "event_name": "DigiChem'27 — RACI Chemistry Automation Conference",
+      "event_id": "digichem27-raci-chemistry-automation-conference",
+      "field": "people.committee",
+      "added": {
+        "name": "Robert Chapman",
+        "affiliation": "University of Newcastle",
+        "role": "Organising committee member",
+        "source": "https://digichem27.au/"
+      },
+      "source": "https://digichem27.au/",
+      "evidence": "Robert Chapman / University of Newcastle / Organising committee member"
+    },
     {
       "at": "2026-11-17T08:05:29.826654+00:00",
       "event_name": "InterPore2027",

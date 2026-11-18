@@ -530,26 +530,20 @@
       "changed_at": "2026-11-17T09:15:54Z",
       "checks": {
         "dzt38": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
-          "reviewed_hash": "743fa685f8e6bb887600e1cf0d51d297c055710c2c4fd6503a62ae30bebec9b3",
-          "evidence": "与11月12日逐行差异仅Bronze Sponsor / Chemiewerk Bad Köstritz GmbH及企业介绍。补对完整关联事实：3–5 March 2027、Leipzig Campus Jahnallee，原文“submission ... possible until November 27, 2026”；无钟点时区，注册截止未公布。Majd Al-Naji、Roger Gläser均Leipzig University，四位plenary Dusselier/KU Leuven、Fechler/Evonik、Vilé/PoliMi、Ettlinger/TU München与现存数据相符。赞助身份不当成主办方。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
+          "reviewed_hash": "15a72c0ccd30c5919212daa1ccf9649a146bcd63470c43665db3d4d490d6b20b",
+          "evidence": "与11月15日完成复核正文逐行差异仅Aussteller新增Avantium R&D Solutions企业介绍，不当作主办/讲者。再次核对原文“submission ... until November 27, 2026”、3–5 March 2027/Leipzig Campus Jahnallee，截止无钟点时区且注册截止仍未公布。DECHEMA主办、Leipzig化工所承办、Majd Al-Naji/Roger Gläser均Leipzig，4位plenary及机构均相符。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-17T09:15:54Z",
-          "review_run": 43571935314,
+          "review_run": 44053697842,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -1379,26 +1373,20 @@
       "changed_at": "2026-11-17T09:15:54Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
-          "reviewed_hash": "ea58e5eb49775b7c91d6ed6eff9adcaef07caeaa09d17851947c0ee73bc3b5b2",
-          "evidence": "与11月12日逐行差异仅Cambridge Zero、Events、Language Endangerment等全站导航，活动6–8 January 2027、口头摘要23 November、海报/注册16 December、人员角色机构无变化；未公布截止钟点时区。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
+          "reviewed_hash": "9863c283d5efe3f4ec00362a08074ab0af71e0b350077e3a1d77b810575c79e6",
+          "evidence": "与11月15日完成复核运行器全文逐行比较仅CRASSH Events及School of Clinical Medicine/CATO等导航变动。正文“6th January 2027 – 8th January 2027”、Last Booking Date “16th December 2026”、£195、Cambridge化学系及联系人Dr. Seán Kavanagh均一致。此商店页没有口头摘要截止和其余讲者名单，不据此覆盖AIchemy此前事实；无截止钟点时区。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-17T09:15:54Z",
-          "review_run": 43571935314,
+          "review_run": 44053697842,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -4335,26 +4323,20 @@
       "changed_at": "2026-11-17T09:15:54Z",
       "checks": {
         "zmpc2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
-          "reviewed_hash": "89439f70d4f8628a66f5300c9b0060020e0f9065703483fe9c71057b4beed1d7",
-          "evidence": "与11月14日正文逐行差异：首页新增2026.11.16 Temporary Suspension of Submission System；CFP新增官方通知“unavailable daily from 20:00 to 07:00 (JST) / 11:00 to 22:00 (GMT)”，effective November 14, 2026 until further notice。明确记为每日系统不可用时段，不改变December 15, 2026 (23:59, JST)摘要截止、不推断延期；25–29 July 2027、Ginowan/Okinawa Convention Center及既有人员角色机构无变。录用通知不建提醒。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
+          "reviewed_hash": "fe74c34e609aaaece39f930e04cfd037253887cb2bf5ae00df5aa2973d70ab8f",
+          "evidence": "与11月16日完成复核正文逐行差异：首页公告日期11.16改11.17；CFP原文每日不可用改为“22:00 to 07:00 (JST) / 13:00 to 22:00 (GMT)”，effective November 14 until further notice。原20:00起改22:00起，仍次日07:00结束；系统暂停与投稿截止分别保存。December 15, 2026 (23:59, JST)、25–29 July 2027及地点不变，无延期公告，既有人员角色机构无差异，通知不建提醒。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-17T09:15:54Z",
-          "review_run": 43827720798,
+          "review_run": 44053697842,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -4370,26 +4352,20 @@
       "changed_at": "2026-11-17T09:15:54Z",
       "checks": {
         "zmpc2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
-          "reviewed_hash": "6f059f4d56c411b0a488a6a55b19cc256399036732e01c4ba87e66f00d2ab6b7",
-          "evidence": "与11月14日正文逐行差异：首页新增2026.11.16 Temporary Suspension of Submission System；CFP新增官方通知“unavailable daily from 20:00 to 07:00 (JST) / 11:00 to 22:00 (GMT)”，effective November 14, 2026 until further notice。明确记为每日系统不可用时段，不改变December 15, 2026 (23:59, JST)摘要截止、不推断延期；25–29 July 2027、Ginowan/Okinawa Convention Center及既有人员角色机构无变。录用通知不建提醒。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
+          "reviewed_hash": "66de2ece665ccf62333b9c492eee2a4d5ce18da208a8505443bed59c387957c3",
+          "evidence": "与11月16日完成复核正文逐行差异：首页公告日期11.16改11.17；CFP原文每日不可用改为“22:00 to 07:00 (JST) / 13:00 to 22:00 (GMT)”，effective November 14 until further notice。原20:00起改22:00起，仍次日07:00结束；系统暂停与投稿截止分别保存。December 15, 2026 (23:59, JST)、25–29 July 2027及地点不变，无延期公告，既有人员角色机构无差异，通知不建提醒。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-17T09:15:54Z",
-          "review_run": 43827720798,
+          "review_run": 44053697842,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -4535,20 +4511,19 @@
       "changed_at": "2026-11-17T09:15:54Z",
       "checks": {
         "digichem27-raci-chemistry-automation-conference": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_hash": "6bc5990cba5a4473bc504c33c5e6de9e0054c72f35c6945e1ec20cf63af1e44c",
-          "reviewed_at": "2026-11-07T08:59:04.820359+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_hash": "88be544a355819c4abe78632d8c58b7f4f0c288cbbb7b8e02fe7763db5ec46c9",
+          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
           "review_method": "runner_text",
-          "review_run": 42350237668,
-          "evidence": "逐行差异仅移除重复的 Silver/Bronze Sponsor 标题；活动日期、全部讲者角色与机构、摘要和注册日期均未变。没有把15 November录用通知建立为提醒节点。",
+          "review_run": 44053697842,
+          "evidence": "11月16日至17日逐行差异：新增摘要已截止、海报继续滚动接收的明确说明；原文“Submissions remain open for poster presenters”及“rolling basis”，无新的海报截止日/钟点/时区。录用通知15改23 November，仅更新说明不建提醒。旧31 October节点保留作原截止，早鸟30 November、会议22–23 February 2027/Monash 750 Collins不变。完整核对RACI主办、Tanja Junkers/Monash chair、4位plenary和8位keynote机构相符，补录4位已有官网委员会成员；其新增时间不作推断。11月7日上次复核附件本机无副本，采用现有11月16日基线并完整对照当前正文和存量事实。",
           "review_invalidated_at": "2026-11-17T09:15:54Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
           ]
         }
       }
@@ -5276,26 +5251,20 @@
       "changed_at": "2026-11-17T09:15:54Z",
       "checks": {
         "eazc2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-10T09:10:55.914052+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
           "review_method": "runner_text",
-          "evidence": "与11月9日正文逐行差异仅Suk Bong Hong条目新增Presentation Title: Recent Advances in Intergrowth Zeolite Synthesis；其POSTECH机构、讲者身份及所有会议/投稿/注册日期未变。题目不建立提醒节点，未新增钟点/时区。",
-          "reviewed_hash": "af265828e6ffd791f16b0758978d5e560d9aa41842e2718f5fcff28493793670",
-          "review_run": 42782536651,
+          "evidence": "11月16日至17日逐行差异仅Peng Wu新增“Presentation Title: Synthesis of Large-Pore or New Zeolites From Layered Precursors”；该人属于Keynote Speakers，East China Normal University, China，补录身份机构及题目。现存4位plenary及Suk Bong Hong/POSTECH的IZA Ambassador角色与当前全文一致；此页未新增会议/截止钟点时区，其他日期来源保留先前核实，不宣称在人员页重新证明日期。11月10日复核附件已超保留期，本轮以11月16日基线并完整对照当前存量人员事实。",
+          "reviewed_hash": "995d686064f163c7a2dba42bc291e52acd9b3089f2b58f960c8c1c6380539440",
+          "review_run": 44053697842,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "review_invalidated_at": "2026-11-17T09:15:54Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "review_invalidated_at": "2026-11-17T09:15:54Z"
         }
       }
     },
@@ -8495,12 +8464,12 @@
         "date-2027": {
           "review_required": true,
           "message": "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-15T00:01:48.589020+00:00",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-18T08:02:42.557494+00:00",
           "review_method": "runner_text",
-          "evidence": "与11月12日逐行差异：各日期行由“AoE (23:59:00 GMT -12)”改为“AoE (23:59:59 GMT -12)”，页尾仍“all deadline days ... AoE (23:59:00 GMT -12)”；日期及GMT-12一致但精确秒冲突，不替官方选择。保留日期/时区及两种秒候选，相关节点标conflict；LBR入口已公布纠正旧note，通知日期不建提醒，机构无差异。",
-          "reviewed_hash": "d3d2c68dc299049912d3c0d64c193c54b2e1574b70e8984fd2312854185d8874",
-          "review_run": 43571935314,
+          "evidence": "与11月15日部分复核正文逐行比较仅University Fair和PhD Forum的“Not yet available”替换成https://softconf.com/date27/university-fair/及https://softconf.com/date27/phdforum/。对应投稿15 January 2027及30 November 2026不变，机构无差异。再次确认日期行AoE 23:59:59 GMT -12、页尾23:59:00 GMT -12仍冲突；仅确认入口已开通和日期/时区，不选择秒数，不建录用通知节点。",
+          "reviewed_hash": "398006492e62d0cf0259ab49cde3c6ff74a15e376f29cc735a6828faffce2945",
+          "review_run": 44053697842,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
@@ -8508,10 +8477,7 @@
           ],
           "review_invalidated_at": "2026-11-17T09:15:54Z",
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12"
           ]
         }
       },

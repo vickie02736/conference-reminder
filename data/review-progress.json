@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-11-17",
-  "remaining_count": 130,
-  "remaining_source_count": 124,
+  "as_of": "2026-11-18",
+  "remaining_count": 124,
+  "remaining_source_count": 118,
   "queue": [
     {
       "source": "https://materialscienceconferences.com/",
@@ -10,7 +10,7 @@
       "message": "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026",
       "content_hash": "b4f9178834194196cb9d5f5eb2ea12d1ed6c66bcf5bcc95d7c58f946f7d78e64",
       "priority": 0,
-      "next_deadline": "2026-11-17",
+      "next_deadline": "2026-11-19",
       "remaining_fields": [
         "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
       ]
@@ -31,16 +31,13 @@
     {
       "source": "https://www.date-conference.com/call-for-papers",
       "event_id": "date-2027",
-      "reason": "content_changed",
+      "reason": "content_conflict",
       "message": "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12",
       "content_hash": "398006492e62d0cf0259ab49cde3c6ff74a15e376f29cc735a6828faffce2945",
       "priority": 0,
       "next_deadline": "2026-11-29",
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "deadline seconds: dated rows 23:59:59 vs footer 23:59:00 GMT -12"
       ]
     },
     {
@@ -62,7 +59,7 @@
       "message": "The overview still says registration is open until 12 January 2027 while the Day 1 booking page says it closes at midnight on Tuesday 15 January 2027; no official statement resolves this.",
       "content_hash": "2073dcabd36dcc4d9ad875834911d043d51633d2f975aaffbc4c9f5a1bda893f",
       "priority": 0,
-      "next_deadline": null,
+      "next_deadline": "2026-12-18",
       "remaining_fields": [
         "registration deadline (conflict 2027-01-12 vs 2027-01-15)"
       ]
@@ -74,7 +71,7 @@
       "message": "The booking page's 'midnight on Tuesday 15th of January 2027' is internally inconsistent (15 January 2027 is a Friday; 12 January is a Tuesday) and contradicts the overview's 12 January; BMSS must confirm.",
       "content_hash": "b5fcd90a1082adbe4414c23c1222a1bbf25e28fe75c25fc189e3f5a41b9fccc5",
       "priority": 0,
-      "next_deadline": null,
+      "next_deadline": "2026-12-18",
       "remaining_fields": [
         "registration deadline (conflict 2027-01-12 vs 2027-01-15)"
       ]
@@ -280,201 +277,6 @@
       "next_deadline": null,
       "remaining_fields": [
         "end clock: programme 16:40 vs event page 17:00; timezone unpublished"
-      ]
-    },
-    {
-      "source": "https://chemistryworldconference.com/information/important-dates",
-      "event_id": "chemistry-world-conference-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "65df9a36bc29d27429ed511c079ca918f61beb768cf8039ff831142a84496517",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://chemistryworldconference.com/program/scientific-sessions/theoretical-computational-chemistry",
-      "event_id": "chemistry-world-conference-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "bf76acabf2e5084d1d63be149f2c8a97ec71fa19db79eeeda99f9463774e74ea",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "03d74bc10e9e9d67842b0312508803c4dfecc662fe4b48df7a1ac0ec86a5cd39",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/information/important-dates",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "c8e04beaf8130ac0859f5d97db29334df6aa0c661dfc48a0e643cbd206f4c995",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/register",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "8ef6727cf34ab298c9ff6467aefd8a0cd5c4af57b42d5c04a097d3a26c0c5d3f",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/scientific-committee/2027",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "6c7a2a55d4bcde44955386ddb4ff1ea60942addb182133f15b1047eaa70b2a8c",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://magnusconferences.com/materials-science/speaker/manjunatha-channegowda",
-      "event_id": "materials-2027-magnus",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "b92d4304f91ba43fdc4f5aab57ef07298cc5bdbb578e47fd5caafe2ce21a5d3e",
-      "priority": 1,
-      "next_deadline": "2026-11-17",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "9863c283d5efe3f4ec00362a08074ab0af71e0b350077e3a1d77b810575c79e6",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://dechema.de/en/dzt38.html",
-      "event_id": "dzt38",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "15a72c0ccd30c5919212daa1ccf9649a146bcd63470c43665db3d4d490d6b20b",
-      "priority": 1,
-      "next_deadline": "2026-11-27",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://digichem27.au/",
-      "event_id": "digichem27-raci-chemistry-automation-conference",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "88be544a355819c4abe78632d8c58b7f4f0c288cbbb7b8e02fe7763db5ec46c9",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.eazc2027.com/index/page.html?id=1843",
-      "event_id": "eazc2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "995d686064f163c7a2dba42bc291e52acd9b3089f2b58f960c8c1c6380539440",
-      "priority": 1,
-      "next_deadline": "2026-11-30",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://zmpc.org/",
-      "event_id": "zmpc2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "fe74c34e609aaaece39f930e04cfd037253887cb2bf5ae00df5aa2973d70ab8f",
-      "priority": 1,
-      "next_deadline": "2026-12-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://zmpc.org/call-for-abstracts/",
-      "event_id": "zmpc2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "66de2ece665ccf62333b9c492eee2a4d5ce18da208a8505443bed59c387957c3",
-      "priority": 1,
-      "next_deadline": "2026-12-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
       ]
     },
     {
@@ -914,6 +716,36 @@
       ]
     },
     {
+      "source": "https://chemistryworldconference.com/information/important-dates",
+      "event_id": "chemistry-world-conference-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "65df9a36bc29d27429ed511c079ca918f61beb768cf8039ff831142a84496517",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://chemistryworldconference.com/program/scientific-sessions/theoretical-computational-chemistry",
+      "event_id": "chemistry-world-conference-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "bf76acabf2e5084d1d63be149f2c8a97ec71fa19db79eeeda99f9463774e74ea",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
       "source": "https://dgm.de/aimse/2027",
       "event_id": "dgm-aimse-2027",
       "reason": "content_changed",
@@ -1249,6 +1081,81 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "9c851f7b15aaf1b619004a5ce1dc30261781ce31a45a7eb1cd251ded4c979804",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://magnusconferences.com/materials-science/",
+      "event_id": "materials-2027-magnus",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "03d74bc10e9e9d67842b0312508803c4dfecc662fe4b48df7a1ac0ec86a5cd39",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://magnusconferences.com/materials-science/information/important-dates",
+      "event_id": "materials-2027-magnus",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "c8e04beaf8130ac0859f5d97db29334df6aa0c661dfc48a0e643cbd206f4c995",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://magnusconferences.com/materials-science/register",
+      "event_id": "materials-2027-magnus",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "8ef6727cf34ab298c9ff6467aefd8a0cd5c4af57b42d5c04a097d3a26c0c5d3f",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://magnusconferences.com/materials-science/scientific-committee/2027",
+      "event_id": "materials-2027-magnus",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "6c7a2a55d4bcde44955386ddb4ff1ea60942addb182133f15b1047eaa70b2a8c",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://magnusconferences.com/materials-science/speaker/manjunatha-channegowda",
+      "event_id": "materials-2027-magnus",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "b92d4304f91ba43fdc4f5aab57ef07298cc5bdbb578e47fd5caafe2ce21a5d3e",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -2310,25 +2217,25 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-17T08:06:01.285075+00:00",
-    "report": "data/heartbeat-review-2026-11-17.json",
-    "previous_remaining": 97,
-    "daily_new": 0,
+    "at": "2026-11-18T08:04:12.717757+00:00",
+    "report": "data/heartbeat-review-2026-11-18.json",
+    "previous_remaining": 96,
+    "daily_new": 34,
     "daily_removed": 0,
-    "started": 97,
+    "started": 130,
     "batch_new": 0,
-    "resolved": 1,
+    "resolved": 6,
     "partial": 1,
-    "remaining": 96,
-    "remaining_sources": 92,
-    "active_transport": 41,
+    "remaining": 124,
+    "remaining_sources": 118,
+    "active_transport": 45,
     "covered_transport": 2,
-    "all_transport_attempted": 43,
-    "new_or_recurrent_failures_since_nov16": 0,
-    "active_new_failures": 0,
+    "all_transport_attempted": 47,
+    "new_or_recurrent_failures_since_nov17": 4,
+    "active_new_failures": 4,
     "stable_original_restored": 0,
-    "successful_observations_not_stable": 0,
-    "active_with_runner_alternative": 11,
+    "successful_runner_observations_not_stable": 0,
+    "active_with_official_alternative": 14,
     "historical_replaced": 12
   }
 }
