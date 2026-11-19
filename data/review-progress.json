@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-19",
-  "remaining_count": 138,
-  "remaining_source_count": 132,
+  "remaining_count": 135,
+  "remaining_source_count": 129,
   "queue": [
     {
       "source": "https://materialscienceconferences.com/",
@@ -13,6 +13,30 @@
       "next_deadline": "2026-11-19",
       "remaining_fields": [
         "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
+      ]
+    },
+    {
+      "source": "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
+      "event_id": "ukomain-omaib-round-3-sandpit-2027",
+      "reason": "content_conflict",
+      "message": "application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November",
+      "content_hash": "442775643ae168a294fca058ba8c076c950a10a0d8d7acee5fc097b9b4a19b4d",
+      "priority": 0,
+      "next_deadline": "2026-11-20",
+      "remaining_fields": [
+        "application opening date"
+      ]
+    },
+    {
+      "source": "https://multimodalai.github.io/omaib-r3/",
+      "event_id": "ukomain-omaib-round-3-sandpit-2027",
+      "reason": "content_conflict",
+      "message": "application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November",
+      "content_hash": "a4352dd485a4ced8f897e13884382819fcf376f57dad3068b9f015b86e69b36b",
+      "priority": 0,
+      "next_deadline": "2026-11-20",
+      "remaining_fields": [
+        "application opening date"
       ]
     },
     {
@@ -285,51 +309,6 @@
       ]
     },
     {
-      "source": "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
-      "event_id": "ukomain-omaib-round-3-sandpit-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "442775643ae168a294fca058ba8c076c950a10a0d8d7acee5fc097b9b4a19b4d",
-      "priority": 1,
-      "next_deadline": "2026-11-20",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://multimodalai.github.io/",
-      "event_id": "ukomain-omaib-round-3-sandpit-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "00ba2d3ed1c67909c5aef659f3eedf0aa2d93491bd7fa3892f771999d0bbf012",
-      "priority": 1,
-      "next_deadline": "2026-11-20",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "db192ecaa0ef6a2776d648c167cfd4d7b096ece671fb6a365ef88b1963cd1b71",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://sscg.uk/2026-sscg-christmas-meeting",
       "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
       "reason": "content_changed",
@@ -344,31 +323,13 @@
     {
       "source": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/",
       "event_id": "cpm10",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "reason": "unreadable_content",
+      "message": "runner body is Anubis challenge, not conference content",
       "content_hash": "9e3a800e26d7f970a1f80c99632c47545e5362fae18d958cf24f37d555400535",
       "priority": 1,
       "next_deadline": "2026-12-01",
       "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
-      "event_id": "physics-of-life-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "2d8f0b2c90ba9399a1e5b490ebdcbed27add0dabf1f49e5d5d1c27b1102bc154",
-      "priority": 1,
-      "next_deadline": "2026-12-13",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
+        "readable runner body"
       ]
     },
     {
@@ -377,21 +338,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "307143292af8373e81b91b4bbca561c3d87ee433128f204ea218b6422d3258aa",
-      "priority": 1,
-      "next_deadline": "2026-12-15",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
-      "event_id": "ibs-2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "1da9a10750c5faf5a7fd6fe01116e0ddf32b0b8d5a9bea8fa2a56f30f6506122",
       "priority": 1,
       "next_deadline": "2026-12-15",
       "remaining_fields": [
@@ -2413,25 +2359,25 @@
     }
   ],
   "latest_batch": {
-    "at": "2026-11-18T09:06:02.465442+00:00",
-    "report": "data/heartbeat-review-2026-11-18-0901.json",
-    "previous_remaining": 124,
-    "daily_new": 9,
-    "daily_removed": 0,
-    "started": 133,
-    "batch_new": 0,
+    "at": "2026-11-19T08:59:42.232770+00:00",
+    "report": "data/heartbeat-review-2026-11-19.json",
+    "previous_remaining": 129,
+    "daily_new": 12,
+    "daily_removed": 3,
+    "started": 138,
+    "batch_new": 1,
     "resolved": 4,
-    "partial": 4,
-    "remaining": 129,
-    "remaining_sources": 123,
-    "active_transport": 36,
+    "partial": 2,
+    "remaining": 135,
+    "remaining_sources": 129,
+    "active_transport": 37,
     "covered_transport": 2,
-    "all_transport_attempted": 38,
-    "new_or_recurrent_failures_since_earlier_nov18": 6,
-    "active_new_failures": 6,
+    "all_transport_attempted": 39,
+    "new_or_recurrent_failures_since_nov18": 7,
+    "active_new_failures": 7,
     "stable_original_restored": 0,
-    "successful_runner_observations_not_stable": 17,
-    "active_with_official_alternative": 14,
+    "successful_runner_observations_not_stable": 6,
+    "active_with_official_alternative": 12,
     "historical_replaced": 12
   }
 }

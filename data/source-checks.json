@@ -1380,26 +1380,20 @@
       "changed_at": "2026-11-19T08:50:58Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
-          "reviewed_hash": "3db24d04cb9dc0e8e580f95c9c2bbafb3a63510a83fd74171d72a0854a399488",
-          "evidence": "与今天08:02已完成复核匹配的运行器正文逐行比较，仅Department of Oncology/Upper GI Symposium及Institute of Criminology/Doing Justice Workshop导航新增；6–8 January 2027、Last Booking Date 16 December 2026、£195及Dr. Seán Kavanagh联系人/机构未改。此页未列其他讲者和口头摘要截止，保留AIchemy原事实，不从商店页推断钟点时区。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
+          "reviewed_hash": "db192ecaa0ef6a2776d648c167cfd4d7b096ece671fb6a365ef88b1963cd1b71",
+          "evidence": "与11月18日完成复核正文逐行比较，仅CBL Christmas Dinner全站导航新增；6–8 January 2027、16 December 2026 Last Booking Date、£195、Cambridge化学系/Dr. Seán Kavanagh联系人未改。此商店页没有口头摘要截止和其他讲者，不用导航日期替代活动事实，未公布截止钟点/时区。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-19T08:50:58Z",
-          "review_run": 44268026214,
+          "review_run": 44490829463,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },
@@ -4285,11 +4279,11 @@
       "checks": {
         "cpm10": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
+          "message": "runner body is Anubis challenge, not conference content",
+          "reason": "unreadable_content",
           "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
           "reviewed_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
-          "evidence": "上次运行器仅Anubis挑战，本次file首次重新包含可读FAU正文：23. bis 26. Mai 2027/Garmisch-Partenkirchen；Organisiert von Matthias Thommes（FAU Erlangen-Nürnberg）und Alexander Neimark（Rutgers University）in Kooperation mit DECHEMA，与此前浏览器核实及存量一致。22. Juni 2026 - 15:54为网页更新元数据，不是截止钟点；本文未公布摘要/注册截止或时区，不覆盖cpm CFP的1 December。此次成功是内容可核实及单次抓取观察，不声明稳定恢复。",
+          "evidence": "最新运行器file又变为Making sure you are not a bot/Anubis JavaScript挑战，非活动正文；不能用当前hash结案。保留11月18日可信正文核实的23–26 May 2027、Garmisch-Partenkirchen及Thommes/Neimark组织者事实；浏览器本轮另行检查。已修复HTTP200 Anubis短页面检测，下次自动检查按传输失败处理，未改任何已存hash。",
           "review_method": "runner_text",
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-19T08:50:58Z",
@@ -4300,10 +4294,7 @@
           ],
           "review_run": 44268026214,
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "readable runner body"
           ]
         }
       },
@@ -4841,8 +4832,14 @@
       "checks": {
         "ukomain-omaib-round-3-sandpit-2027": {
           "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "message": "application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November",
+          "reason": "content_conflict",
+          "remaining_fields": [
+            "application opening date"
+          ],
+          "review_method": "browser",
+          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
+          "evidence": "review_method=browser；官方公开文本导出核对。运行器Google Docs正文仅界面及v1.2标题，无法从file核实文档内容。尝试浏览器导出失败后公开官方export?format=txt下载成功，未使用其计算任何hash：v1.2时间表“Selected challenges announced; sandpit applications open / 19 November”，同文How to Apply和FAQ仍20 November，官网静态页也20 November，明确保留冲突。11 December 16:00 UK local time截止、21 January 11:00至22 January 16:00 Sheffield及UKOMAIN组织者不变。"
         }
       }
     },
@@ -5031,9 +5028,19 @@
       "changed_at": "2026-11-19T08:50:58Z",
       "checks": {
         "ukomain-omaib-round-3-sandpit-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_hash": "00ba2d3ed1c67909c5aef659f3eedf0aa2d93491bd7fa3892f771999d0bbf012",
+          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
+          "review_method": "runner_text",
+          "review_run": 44490829463,
+          "evidence": "与11月18日运行器逐行差异：新闻改为7个Interest Groups已启动及第五届workshop暂定24–25 June 2027/London。这是另一个workshop，不改OMAIB Sandpit 21–22 January 2027/Sheffield。首页UKOMAIN组织身份不变，团队/顾问人员不是Sandpit确认到场名单，不导入本活动。关联申请截止11 December 16:00 UK time由未变化OMAIB-R3官方静态页交叉核对；开放19/20 November冲突在full-call对应check另保留。",
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -5048,9 +5055,15 @@
       "changed_at": "2026-10-29T07:08:30Z",
       "checks": {
         "ukomain-omaib-round-3-sandpit-2027": {
-          "review_required": false,
-          "message": null,
-          "reason": null
+          "review_required": true,
+          "message": "application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November",
+          "reason": "content_conflict",
+          "remaining_fields": [
+            "application opening date"
+          ],
+          "review_method": "browser",
+          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
+          "evidence": "review_method=browser；官方公开文本导出核对。运行器Google Docs正文仅界面及v1.2标题，无法从file核实文档内容。尝试浏览器导出失败后公开官方export?format=txt下载成功，未使用其计算任何hash：v1.2时间表“Selected challenges announced; sandpit applications open / 19 November”，同文How to Apply和FAQ仍20 November，官网静态页也20 November，明确保留冲突。11 December 16:00 UK local time截止、21 January 11:00至22 January 16:00 Sheffield及UKOMAIN组织者不变。"
         }
       }
     },
@@ -7081,19 +7094,20 @@
       "message": null,
       "checks": {
         "physics-of-life-2027": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-02T17:49:53Z",
-          "reviewed_hash": "5b3642b4393d19f3eaf4f4c2eaea4a5d6959b3e90b33566df1215486fb7f8150",
-          "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ],
-          "review_invalidated_at": "2026-11-19T08:50:58Z"
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
+          "reviewed_hash": "2d8f0b2c90ba9399a1e5b490ebdcbed27add0dabf1f49e5d5d1c27b1102bc154",
+          "evidence": "11月18日至19日逐行差异仅January 2027 Programme Published（月份精度，不建精确日期节点）。首次完整对照存量：22–25 March 2027/Edinburgh EICC、口头13 December、海报22 January、早鸟19 February、注册12 March；无截止钟点时区。6位Plenary及机构逐项补录，6个联合组织机构完整登记；新增时间不作推断，November registration available只是月份计划，不证明当前平台已开通。",
+          "review_invalidated_at": "2026-11-19T08:50:58Z",
+          "review_method": "runner_text",
+          "review_run": 44490829463,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       },
       "changed_at": "2026-11-19T08:50:58Z"
@@ -7161,25 +7175,19 @@
       "message": null,
       "checks": {
         "ibs-2027": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
-          "reviewed_hash": "0a2f6450cb4026fb579f68811785c55ae755c3e949dbe3f574afc5d8704611ff",
-          "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；44人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
+          "reviewed_hash": "1da9a10750c5faf5a7fd6fe01116e0ddf32b0b8d5a9bea8fa2a56f30f6506122",
+          "evidence": "11月18日至19日逐行差异：Cryo-EM明确18–19 January/IIT Bombay/₹10,000（含住宿），Basic/Advanced SPA各最多20人；力谱及细胞力学明确19 January/TIFR Colaba/₹5,000/最多20人。页首仍统称18–19并行，细分日期按具名区块保存，不改主会议20–22 January。无申请截止/钟点/时区、无新增具名讲者；摘要详情仍待公布。此来源已核实，首页47人名单变化另项仍未完成。",
           "review_invalidated_at": "2026-11-19T08:50:58Z",
           "review_method": "runner_text",
-          "review_run": 43827720798,
+          "review_run": 44490829463,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
-          ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
           ]
         }
       },

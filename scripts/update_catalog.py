@@ -350,7 +350,7 @@ def fetch_sources(urls, workers=6, timeout=20, people_urls=None):
                         text, documents = parser.result()
                         if not text.strip():
                             raise ValueError("Official source returned no readable page content.")
-                        if len(text) < 1500 and re.search(r"(?:access denied|verify you are human|checking your browser|just a moment\.\.\.)", text, re.I):
+                        if len(text) < 1500 and re.search(r"(?:access denied|verify you are human|checking your browser|just a moment\.\.\.|making sure you're not a bot|Anubis could not load its JavaScript)", text, re.I):
                             raise ValueError("Official source returned an access challenge, not conference content.")
                         # Some sites put the people roster outside their main
                         # landmark. Monitor that readable body too, while the

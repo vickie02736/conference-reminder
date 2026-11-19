@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-19T08:50:58Z",
-    "last_updated_at": "2026-11-18T09:04:02.624150+00:00",
+    "last_updated_at": "2026-11-19T08:58:47.417540+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1900,13 +1900,13 @@
       ],
       "url": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "priority": 2,
-      "verified_on": "2026-11-18",
+      "verified_on": "2026-11-19",
       "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-19T08:50:58Z",
-        "last_verified_at": "2026-11-18T09:04:02.624150+00:00",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(15933 bytes read)"
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-19T08:58:47.417540+00:00",
+        "last_verified_at": "2026-11-19T08:58:47.417540+00:00",
+        "message": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(15933 bytes read)"
       },
       "milestones": [
         {
@@ -8086,9 +8086,9 @@
       "evidence": "The workshop website gives the 1 December abstract deadline; DECHEMA confirms 23–26 May and Garmisch-Partenkirchen.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-19T08:50:58Z",
+        "last_checked_at": "2026-11-19T08:58:47.417540+00:00",
         "last_verified_at": "2026-11-18T09:04:02.624150+00:00",
-        "message": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://cpm-workshop.org/: HTTP Error 403: Forbidden | https://dechema.de/en/cpm10.html: HTTP Error 403: Forbidden | https://cpm-workshop.org/cfp.html: HTTP Error 403: Forbidden"
+        "message": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/: runner body is Anubis challenge, not conference content | https://cpm-workshop.org/: HTTP Error 403: Forbidden | https://dechema.de/en/cpm10.html: HTTP Error 403: Forbidden | https://cpm-workshop.org/cfp.html: HTTP Error 403: Forbidden"
       },
       "milestones": [
         {
@@ -17670,8 +17670,8 @@
       "location": "Sheffield, UK — in person; venue to be announced",
       "region": "UK",
       "type": "Workshop / Discussion",
-      "deadline": "Sandpit researcher applications open: 20 November 2026; application deadline: 11 December 2026 at 16:00 UK local time. The separate challenge-owner proposal deadline is 6 November 2026 at 16:00 UK local time.",
-      "status": "Sandpit applications open on 20 November 2026 and close on 11 December 2026 at 16:00 UK time. Selection is required; UK-based applicants must attend both days in person.",
+      "deadline": "Researcher sandpit application deadline: 11 December 2026 at 16:00 UK local time. Opening date conflicts: 19 November in full-call v1.2 timeline, 20 November in its application instructions and static call page. Challenge-owner deadline: 6 November 2026 at 16:00 UK local time.",
+      "status": "Sandpit application opening date needs confirmation (19 or 20 November 2026); application cutoff remains 11 December 2026 at 16:00 UK time. UK-based applicants must attend both days in person.",
       "note": "A collaborative workshop organised by the UK Open Multimodal AI Network (UKOMAIN) to co-design Open Multimodal AI Benchmark (OMAIB) projects and form research teams. UK-based researchers, research engineers, domain/evaluation specialists and suitably experienced students may apply. Attendance on both days is required; remote participation is unavailable. UKOMAIN covers approved UK travel, accommodation and subsistence for selected participants. The separate challenge-owner proposal route closes on 6 November 2026 at 16:00 UK time; it is not the researcher sandpit application deadline. The network spans engineering domains including materials discovery; specific selected challenges will be announced on 20 November. The 6 October 2026 briefing recording is available on the official page.",
       "sources": [
         "https://multimodalai.github.io/omaib-r3/",
@@ -17684,9 +17684,9 @@
       "evidence": "The official Round 3 call confirms the Sheffield sandpit on 21–22 January 2027, application opening on 20 November 2026 and cutoff on 11 December 2026 at 16:00. The linked full call labels its timeline “Date/time (UK local time)”.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-19T08:50:58Z",
+        "last_checked_at": "2026-11-19T08:58:47.417540+00:00",
         "last_verified_at": "2026-10-28T12:00:00Z",
-        "message": "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://multimodalai.github.io/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://multimodalai.github.io/omaib-r3/: application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November | https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing: application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November"
       },
       "milestones": [
         {
@@ -17723,10 +17723,14 @@
           "time": null,
           "timezone": null,
           "precision": "date",
-          "status": "verified",
-          "version": 1,
+          "status": "conflict",
+          "version": 2,
           "source": "https://multimodalai.github.io/omaib-r3/",
-          "evidence": "The official call states that selected challenges are announced and sandpit applications open on 20 November 2026; no opening clock time is specified."
+          "evidence": "Full-call v1.2 timeline: 19 November; same document How to Apply/FAQ and static call: 20 November. No opening clock time.",
+          "candidates": [
+            "2026-11-19",
+            "2026-11-20"
+          ]
         },
         {
           "id": "ukomain-omaib-round-3-sandpit-2027:application",
@@ -20488,13 +20492,13 @@
       ],
       "url": "https://iop-physics-of-life-2027.eventsairsite.com",
       "priority": 2,
-      "verified_on": "2026-11-02",
+      "verified_on": "2026-11-19",
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-19T08:50:58Z",
-        "last_verified_at": "2026-11-02T17:49:53Z",
-        "message": "https://iop-physics-of-life-2027.eventsairsite.com: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-19T08:58:47.417540+00:00",
+        "last_verified_at": "2026-11-19T08:58:47.417540+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -20592,12 +20596,64 @@
             "name": "British Biophysical Society",
             "role": "Joint organiser",
             "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "Physics of Living Matter",
+            "role": "Joint organiser",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "Physics Meets Biology",
+            "role": "Joint organiser",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "The Company of Biologists",
+            "role": "Joint organiser",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
           }
         ],
         "committee": [],
-        "speakers": [],
+        "speakers": [
+          {
+            "name": "Emmanuel Derivery",
+            "affiliation": "MRC Laboratory of Molecular Biology (LMB), UK",
+            "role": "Plenary speaker",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "Kerstin Göpfrich",
+            "affiliation": "Heidelberg University, Germany",
+            "role": "Plenary speaker",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "Theanne Griffith",
+            "affiliation": "University of California, Davis, USA",
+            "role": "Plenary speaker",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "Keir Neuman",
+            "affiliation": "The National Heart, Lung, and Blood Institute (NHLBI), USA",
+            "role": "Plenary speaker",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "Katharina Sonnen",
+            "affiliation": "Hubrecht Institute, The Netherlands",
+            "role": "Plenary speaker",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          },
+          {
+            "name": "Shashi Thutupalli",
+            "affiliation": "The National Centre for Biological Sciences (NCBS), India",
+            "role": "Plenary speaker",
+            "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+          }
+        ],
         "participants": [],
-        "checked_on": "2026-11-02",
+        "checked_on": "2026-11-19",
         "status": "published",
         "note": "Selected officially announced organisers and speakers; see the source for the complete current programme.",
         "sources": [
@@ -20781,7 +20837,7 @@
       "type": "Conference",
       "deadline": "Early registration deadline: 2026-12-15; Late registration deadline: 2026-12-30; Abstract submission deadline: not confirmed.",
       "status": "Registration offered; abstract submission details to be announced.",
-      "note": "Broad molecular-biophysics meeting with an explicit molecular-simulations and protein-design theme. Dates here cover the main meeting; separate 18–19 January workshops currently concern cryo-EM and spectroscopy.",
+      "note": "Broad molecular-biophysics meeting with an explicit molecular-simulations and protein-design theme. Dates here cover the main meeting; separate 18–19 January workshops currently concern cryo-EM and spectroscopy. Official pre-conference workshop details: Cryo-EM, 18–19 January 2027 at IIT Bombay, ₹10,000 including accommodation; Biomolecular Force Spectroscopy and Cellular Mechanics, 19 January at TIFR Colaba, ₹5,000. No workshop application deadline or exact times are published.",
       "sources": [
         "https://www.chem.iitb.ac.in/ibs2027/",
         "https://www.chem.iitb.ac.in/ibs2027/program.php"
@@ -20792,9 +20848,9 @@
       "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；44人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-19T08:50:58Z",
+        "last_checked_at": "2026-11-19T08:58:47.417540+00:00",
         "last_verified_at": "2026-11-18T08:35:05Z",
-        "message": "https://www.chem.iitb.ac.in/ibs2027/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.chem.iitb.ac.in/ibs2027/program.php: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://www.chem.iitb.ac.in/ibs2027/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
       "milestones": [
         {
@@ -20910,7 +20966,27 @@
         "sources": [
           "https://www.chem.iitb.ac.in/ibs2027/"
         ]
-      }
+      },
+      "preconference_workshops": [
+        {
+          "name": "Cryo-EM workshop",
+          "start": "2027-01-18",
+          "end": "2027-01-19",
+          "location": "IIT Bombay",
+          "fee_inr": 10000,
+          "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
+          "evidence": "Dates: 18-19 January 2027; fee ₹10,000 per participant includes accommodation."
+        },
+        {
+          "name": "Biomolecular Force Spectroscopy and Cellular Mechanics",
+          "start": "2027-01-19",
+          "end": "2027-01-19",
+          "location": "TIFR Colaba, Mumbai",
+          "fee_inr": 5000,
+          "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
+          "evidence": "Dates: 19 January 2027; Registration Fees: ₹5,000; maximum 20 participants."
+        }
+      ]
     },
     {
       "id": "bps-protons-in-biology-2027",
@@ -27037,6 +27113,110 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "49th Indian Biophysical Society Meeting — IBS 2027",
+      "event_id": "ibs-2027",
+      "field": "preconference_workshops",
+      "source": "https://www.chem.iitb.ac.in/ibs2027/program.php",
+      "evidence": "Specific workshop blocks: Cryo-EM 18–19 January; Force Spectroscopy 19 January; fees ₹10,000/₹5,000."
+    },
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "Physics of Life 2027",
+      "event_id": "physics-of-life-2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Shashi Thutupalli",
+        "affiliation": "The National Centre for Biological Sciences (NCBS), India",
+        "role": "Plenary speaker",
+        "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+      },
+      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
+      "evidence": "Shashi Thutupalli / The National Centre for Biological Sciences (NCBS), India / Plenary speaker"
+    },
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "Physics of Life 2027",
+      "event_id": "physics-of-life-2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Katharina Sonnen",
+        "affiliation": "Hubrecht Institute, The Netherlands",
+        "role": "Plenary speaker",
+        "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+      },
+      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
+      "evidence": "Katharina Sonnen / Hubrecht Institute, The Netherlands / Plenary speaker"
+    },
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "Physics of Life 2027",
+      "event_id": "physics-of-life-2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Keir Neuman",
+        "affiliation": "The National Heart, Lung, and Blood Institute (NHLBI), USA",
+        "role": "Plenary speaker",
+        "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+      },
+      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
+      "evidence": "Keir Neuman / The National Heart, Lung, and Blood Institute (NHLBI), USA / Plenary speaker"
+    },
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "Physics of Life 2027",
+      "event_id": "physics-of-life-2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Theanne Griffith",
+        "affiliation": "University of California, Davis, USA",
+        "role": "Plenary speaker",
+        "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+      },
+      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
+      "evidence": "Theanne Griffith / University of California, Davis, USA / Plenary speaker"
+    },
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "Physics of Life 2027",
+      "event_id": "physics-of-life-2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Kerstin Göpfrich",
+        "affiliation": "Heidelberg University, Germany",
+        "role": "Plenary speaker",
+        "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+      },
+      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
+      "evidence": "Kerstin Göpfrich / Heidelberg University, Germany / Plenary speaker"
+    },
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "Physics of Life 2027",
+      "event_id": "physics-of-life-2027",
+      "field": "people.speakers",
+      "added": {
+        "name": "Emmanuel Derivery",
+        "affiliation": "MRC Laboratory of Molecular Biology (LMB), UK",
+        "role": "Plenary speaker",
+        "source": "https://iop-physics-of-life-2027.eventsairsite.com"
+      },
+      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
+      "evidence": "Emmanuel Derivery / MRC Laboratory of Molecular Biology (LMB), UK / Plenary speaker"
+    },
+    {
+      "at": "2026-11-19T08:58:47.417540+00:00",
+      "event_name": "UKOMAIN — OMAIB Round 3 Sandpit 2027",
+      "event_id": "ukomain-omaib-round-3-sandpit-2027",
+      "field": "application_opening",
+      "source": "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
+      "evidence": "运行器Google Docs正文仅界面及v1.2标题，无法从file核实文档内容。尝试浏览器导出失败后公开官方export?format=txt下载成功，未使用其计算任何hash：v1.2时间表“Selected challenges announced; sandpit applications open / 19 November”，同文How to Apply和FAQ仍20 November，官网静态页也20 November，明确保留冲突。11 December 16:00 UK local time截止、21 January 11:00至22 January 16:00 Sheffield及UKOMAIN组织者不变。",
+      "candidates": [
+        "2026-11-19",
+        "2026-11-20"
+      ]
+    },
     {
       "at": "2026-11-18T09:04:02.624150+00:00",
       "event_name": "45th RSC Solid State Chemistry Group Christmas Meeting (SSCG2026)",

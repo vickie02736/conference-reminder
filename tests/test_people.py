@@ -9,6 +9,32 @@ from scripts.update_catalog import fetch_sources, update_catalog
 
 
 class PeopleValidationTests(unittest.TestCase):
+    def test_anubis_http_200_is_failure_and_preserves_trusted_baseline(self):
+        url = "https://example.org/workshop"
+
+        class Response(BytesIO):
+            status = 200
+
+            def __init__(self):
+                super().__init__(b"<main>Making sure you're not a bot!<p>Anubis could not load its JavaScript.</p></main>")
+                self.headers = Message()
+                self.headers["Content-Type"] = "text/html; charset=utf-8"
+
+        with patch("scripts.update_catalog.urlopen", side_effect=lambda *args, **kwargs: Response()):
+            fetched = fetch_sources([url], workers=1)
+        self.assertFalse(fetched[url]["ok"])
+        self.assertNotIn("hash", fetched[url])
+        self.assertIn("access challenge", fetched[url]["message"])
+        row = {"id": "example", "name": "Workshop", "url": url, "sources": [url],
+               "start": "2027-05-23", "end": "2027-05-26", "milestones": [], "check": {}}
+        catalog = {"metadata": {}, "events": [row], "watchlist": [], "updates": []}
+        state = {"sources": {url: {"hash": "trusted-baseline", "status": "checked"}}}
+        changed, next_state, updates = update_catalog(catalog, state, {}, fetched, "2026-11-19T08:55:00Z")
+        self.assertEqual(next_state["sources"][url]["hash"], "trusted-baseline")
+        self.assertEqual(changed["events"][0]["start"], row["start"])
+        self.assertEqual(changed["events"][0]["end"], row["end"])
+        self.assertEqual(updates, [])
+
     def example(self):
         return {"organizers": [], "committee": [], "speakers": [
             {"name": "Example Researcher", "role": "Invited speaker", "source": "https://example.org/2027/speakers"}
