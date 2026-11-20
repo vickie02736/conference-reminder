@@ -1382,27 +1382,22 @@
       "changed_at": "2026-11-20T08:35:28Z",
       "checks": {
         "defects2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
-          "reviewed_hash": "db192ecaa0ef6a2776d648c167cfd4d7b096ece671fb6a365ef88b1963cd1b71",
-          "evidence": "与11月18日完成复核正文逐行比较，仅CBL Christmas Dinner全站导航新增；6–8 January 2027、16 December 2026 Last Booking Date、£195、Cambridge化学系/Dr. Seán Kavanagh联系人未改。此商店页没有口头摘要截止和其他讲者，不用导航日期替代活动事实，未公布截止钟点/时区。",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_at": "2026-11-20T09:08:06.069973+00:00",
+          "reviewed_hash": "80e4a64efd77171a9f3f2103e51dfc39794c8bc421e1aa6bc091a0707b4e5724",
+          "evidence": "与11月19日完成复核正文逐行比较仅PSI2 Christmas Dinner导航新增；商店主体6–8 January 2027、Last Booking Date 16 December、£195、Cambridge化学系及Dr. Seán Kavanagh联系人不变。未新增截止钟点/时区或人员角色机构；此页不含口头截止/完整讲者，保留其他原有可信事实。",
           "review_method": "runner_text",
           "resolved_reason": "fingerprint_upgrade",
           "review_invalidated_at": "2026-11-20T08:35:28Z",
-          "review_run": 44490829463,
+          "review_run": 44703532961,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "remaining_fields": []
         }
       },
       "fingerprint_version": 2
@@ -5054,26 +5049,21 @@
       "changed_at": "2026-11-20T08:35:28Z",
       "checks": {
         "ukomain-omaib-round-3-sandpit-2027": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed",
-          "reviewed_hash": "00ba2d3ed1c67909c5aef659f3eedf0aa2d93491bd7fa3892f771999d0bbf012",
-          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
+          "review_required": false,
+          "message": null,
+          "reason": null,
+          "reviewed_hash": "9c836cedb592014b302c5c1efea1fabd875862363a930c491938bd056c50aee6",
+          "reviewed_at": "2026-11-20T09:08:06.069973+00:00",
           "review_method": "runner_text",
-          "review_run": 44490829463,
-          "evidence": "与11月18日运行器逐行差异：新闻改为7个Interest Groups已启动及第五届workshop暂定24–25 June 2027/London。这是另一个workshop，不改OMAIB Sandpit 21–22 January 2027/Sheffield。首页UKOMAIN组织身份不变，团队/顾问人员不是Sandpit确认到场名单，不导入本活动。关联申请截止11 December 16:00 UK time由未变化OMAIB-R3官方静态页交叉核对；开放19/20 November冲突在full-call对应check另保留。",
+          "review_run": 44703532961,
+          "evidence": "与11月19日完成复核正文逐行比较：明确新增“Sandpit applications are now open! Apply by 11 December 2026, 16:00”和挑战已公布。更新当前开放状态，不替官方决定历史19/20 November开放日期，冲突保留在call/文档check；无新开放钟点，21–22 January Sheffield及UKOMAIN组织者未变，其他网络团队不当作Sandpit到场名单。",
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
           "review_invalidated_at": "2026-11-20T08:35:28Z",
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "remaining_fields": []
         }
       }
     },
@@ -5089,14 +5079,21 @@
       "checks": {
         "ukomain-omaib-round-3-sandpit-2027": {
           "review_required": true,
-          "message": "application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November",
-          "reason": "content_changed",
+          "message": "historical application opening date: full-call timeline 19 November vs call and instructions 20 November",
+          "reason": "content_conflict",
           "remaining_fields": [
-            "application opening date"
+            "historical application opening date: full-call timeline 19 November vs call and instructions 20 November"
           ],
-          "review_method": "browser",
-          "reviewed_at": "2026-11-19T08:58:47.417540+00:00",
-          "evidence": "review_method=browser；官方公开文本导出核对。运行器Google Docs正文仅界面及v1.2标题，无法从file核实文档内容。尝试浏览器导出失败后公开官方export?format=txt下载成功，未使用其计算任何hash：v1.2时间表“Selected challenges announced; sandpit applications open / 19 November”，同文How to Apply和FAQ仍20 November，官网静态页也20 November，明确保留冲突。11 December 16:00 UK local time截止、21 January 11:00至22 January 16:00 Sheffield及UKOMAIN组织者不变。"
+          "review_method": "runner_text",
+          "reviewed_at": "2026-11-20T09:08:06.069973+00:00",
+          "evidence": "与11月19日正文逐行比较只改变断行，仍20 November开放、11 December 16:00截止；首页现在明确applications are now open，可确认当前开放，但v1.2全文时间表19 November与本文20 November冲突仍未解释。保留UK local time截止及会议时间，未公布开放钟点，不把通知日期建节点。",
+          "reviewed_hash": "32642424c04537093e0395a8b2ea5b82433acd9f9b904e130d53d614505d7662",
+          "review_run": 44703532961,
+          "reviewed_fields": [
+            "associated_dates",
+            "cutoff_times_and_timezones",
+            "stored_people_roles_affiliations"
+          ]
         }
       }
     },
@@ -7175,26 +7172,21 @@
       "message": null,
       "checks": {
         "ibs-2027": {
-          "review_required": true,
-          "reason": "content_changed",
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
-          "reviewed_hash": "a5f358b7a1347e2aeae42cbce732ceeba0103dd5299277516758e1b5fa518829",
-          "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；44人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。",
+          "review_required": false,
+          "reason": null,
+          "message": null,
+          "reviewed_at": "2026-11-20T09:08:06.069973+00:00",
+          "reviewed_hash": "31a404da5ce80f25d21f49f6d896039e357ff1193a7b3f936867c79241f9118d",
+          "evidence": "与11月16日上次完整复核附件逐行比较仅官网总讲者数44改45；主页四位具名Invited Speakers仍Senthil Arumugam/Monash、Roland Beckman/LMU、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay。11月19日快照出现的另两名主页轮播本次已不显示，不能据轮播移除推断退出；不导入未核实完整45人名单。20–22 January 2027/VMCC Mumbai、15 December早鸟及30 December晚注册不变，组织者IBS/Host IIT Bombay相符，无截止钟点时区。",
           "review_invalidated_at": "2026-11-20T08:35:28Z",
           "review_method": "runner_text",
-          "review_run": 43827720798,
+          "review_run": 44703532961,
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
-          "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
-          ]
+          "remaining_fields": []
         }
       },
       "changed_at": "2026-11-20T08:35:28Z"
@@ -8261,22 +8253,19 @@
         "materials-science-engineering-2027-coalesce": {
           "review_required": true,
           "message": "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026",
-          "reason": "content_changed",
-          "reviewed_hash": "bedbbcad9c789f08c15b170f7e6c61b7f64a7c64a6d05e45e6aaf99a1a787c5f",
-          "reviewed_at": "2026-11-18T09:04:02.624150+00:00",
+          "reason": "content_conflict",
+          "reviewed_hash": "a3ebf6d375b6109b23759c0244e6772156c6ea0b5d4f2e862b36f52b7b4bc7f8",
+          "reviewed_at": "2026-11-20T09:08:06.069973+00:00",
           "review_method": "runner_text",
-          "review_run": 44268026214,
-          "evidence": "与11月15日上次复核正文逐行比较，摘要17 November 2026删除改“Abstract Submissions / Open”，不推断新最终截止；旧日期作历史保存。早鸟19 November无钟点时区。2027页首/welcome与往届回顾下届2026年份矛盾仍在，4位委员会角色机构未变，继续保留年份冲突。",
+          "review_run": 44703532961,
+          "evidence": "与11月18日上次完成字段核实后的正文逐行比较：摘要Open改27 November 2026；早鸟19改30 November 2026，页首/Important Dates一致，无钟点/时区。4名现存委员会机构角色未变，2027页首/welcome与往届回顾2026的年份冲突仍存在，无更正公告，不替官方选年。旧17 November摘要及19 November早鸟保留历史审计。",
           "reviewed_fields": [
             "associated_dates",
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ],
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
           ],
           "review_invalidated_at": "2026-11-20T08:35:28Z"
         }
@@ -8363,12 +8352,12 @@
         "agsaiml-2027": {
           "review_required": true,
           "message": "standard registration deadline moved backwards: previous 2026-11-25 vs current 2026-10-25; no official explanation or final registration cutoff",
-          "reason": "content_changed",
-          "reviewed_at": "2026-11-16T20:32:07.676536+00:00",
-          "reviewed_hash": "1fffcd5a21afc1c32f189d45719d8f3e7ab5c011fe7b759600332b9e8a8783fa",
-          "evidence": "与11月12日运行器逐行比对，当前收费卡由Mid Term Registration变Final Registration，speaker/poster €899、delegate €999、student €699、online €499；Standard Registration Deadline由November25改October25，均为2026，无解释，不猜为延期/取消最终注册。保留两次官方日期审计、final cutoff维持unknown。会议8–10 March2027、摘要30November、早鸟25June未改，无钟点时区。Boris当前位于Keynote Speakers（University of Florida, USA），修正旧Plenary身份；其余角色机构本轮与11月14日正文一致，未独立确认主办方机构任职。",
+          "reason": "content_conflict",
+          "reviewed_at": "2026-11-20T09:08:06.069973+00:00",
+          "reviewed_hash": "3f0f820d4e2dbacdf5b12c3b13a03b98f4fcbbb4a5fbf709e052a94d3f0b8954",
+          "evidence": "与11月16日上次复核正文逐行差异仅Keynote区新增Hassam Khan，标题University of Arkansas, United States，bio具体COSMOS Research Center/University of Arkansas at Little Rock且individual research capacity；按主办方宣称记录，不独立确认到场。摘要30 November、会议8–10 March 2027/Barcelona无变；标准截止此前由25 November改25 October的历史反向变更仍无官方解释，含Register Now/Onspot March08不能证明最终注册截止，保留具体冲突。存量Ramesh Sharma/Dr. B. R. Ambedkar及Boris Goldengorin/University of Florida均在本次Keynote区核对相符；其余未导入名单不宣称已全量收录。",
           "review_method": "runner_text",
-          "review_run": 43827720798,
+          "review_run": 44703532961,
           "resolved_reason": "content_changed",
           "review_invalidated_at": "2026-11-20T08:35:28Z",
           "reviewed_fields": [
@@ -8377,10 +8366,7 @@
             "stored_people_roles_affiliations"
           ],
           "remaining_fields": [
-            "dates",
-            "times",
-            "timezones",
-            "people_roles_affiliations"
+            "standard registration deadline moved backwards: previous 2026-11-25 vs current 2026-10-25; no official explanation or final registration cutoff"
           ]
         }
       }

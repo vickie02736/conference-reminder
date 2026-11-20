@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-20T08:35:28Z",
-    "last_updated_at": "2026-11-19T08:58:47.417540+00:00",
+    "last_updated_at": "2026-11-20T09:08:06.069973+00:00",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -1904,9 +1904,9 @@
       "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-20T08:35:28Z",
+        "last_checked_at": "2026-11-20T09:08:06.069973+00:00",
         "last_verified_at": "2026-11-19T08:58:47.417540+00:00",
-        "message": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7625 bytes read) | https://psi-k.net/workshops/: <urlopen error timed out>"
+        "message": "https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7625 bytes read) | https://psi-k.net/workshops/: <urlopen error timed out>"
       },
       "milestones": [
         {
@@ -17671,8 +17671,8 @@
       "region": "UK",
       "type": "Workshop / Discussion",
       "deadline": "Researcher sandpit application deadline: 11 December 2026 at 16:00 UK local time. Opening date conflicts: 19 November in full-call v1.2 timeline, 20 November in its application instructions and static call page. Challenge-owner deadline: 6 November 2026 at 16:00 UK local time.",
-      "status": "Sandpit application opening date needs confirmation (19 or 20 November 2026); application cutoff remains 11 December 2026 at 16:00 UK time. UK-based applicants must attend both days in person.",
-      "note": "A collaborative workshop organised by the UK Open Multimodal AI Network (UKOMAIN) to co-design Open Multimodal AI Benchmark (OMAIB) projects and form research teams. UK-based researchers, research engineers, domain/evaluation specialists and suitably experienced students may apply. Attendance on both days is required; remote participation is unavailable. UKOMAIN covers approved UK travel, accommodation and subsistence for selected participants. The separate challenge-owner proposal route closes on 6 November 2026 at 16:00 UK time; it is not the researcher sandpit application deadline. The network spans engineering domains including materials discovery; specific selected challenges will be announced on 20 November. The 6 October 2026 briefing recording is available on the official page.",
+      "status": "Sandpit applications are now open, confirmed by the official homepage on 20 November 2026. Apply by 11 December 2026 at 16:00 UK local time. Historical opening date conflict (19/20 November) remains; UK-based applicants must attend both days in person.",
+      "note": "A collaborative workshop organised by the UK Open Multimodal AI Network (UKOMAIN) to co-design Open Multimodal AI Benchmark (OMAIB) projects and form research teams. UK-based researchers, research engineers, domain/evaluation specialists and suitably experienced students may apply. Attendance on both days is required; remote participation is unavailable. UKOMAIN covers approved UK travel, accommodation and subsistence for selected participants. The separate challenge-owner proposal route closes on 6 November 2026 at 16:00 UK time; it is not the researcher sandpit application deadline. The network spans engineering domains including materials discovery; the homepage confirms selected challenges have been announced as of 20 November 2026. The 6 October 2026 briefing recording is available on the official page.",
       "sources": [
         "https://multimodalai.github.io/omaib-r3/",
         "https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing",
@@ -17681,12 +17681,12 @@
       "url": "https://multimodalai.github.io/omaib-r3/",
       "priority": 3,
       "verified_on": "2026-10-28",
-      "evidence": "The official Round 3 call confirms the Sheffield sandpit on 21–22 January 2027, application opening on 20 November 2026 and cutoff on 11 December 2026 at 16:00. The linked full call labels its timeline “Date/time (UK local time)”.",
+      "evidence": "Official homepage on 20 November: “Sandpit applications are now open! Apply by 11 December 2026, 16:00”. Static call confirms 21–22 January 2027 Sheffield; full-call v1.2 timeline labels times UK local time. Historical opening date remains conflicting (19 vs 20 November).",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-20T08:35:28Z",
+        "last_checked_at": "2026-11-20T09:08:06.069973+00:00",
         "last_verified_at": "2026-10-28T12:00:00Z",
-        "message": "https://multimodalai.github.io/omaib-r3/: application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November | https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing: application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November | https://multimodalai.github.io/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://multimodalai.github.io/omaib-r3/: historical application opening date: full-call timeline 19 November vs call and instructions 20 November | https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing: application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November"
       },
       "milestones": [
         {
@@ -20844,13 +20844,13 @@
       ],
       "url": "https://www.chem.iitb.ac.in/ibs2027/",
       "priority": 2,
-      "verified_on": "2026-11-18",
-      "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；44人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。",
+      "verified_on": "2026-11-20",
+      "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；45人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。 11月20日对照11月16日附件仅总讲者数44改45，具名轮播与机构不变。",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-20T08:35:28Z",
-        "last_verified_at": "2026-11-18T08:35:05Z",
-        "message": "https://www.chem.iitb.ac.in/ibs2027/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "status": "checked",
+        "last_checked_at": "2026-11-20T09:08:06.069973+00:00",
+        "last_verified_at": "2026-11-20T09:08:06.069973+00:00",
+        "message": null
       },
       "milestones": [
         {
@@ -20960,9 +20960,9 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-16",
+        "checked_on": "2026-11-20",
         "status": "published",
-        "note": "Four invited speakers shown on the reviewed homepage are recorded with its exact names and affiliations. The page advertises 44 speakers; the remaining full lineup has not been imported.",
+        "note": "Four invited speakers shown on the reviewed homepage are recorded with exact names and affiliations. Current homepage advertises 45 speakers; the remaining full lineup has not been imported. Carousel changes do not establish withdrawals.",
         "sources": [
           "https://www.chem.iitb.ac.in/ibs2027/"
         ]
@@ -23584,7 +23584,7 @@
       "evidence": "与11月12日运行器逐行比对，当前收费卡由Mid Term Registration变Final Registration，speaker/poster €899、delegate €999、student €699、online €499；Standard Registration Deadline由November25改October25，均为2026，无解释，不猜为延期/取消最终注册。保留两次官方日期审计、final cutoff维持unknown。会议8–10 March2027、摘要30November、早鸟25June未改，无钟点时区。Boris当前位于Keynote Speakers（University of Florida, USA），修正旧Plenary身份；其余角色机构本轮与11月14日正文一致，未独立确认主办方机构任职。",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-20T08:35:28Z",
+        "last_checked_at": "2026-11-20T09:08:06.069973+00:00",
         "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
         "message": "https://vividglobalsummits.com/2027/artificial-intelligence: standard registration deadline moved backwards: previous 2026-11-25 vs current 2026-10-25; no official explanation or final registration cutoff"
       },
@@ -23676,12 +23676,18 @@
             "affiliation": "Dr. B. R. Ambedkar University, India",
             "role": "Keynote speaker listed by the organizer",
             "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
+          },
+          {
+            "name": "Hassam Khan",
+            "affiliation": "University of Arkansas, United States; biography specifies COSMOS Research Center, University of Arkansas at Little Rock",
+            "role": "Keynote speaker listed by the organizer; individual research capacity",
+            "source": "https://vividglobalsummits.com/2027/artificial-intelligence"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-20",
         "status": "published",
-        "note": "Organizer names are from the reviewed official conference pages. Current-edition individual committee and speaker lists were not imported; institutional affiliations have not been independently corroborated unless noted. The runner-text change on 4 November 2026 adds Boris Goldengorin under Plenary Speakers; the listed affiliation is an organizer claim, not independent institutional confirmation.",
+        "note": "Stored keynote speakers and affiliations match the organizer page; Hassam Khan added from the changed block. Affiliations are organizer claims. The full unimported plenary and committee roster is not represented as complete.",
         "sources": [
           "https://vividglobalsummits.com/2027/artificial-intelligence"
         ]
@@ -24389,8 +24395,8 @@
       "location": "Millennium Hotel Paris Charles De Gaulle, Paris, France (organizer-listed venue)",
       "region": "Europe",
       "type": "Conference",
-      "deadline": "Previously advertised abstract deadline: 17 November 2026; current abstract submissions: Open, no new final cutoff published. Early-bird registration: 19 November 2026.",
-      "status": "The official page now lists abstract submissions as Open without a new final cutoff. Early-bird registration deadline: 19 November 2026. Conference-year conflict remains unresolved.",
+      "deadline": "Abstract submission: 27 November 2026; early-bird registration: 30 November 2026. No cutoff clock time or time zone is published.",
+      "status": "The official page lists abstract submissions through 27 November 2026 and early-bird registration through 30 November 2026. Conference-year conflict remains unresolved.",
       "note": "Commercial materials science and engineering conference. This is distinct from Magnus Materials 2027 and SRC Materials Science 2027. The specific venue and academic roster have not been independently confirmed. Current header and welcome message say April 29–30, 2027; past-edition recap announces April 29–30, 2026. Official year conflict remains unresolved; venue is an organizer claim.",
       "sources": [
         "https://materialscienceconferences.com/"
@@ -24401,7 +24407,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-20T08:35:28Z",
+        "last_checked_at": "2026-11-20T09:08:06.069973+00:00",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://materialscienceconferences.com/: conference year: current header/welcome 2027 vs past-edition next-event announcement 2026"
       },
@@ -24442,29 +24448,29 @@
         },
         {
           "id": "materials-science-engineering-2027-coalesce:abstract-2",
-          "version": 2,
+          "version": 3,
           "kind": "abstract",
-          "label": "Previously advertised abstract deadline",
-          "date": "2026-11-17",
+          "label": "Abstract submission",
+          "date": "2026-11-27",
           "time": null,
           "timezone": null,
           "source": "https://materialscienceconferences.com/",
           "precision": "date",
           "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified. On 18 November the official page replaces this date with Open; preserved as the historical advertised cutoff, not a current final cutoff."
+          "evidence": "Official current header and Important Dates: Abstract Submission Deadline 27th Nov 2026. Previously advertised 17 November retained in review history; no cutoff clock time or timezone."
         },
         {
           "id": "materials-science-engineering-2027-coalesce:early-registration-3",
-          "version": 1,
+          "version": 2,
           "kind": "early_registration",
           "label": "Early-bird registration",
-          "date": "2026-11-19",
+          "date": "2026-11-30",
           "time": null,
           "timezone": null,
           "source": "https://materialscienceconferences.com/",
           "precision": "date",
           "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "evidence": "Official current header and Important Dates: Early Bird Registration Deadline 30th Nov 2026; previously 19 November. No cutoff clock time or timezone."
         },
         {
           "id": "materials-science-engineering-2027-coalesce:registration",
@@ -27113,6 +27119,35 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-20T09:08:06.069973+00:00",
+      "event_name": "AGSAIML 2027 — Annual Global Summit on Artificial Intelligence and Machine Learning",
+      "event_id": "agsaiml-2027",
+      "field": "people.speakers",
+      "source": "https://vividglobalsummits.com/2027/artificial-intelligence",
+      "name": "Hassam Khan",
+      "affiliation": "University of Arkansas, United States; biography specifies COSMOS Research Center, University of Arkansas at Little Rock",
+      "role": "Keynote speaker listed by the organizer; individual research capacity"
+    },
+    {
+      "at": "2026-11-20T09:08:06.069973+00:00",
+      "event_name": "16th International Conference on Materials Science & Engineering 2027",
+      "event_id": "materials-science-engineering-2027-coalesce",
+      "field": "submission_and_early_registration_deadlines",
+      "source": "https://materialscienceconferences.com/",
+      "abstract": "2026-11-27",
+      "early_registration": "2026-11-30",
+      "evidence": "Header and Important Dates: 27th Nov 2026 / 30th Nov 2026"
+    },
+    {
+      "at": "2026-11-20T09:08:06.069973+00:00",
+      "event_name": "UKOMAIN — OMAIB Round 3 Sandpit 2027",
+      "event_id": "ukomain-omaib-round-3-sandpit-2027",
+      "field": "current_application_status",
+      "source": "https://multimodalai.github.io/",
+      "new": "Sandpit applications are now open, confirmed by the official homepage on 20 November 2026. Apply by 11 December 2026 at 16:00 UK local time. Historical opening date conflict (19/20 November) remains; UK-based applicants must attend both days in person.",
+      "evidence": "Sandpit applications are now open! Apply by 11 December 2026, 16:00"
+    },
     {
       "at": "2026-11-19T08:58:47.417540+00:00",
       "event_name": "49th Indian Biophysical Society Meeting — IBS 2027",
