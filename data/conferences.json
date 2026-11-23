@@ -23,7 +23,7 @@
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
     "last_checked_at": "2026-11-23T09:09:20Z",
-    "last_updated_at": "2026-11-20T09:08:06.069973+00:00",
+    "last_updated_at": "2026-11-23T22:30:00Z",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -26374,6 +26374,244 @@
         ]
       },
       "reminders_paused": false
+    },
+    {
+      "id": "medpore2027",
+      "name": "MEDPore 2027 — 3rd International Mediterranean Conference on Porous Materials",
+      "tags": [
+        "Porous Materials",
+        "MOF",
+        "Adsorption"
+      ],
+      "start": "2027-05-05",
+      "end": "2027-05-08",
+      "date": "2027-05-05 — 2027-05-08",
+      "location": "Hammamet, Tunisia — Le Royal Hammamet",
+      "region": "Other",
+      "type": "Conference",
+      "deadline": "Abstract submission deadline: 15 December 2026 (no time zone published). Regular registration is open now; early-bird registration opens 4 January 2027 and closes 28 February 2027.",
+      "status": "Abstract submission open (opened 15 October 2026). Regular registration is open through the official Register Now link; early-bird registration opens on 4 January 2027, as the official schedule states.",
+      "note": "Mediterranean porous-materials meeting covering MOFs, COFs, zeolites, carbon and polymers. The official site's dates (5–8 May 2027) supersede the 17–20 May 2027 dates in the earlier organiser LinkedIn announcement. Acceptance notices are listed for 25 December 2026; no reminder is offered for notifications. Fees include three nights' accommodation.",
+      "sources": [
+        "https://medpore27.org/",
+        "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
+      ],
+      "url": "https://medpore27.org/",
+      "priority": 2,
+      "verified_on": "2026-11-23",
+      "evidence": "Official site: “May 5–8, 2027”; “Le Royal Hammamet”, Hammamet, Tunisia. “Abstract Submission Deadline: December 15, 2026”; “Early Bird Registration Deadline: February 28, 2027”.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-23T22:30:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "medpore2027:conference-start",
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-05-05",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://medpore27.org/",
+          "evidence": "Official site: “May 5–8, 2027”; “Le Royal Hammamet”, Hammamet, Tunisia."
+        },
+        {
+          "id": "medpore2027:conference-end",
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-05-08",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://medpore27.org/",
+          "evidence": "Official site: “May 5–8, 2027”; “Le Royal Hammamet”, Hammamet, Tunisia."
+        },
+        {
+          "id": "medpore2027:abstract",
+          "kind": "abstract",
+          "label": "Abstract submission deadline",
+          "date": "2026-12-15",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 2,
+          "source": "https://medpore27.org/",
+          "evidence": "Official site: “Abstract Submission Deadline: December 15, 2026”; no time or time zone is published."
+        },
+        {
+          "id": "medpore2027:early-registration-opening",
+          "kind": "other",
+          "label": "Early-bird registration opens",
+          "date": "2027-01-04",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://medpore27.org/",
+          "evidence": "Official site: “Early Bird Registration Opens: January 4, 2027”."
+        },
+        {
+          "id": "medpore2027:early-registration",
+          "kind": "early_registration",
+          "label": "Early-bird registration deadline",
+          "date": "2027-02-28",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://medpore27.org/",
+          "evidence": "Official site: “Early Bird Registration Deadline: February 28, 2027”; regular fees apply afterwards."
+        },
+        {
+          "id": "medpore2027:registration",
+          "kind": "registration",
+          "label": "Registration",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "precision": "unknown",
+          "status": "unknown",
+          "version": 1,
+          "source": "https://medpore27.org/",
+          "evidence": "Regular registration is open through the official Register Now link (checked by the catalogue owner on 2026-11-23); the official site gives no final registration deadline."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "A. Mars",
+            "role": "Announced MEDPore 2027 host",
+            "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Youssef Belmabkhout",
+            "role": "MEDPore international organising committee; announcement author",
+            "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
+          }
+        ],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-10-28",
+        "status": "published",
+        "note": "Based on the organising committee’s public LinkedIn announcement. Tagged scientists and earlier-edition participants are not treated as confirmed 2027 attendees.",
+        "sources": [
+          "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-e9c92b5a732b95c1d090"
+      ]
+    },
+    {
+      "id": "cecec-2027",
+      "name": "CECEC 2027 — Central & Eastern European Cheminformatics Conference",
+      "tags": [
+        "Cheminformatics",
+        "AI for Chemistry",
+        "Computational Chemistry"
+      ],
+      "start": "2027-09-02",
+      "end": "2027-09-03",
+      "date": "2027-09-02 — 2027-09-03",
+      "location": "Prague, Czech Republic — University of Chemistry and Technology Prague (lecture hall to be announced)",
+      "region": "Europe",
+      "type": "Conference",
+      "deadline": "No submission or registration deadlines are published yet.",
+      "status": "Dates and venue announced; registration opening soon.",
+      "note": "Third annual edition of a regional cheminformatics conference. The official site states attendance is free of charge and describes contributed short talks (15 minutes plus 5 for discussion); no call or deadline is published yet.",
+      "sources": [
+        "https://cecec.cz/"
+      ],
+      "url": "https://cecec.cz/",
+      "priority": 2,
+      "verified_on": "2026-11-23",
+      "evidence": "Official site: “2–3 September 2027”; “Prague, Czech Republic”; “University of Chemistry and Technology Prague”. “Registration Opens Soon”.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-23T22:30:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "cecec-2027:conference-start",
+          "kind": "conference_start",
+          "label": "Conference starts",
+          "date": "2027-09-02",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://cecec.cz/",
+          "evidence": "Official site: “2–3 September 2027”; “Prague, Czech Republic”; “University of Chemistry and Technology Prague”."
+        },
+        {
+          "id": "cecec-2027:conference-end",
+          "kind": "conference_end",
+          "label": "Conference ends",
+          "date": "2027-09-03",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://cecec.cz/",
+          "evidence": "Official site: “2–3 September 2027”; “Prague, Czech Republic”; “University of Chemistry and Technology Prague”."
+        },
+        {
+          "id": "cecec-2027:registration",
+          "kind": "registration",
+          "label": "Registration",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "precision": "unknown",
+          "status": "unknown",
+          "version": 1,
+          "source": "https://cecec.cz/",
+          "evidence": "The official site says registration opens soon; no date is published."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "University of Chemistry and Technology Prague",
+            "role": "Host institution",
+            "source": "https://cecec.cz/"
+          },
+          {
+            "name": "Daniel Svozil",
+            "role": "Conference contact",
+            "affiliation": "University of Chemistry and Technology Prague",
+            "source": "https://cecec.cz/"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-23",
+        "status": "published",
+        "note": "Only the host and listed contact are published on the official site; no committee or speaker list was found.",
+        "sources": [
+          "https://cecec.cz/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-3619c5936d037df95000"
+      ]
     }
   ],
   "watchlist": [
@@ -26458,113 +26696,6 @@
         "sources": [
           "https://composites.blogs.bristol.ac.uk/2026/06/19/1058/",
           "https://www.ukpormat.com/"
-        ]
-      }
-    },
-    {
-      "id": "medpore2027",
-      "name": "MEDPore2027",
-      "tags": [
-        "Porous Materials"
-      ],
-      "start": "2027-05-17",
-      "end": "2027-05-20",
-      "date": "2027-05-17 — 2027-05-20",
-      "location": "Hammamet, Tunisia",
-      "region": "Other",
-      "type": "Conference",
-      "deadline": "No independent conference site or call was found; deadlines not verified.",
-      "status": "Organiser Youssef Belmabkhout announced dates and location on LinkedIn on behalf of the international committee. Evidence is weaker than an official conference website.",
-      "note": "Mediterranean porous-materials meeting covering MOFs, COFs, zeolites, carbon and polymers.",
-      "sources": [
-        "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
-      ],
-      "url": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
-      "priority": 2,
-      "verified_on": "2026-11-03",
-      "evidence": "",
-      "check": {
-        "status": "checked",
-        "last_checked_at": "2026-11-23T09:09:20Z",
-        "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": null
-      },
-      "milestones": [
-        {
-          "kind": "conference_start",
-          "label": "Activity starts",
-          "date": "2027-05-17",
-          "time": null,
-          "timezone": null,
-          "id": "medpore2027:conference-start",
-          "version": 1,
-          "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
-          "precision": "date",
-          "status": "unknown",
-          "evidence": "Dates are announced only in an organiser LinkedIn post; independent official confirmation was not found."
-        },
-        {
-          "kind": "abstract",
-          "label": "Abstracts",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "id": "medpore2027:abstract",
-          "version": 1,
-          "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
-          "precision": "unknown",
-          "status": "unknown",
-          "evidence": "No exact date was verified in the linked source."
-        },
-        {
-          "kind": "registration",
-          "label": "Registration",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "id": "medpore2027:registration",
-          "version": 1,
-          "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
-          "precision": "unknown",
-          "status": "unknown",
-          "evidence": "No exact date was verified in the linked source."
-        },
-        {
-          "id": "medpore2027:conference-end",
-          "version": 1,
-          "kind": "conference_end",
-          "label": "Activity ends",
-          "date": "2027-05-20",
-          "time": null,
-          "timezone": null,
-          "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE",
-          "precision": "date",
-          "status": "unknown",
-          "evidence": "Dates are announced only in an organiser LinkedIn post; independent official confirmation was not found."
-        }
-      ],
-      "people": {
-        "organizers": [
-          {
-            "name": "A. Mars",
-            "role": "Announced MEDPore 2027 host",
-            "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
-          }
-        ],
-        "committee": [
-          {
-            "name": "Youssef Belmabkhout",
-            "role": "MEDPore international organising committee; announcement author",
-            "source": "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
-          }
-        ],
-        "speakers": [],
-        "participants": [],
-        "checked_on": "2026-10-28",
-        "status": "published",
-        "note": "Based on the organising committee’s public LinkedIn announcement. Tagged scientists and earlier-edition participants are not treated as confirmed 2027 attendees.",
-        "sources": [
-          "https://www.linkedin.com/posts/youssef-belmabkhout-6a18abb_medpore2023-medpore2025-acercoe-activity-7333905933359632384-31gE"
         ]
       }
     },
@@ -30035,6 +30166,24 @@
       "value": "Abstract deadline announced; submission platform not yet open. Registration platform not yet open.",
       "source": "https://euromof2027.com/index.html",
       "evidence": "Explicit submission and registration platform statements on the official pages."
+    },
+    {
+      "at": "2026-11-23T22:30:00Z",
+      "event_id": "medpore2027",
+      "event_name": "MEDPore 2027 — 3rd International Mediterranean Conference on Porous Materials",
+      "field": "event",
+      "source": "https://medpore27.org/",
+      "previous": "Watchlist: 17–20 May 2027 (organiser LinkedIn announcement only).",
+      "value": "5–8 May 2027, Le Royal Hammamet, Hammamet, Tunisia",
+      "message": "Official conference website found. Corrected dates to 5–8 May 2027, added the 15 December 2026 abstract deadline and early-bird registration dates, and moved the activity from the watchlist to scheduled events."
+    },
+    {
+      "at": "2026-11-23T22:30:00Z",
+      "event_id": "cecec-2027",
+      "event_name": "CECEC 2027 — Central & Eastern European Cheminformatics Conference",
+      "field": "event",
+      "source": "https://cecec.cz/",
+      "message": "Added from a reviewed discovery lead: 2–3 September 2027, University of Chemistry and Technology Prague; registration not yet open."
     }
   ]
 }

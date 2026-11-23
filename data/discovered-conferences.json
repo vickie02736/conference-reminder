@@ -4907,10 +4907,24 @@
       "queries": [
         "2027 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
-      "status": "needs_review",
+      "status": "accepted",
       "last_seen_at": "2026-11-23T09:09:21Z",
       "first_seen_at": "2026-11-17T09:15:56Z",
-      "seen_count": 7
+      "seen_count": 7,
+      "user_decision": "add",
+      "catalogue_event_id": "medpore2027",
+      "reviewed_at": "2026-11-23T22:30:00Z",
+      "review_note": "The official MEDPore 2027 site gives 5–8 May 2027 at Le Royal Hammamet, Tunisia, and the 15 December 2026 abstract deadline; the existing watchlist entry was corrected and promoted.",
+      "review_decision": "add",
+      "review_history": [
+        {
+          "at": "2026-11-23T22:30:00Z",
+          "action": "added",
+          "previous_status": "needs_review",
+          "status": "accepted",
+          "reason": "The official MEDPore 2027 site gives 5–8 May 2027 at Le Royal Hammamet, Tunisia, and the 15 December 2026 abstract deadline; the existing watchlist entry was corrected and promoted."
+        }
+      ]
     },
     {
       "id": "web-e6c73448f483b1cf5397",
@@ -5338,10 +5352,24 @@
       "queries": [
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
-      "status": "needs_review",
+      "status": "accepted",
       "last_seen_at": "2026-11-14T07:40:00Z",
       "first_seen_at": "2026-11-06T07:57:45Z",
-      "seen_count": 5
+      "seen_count": 5,
+      "user_decision": "add",
+      "catalogue_event_id": "cecec-2027",
+      "reviewed_at": "2026-11-23T22:30:00Z",
+      "review_note": "The official CECEC site gives 2–3 September 2027 at the University of Chemistry and Technology Prague; registration not yet open.",
+      "review_decision": "add",
+      "review_history": [
+        {
+          "at": "2026-11-23T22:30:00Z",
+          "action": "added",
+          "previous_status": "needs_review",
+          "status": "accepted",
+          "reason": "The official CECEC site gives 2–3 September 2027 at the University of Chemistry and Technology Prague; registration not yet open."
+        }
+      ]
     },
     {
       "id": "web-e9d7f26416657c14c7cc",
