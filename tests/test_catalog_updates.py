@@ -575,3 +575,31 @@ class SourceUpdateTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class AvailabilityValidationTests(unittest.TestCase):
+    def _catalog(self, node):
+        import json
+        with open("data/conferences.json", encoding="utf-8") as handle:
+            catalog = json.load(handle)
+        event = catalog["events"][0]
+        event["milestones"] = list(event.get("milestones", [])) + [node]
+        return catalog
+
+    def _node(self, **extra):
+        node = {"id": "x:avail", "version": 1, "kind": "registration", "label": "Registration",
+                "date": None, "time": None, "timezone": None, "precision": "unknown", "status": "unknown"}
+        node.update(extra)
+        return node
+
+    def test_accepts_not_published_and_rolling(self):
+        for value in ("not_published", "rolling"):
+            errors = validate_catalog(self._catalog(self._node(availability=value, availability_checked_on="2026-11-23")))
+            self.assertFalse([e for e in errors if "availability" in e], errors)
+
+    def test_rejects_bad_availability(self):
+        errors = validate_catalog(self._catalog(self._node(availability="maybe", availability_checked_on="2026-11-23")))
+        self.assertTrue(any("availability must be" in e for e in errors))
+        errors = validate_catalog(self._catalog(self._node(availability="rolling")))
+        self.assertTrue(any("availability_checked_on" in e for e in errors))
+

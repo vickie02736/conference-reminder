@@ -172,6 +172,16 @@ def validate_catalog(catalog):
                         errors.append(f"{label}: use an IANA time zone (AoE is Etc/GMT+12).")
                 if node.get("status") == "verified" and (not value or not valid_url(node.get("source"))):
                     errors.append(f"{label}: verified milestones require a date and official source.")
+                availability = node.get("availability")
+                if availability is not None:
+                    if availability not in {"not_published", "rolling"}:
+                        errors.append(f"{label}: availability must be not_published or rolling.")
+                    if value or node.get("status") != "unknown":
+                        errors.append(f"{label}: availability applies only to undated unknown milestones.")
+                    try:
+                        date.fromisoformat(node.get("availability_checked_on"))
+                    except (TypeError, ValueError):
+                        errors.append(f"{label}: availability requires an ISO availability_checked_on date.")
                 if not isinstance(node.get("version"), int) or isinstance(node.get("version"), bool) or node["version"] < 1:
                     errors.append(f"{label}: version must be a positive integer.")
     if not isinstance(catalog.get("updates", []), list):
