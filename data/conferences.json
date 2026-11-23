@@ -22284,7 +22284,7 @@
       ],
       "url": "https://www.date-conference.com/call-for-papers",
       "priority": 1,
-      "verified_on": "2026-11-12",
+      "verified_on": "2026-11-23",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
@@ -22389,16 +22389,16 @@
         },
         {
           "id": "date-2027:registration",
-          "version": 1,
+          "version": 2,
           "kind": "registration",
           "label": "Final registration deadline",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "evidence": "No final registration cutoff was verified; published early-bird or on-site dates do not establish the final cutoff.",
-          "source": "https://www.date-conference.com/call-for-papers",
-          "precision": "unknown",
-          "status": "unknown"
+          "date": "2027-03-24",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "evidence": "Official registration page: online registration platform closes Wednesday, 24 March 2027 AoE (23:59:59 GMT-12). Early payment by 4 Feb 2027 AoE; late fee from 4 Mar 2027 AoE.",
+          "source": "https://www.date-conference.com/registration",
+          "precision": "datetime",
+          "status": "verified"
         }
       ],
       "people": {
@@ -25535,7 +25535,7 @@
       ],
       "url": "https://icml.cc/",
       "priority": 2,
-      "verified_on": "2026-11-03",
+      "verified_on": "2026-11-23",
       "evidence": "Official homepage reviewed on 3 November 2026: Expo 31 July; tutorials 1 August; main conference 2–4 August; workshops 5–6 August.",
       "check": {
         "status": "review_required",
@@ -25571,17 +25571,30 @@
           "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
         },
         {
-          "id": "icml-2027:paper",
-          "version": 2,
-          "kind": "paper",
-          "label": "Paper submissions",
-          "date": null,
-          "time": null,
-          "timezone": null,
-          "evidence": "The reviewed homepage says the call for papers is forthcoming.",
+          "id": "icml-2027:abstract",
+          "version": 1,
+          "kind": "abstract",
+          "label": "Abstract deadline",
+          "date": "2027-01-14",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "precision": "datetime",
+          "status": "verified",
           "source": "https://icml.cc/",
-          "precision": "unknown",
-          "status": "unknown"
+          "evidence": "Official homepage key dates: Abstract deadline \"Jan 14 '27 (Anywhere on Earth)\"; submissions open 8 Jan 2027."
+        },
+        {
+          "id": "icml-2027:paper",
+          "version": 3,
+          "kind": "paper",
+          "label": "Full paper deadline",
+          "date": "2027-01-22",
+          "time": "23:59",
+          "timezone": "Etc/GMT+12",
+          "evidence": "Official homepage key dates: Full paper deadline \"Jan 22 '27 (Anywhere on Earth)\".",
+          "source": "https://icml.cc/",
+          "precision": "datetime",
+          "status": "verified"
         },
         {
           "id": "icml-2027:registration",
