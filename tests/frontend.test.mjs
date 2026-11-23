@@ -20,7 +20,7 @@ test('the published catalogue fits seven research topics without leaving activit
  }
  assert.deepEqual(eventTopics(canonical('School on Advanced Structural')),['MOFs, COFs & Porous Materials']);
  assert.deepEqual(eventTopics(canonical('E-MRS Fall Meeting 2027')),['Materials & Characterisation']);
- for (const name of ['UKPorMat2027','MEDPore2027','PMEA2028','FEZA2029']) assert.ok(eventTopics(canonical(name)).includes('MOFs, COFs & Porous Materials'),name);
+ for (const name of ['UKPorMat2027','MEDPore 2027','PMEA2028','FEZA2029']) assert.ok(eventTopics(canonical(name)).includes('MOFs, COFs & Porous Materials'),name);
  assert.deepEqual(eventTopics(canonical('Materials Chemistry Poster Symposium')),['Materials & Characterisation']);
 });
 test('topic groups merge related keywords once and distinguish general from applied AI',()=>{
@@ -52,7 +52,9 @@ test('event phases include both conference date boundaries and distinguish finis
  assert.equal(eventPhase(e,'2027-06-03').label,'Happening now');
  assert.equal(eventPhase(e,'2027-06-04').key,'finished');
  assert.equal(snapshotPhase(canonical('UKPorMat2027')).key,'awaiting_dates');
- assert.equal(snapshotPhase(canonical('MEDPore2027')).label,'Dates unverified');
+ // Announced dates that are not yet confirmed by an official source (fixture: MEDPore 2027 before its official site was found).
+ const provisional={start:'2027-05-17',end:'2027-05-20',status:'Organiser announcement only.',milestones:[phaseNode('conference_start','2027-05-17','Activity starts','unknown'),phaseNode('conference_end','2027-05-20','Activity ends','unknown')]};
+ assert.equal(snapshotPhase(provisional).label,'Dates unverified');
 });
 test('event phases respect cancellation, unresolved changes, full events and restricted attendance',()=>{
  const e={start:'2027-06-01',end:'2027-06-03',milestones:[phaseNode('registration','2027-05-01')]};

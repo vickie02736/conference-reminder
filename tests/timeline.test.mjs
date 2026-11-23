@@ -68,7 +68,8 @@ test('submission timelines keep independent routes and exclude closed or expired
 test('unknown and conflicting dates remain explicit undated entries after known dates',()=>{
  const confirmed=canonical('SSCG2026');
  const pending=canonical('UKPorMat2027');
- const provisional=canonical('MEDPore2027');
+ // Announced dates awaiting official confirmation (fixture: MEDPore 2027 before its official site was found).
+ const provisional={id:'provisional-fixture',name:'Provisional fixture',start:'2027-05-17',end:'2027-05-20',milestones:[node('provisional-fixture:conference-start','conference_start','2027-05-17','Activity starts',{status:'unknown'}),node('provisional-fixture:conference-end','conference_end','2027-05-20','Activity ends',{status:'unknown'})]};
  const entries=snapshot([pending,provisional,confirmed]);
  assert.equal(entries[0].eventId,confirmed.id);
  assert.ok(entries.slice(1).every(entry=>entry.date===null && entry.status==='unknown'));
