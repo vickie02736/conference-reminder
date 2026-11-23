@@ -1,0 +1,59 @@
+name: Publish website
+
+# Publishes the website whenever main changes (for example after a reviewed
+# pull request is merged), after each discovery run, or on demand.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - config.json
+      - assets/**
+      - data/**
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: conference-reminder-pages
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate the data about to be published
+        run: python scripts/validate_catalog.py
+      - name: Assemble public website only
+        run: |
+          mkdir -p _site
+          cp index.html config.json _site/
+          cp -R assets data _site/
+          touch _site/.nojekyll
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v5
