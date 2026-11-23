@@ -1,0 +1,48 @@
+name: PR checks
+
+# Independently verifies every pull request (including the ones proposed by
+# the Claude nightly review) before a human decides whether to merge it.
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Test reminder rules
+        run: node --test tests/*.test.mjs
+      - name: Test source update rules
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Validate catalogue
+        run: python scripts/validate_catalog.py
+      - name: Automated PRs may only change catalogue data
+        if: startsWith(github.head_ref, 'nightly/')
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          changed=$(git diff --name-only "$BASE"...HEAD)
+          echo "Changed files:"; echo "$changed"
+          outside=$(echo "$changed" | grep -v '^data/' || true)
+          if [ -n "$outside" ]; then
+            echo "::error::Nightly PRs may only change files under data/. Unexpected changes:"
+            echo "$outside"
+            exit 1
+          fi

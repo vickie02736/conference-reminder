@@ -34,7 +34,17 @@ The former local date tracker and browser notification interface have been retir
 
 ## Daily official-source checks
 
-`site.yml` checks registered source URLs daily at **01:17 UTC** (01:17 in UK winter time, 02:17 in UK summer time) and supports [manual runs](https://github.com/vickie02736/conference-reminder/actions/workflows/site.yml). Choose **Run workflow**, keeping `refresh_sources` enabled. Running it requires repository access.
+`discover.yml` checks registered source URLs and searches for new conferences daily at **01:00 London time** (GitHub cron is UTC-only, so it schedules both 00:00 and 01:00 UTC and keeps whichever is 01:00 in London). It supports [manual runs](https://github.com/vickie02736/conference-reminder/actions/workflows/discover.yml): choose **Run workflow**, keeping `refresh_sources` enabled. Running it requires repository access.
+
+Nightly pipeline:
+
+| Step | Time (London) | Responsibility |
+|---|---|---|
+| `discover.yml` | 01:00 | Collect conference information and monitor official sites for changes; deterministic data updates are committed and published |
+| Claude scheduled review | 02:00 | Read the latest results, verify facts against official sites, judge academic relevance, search for missed conferences, open one `nightly/YYYY-MM-DD` pull request |
+| `pr-checks.yml` | on each PR | Independently run tests and catalogue validation; `nightly/*` PRs may only change `data/` |
+| Human review | — | The owner decides whether to merge |
+| `publish.yml` | on merge to `main` | Rebuild and deploy the website |
 
 The updater recognises narrowly scoped EuroMOF deadline/platform statements, the authoritative AI4Mat schedule, and matching official JSON-LD Event records. Other sources are monitored for content changes and remain marked for review until reviewed; a stable page hash or a parser that verifies only some fields does not verify other changed facts. Fingerprints preserve published clock times and ignore only labelled update timestamps. The first check after upgrading an older fingerprint may require a one-time review of previously ignored times. Dynamic pages, PDFs, ambiguous dates and site changes are not silently converted into deadlines. A failed or unverifiable fetch retains the last trusted facts. Explicit cancellation or rescheduling evidence pauses email scheduling until reviewed.
 
@@ -83,7 +93,7 @@ Check official sources locally with `python3 scripts/update_catalog.py`; add `--
 
 Work from a separate worktree and `git pull` first; pull again before committing so you do not overwrite another maintainer's updates. Do not stash or reset the original working directory.
 
-1. Use `gh run list --workflow site.yml -L 5` to find the latest scheduled run, or manual run with `refresh_sources=true`, that actually checked sources. Download its artifact with `gh run download <run-id> -n source-text -D /tmp/source-text-<run-id>` (kept for 7 days). First confirm that the URL hashes in `index.json` match the current `data/source-checks.json`; if they do not, use the artifact from a newer run.
+1. Use `gh run list --workflow discover.yml -L 5` to find the latest scheduled run, or manual run with `refresh_sources=true`, that actually checked sources. Download its artifact with `gh run download <run-id> -n source-text -D /tmp/source-text-<run-id>` (kept for 7 days). First confirm that the URL hashes in `index.json` match the current `data/source-checks.json`; if they do not, use the artifact from a newer run.
 2. Work through the `(event_id, source)` queue in `data/review-progress.json`. Compare the full text named in the artifact line by line with the previous run's text, and check only the dates, times, time zones, deadlines, statuses, people and affiliations the differences touch. Every fact change needs an official quotation; conflicts stay `conflict`, times and time zones are never inferred, and acceptance notifications get no reminder milestone.
 3. For each verified source/activity check, write `review_required=false`, `reason=null`, `message=null`; set `reviewed_hash` to the value from the matching artifact, `reviewed_at` to the actual UTC time, `review_method="runner_text"`, `review_run` to the run ID, and an **English** evidence summary in `evidence`. A partial review keeps its unresolved fields. Recompute the activity's `check.status` and `check.message`, then run `python3 scripts/review_backlog.py`.
 4. When the artifact has `ok=false` and no text file, verify in a browser instead: record `review_method="browser"` and say so in the evidence; keep the existing trusted facts and do not write or change source hashes. For a new or replaced URL, write only the check record; the next daily check sets the first hash baseline itself.
@@ -93,4 +103,4 @@ All website-facing text (notes, statuses, evidence, check messages and update me
 
 Before committing, `npm test` and `python3 scripts/validate_catalog.py` must pass; after pushing, confirm that the published site and live data match. Leave historical review records unchanged; store corrections separately, keeping the before and after sources.
 
-GitHub Pages uses **GitHub Actions**, not legacy branch publishing. The combined workflow validates and tests changes, optionally updates catalogue data with a normal commit, and explicitly deploys only `index.html`, `config.json`, `assets/` and `data/`. Email service code, tests, owner documentation and research intermediates are excluded from the public Pages artifact. A bot data commit alone would not trigger legacy Pages publishing.
+GitHub Pages uses **GitHub Actions**, not legacy branch publishing. `discover.yml` updates catalogue check data with a normal commit and then calls `publish.yml`, which also runs on every change to `main`; `publish.yml` validates the catalogue and explicitly deploys only `index.html`, `config.json`, `assets/` and `data/`. Email service code, tests, owner documentation and research intermediates are excluded from the public Pages artifact. A bot data commit alone would not trigger legacy Pages publishing.
