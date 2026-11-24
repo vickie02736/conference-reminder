@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-11-23",
-  "remaining_count": 147,
-  "remaining_source_count": 139,
+  "as_of": "2026-11-24",
+  "remaining_count": 151,
+  "remaining_source_count": 143,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -212,25 +212,31 @@
     {
       "source": "https://event.fourwaves.com/interpore2027",
       "event_id": "interpore2027",
-      "reason": "content_conflict",
+      "reason": "content_changed",
       "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
-      "content_hash": "4b1b075f6e8a0a8960c35c6e4be78d1029da6bb0680d83615b4ae058e413767b",
+      "content_hash": "afc1593667ffdae52aca22867519d036fcd14695622870d33ef881526dcc9f20",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
       ]
     },
     {
       "source": "https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a",
       "event_id": "interpore2027",
-      "reason": "content_conflict",
+      "reason": "content_changed",
       "message": "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03",
-      "content_hash": "0618c28e7c2b402d49db13b5e78bb8040cc8e365fea3ffb48af0c54b510c0811",
+      "content_hash": "f741508b9b5abfdf49fad8ae4a0edc624f4172d96ba13e501ef5b271a51429e4",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
-        "abstract deadline: Important Dates 2027-01-11 vs platform 2027-01-12 04:00 UTC-03"
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
       ]
     },
     {
@@ -238,7 +244,7 @@
       "event_id": "interpore2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "b35d8b0932bcfdfa784dfdb4587c36ecadbd546194d0733453ffff8d1344bfb8",
+      "content_hash": "3d095a38bdaafd1ab38a08381297978a95e57bcbc2afbfd635fe2e6d20e60e0c",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
@@ -280,7 +286,7 @@
       "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
       "reason": "content_changed",
       "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished",
-      "content_hash": "e856f3e7d656f11ad4c54f2d1410a295f913a99c8ffaaae0f059e674e4e20360",
+      "content_hash": "7082848ef717d5cc1a2478f9241b54810b2c695eb49f6fc57752ed493bb8dd11",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
@@ -303,60 +309,18 @@
       ]
     },
     {
-      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "a4c17232e0bc4319aec508aa56314d172e4ab8320c2746805f6df1797bcabfba",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://psi-k.net/workshops/",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf",
-      "event_id": "defects2027",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
-      "priority": 1,
-      "next_deadline": "2026-11-23",
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
       "source": "https://sscg.uk/2026-sscg-christmas-meeting",
       "event_id": "45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026",
       "reason": "content_changed",
       "message": "current poster submission availability: previous open-until-registration notice removed; no explicit current open/closed statement",
-      "content_hash": "41b84fe2d6b4f901126fee394bdd2b76c9699a5b69fee16b9bedea24d046d4db",
+      "content_hash": "15142f48b0aa3a23d2d4d7fce24eb7624b4e45fbbc2bdeaecf77cfd51dba1eb4",
       "priority": 1,
       "next_deadline": "2026-11-25",
       "remaining_fields": [
-        "current poster submission availability: previous open-until-registration notice removed; no explicit current open/closed statement"
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
       ]
     },
     {
@@ -390,6 +354,21 @@
       ]
     },
     {
+      "source": "https://digichem27.au/",
+      "event_id": "digichem27-raci-chemistry-automation-conference",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "1e4eecedb6f83ad6a965e4d638da359d99a5d5ce6d0c417c56186c40a1a0d4b1",
+      "priority": 1,
+      "next_deadline": "2026-11-30",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
       "source": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/",
       "event_id": "cpm10",
       "reason": "content_changed",
@@ -397,6 +376,66 @@
       "content_hash": "dea7ff1b1bceabdc6dc2b8903c0b86ea36ddff470da22cca89e1a8c5d0dda73f",
       "priority": 1,
       "next_deadline": "2026-12-01",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
+      "event_id": "physics-of-life-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "2fbcf1c073607c7e1821a9f0c2d438a5601a4236307062206032554c515ac61d",
+      "priority": 1,
+      "next_deadline": "2026-12-13",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://onlinesales.admin.cam.ac.uk/conferences-and-events/yusuf-hamied-department-of-chemistry/computational-defect-modelling/computational-defect-modelling-workshop-6-8-january-2027?token=7d13b0a7f6493524e58a324d4b49c16a",
+      "event_id": "defects2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "4f28cd059efa9e3aa90b159a0ae535e2f57925b2e2c09c5b50caf481a7b506ff",
+      "priority": 1,
+      "next_deadline": "2026-12-16",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://psi-k.net/workshops/",
+      "event_id": "defects2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
+      "priority": 1,
+      "next_deadline": "2026-12-16",
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf",
+      "event_id": "defects2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
+      "priority": 1,
+      "next_deadline": "2026-12-16",
       "remaining_fields": [
         "dates",
         "times",
@@ -499,7 +538,7 @@
       "event_id": "aaai-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "632fafc72817136087e16a02c470763c9f830d4a324bbf868531d9452c24cdb9",
+      "content_hash": "7e760bb400db946f2d3471da7f1fc9ed9ebc1b1243884eb40c95f70ee48e5617",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -514,7 +553,7 @@
       "event_id": "aaai-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "09cd11c6dce102afa2941f6a008477b4dfd0edccae782430cfd24f18c18d0a38",
+      "content_hash": "cb9faf740e208958820fa888ceed2a639358b51abb02af6d5e255d6ce3a4407b",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -544,7 +583,7 @@
       "event_id": "advanced-materials-world-congress-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "5ef521174e8af74853558ff125b5f1a435ee112e3af192d94ee5c10a44e9fb2a",
+      "content_hash": "ed593c615fcd6a5c96acf34fe200b9e618300fc2e9d925598683e0f795d3f187",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -634,7 +673,7 @@
       "event_id": "ai4mat-neurips-2026",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "b77142895ed040ed55bf5734143aef93dd94db166c61e422439be00f304b8b53",
+      "content_hash": "8899fb83d2d64b120e013e7225e633fa0f85a454da8236a27b63e05dd9226b62",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -679,7 +718,7 @@
       "event_id": "ai4x-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "21ca298e31664a3937551ae298b6e7e0b5193ee502b4969f7538b6b40fb38d75",
+      "content_hash": "c4227d2b8937444e8ab0d37daf318fcb475d220ea790ed45a8dc9b24a837d3bd",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -710,6 +749,21 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "b5721b287d7f3ebe6109138c62276292e77b9d28f99a771eb02ad3a272a31ecc",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
+      "source": "https://aicmsn2027.synergiasummits.com/register",
+      "event_id": "aicmsn-2027",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "72a8d5360cac9d658bc7086425b6ec1182d6184a5ad05b6a45612a184a7318b6",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -860,7 +914,7 @@
       "event_id": "aric-advanced-adsorption-course-kinetic-measurements-using-macroscopic-techniques",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "84e58bedd3b39faeda84cbd3b08721af46a0da46db6c22515168c65defe8732b",
+      "content_hash": "bc8094f89e06e24d45bcbd8cfb234b2be11f22e88baa7bed48a2f0b702aa9ec6",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -875,7 +929,7 @@
       "event_id": "automated-intelligent-chemistry-2026",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "cea7ec8fa838970aa50464c09e30236575377d0ffa90a413f16a44bc82c4b6a3",
+      "content_hash": "79a4e0c3319f6cdd38d4195d855699e67e1db9035c50d19251dbb69ae137a537",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -920,7 +974,7 @@
       "event_id": "biomolecular-dynamics-berlin-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e320af2aab239e7c6210836acb6b6c6bae668bc4826ae62ede469afa774b09eb",
+      "content_hash": "4343905307a5f58227177eeb35da6d8f7b9c70d0eb820b3138459d02d63719c4",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -950,7 +1004,7 @@
       "event_id": "bps-protons-in-biology-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "68e1fe96e850a0a16d7d6290bd5e0ca991d96ad9429c8a4d88a9c4333adcd034",
+      "content_hash": "3a78bcf196ad259666f2b4e40d7a2cdb8e15e91b9547cca38412ec6656638f85",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1186,6 +1240,21 @@
       ]
     },
     {
+      "source": "https://ecai2027.org/",
+      "event_id": "ecai-2027-european-conference-on-artificial-intelligence",
+      "reason": "content_changed",
+      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
+      "content_hash": "918781733a0fa967a0a119ce2838345e1687b86597f7946264c1f48c4118e1cb",
+      "priority": 2,
+      "next_deadline": null,
+      "remaining_fields": [
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
+      ]
+    },
+    {
       "source": "https://events.polyu.edu.hk/ecomat2026/home",
       "event_id": "ecomat-conference-2026",
       "reason": "content_changed",
@@ -1205,7 +1274,7 @@
       "event_id": "embo-computational-structural-biology-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "945ec5ad71c545c1509d0d5898b71cef550b313133f56953140de95ce31171cd",
+      "content_hash": "68e078a3fb6fba2365b04429c9ec50895d9d8a37615506de164147a3b5995c3d",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1310,7 +1379,7 @@
       "event_id": "feza2029-11th-conference-of-the-federation-of-european-zeolite-associations",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "01853be3109e90cef15a2f1c9d4617129743ba5a00e4eb2e2f95407037ced3b2",
+      "content_hash": "f9f87a049227b2b7408922d8a2f087b0f2c10f6ceb4f9776aadcd2e283018ba9",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1520,7 +1589,7 @@
       "event_id": "materials-science-2027-src",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "e1cb72346706552b200debc3204b4986b7d761bd3ebf01d49011ceba28da3623",
+      "content_hash": "59564cb5b721d41d9a5fd43162b7b4530a14b87fbf215bb9c32b5f35c84a5a48",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1634,7 +1703,7 @@
       "event_id": "neurips-2026",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "7689a5e0200c1e532b5e15479824e89d1ec83fdcbc84df42f29a16face69475b",
+      "content_hash": "009e57c72b94d52b1b02b8a246bb6db9b4cb075b5f31965a6ae79c669cfe6cb7",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1649,7 +1718,7 @@
       "event_id": "neurips-2026",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "4bfae62b2c6dc18de8c512b072d8c4bbd5e59268ee30e0d08d62e8b23126c5ac",
+      "content_hash": "8ee2d86a068d0e938ad6184f3464273b894d15f723878ae912abb93eb1982118",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1694,7 +1763,7 @@
       "event_id": "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "cd67fe39a0a4919f859d8b6ac7e0eafb30132c47cf7e2eb3e5d99511c8f47070",
+      "content_hash": "71f76f17a7aba3436b7b2bafb5c9270780d47fcf930944abfd45eaf03acea6c0",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1767,7 +1836,7 @@
       "event_id": "recent-advances-in-chemistry-and-ai-2026",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "30b5c65772c34e2a925a2cf7fe8dba0c2ea123d1cf19f1e51c4c518bbf55bd2d",
+      "content_hash": "373abe074301c1877bc041c0ffb4a3dfbf78ad3238c3d8e98897e3b051c945bf",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -1842,7 +1911,7 @@
       "event_id": "slas2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "0afbbcff4dc3cb7b697c79f74021bd41e89497de73c4c41d1ffa3aa4bf7dc2be",
+      "content_hash": "b60564799bce123d3e1ef0bdce295be495093995e4f488e7db7587f0079992ae",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -2007,7 +2076,7 @@
       "event_id": "tu-darmstadt-sdl-workshop-2026",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "255929e4a00d30e45656b712e682d69f99518482ecd3621c14c1624cc0392414",
+      "content_hash": "11dee01d0bcb1aab19618655288a7e88679adcdefbd4866273fa6779879b7671",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -2112,7 +2181,7 @@
       "event_id": "vwscc-2027",
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "dde8c229cdf34f8cf089ed733a057ee7b9e94d3bf28d24226e50b3df8e879c2b",
+      "content_hash": "0a5c2ef069d6e9c490a432fd12738ca2dd4e7fc1bcec27c82cb6a1acd864bccc",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -2157,22 +2226,22 @@
     {
       "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(15945 bytes read)"
+      "reason": "IncompleteRead(15933 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(15945 bytes read)"
+      "reason": "IncompleteRead(7625 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(15945 bytes read)"
+      "reason": "IncompleteRead(7761 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(15948 bytes read)"
+      "reason": "IncompleteRead(15936 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522",
@@ -2182,12 +2251,22 @@
     {
       "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552",
       "status": "unverifiable",
-      "reason": "IncompleteRead(7634 bytes read)"
+      "reason": "IncompleteRead(7641 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897",
       "status": "unverifiable",
       "reason": "IncompleteRead(8192 bytes read)"
+    },
+    {
+      "source": "https://artificialintelligence.conferenceseries.com/",
+      "status": "failed",
+      "reason": "HTTP Error 522: <none>"
+    },
+    {
+      "source": "https://artificialintelligence.conferenceseries.com/registration.php",
+      "status": "failed",
+      "reason": "HTTP Error 522: <none>"
     },
     {
       "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
@@ -2200,19 +2279,24 @@
       "reason": "HTTP Error 403: Forbidden"
     },
     {
-      "source": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
-      "status": "unverifiable",
-      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      "source": "https://chemistrymeeting.chemistryconferences.org/",
+      "status": "failed",
+      "reason": "HTTP Error 522: <none>"
+    },
+    {
+      "source": "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
+      "status": "failed",
+      "reason": "HTTP Error 522: <none>"
+    },
+    {
+      "source": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce",
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     },
     {
       "source": "https://materialscienceconferences.com/",
       "status": "unverifiable",
       "reason": "Official source returned no readable page content."
-    },
-    {
-      "source": "https://sscg.uk/2026-sscg-christmas-meeting",
-      "status": "failed",
-      "reason": "Official source exceeds the 4 MB fetch limit."
     },
     {
       "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
@@ -2238,6 +2322,16 @@
       "source": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course",
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.euromat2027.com/",
+      "status": "failed",
+      "reason": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "https://www.euromat2027.com/committee.html",
+      "status": "failed",
+      "reason": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
@@ -2313,6 +2407,11 @@
       "source": "https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "https://www.tvt.tf.fau.de/ankuendigung-der-cpm-10-internationaler-workshop-zur-charakterisierung-poroeser-materialien-kommt-2027-nach-deutschland/",
+      "status": "unverifiable",
+      "reason": "Official source returned an access challenge, not conference content."
     }
   ],
   "covered_transport_issues": [
