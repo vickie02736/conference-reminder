@@ -1740,15 +1740,14 @@
         "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")",
         "2027 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
-      "status": "accepted",
+      "status": "dismissed",
       "last_seen_at": "2026-11-23T09:09:21Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 40,
-      "user_decision": "add",
-      "catalogue_event_id": "physical-theoretical-chemistry-2027",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "The original link is a molecular-dynamics session; the main conference homepage is readable, so add only the main conference once and merge with candidate 54.",
-      "review_decision": "add",
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T00:30:00Z",
+      "review_note": "Rejected 2026-11-24: the official site still shows a past edition; no 2027 edition is published. Previously accepted, then removed from the catalogue.",
+      "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-21c17745142e252f46fe",
       "review_history": [
         {
@@ -1758,6 +1757,13 @@
           "status": "accepted",
           "reason": "The original link is a molecular-dynamics session; the main conference homepage is readable, so add only the main conference once and merge with candidate 54.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
+        },
+        {
+          "at": "2026-11-24T00:30:00Z",
+          "action": "dismissed",
+          "previous_status": "accepted",
+          "status": "dismissed",
+          "reason": "Owner decision: removed from the catalogue because the official site still shows a past edition and no 2027 edition is published."
         }
       ]
     },
@@ -1779,21 +1785,20 @@
       "queries": [
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)"
       ],
-      "status": "accepted",
+      "status": "dismissed",
       "last_seen_at": "2026-11-23T09:09:21Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 29,
-      "user_decision": "duplicate",
+      "user_decision": "exclude",
       "duplicate_of_event_ids": [
         "physical-theoretical-chemistry-2027"
       ],
       "duplicate_of_candidate_ids": [
         "web-21c17745142e252f46fe"
       ],
-      "catalogue_event_id": "physical-theoretical-chemistry-2027",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "Same Physical Chemistry 2027 main conference as candidate 22; AI/data-driven chemistry is another session and should not be added twice.",
-      "review_decision": "duplicate",
+      "reviewed_at": "2026-11-24T00:30:00Z",
+      "review_note": "Rejected 2026-11-24: the official site still shows a past edition; no 2027 edition is published. Previously accepted, then removed from the catalogue.",
+      "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-e1461f6e5bb4dbe225cb",
       "review_history": [
         {
@@ -1803,6 +1808,13 @@
           "status": "accepted",
           "reason": "Same Physical Chemistry 2027 main conference as candidate 22; AI/data-driven chemistry is another session and should not be added twice.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
+        },
+        {
+          "at": "2026-11-24T00:30:00Z",
+          "action": "dismissed",
+          "previous_status": "accepted",
+          "status": "dismissed",
+          "reason": "Owner decision: removed from the catalogue because the official site still shows a past edition and no 2027 edition is published."
         }
       ]
     },
@@ -1956,15 +1968,14 @@
         "2027 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")",
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
-      "status": "accepted",
+      "status": "dismissed",
       "last_seen_at": "2026-11-23T09:09:21Z",
       "first_seen_at": "2026-10-27T21:11:15Z",
       "seen_count": 34,
-      "user_decision": "add",
-      "catalogue_event_id": "ai-machine-learning-2027-conference-series",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "The official site clearly gives the current dates, venue and organiser; can be labelled a commercial conference.",
-      "review_decision": "add",
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T00:30:00Z",
+      "review_note": "Rejected 2026-11-24: the official site still shows a past edition; no 2027 edition is published. Previously accepted, then removed from the catalogue.",
+      "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-0383dfcb8aba4f6e7520",
       "review_history": [
         {
@@ -1974,6 +1985,13 @@
           "status": "accepted",
           "reason": "The official site clearly gives the current dates, venue and organiser; can be labelled a commercial conference.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
+        },
+        {
+          "at": "2026-11-24T00:30:00Z",
+          "action": "dismissed",
+          "previous_status": "accepted",
+          "status": "dismissed",
+          "reason": "Owner decision: removed from the catalogue because the official site still shows a past edition and no 2027 edition is published."
         }
       ]
     },
@@ -3874,15 +3892,14 @@
         "2027 (conference OR symposium OR workshop) (\"automated experimentation\" OR \"digital chemistry\" OR cheminformatics)",
         "2027 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
-      "status": "accepted",
+      "status": "dismissed",
       "last_seen_at": "2026-11-22T08:01:04Z",
       "first_seen_at": "2026-10-29T07:08:30Z",
       "seen_count": 20,
-      "user_decision": "add",
-      "catalogue_event_id": "chemistry-meeting-2027-conference-series",
-      "reviewed_at": "2026-11-03T00:39:14Z",
-      "review_note": "The original link is a computational chemistry/AI session; the main conference site gives a separately identifiable activity.",
-      "review_decision": "add",
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T00:30:00Z",
+      "review_note": "Rejected 2026-11-24: the official site still shows a past edition; no 2027 edition is published. Previously accepted, then removed from the catalogue.",
+      "review_decision": "exclude",
       "review_record": "data/candidate-review-decisions-2026-11-03.json#web-800503c17cd056b758b9",
       "review_history": [
         {
@@ -3892,6 +3909,13 @@
           "status": "accepted",
           "reason": "The original link is a computational chemistry/AI session; the main conference site gives a separately identifiable activity.",
           "record": "data/candidate-review-decisions-2026-11-03.json"
+        },
+        {
+          "at": "2026-11-24T00:30:00Z",
+          "action": "dismissed",
+          "previous_status": "accepted",
+          "status": "dismissed",
+          "reason": "Owner decision: removed from the catalogue because the official site still shows a past edition and no 2027 edition is published."
         }
       ]
     },
