@@ -4270,10 +4270,23 @@
         "2026 (conference OR workshop OR course) (\"biomolecular simulation\" OR GROMACS OR LAMMPS OR PLUMED)",
         "2026 (conference OR workshop OR school) (CECAM OR CCP5 OR CCPBioSim OR BioExcel) (simulation OR modelling OR dynamics)"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 32
+      "seen_count": 32,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "Past: the BioExcel summer school ran 7–12 June 2026; no 2027 edition is announced.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: the BioExcel summer school ran 7–12 June 2026; no 2027 edition is announced."
+        }
+      ]
     },
     {
       "id": "web-9309305fc468c5f690da",
@@ -4580,10 +4593,23 @@
       "queries": [
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-14T07:40:00Z",
-      "seen_count": 11
+      "seen_count": 11,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "Past: TMS AIM 2026 (4th World Congress on AI in Materials & Manufacturing) took place in 2026.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: TMS AIM 2026 (4th World Congress on AI in Materials & Manufacturing) took place in 2026."
+        }
+      ]
     },
     {
       "id": "web-c261bc8352a7693bd45b",
@@ -4760,10 +4786,23 @@
       "queries": [
         "2026 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-19T08:51:00Z",
-      "seen_count": 5
+      "seen_count": 5,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "Past edition (DZT37); the 38th German Zeolite Conference is already in the catalogue as dzt38.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past edition (DZT37); the 38th German Zeolite Conference is already in the catalogue as dzt38."
+        }
+      ]
     },
     {
       "id": "web-ae1e66562c3a4a70fedb",
@@ -4898,10 +4937,23 @@
       "queries": [
         "2028 (conference OR symposium OR workshop) (\"artificial intelligence\" OR \"machine learning\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-18T08:35:06Z",
-      "seen_count": 3
+      "seen_count": 3,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "WASET listing; WASET series are excluded as non-academic commercial events.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "WASET listing; WASET series are excluded as non-academic commercial events."
+        }
+      ]
     },
     {
       "id": "web-5e59b0f4402c8b1854a4",
@@ -5098,10 +5150,23 @@
       "queries": [
         "2027 (conference OR symposium OR workshop) (MOF OR COF OR \"porous materials\" OR zeolite)"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-23T09:09:21Z",
-      "seen_count": 2
+      "seen_count": 2,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "WASET topic index page; WASET series are excluded as non-academic commercial events.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "WASET topic index page; WASET series are excluded as non-academic commercial events."
+        }
+      ]
     },
     {
       "id": "web-8b22e797953f1a8f15a3",
@@ -5606,10 +5671,23 @@
       "queries": [
         "2028 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-10T08:27:32Z",
-      "seen_count": 12
+      "seen_count": 12,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "Past: TMS AIM 2025 (3rd World Congress on AI in Materials & Manufacturing).",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: TMS AIM 2025 (3rd World Congress on AI in Materials & Manufacturing)."
+        }
+      ]
     },
     {
       "id": "web-24bf52d1cb6b3a22fa8d",
@@ -5629,10 +5707,23 @@
       "queries": [
         "2026 (conference OR workshop OR school) (\"enhanced sampling\" OR \"free energy\" OR \"coarse-grained\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 23
+      "seen_count": 23,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "Past: AMBER2026 ran 13–17 July 2026 in Donostia/San Sebastián; no later edition is announced.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: AMBER2026 ran 13–17 July 2026 in Donostia/San Sebastián; no later edition is announced."
+        }
+      ]
     },
     {
       "id": "web-a7fc09285786bd5a2d09",
@@ -5712,10 +5803,23 @@
       "queries": [
         "2028 (conference OR symposium OR workshop) (adsorption OR separations OR \"molecular simulation\" OR \"computational chemistry\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-08T07:24:24Z",
-      "seen_count": 4
+      "seen_count": 4,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "WASET topic index page; WASET series are excluded as non-academic commercial events.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "WASET topic index page; WASET series are excluded as non-academic commercial events."
+        }
+      ]
     },
     {
       "id": "web-4d79115e53f8b81f61bb",
@@ -5732,10 +5836,24 @@
       "queries": [
         "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
-      "status": "needs_review",
+      "status": "accepted",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 23
+      "seen_count": 23,
+      "user_decision": "add",
+      "catalogue_event_id": "huenfeld-2027",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "The official MPI-NAT page gives Hünfeld 2027 on 19–20 March 2027 at Hünfeld Monastery (hybrid), registration deadline 10 January 2027; added to the catalogue.",
+      "review_decision": "add",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "added",
+          "previous_status": "needs_review",
+          "status": "accepted",
+          "reason": "The official MPI-NAT page gives Hünfeld 2027 on 19–20 March 2027 at Hünfeld Monastery (hybrid), registration deadline 10 January 2027; added to the catalogue."
+        }
+      ]
     },
     {
       "id": "web-ee952f78c6c39a1c9167",
@@ -5838,10 +5956,23 @@
       "queries": [
         "2026 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-24T02:11:22Z",
       "first_seen_at": "2026-11-18T08:35:06Z",
-      "seen_count": 7
+      "seen_count": 7,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "Past: NIST AIMS 2026 took place in mid-2026.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: NIST AIMS 2026 took place in mid-2026."
+        }
+      ]
     },
     {
       "id": "web-f6ecf8a3100669b0b22e",
@@ -5962,10 +6093,23 @@
         "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")",
         "2028 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-23T09:09:21Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 23
+      "seen_count": 23,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "Past: CHASAM ran 28 September–2 October 2026 at Chalmers; no next edition is announced.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: CHASAM ran 28 September–2 October 2026 at Chalmers; no next edition is announced."
+        }
+      ]
     },
     {
       "id": "web-55dfcf011097d969893e",
@@ -6005,10 +6149,26 @@
       "queries": [
         "2027 (conference OR workshop OR school) (\"enhanced sampling\" OR \"free energy\" OR \"coarse-grained\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-18T08:35:06Z",
       "first_seen_at": "2026-11-18T08:35:06Z",
-      "seen_count": 1
+      "seen_count": 1,
+      "user_decision": "duplicate",
+      "duplicate_of_event_ids": [
+        "fomms2027"
+      ],
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "FOMMS 2027 is already in the catalogue as fomms2027.",
+      "review_decision": "duplicate",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "FOMMS 2027 is already in the catalogue as fomms2027."
+        }
+      ]
     },
     {
       "id": "web-f56b7415386a085927a1",
@@ -6048,10 +6208,26 @@
       "queries": [
         "2027 (conference OR symposium OR workshop) (\"AI for materials\" OR \"materials informatics\" OR \"computational materials\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-15T07:54:05Z",
       "first_seen_at": "2026-11-15T07:54:05Z",
-      "seen_count": 1
+      "seen_count": 1,
+      "user_decision": "duplicate",
+      "duplicate_of_event_ids": [
+        "6th-emmc-international-workshop-2027"
+      ],
+      "reviewed_at": "2026-11-24T03:00:00Z",
+      "review_note": "EMMC 2027 is already in the catalogue as 6th-emmc-international-workshop-2027.",
+      "review_decision": "duplicate",
+      "review_history": [
+        {
+          "at": "2026-11-24T03:00:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "EMMC 2027 is already in the catalogue as 6th-emmc-international-workshop-2027."
+        }
+      ]
     },
     {
       "id": "web-a605ec95ac212ad57169",
