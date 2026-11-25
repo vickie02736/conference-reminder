@@ -4411,10 +4411,23 @@
         "2027 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)",
         "2028 (\"call for papers\" OR \"important dates\") (conference OR symposium) (AI OR materials OR chemistry)"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-25T02:10:56Z",
       "first_seen_at": "2026-11-25T02:10:56Z",
-      "seen_count": 2
+      "seen_count": 2,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-25T02:45:00Z",
+      "review_note": "Third-party conference aggregator listing (allconferencealert.com), not an organiser page; no specific in-scope event identified.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-25T02:45:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Third-party conference aggregator listing (allconferencealert.com), not an organiser page; no specific in-scope event identified."
+        }
+      ]
     },
     {
       "id": "web-a8d3aab0ccbb7c6f76ce",
@@ -4435,10 +4448,24 @@
       "queries": [
         "2027 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
-      "status": "needs_review",
+      "status": "accepted",
       "last_seen_at": "2026-11-25T02:10:56Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 25
+      "seen_count": 25,
+      "user_decision": "add",
+      "reviewed_at": "2026-11-25T02:45:00Z",
+      "review_note": "Accepted: official page announces MLPfits 2027, 15–19 February 2027, Ruhr-Universität Bochum; registration deadline 10 December 2026. Added as mlpfits-2027.",
+      "review_decision": "add",
+      "catalogue_event_id": "mlpfits-2027",
+      "review_history": [
+        {
+          "at": "2026-11-25T02:45:00Z",
+          "action": "accepted",
+          "previous_status": "needs_review",
+          "status": "accepted",
+          "reason": "Accepted: official page announces MLPfits 2027, 15–19 February 2027, Ruhr-Universität Bochum; registration deadline 10 December 2026. Added as mlpfits-2027."
+        }
+      ]
     },
     {
       "id": "web-5098c20fc6e867eab5a4",
@@ -4986,10 +5013,23 @@
       "queries": [
         "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-25T02:10:56Z",
       "first_seen_at": "2026-11-13T08:01:29Z",
-      "seen_count": 9
+      "seen_count": 9,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-25T02:45:00Z",
+      "review_note": "Past: NEMD 2026 (Non-Equilibrium Molecular Dynamics) at the University of Edinburgh took place in July 2026 (event dated 6 July 2026); no later edition is announced.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-25T02:45:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: NEMD 2026 (Non-Equilibrium Molecular Dynamics) at the University of Edinburgh took place in July 2026 (event dated 6 July 2026); no later edition is announced."
+        }
+      ]
     },
     {
       "id": "web-1641633dcf40da616c20",
@@ -5479,10 +5519,23 @@
       "queries": [
         "2026 (conference OR workshop OR school) (\"molecular dynamics\" OR \"atomistic simulation\" OR \"molecular modelling\")"
       ],
-      "status": "needs_review",
+      "status": "dismissed",
       "last_seen_at": "2026-11-10T08:27:32Z",
       "first_seen_at": "2026-11-03T01:22:50Z",
-      "seen_count": 6
+      "seen_count": 6,
+      "user_decision": "exclude",
+      "reviewed_at": "2026-11-25T02:45:00Z",
+      "review_note": "Past: NEMD 2026 (Non-Equilibrium Molecular Dynamics) at the University of Edinburgh took place in July 2026 (event dated 6 July 2026); no later edition is announced.",
+      "review_decision": "exclude",
+      "review_history": [
+        {
+          "at": "2026-11-25T02:45:00Z",
+          "action": "dismissed",
+          "previous_status": "needs_review",
+          "status": "dismissed",
+          "reason": "Past: NEMD 2026 (Non-Equilibrium Molecular Dynamics) at the University of Edinburgh took place in July 2026 (event dated 6 July 2026); no later edition is announced."
+        }
+      ]
     },
     {
       "id": "web-9e535e3d1b051dfef844",
