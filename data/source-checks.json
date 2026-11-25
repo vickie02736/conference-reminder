@@ -8044,36 +8044,6 @@
         }
       }
     },
-    "https://artificialintelligence.conferenceseries.com/registration.php": {
-      "last_checked_at": "2026-11-25T09:24:49Z",
-      "status": "failed",
-      "hash": "928ee3782127b6d0910e5a3f11519e69ba19969b2e299d160697757363534d7c",
-      "last_success_at": "2026-11-25T02:10:53Z",
-      "fingerprint_version": 2,
-      "content_type": "text/html",
-      "message": "HTTP Error 522: <none>",
-      "changed_at": "2026-11-03T01:22:49Z",
-      "checks": {
-        "ai-machine-learning-2027-conference-series": {
-          "review_required": false,
-          "message": null,
-          "reason": null,
-          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
-          "reviewed_hash": "928ee3782127b6d0910e5a3f11519e69ba19969b2e299d160697757363534d7c",
-          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方注册页缓存确认 early bird 2026-11-22、normal 2027-01-22、final 2027-03-22，未给截止钟点/时区；页面同时说注册页开发中，不据注册链接断言已开放。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
-          "review_method": "browser",
-          "remaining_fields": [],
-          "review_run": 41625735289,
-          "content_verified_fields": [
-            "event dates",
-            "published deadlines where present",
-            "existing organiser roles and affiliations"
-          ],
-          "browser_evidence_url": "https://artificialintelligence.conferenceseries.com/registration.php",
-          "automatic_fetch_restored": false
-        }
-      }
-    },
     "https://artificialintelligence.unitedscientificgroup.org/": {
       "last_checked_at": "2026-11-25T09:24:49Z",
       "status": "checked",
@@ -8088,42 +8058,6 @@
           "review_required": false,
           "message": null,
           "reason": null
-        }
-      }
-    },
-    "https://artificialintelligence.conferenceseries.com/": {
-      "last_checked_at": "2026-11-25T09:24:49Z",
-      "status": "failed",
-      "hash": "cbc5fe05c25516d38f5590e9e0e6e90dc241039e4be71f48eeba94ab0f272e95",
-      "last_success_at": "2026-11-25T02:10:53Z",
-      "fingerprint_version": 2,
-      "content_type": "text/html",
-      "message": "HTTP Error 522: <none>",
-      "changed_at": "2026-11-03T07:57:11Z",
-      "checks": {
-        "ai-machine-learning-2027-conference-series": {
-          "review_required": false,
-          "message": null,
-          "reason": null,
-          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
-          "reviewed_hash": "cbc5fe05c25516d38f5590e9e0e6e90dc241039e4be71f48eeba94ab0f272e95",
-          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方网页缓存与正文确认 8th International Congress on AI and Machine Learning 为 2027-03-22 至 23，Rome；未给摘要 cutoff。现有 Conference Series 主办方不变，未导入未确认届次的个人名录。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
-          "review_method": "browser",
-          "resolved_reason": "content_changed",
-          "remaining_fields": [],
-          "reviewed_fields": [
-            "associated_dates",
-            "cutoff_times_and_timezones",
-            "stored_people_roles_affiliations"
-          ],
-          "review_run": 41625735289,
-          "content_verified_fields": [
-            "event dates",
-            "published deadlines where present",
-            "existing organiser roles and affiliations"
-          ],
-          "browser_evidence_url": "https://artificialintelligence.conferenceseries.com/",
-          "automatic_fetch_restored": false
         }
       }
     },
@@ -8206,50 +8140,6 @@
             "cutoff_times_and_timezones",
             "stored_people_roles_affiliations"
           ]
-        }
-      }
-    },
-    "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence": {
-      "last_checked_at": "2026-11-25T09:24:49Z",
-      "status": "failed",
-      "hash": "18c0f2c83bb6ce959a19cea7984bda69fdcbdc872e8d4ebe3ff8d2b8a7842897",
-      "last_success_at": "2026-11-25T02:10:53Z",
-      "fingerprint_version": 2,
-      "content_type": "text/html",
-      "message": "HTTP Error 522: <none>",
-      "changed_at": "2026-11-25T02:10:53Z",
-      "checks": {
-        "chemistry-meeting-2027-conference-series": {
-          "review_required": true,
-          "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-          "reason": "content_changed"
-        }
-      }
-    },
-    "https://chemistrymeeting.chemistryconferences.org/": {
-      "last_checked_at": "2026-11-25T09:24:49Z",
-      "status": "failed",
-      "hash": "2f142944603f903a59f3a6509b21a1545cac8843fe4997eea570fba7d67ce90a",
-      "last_success_at": "2026-11-25T02:10:53Z",
-      "fingerprint_version": 2,
-      "content_type": "text/html",
-      "message": "HTTP Error 522: <none>",
-      "changed_at": "2026-11-03T01:22:49Z",
-      "checks": {
-        "chemistry-meeting-2027-conference-series": {
-          "review_required": false,
-          "message": null,
-          "reason": null,
-          "review_method": "browser",
-          "reviewed_at": "2026-11-05T09:41:25.136646+00:00",
-          "evidence": "review_method=browser；运行器 ok=false，无正文附件；官方网页缓存确认 17th Chemistry Meeting 为 2027-02-25 至 26、Paris；现有 Conference Series 主办方不变。Renowned Speakers 未明确属于当前届次，未导入，未猜测截止。 内容与已有可信事实相符；保留运行器传输失败状态，不写入或修改任何 hash。",
-          "content_verified_fields": [
-            "event dates",
-            "published deadlines where present",
-            "existing organiser roles and affiliations"
-          ],
-          "browser_evidence_url": "https://chemistrymeeting.chemistryconferences.org/",
-          "automatic_fetch_restored": false
         }
       }
     },
@@ -8636,23 +8526,6 @@
           "review_required": true,
           "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
           "reason": "content_changed"
-        }
-      }
-    },
-    "https://physical-theoreticalchemistry.annualcongress.com/": {
-      "last_checked_at": "2026-11-25T09:24:49Z",
-      "status": "unverifiable",
-      "hash": "a4dc514ceebba04383ef87533f6586c615ad7823f8419a2522a3a1ab5e08cb7e",
-      "last_success_at": "2026-11-25T02:10:53Z",
-      "fingerprint_version": 2,
-      "content_type": "text/html",
-      "message": "The read operation timed out",
-      "changed_at": "2026-11-03T01:22:49Z",
-      "checks": {
-        "physical-theoretical-chemistry-2027": {
-          "review_required": false,
-          "message": null,
-          "reason": null
         }
       }
     },

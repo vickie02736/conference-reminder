@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-25",
-  "remaining_count": 160,
-  "remaining_source_count": 152,
+  "remaining_count": 159,
+  "remaining_source_count": 151,
   "queue": [
     {
       "source": "https://spring2027.camml.ac.uk/about/",
@@ -1128,21 +1128,6 @@
       "reason": "content_changed",
       "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
       "content_hash": "afaa0984c2f025101fff959e357c08d76f91bc57691f54f7f278399ad249f4d3",
-      "priority": 2,
-      "next_deadline": null,
-      "remaining_fields": [
-        "dates",
-        "times",
-        "timezones",
-        "people_roles_affiliations"
-      ]
-    },
-    {
-      "source": "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
-      "event_id": "chemistry-meeting-2027-conference-series",
-      "reason": "content_changed",
-      "message": "Official content changed; recognised fields may be updated, but the remaining content requires review.",
-      "content_hash": "18c0f2c83bb6ce959a19cea7984bda69fdcbdc872e8d4ebe3ff8d2b8a7842897",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
@@ -2393,16 +2378,6 @@
       "reason": "IncompleteRead(8192 bytes read)"
     },
     {
-      "source": "https://artificialintelligence.conferenceseries.com/",
-      "status": "failed",
-      "reason": "HTTP Error 522: <none>"
-    },
-    {
-      "source": "https://artificialintelligence.conferenceseries.com/registration.php",
-      "status": "failed",
-      "reason": "HTTP Error 522: <none>"
-    },
-    {
       "source": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
@@ -2411,16 +2386,6 @@
       "source": "https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf",
       "status": "unverifiable",
       "reason": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "https://chemistrymeeting.chemistryconferences.org/",
-      "status": "failed",
-      "reason": "HTTP Error 522: <none>"
-    },
-    {
-      "source": "https://chemistrymeeting.chemistryconferences.org/events-list/computational-chemistry-and-artificial-intelligence",
-      "status": "failed",
-      "reason": "HTTP Error 522: <none>"
     },
     {
       "source": "https://cops-xii.org/",
@@ -2466,11 +2431,6 @@
       "source": "https://materialsscience.conferenceseries.com/events-list/computational-materials-science-and-ai",
       "status": "failed",
       "reason": "HTTP Error 522: <none>"
-    },
-    {
-      "source": "https://physical-theoreticalchemistry.annualcongress.com/",
-      "status": "unverifiable",
-      "reason": "The read operation timed out"
     },
     {
       "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
