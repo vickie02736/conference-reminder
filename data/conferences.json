@@ -26813,6 +26813,235 @@
       "discovery_candidate_ids": [
         "web-3619c5936d037df95000"
       ]
+    },
+    {
+      "id": "huenfeld-2027",
+      "name": "Hünfeld 2027 — Workshop on Computer Simulation and Theory of Macromolecules",
+      "tags": [
+        "Simulation",
+        "Molecular Simulation",
+        "Biomolecular Simulation",
+        "Soft Matter"
+      ],
+      "start": "2027-03-19",
+      "end": "2027-03-20",
+      "date": "2027-03-19 — 2027-03-20",
+      "location": "Hünfeld, Germany — Bonifatiuskloster Hünfeld (Hünfeld Monastery); hybrid",
+      "region": "Europe",
+      "type": "Workshop / Discussion",
+      "deadline": "Registration deadline 10 January 2027. The call for abstracts is open; no abstract deadline day is published.",
+      "status": "Registration open; call for abstracts open.",
+      "note": "Long-running annual workshop on computer simulation and theory of macromolecules, organised by the Max Planck Institute for Multidisciplinary Sciences (Göttingen). Hybrid format; the official page states online participation is free of charge. The programme runs from 13:00 on 19 March to 18:00 on 20 March (Europe/Berlin).",
+      "sources": [
+        "https://www.mpinat.mpg.de/workshop/huenfeld",
+        "https://events.gwdg.de/event/1487/"
+      ],
+      "url": "https://www.mpinat.mpg.de/workshop/huenfeld",
+      "priority": 2,
+      "verified_on": "2026-11-24",
+      "evidence": "MPI-NAT workshop page: “Hünfeld 2027: Workshop on Computer Simulation and Theory of Macromolecules”, “March 19-20, 2027”, “the meeting will be held in the Hünfeld Monastery”. Indico: “19–20 Mar 2027”, “Bonifatiuskloster Hünfeld”, “All times are in Europe/Berlin”. MPI-NAT workshop page: “Registration for the Hünfeld Workshop 2027 is now open!” and “Please register now - Deadline: January 10, 2027”. No clock time or time zone is given.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-24T03:00:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "huenfeld-2027:conference-start",
+          "kind": "conference_start",
+          "label": "Workshop starts",
+          "date": "2027-03-19",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.mpinat.mpg.de/workshop/huenfeld",
+          "evidence": "MPI-NAT workshop page: “Hünfeld 2027: Workshop on Computer Simulation and Theory of Macromolecules”, “March 19-20, 2027”, “the meeting will be held in the Hünfeld Monastery”. Indico: “19–20 Mar 2027”, “Bonifatiuskloster Hünfeld”, “All times are in Europe/Berlin”."
+        },
+        {
+          "id": "huenfeld-2027:conference-end",
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-03-20",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.mpinat.mpg.de/workshop/huenfeld",
+          "evidence": "MPI-NAT workshop page: “Hünfeld 2027: Workshop on Computer Simulation and Theory of Macromolecules”, “March 19-20, 2027”, “the meeting will be held in the Hünfeld Monastery”. Indico: “19–20 Mar 2027”, “Bonifatiuskloster Hünfeld”, “All times are in Europe/Berlin”."
+        },
+        {
+          "id": "huenfeld-2027:registration",
+          "kind": "registration",
+          "label": "Registration deadline",
+          "date": "2027-01-10",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.mpinat.mpg.de/workshop/huenfeld",
+          "evidence": "MPI-NAT workshop page: “Registration for the Hünfeld Workshop 2027 is now open!” and “Please register now - Deadline: January 10, 2027”. No clock time or time zone is given."
+        },
+        {
+          "id": "huenfeld-2027:abstract",
+          "kind": "abstract",
+          "label": "Abstracts",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "precision": "unknown",
+          "status": "unknown",
+          "version": 1,
+          "source": "https://events.gwdg.de/event/1487/",
+          "evidence": "Indico: “The call for abstracts is open”; no abstract deadline date is published.",
+          "availability": "not_published",
+          "availability_checked_on": "2026-11-24"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Max Planck Institute for Multidisciplinary Sciences",
+            "role": "Host institution",
+            "affiliation": "Göttingen, Germany",
+            "source": "https://www.mpinat.mpg.de/workshop/huenfeld"
+          },
+          {
+            "name": "Helmut Grubmüller",
+            "role": "Chair / organiser",
+            "affiliation": "Max Planck Institute for Multidisciplinary Sciences",
+            "source": "https://events.gwdg.de/event/1487/"
+          },
+          {
+            "name": "Volkhard Helms",
+            "role": "Chair / organiser",
+            "source": "https://events.gwdg.de/event/1487/"
+          }
+        ],
+        "committee": [],
+        "speakers": [
+          {
+            "name": "Reinhard Lipowsky",
+            "role": "Keynote speaker",
+            "affiliation": "Max Planck Institute of Colloids and Interfaces, Potsdam",
+            "source": "https://www.mpinat.mpg.de/workshop/huenfeld"
+          }
+        ],
+        "participants": [],
+        "checked_on": "2026-11-24",
+        "status": "published",
+        "note": "Chairs are listed on the Indico event page; the keynote speaker is named on the MPI-NAT workshop page. No full speaker list was reviewed.",
+        "sources": [
+          "https://www.mpinat.mpg.de/workshop/huenfeld",
+          "https://events.gwdg.de/event/1487/"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-4d79115e53f8b81f61bb"
+      ]
+    },
+    {
+      "id": "mlpfits-2027",
+      "name": "MLPfits 2027 — Machine Learning Potentials: from interfaces to solution",
+      "tags": [
+        "ML Potentials",
+        "AI for Materials",
+        "Simulation",
+        "Molecular Simulation"
+      ],
+      "start": "2027-02-15",
+      "end": "2027-02-19",
+      "date": "2027-02-15 — 2027-02-19",
+      "location": "Bochum, Germany — Ruhr-Universität Bochum (onsite only)",
+      "region": "Europe",
+      "type": "School / Training",
+      "deadline": "Registration deadline 10 December 2026 (by e-mail to potentials@icams.rub.de with the subject “Registration MLPfits 2027”); participation confirmed by 21 December 2026.",
+      "status": "Announced; registration by e-mail until 10 December 2026. Participants may be selected on their motivation statement if over-subscribed.",
+      "note": "Five-day hands-on tutorial workshop on machine-learning interatomic potentials, organised by Jörg Behler and Ralf Drautz. Free of charge; participants cover their own travel and accommodation. The workshop starts at 8:30 on 15 February and ends at noon on 19 February; the programme will be announced in early 2027. The organisers advise against non-refundable bookings before participation is confirmed.",
+      "sources": [
+        "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en"
+      ],
+      "url": "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en",
+      "priority": 2,
+      "verified_on": "2026-11-25",
+      "evidence": "Official workshop page: “MLPfits 2027”, “Machine Learning Potentials: from interfaces to solution”, “A 5-Day Hands-on Tutorial Workshop”, “February 15-19, 2027 (start: Monday February 15, 8:30 a.m., end: Friday February 19, noon)”, “Ruhr-Universität Bochum, Germany (onsite only)”. “The deadline for registration is 10th December 2026.” “The workshop is free of charge, but participants need to cover their travel and accommodation expenses on their own.”",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-25T02:45:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "mlpfits-2027:conference-start",
+          "kind": "conference_start",
+          "label": "Workshop starts",
+          "date": "2027-02-15",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en",
+          "evidence": "Official workshop page: “MLPfits 2027”, “Machine Learning Potentials: from interfaces to solution”, “A 5-Day Hands-on Tutorial Workshop”, “February 15-19, 2027 (start: Monday February 15, 8:30 a.m., end: Friday February 19, noon)”, “Ruhr-Universität Bochum, Germany (onsite only)”."
+        },
+        {
+          "id": "mlpfits-2027:conference-end",
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-02-19",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en",
+          "evidence": "Official workshop page: “MLPfits 2027”, “Machine Learning Potentials: from interfaces to solution”, “A 5-Day Hands-on Tutorial Workshop”, “February 15-19, 2027 (start: Monday February 15, 8:30 a.m., end: Friday February 19, noon)”, “Ruhr-Universität Bochum, Germany (onsite only)”."
+        },
+        {
+          "id": "mlpfits-2027:registration",
+          "kind": "registration",
+          "label": "Registration deadline",
+          "date": "2026-12-10",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en",
+          "evidence": "Official workshop page: “The deadline for registration is 10th December 2026. We may extend the deadline if there are still places available.” No clock time or time zone is given."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Jörg Behler",
+            "role": "Organiser",
+            "source": "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en"
+          },
+          {
+            "name": "Ralf Drautz",
+            "role": "Organiser",
+            "source": "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en"
+          }
+        ],
+        "committee": [],
+        "speakers": [],
+        "participants": [],
+        "checked_on": "2026-11-25",
+        "status": "published",
+        "note": "The official page names the two organisers; it says the programme will be announced in early 2027, so no tutors are listed yet.",
+        "sources": [
+          "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en"
+        ]
+      },
+      "discovery_candidate_ids": [
+        "web-a8d3aab0ccbb7c6f76ce"
+      ]
     }
   ],
   "watchlist": [
@@ -30395,6 +30624,22 @@
       "previous": "Watchlist: 17–20 May 2027 (organiser LinkedIn announcement only).",
       "value": "5–8 May 2027, Le Royal Hammamet, Hammamet, Tunisia",
       "message": "Official conference website found. Corrected dates to 5–8 May 2027, added the 15 December 2026 abstract deadline and early-bird registration dates, and moved the activity from the watchlist to scheduled events."
+    },
+    {
+      "at": "2026-11-24T03:00:00Z",
+      "event_id": "huenfeld-2027",
+      "event_name": "Hünfeld 2027 — Workshop on Computer Simulation and Theory of Macromolecules",
+      "field": "event",
+      "source": "https://www.mpinat.mpg.de/workshop/huenfeld",
+      "message": "Added from a reviewed discovery lead: 19–20 March 2027, Hünfeld Monastery, Germany (hybrid); registration deadline 10 January 2027."
+    },
+    {
+      "at": "2026-11-25T02:45:00Z",
+      "event_id": "mlpfits-2027",
+      "event_name": "MLPfits 2027 — Machine Learning Potentials: from interfaces to solution",
+      "field": "event",
+      "source": "https://www.theochem2.ruhr-uni-bochum.de/tc/workshops.html.en",
+      "message": "Added from a reviewed discovery lead: 15–19 February 2027, Ruhr-Universität Bochum, Germany (onsite only); registration deadline 10 December 2026."
     }
   ]
 }
