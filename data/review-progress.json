@@ -1,21 +1,8 @@
 {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "remaining_count": 45,
   "remaining_source_count": 43,
   "queue": [
-    {
-      "source": "https://spring2027.camml.ac.uk/about/",
-      "event_id": "camml2027",
-      "reason": "content_conflict",
-      "message": "Unresolved after runner-text review: accommodation nights: PSDI 4 vs about 5; acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)",
-      "content_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
-      "priority": 0,
-      "next_deadline": "2026-11-26",
-      "remaining_fields": [
-        "accommodation nights: PSDI 4 vs about 5",
-        "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
-      ]
-    },
     {
       "source": "https://materialscienceconferences.com/",
       "event_id": "materials-science-engineering-2027-coalesce",
@@ -50,6 +37,19 @@
       "next_deadline": "2026-12-01",
       "remaining_fields": [
         "Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
+      ]
+    },
+    {
+      "source": "https://spring2027.camml.ac.uk/about/",
+      "event_id": "camml2027",
+      "reason": "content_conflict",
+      "message": "Unresolved after runner-text review: accommodation nights: PSDI 4 vs about 5; acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)",
+      "content_hash": "2b2945781301a2b9d6ae8da2019758b16aa642c69d4fe63e1e25058d3ec378cc",
+      "priority": 0,
+      "next_deadline": "2026-12-06",
+      "remaining_fields": [
+        "accommodation nights: PSDI 4 vs about 5",
+        "acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
       ]
     },
     {
@@ -266,7 +266,7 @@
       "event_id": "tyc20-celebration-of-the-thomas-young-centre-at-20",
       "reason": "content_changed",
       "message": "registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished",
-      "content_hash": "63b423652105f0cb4afd01c42adb26bec696544ab3275a7c478371102dbb8797",
+      "content_hash": "d7bb17ce9c49cdb3abe04afabed1c326f02382a16a9c9e65e6b8fb9fe968f5fa",
       "priority": 0,
       "next_deadline": null,
       "remaining_fields": [
@@ -351,7 +351,7 @@
     {
       "source": "https://psi-k.net/workshops/",
       "event_id": "defects2027",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: Psi-k workshops listing not readable in current text (title only); 6-8 January 2027 / Cambridge listing not re-confirmed from this source",
       "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
       "priority": 1,
@@ -363,7 +363,7 @@
     {
       "source": "https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf",
       "event_id": "defects2027",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: Psi-k 2026 poster PDF content not extracted (title only); nothing confirmed from this source",
       "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
       "priority": 1,
@@ -375,8 +375,8 @@
     {
       "source": "https://sites.google.com/view/ai4mat/schedule",
       "event_id": "ai4mat-neurips-2026",
-      "reason": "manual_review_partial",
-      "message": "Unresolved after runner-text review: workshop date 2026-12-12 / Sydney not present in fetched schedule text (JS-rendered page)",
+      "reason": "content_changed",
+      "message": "Unresolved after runner-text review: workshop date 2026-12-12 / Sydney not present in fetched schedule text (JS-rendered page); The authoritative AI4Mat schedule sentence is missing or ambiguous.",
       "content_hash": "5f72005e81c4ecbd5aa3588e80e3daf0df068ce0cf5638944508a0165fea609a",
       "priority": 2,
       "next_deadline": null,
@@ -402,7 +402,7 @@
     {
       "source": "https://dgm.de/aimse/2027/submission/abstract-submission",
       "event_id": "aimse2027",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: aimse2027:early-registration 2027-06-30 not present in fetched text; aimse2027:standard-registration 2027-10-17 not present in fetched text; aimse2027:final-files 2027-11-15 not present in fetched text; submission-open-since 28 Oct 2026 (status text) not present in fetched text",
       "content_hash": "73ba16a1498069e46fbc645d0a3d01b6b9b10024fa566d872800e6394f518034",
       "priority": 2,
@@ -433,7 +433,7 @@
     {
       "source": "https://psi-k.net/workshops/",
       "event_id": "automating-atomistic-machine-learning",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: dates and location (Psi-k list not present in current capture; re-fetch needed)",
       "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
       "priority": 2,
@@ -445,7 +445,7 @@
     {
       "source": "https://www.compchemday.org/",
       "event_id": "computational-chemistry-day-2027",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: start/end; location; registration opening/deadline; people",
       "content_hash": "08e8308b4852d23cdb837ddb2d9a14652ade86d3c24fbd3252665a65be191519",
       "priority": 2,
@@ -460,8 +460,8 @@
     {
       "source": "https://euromof2027.com/abstracts/",
       "event_id": "euromof2027",
-      "reason": "manual_review_partial",
-      "message": "Unresolved after runner-text review: abstract submission platform availability: 'Abstract submission SOON available' heading vs 'SUBMIT HERE' portal link",
+      "reason": "content_changed",
+      "message": "Unresolved after runner-text review: abstract submission platform availability: 'Abstract submission SOON available' heading vs 'SUBMIT HERE' portal link; Submission platform status is no longer recognised; verify it before changing the status.",
       "content_hash": "3bc8e9fd69d24baa8f8167ff72a4dde4e7125b7bdd3ba37309f0b50e31ca9b3d",
       "priority": 2,
       "next_deadline": null,
@@ -487,7 +487,7 @@
     {
       "source": "https://www.mrs.org/meetings-events/annual-meetings",
       "event_id": "mrs-fall2026",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: early-registration 2026-10-29 23:59 ET no longer stated on this page (past date; kept unchanged, not re-verified)",
       "content_hash": "a9125f460cc8c5990816f8bcae094c9500b63251b6bcb08adbe0e0353c599514",
       "priority": 2,
@@ -499,7 +499,7 @@
     {
       "source": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/",
       "event_id": "nanoporous-grc2027",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: chair/vice-chair names (Fan, Farha, Snurr, Chen) not present in text (image-only)",
       "content_hash": "a6407a5cd84980c8f957aa8fd6d98fa45bae06c7657ddba7fe0dfe30b5348534",
       "priority": 2,
@@ -511,7 +511,7 @@
     {
       "source": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/",
       "event_id": "nanoporous-grs2027",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: seminar co-chair names (Hafsa Abdul Ghuffar, Haley Wellman) not present in text; image-only on the page",
       "content_hash": "3b9be22a865b7bb9cb0380ae9cfb90e0e1f0c5da83b332b5ab11b3b3e6fd0a1e",
       "priority": 2,
@@ -536,7 +536,7 @@
     {
       "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
       "event_id": "sampling-with-agents-2026",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: hackathon start/end dates: only referenced in passing (\"on 8 December\") by the TYC page; no hackathon-specific official page; hackathon registration deadline/status and organisers: not published",
       "content_hash": "fd3916e9aa0c2bd6c9faef5204d6fc1e86e8fc9152be159e6908a8b91938b662",
       "priority": 2,
@@ -549,7 +549,7 @@
     {
       "source": "https://advancedmaterialsshow.com/full-conference/",
       "event_id": "the-advanced-materials-show-2027",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: start/end 2027-06-16/17 not present in fetched full-conference text; location NEC Birmingham not present in fetched full-conference text",
       "content_hash": "10fbe2c3d36a8dff80c10f0df84cebb2cec85cab96d956925e3a32c6e277a782",
       "priority": 2,
@@ -562,20 +562,22 @@
     {
       "source": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/",
       "event_id": "the-future-of-materials-discovery",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: location 'London — The Royal Society' not stated in fetched text; speakers Alex Ganose, Vitaliy Kurlin, Jun Jiang not named in fetched text (their slots show talk titles only)",
-      "content_hash": "a00f229e55b80b47a47dae2ec6d14c8ef01343f62118071a4e841d5900add15b",
+      "content_hash": "cbded22e6a2995d42004dd15e39ab14e4e55b6fa787d01c325640ca003afe70a",
       "priority": 2,
       "next_deadline": null,
       "remaining_fields": [
-        "location 'London — The Royal Society' not stated in fetched text",
-        "speakers Alex Ganose, Vitaliy Kurlin, Jun Jiang not named in fetched text (their slots show talk titles only)"
+        "dates",
+        "times",
+        "timezones",
+        "people_roles_affiliations"
       ]
     },
     {
       "source": "https://psi-k.net/workshops/",
       "event_id": "theoretical-spectroscopy-lectures",
-      "reason": "manual_review_partial",
+      "reason": "content_changed",
       "message": "Unresolved after runner-text review: psi-k listing content unavailable (runner text only 'Psi-k Network'); dates 8-12 March 2027 and Lausanne not re-confirmed from this source",
       "content_hash": "c919c195e9820ff553f748ee4bf711548c55991c85e5f99bd8854f039f1cae04",
       "priority": 2,
@@ -589,17 +591,17 @@
     {
       "source": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(15940 bytes read)"
+      "reason": "IncompleteRead(7761 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(14687 bytes read)"
+      "reason": "IncompleteRead(7761 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/",
       "status": "unverifiable",
-      "reason": "IncompleteRead(7761 bytes read)"
+      "reason": "IncompleteRead(24129 bytes read)"
     },
     {
       "source": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/",
@@ -640,16 +642,6 @@
       "source": "https://materialscienceconferences.com/",
       "status": "unverifiable",
       "reason": "Official source returned no readable page content."
-    },
-    {
-      "source": "https://materialsscience.conferenceseries.com/",
-      "status": "unverifiable",
-      "reason": "The read operation timed out"
-    },
-    {
-      "source": "https://materialsscience.conferenceseries.com/events-list/computational-materials-science-and-ai",
-      "status": "unverifiable",
-      "reason": "The read operation timed out"
     },
     {
       "source": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf",
@@ -742,6 +734,12 @@
       "source": "https://ai4science-amsterdam.github.io/news/chemai/",
       "event_ids": [
         "chemai-2026"
+      ]
+    },
+    {
+      "source": "https://aixmat.candela.org.pl/",
+      "event_ids": [
+        "aixmat-2026-ai-in-materials-research-summit"
       ]
     },
     {

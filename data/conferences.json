@@ -4,12 +4,12 @@
     "schema_version": 1,
     "verified_on": "2026-10-27",
     "scope": "AI, AI for Materials, MOF/COF, porous materials, adsorption, computational and molecular-simulation activities worldwide, with priority to the UK and Europe. Activities with closed submissions or registration and past activities specifically retained by the user are included.",
-    "count": 166,
-    "watchlist_count": 8,
+    "count": 175,
+    "watchlist_count": 7,
     "regions": {
-      "UK": 34,
+      "UK": 33,
       "Europe": 75,
-      "Other": 65
+      "Other": 67
     },
     "notes": [
       "A non-exhaustive research snapshot based on conference, organiser, society and university sources.",
@@ -22,8 +22,8 @@
       "Molecular/atomistic simulation coverage expanded on 2 November 2026 from official society, organiser, institutional and software-community sources. Indexed-only date leads remain pending; no recurring edition dates are inferred.",
       "The user-approved 98-candidate review was applied on 3 November 2026: 25 new activities, 10 resolved duplicate leads, 54 excluded leads and 9 retained pending. Existing ICML 2027 was promoted from pending after official dates were confirmed. Decisions and reasons are retained in data/candidate-review-decisions-2026-11-03.json."
     ],
-    "last_checked_at": "2026-11-26T02:10:31Z",
-    "last_updated_at": "2026-11-23T22:30:00Z",
+    "last_checked_at": "2026-11-27T02:10:49Z",
+    "last_updated_at": "2026-11-27T03:00:00Z",
     "people_reviewed_on": "2026-10-29"
   },
   "events": [
@@ -51,12 +51,12 @@
       ],
       "url": "https://www.rsc.org/events/find-an-event/chemical-science-symposium-2026-digital-chemistry-in-the-age-of-ai-and-machine-learning",
       "priority": 2,
-      "verified_on": "2026-11-26",
+      "verified_on": "2026-11-27",
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
-        "last_verified_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
+        "last_verified_at": "2026-11-27T02:10:49Z",
         "message": null
       },
       "milestones": [
@@ -245,7 +245,7 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://aichemy.ac.uk/event/winter-school-robotics-and-ai-for-materials-chemistry-2026/: IncompleteRead(7764 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/7897: IncompleteRead(8192 bytes read)"
       },
@@ -453,7 +453,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.soci.org/events/young-chemists-panel/2026/automated-intelligent-chemistry-2026: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.rsc.org/events/find-an-event/automated-intelligent-chemistry: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -630,7 +630,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -796,7 +796,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -921,7 +921,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -1050,7 +1050,7 @@
       "evidence": "The TYC website gives 14–15 December and the 1 November registration deadline; the KCL official store confirms the Great Hall, £75 student ticket and last booking date.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://thomasyoungcentre.org/event/tyc20-celebration-of-the-thomas-young-centre-at-20/: registration deadline: TYC 2026-11-01 vs KCL eStore 2026-11-08; no official extension explanation; student-ticket availability: historical Fully Booked vs current runner Book Event; current acceptance not verified; end clock: event page 17:00 vs programme closing remarks 16:40; timezone unpublished | https://www.thomasyoungcentre.org/wp-content/uploads/2025/11/20261106-TYC20-Summary-Programme.pdf: end clock: programme 16:40 vs event page 17:00; timezone unpublished | https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-natural-mathematical-sciences/department-of-physics/tyc20-celebration-of-the-thomas-young-centre-at-20?token=e83fd11fa6d4e9ba026f4abc11256bce: HTTP Error 404: Not Found"
       },
@@ -1375,7 +1375,7 @@
       "evidence": "Manually reviewed the organiser, school and organiser-linked registration pages on 2026-10-28. All confirm 14–15 December 2026 at Chimie ParisTech–PSL in Paris. Weezevent structured data confirms the start at 13:00 UTC (14:00 Europe/Paris). The organiser and Weezevent list 20:00 on 15 December, while the school lists 17:00; only the confirmed end date is used for the end reminder. No registration cutoff or current ticket availability was confirmed.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -1533,7 +1533,7 @@
       "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; Joe Willis added from the official programme; dates and cutoffs unchanged.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -1562,7 +1562,7 @@
           "source": "https://sscg.uk/2026-sscg-christmas-meeting",
           "precision": "date",
           "status": "verified",
-          "evidence": "End date from the source-verified official event date range; exact end time is not published."
+          "evidence": "Official page (run 45926640538): ECR meeting \"noon 15th Dec. → noon 16th Dec.\"; main meeting \"noon 16th Dec. → 2 pm 17th Dec.\" Date-only milestone; the 2 pm end time is noted but not used for reminders."
         },
         {
           "kind": "abstract",
@@ -1752,7 +1752,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -1908,9 +1908,9 @@
       "evidence": "11月10日至12日逐行差异仅网站导航新增CISL、毕业晚宴、Materials Science、2D TMDs等无关活动；本活动6–8 January 2027、口头摘要23 November、海报/注册16 December及人员角色机构未改，无截止钟点/时区。",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-19T08:58:47.417540+00:00",
-        "message": "https://psi-k.net/workshops/: Unresolved after runner-text review: Psi-k workshops listing not readable in current text (title only); 6-8 January 2027 / Cambridge listing not re-confirmed from this source | https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf: Unresolved after runner-text review: Psi-k 2026 poster PDF content not extracted (title only); nothing confirmed from this source | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(14687 bytes read)"
+        "message": "https://psi-k.net/workshops/: Unresolved after runner-text review: Psi-k workshops listing not readable in current text (title only); 6-8 January 2027 / Cambridge listing not re-confirmed from this source | https://psi-k.net/wp-content/uploads/2026/03/2026_Psik_Poster_v1.pdf: Unresolved after runner-text review: Psi-k 2026 poster PDF content not extracted (title only); nothing confirmed from this source | https://aichemy.ac.uk/event/computational-methods-for-defects-in-solids-workshop/: IncompleteRead(7761 bytes read)"
       },
       "milestones": [
         {
@@ -2121,12 +2121,12 @@
       ],
       "url": "https://www.rsc.org/events/find-an-event/rsc-theoretical-chemistry-group-graduate-student-meeting",
       "priority": 2,
-      "verified_on": "2026-11-26",
+      "verified_on": "2026-11-27",
       "evidence": "The RSC page lists the date, venue, all deadlines and presentation eligibility.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
-        "last_verified_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
+        "last_verified_at": "2026-11-27T02:10:49Z",
         "message": null
       },
       "milestones": [
@@ -2286,9 +2286,9 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/: IncompleteRead(7761 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552: IncompleteRead(7641 bytes read)"
+        "message": "https://aichemy.ac.uk/event/introduction-to-machine-learning-for-chemists-workshop/: IncompleteRead(24129 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14552: IncompleteRead(7641 bytes read)"
       },
       "milestones": [
         {
@@ -2405,7 +2405,7 @@
       "evidence": "",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.carboncapture.eng.ed.ac.uk/ARIC_Course: HTTP Error 404: Not Found"
       },
@@ -2550,7 +2550,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.royalsociety.org/science-events-and-lectures/2027/03/future-of-materials-discovery/: Unresolved after runner-text review: location 'London — The Royal Society' not stated in fetched text; speakers Alex Ganose, Vitaliy Kurlin, Jun Jiang not named in fetched text (their slots show talk titles only)"
       },
@@ -2723,7 +2723,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://spring2027.camml.ac.uk/about/: Unresolved after runner-text review: accommodation nights: PSDI 4 vs about 5; acceptance notification: PSDI 2026-12-17 vs about 2026-12-19 (no reminder)"
       },
@@ -2963,12 +2963,12 @@
       ],
       "url": "https://www.rsc.org/events/find-an-event/characterisation-of-catalysts",
       "priority": 2,
-      "verified_on": "2026-11-26",
+      "verified_on": "2026-11-27",
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
-        "last_verified_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
+        "last_verified_at": "2026-11-27T02:10:49Z",
         "message": null
       },
       "milestones": [
@@ -3107,9 +3107,9 @@
       "evidence": "review_method=browser：官方浏览器正文新增Speakers区块，逐名核对Heather J. Kulik、Nong Artrith、Rocio Mercado、Nick Warren、Maarten Romain Dobbelaere、Linden Schrecker；页面未附机构或keynote身份，均仅记Announced speaker不猜机构。14–15 April 2027、City & Guilds Building/Imperial College London未改；注册、海报call仍opening soon，截止/钟点/时区未公布。公开API仍连接中断，正文核实不等于日常恢复，不改hash。",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-12T20:16:34.377415+00:00",
-        "message": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: IncompleteRead(15940 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522: IncompleteRead(8192 bytes read)"
+        "message": "https://aichemy.ac.uk/event/aichemy-annual-conference-2027/: IncompleteRead(7761 bytes read) | https://aichemy.ac.uk/wp-json/wp/v2/tribe_events/14522: IncompleteRead(8192 bytes read)"
       },
       "milestones": [
         {
@@ -3268,7 +3268,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:32:06+00:00",
         "message": null
       },
@@ -3385,7 +3385,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://advancedmaterialsshow.com/full-conference/: Unresolved after runner-text review: start/end 2027-06-16/17 not present in fetched full-conference text; location NEC Birmingham not present in fetched full-conference text"
       },
@@ -3478,7 +3478,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -3641,7 +3641,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -3874,7 +3874,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T14:55:25Z",
         "message": "https://www.rsc.org/events/find-an-event/digital-chemistry-discovery-faraday-discussion: Unresolved after runner-text review: oral abstract deadline (conflict 2026-12-14 vs 2027-03-14 on the same official page)"
       },
@@ -4119,7 +4119,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.chalmers.se/en/current/calendar/joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems-function-synthesis-characterization-and-modeling/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -4278,7 +4278,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -4423,7 +4423,7 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://ai4science-amsterdam.github.io/news/chemai/: Official source returned no readable page content."
       },
@@ -4598,7 +4598,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://sapem2026.matelys.com/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -4842,10 +4842,10 @@
       "verified_on": "2026-11-03",
       "evidence": "",
       "check": {
-        "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "status": "unverifiable",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://spaininterpore.webs.upv.es/vii-annual-meeting-meet-the-speakers/: Official content changed; recognised fields may be updated, but the remaining content requires review."
+        "message": "https://spaininterpore.webs.upv.es/vii-annual-meeting-registration-open/: <urlopen error timed out> | https://spaininterpore.webs.upv.es/vii-annual-meeting-meet-the-speakers/: <urlopen error timed out>"
       },
       "milestones": [
         {
@@ -4978,7 +4978,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -5243,7 +5243,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -5350,7 +5350,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
         "message": null
       },
@@ -5526,7 +5526,7 @@
       "evidence": "ESI and University of Innsbruck pages confirm dates and venue; the GDR MePhy organiser announcement gives the 15 July abstract deadline and no conference fee.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -5754,7 +5754,7 @@
       "evidence": "2026-11-05 reviewed against runner source-text from GitHub run 41990590073; changed prose requires an Abstracts submission but dates, venue, organizers and speaker roster are unchanged.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-15T00:01:48.589020+00:00",
         "message": null
       },
@@ -5973,7 +5973,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -6142,7 +6142,7 @@
       "evidence": "ICTP gives 13–15 January 2027, deadline 11/10/2026 and no registration fee. The European date format is interpreted as 11 October.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -6336,7 +6336,7 @@
       "evidence": "与11月10日运行器逐行比对：Dr Wide (to be confirmed)现为Dr. Wide Hogenhout，10:10–10:35 Introductory lecture I，与已确认名单一致，解除确认状态冲突。Andrés Diaz Lantada节目机构增加Mechanical Engineering Department与IMDEA Materials Institute。初步节目改为09:00签到、10:00开场、16:10–16:30总结；保留programme_clock_note，无明示时区，不造精确提醒。14 January 2027、地点、免费注册开放不变，无注册截止。",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -6550,7 +6550,7 @@
       "evidence": "The CECAM text explicitly gives 16 October 2026 as the application deadline; Psi-k confirms 25–27 January.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://psi-k.net/workshops/: Unresolved after runner-text review: dates and location (Psi-k list not present in current capture; re-fetch needed)"
       },
@@ -6652,7 +6652,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -6762,7 +6762,7 @@
       "evidence": "The DECHEMA organiser page gives 3–5 March, the 27 November deadline and porous-materials theory/adsorption topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-18T09:04:02.624150+00:00",
         "message": "https://dechema.de/en/dzt38.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -6911,7 +6911,7 @@
       "evidence": "CECAM and Psi-k both list 8–12 March; the activity page confirms venue and topics.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://psi-k.net/workshops/: Unresolved after runner-text review: psi-k listing content unavailable (runner text only 'Psi-k Network'); dates 8-12 March 2027 and Lausanne not re-confirmed from this source"
       },
@@ -7015,7 +7015,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -7133,7 +7133,7 @@
       "evidence": "CECAM and the FLUXIONIC organising research network both confirm dates and venue.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -7253,7 +7253,7 @@
       "evidence": "2026-11-05 reviewed official runner text from GitHub run 41990590073; terminology changed from MATERIALS to MATERIAIS only, while dates and deadline cards remain verified.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-05T09:17:36+00:00",
         "message": null
       },
@@ -7420,7 +7420,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -7585,7 +7585,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -7750,7 +7750,7 @@
           },
           {
             "name": "Matteo Fasano",
-            "role": "Confirmed speaker",
+            "role": "Confirmed speaker (Session 1 speaker)",
             "affiliation": "Politecnico di Torino (IT)",
             "source": "https://emmc.eu/events/emmc2027/"
           },
@@ -7768,13 +7768,19 @@
           },
           {
             "name": "Janine George",
-            "role": "Confirmed speaker",
+            "role": "Confirmed speaker (Session 1 speaker)",
             "affiliation": "BAM (DE)",
             "source": "https://emmc.eu/events/emmc2027/"
           },
           {
+            "name": "Gerhard Goldbeck",
+            "role": "Session 4 chair (Infrastructure in transition)",
+            "affiliation": "EMMC (BE)",
+            "source": "https://emmc.eu/events/emmc2027/"
+          },
+          {
             "name": "Felix Hanke",
-            "role": "Confirmed speaker",
+            "role": "Confirmed speaker (Session 3 plenary: \"Scaling AI-Driven Materials Discovery\")",
             "affiliation": "CUSPAI (UK)",
             "source": "https://emmc.eu/events/emmc2027/"
           },
@@ -7804,9 +7810,9 @@
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-25",
+        "checked_on": "2026-11-27",
         "status": "published",
-        "note": "Organising committee and selected scientific committee members; the full committee is available at the source. The main event page lists 12 confirmed speakers.",
+        "note": "Organising committee and selected scientific committee members; the full committee is available at the source. The main event page lists 12 confirmed speakers plus session chairs; session assignments are taken from the published programme.",
         "sources": [
           "https://emmc.eu/events/emmc2027/",
           "https://emmc.eu/events/emmc2027/committees/"
@@ -7841,7 +7847,7 @@
       "evidence": "Official Welcome and Key dates pages give 9–12 May, 15 November oral abstracts and 31 March late posters.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.esat2027.com/speakers/: Unresolved after runner-text review: Florence Vermeire affiliation: heading University of South Carolina vs biography KU Leuven"
       },
@@ -8066,7 +8072,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -8221,7 +8227,7 @@
       "evidence": "The workshop website gives the 1 December abstract deadline; DECHEMA confirms 23–26 May and Garmisch-Partenkirchen.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-18T09:04:02.624150+00:00",
         "message": "https://cpm-workshop.org/: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://dechema.de/en/cpm10.html: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://cpm-workshop.org/cfp.html: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -8348,7 +8354,7 @@
       "evidence": "The official Important Dates table lists both submission rounds, 21 April early registration and 9 May standard/presenting-author registration. Submission deadlines explicitly use 23:59 AoE.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -8603,10 +8609,16 @@
             "role": "Invited speaker",
             "source": "https://ai4x.cc/2027/speakers/",
             "affiliation": "Jožef Stefan Institute, Ljubljana"
+          },
+          {
+            "name": "Michele Parrinello",
+            "role": "Invited speaker",
+            "affiliation": "Italian Institute of Technology; ETH Zurich; Università della Svizzera italiana (USI)",
+            "source": "https://ai4x.cc/2027/speakers/"
           }
         ],
         "participants": [],
-        "checked_on": "2026-11-25",
+        "checked_on": "2026-11-27",
         "status": "published",
         "note": "Selected conference leadership and confirmed 2027 speakers; the full scientific/logistics committees and speaker roster are linked at the sources. Speaker tiers are not inferred from display order.",
         "sources": [
@@ -8642,7 +8654,7 @@
       "evidence": "与已复核11月14日附件逐行比对，仅新增Industry区块Cymat Technologies（Featured company，非主办方）及Speakers：Thomas Hipke/Fraunhofer IWU/Germany、Olaf Andersen/Fraunhofer IFAM/Germany、Hui Wang/University of Science and Technology Beijing/China，Presentation details to follow。登记三位featured speaker，不将顾问/大使身份等同到场。会议14–17 June 2027、摘要30 November 2026、早鸟31 January/标准31 May 2027及其他人员机构未改，无截止钟点时区。",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-16T20:32:07.676536+00:00",
         "message": null
       },
@@ -8925,7 +8937,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-08T09:10:03.998791+00:00",
         "message": null
       },
@@ -9027,9 +9039,9 @@
       "evidence": "Browser review 18 November 2026: homepage still says registration open while dedicated registration and abstracts pages say SOON available. Dates remain 1 February, 5 April and 3 July 2027; no cutoff time or timezone verified. Runner returned no readable content; content review does not establish automatic-fetch recovery.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-05T07:56:44Z",
-        "message": "https://euromof2027.com/: Unresolved after runner-text review: registration/submission platform availability: homepage 'Registration is now open' vs registration page 'Registration SOON available' | https://euromof2027.com/abstracts/: Unresolved after runner-text review: abstract submission platform availability: 'Abstract submission SOON available' heading vs 'SUBMIT HERE' portal link | https://euromof2027.com/registration/: Unresolved after runner-text review: registration platform availability: registration page 'Registration SOON available' vs homepage 'Registration is now open'"
+        "message": "https://euromof2027.com/: Unresolved after runner-text review: registration/submission platform availability: homepage 'Registration is now open' vs registration page 'Registration SOON available' | https://euromof2027.com/abstracts/: Unresolved after runner-text review: abstract submission platform availability: 'Abstract submission SOON available' heading vs 'SUBMIT HERE' portal link; Submission platform status is no longer recognised; verify it before changing the status. | https://euromof2027.com/registration/: Unresolved after runner-text review: registration platform availability: registration page 'Registration SOON available' vs homepage 'Registration is now open'"
       },
       "milestones": [
         {
@@ -9304,7 +9316,7 @@
       "evidence": "CECAM gives 6–8 July, 1 June registration and the meeting topics.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -9402,7 +9414,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.elsevier.com/en-in/events/conferences/all/materials-today-conference/committee-and-speakers: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -9652,7 +9664,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -9819,7 +9831,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -9969,7 +9981,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -10096,7 +10108,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -10208,7 +10220,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -10485,7 +10497,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://dgm.de/aimse/2027/submission/abstract-submission: Unresolved after runner-text review: aimse2027:early-registration 2027-06-30 not present in fetched text; aimse2027:standard-registration 2027-10-17 not present in fetched text; aimse2027:final-files 2027-11-15 not present in fetched text; submission-open-since 28 Oct 2026 (status text) not present in fetched text"
       },
@@ -10671,7 +10683,7 @@
       "evidence": "CECAM gives 23–25 November, registration opening on 1 April, Lausanne and the organisers.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -10789,7 +10801,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -10922,7 +10934,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -11022,7 +11034,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.scientificupdate.com/training/applications-of-artificial-intelligence-to-process-chemistry/2-november-2026/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -11120,7 +11132,7 @@
       "evidence": "The homepage gives the meeting dates and extension to 28 October; symposium pages list AI/ML and MD themes.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.mmm12.org/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -11308,7 +11320,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-12T08:22:37Z",
         "message": "https://www.rsc.org/events/find-an-event/rsc-first-2026-ai-in-chemistry: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://www.rscfirst.org.cn/en/web/index/36624_3190136: Official content changed; recognised fields may be updated, but the remaining content requires review. | https://rscfirst.org.cn/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -11507,7 +11519,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -11722,7 +11734,7 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.mrs.org/meetings-events/annual-meetings: Unresolved after runner-text review: early-registration 2026-10-29 23:59 ET no longer stated on this page (past date; kept unchanged, not re-verified)"
       },
@@ -11879,7 +11891,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -12144,9 +12156,9 @@
       "evidence": "",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
-        "message": "https://sites.google.com/view/ai4mat/schedule: Unresolved after runner-text review: workshop date 2026-12-12 / Sydney not present in fetched schedule text (JS-rendered page)"
+        "message": "https://sites.google.com/view/ai4mat/schedule: Unresolved after runner-text review: workshop date 2026-12-12 / Sydney not present in fetched schedule text (JS-rendered page); The authoritative AI4Mat schedule sentence is missing or ambiguous."
       },
       "milestones": [
         {
@@ -12309,7 +12321,7 @@
       "evidence": "The CECAM programme index gives dates and CECAM-BJ; no city or building is inferred.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -12438,7 +12450,7 @@
       "evidence": "The site gives 17–20 January overall, distinguishing 17 January arrivals from the 18–20 January conference. Important Dates lists Recent Reports on 30 November.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
         "message": null
       },
@@ -12671,7 +12683,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -12822,7 +12834,7 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Frequently_Asked_Questions.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Programming/TMS2027_Technical_Program.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/Attendee-Toolbox/Organizer-Tools.aspx: HTTP Error 403: Forbidden | https://www.tms.org/TMS2027/TMS2027/RegTravel/registration.aspx: HTTP Error 403: Forbidden"
       },
@@ -13086,7 +13098,7 @@
       "evidence": "ICTS confirms the dates, themes and 25 November deadline; its application form gives 9 December for recommendation letters.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -13216,7 +13228,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -13338,7 +13350,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -13457,7 +13469,7 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.siam.org/conferences-events/siam-conferences/ms27/: HTTP Error 403: Forbidden | https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/: HTTP Error 403: Forbidden"
       },
@@ -13675,7 +13687,7 @@
       "evidence": "Official calls confirm Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 2 November explicitly extends proposals to 6 November 2026 at 22:59 CET (21:59 UTC), superseding the 30 October deadline. Other existing deadlines are retained.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -13846,7 +13858,7 @@
       "evidence": "Important Dates and Industry pages give 11 January; the platform homepage/submission gives 12 January. MS15 includes ML surrogates, materials design and multiscale methods.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://event.fourwaves.com/interpore2027: Unresolved after runner-text review: abstract deadline: platform 'January 12, 2027 - 4:00 AM -03' vs Important Dates 'Monday, 11 January 2027'; no official extension or correction notice | https://event.fourwaves.com/interpore2027/pages/c1c7480d-d48d-455f-a834-00e508ce196a: Unresolved after runner-text review: abstract deadline: Important Dates 'Monday, 11 January 2027' vs platform 'January 12, 2027 - 4:00 AM -03'; still unresolved | https://api.fourwaves.com/api/events/interpore2027: Runner index contains the JSON fingerprint but no body file; raw runner JSON unavailable for semantic review. | https://event.fourwaves.com/interpore2027/submission: Official source returned no readable page content."
       },
@@ -14303,7 +14315,7 @@
       "evidence": "Important Dates gives 30 November abstracts and 31 March early registration; Topics lists Simulation & machine learning.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-04T09:03:33+00:00",
         "message": null
       },
@@ -14506,7 +14518,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -14605,7 +14617,7 @@
       "evidence": "The official homepage lists the 1 December 2026 abstract deadline and 30 April 2027 discount-registration deadline.",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/default.aspx: HTTP Error 403: Forbidden | https://www.tms.org/SpecialtyCongress2027/SpecialtyCongress2027/AEMS2027/AEMS2027--Technical-Topics.aspx: HTTP Error 403: Forbidden"
       },
@@ -14777,7 +14789,7 @@
       "evidence": "The official search index gives 15–18 June and University of Utah and says full registration details will follow. Direct access may trigger JavaScript verification.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -14907,7 +14919,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -15038,7 +15050,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -15148,7 +15160,7 @@
       "evidence": "The official Important Dates page lists the dates; the CACHE announcement dated 20 October 2026 confirms abstracts are open and includes AI/ML.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -15362,8 +15374,8 @@
       "region": "Other",
       "type": "Conference",
       "deadline": "Abstracts: 15 December 2026 at 23:59 JST, equivalent to 14:59 GMT that day. Early registration: 7 May 2027; registration: 7 June 2027.",
-      "status": "Abstract submissions opened on 1 October 2026. Submission system temporarily unavailable daily 22:00–07:00 JST (13:00–22:00 GMT), effective 14 November 2026 until further notice. Abstract deadline remains 15 December 2026 at 23:59 JST.",
-      "note": "Official topics explicitly combine Machine Learning (AI), Computational Simulation, PCP/MOF and Adsorption and Diffusion, making this a strong AI–MOF–simulation fit. Official temporary daily submission downtime is separate from the submission deadline; submit outside the unavailable hours. No deadline extension is announced.",
+      "status": "Abstract submissions opened on 1 October 2026. The temporary daily submission-system downtime notice (from 14 November 2026) has been removed from the official pages. Abstract deadline remains 15 December 2026 at 23:59 JST.",
+      "note": "Official topics explicitly combine Machine Learning (AI), Computational Simulation, PCP/MOF and Adsorption and Diffusion, making this a strong AI–MOF–simulation fit. No deadline extension is announced.",
       "sources": [
         "https://zmpc.org/",
         "https://zmpc.org/dates/",
@@ -15374,10 +15386,10 @@
       "url": "https://zmpc.org/",
       "priority": 1,
       "verified_on": "2026-11-18",
-      "evidence": "与11月16日完成复核正文逐行差异：首页公告日期11.16改11.17；CFP原文每日不可用改为“22:00 to 07:00 (JST) / 13:00 to 22:00 (GMT)”，effective November 14 until further notice。原20:00起改22:00起，仍次日07:00结束；系统暂停与投稿截止分别保存。December 15, 2026 (23:59, JST)、25–29 July 2027及地点不变，无延期公告，既有人员角色机构无差异，通知不建提醒。",
+      "evidence": "2026-11-27 runner-text review (run 45926640538): the home-page notice \"Temporary Suspension of Submission System\" and the Call for Abstracts downtime notice were removed; \"Deadline for Abstract Submission : December 15 (Tue.), 2026 (23:59, JST)\" and acceptance notice \"by February 15, 2027\" unchanged; dates 25–29 July 2027 and venue unchanged.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-18T08:02:42.557494+00:00",
         "message": null
       },
@@ -15641,7 +15653,7 @@
       "evidence": "Application Information gives the 3 July attendance deadline and 25 April speaker-abstract deadline separately.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.grc.org/nanoporous-materials-and-their-applications-grs-conference/2027/: Unresolved after runner-text review: seminar co-chair names (Hafsa Abdul Ghuffar, Haley Wellman) not present in text; image-only on the page"
       },
@@ -15770,7 +15782,7 @@
       "evidence": "Application Information lists 4 July; the description explicitly includes MOF/COF and experimental/computational work.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://www.grc.org/nanoporous-materials-and-their-applications-conference/2027/: Unresolved after runner-text review: chair/vice-chair names (Fan, Farha, Snurr, Chen) not present in text (image-only)"
       },
@@ -15880,7 +15892,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -16050,7 +16062,7 @@
       "evidence": "The organiser research-group search index confirms 26–29 September in Newcastle and AMMA organisation.",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://uon-comp-chem.github.io/mm2027/: Official source returned no readable page content."
       },
@@ -16220,7 +16232,7 @@
       "evidence": "The WATOC association and congress sites both confirm 9–14 January in Mérida and Young WATOC on 8 January.",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://watoc2028.org/: Official source returned no readable page content."
       },
@@ -16359,7 +16371,7 @@
       "evidence": "The homepage confirms 28 May–2 June 2028; the registration page explicitly labels abstract/early-registration dates provisional.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -16962,7 +16974,7 @@
       "evidence": "The official Forthcoming list states MOF2028 Seoul, Korea, Main Event 28–31 May.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -17064,7 +17076,7 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.aiche.org/conferences/international-zeolite-conference/2028/about-conference-organization: HTTP Error 403: Forbidden | https://www.aiche.org/conferences/international-zeolite-conference/2028/program-committee: HTTP Error 403: Forbidden"
       },
@@ -17264,7 +17276,7 @@
       "evidence": "Official page: “The abstract submission deadline has passed”; “Submissions remain open for poster presenters” on a “rolling basis”. Notification of acceptance: 23 November 2026; early bird: 30 November 2026.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -17481,7 +17493,7 @@
       "evidence": "The official DGM page confirms 17–18 November 2027 in Aalen and online and lists the AI-for-materials research themes.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -17644,7 +17656,7 @@
       "evidence": "The official FDA page confirms 12–14 April 2027 at FDA White Oak and online, the computational chemistry/AI content and the attendance restriction.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -17819,7 +17831,7 @@
       "evidence": "The official workshop page confirms 1 December 2026 in Glasgow, the ACM MUM affiliation and all published paper dates.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -17976,7 +17988,7 @@
       "evidence": "Official homepage on 20 November: “Sandpit applications are now open! Apply by 11 December 2026, 16:00”. Static call confirms 21–22 January 2027 Sheffield; full-call v1.2 timeline labels times UK local time. Historical opening date remains conflicting (19 vs 20 November).",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-28T12:00:00Z",
         "message": "https://multimodalai.github.io/omaib-r3/: Unresolved after runner-text review: historical application opening date: full-call timeline 19 November vs call and instructions 20 November | https://docs.google.com/document/d/1fVzXvcdsbOGKJTW2_8a00Rnp5tfaisoAkC86C8XqmyA/edit?usp=sharing: application opening: full-call v1.2 timeline 19 November vs its instructions/FAQ and static call 20 November"
       },
@@ -18083,7 +18095,7 @@
       "evidence": "Manually checked the organiser’s image-only conference poster: 14–15 October 2026 at Miranda House; registration 30 September and abstracts 5 October. The PDF has no extractable text.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-29T11:34:41Z",
         "message": null
       },
@@ -18213,7 +18225,7 @@
       "evidence": "The organiser’s conference, track and Important Dates pages confirm 18–20 March 2027 at Village Hotel Changi plus online participation, three abstract rounds and Singapore-time cutoffs.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -18429,7 +18441,7 @@
       "evidence": "The organiser confirms 26–28 April 2027 in Athens. The abstract page gives a first-round deadline of 31 December 2026. The venue page says the exact location will be updated.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -18558,7 +18570,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": "https://moansi2026.pages.math.cnrs.fr/: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -18683,7 +18695,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-04T09:03:33+00:00",
         "message": null
       },
@@ -18776,7 +18788,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": "https://www.brunel.ac.uk/news-and-events/events/2026/Advances-in-Computational-Approaches-to-Antimicrobial-Resistance: Official content changed; recognised fields may be updated, but the remaining content requires review."
       },
@@ -18897,7 +18909,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -19040,7 +19052,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -19135,7 +19147,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": "https://www.bmss.org.uk/biomacromolecular-structure-sig-meeting-2027/: Unresolved after runner-text review: registration deadline (conflict 2027-01-12 vs 2027-01-15) | https://www.bmss.org.uk/meeting-booking/biomacromolecular-structure-training-event-2027-day-1/: Unresolved after runner-text review: registration deadline (conflict 2027-01-12 vs 2027-01-15)"
       },
@@ -19289,7 +19301,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -19463,7 +19475,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -19574,7 +19586,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": null
       },
@@ -19668,7 +19680,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": null
       },
@@ -19793,7 +19805,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -19913,7 +19925,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -20030,7 +20042,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -20184,7 +20196,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -20350,12 +20362,12 @@
       ],
       "url": "https://istcp2027.ar/",
       "priority": 1,
-      "verified_on": "2026-11-26",
+      "verified_on": "2026-11-27",
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
-        "last_verified_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
+        "last_verified_at": "2026-11-27T02:10:49Z",
         "message": null
       },
       "milestones": [
@@ -20488,7 +20500,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -20625,7 +20637,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": null
       },
@@ -20717,7 +20729,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": null
       },
@@ -20811,7 +20823,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -20953,7 +20965,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -21143,12 +21155,12 @@
       ],
       "url": "https://www.rsc.org/events/find-an-event/understanding-molecular-catalysis-through-computation-and-experiment-faraday-discussion",
       "priority": 1,
-      "verified_on": "2026-11-26",
+      "verified_on": "2026-11-27",
       "evidence": "The official RSC page, read through the web reader, confirms 21–23 June 2027 and the five listed deadline dates. Direct HTTP retrieval returned 403; source monitoring remains unverifiable.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
-        "last_verified_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
+        "last_verified_at": "2026-11-27T02:10:49Z",
         "message": null
       },
       "milestones": [
@@ -21301,12 +21313,12 @@
       ],
       "url": "https://www.chem.iitb.ac.in/ibs2027/",
       "priority": 2,
-      "verified_on": "2026-11-26",
+      "verified_on": "2026-11-27",
       "evidence": "11月14日至本轮运行器正文逐行一致，但旧复核无review_run，完整核对建立可追溯基准：首页20–22 January 2027、VMCC IIT Bombay Mumbai、early bird15 December 2026、late registration30 December 2026，未公布截止钟点/时区。Indian Biophysical Society为组织方，IIT Bombay为host；首页明确邀请讲者Senthil Arumugam/Monash、Roland Beckman/LMU Munich、Ruben L. Gonzalez Jr./Columbia、Sandip Kar/IIT Bombay，按原文登记；45人总数不等于已核实全名单。Programme含18–19 January预会workshop，不改主会日期；abstract submission details/session timings仍待公布，未知截止继续unknown，不阻碍本页已核实字段结案。 11月20日对照11月16日附件仅总讲者数44改45，具名轮播与机构不变。",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
-        "last_verified_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
+        "last_verified_at": "2026-11-27T02:10:49Z",
         "message": null
       },
       "milestones": [
@@ -21477,7 +21489,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -21612,7 +21624,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": null
       },
@@ -21713,7 +21725,7 @@
       "evidence": "The official BPS calendar confirms 20–24 February 2027 in Philadelphia; the annual-meeting page describes its MD workshop and names the programme chairs.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -21825,7 +21837,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -21911,7 +21923,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -22001,7 +22013,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -22105,7 +22117,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -22196,7 +22208,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -22300,7 +22312,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -22390,7 +22402,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -22495,7 +22507,7 @@
       "evidence": "Official announcement confirms the dates, venue and stated research scope. Deadlines are transcribed only where published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-02T17:49:53Z",
         "message": null
       },
@@ -22632,7 +22644,7 @@
       "evidence": "CECAM MolSim 2027 detail page, checked in a browser on 3 November 2026: 4–15 January 2027; registration/application deadline 30 October 2026. The published cutoff has passed.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:15:05Z",
         "message": null
       },
@@ -22753,7 +22765,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-12T20:01:55.301143+00:00",
         "message": "https://www.date-conference.com/call-for-papers: Unresolved after runner-text review: exact cutoff seconds: dated rows '23:59:59 GMT -12' vs footer 'AoE (23:59:00 GMT -12)'; dates and AoE zone confirmed"
       },
@@ -22930,7 +22942,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": null
       },
@@ -23052,7 +23064,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://www.icfmce.org/Chinese.html: Unresolved after runner-text review: registration deadline: important-dates 2027-07-11 vs regular-fee window through 2027-09-23"
       },
@@ -23200,7 +23212,7 @@
       "evidence": "Official registration page checked on 5 November 2026 via browser: “Online Registration is Closed”; onsite registration opens 7 November at 12:00 PM (CST), Minneapolis. The rate table says late/last-minute registration ends 4 November. Runner transport remains 403.",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": "https://www.aiche.org/conferences/aiche-annual-meeting/2026/2026-registration-info: HTTP Error 403: Forbidden"
       },
@@ -23317,7 +23329,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html: Unresolved after runner-text review: submission video deadline: header 'November 17, 2026' vs dates section 'Monday, November 16, 2026' (stored 2026-11-16; both past)"
       },
@@ -23471,7 +23483,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": null
       },
@@ -23591,7 +23603,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -23726,7 +23738,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": null
       },
@@ -23876,7 +23888,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -23986,7 +23998,7 @@
       "evidence": "与11月12日运行器逐行比对，当前收费卡由Mid Term Registration变Final Registration，speaker/poster €899、delegate €999、student €699、online €499；Standard Registration Deadline由November25改October25，均为2026，无解释，不猜为延期/取消最终注册。保留两次官方日期审计、final cutoff维持unknown。会议8–10 March2027、摘要30November、早鸟25June未改，无钟点时区。Boris当前位于Keynote Speakers（University of Florida, USA），修正旧Plenary身份；其余角色机构本轮与11月14日正文一致，未独立确认主办方机构任职。",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -24128,9 +24140,9 @@
       "location": "Tokyo, Japan",
       "region": "Other",
       "type": "Conference",
-      "deadline": "Published early-bird registration deadline: 2026-11-24",
-      "status": "Upcoming; conference dates announced. Submission and registration availability are not confirmed.",
-      "note": "Commercial AI and machine learning conference. The registration page marks future rounds Expired/Not Active, so platform availability remains unconfirmed. This does not establish cancellation of the meeting. The final abstract cutoff, venue and roster were not independently verified.",
+      "deadline": "Published early-bird registration deadline: 2026-11-28 (moved from 24 November). Next registration round listed as 1 January 2027 and spot registration as 17 May 2027.",
+      "status": "Upcoming; conference dates announced. The early-bird registration round is shown as active until 28 November 2026; later rounds are marked Expired/Not Active (not yet open). Submission availability is not confirmed.",
+      "note": "Commercial AI and machine learning conference. The registration page shows the early-bird round as active and marks later rounds Expired/Not Active, i.e. not yet open. The final abstract cutoff, venue and roster were not independently verified.",
       "sources": [
         "https://cognitionconferences.com/artificialintelligence/",
         "https://cognitionconferences.com/artificialintelligence/registration/"
@@ -24141,7 +24153,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -24174,16 +24186,16 @@
         },
         {
           "id": "ai-ml-2027-cognition:early-registration-2",
-          "version": 1,
+          "version": 2,
           "kind": "early_registration",
           "label": "Published early-bird registration deadline",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "time": null,
           "timezone": null,
           "source": "https://cognitionconferences.com/artificialintelligence/registration/",
           "precision": "date",
           "status": "verified",
-          "evidence": "Official page reviewed on 3 November 2026 publishes this calendar date; no cutoff time or time zone was verified."
+          "evidence": "Official registration page (runner text, run 45926640538): \"Early Bird Registration Round November 28th, 2026\", shown without the \"Expired/Not Active\" label. No time or time zone published."
         },
         {
           "id": "ai-ml-2027-cognition:abstract",
@@ -24263,7 +24275,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://www.srcmeetings.com/upcoming-conferences/materials-science-2027-advanced-materials-nanotechnology-structural-composites: Unresolved after runner-text review: final/on-site registration deadline: Important Dates 'Final Registration 20 September 2027' vs fee table 'Spot: 15 Sep 2027' (stored 2027-09-15)"
       },
@@ -24411,7 +24423,7 @@
       "evidence": "2026-11-05 reviewed both changed official runner pages from GitHub run 41990590073; current dates and deadline cards match stored milestones, with no time zones or new speakers published. The First Round Submission and Early Bird Registration rows explicitly say “Open now”; later stages say “Upcoming”.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -24584,7 +24596,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T09:14:25Z",
         "message": null
       },
@@ -24703,7 +24715,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://materialscienceconferences.com/: Official source returned no readable page content."
       },
@@ -24857,7 +24869,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://attend.ieee.org/ssci-2027/submissions/call-for-papers/: Unresolved after runner-text review: main paper deadline: homepage extension 2026-09-10 vs current CFP 2026-08-10; camera-ready deadline: homepage 2026-11-24 (previously 2026-11-17) vs CFP 2026-11-10 | https://attend.ieee.org/ssci-2027/: Unresolved after runner-text review: main paper deadline: homepage 10 Aug / 10 Sep 2026 vs CFP 10 Aug 2026; camera-ready: homepage 10 Nov / 24 Nov 2026 vs CFP 10 Nov 2026"
       },
@@ -25003,7 +25015,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "failed",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
         "message": "https://www.aiasplus.org/call-for-papers: HTTP Error 404: Not Found | https://www.aiasplus.org/event-registration: HTTP Error 404: Not Found | https://www.aiasplus.org/call-for-workshops: HTTP Error 404: Not Found"
       },
@@ -25111,7 +25123,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -25220,7 +25232,7 @@
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -25341,10 +25353,10 @@
       "verified_on": "2026-11-03",
       "evidence": "Current-edition official evidence reviewed on 3 November 2026. Applied following the user-approved candidate review; retained uncertainties are described above.",
       "check": {
-        "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "status": "checked",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T00:39:14Z",
-        "message": "https://materialsscience.conferenceseries.com/events-list/computational-materials-science-and-ai: The read operation timed out | https://materialsscience.conferenceseries.com/: The read operation timed out"
+        "message": null
       },
       "milestones": [
         {
@@ -25452,7 +25464,7 @@
       "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -25601,7 +25613,7 @@
       "evidence": "2026-11-05 runner snapshots compared line by line; only random marketing widgets changed. Precise noise rules and tests added; hashes migrated exclusively from runner text (see fingerprint-migration-2026-11-05.json).",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -25750,7 +25762,7 @@
       "evidence": "Official homepage reviewed on 3 November 2026: Expo 31 July; tutorials 1 August; main conference 2–4 August; workshops 5–6 August.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -25945,7 +25957,7 @@
       "evidence": "Live official CECAM page (rendered header), reviewed 3 November 2026: March 8, 2027 - March 12, 2027; Registration deadline: February 5, 2027. No clock times or time zones are published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": null,
         "message": null
       },
@@ -26049,7 +26061,7 @@
       "evidence": "Live official CECAM page (rendered header), reviewed 3 November 2026: April 12, 2027 - April 16, 2027; “The registration will open toward the end of 2026.” No clock times are published.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": null,
         "message": null
       },
@@ -26134,7 +26146,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -26211,7 +26223,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -26305,7 +26317,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -26403,7 +26415,7 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": null,
         "message": "https://ceramics.org/event/acers-spring-meeting-2027/symposium-23-ai-ml-for-materials-discovery-and-intelligent-manufacturing/: HTTP Error 403: Forbidden | https://ceramics.org/wp-content/uploads/2026/08/SpringMeeting27-CFP-2.pdf: HTTP Error 403: Forbidden"
       },
@@ -26540,7 +26552,7 @@
       "evidence": "Official live page: “PLEASE NOTE THIS EVENT IS SCHEDULED FOR 2027 not 2026”; “23.08.2027 - 03.09.2027”; “Wien, Austria”.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-09T09:05:11.846361+00:00",
         "message": null
       },
@@ -26647,7 +26659,7 @@
       "evidence": "Official site: “May 5–8, 2027”; “Le Royal Hammamet”, Hammamet, Tunisia. “Abstract Submission Deadline: December 15, 2026”; “Early Bird Registration Deadline: February 28, 2027”.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-23T22:30:00Z",
         "message": null
       },
@@ -26785,7 +26797,7 @@
       "evidence": "Official site: “2–3 September 2027”; “Prague, Czech Republic”; “University of Chemistry and Technology Prague”. “Registration Opens Soon”.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-23T22:30:00Z",
         "message": null
       },
@@ -26884,12 +26896,12 @@
       ],
       "url": "https://www.mpinat.mpg.de/workshop/huenfeld",
       "priority": 2,
-      "verified_on": "2026-11-26",
+      "verified_on": "2026-11-27",
       "evidence": "MPI-NAT workshop page: “Hünfeld 2027: Workshop on Computer Simulation and Theory of Macromolecules”, “March 19-20, 2027”, “the meeting will be held in the Hünfeld Monastery”. Indico: “19–20 Mar 2027”, “Bonifatiuskloster Hünfeld”, “All times are in Europe/Berlin”. MPI-NAT workshop page: “Registration for the Hünfeld Workshop 2027 is now open!” and “Please register now - Deadline: January 10, 2027”. No clock time or time zone is given.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
-        "last_verified_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
+        "last_verified_at": "2026-11-27T02:10:49Z",
         "message": null
       },
       "milestones": [
@@ -27017,7 +27029,7 @@
       "evidence": "Official workshop page: “MLPfits 2027”, “Machine Learning Potentials: from interfaces to solution”, “A 5-Day Hands-on Tutorial Workshop”, “February 15-19, 2027 (start: Monday February 15, 8:30 a.m., end: Friday February 19, noon)”, “Ruhr-Universität Bochum, Germany (onsite only)”. “The deadline for registration is 10th December 2026.” “The workshop is free of charge, but participants need to cover their travel and accommodation expenses on their own.”",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T02:45:00Z",
         "message": null
       },
@@ -27195,6 +27207,371 @@
           "https://www.britishzeolite.org/annual-meeting-2027"
         ]
       }
+    },
+    {
+      "id": "hkust-ias-cof-design-applications-2027",
+      "name": "IAS Focused Program on Covalent Organic Frameworks Design and Applications (HKUST, 2027)",
+      "tags": [
+        "COF",
+        "Porous Materials",
+        "Adsorption"
+      ],
+      "start": "2027-01-11",
+      "end": "2027-01-15",
+      "date": "2027-01-11 — 2027-01-15",
+      "location": "Hong Kong, China — HKUST Jockey Club Institute for Advanced Study, Lo Ka Chung Building, Clear Water Bay",
+      "region": "Other",
+      "type": "Workshop / Discussion",
+      "deadline": "Poster abstracts (and invited speakers/organisers) via the registration form: 30 November 2026; general participants: 27 December 2026. No times or time zone published.",
+      "status": "Registration form open. Poster abstracts are reviewed by the organisers, with confirmations expected by mid-December 2026; accepted general registrants are confirmed around early January 2027. No fee information is published.",
+      "note": "Five-day HKUST IAS focused programme dedicated to covalent organic frameworks: design and modular synthesis, structural characterisation and defects, and applications including gas capture/separation, catalysis and energy. Strong COF fit with a high-profile invited-speaker list (including Bein, Coskun, Feng, Auras and Jiang). Outside the UK/Europe focus.",
+      "sources": [
+        "https://iasprogram.hkust.edu.hk/2027cofda/home.php",
+        "https://iasprogram.hkust.edu.hk/2027cofda/registration.php",
+        "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php",
+        "https://iasprogram.hkust.edu.hk/2027cofda/venue.php"
+      ],
+      "url": "https://iasprogram.hkust.edu.hk/2027cofda/home.php",
+      "priority": 2,
+      "verified_on": "2026-11-27",
+      "evidence": "Official HKUST IAS pages: title \"IAS Focused Program on Covalent Organic Frameworks Design and Applications (Jan 11-15, 2027)\"; registration page (updated 8 October 2026): poster presenters register \"on or before November 30, 2026 (Mon)\", general participants \"on or before December 27, 2026 (Sun)\"; venue page: \"Lo Ka Chung Building, Lee Shau Kee Campus, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong\".",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-27T03:00:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "hkust-ias-cof-design-applications-2027:conference-start",
+          "kind": "conference_start",
+          "label": "Programme starts",
+          "date": "2027-01-11",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://iasprogram.hkust.edu.hk/2027cofda/home.php",
+          "evidence": "Official title: \"(Jan 11-15, 2027)\". No times published."
+        },
+        {
+          "id": "hkust-ias-cof-design-applications-2027:conference-end",
+          "kind": "conference_end",
+          "label": "Programme ends",
+          "date": "2027-01-15",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://iasprogram.hkust.edu.hk/2027cofda/home.php",
+          "evidence": "Official title: \"(Jan 11-15, 2027)\". No times published."
+        },
+        {
+          "id": "hkust-ias-cof-design-applications-2027:poster",
+          "kind": "poster",
+          "label": "Poster abstracts (registration form)",
+          "date": "2026-11-30",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://iasprogram.hkust.edu.hk/2027cofda/registration.php",
+          "evidence": "\"on or before November 30, 2026 (Mon)\" for invited speakers/organizers and intended poster presenters; \"accepted ones will receive a confirmation by mid of December 2026\". No time or time zone published."
+        },
+        {
+          "id": "hkust-ias-cof-design-applications-2027:registration",
+          "kind": "registration",
+          "label": "General participant registration",
+          "date": "2026-12-27",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://iasprogram.hkust.edu.hk/2027cofda/registration.php",
+          "evidence": "General participants register \"on or before December 27, 2026 (Sun)\"; \"Accepted registrants will receive a confirmation email around early January 2027\". No time or time zone published."
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "HKUST Jockey Club Institute for Advanced Study",
+            "role": "Host",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/home.php"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Yoonseob Kim",
+            "role": "Organizer",
+            "affiliation": "HKUST",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/home.php"
+          },
+          {
+            "name": "Qichun Zhang",
+            "role": "Organizer",
+            "affiliation": "City University of Hong Kong",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/home.php"
+          },
+          {
+            "name": "Wei Zhang",
+            "role": "Organizer",
+            "affiliation": "University of Colorado Boulder",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/home.php"
+          }
+        ],
+        "speakers": [
+          {
+            "name": "Florian Auras",
+            "role": "Invited speaker",
+            "affiliation": "TU Dresden",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          },
+          {
+            "name": "Thomas Bein",
+            "role": "Invited speaker",
+            "affiliation": "University of Munich (LMU)",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          },
+          {
+            "name": "Ali Coskun",
+            "role": "Invited speaker",
+            "affiliation": "University of Fribourg",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          },
+          {
+            "name": "Xinliang Feng",
+            "role": "Invited speaker",
+            "affiliation": "Max Planck Institute of Microstructure Physics; TU Dresden",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          },
+          {
+            "name": "Donglin Jiang",
+            "role": "Invited speaker",
+            "affiliation": "National University of Singapore",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          },
+          {
+            "name": "Hai-Long Jiang",
+            "role": "Invited speaker",
+            "affiliation": "University of Science and Technology of China",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          },
+          {
+            "name": "Dmytro F. Perepichka",
+            "role": "Invited speaker",
+            "affiliation": "McGill University",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          },
+          {
+            "name": "Yanli Zhao",
+            "role": "Invited speaker",
+            "affiliation": "Nanyang Technological University",
+            "source": "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+          }
+        ],
+        "participants": [],
+        "checked_on": "2026-11-27",
+        "status": "published",
+        "note": "The three organisers and selected invited speakers (17 are listed, updated 28 August 2026); the full list is on the speakers page.",
+        "sources": [
+          "https://iasprogram.hkust.edu.hk/2027cofda/home.php",
+          "https://iasprogram.hkust.edu.hk/2027cofda/speakers.php"
+        ]
+      }
+    },
+    {
+      "id": "daf-2027",
+      "name": "DAF 2027 — Workshop on Digital Analysis of Flow in Porous Materials",
+      "tags": [
+        "Porous Media",
+        "Porous Materials",
+        "Simulation"
+      ],
+      "start": "2027-03-10",
+      "end": "2027-03-12",
+      "date": "2027-03-10 — 2027-03-12",
+      "location": "Ghent, Belgium — Chapter House, St Peter's Abbey (Sint-Pietersabdij)",
+      "region": "Europe",
+      "type": "Workshop / Discussion",
+      "deadline": "Registration closes 20 January 2027. Posters: add a poster title at registration; no separate abstract deadline is published.",
+      "status": "Registration open (€75 academic, €150 industry).",
+      "note": "Second edition of a Ghent University / Heriot-Watt workshop on imaging, measuring and modelling flow, mixing and reactive transport in porous materials (pore-scale imaging, multiphase flow, reactive transport), with introductory lectures and hands-on sessions. Relevant to porous-media modelling; less focused on MOF/COF chemistry.",
+      "sources": [
+        "https://daf-workshop.com/"
+      ],
+      "url": "https://daf-workshop.com/",
+      "priority": 2,
+      "verified_on": "2026-11-27",
+      "evidence": "Official workshop page: \"Workshop on Digital Analysis of Flow in Porous Materials (DAF 2027)\", \"March 10 – 12, 2027\", \"St Peter's Abbey, Ghent, Belgium\", \"Registration closes 20 January 2027\", \"Want to present a poster? Add a poster title when you register.\" Hosted by Ghent University with Heriot-Watt University.",
+      "check": {
+        "status": "not_checked",
+        "last_checked_at": null,
+        "last_verified_at": "2026-11-27T03:00:00Z",
+        "message": null
+      },
+      "milestones": [
+        {
+          "id": "daf-2027:conference-start",
+          "kind": "conference_start",
+          "label": "Workshop starts",
+          "date": "2027-03-10",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://daf-workshop.com/",
+          "evidence": "\"March 10 – 12, 2027\". No times published."
+        },
+        {
+          "id": "daf-2027:conference-end",
+          "kind": "conference_end",
+          "label": "Workshop ends",
+          "date": "2027-03-12",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://daf-workshop.com/",
+          "evidence": "\"March 10 – 12, 2027\". No times published."
+        },
+        {
+          "id": "daf-2027:registration",
+          "kind": "registration",
+          "label": "Registration (and poster titles)",
+          "date": "2027-01-20",
+          "time": null,
+          "timezone": null,
+          "precision": "date",
+          "status": "verified",
+          "version": 1,
+          "source": "https://daf-workshop.com/",
+          "evidence": "\"Registration closes 20 January 2027\"; poster titles are added at registration. No time or time zone published."
+        },
+        {
+          "id": "daf-2027:abstract",
+          "kind": "abstract",
+          "label": "Abstracts",
+          "date": null,
+          "time": null,
+          "timezone": null,
+          "precision": "unknown",
+          "status": "unknown",
+          "version": 1,
+          "source": "https://daf-workshop.com/",
+          "evidence": "Official pages checked 2026-11-27: the organisers have not published this date.",
+          "availability": "not_published",
+          "availability_checked_on": "2026-11-27"
+        }
+      ],
+      "people": {
+        "organizers": [
+          {
+            "name": "Ghent University (PProGRess & UGCT, Department of Geology)",
+            "role": "Host",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Heriot-Watt University Institute of GeoEnergy Engineering",
+            "role": "Co-organizer",
+            "source": "https://daf-workshop.com/"
+          }
+        ],
+        "committee": [
+          {
+            "name": "Tom Bultreys",
+            "role": "Chair",
+            "affiliation": "Ghent University",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Kamaljit Singh",
+            "role": "Co-chair",
+            "affiliation": "Heriot-Watt University",
+            "source": "https://daf-workshop.com/"
+          }
+        ],
+        "speakers": [
+          {
+            "name": "Tanguy Le Borgne",
+            "role": "Invited speaker",
+            "affiliation": "Université de Rennes",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Pietro de Anna",
+            "role": "Invited speaker",
+            "affiliation": "University of Lausanne",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Eleonora Secchi",
+            "role": "Invited speaker",
+            "affiliation": "ETH Zurich",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Chris MacMinn",
+            "role": "Invited speaker",
+            "affiliation": "University of Oxford",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Anna Herring",
+            "role": "Invited speaker",
+            "affiliation": "University of Tennessee, Knoxville",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Jenna Poonoosamy",
+            "role": "Invited speaker",
+            "affiliation": "Forschungszentrum Jülich",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Hannah Menke",
+            "role": "Invited speaker",
+            "affiliation": "Heriot-Watt University",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Julien Maes",
+            "role": "Invited speaker",
+            "affiliation": "Heriot-Watt University",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Flore Rembert",
+            "role": "Invited speaker",
+            "affiliation": "Université d'Orléans",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Steffen Berg",
+            "role": "Invited speaker",
+            "affiliation": "NTNU / Shell",
+            "source": "https://daf-workshop.com/"
+          },
+          {
+            "name": "Aimy Bazylak",
+            "role": "Invited speaker",
+            "affiliation": "University of Toronto",
+            "source": "https://daf-workshop.com/"
+          }
+        ],
+        "participants": [],
+        "checked_on": "2026-11-27",
+        "status": "published",
+        "note": "Chairs and all published invited speakers; the remaining organising committee is on the page.",
+        "sources": [
+          "https://daf-workshop.com/"
+        ]
+      }
     }
   ],
   "watchlist": [
@@ -27223,7 +27600,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -27313,7 +27690,7 @@
       "evidence": "",
       "check": {
         "status": "unverifiable",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-10-27T00:00:00Z",
         "message": "https://unibook.upjs.sk/img/cms/2026/PF/pmea-2026.pdf: <urlopen error timed out>"
       },
@@ -27407,7 +27784,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-25T12:30:00Z",
         "message": null
       },
@@ -27508,7 +27885,7 @@
       "evidence": "The EuChemS Honours page’s 2026 award announcement names CompChem2027 and Cluj-Napoca.",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": "2026-11-03T01:54:04Z",
         "message": null
       },
@@ -27605,7 +27982,7 @@
       "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": null,
         "message": "https://www.compchemday.org/: Unresolved after runner-text review: start/end; location; registration opening/deadline; people | Exact 2027 dates and location are not yet published."
       },
@@ -27698,7 +28075,7 @@
       "evidence": "An edition or related event is announced, but complete current dates and participation details could not be verified.",
       "check": {
         "status": "review_required",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": null,
         "message": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/: Unresolved after runner-text review: hackathon start/end dates: only referenced in passing (\"on 8 December\") by the TYC page; no hackathon-specific official page; hackathon registration deadline/status and organisers: not published | 8 December 2026 is referenced by TYC, but the hackathon’s own announcement and participation details need confirmation."
       },
@@ -27764,7 +28141,7 @@
       "evidence": "",
       "check": {
         "status": "checked",
-        "last_checked_at": "2026-11-26T02:10:31Z",
+        "last_checked_at": "2026-11-27T02:10:49Z",
         "last_verified_at": null,
         "message": null
       },
@@ -27851,6 +28228,60 @@
     }
   ],
   "updates": [
+    {
+      "at": "2026-11-27T03:00:00+00:00",
+      "event_id": "6th-emmc-international-workshop-2027",
+      "event_name": "6th EMMC International Workshop 2027",
+      "field": "people.speakers",
+      "source": "https://emmc.eu/events/emmc2027/",
+      "message": "Programme now assigns Fasano and George to Session 1, Hanke to the Session 3 plenary, and Goldbeck as Session 4 chair.",
+      "evidence": "Programme: \"11:15 – 13:00 SESSION 1 ... Speakers Matteo Fasano ... Politecnico di Torino, Italy Janine George ... BAM, Germany\"; \"09:15 - 10:00 Plenary Felix Hanke Scaling AI-Driven Materials Discovery ... CUSPAI, United Kingdom\"; Session 4 (WED 21.04.2027 13:30 - 15:55) \"Chair Gerhard Goldbeck ... EMMC, Belgium\"."
+    },
+    {
+      "at": "2026-11-27T03:00:00+00:00",
+      "event_id": "ai4x-2027",
+      "event_name": "AI4X 2027",
+      "field": "people.speakers",
+      "source": "https://ai4x.cc/2027/speakers/",
+      "message": "Michele Parrinello added as invited speaker.",
+      "evidence": "Speakers page: \"Invited speaker Michele Parrinello Italian Institute of Technolgy; ETH Zurich; Università della Svizzera italiana (USI)\" with a newly published bio."
+    },
+    {
+      "at": "2026-11-27T03:00:00+00:00",
+      "event_id": "ai-ml-2027-cognition",
+      "event_name": "Cognition Conferences — 2nd International Conference on Artificial Intelligence & Machine Learning 2027",
+      "field": "milestones.ai-ml-2027-cognition:early-registration-2",
+      "source": "https://cognitionconferences.com/artificialintelligence/registration/",
+      "message": "Early-bird registration moved from 24 to 28 November 2026; the round is shown as active again.",
+      "evidence": "\"Early Bird Registration Round November 28th, 2026\" (previously \"Early Bird Registration Round (Expired/Not Active) November 24th, 2026 This registration round is currently closed or not yet active.\")."
+    },
+    {
+      "at": "2026-11-27T03:00:00+00:00",
+      "event_id": "zmpc2027",
+      "event_name": "ZMPC2027",
+      "field": "status",
+      "source": "https://zmpc.org/call-for-abstracts/",
+      "message": "Temporary daily submission-system downtime notice removed; deadline unchanged.",
+      "evidence": "Removed text: \"Notice: Temporary Suspension of Abstract Submission System ... unavailable daily from 22:00 to 07:00 (JST) / 13:00 to 22:00 (GMT), effective November 14, 2026, until further notice.\" Still present: \"Deadline for Abstract Submission : December 15 (Tue.), 2026 (23:59, JST)\"."
+    },
+    {
+      "at": "2026-11-27T03:00:00+00:00",
+      "event_id": "hkust-ias-cof-design-applications-2027",
+      "event_name": "IAS Focused Program on Covalent Organic Frameworks Design and Applications (HKUST, 2027)",
+      "field": "event",
+      "source": "https://iasprogram.hkust.edu.hk/2027cofda/home.php",
+      "message": "Added: IAS Focused Program on Covalent Organic Frameworks Design and Applications (HKUST, 2027), 2027-01-11 — 2027-01-15, Hong Kong, China.",
+      "evidence": "Official HKUST IAS pages: title \"IAS Focused Program on Covalent Organic Frameworks Design and Applications (Jan 11-15, 2027)\"; registration page (updated 8 October 2026): poster presenters register \"on or before November 30, 2026 (Mon)\", general participants \"on or before December 27, 2026 (Sun)\"; venue page: \"Lo Ka Chung Building, Lee Shau Kee Campus, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong\"."
+    },
+    {
+      "at": "2026-11-27T03:00:00+00:00",
+      "event_id": "daf-2027",
+      "event_name": "DAF 2027 — Workshop on Digital Analysis of Flow in Porous Materials",
+      "field": "event",
+      "source": "https://daf-workshop.com/",
+      "message": "Added: DAF 2027 — Workshop on Digital Analysis of Flow in Porous Materials, 2027-03-10 — 2027-03-12, Ghent, Belgium.",
+      "evidence": "Official workshop page: \"Workshop on Digital Analysis of Flow in Porous Materials (DAF 2027)\", \"March 10 – 12, 2027\", \"St Peter's Abbey, Ghent, Belgium\", \"Registration closes 20 January 2027\", \"Want to present a poster? Add a poster title when you register.\" Hosted by Ghent University with Heriot-Watt University."
+    },
     {
       "at": "2026-11-26T03:00:00+00:00",
       "event_id": "bza-2027",
@@ -30602,684 +31033,6 @@
       "field": "event",
       "source": "https://moansi2026.pages.math.cnrs.fr/",
       "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "ccpbiosim-building-md-systems-2026",
-      "event_name": "CCPBioSim — Building Molecular Systems for MD",
-      "field": "event",
-      "source": "https://www.ccpbiosim.ac.uk/events/upcoming-events/prep2026",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "computational-antimicrobial-resistance-2026",
-      "event_name": "Advances in Computational Approaches to Antimicrobial Resistance",
-      "field": "event",
-      "source": "https://www.brunel.ac.uk/news-and-events/events/2026/Advances-in-Computational-Approaches-to-Antimicrobial-Resistance",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "tyc-frontiers-molecular-sampling-2026",
-      "event_name": "TYC Soft & Bio — Frontiers in Molecular Sampling: Rare Events, Free Energies and Kinetics",
-      "field": "event",
-      "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "ccg-cambridge-molecular-modelling-2026",
-      "event_name": "CCG Cambridge MOE Workshops — Structure-Based Design and Protein Modelling",
-      "field": "event",
-      "source": "https://www.chemcomp.com/en/Workshops-Europe.htm",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "bmss-bioms-sig-2027",
-      "event_name": "BMSS Biomacromolecular Structure SIG Meeting 2027 — Molecular Simulation Training and Symposium",
-      "field": "event",
-      "source": "https://www.bmss.org.uk/biomacromolecular-structure-sig-meeting-2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "vwscc-2027",
-      "event_name": "13th Virtual Winter School on Computational Chemistry — VWSCC 2027",
-      "field": "event",
-      "source": "https://winterschool.cc/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "ccg-tides-by-design-2027",
-      "event_name": "Tides by Design 2027 — Computational Design of Peptides and Nucleic Acids",
-      "field": "event",
-      "source": "https://www.chemcomp.com/en/Tides-2027-Europe.htm",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "simplaix-workshop-2027",
-      "event_name": "5th SIMPLAIX Workshop — Machine Learning for Multiscale Molecular Modeling",
-      "field": "event",
-      "source": "https://www.h-its.org/event/5th-simplaix-workshop-on-machine-learning-for-multiscale-molecular-modeling/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "embo-integrative-biomolecular-modelling-2027",
-      "event_name": "EMBO Practical Course — Integrative Modelling of Biomolecular Interactions",
-      "field": "event",
-      "source": "https://meetings.embo.org/event/27-biomol-interactions",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "embo-computational-structural-biology-2027",
-      "event_name": "EMBO Workshop — Computational Structural Biology 2027",
-      "field": "event",
-      "source": "https://www.embl.org/about/info/course-and-conference-office/events/csb27-01/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "lmc-2027",
-      "event_name": "13th Liquid Matter Conference — LMC 2027",
-      "field": "event",
-      "source": "https://lmc2027.com/LMC2027",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "ccg-ugm-europe-2027",
-      "event_name": "CCG UGM & Conference 2027 — Europe",
-      "field": "event",
-      "source": "https://www.chemcomp.com/en/UGM-2027-Europe.htm",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "ccg-ugm-north-america-2027",
-      "event_name": "CCG UGM & Conference 2027 — North America",
-      "field": "event",
-      "source": "https://www.chemcomp.com/en/UGM-2027-North_America.htm",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "istcp-2027",
-      "event_name": "ISTCP 2027 — 12th Triennial Congress of Theoretical Chemical Physics",
-      "field": "event",
-      "source": "https://istcp2027.ar/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "cttc-2027",
-      "event_name": "CTTC 2027 — Current Topics in Theoretical Chemistry",
-      "field": "event",
-      "source": "https://sites.google.com/as.edu.tw/cttc2027/cttc-2027",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "cineca-hpc-molecular-modelling-2027",
-      "event_name": "CINECA — HPC Molecular Modelling 2027",
-      "field": "event",
-      "source": "https://www.events.cineca.it/en/hpc/hpc-molecular-modelling/bologna-20270510",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "crysteng-school-2027",
-      "event_name": "1st School on Crystal Engineering — Structure, Dynamics and Reactivity",
-      "field": "event",
-      "source": "https://www.societachimica.it/index.php/it/node/71690",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "dyfp-2027",
-      "event_name": "DYFP 2027 — Deformation, Yield and Fracture of Polymers",
-      "field": "event",
-      "source": "https://www.dyfp-conferences.org/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "physics-of-life-2027",
-      "event_name": "Physics of Life 2027",
-      "field": "event",
-      "source": "https://iop-physics-of-life-2027.eventsairsite.com",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "rsc-molecular-catalysis-faraday-2027",
-      "event_name": "Understanding Molecular Catalysis through Computation and Experiment — Faraday Discussion",
-      "field": "event",
-      "source": "https://www.rsc.org/events/find-an-event/understanding-molecular-catalysis-through-computation-and-experiment-faraday-discussion",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "ibs-2027",
-      "event_name": "49th Indian Biophysical Society Meeting — IBS 2027",
-      "field": "event",
-      "source": "https://www.chem.iitb.ac.in/ibs2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "bps-protons-in-biology-2027",
-      "event_name": "BPS Conference — Protons in Biology: Basic Science to Biomedicine",
-      "field": "event",
-      "source": "https://www.biophysics.org/blog/message-from-the-organizers",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "water-biophysics-2027",
-      "event_name": "8th Workshop and School — Frontiers in Water Biophysics",
-      "field": "event",
-      "source": "https://www.waterbiophysics.eu/Main/HomePage",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "bps-annual-meeting-2027",
-      "event_name": "71st Biophysical Society Annual Meeting — BPS 2027",
-      "field": "event",
-      "source": "https://www.biophysics.org/2027meeting",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "biomolecular-dynamics-berlin-2027",
-      "event_name": "Biomolecular Dynamics — Integrating Experiments and Computation",
-      "field": "event",
-      "source": "https://www.biophysics.org/upcoming-thematic-meetings/biomolecular-dynamics-integrating-experiments-and-computation",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "grc-liquids-2027",
-      "event_name": "Chemistry and Physics of Liquids GRC 2027",
-      "field": "event",
-      "source": "https://www.grc.org/chemistry-and-physics-of-liquids-conference/2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "grs-liquids-2027",
-      "event_name": "Chemistry and Physics of Liquids GRS 2027",
-      "field": "event",
-      "source": "https://www.grc.org/chemistry-and-physics-of-liquids-grs-conference/2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "grc-cadd-2027",
-      "event_name": "Computer Aided Drug Design GRC 2027",
-      "field": "event",
-      "source": "https://www.grc.org/computer-aided-drug-design-conference/2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "grs-cadd-2027",
-      "event_name": "Computer Aided Drug Design GRS 2027",
-      "field": "event",
-      "source": "https://www.grc.org/computer-aided-drug-design-grs-conference/2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "grc-soft-condensed-matter-2027",
-      "event_name": "Soft Condensed Matter Physics GRC 2027",
-      "field": "event",
-      "source": "https://www.grc.org/soft-condensed-matter-physics-conference/2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "grs-soft-condensed-matter-2027",
-      "event_name": "Soft Condensed Matter Physics GRS 2027",
-      "field": "event",
-      "source": "https://www.grc.org/soft-condensed-matter-physics-grs-conference/2027/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "simbiochem-neurips-2026",
-      "event_name": "SIMBIOCHEM II @ NeurIPS 2026 — Machine Learning for Simulations in Biology and Chemistry",
-      "field": "event",
-      "source": "https://simbiochem.com/",
-      "message": "Added after molecular-simulation coverage review; official date and participation evidence recorded."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "computational-chemistry-day-2027",
-      "event_name": "7th Computational Chemistry Day 2027",
-      "field": "event",
-      "source": "https://www.compchemday.org/",
-      "message": "Added after molecular-simulation coverage review; current dates remain pending."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "sampling-with-agents-2026",
-      "event_name": "Sampling with Agents Hackathon 2026",
-      "field": "event",
-      "source": "https://www.thomasyoungcentre.org/event/tyc-soft-bio-interest-group-frontiers-in-molecular-sampling-rare-events-free-energies-and-kinetics/",
-      "message": "Added after molecular-simulation coverage review; current dates remain pending."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "molsim-2027",
-      "event_name": "MolSim 2027 — Molecular Simulation School (details pending)",
-      "field": "event",
-      "source": "https://www.cecam.org/program?location=all&month=all&type=flagship_school",
-      "message": "Added after molecular-simulation coverage review; current dates remain pending."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "cecam-fleur-school-2027",
-      "event_name": "All-Electron DFT with FLEUR — Hands-on Tutorial (2027 details pending)",
-      "field": "event",
-      "source": "https://www.cecam.org/workshop-details/all-electron-dft-with-fleur-a-hands-on-tutorial-1506",
-      "message": "Added after molecular-simulation coverage review; current dates remain pending."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "cecam-fracture-amorphous-2027",
-      "event_name": "Fracture of Amorphous Materials Across the Scales (2027 details pending)",
-      "field": "event",
-      "source": "https://www.cecam.org/workshop-details/fracture-of-amorphous-materials-across-the-scales-1564",
-      "message": "Added after molecular-simulation coverage review; current dates remain pending."
-    },
-    {
-      "at": "2026-11-02T17:49:53Z",
-      "event_id": "cecam-esi-simulation-scales-2027",
-      "event_name": "CECAM–ESI School — Computer Simulation Across the Scales 2027",
-      "field": "event",
-      "source": "https://cecamsimul.eu/events/events-2026",
-      "message": "Added after molecular-simulation coverage review; current dates remain pending."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "wmt-2026-when-materials-think",
-      "field": "status",
-      "previous": "Submission closed; workshop scheduled for 1 December 2026.",
-      "value": "Rolling submissions open; no fixed deadline. Workshop scheduled for 1 December 2026.",
-      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "wmt-2026-when-materials-think",
-      "field": "deadline",
-      "previous": "Challenge paper submission: 15 October 2026 AoE (closed); notification: 26 October 2026; camera-ready: 9 November 2026.",
-      "value": "Challenge papers: rolling submissions, no fixed deadline; notifications individually after review. Final-version instructions will be sent individually to accepted authors.",
-      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "wmt-2026-when-materials-think",
-      "field": "milestone:wmt-2026-when-materials-think:challenge-paper",
-      "previous": {
-        "kind": "paper",
-        "label": "Challenge paper submission",
-        "date": "2026-10-15",
-        "time": null,
-        "timezone": null,
-        "id": "wmt-2026-when-materials-think:challenge-paper",
-        "version": 1,
-        "source": "https://wmt2026workshop.github.io/",
-        "precision": "date",
-        "status": "verified",
-        "evidence": "Official page states the deadline was extended to 15 October 2026 AoE."
-      },
-      "value": {
-        "kind": "paper",
-        "label": "Challenge paper submission",
-        "date": null,
-        "time": null,
-        "timezone": null,
-        "id": "wmt-2026-when-materials-think:challenge-paper",
-        "version": 2,
-        "source": "https://wmt2026workshop.github.io/",
-        "precision": "unknown",
-        "status": "unknown",
-        "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
-      },
-      "source": "https://wmt2026workshop.github.io/",
-      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "wmt-2026-when-materials-think",
-      "field": "milestone:wmt-2026-when-materials-think:other",
-      "previous": {
-        "kind": "other",
-        "label": "Author notification",
-        "date": "2026-10-26",
-        "time": null,
-        "timezone": null,
-        "id": "wmt-2026-when-materials-think:other",
-        "version": 1,
-        "source": "https://wmt2026workshop.github.io/",
-        "precision": "date",
-        "status": "verified",
-        "evidence": "Official page lists 26 October 2026."
-      },
-      "value": {
-        "kind": "other",
-        "label": "Author notification",
-        "date": null,
-        "time": null,
-        "timezone": null,
-        "id": "wmt-2026-when-materials-think:other",
-        "version": 2,
-        "source": "https://wmt2026workshop.github.io/",
-        "precision": "unknown",
-        "status": "unknown",
-        "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
-      },
-      "source": "https://wmt2026workshop.github.io/",
-      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "wmt-2026-when-materials-think",
-      "field": "milestone:wmt-2026-when-materials-think:camera-ready",
-      "previous": {
-        "kind": "paper",
-        "label": "Camera-ready",
-        "date": "2026-11-09",
-        "time": null,
-        "timezone": null,
-        "id": "wmt-2026-when-materials-think:camera-ready",
-        "version": 1,
-        "source": "https://wmt2026workshop.github.io/",
-        "precision": "date",
-        "status": "verified",
-        "evidence": "Official page lists 9 November 2026."
-      },
-      "value": {
-        "kind": "paper",
-        "label": "Camera-ready",
-        "date": null,
-        "time": null,
-        "timezone": null,
-        "id": "wmt-2026-when-materials-think:camera-ready",
-        "version": 2,
-        "source": "https://wmt2026workshop.github.io/",
-        "precision": "unknown",
-        "status": "unknown",
-        "evidence": "Superseded by the official 28 October rolling-submission announcement: no fixed deadline, individual notification/final-version instructions. Previous schedule retained in update history."
-      },
-      "source": "https://wmt2026workshop.github.io/",
-      "evidence": "The 28 October announcement and the submission page both state rolling submission with no fixed deadline and individual notifications; camera-ready guidance will be sent separately. The old 15 October/26 October/9 November milestones are superseded by the new announcement. The 1 December half-day workshop in Glasgow is unchanged. Messina and Glorioso are organisers, Sorce, Vindigni and Mantegna are PC members, and Scalici is an invited speaker; all six are affiliated with Kore University of Enna. The preliminary 09:00–13:00 programme may change and gives no time zone, so the conference keeps date precision."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists",
-      "field": "milestone:do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-start",
-      "previous": {
-        "kind": "conference_start",
-        "label": "Workshop starts",
-        "date": "2026-11-25",
-        "time": null,
-        "timezone": null,
-        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-start",
-        "version": 1,
-        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-        "precision": "date",
-        "status": "verified",
-        "evidence": "The linked official source lists this date."
-      },
-      "value": {
-        "kind": "conference_start",
-        "label": "Workshop starts",
-        "date": "2026-11-25",
-        "time": "09:30",
-        "timezone": "Europe/London",
-        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-start",
-        "version": 2,
-        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-        "precision": "datetime",
-        "status": "verified",
-        "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
-      },
-      "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-      "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists",
-      "field": "milestone:do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
-      "previous": {
-        "kind": "conference_end",
-        "label": "Workshop ends",
-        "date": "2026-11-25",
-        "time": null,
-        "timezone": null,
-        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
-        "version": 1,
-        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-        "precision": "date",
-        "status": "verified",
-        "evidence": "End date from the source-verified official event date range; exact end time is not published."
-      },
-      "value": {
-        "kind": "conference_end",
-        "label": "Workshop ends",
-        "date": "2026-11-25",
-        "time": "15:45",
-        "timezone": "Europe/London",
-        "id": "do-androids-dream-of-electric-papers-benchmarking-ai-scientists:conference-end",
-        "version": 2,
-        "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-        "precision": "datetime",
-        "status": "verified",
-        "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
-      },
-      "source": "https://constructorlabs.org/event/do-androids-dream-of-electric-papers/",
-      "evidence": "Official date/duration panel and programme explicitly state 25 November 2026, 09:30–15:45 GMT."
-    },
-    {
-      "at": "2026-11-02T17:32:06+00:00",
-      "event_id": "camml2027",
-      "field": "status",
-      "previous": "The application page is open; 40 places are advertised. Some related pages retain inconsistent old dates or closed notices.",
-      "value": "Application availability unconfirmed: official pages disagree. Published application deadline: 26 November 2026.",
-      "evidence": {
-        "registration_availability": "The homepage and registration page show registration open, but the about page's Key dates say \"registration is closed\".",
-        "notification_date": "PSDI: 17 December 2026; about page: 19 December 2026.",
-        "supervisor_letter_year": "The about page says 6 December 2025, which is earlier than this application round; it is not assumed to mean 2026.",
-        "accommodation": "PSDI: four nights; about page: five nights."
-      }
-    },
-    {
-      "at": "2026-11-02T09:15:10+00:00",
-      "event_id": "euromof2027",
-      "event_name": "EuroMOF 2027",
-      "field": "status",
-      "previous": "Abstract deadline announced; submission platform not yet open. Registration platform not yet open.",
-      "value": "Abstract submission is open. Registration is open.",
-      "source": "https://euromof2027.com/registration.html",
-      "evidence": "Both official pages explicitly state the platforms are open and link to the AIM Group platform. Abstracts 1 February, early bird 5 April and regular fee 3 July 2027 remain date-only deadlines. Checked 2026-11-02."
-    },
-    {
-      "at": "2026-11-02T09:15:10+00:00",
-      "event_id": "euromof2027",
-      "event_name": "EuroMOF 2027",
-      "field": "evidence",
-      "previous": "The homepage gives the 1 February abstract and 5 April early-registration deadlines; the abstract page includes AI/ML and states guidelines in preparation.",
-      "value": "Official abstract and registration pages explicitly state that submission and registration are open. Abstract deadline: 1 February 2027; early bird: 5 April 2027; regular fee: 3 July 2027. No exact deadline times or time zones are published. Reviewed 2 November 2026.",
-      "source": "https://euromof2027.com/abstracts.html",
-      "evidence": "Explicit open statements and labelled dates, not inference from dates."
-    },
-    {
-      "at": "2026-11-02T09:15:10+00:00",
-      "event_id": "aistats-2027",
-      "event_name": "AISTATS 2027",
-      "field": "deadline",
-      "previous": "Regular abstracts: 29 September 2026, 23:59 AoE; full papers: 6 October 2026, 23:59 AoE (both closed). Workshop proposals: 30 October 2026 at 22:59 CET (21:59 UTC). Journal-to-Conference requests: 18 January 2027 AoE; eligibility restrictions apply.",
-      "value": "Regular abstracts: 29 September 2026, 23:59 AoE; full papers: 6 October 2026, 23:59 AoE (both closed). Workshop proposals extended to 6 November 2026 at 22:59 CET (21:59 UTC). Journal-to-Conference requests: 18 January 2027 AoE; eligibility restrictions apply.",
-      "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
-      "evidence": "The official workshop call, Update November 2, specifies Friday November 6, 2026, 10:59pm CET. The homepage announces the one-week extension."
-    },
-    {
-      "at": "2026-11-02T09:15:10+00:00",
-      "event_id": "aistats-2027",
-      "event_name": "AISTATS 2027",
-      "field": "evidence",
-      "previous": "Official calls and dates reviewed on 29 October 2026: Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 22 October gives 30 October at 22:59 CET, matching 21:59 UTC on the dates page; this supersedes the older generic AoE wording.",
-      "value": "Official calls confirm Montreal, 3–6 May 2027 including workshops on 3 May and main programme on 4–6 May. The workshop call updated on 2 November explicitly extends proposals to 6 November 2026 at 22:59 CET (21:59 UTC), superseding the 30 October deadline. Other existing deadlines are retained.",
-      "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
-      "evidence": "Explicit dated extension announcement."
-    },
-    {
-      "at": "2026-11-02T09:15:10+00:00",
-      "event_id": "aistats-2027",
-      "event_name": "AISTATS 2027",
-      "field": "milestone:workshop-proposals",
-      "previous": {
-        "id": "aistats-2027:workshop-proposals",
-        "kind": "other",
-        "label": "Workshop proposal submission deadline",
-        "date": "2026-10-30",
-        "time": "22:59",
-        "timezone": "Europe/Paris",
-        "precision": "datetime",
-        "status": "verified",
-        "version": 1,
-        "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
-        "evidence": "The workshop call updated on 22 October specifies 30 October 2026 at 10:59pm CET; the dates page confirms 21:59 UTC."
-      },
-      "value": {
-        "id": "aistats-2027:workshop-proposals",
-        "kind": "other",
-        "label": "Workshop proposal submission deadline",
-        "date": "2026-11-06",
-        "time": "22:59",
-        "timezone": "Europe/Paris",
-        "precision": "datetime",
-        "status": "verified",
-        "version": 2,
-        "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
-        "evidence": "Official workshop call, Update November 2: Friday November 6, 2026, 10:59pm CET. Explicit one-week extension supersedes October 30."
-      },
-      "source": "https://virtual.aistats.org/Conferences/2027/CallForWorkshops",
-      "evidence": "Official workshop call, Update November 2: Friday November 6, 2026, 10:59pm CET. Explicit one-week extension supersedes October 30."
-    },
-    {
-      "at": "2026-11-02T09:15:10+00:00",
-      "event_id": "neurips-2026",
-      "event_name": "NeurIPS 2026",
-      "field": "status",
-      "previous": "Main paper submissions closed. Sydney and Atlanta waitlists were activated on 30 October at 11 am PDT, with more registrations released daily; non-presenting attendees should use the official waitlist. Paris availability must be checked separately.",
-      "value": "Main paper submissions closed. Sydney and Atlanta waitlists were activated on 1 November at 11 am PST, with more waitlist spots released daily; non-presenting attendees should use the official waitlist. Paris availability must be checked separately.",
-      "source": "https://nips.cc/Conferences/2026",
-      "evidence": "Current official homepage now says November 1st at 11 am PST, superseding the October 30 / PDT wording seen on November 1. Fresh HTTP and official web reader agree. This is an announcement, not a submission deadline."
-    },
-    {
-      "at": "2026-11-02T09:15:10+00:00",
-      "event_id": "e-mrs-spring-meeting-2027",
-      "event_name": "E-MRS Spring Meeting 2027",
-      "field": "people.committee",
-      "source": "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond",
-      "value": {
-        "name": "Junjie Zhao",
-        "role": "Symposium KK co-organizer",
-        "affiliation": "FunGlass, Alexander Dubček University of Trenčín",
-        "source": "https://www.european-mrs.com/materials-properties-finite-temperature-atomic-scale-modelling-methodologies-applications-and-beyond"
-      },
-      "evidence": "Under Symposium organizers, Junjie ZHAO is now listed at FunGlass, Alexander Dubček University of Trenčín, Slovakia. Previous fetched page listed Tohoku University, Japan. Added this relevant symposium organizer to the selected list; other people facts are retained."
-    },
-    {
-      "at": "2026-11-01T18:10:00Z",
-      "event_id": "joint-kist-chalmers-symposium-understanding-and-developing-porous-framework-systems",
-      "field": "status",
-      "message": "Official Chalmers page now explicitly says Closed for admission; reviewed 2026-11-01. Full source audit: data/maintenance-review-2026-11-01.json."
-    },
-    {
-      "at": "2026-11-01T18:10:00Z",
-      "event_id": "new-frontiers-in-nonequilibrium-statistical-physics-of-glasses",
-      "field": "status",
-      "source": "https://www.cecam.org/workshop-details/new-frontiers-in-nonequilibrium-statistical-physics-of-glasses-1497",
-      "message": "CECAM explicitly reports applications closed on 28 September 2026 after reaching lecture hall capacity."
-    },
-    {
-      "at": "2026-11-01T18:10:00Z",
-      "event_id": "neurips-2026",
-      "field": "status",
-      "source": "https://nips.cc/Conferences/2026",
-      "message": "Official announcement confirms Sydney and Atlanta waitlists activated on 30 October at 11 am PDT; Paris availability remains separate."
-    },
-    {
-      "at": "2026-11-01T18:10:00Z",
-      "event_id": "siam-ms27-mathematical-aspects-of-materials-science",
-      "field": "milestone:abstract",
-      "source": "https://www.siam.org/conferences-events/siam-conferences/ms27/submissions/",
-      "message": "Contributed abstracts explicitly close 2 November 2026 at 11:59 p.m. Eastern Time; version increased to 2. The extended proposal deadline retains date-only precision."
-    },
-    {
-      "at": "2026-10-29T11:34:41Z",
-      "event_id": "aistats-2027",
-      "event_name": "AISTATS 2027",
-      "field": "event",
-      "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
-      "message": "Linked the selected discovery lead to the existing event and refreshed official calls, including the workshop proposal cutoff."
-    },
-    {
-      "at": "2026-10-29T11:34:41Z",
-      "event_id": "iccsiw-2026",
-      "event_name": "ICCSIW 2026 — Chemistry for Science, Innovation and Well-Being",
-      "field": "event",
-      "source": "https://www.mirandahouse.ac.in/files/focus/MH-2578-2026-09-08-09-11-25-AM.pdf",
-      "message": "Added the user-selected past conference from the official Miranda House poster; dates and deadlines remain marked as passed."
-    },
-    {
-      "at": "2026-10-29T11:34:41Z",
-      "event_id": "materials-2027-magnus",
-      "event_name": "Materials 2027 — 10th International Conference on Materials Science and Engineering",
-      "field": "event",
-      "source": "https://magnusconferences.com/materials-science/",
-      "message": "Added Materials 2027 with its AI/ML/materials-informatics track, official submission rounds and Singapore-time cutoffs."
-    },
-    {
-      "at": "2026-10-29T11:34:41Z",
-      "event_id": "aicmsn-2027",
-      "event_name": "AICMSN 2027 — 3rd Annual International Conference on Materials Science and Nanoscience",
-      "field": "event",
-      "source": "https://aicmsn2027.synergiasummits.com/",
-      "message": "Added AICMSN 2027 with the first abstract cutoff; exact venue and final registration deadline remain unconfirmed."
-    },
-    {
-      "at": "2026-10-27T16:40:42Z",
-      "event_id": "recent-advances-in-chemistry-and-ai-2026",
-      "event_name": "Recent Advances in Chemistry and AI",
-      "field": "event",
-      "message": "Added the 14–15 December 2026 Paris workshop with official sources and registration link. End-time discrepancy is explicitly noted; fees and registration deadline remain unverified."
-    },
-    {
-      "at": "2026-10-27T15:52:40Z",
-      "event_name": "Conference reminder dates",
-      "field": "milestones",
-      "message": "Added 95 verified event end dates, clarified event start labels, and removed 2 on-site / late fee transition reminders. Submission, registration and early-bird deadlines are retained."
-    },
-    {
-      "at": "2026-10-27T14:43:49Z",
-      "event_id": "euromof2027",
-      "event_name": "EuroMOF 2027",
-      "field": "status",
-      "previous": "Conference and deadlines announced. Submission guidance, template and platform are still in preparation; registration is also marked as opening soon.",
-      "value": "Abstract deadline announced; submission platform not yet open. Registration platform not yet open.",
-      "source": "https://euromof2027.com/index.html",
-      "evidence": "Explicit submission and registration platform statements on the official pages."
     }
   ]
 }
