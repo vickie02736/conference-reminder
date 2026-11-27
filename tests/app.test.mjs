@@ -197,9 +197,15 @@ test('deadline sort choices show their matching deadline on the conference card'
   h.set('search', 'SSCG2026');
   h.set('sort', 'registration_deadline');
   const preview = () => h.list().match(/<p class="deadline-preview">[\s\S]*?<\/p>/)?.[0];
-  assert.match(preview(), /<b>Registration<\/b><br>25 Nov 2026/);
+  // Read the expected cutoffs from the catalogue so verified official date
+  // changes (e.g. a registration extension) do not break this rendering test.
+  const sscg = catalogue.events.find(event => event.id === '45th-rsc-solid-state-chemistry-group-christmas-meeting-sscg2026');
+  const milestone = kind => sscg.milestones.find(node => node.kind === kind);
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const shown = iso => { const [y, m, d] = iso.split('-').map(Number); return `${d} ${months[m - 1]} ${y}`; };
+  assert.match(preview(), new RegExp(`<b>${milestone('registration').label}</b><br>${shown(milestone('registration').date)}`));
   h.set('sort', 'submission_deadline');
-  assert.match(preview(), /<b>Oral abstracts<\/b><br>6 Nov 2026/);
+  assert.match(preview(), new RegExp(`<b>${milestone('abstract').label}</b><br>${shown(milestone('abstract').date)}`));
   assert.equal((h.list().match(/<article /g) || []).length, 1);
 });
 
